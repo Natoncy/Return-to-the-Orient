@@ -10,7 +10,7 @@
                 </Standard>
                 <RandomIsland>
                     <FilePath>data/sessions/islands/pool/orient/colony02_d_10/colony02_d_10.a7m</FilePath>
-                    <IslandRegion>Mod3</IslandRegion>
+                    <IslandRegion>Africa;Mod3;Mod2</IslandRegion>
                     <IslandDifficulty>Normal;Hard</IslandDifficulty>
                     <IslandType>Decoration</IslandType>
                 </RandomIsland>

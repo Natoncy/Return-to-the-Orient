@@ -1,6 +1,6 @@
 <ModOps>
 
-    <ModOp Type="add" GUID="1404000845,1404000846,119029,122988,101058,112842,117786,114545,127913,101573,101344,102818" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <ModOp Type="add" GUID="1404000845,1404000846,119029,122988,101058,112842,117786,114545,127913,101573,101344,102818" Path="Values/Building/AssociatedRegions">;Mod3;Mod2</ModOp>
     <!-- Creative buildings -->
     <ModOp Type="add" GUID="10284,13011,13911,10283" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
     <!-- Creative palace -->

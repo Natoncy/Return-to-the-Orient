@@ -2,4 +2,12 @@
 
     <Include File="assets_includes/assets__index.xml" />
     
+    <ModOp Type="add" GUID="114553" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1404000212</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="120085,120086,120087,120080,120081,120082,120083" Path="Values/RandomIsland/IslandRegion">;Mod3</ModOp>
+
 </ModOps>

@@ -11,7 +11,7 @@
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
-					<AssociatedRegions>Mod3</AssociatedRegions>
+					<AssociatedRegions>Mod3;Mod2;Africa</AssociatedRegions>
 				</Building>
 				<Blocking />
 				<Cost>
