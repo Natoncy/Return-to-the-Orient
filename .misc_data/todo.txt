@@ -10,8 +10,10 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 TODO:
+- Ornamental tent
 - Check lifestyle balancing
 - Population quests
+- Fix pearl farm item effect https://a1800.net/a1800/asset/190903
 
 
 Bugs:
@@ -24,3 +26,4 @@ Backlog:
 - Letting AI settle the region (Adding Harbour Defenses + Logic (Warship?))
 - Camera sequence when entering region for the first time
 - Fix music colliding with voice lines (very unlikely to be fixable)
+- Palm lumberjack and use wood as construction material?

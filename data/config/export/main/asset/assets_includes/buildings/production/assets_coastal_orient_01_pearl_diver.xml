@@ -41,7 +41,7 @@
 						</Item>
 					</Variations>
 					<Skins>
-						<DefaultSkinName>1010339</DefaultSkinName>
+						<DefaultSkinName>1404000861</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 					</Skins>
 				</Object>
@@ -58,7 +58,9 @@
 						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
 					</Colors>
 				</Selection>
-				<Text/>
+				<Text>
+					<TextOverride>1010339</TextOverride>
+				</Text>
 				<Constructable/>
 				<Locked/>
 				<SoundEmitter>

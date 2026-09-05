@@ -1,5 +1,5 @@
 {
-  "Version": "0.3.0",
+  "Version": "0.4.0",
   "ModID": "natoncy_return_to_the_orient",
   "ModioResourceId": 6129743,
   "Category": {
@@ -70,6 +70,7 @@
     "natoncy_sharedproduct_pomegranate_juice",
     "Natoncy_sharedproduct_rugs",
     "natoncy_sharedproduct_turbans",
+    "TooltipBugFixes_Serp",
     "spice_powder_kurila",
     "Taludas_shared_importdock_ebony",
     "Taludas_shared_tradingcompany",
