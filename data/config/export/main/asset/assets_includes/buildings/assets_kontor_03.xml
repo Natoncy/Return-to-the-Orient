@@ -133,8 +133,217 @@
                 <DistributionCenter>
                     <KontorUpgrades>
                         <Main>
-                            <Asset>1404000218</Asset>
+                            <Asset>1404001109</Asset>
                         </Main>
+                        <Imperial>
+                             <Asset>1404000864</Asset>
+                        </Imperial>
+                    </KontorUpgrades>
+                </DistributionCenter>
+                <MinimapToken />
+                <AmbientMoodProvider>
+                    <Murmur>Africa_Harbour</Murmur>
+                </AmbientMoodProvider>
+                <LoadingPier />
+                <StorageBase />
+                <Attackable />
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                </Upgradable>
+                <Maintenance />
+                <Pausable />
+                <Distribution>
+                    <Deltas>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Product>1404000012</Product>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Product>1404000013</Product>
+                        </Item>
+                    </Deltas>
+                </Distribution>
+                <UpgradeList />
+                <Culture />
+                <QuestObject />
+                <Attacker>
+                    <Turrets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <TurretCfg>data/graphics/buildings/special/harbor_05_colony01/harbor_05_colony01_turret.cfg</TurretCfg>
+                        </Item>
+                    </Turrets>
+                </Attacker>
+                <CommandQueue />
+                <BuildingUnique />
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+    <ModOp Type="addNextSibling" GUID="117858">
+        <Asset>
+            <BaseAssetGUID>100515</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404000864</GUID>
+                    <Name>kontor_imperial_orient_03</Name>
+                </Standard>
+                <Text>
+                    <TextOverride>100515</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                </Blocking>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>16000</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/buildings/orient/kontor/kontor_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <SkinList />
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
+                <Warehouse />
+                <LogisticNode />
+                <DistributionCenter>
+                    <KontorUpgrades>
+                        <Main>
+                            <Asset>1404001109</Asset>
+                        </Main>
+                        <Imperial>
+                             <Asset>1404000864</Asset>
+                        </Imperial>
                     </KontorUpgrades>
                 </DistributionCenter>
                 <MinimapToken />

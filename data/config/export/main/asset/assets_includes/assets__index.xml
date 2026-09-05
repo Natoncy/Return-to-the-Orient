@@ -30,6 +30,7 @@
     <Include File="texts/assets__index.xml" />
     <Include File="triggers/assets__index.xml" />
 
+    <Include File="assets_ai.xml" />
     <Include File="assets_animal_config_orient.xml" />
     <Include File="assets_associated_regions.xml" />
     <Include File="assets_feedback_balancing_orient.xml" />

@@ -243,4 +243,11 @@
         </Item>
     </ModOp>
 
+    <ModOp GUID='141600' Type="add" Path="/Values/SelectionFeature/UpgradeLists/Item/BuildingGroup[Item/BaseBuilding = '1010371']">
+        <Item>
+            <BaseBuilding>1404000156</BaseBuilding>
+        </Item>
+    </ModOp>
+    
+
 </ModOps>

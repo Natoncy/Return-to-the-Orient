@@ -1,6 +1,6 @@
-local ModID = "test"
+local ModID = "ReturntoOrient"
 
-if event.OnLeaveUIState["ReturntoOrient"] == nil then -- only add it once (per anno game start)
+if event.OnLeaveUIState[ModID] == nil then -- only add it once (per anno game start)
     print("Skript gestartet")
   local GameLeft_ID = 63 -- or 170/171, but 63 fits more and they all 3 are shown at the same moments -- also when just going to main menu and then back to the game
 

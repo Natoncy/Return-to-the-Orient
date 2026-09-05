@@ -12,14 +12,15 @@ Optional Mods: New Horizons, Noblesse Oblige
 TODO:
 - Check lifestyle balancing
 - Population quests
-- Create kontor in Orient in creative mode
+
 
 Bugs:
 - Festival icon not showing
 - Watered fields not shown as green fields when placing canals or farm fields
-- Music colliding with voice lines (very unlikely to be fixable)
+
 
 
 Backlog:
 - Letting AI settle the region (Adding Harbour Defenses + Logic (Warship?))
 - Camera sequence when entering region for the first time
+- Fix music colliding with voice lines (very unlikely to be fixable)

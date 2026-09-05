@@ -32,17 +32,6 @@
 							</TriggerAction>
 						</Item>
 						<Item>
-							<TriggerAction>
-								<Template>ActionExecuteScript</Template>
-								<Values>
-									<Action/>
-									<ActionExecuteScript>
-										<ScriptFileName>data/script/music/exit_to_menu.lua</ScriptFileName>
-									</ActionExecuteScript>
-								</Values>
-							</TriggerAction>
-						</Item>
-						<Item>
                           <TriggerAction>
                             <Template>ActionResetTrigger</Template>
                             <Values>
@@ -100,43 +89,7 @@
 				<TriggerSetup />
 			</Values>
 		</Asset>
-		<!-- <Asset>
-			<Template>Trigger</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000858</GUID>
-					<Name>SessionEnter Play Music</Name>
-				</Standard>
-				<Trigger>
-					<TriggerCondition>
-						<Template>ConditionActiveSession</Template>
-						<Values>
-							<Condition />
-							<ConditionActiveSession>
-								<ActiveSession>1404000000</ActiveSession>
-							</ConditionActiveSession>
-						</Values>
-					</TriggerCondition>
-					<TriggerActions>
-						<Item>
-							<TriggerAction>
-							<Template>ActionPlaySound</Template>
-								<Values>
-									<Action />
-									<ActionPlaySound>
-									<Sound>1404000854</Sound>
-									</ActionPlaySound>
-								</Values>
-							</TriggerAction>
-						</Item>
-					</TriggerActions>
-				</Trigger>
-				<TriggerSetup>
-					<AutoRegisterTrigger>0</AutoRegisterTrigger>
-				</TriggerSetup>
-			</Values>
-		</Asset> -->
-		<!-- <Asset>
+		<Asset>
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
@@ -145,11 +98,14 @@
 				</Standard>
 				<Trigger>
 					<TriggerCondition>
-						<Template>ConditionAlwaysTrue</Template>
-						<Values>
-							<Condition />
-							<ConditionAlwaysTrue />
-						</Values>
+						<Template>ConditionEvent</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionEvent>
+                                <ConditionEvent>ProfileLoaded</ConditionEvent>
+                            </ConditionEvent>
+                            <ConditionPropsNegatable />
+                        </Values>
 					</TriggerCondition>
 					<TriggerActions>
 						<Item>
@@ -176,7 +132,7 @@
 				</Trigger>
 				<TriggerSetup/>
 			</Values>
-		</Asset> -->
+		</Asset>
     </ModOp>
 
 </ModOps>
