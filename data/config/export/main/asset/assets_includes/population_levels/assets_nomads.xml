@@ -28,7 +28,7 @@
                         </Item>
                         <Item>
                             <Product>1888999749</Product>
-                            <Amount>0.000625</Amount>
+                            <Amount>0.0003125</Amount>
                             <SupplyWeight>2</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>100</FullWeightPopulationCount>
@@ -56,7 +56,7 @@
                         <!-- Luxury -->
                         <Item>
                             <Product>1404000235</Product>
-                            <Amount>0.0005</Amount>
+                            <Amount>0.0003</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>200</FullWeightPopulationCount>
@@ -65,7 +65,7 @@
                         </Item>
                         <Item>
                             <Product>114404</Product>
-                            <Amount>0.00045</Amount>
+                            <Amount>0.0002</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>350</FullWeightPopulationCount>

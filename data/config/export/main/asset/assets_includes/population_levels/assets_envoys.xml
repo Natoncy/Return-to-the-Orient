@@ -28,7 +28,7 @@
                         </Item>
                         <Item>
                             <Product>1888999749</Product>
-                            <Amount>0.00125</Amount>
+                            <Amount>0.0009375</Amount>
                             <SupplyWeight>2</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <IsConsideredByAI>1</IsConsideredByAI>
@@ -58,7 +58,7 @@
                         </Item>
                         <Item>
                             <Product>1500301148</Product>
-                            <Amount>0.000869565</Amount>
+                            <Amount>0.00057971</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>300</FullWeightPopulationCount>
@@ -67,7 +67,7 @@
                         </Item>
                         <Item>
                             <Product>1404000253</Product>
-                            <Amount>0.000909091</Amount>
+                            <Amount>0.00055</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
@@ -84,7 +84,7 @@
                         </Item>
                         <Item>
                             <Product>1900100125</Product>
-                            <Amount>0.0008</Amount>
+                            <Amount>0.0004</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>1400</FullWeightPopulationCount>
@@ -93,7 +93,7 @@
                         </Item>
                         <Item>
                             <Product>1404000250</Product>
-                            <Amount>0.000769231</Amount>
+                            <Amount>0.0003846155</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>1900</FullWeightPopulationCount>
@@ -102,7 +102,7 @@
                         </Item>
                         <Item>
                             <Product>1999005057</Product>
-                            <Amount>0.000588235</Amount>
+                            <Amount>0.0002941175</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>3000</FullWeightPopulationCount>
@@ -111,7 +111,7 @@
                         </Item>
                         <Item>
                             <Product>1404000241</Product>
-                            <Amount>0.0002</Amount>
+                            <Amount>0.00015</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>4000</FullWeightPopulationCount>
@@ -122,7 +122,7 @@
                         <!-- Luxury (Nomads) -->
                         <Item>
                             <Product>1404000235</Product>
-                            <Amount>0.001</Amount>
+                            <Amount>0.00075</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <IsConsideredByAI>1</IsConsideredByAI>
@@ -138,7 +138,7 @@
                         <!-- Luxury -->
                         <Item>
                             <Product>1404000238</Product>
-                            <Amount>0.000900901</Amount>
+                            <Amount>0.0004504505</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>600</FullWeightPopulationCount>
@@ -219,7 +219,7 @@
                         </Item>
                         <Item>
                             <Product>1404000283</Product>
-                            <Amount>0.0004</Amount>
+                            <Amount>0.0003</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>3600</FullWeightPopulationCount>

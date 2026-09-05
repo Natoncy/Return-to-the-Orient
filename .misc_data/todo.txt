@@ -10,7 +10,7 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 TODO:
-- Check balancing
+- Check lifestyle balancing
 - Population quests
 - Create kontor in Orient in creative mode
 
