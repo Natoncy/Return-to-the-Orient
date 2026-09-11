@@ -10,17 +10,27 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 
+
+
 TODO:
 - Population quests
 
 
 Bugs:
 - Festival icon not showing
-- Watered fields not shown as green fields when placing canals or farm fields
 
 
 Backlog:
-- Letting AI settle the region (Adding Harbour Defenses + Logic (Warship?))
+- Letting AI settle the region (Adding Harbour Defenses + Logic)
 - Camera sequence when entering region for the first time
-- Fix music colliding with voice lines (very unlikely to be fixable)
 - Clay mine / oil
+
+
+
+
+
+
+Not fixable:
+- Watered fields not shown as green fields when placing canals or farm fields: Setting RegionID in the Region asset to Africa makes it visible, seems to be hardcoded to Africa region enum
+- Fix music colliding with voice lines (very unlikely to be fixable)
+
