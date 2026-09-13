@@ -3510,5 +3510,1825 @@
       <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
       <Text>使節們對工業時代的新商品和發明感到好奇。市場攤位是展示它們並讓使節嘗試的好方法。</Text>
     </Text>
+    <Text>
+      <GUID>1404001275</GUID>
+      <!-- A7_QuestDecision | RQ_Envoy_TraditionKeeper1_Invitation_Decision | Culture Shock -->
+      <Text>文化衝擊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001276</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_QuestStart | The Emperor may have granted you stewardship, but it will take more than a piece of paper to prove you care for Enbesa. -->
+      <Text>皇帝也許給予你管理權，但一張紙可不足以證明你關心安貝沙。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001277</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_RightChoice | Quite right. What use are gifts that cannot be shared, save for ostentatious displays of wealth? -->
+      <Text>沒有錯。不能分享的禮物，除了用來炫耀財富，還有什麼用呢？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001278</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_WrongChoice | How very like a foreigner to bring a gift that loudly proclaims their means. -->
+      <Text>多麼像外鄉人的舉動啊，帶著會明目張膽聲明他們主張的禮物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001279</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_QuestStart2 | Say you were invited to my home, what should you bring to honour the invitation? -->
+      <Text>Say you were invited to my home, what should you bring to honour the invitation?</Text>
+    </Text>
+    <Text>
+      <GUID>1404001280</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Story | Elder Tafachi Keki doubts your commitment to understanding the traditions and people of Enbesa, and with no subtlety at all, probes your knowledge of local practices and customs. -->
+      <Text>塔發奇．卡奇長老懷疑你認識安貝沙人民和傳統的決意，並毫不掩飾地刺探你對當地習俗的知識。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001281</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
+      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001282</GUID>
+      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
+      <Text>塔發奇．卡奇長老對你的選擇留下好印象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001283</GUID>
+      <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Elder Tafachi Keki fustigates you for the gaudiness of your choice. -->
+      <Text>Elder Tafachi Keki fustigates you for the gaudiness of your choice.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001284</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that <b>I were to invite you to my home</b>—an unlikely occasion— <b>what would you bring to honour the invitation?</b> -->
+      <Text>Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that &lt;b&gt;I were to invite you to my home&lt;/b&gt;—an unlikely occasion— &lt;b&gt;what would you bring to honour the invitation?&lt;/b&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1404001285</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
+      <Text>以名貴的香和精油作禮應該適合……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001286</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision2 | A small ornate wooden casket would be expected... -->
+      <Text>人們會想要一個裝飾華麗的木製寶盒……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001287</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision3 | A gift of sweet honeyed pastries of course! -->
+      <Text>A gift of sweet honeyed pastries of course!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001288</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary2 | The Elder asks you what you would bring along as a gift when visiting someone in Enbesa. -->
+      <Text>The Elder asks you what you would bring along as a gift when visiting someone in Enbesa.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001289</GUID>
+      <!-- Text | RQ_Envoy_TraditionKeeper_Invitation_Objective | Let the Elder know which gift you would bring on a visit -->
+      <Text>讓長老知道你會帶什麼禮物去拜訪</Text>
+    </Text>
+    <Text>
+      <GUID>1404001290</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper2_BullCeremony_Picturepuzzle | Ukuli Bula: Bull Whip -->
+      <Text>跳牛儀式：牛鞭</Text>
+    </Text>
+    <Text>
+      <GUID>1404001291</GUID>
+      <!-- AudioText | RQ_Envoy_BullLeapingCeremony_QuestStart | It has come time for the bull-leaping ceremony of Ukuli Bula! Rarely have we had so many applicants— I doubt there are enough steers for every boy. -->
+      <Text>跳牛儀式的日子要到了！我們不常有這麼多參加者——我擔心永遠都不會有足夠的公牛給每個男孩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001292</GUID>
+      <!-- CollectablePicturePuzzle | Wild bull | Wild Bull -->
+      <Text>野牛</Text>
+    </Text>
+    <Text>
+      <GUID>1404001293</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_Story | Elder Tebibi Lami wishes to gather more bulls for the coming-of-age bull-running ceremony, since it appears to be very popular this year. She is hoping that you might be able to find some feisty, possibly unstable, specimens for the event. -->
+      <Text>Elder Tebibi Lami wishes to gather more bulls for the coming-of-age bull-running ceremony, since it appears to be very popular this year. She is hoping that you might be able to find some feisty, possibly unstable, specimens for the event.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001294</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
+      <Text>在城市邊緣發現了一群看來憤怒的野牛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001295</GUID>
+      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
+      <Text>泰比比．拉米長老擔心她祭典上的公牛不夠多，並要求你找到更多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001296</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
+      <Text>婚姻辦事處</Text>
+    </Text>
+    <Text>
+      <GUID>1404001297</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
+      <Text>你可以帶艾達來見我嗎？該是時候讓她結婚，而我有完美的對象——一個來自正派、虔誠家庭的年輕男人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001298</GUID>
+      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
+      <Text>看起來生氣的艾達</Text>
+    </Text>
+    <Text>
+      <GUID>1404001299</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
+      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001300</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
+      <Text>艾達已在修道院尋求教宗布魯卡威特的建議。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001301</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
+      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
+    </Text>
+    <Text>
+      <GUID>1404001302</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
+      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001303</GUID>
+      <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find where Aida, the Elder's niece, is hiding -->
+      <Text>找出長老姪女艾達的藏身處</Text>
+    </Text>
+    <Text>
+      <GUID>1404001304</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays1_TakeChristmasAway_Picturepuzzle | How the Irenya Stole Christmas -->
+      <Text>伊瑞尼亞如何偷走聖誕節</Text>
+    </Text>
+    <Text>
+      <GUID>1404001305</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStart | Why teach virtue and humility to children if their parents then spoil them with lavish presents like oranges? -->
+      <Text>Why teach virtue and humility to children if their parents then spoil them with lavish presents like oranges?</Text>
+    </Text>
+    <Text>
+      <GUID>1404001306</GUID>
+      <!-- AudioText | AT_ADDON01_res2_Quest_Success1 | So His will is done. -->
+      <Text>所以他的意志達成了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001307</GUID>
+      <!-- CollectablePicturePuzzle | Pile of gifts | Modest Pile Of Gifts -->
+      <Text>Modest Pile Of Gifts</Text>
+    </Text>
+    <Text>
+      <GUID>1404001308</GUID>
+      <!-- Text | ST_QuestSuccessful_1 - f | [AssetData([NotificationContext CharacterGUID]) Text] thanks you for your help. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]感謝你的協助。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001309</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_Story | Elder Asikinyi believes the children of the town have been misbehaving of late, and asks you to take away their Christmas presents to teach them the virtue of respect and gratitude. -->
+      <Text>Elder Asikinyi believes the children of the town have been misbehaving of late, and asks you to take away their Christmas presents to teach them the virtue of respect and gratitude.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001310</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
+      <Text>The presents are hidden near the children's house.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001311</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>沒收孩子們的禮物：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001312</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
+      <Text>阿斯奇英長老覺得安貝沙小孩都被寵壞了，並且想要拿走他們的禮物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001313</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
+      <Text>工作經驗</Text>
+    </Text>
+    <Text>
+      <GUID>1404001314</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | Idleness breeds contempt and unruliness in children. They must be kept busy, and taught the value of labour and an orderly life. -->
+      <Text>「孩童時期懶惰會導致無禮和目無法紀。他們一定要保持忙碌，還有學會勞動和循規生活的價值。」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001315</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
+      <Text>「太棒了！這會教他們為社會奉獻，並為街道帶回平靜。」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001316</GUID>
+      <!-- CollectablePicturePuzzle | Children playing | Children playing in a circle -->
+      <Text>圍成一圈玩耍的兒童們</Text>
+    </Text>
+    <Text>
+      <GUID>1404001317</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_Story | Elder Silichiti is concerned that unoccupied children might be harmful to peace and order, and that even if they cannot work, they should always have something to do. She wishes you to find them and ensure they are not idle. -->
+      <Text>Elder Silichiti is concerned that unoccupied children might be harmful to peace and order, and that even if they cannot work, they should always have something to do. She wishes you to find them and ensure they are not idle.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001318</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestBookHint | Children can usually be found playing near the Marketplace -->
+      <Text>孩童們通常都在市場旁玩耍。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001319</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStartSummary | Elder Silichiti wants you to find idle children and teach them the value of hard work.  -->
+      <Text>Elder Silichiti wants you to find idle children and teach them the value of hard work. </Text>
+    </Text>
+    <Text>
+      <GUID>1404001320</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestCompleteSummary | The Elder approves of your actions and appreciates the return of silence in the streets. -->
+      <Text>The Elder approves of your actions and appreciates the return of silence in the streets.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001321</GUID>
+      <!-- Quest | RQ_Envoys_KidsNowadays3_PublicConfession_Photo | Confessional -->
+      <Text>告解</Text>
+    </Text>
+    <Text>
+      <GUID>1404001322</GUID>
+      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestStart | The boy was caught lying and must be cleansed of the evil within him— only a public confession will ensure he is purified of the stain! -->
+      <Text>The boy was caught lying and must be cleansed of the evil within him— only a public confession will ensure he is purified of the stain!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001323</GUID>
+      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestComplete | A fitting ceremony, let all who were here stand witness to the mercy of the Lord. In the name of all Irenya, I give you thanks. -->
+      <Text>A fitting ceremony, let all who were here stand witness to the mercy of the Lord. In the name of all Irenya, I give you thanks.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001324</GUID>
+      <!-- CollectablePicturePuzzle | Public confession | Public Confession -->
+      <Text>公開認罪</Text>
+    </Text>
+    <Text>
+      <GUID>1404001325</GUID>
+      <!-- Text | RQ_Farmers_Wedding_HintText | What a beautiful day for a wedding! Take one of them photographs for the happy couple at the church, will ye? -->
+      <Text>What a beautiful day for a wedding! Take one of them photographs for the happy couple at the church, will ye?</Text>
+    </Text>
+    <Text>
+      <GUID>1404001326</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_Story | Elder Asikinyi wishes for you to bear witness to the cleansing of a boy's lies through public confession. -->
+      <Text>Elder Asikinyi wishes for you to bear witness to the cleansing of a boy's lies through public confession.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001327</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestBookHint | The confession must take place in a holy place. -->
+      <Text>懺悔一定要在神聖的場所進行。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001328</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestStartSummary | Elder Asikinyi wishes you to document the public confession to spread the cleansing effect. -->
+      <Text>阿斯奇英長老希望你可以記錄這場公開懺悔，以傳達淨化的效果。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001329</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestCompleteSummary | The Elder is satisfied with the ceremony. -->
+      <Text>長老對儀式很滿意。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001330</GUID>
+      <!-- A7_QuestDecision | RQ_Envoy_IamTheSenate1_Speech_Decision | Moot Points — The Speech -->
+      <Text>議事會主張——演講</Text>
+    </Text>
+    <Text>
+      <GUID>1404001331</GUID>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestStart | The council have finally welcomed me among the elders of the Keftanya Moot! Help me prepare my acceptance speech! -->
+      <Text>議會終於歡迎我加入慕特代表的長老之列了！幫我準備我的獲邀感言吧！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001332</GUID>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestSuccess | Thank you... for helping me understand what I needed to do in my speech. -->
+      <Text>謝謝你……幫助我釐清演講時該說些什麼。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001333</GUID>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestBadChoice2 | I'm not saying that, you wicked bushpig! -->
+      <Text>我的意思不是那樣，你這臭叢林豬！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001334</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestStartSummary | The Elder has been invited to join a council of Elders and wants your help preparing a speech. -->
+      <Text>The Elder has been invited to join a council of Elders and wants your help preparing a speech.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001335</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1 | Elder Tebibi: 'I have several ideas on how to open my speech, but I'm uncertain which would be most efficacious. First I am to stand and call "Dear Council members", then...<b>Hm, what is most important in my first impression?</b>' -->
+      <Text>Elder Tebibi: 'I have several ideas on how to open my speech, but I'm uncertain which would be most efficacious. First I am to stand and call "Dear Council members", then...&lt;b&gt;Hm, what is most important in my first impression?&lt;/b&gt;'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001336</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Story | Elder Tebibi needs your help fine-tuning her acceptance speech for the Keftanya Moot. She has been waiting ever since her husband died to join this committee and does not wish to ruin her chances of success at what she considers the final hurdle. -->
+      <Text>Elder Tebibi needs your help fine-tuning her acceptance speech for the Keftanya Moot. She has been waiting ever since her husband died to join this committee and does not wish to ruin her chances of success at what she considers the final hurdle.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001337</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2 | Elder Tebibi: 'Good, I shall consider that...Now, a series of necessary flourishes and acknowledgements, then on to the matter at hand: "There is much to be done. Our first mandate should be..."' -->
+      <Text>Elder Tebibi: 'Good, I shall consider that...Now, a series of necessary flourishes and acknowledgements, then on to the matter at hand: "There is much to be done. Our first mandate should be..."'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001338</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3 | Elder Tebibi: 'There will be much murmuring and discussion at that point I like to think— but I will control it easily. Now to the conclusion: "By the grace of the Lord I solemnly swear that...' -->
+      <Text>Elder Tebibi: 'There will be much murmuring and discussion at that point I like to think— but I will control it easily. Now to the conclusion: "By the grace of the Lord I solemnly swear that...'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001339</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision1 | 'Your vote of confidence—for once in my life— humbles me...'  -->
+      <Text>'Your vote of confidence—for once in my life— humbles me...' </Text>
+    </Text>
+    <Text>
+      <GUID>1404001340</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision2 | 'I rejoice in joining forces with you for, clearly, the greater good of our city...' -->
+      <Text>'I rejoice in joining forces with you for, clearly, the greater good of our city...'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001341</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision3 | 'Long...very long...have I awaited this honour!'  -->
+      <Text>'Long...very long...have I awaited this honour!' </Text>
+    </Text>
+    <Text>
+      <GUID>1404001342</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision1 | 'The needs of the lowliest, as befits the virtuous...' -->
+      <Text>'The needs of the lowliest, as befits the virtuous...'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001343</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision2 | 'To strive to encourage piety and abidance with the covenant...' -->
+      <Text>'To strive to encourage piety and abidance with the covenant...'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001344</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision3 | 'To lessen the burdens of the Elders, that we may better uplift Enbesa...' -->
+      <Text>'To lessen the burdens of the Elders, that we may better uplift Enbesa...'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001345</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision1 | 'I will make my tenure with the Moot my life's work!' -->
+      <Text>'I will make my tenure with the Moot my life's work!'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001346</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision2 | 'I will not rest until this Moot's influence reaches beyond Taborime, to the whole of Enbesa!' -->
+      <Text>'I will not rest until this Moot's influence reaches beyond Taborime, to the whole of Enbesa!'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001347</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision3 | 'Order will be restored, and the righteous uplifted...' -->
+      <Text>'Order will be restored, and the righteous uplifted...'</Text>
+    </Text>
+    <Text>
+      <GUID>1404001348</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestSuccessSummary | The Elder thanks you for the small part you played in composing the final speech. -->
+      <Text>長老感謝你在組織最後演說裡的小角色。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001349</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_BadChoice2Summary | The Elder offers not even the faintest smile at your suggestion. -->
+      <Text>長老對你的建議給了一個連最輕微的微笑都稱不上的表情。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001350</GUID>
+      <!-- Text | RQ_Envoy_IAmTheSenate_Speech_Objective | Help the Elder compose her speech for the Moot -->
+      <Text>幫忙長老組織她在慕特的演講</Text>
+    </Text>
+    <Text>
+      <GUID>1404001351</GUID>
+      <!-- Quest | RQ_Envoy_IamTheSenate2_StuffBallots_Select | Moot Points — The Vote -->
+      <Text>議事會主張——投票</Text>
+    </Text>
+    <Text>
+      <GUID>1404001352</GUID>
+      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestStart | What is the point of letting me join the Moot if no-one will listen to my ideas? Don't you have any influence? -->
+      <Text>如果沒有人會聽我的意見，讓我加入慕特有什麼意義？你沒有任何影響力嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001353</GUID>
+      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestSuccess | Success! The proposal was approved by the majority! I think they suspect something though— we'll have to be more creative. -->
+      <Text>Success! The proposal was approved by the majority! I think they suspect something though— we'll have to be more creative.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001354</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestStartSummary | Elder Tebibi wishes your help circumventing political opponents at the ballot box. -->
+      <Text>Elder Tebibi wishes your help circumventing political opponents at the ballot box.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001355</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestSuccessSummary | The Elder rejoices that the 'recount' resulted in the acceptance of her latest proposals. -->
+      <Text>長老欣喜於在「重新計票」後，她最近一次的提案通過。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001356</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Story | Elder Tebibi is back, this time to ask for your help influencing the policy of the Keftanya Moot. This time she hopes you will intervene for her at the ballot box during a very important vote that she doesn't feel she can afford to lose. -->
+      <Text>Elder Tebibi is back, this time to ask for your help influencing the policy of the Keftanya Moot. This time she hopes you will intervene for her at the ballot box during a very important vote that she doesn't feel she can afford to lose.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001357</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Fraud | Tamper with the ballot in the Town Hall -->
+      <Text>Tamper with the ballot in the Town Hall</Text>
+    </Text>
+    <Text>
+      <GUID>1404001358</GUID>
+      <!-- Quest | RQ_Envoy_IamTheSenate3_RuiningReputation_Select | Moot Points — The Smear -->
+      <Text>議事會主張——汙衊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001362</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestStart | Elder Selassy'e opposes my every proposal! He must certainly have some nefarious plan— I ask you to follow him! -->
+      <Text>塞拉西長老反對我的每個提案！他一定有什麼邪惡的計畫——我要你跟蹤他！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001363</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestComplete | Nothing... strange. There is more to this, I am sure of it! -->
+      <Text>Nothing... strange. There is more to this, I am sure of it!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001364</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_LeaveKontor | There he is! Follow him— it shouldn't be hard to catch him red-handed! -->
+      <Text>There he is! Follow him— it shouldn't be hard to catch him red-handed!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001365</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachTownHall | Keep your eyes peeled for any secret signals he might be giving. -->
+      <Text>Keep your eyes peeled for any secret signals he might be giving.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001366</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachMarket | Keep watching his hands— perhaps he will pocket something! -->
+      <Text>盯好他的手……他可能會偷東西！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001367</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestStartSummary | Elder Tebibi wishes to uncover the vices of Selassy'e to stop him always undermining her at the Moot. -->
+      <Text>Elder Tebibi wishes to uncover the vices of Selassy'e to stop him always undermining her at the Moot.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001368</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestCompleteSummary | The Elder is surprised no compromising evidence was found and swears to dig deeper. -->
+      <Text>The Elder is surprised no compromising evidence was found and swears to dig deeper.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001369</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_Story | Elder Tebibi wishes you to help shed light on the hidden vices of her strongest opponent in the Moot: Elder Selassy'e. She is sure he is up to something, and even if he isn't, she can't afford for him to sabotage her career first. -->
+      <Text>Elder Tebibi wishes you to help shed light on the hidden vices of her strongest opponent in the Moot: Elder Selassy'e. She is sure he is up to something, and even if he isn't, she can't afford for him to sabotage her career first.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001370</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestBookHint | Elder Selassy'e usually starts his day at the Trading Post before going to the Marketplace. -->
+      <Text>瑟拉希耶長老通常在貿易站開始他的一天，然後前往市場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001371</GUID>
+      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy | Select Selassy'e to start tailing him -->
+      <Text>選擇瑟拉希耶開始跟蹤。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001372</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_LeaveKontorSummary | The Elder is certain tailing Selassy'e will uncover his sinful behaviour. -->
+      <Text>長老確信跟蹤瑟拉希耶可以揭開他罪惡的舉動。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001373</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachTownHallSummary | The Elder suspects bribery— or worse— may be afoot, but lacks evidence. -->
+      <Text>The Elder suspects bribery— or worse— may be afoot, but lacks evidence.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001374</GUID>
+      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy2 | Keep an eye on Selassy'e as he roams the city -->
+      <Text>在瑟拉希耶於城市內閒逛時盯住他</Text>
+    </Text>
+    <Text>
+      <GUID>1404001375</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachMarketSummary | The Elder has mounting suspicions that Selassy'e is about to commit a misdeed. -->
+      <Text>長老越來越懷疑瑟拉希耶就要犯下錯誤了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001376</GUID>
+      <!-- Quest | RQ_Envoy_IamTheSenate5_DuraLexSedLex_StatusQuo | Moot Points — Holy Stricture -->
+      <Text>議事會主張——神聖非難</Text>
+    </Text>
+    <Text>
+      <GUID>1404001377</GUID>
+      <!-- AudioText | RQ_Envoy_Sustain_DuraLexSedLex_QuestStart | Idleness and sin everywhere! It is high time I— I mean the Moot— reminded everyone of the value of work, piety and abstinence! -->
+      <Text>Idleness and sin everywhere! It is high time I— I mean the Moot— reminded everyone of the value of work, piety and abstinence!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001378</GUID>
+      <!-- Text | SustainWorkingConditions_Above_NonSpecific | Sustain across the region:<br/>Working Conditions above [Conditions QuestCondition Amount] for [Conditions QuestCondition TimeLimit >> time] -->
+      <Text>在這個地區維持：&lt;br/&gt;工作條件 [Conditions QuestCondition Amount] 以上，持續[Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001379</GUID>
+      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_QuestStartSummary | The Elder desires to cleanse the city by enforcing laws on labour, worship and consumption. -->
+      <Text>The Elder desires to cleanse the city by enforcing laws on labour, worship and consumption.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001380</GUID>
+      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_Story | Elder Tebibi is back again! With her opponent dead Elder Sellassy'e dead in the water, Elder Tebibi can now set in motion the great plans she has for the city, and needs your help putting them into effect. -->
+      <Text>Elder Tebibi is back again! With her opponent dead Elder Sellassy'e dead in the water, Elder Tebibi can now set in motion the great plans she has for the city, and needs your help putting them into effect.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001381</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature1_Gold_Deliver | Heaven-Born — Gilt Trip -->
+      <Text>Heaven-Born — Gilt Trip</Text>
+    </Text>
+    <Text>
+      <GUID>1404001382</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestStart | How does one extol the glory of the Lord in such miserly temples? The gates of the Holy Realm are gold and basalt, not raw wood and lead! -->
+      <Text>「要怎麼在這座可悲的神殿中讚揚主的榮耀？聖域的大門是由黃金和玄武岩築成，不是原木和鉛石！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001383</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestComplete | As is given on this earth, so will be apportioned tenfold in Heaven! -->
+      <Text>「降在此世的，天堂會分派十倍！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001384</GUID>
+      <!-- Text | RQ_Envoy_Delivery_Gold_Story | Elder Kurati wishes to embellish the churches of Taborime with gold-leafing to honour the glory of the Lord. -->
+      <Text>Elder Kurati wishes to embellish the churches of Taborime with gold-leafing to honour the glory of the Lord.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001385</GUID>
+      <!-- Text | RQ_Envoy_Delivery_Gold_QuestStartSummary | Elder Kurati is displeased at the sparseness of church decorations and asks you to bring gold. -->
+      <Text>Elder Kurati is displeased at the sparseness of church decorations and asks you to bring gold.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001386</GUID>
+      <!-- Text | RQ_Envoy_Delivery_Gold_QuestCompleteSummary | Elder Kurati commends you for securing the required gold. -->
+      <Text>庫拉提長老為你確保了所需的黃金一事稱讚你。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001387</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature2_Beggars_Picturepuzzle | Heaven-Born — Gated Paradise -->
+      <Text>Heaven-Born — Gated Paradise</Text>
+    </Text>
+    <Text>
+      <GUID>1404001388</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestStart | How can the pious pray and worship with the bleating of those wretched beggars before the gates? -->
+      <Text>虔誠教徒是怎麼在大門前那些可憐乞丐的乞討聲中祈禱和禮拜的呢？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001389</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestComplete | Yes, hear how the hymns resonate in the quiet chapel walls? Blessed peace at last! -->
+      <Text>「是的，聽到讚美歌是怎樣在安靜的小教堂牆壁上迴盪了嗎？終於得到祝福的平靜！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001390</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_BeggarAudio | How are we to survive if not here? Irenya pass us by in the streets without looking at us... -->
+      <Text>如果不在這裡的話，我們要怎麼生存？伊瑞尼亞在街上與我們擦肩而過，卻從不看我們一眼……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001391</GUID>
+      <!-- CollectablePicturePuzzle | Beggars | Meek Beggars -->
+      <Text>卑微的乞丐</Text>
+    </Text>
+    <Text>
+      <GUID>1404001392</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Story | Beggars panhandling outside the monastery gates are, according to the Elders, preventing the faithful from focusing on their prayers. Elder Kurati wishes to disperse them and restore peace. -->
+      <Text>Beggars panhandling outside the monastery gates are, according to the Elders, preventing the faithful from focusing on their prayers. Elder Kurati wishes to disperse them and restore peace.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001393</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestBookHint | Beggars can be found clustered around the Monastery gates -->
+      <Text>可以在修道院大門附近找到聚集的乞丐。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001394</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Beggars | Disperse the beggars: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>驅趕乞丐：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001395</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestStartSummary | Elder Kurati wants the beggars dispersed from the monastery gates. -->
+      <Text>庫拉提長老想要驅趕修道院門前的乞丐。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001396</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestCompleteSummary | The Elder is pleased with you for restoring order and quiet to the Monastery. -->
+      <Text>The Elder is pleased with you for restoring order and quiet to the Monastery.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001397</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature3_HelpingIndigents_Deliver | Heaven-Born — Benefaction -->
+      <Text>Heaven-Born — Benefaction</Text>
+    </Text>
+    <Text>
+      <GUID>1404001398</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStart | Pater Dekama has permitted the distribution of food to the poor souls outside the monastery— but must have officials to make it a formal thing. -->
+      <Text>Pater Dekama has permitted the distribution of food to the poor souls outside the monastery— but must have officials to make it a formal thing.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001399</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestComplete | Everyone was most impressed with our work - why, the archimandrite himself, in his sermon, praised it as an example of rare virtue! -->
+      <Text>「每個人都對我們的工作十分印象深刻——就連修道院長本人在他的佈道中，都稱讚是珍貴美德的典範！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001400</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStartSummary | Elder Kurati is making a display of her charity and asks you ensure important people take notice. -->
+      <Text>Elder Kurati is making a display of her charity and asks you ensure important people take notice.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001401</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestCompleteSummary | Elder Kurati is thrilled with the commendation elicited by the operation. -->
+      <Text>Elder Kurati is thrilled with the commendation elicited by the operation.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001402</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_Story | Elder Kurati wishes to organise food for the Meniga to be shared out at the Monastery. She wants you to ensure all the important officials from the Palace are present. -->
+      <Text>Elder Kurati wishes to organise food for the Meniga to be shared out at the Monastery. She wants you to ensure all the important officials from the Palace are present.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001403</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_CallingAllStations | Select the Palace and let officials know of the Elder's charity -->
+      <Text>選擇宮殿並讓官員們知道長老的慈善事業</Text>
+    </Text>
+    <Text>
+      <GUID>1404001404</GUID>
+      <!-- Text | RQ_Envoy_Delviery_HelpingTheIndigent_Invitation | ... as our Lord gave, so must we give in his image, and by our virtue be an example to those of lower...<i>illegible</i> -->
+      <Text>... as our Lord gave, so must we give in his image, and by our virtue be an example to those of lower...&lt;i&gt;illegible&lt;/i&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1404001405</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature4A_TimqetFestival_Deliver | Heaven-Born — God's Gifts -->
+      <Text>Heaven-Born — God's Gifts</Text>
+    </Text>
+    <Text>
+      <GUID>1404001406</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestStart | Must I do everything? The festival but weeks away and there is so much still to arrange— the materials to fashion a proper tabot, for instance! -->
+      <Text>「我一定得做每件事嗎？離慶典只差幾週了，然而還有好多事情要安排——比方說用來裝飾十戒石板的材料！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001407</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestComplete | A pin here, a fold there... perfect! As long as the tabot is complete, the festival may proceed. -->
+      <Text>「這裡下一針，那裡折一下……完美！只要石板完成，慶典就能繼續了。」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001408</GUID>
+      <!-- CollectablePicturePuzzle | Timqet Celebration | Sacred Festivities -->
+      <Text>神聖餐點</Text>
+    </Text>
+    <Text>
+      <GUID>1404001409</GUID>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestStartSummary | Elder Kurati needs you to deliver the materials for a tabot for the upcoming festival. -->
+      <Text>庫拉提長老要你遞送製作石板所需的材料，為即將到來的慶典做準備。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001410</GUID>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestCompleteSummary | Elder Kurati puts the finishing touches to a shrine for the sacred tablets. -->
+      <Text>庫拉提長老幫放置神聖石板的祭壇做最後的修飾。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001411</GUID>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_Story | Up at the monastery, Elder Kurati worries that the preparations for an upcoming festival are far behind schedule, and asks for your help making a religious ornament. -->
+      <Text>在修道院上，庫拉提長老擔心接下來的祭典準備進度大幅落後，並要求你幫忙製作宗教裝飾品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001412</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature5_FruitBasket_Select | Heaven-Born — Penance -->
+      <Text>Heaven-Born — Penance</Text>
+    </Text>
+    <Text>
+      <GUID>1404001413</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart | It seems my intentions have been misunderstood, and some are unhappy with how the festival was handled. -->
+      <Text>看來我的意圖被誤會了，而有些人對於慶典舉行的方式不太高興。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001414</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBaskete_QuestComplete | I trust the message will now be clear! It would be an insult if I had had to suffer such indignity needlessly. -->
+      <Text>我相信現在訊息十分清楚了！如果我還得無意義的承受這樣輕蔑的話，這就算是侮辱了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001415</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse1 | Only ten stations left... -->
+      <Text>只剩十站了……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001416</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse2 | Take up this cross, Kurati... -->
+      <Text> 佔據這個路口，庫拉提……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001417</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse3 | And so He was interred by lesser men... -->
+      <Text>……就這樣被下等人埋葬了……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001418</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart2 | If I must belittle myself to preserve order, then so I will. And you had better help— hand these fruit baskets out to Meniga households. -->
+      <Text>如果一定得卑躬屈膝才能維護秩序，那麼我會這麼做。幫我分發這些水果籃給美尼加家庭。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001419</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary | Elder Kurati wishes to hand out fruit to appease the Meniga's displeasure and preserve social order. -->
+      <Text>Elder Kurati wishes to hand out fruit to appease the Meniga's displeasure and preserve social order.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001420</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestCompleteSummary | Elder Kurati is upset that she had to suffer the humiliation of public penance. -->
+      <Text>庫拉提長老很生氣她得承受公開道歉的恥辱。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001421</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_Story | Elder Kurati has been accused by some of callousness towards the Meniga and wishes to disprove the rumours by gifting Meniga households with fruit baskets. -->
+      <Text>Elder Kurati has been accused by some of callousness towards the Meniga and wishes to disprove the rumours by gifting Meniga households with fruit baskets.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001422</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestBookHint | Select several Shepherd residences in a row to go from door-to-door -->
+      <Text>一次選擇一些牧羊人住所來逐戶拜訪。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001423</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_DoorToDoor | Gift fruits baskets to several Shepherd households -->
+      <Text>Gift fruits baskets to several Shepherd households</Text>
+    </Text>
+    <Text>
+      <GUID>1404001424</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_SummaryHouse123 | Elder Kurati grumbles about having to deliver fruit to the Shepherds. -->
+      <Text>庫拉提長老碎念著得送水果給牧羊人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001425</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary2 | It seems the Elder expects you to help... -->
+      <Text>看起來長老期待你會幫忙……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001426</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature6_Fasting_Sustain | Heaven-Born — Tolerance -->
+      <Text>Heaven-Born — Tolerance</Text>
+    </Text>
+    <Text>
+      <GUID>1404001427</GUID>
+      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestStart | The stain of my unkindness and disregard for the Meniga weighs heavily upon my soul, and I would do penance by fasting. -->
+      <Text>我對於美尼加不體諒與漠視的汙點使我的靈魂十分沉重，而我會以齋戒來懺悔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001428</GUID>
+      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestCompleteEnvoy | To think a Meniga could show mercy on she that hurt his fellows... Blessed are they of simple dispositions indeed. -->
+      <Text>To think a Meniga could show mercy on she that hurt his fellows... Blessed are they of simple dispositions indeed.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001429</GUID>
+      <!-- AudioText | AT_DLC06_NOmad_RQ_Envoy_Status_Fasting_QuestCompleteNomad | Please, it is enough. I wish such pain on no-one, not even you, Elder. -->
+      <Text>求求你，夠了。我從不希望誰受這種折磨，即使是你，長老。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001430</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestStartSummary | Elder Kurati wants you to help her with her fasting. -->
+      <Text>庫拉提長老想要你幫她節食。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001431</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteEnvoySummary | Elder Kurati grudgingly acknowledges the Shepherd's virtue. -->
+      <Text>庫拉提長老十分不願地認可牧羊人的美德。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001432</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteNomadSummary | The Shepherd dislikes seeing the Elder suffer and extends a forgiving hand. -->
+      <Text>The Shepherd dislikes seeing the Elder suffer and extends a forgiving hand.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001433</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_Story | Elder Kurati wishes to do further penance for her callousness towards the Meniga by fasting. -->
+      <Text>庫拉提長老希望可以進一步以節食的方式為她對美尼加的殘忍道歉。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001434</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_Hints | You can prevent the Elder from consuming a certain good by selecting their residence and setting the Good Consumption level to low. -->
+      <Text>You can prevent the Elder from consuming a certain good by selecting their residence and setting the Good Consumption level to low.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001435</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
+      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001436</GUID>
+      <!-- A7_QuestDecision | RQ_Envoy_Storyteller_Decision | Fable Foible -->
+      <Text>寓言小失言</Text>
+    </Text>
+    <Text>
+      <GUID>1404001437</GUID>
+      <!-- AudioText | RQ_Envoy_Storyteller_QuestStart | It is storytelling time for the younger ones, to teach them virtue and piety, but I... seem to have forgotten some parts of the tale. -->
+      <Text>該是給年輕人講故事的時候了，以教導他們美德和虔誠，但我……好像已經忘記傳說的部份內容了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001438</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_Story | The Elder needs your help patching together an educational story for the children's Tale-time. She appears to have forgotten many of its most important sections, much to her vexation. -->
+      <Text>The Elder needs your help patching together an educational story for the children's Tale-time. She appears to have forgotten many of its most important sections, much to her vexation.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001439</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_QuestStartSummary | The Elder needs your help remembering parts of a story she wants to tell the children. -->
+      <Text>The Elder needs your help remembering parts of a story she wants to tell the children.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001440</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStart | Once upon a time, a long, long, time ago, a king had only one son, renowned for being kind and compassionate to all.<br/>One day, as he was exploring his father's kingdom, he stumbled upon a young shepherdess who was struggling to get water from the well. Now the prince was... err... -->
+      <Text>很久很久以前，一名國王只有一個兒子，兒子以善良和博愛而聞名。&lt;br/&gt;有一天，在探索父親王國的時候，他發現一個年輕的女牧羊人，正辛苦地想從井裡取水。這個王子……呃……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001441</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleCrafty | Very crafty, so he tied a rock to the end of the rope to make the pulling easier. -->
+      <Text>非常聰明，所以他在繩子的一端綁上石頭，讓繩子更加容易被拉起。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001442</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStrong | Tall and strong! He pulled  on the rope and... pop! The bucket came up! -->
+      <Text>Tall and strong! He pulled  on the rope and... pop! The bucket came up!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001443</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleMeetLion | The pail came easily out of the well, and the shepherdess thanked the prince by giving him some of her honey. <br/>Delighted, the prince thanked her and continued on, until he reached the edge of his father's kingdom. He had walked for hours and was very hungry, and he was just opening the honey pot when a lion jumped out in front of him! So the prince ... -->
+      <Text>The pail came easily out of the well, and the shepherdess thanked the prince by giving him some of her honey. &lt;br/&gt;Delighted, the prince thanked her and continued on, until he reached the edge of his father's kingdom. He had walked for hours and was very hungry, and he was just opening the honey pot when a lion jumped out in front of him! So the prince ...</Text>
+    </Text>
+    <Text>
+      <GUID>1404001444</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleShareHoney | Shared his honey with the lion. -->
+      <Text>和獅子分享了他的蜂蜜。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001445</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleUseHoney | Covered himself in honey to disgust the lion. -->
+      <Text>把蜂蜜倒得自己渾身都是以讓獅子作嘔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001446</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleKindHeart | The lion's jaw fell open in surprise! "I never met a human who wasn't scared of me. Much less a human willing to share their meal with me!"<br/>The prince responded "We should always show a kind heart. Everyone deserves compassion, whether they be sheep, human or lion."<br/>Impressed by these wise words, the lion decided to accompany the prince to his kingdom. The prince became a beloved king and the lion and him were great friends as long their lives lasted, and that is why the lion is the symbol of our nation. -->
+      <Text>The lion's jaw fell open in surprise! "I never met a human who wasn't scared of me. Much less a human willing to share their meal with me!"&lt;br/&gt;The prince responded "We should always show a kind heart. Everyone deserves compassion, whether they be sheep, human or lion."&lt;br/&gt;Impressed by these wise words, the lion decided to accompany the prince to his kingdom. The prince became a beloved king and the lion and him were great friends as long their lives lasted, and that is why the lion is the symbol of our nation.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001447</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleSweetChat | "Eat me now and the honey will stick your jaw shut!" Exclaimed the prince. The lion sighed, "I'll wait for the honey to dry, then eat you." <br/>"Fair," said the prince, "in the meantime, tell me: what's it like being a lion?"<br/>After that they talked so long that when the honey dried, the lion didn't want to eat the prince anymore. The prince offered the lion took a place at his side, and thus became the symbol of our nation. -->
+      <Text>"Eat me now and the honey will stick your jaw shut!" Exclaimed the prince. The lion sighed, "I'll wait for the honey to dry, then eat you." &lt;br/&gt;"Fair," said the prince, "in the meantime, tell me: what's it like being a lion?"&lt;br/&gt;After that they talked so long that when the honey dried, the lion didn't want to eat the prince anymore. The prince offered the lion took a place at his side, and thus became the symbol of our nation.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001448</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleMeetSnakes | In a matter of minutes, the prince had extracted enough water for the shepherdess's whole family. He helped her carry it to her house where he met with her father, a poor, old man who had little to offer by way of thanks but insisted that the prince stay the night. Exhausted by the ordeal, the prince gladly accepted.<br/>In the middle of the night, however, the prince was awakened by low, hissing sounds. Still quite tired, he sat up to ask for some quiet, but froze when he saw two enormous pale snakes by his bed.<br/>Despite the danger, however, the prince kept his composure and... hum... -->
+      <Text>In a matter of minutes, the prince had extracted enough water for the shepherdess's whole family. He helped her carry it to her house where he met with her father, a poor, old man who had little to offer by way of thanks but insisted that the prince stay the night. Exhausted by the ordeal, the prince gladly accepted.&lt;br/&gt;In the middle of the night, however, the prince was awakened by low, hissing sounds. Still quite tired, he sat up to ask for some quiet, but froze when he saw two enormous pale snakes by his bed.&lt;br/&gt;Despite the danger, however, the prince kept his composure and... hum...</Text>
+    </Text>
+    <Text>
+      <GUID>1404001449</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStrikeSnakes | Struck both snakes at once. -->
+      <Text>同時攻擊兩隻蛇。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001450</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleHushSnakes | Politely asked the snakes to be more quiet. -->
+      <Text>Politely asked the snakes to be more quiet.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001451</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleRemorse | Reaching for the sword by his pillow, the prince struck out and beheaded both snakes with one blow! But as they dropped to the floor, their bodies shifted, revealing two very young, very dead men. Alerted by the noise, the old man hobbled into the room and started weeping at the sight. "My boys! What have you done! You seemed kind-hearted, and so I thought you'd help them  but now... how could you!"<br/>Red-faced with shame and remorse, the prince fled the hovel at once, back to his father's palace, swearing to the Heavens that he would never again judge by appearances and that he would remain good to all, human or otherwise. -->
+      <Text>Reaching for the sword by his pillow, the prince struck out and beheaded both snakes with one blow! But as they dropped to the floor, their bodies shifted, revealing two very young, very dead men. Alerted by the noise, the old man hobbled into the room and started weeping at the sight. "My boys! What have you done! You seemed kind-hearted, and so I thought you'd help them  but now... how could you!"&lt;br/&gt;Red-faced with shame and remorse, the prince fled the hovel at once, back to his father's palace, swearing to the Heavens that he would never again judge by appearances and that he would remain good to all, human or otherwise.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001452</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleBreakCurse | "You,... you do not fear us?" the surprised snakes asked ."<br/>'Why should I?" answered the prince. "We are all the Lord's creatures and you deserve as much respect as any other creature." <br/>Upon these words, the snakes' skin blurred and hazed, and soon two young boys stood in their stead. "Father, father!" one of them cried in glee. The old man rushed out of the house and wept to see his sons. "I knew it! Only one as wise as you could treat them with humanity and break the curse! A thousand blessings on a prince with such kindness in his heart!"<br/>Soon the news of the prince's wisdom spread throughout the land, and all praised him and strove, like him, not to judge anyone so readily. -->
+      <Text>"You,... you do not fear us?" the surprised snakes asked ."&lt;br/&gt;'Why should I?" answered the prince. "We are all the Lord's creatures and you deserve as much respect as any other creature." &lt;br/&gt;Upon these words, the snakes' skin blurred and hazed, and soon two young boys stood in their stead. "Father, father!" one of them cried in glee. The old man rushed out of the house and wept to see his sons. "I knew it! Only one as wise as you could treat them with humanity and break the curse! A thousand blessings on a prince with such kindness in his heart!"&lt;br/&gt;Soon the news of the prince's wisdom spread throughout the land, and all praised him and strove, like him, not to judge anyone so readily.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001453</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_End | The End -->
+      <Text>終章</Text>
+    </Text>
+    <Text>
+      <GUID>1404001454</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_Objective | Help the Elder tell the children a story -->
+      <Text>幫忙長老說故事給小孩們聽</Text>
+    </Text>
+    <Text>
+      <GUID>1404001455</GUID>
+      <!-- Quest | RQ_Envoy_LearningFromThose_Deliver | What We Stand To Learn -->
+      <Text>我們準備學習的事物</Text>
+    </Text>
+    <Text>
+      <GUID>1404001456</GUID>
+      <!-- AudioText | RQ_Envoy_LearningFromThose_QuestStart | The Moot has noticed very few people read anymore. How can one know who they are if they do not know where they come from? -->
+      <Text>慕特已經注意到只剩很少人會閱讀了。如果不知道自己是從哪裡來的，一個人要怎麼知道他是誰？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001457</GUID>
+      <!-- Text | RQ_Envoy_LearningFromThose_Story | The Elder deplores that the people of the city do not seem to be reading enough, and wants you to provide enough books for the whole city. -->
+      <Text>長老對於城市裡的人們讀書不夠感到十分惋惜，因而想要你為整座城市提供足夠的書本。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001458</GUID>
+      <!-- Text | RQ_Envoy_LearningFromThose_QuestStartSummary | The Elder thinks people do not read enough and wants your help righting the situation. -->
+      <Text>The Elder thinks people do not read enough and wants your help righting the situation.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001459</GUID>
+      <!-- Quest | RQ_Envoy_CleanUpYourMess_Picturepuzzle | Vexing Detritus -->
+      <Text>惱人廢棄物</Text>
+    </Text>
+    <Text>
+      <GUID>1404001460</GUID>
+      <!-- AudioText | RQ_Envoy_CleanUpYourMess_QuestStart | Refuse everywhere, and none of the youth even consider cleaning up! Do something about it! -->
+      <Text>「到處都是垃圾，而且沒有任何年輕人想過要清理乾淨！做點什麼吧！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001461</GUID>
+      <!-- CollectablePicturePuzzle | Pile of trash | Heaped Refuse -->
+      <Text>堆滿的拒絕</Text>
+    </Text>
+    <Text>
+      <GUID>1404001462</GUID>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_Story | The Elder is horrified by the proliferation of rubbish in the city, and expects you to clean it all up. -->
+      <Text>長老對於城市裡四散各地的垃圾感到震驚，並希望你把它們全都清乾淨。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001463</GUID>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_Hint | Pick up the boxes and bags littered across the city -->
+      <Text>撿起城內被隨意丟棄的箱子和袋子。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001464</GUID>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_QuestStartSummary | The Elder is upset at the refuse piling up, uncleaned, in the city. -->
+      <Text>長老對城市裡堆積的未清理垃圾感到不悅。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001465</GUID>
+      <!-- Quest | RQ_Envoy_SetRightExemple_SolveIncident | Early Days Yet -->
+      <Text>時候未到</Text>
+    </Text>
+    <Text>
+      <GUID>1404001466</GUID>
+      <!-- AudioText | RQ_Envoy_SetRightExemple_QuestStart | How do you expect us to face our children with the city in such a state? -->
+      <Text>在這種狀態的城市裡，你期待我們要怎樣面對孩兒呢？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001467</GUID>
+      <!-- Text | RQ_Envoy_SetRightExemple_Story | The Elder is outraged at the current riots and wants you to put an end to them. As an advocate of Emperor Ketema, the Elder will do everything to protect the stability of the current era. -->
+      <Text>The Elder is outraged at the current riots and wants you to put an end to them. As an advocate of Emperor Ketema, the Elder will do everything to protect the stability of the current era.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001468</GUID>
+      <!-- Text | RQ_Envoy_SetRightExemple_QuestStartSummary | The Elder wants you to disperse the rioters making trouble in the streets. -->
+      <Text>The Elder wants you to disperse the rioters making trouble in the streets.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001469</GUID>
+      <!-- Text | RQ_Envoy_SetRightExample_Objective | End the riots -->
+      <Text>終結暴動</Text>
+    </Text>
+    <Text>
+      <GUID>1404001470</GUID>
+      <!-- Quest | RQ_Envoy_CupOfTea_Deliver | Tea Trolley -->
+      <Text>茶水車</Text>
+    </Text>
+    <Text>
+      <GUID>1404001471</GUID>
+      <!-- AudioText | RQ_Envoy_CupOfTea_QuestStart | No-one told you it was your duty to provide tea for the weekly Keftenya Moot? -->
+      <Text>No-one told you it was your duty to provide tea for the weekly Keftenya Moot?</Text>
+    </Text>
+    <Text>
+      <GUID>1404001472</GUID>
+      <!-- Text | RQ_Envoy_CupOfTea_Story | The Elder reminds you it is your responsibility to make sure there is enough tea for the weekly gathering of Elders at the Keftanya Moot. -->
+      <Text>長老提醒你，確保每週長老在代表議事會的聚會都有足夠的茶葉可用是你的職責。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001473</GUID>
+      <!-- Text | RQ_Envoy_CupOfTea_QuestStartSummary | The Elder wants you to provide tea for the next Keftanya Moot. -->
+      <Text>長老想要你為下次的代表議事會提供茶葉。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001474</GUID>
+      <!-- Quest | RQ_Envoy_DayCare_Build | Clean Sheets, Soft Drapes -->
+      <Text>乾淨床單、柔軟布幔</Text>
+    </Text>
+    <Text>
+      <GUID>1404001475</GUID>
+      <!-- AudioText | RQ_Envoy_DayCare_QuestStart | People fall ill while you fritter on your foreign trinkets! Perhaps, for once, you could build something for us? -->
+      <Text>「在你擺弄你的外國玩意時，人們還在陸續病倒！也許，就一次，你可以為我們蓋點東西？」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001476</GUID>
+      <!-- AudioText | RQ_Envoy_DayCare_QuestSuccess | The Irenya trust you more when you take care of such things rather than waste time on the Meniga. -->
+      <Text>伊瑞尼亞會在你處理這樣的事情時更相信你，而不是浪費時間在美尼加上。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001477</GUID>
+      <!-- Text | RQ_Envoy_DayCare_QuestStartSummary | The Elder wants you to raise a hospital for the people of Taborime. -->
+      <Text>The Elder wants you to raise a hospital for the people of Taborime.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001478</GUID>
+      <!-- Text | RQ_Envoy_DayCare_Story | The Elder wishes you would focus your progress on more pressing matters, such as ensuring the people of Taborime have their ails and pains tended to. -->
+      <Text>長老希望你可以專注在其他更加迫切的事務上，比如確保塔伯里姆人民的困擾和苦痛被妥善處理。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001479</GUID>
+      <!-- Text | RQ_Envoy_DayCare_QuestSuccessSummary | The Elder recommends you disregard the pleas of the Shepherds. -->
+      <Text>長老建議你無視牧羊人的請求。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001480</GUID>
+      <!-- Quest | RQ_Envoy_VisitingRelatives_Transport | Family Circle -->
+      <Text>家庭圈</Text>
+    </Text>
+    <Text>
+      <GUID>1404001481</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_QuestStart | I was planning on visiting Fasika in our hometown, but my nephews are too busy with work to escort me… -->
+      <Text>「我本來計畫要回我們的家鄉城鎮拜訪法西卡，但是我的外甥太忙了，沒辦法護送我……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001482</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioPickupEnvoy | Come, come, let us be quick about it! -->
+      <Text>「來吧，來吧，我們手腳勤快點！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001483</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy1 | Fasika! It's funny, I almost didn't recognize you because you have so many new wrinkles. -->
+      <Text>法西卡！真有趣，我差點認不出你，你臉上多了好多皺紋。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001484</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy2 | Yes, the way you've decorated is very... interesting. -->
+      <Text>對，你裝潢的方式非常……有意思。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001485</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy3 | And he's a farmhand, you say? Well, what a catch! -->
+      <Text>他還是農工呢，你知道嗎？呵，真是好樣的！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001486</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioOnTheRoad1 | Rest, again? I used to walk farther than this on daily errands! -->
+      <Text>Rest, again? I used to walk farther than this on daily errands!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001487</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioOnTheRoad2 | The lurching... (heaving) Tell it to stop! -->
+      <Text>搖晃……(晃動) 叫牠停下！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001488</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioOnTheRoad3 | These were once barely paths, let alone roads. -->
+      <Text>「以前都很難說這裡是小徑了，更何況道路呢。」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001489</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioSuccess | Returning already? What about the visit to cousin Haji, and aunt Tabi and...and... -->
+      <Text>這麼快就要回去了？不是說好還要拜訪哈吉表親，塔比阿姨和……和……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001490</GUID>
+      <!-- AudioText | AT_ADDON01_res2_Quest_HandIn3 | Back already? -->
+      <Text>這麼快就回來啦？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001491</GUID>
+      <!-- QuestItem | QI Envoy - Visiting Relatives | Itinerant Elder -->
+      <Text>旅行中的長老</Text>
+    </Text>
+    <Text>
+      <GUID>1404001492</GUID>
+      <!-- Text | Smuggler_Pickup with object | Pick up at [AssetData([Conditions QuestCondition Context]) Text]: <br/>[AssetData([Conditions QuestMainObjectiveCondition CurrentDeliveryObject([Conditions QuestCondition ConditionKey])]) Text] -->
+      <Text>在[AssetData([Conditions QuestCondition Context]) Text]取得：&lt;br/&gt;[AssetData([Conditions QuestMainObjectiveCondition CurrentDeliveryObject([Conditions QuestCondition ConditionKey])]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001493</GUID>
+      <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001494</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_Story | The Elder wants you for a companion on her journey to see her cousin Fasika. She wishes you to join her on this very short excursion. -->
+      <Text>The Elder wants you for a companion on her journey to see her cousin Fasika. She wishes you to join her on this very short excursion.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001495</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummarySuccess | The Elder complains the trip was too short. -->
+      <Text>長老抱怨旅程太短了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001496</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryPickupEnvoy | The Elder wishes you would hurry up. -->
+      <Text>長老希望你快一點。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001497</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy1 | The Elder makes an effort to be diplomatic. -->
+      <Text>長老正努力要委婉些。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001498</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy2 | The Elder is unconvinced by Fasika's sense of interior design. -->
+      <Text>長老不信任法西卡的室內設計品味。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001499</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy3 | The Elder is unimpressed by Fasika's choice for a husband. -->
+      <Text>The Elder is unimpressed by Fasika's choice for a husband.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001500</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryOnTheRoad1 | The Elder feels the journey is progressing too slowly. -->
+      <Text>長老覺得這段旅程進展得太慢了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001501</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryOnTheRoad2 | The Elder complains of motion sickness. -->
+      <Text>長老抱怨動暈症發作了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001502</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryOnTheRoad3 | The Elder observes that Enbesa has changed much in recent years. -->
+      <Text>長老觀察到安貝沙在過去幾年變了很多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001503</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_QuestStartSummary | The Elder wants you to accompany her on her journey to see her cousin. -->
+      <Text>長老想要你陪她一起去見表親。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001504</GUID>
+      <!-- Quest | RQ_Envoy_RealityCheck_Select | Re-schooling -->
+      <Text>再教育</Text>
+    </Text>
+    <Text>
+      <GUID>1404001508</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioStart | The Moot worry the Scholars have forgotten who they are and what they owe to their homeland— I can give them a good talking-to. -->
+      <Text>慕特開始擔心學者已經忘記他們是誰，還有他們欠家鄉什麼東西了——我可以給他們一頓訓斥。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001509</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_ScholarAudioIntellectual1 | ... Anniversary?! I said, but I'm <i>this</i> close to the first life-size replica of a Cleopatra Ferruginea shell! -->
+      <Text>……週年？！我說，但我只差這麼&lt;i&gt;一點&lt;/i&gt;就可以完成第一個實物大小的淡水螺殼複製品了！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001510</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual2 | ...oh, it was a Wilde night all right - pun intended, of course! -->
+      <Text>……喔，這真是個「狂野」的夜晚——當然是故意雙關的囉！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001511</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual3 | ... and where would you be without the fortunes my father pays this <i>venerable</i> institution, Hm? -->
+      <Text>……如果沒有我父親為這個&lt;i&gt;德高望重&lt;/i&gt;的機構投入的財富，哪裡會有你呢，嗯？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001512</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual1 | 'Momentously important work', tch, If the Lord wanted slugs to be important he'd have made us slugs! -->
+      <Text>'Momentously important work', tch, If the Lord wanted slugs to be important he'd have made us slugs!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001513</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual2 | How could he forget everything we taught him so easily! By the end he was squirming with shame! -->
+      <Text>他怎麼能輕易忘記我們教他的事情！到頭來，他帶著羞愧不停扭動！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001514</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual3 | Of all the arrogant, thankless young grasshoppers... Using someone else's hard work to settle his own petty argument. -->
+      <Text>「在所有自大、不知感恩的年輕蚱蜢……用別人努力工作的成果來確立自己瑣碎的論點。」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001515</GUID>
+      <!-- CollectablePicturePuzzle | Scholar 1 | Self-Important Researcher of Snails -->
+      <Text>極度自大的蝸牛研究者</Text>
+    </Text>
+    <Text>
+      <GUID>1404001516</GUID>
+      <!-- CollectablePicturePuzzle | Scholar 2 | Decadent Party-Goer -->
+      <Text>缺德的派對參與者</Text>
+    </Text>
+    <Text>
+      <GUID>1404001517</GUID>
+      <!-- CollectablePicturePuzzle | Scholar 3 | Daddy's Brat -->
+      <Text>老爸的紈褲子弟</Text>
+    </Text>
+    <Text>
+      <GUID>1404001518</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Story | The Elder fears the scholars (Mihurani) sent abroad are losing their grip on reality. She wishes you to bring one of the main culprits home so she can school him adequately. -->
+      <Text>The Elder fears the scholars (Mihurani) sent abroad are losing their grip on reality. She wishes you to bring one of the main culprits home so she can school him adequately.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001519</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryStart | The Elder wants to knock some sense and humility into the Scholars living abroad. -->
+      <Text>長老想要讓在國外生活的學者們懂得謙遜和學會常識。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001520</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Hint | The Scholars are arguing in front of a crowd near the coast in the Old World -->
+      <Text>學者們正在舊世界海岸邊的群眾前爭論著。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001521</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Hint2 | Choose a Scholar and bring him back to Enbesa -->
+      <Text>選擇一名學者來帶回安貝沙。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001522</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual1 | This scholar puts his 'important' work before everything else. -->
+      <Text>這個學者將他「重要」的工作擺在一切之前。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001523</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual2 | The scholar flaunts their love of uninhibited literary parties. -->
+      <Text>這個學者炫耀他們對自由文學派對的熱愛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001524</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual3 | The Scholar loudly claims his father's donations grant him more freedoms than others. -->
+      <Text>這個學者大聲的宣告他父親的捐獻賦予他比別人更多的自由。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001525</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual2 | The Elder relishes the guilt she made the Scholar feel. -->
+      <Text>長老滿意她讓學者們所受的罪。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001526</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual3 | The Elder is furious at the Scholar's arrogance. -->
+      <Text>長老對於學者的自大十分憤怒。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001527</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionBaseText | Elder: You have met all three of those spoiled Scholar Mihurani. Which one deserves the most to be humbled and punished? -->
+      <Text>長老：你已經見過那三個被寵壞的米胡拉尼學者了。哪一個最應該被教訓和懲罰？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001528</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual1 | The Utterly Self-Important Researcher of Snails -->
+      <Text>極度自大的蝸牛研究者。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001529</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual2 | The Decadent, Probably-Immoral Party-Goer -->
+      <Text>低道德標準，近乎無道德的派對參加者</Text>
+    </Text>
+    <Text>
+      <GUID>1404001530</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual3 | The Daddy-Pays-For-Everything Brat -->
+      <Text>老爸什麼都付得起的紈褲子弟</Text>
+    </Text>
+    <Text>
+      <GUID>1404001531</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Objective | Decide which Scholar deserves to be punished the most -->
+      <Text>決定哪個學者最應該受到懲罰</Text>
+    </Text>
+    <Text>
+      <GUID>1404001532</GUID>
+      <!-- Quest | RQ_Nomad_TheLostSheep1_Grazing_Select | My Lord Is My Shepherd— Pastoral -->
+      <Text>My Lord Is My Shepherd— Pastoral</Text>
+    </Text>
+    <Text>
+      <GUID>1404001533</GUID>
+      <!-- AudioText | RQ_Nomad_Select_LostSheepGrazing_QuestStart | Care to help me take the sheep out to pasture? A wonderful place not far— tall grass, shade, a beautiful waterfall… -->
+      <Text>Care to help me take the sheep out to pasture? A wonderful place not far— tall grass, shade, a beautiful waterfall…</Text>
+    </Text>
+    <Text>
+      <GUID>1404001534</GUID>
+      <!-- CollectablePicturePuzzle | Nomad with sheep | Shepherd with sheep -->
+      <Text>牧羊人與綿羊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001535</GUID>
+      <!-- CollectablePicturePuzzle | Amun the sheep | Amun, Friend of Diniki -->
+      <Text>阿蒙，迪尼奇的朋友</Text>
+    </Text>
+    <Text>
+      <GUID>1404001536</GUID>
+      <!-- QuestObject | Grazing spot | Pastoral Islet -->
+      <Text>導師小島</Text>
+    </Text>
+    <Text>
+      <GUID>1404001537</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Story | One of your Shepherds would you like to share the simple pleasures of life with you. He would be delighted if you could join him in a nearby pasture to enjoy the quiet beauty of nature while his sheep graze. -->
+      <Text>One of your Shepherds would you like to share the simple pleasures of life with you. He would be delighted if you could join him in a nearby pasture to enjoy the quiet beauty of nature while his sheep graze.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001538</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Hint1 | Use the button to jump to the pasture. -->
+      <Text>使用按鈕快速移動至牧場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001539</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Hint2 | There is a tree with a length of fabric tied to it near the pasture in question. -->
+      <Text>在上述的牧場附近，有棵樹上面綁著一段布料。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001540</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_QuestStartSummary | A Shepherd hopes you'll come and enjoy the pasture where his sheep graze. -->
+      <Text>一名牧羊人希望你能前來享受他放牧羊的牧場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001541</GUID>
+      <!-- Quest | RQ_Nomad_RightingTheWrongs1_HelpFamily_UseItemORSelect | Poor Relations - The Tithe -->
+      <Text>Poor Relations - The Tithe</Text>
+    </Text>
+    <Text>
+      <GUID>1404001542</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestStart | Our neighbours' landlady demands more and more tithe, but they can't keep up, what with the harvest. They're good people, you know ? -->
+      <Text>我們鄰居的女房東要求愈來愈多的什一稅，但他們的收穫根本無法負擔。他們是好人，你懂我意思嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001543</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestFailNomad | It hurts me to see my neighbour suffer like this. -->
+      <Text>看到我鄰居必須遭受這種折磨，我也很心痛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001544</GUID>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoy | Law and tradition exist for a reason. It is good that you understand this. -->
+      <Text>法律和傳統的存在是有理由的。你理解了最好。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001545</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestSuccess | Enough for them to survive this year, but... What the Irenya expect just seems... unfair. -->
+      <Text>他們可以撐過今年了，但……伊瑞尼亞想要的顯然……不公平。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001546</GUID>
+      <!-- CollectablePicturePuzzle | Landowner | Fierce Landlady -->
+      <Text>兇惡的女房東</Text>
+    </Text>
+    <Text>
+      <GUID>1404001547</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Story | A family of Meniga (Shepherds) is being harassed by their covetous landlady and her extortionate tax demands. Their crops have been poor this year, and they are facing eviction if they default on their obligation. A kindly neighbour has asked if you can help them out of this predicament. -->
+      <Text>A family of Meniga (Shepherds) is being harassed by their covetous landlady and her extortionate tax demands. Their crops have been poor this year, and they are facing eviction if they default on their obligation. A kindly neighbour has asked if you can help them out of this predicament.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001548</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Hint1 | Field yield might improve with a productivity-enhancing item equipped in the local trade union.  -->
+      <Text>Field yield might improve with a productivity-enhancing item equipped in the local trade union. </Text>
+    </Text>
+    <Text>
+      <GUID>1404001549</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Hint2 | The landowner is next to the Shepherd's house with her guards. Try talking to her...?  -->
+      <Text>The landowner is next to the Shepherd's house with her guards. Try talking to her...? </Text>
+    </Text>
+    <Text>
+      <GUID>1404001550</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestStartSummary | A Shepherd hopes you will assist a family unable to pay high taxes. -->
+      <Text>一名牧羊人希望你能協助付不出高額稅賦的家庭。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001551</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailNomadSummary | The Shepherd is saddened that you could not help in the matter. -->
+      <Text>牧羊人因你無法幫忙處理這件事而難過。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001552</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoySummary | The Elder appreciates that you did not interfere. -->
+      <Text>長老感謝你沒有插手干預。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001553</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestSuccessSummary | The Shepherd thanks you, but worries that the Elder's unfair demands will continue. -->
+      <Text>牧羊人感謝你，但也擔憂長老不公平的要求會持續下去。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001554</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_ObjectiveUseItem | Equip any item which improves the farms. -->
+      <Text>裝備任何能提高農場生產力的物品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001555</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_ObjectiveSelectLandowner | Select the landowner to talk to her. -->
+      <Text>選擇地主以與她交談。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001556</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan1_BeingIncluded_Select | Man Up - Left Out -->
+      <Text>Man Up - Left Out</Text>
+    </Text>
+    <Text>
+      <GUID>1404001557</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStart | I have these... friends, I suppose. They like to talk and play qarsa, but forget to tell me where. -->
+      <Text>我有一些……朋友，我想是的。他們喜歡談論草地曲棍球，也喜歡玩，但卻忘了告訴我在哪。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001558</GUID>
+      <!-- CollectablePicturePuzzle | Group of youngster | Idle Youths -->
+      <Text>遊手好閒的年輕人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001559</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Story | The Shepherd feels those he calls friends have taken to leaving him out of their gatherings. He does not entirely believe they mean to however, and asks you to help seek them out so he can join in their fun. -->
+      <Text>The Shepherd feels those he calls friends have taken to leaving him out of their gatherings. He does not entirely believe they mean to however, and asks you to help seek them out so he can join in their fun.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001560</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Hint1 | The gaggle of youngsters is idling by the Musician's Court -->
+      <Text>The gaggle of youngsters is idling by the Musician's Court</Text>
+    </Text>
+    <Text>
+      <GUID>1404001561</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Hint2 | Look for a group of young men standing together -->
+      <Text>尋找一群站在一起的年輕人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001562</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStartSummary | The Shepherd needs your help finding his 'friends'. -->
+      <Text>The Shepherd needs your help finding his 'friends'.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001563</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan4_SlayTheBeast_Picturepuzzle | Man Up - Initiation Rite -->
+      <Text>Man Up - Initiation Rite</Text>
+    </Text>
+    <Text>
+      <GUID>1404001564</GUID>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoy | Some Meniga boys came to tell me one of their number went to slay a beast in the mountains and hasn't come back. Shouldn't you be investigating? -->
+      <Text>有個美尼加男孩跑來告訴我，他們其中一人跑到山裡獵殺野獸，至今都還沒有回來。你不該去調查一下嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001565</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccess | I couldn't kill it. The beast...the lion, had a wounded paw— I could only think to help it. That may make me less of a man, but I don't care. -->
+      <Text>I couldn't kill it. The beast...the lion, had a wounded paw— I could only think to help it. That may make me less of a man, but I don't care.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001566</GUID>
+      <!-- CollectablePicturePuzzle | Nomad camp with wounded beast | Shepherd's mountain camp -->
+      <Text>牧羊人的山中營地</Text>
+    </Text>
+    <Text>
+      <GUID>1404001567</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Story | Some worry the Shepherd who was humiliated by his peers has met some grisly fate. He has yet to return from the mountain where it is said he went to slay a beast and thereby prove his quality. One of the Elders asks you to go looking for him. -->
+      <Text>Some worry the Shepherd who was humiliated by his peers has met some grisly fate. He has yet to return from the mountain where it is said he went to slay a beast and thereby prove his quality. One of the Elders asks you to go looking for him.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001568</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Hint1 | The Shepherd has gone into the mountains. -->
+      <Text>牧羊人已經進入山中。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001569</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Hint2 | He must have taken a small tent with him. -->
+      <Text>他一定會帶著一個小帳棚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001570</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoySummary | The Elder says the humiliated Shepherd has gone missing in the mountains. -->
+      <Text>長老說那個被羞辱的牧羊人在山中失蹤了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001571</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccessSummary | The Shepherd chose to help a lion instead of slaying it as he had intended. -->
+      <Text>牧羊人決定要幫助獅子，而非他原先預想的殺了牠。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001572</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan5_GoneGirl_Select | Man Up - Lost Youth -->
+      <Text>Man Up - Lost Youth</Text>
+    </Text>
+    <Text>
+      <GUID>1404001573</GUID>
+      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestStart | Alyia, my third cousin— she's disappeared! Everyone's out looking for her, but I am just as worried for her family... -->
+      <Text>阿莉亞，我排行第三的表親——消失了！所有人都出去找她了，但我也很擔心她的家人……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001574</GUID>
+      <!-- CollectablePicturePuzzle | Gone girl family | Alyia's Family -->
+      <Text>阿莉亞的家庭</Text>
+    </Text>
+    <Text>
+      <GUID>1404001575</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Story | Taborime is in uproar: the Shepherd's cousin Alyia is nowhere to be found! Yet amid the searches and confusion no-one seems to have comforted her family, an error which the Shepherd asks you to correct. -->
+      <Text>Taborime is in uproar: the Shepherd's cousin Alyia is nowhere to be found! Yet amid the searches and confusion no-one seems to have comforted her family, an error which the Shepherd asks you to correct.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001576</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Hint1 | Alyia's Relatives can be found before their house -->
+      <Text>阿莉亞的親戚都在他們的房屋前面。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001577</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Hint2 | Alyia's father is standing next to his two other young daughters. -->
+      <Text>阿莉亞的父親正站在他另外兩個較年幼的女兒旁邊。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001578</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_LetterContent | <i>(part of a letter from Alyia to her sister Lucille, translated from Enbesan)...</i><br/><br/>Father's not the same since mother died— he's too old to work like he does— but he agrees with the Elder Moot that I'm only a young girl and would serve him best by staying at home and out of mischief. <br/>But <b>I have defied all of them — I have been dressing as a boy</b> and working, so that father will be able to pay the tithe this year. <br/>I would be now, if I had not gotten hurt today...such a small mark, but my face feels puffy... -->
+      <Text>&lt;i&gt;(part of a letter from Alyia to her sister Lucille, translated from Enbesan)...&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;Father's not the same since mother died— he's too old to work like he does— but he agrees with the Elder Moot that I'm only a young girl and would serve him best by staying at home and out of mischief. &lt;br/&gt;But &lt;b&gt;I have defied all of them — I have been dressing as a boy&lt;/b&gt; and working, so that father will be able to pay the tithe this year. &lt;br/&gt;I would be now, if I had not gotten hurt today...such a small mark, but my face feels puffy...</Text>
+    </Text>
+    <Text>
+      <GUID>1404001579</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_QuestStartSummary | The Shepherd hopes by comforting his cousin's family, you may learn something about her disappearance. -->
+      <Text>The Shepherd hopes by comforting his cousin's family, you may learn something about her disappearance.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001580</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan9_Banquet_Deliver | Man Up - Ghost At The Feast -->
+      <Text>Man Up - Ghost At The Feast</Text>
+    </Text>
+    <Text>
+      <GUID>1404001581</GUID>
+      <!-- AudioText | DLC06_Envoy_RQ_Nomad_Delivery_Banquet_QuestStart | We wish to thank our young hero for delivering Alyia back to her family— as much food and drink as you deem you can provide! -->
+      <Text>We wish to thank our young hero for delivering Alyia back to her family— as much food and drink as you deem you can provide!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001582</GUID>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_Delivery_Banquet_QuestSuccessEnvoy | Bullies who show up to shame a hero, deserve nothing but to be cast into exile, as is tradition. -->
+      <Text>Bullies who show up to shame a hero, deserve nothing but to be cast into exile, as is tradition.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001583</GUID>
+      <!-- AudioText | AT_ADDON01_res1_NegativeGenFB4 | I don't think we'll be laughing over stories tonight. -->
+      <Text>我認為我們今晚無法笑談故事了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001584</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_Story | The Elders wish to commend the Shepherd for bringing Alyia back to her family. They have invited the entire neighbourhood to a great feast, but need you'll to provide food and drink for all. -->
+      <Text>The Elders wish to commend the Shepherd for bringing Alyia back to her family. They have invited the entire neighbourhood to a great feast, but need you'll to provide food and drink for all.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001585</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestStartSummary | An Elder wants you to deliver food and drink for a banquet to honour the Shepherd. -->
+      <Text>一名長老要你為宴會送上飲食來，念牧羊人的功勞。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001586</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummaryEnvoy | The Elder casts the facetious bully into exile. -->
+      <Text>長老放逐了愛亂開玩笑的惡霸。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001587</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummary | The Shepherd is shocked to see one of the boys who humiliated him at the banquet. -->
+      <Text>牧羊人在宴會上見到羞辱他的其中一個男孩，感到十分震驚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001588</GUID>
+      <!-- Quest | RQ_Nomad_MissingSibling_Picturepuzzle | Bouncing Baby Brothers -->
+      <Text>健壯的襁褓兄弟</Text>
+    </Text>
+    <Text>
+      <GUID>1404001589</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStart | Have you seen my baby brothers? The little sandmice keep running away! -->
+      <Text>你有看見我弟弟們嗎？那些沙鼠一直到處亂跑！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001590</GUID>
+      <!-- CollectablePicturePuzzle | Child running | Red-shirted little brothers  -->
+      <Text>Red-shirted little brothers </Text>
+    </Text>
+    <Text>
+      <GUID>1404001591</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Story | With such a lenient tutor, the Shepherd's younger brothers are prone to wild escapes through the city. This is one such day, and a visibly tired Shepherd asks for your help finding them. -->
+      <Text>With such a lenient tutor, the Shepherd's younger brothers are prone to wild escapes through the city. This is one such day, and a visibly tired Shepherd asks for your help finding them.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001592</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Hint | The 4 siblings are running wild through the city in red coats. -->
+      <Text>The 4 siblings are running wild through the city in red coats.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001593</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStartSummary | The Shepherd needs your help finding his wayward brothers. -->
+      <Text>牧羊人需要你的幫助，以找到他任性的兄弟們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001594</GUID>
+      <!-- Quest | RQ_Nomad_CaringForElderly_Deliver | Sweet Mead of Compassion -->
+      <Text>同情的甜蜜蜂蜜酒</Text>
+    </Text>
+    <Text>
+      <GUID>1404001595</GUID>
+      <!-- AudioText | RQ_Nomad_Delivery_CaringForTheElderly_QuestStart | Hard to imagine what it must be like without kin— weak, alone, the bad moods... We should care for those elders who have no one else. -->
+      <Text>很難想像沒有親人會是什麼樣子——虛弱、孤獨、心情低落……我們應該照顧那些失去親人的長者。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001596</GUID>
+      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_Story | The great unification wars left much of Enbesa bloodied and many bereft of kin in their elderly days. The Shepherd wishes to help bring some light into the grumpy old elders' lives by sharing some sweet honeyed wine with them. -->
+      <Text>The great unification wars left much of Enbesa bloodied and many bereft of kin in their elderly days. The Shepherd wishes to help bring some light into the grumpy old elders' lives by sharing some sweet honeyed wine with them.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001597</GUID>
+      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_QuestStartSummary | The Shepherd wishes to visit the lonely and aged to comfort them. -->
+      <Text>牧羊人希望去拜訪孤獨和年邁的人以安慰他們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001598</GUID>
+      <!-- Quest | RQ_Nomad_HelpingInTheField_Gift | Fieldwork -->
+      <Text>田野調查</Text>
+    </Text>
+    <Text>
+      <GUID>1404001599</GUID>
+      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestStart | Long night but I finally have it! All it took was some wanza and a bit of metal, but we could do great things with it in the fields… -->
+      <Text>雖然耗了漫漫長夜，但我終於完成了！只需要一些萬扎木材和一些金屬，就可以在田地做好事……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001600</GUID>
+      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccess | See! Sometimes it's good to try new things. -->
+      <Text>看到沒！試試新玩意有時候是好事。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001601</GUID>
+      <!-- CollectablePicturePuzzle | ResidentGift01 | Gift from Residents -->
+      <Text>來自居民的禮物</Text>
+    </Text>
+    <Text>
+      <GUID>1404001602</GUID>
+      <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
+      <Text>Pick up the gift offered by your resident</Text>
+    </Text>
+    <Text>
+      <GUID>1404001603</GUID>
+      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
+      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001604</GUID>
+      <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
+      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001605</GUID>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_Story | The Shepherd has long been seeking for a way to ease the hard toil of fieldwork for his fellows. Last night, in a burst of sleepless creativity, he envisioned a contraption of wood and steel which he is now eager for you to try out in the fields. -->
+      <Text>The Shepherd has long been seeking for a way to ease the hard toil of fieldwork for his fellows. Last night, in a burst of sleepless creativity, he envisioned a contraption of wood and steel which he is now eager for you to try out in the fields.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001606</GUID>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestStartSummary | The Shepherd has a contraption to help in the fields for you to test. -->
+      <Text>The Shepherd has a contraption to help in the fields for you to test.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001607</GUID>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccessSummary | The Shepherd is delighted by such unexpected success. -->
+      <Text>The Shepherd is delighted by such unexpected success.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001608</GUID>
+      <!-- Quest | RQ_Nomad_ManBestFriend_Photo | Goodbye Old Friend -->
+      <Text>再見了老友</Text>
+    </Text>
+    <Text>
+      <GUID>1404001609</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStart | I'll miss old Dani when she leaves the flock, but she doesn't milk any more… -->
+      <Text>I'll miss old Dani when she leaves the flock, but she doesn't milk any more…</Text>
+    </Text>
+    <Text>
+      <GUID>1404001610</GUID>
+      <!-- CollectablePicturePuzzle | Nomad with goat | Shepherd with goats -->
+      <Text>牧羊人與山羊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001611</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Story | Few in Taborime— or even Enbesa— have been kinder to the Shepherd than old Lani the goat, a true friend and listener over the years. But now Lani's milk has run dry, and the two kindred spirits must part for Lani's last great journey. The Shepherd would have a reminder of his friend, to cherish and hold dear, and asks if you could oblige with your daguerreotype. -->
+      <Text>Few in Taborime— or even Enbesa— have been kinder to the Shepherd than old Lani the goat, a true friend and listener over the years. But now Lani's milk has run dry, and the two kindred spirits must part for Lani's last great journey. The Shepherd would have a reminder of his friend, to cherish and hold dear, and asks if you could oblige with your daguerreotype.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001612</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Hint1 | The Shepherd and his goats are next to a goat pen -->
+      <Text>牧羊人和他的山羊在山羊圈旁。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001613</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Hint2 | The Shepherd is in the middle, surrounded by goats -->
+      <Text>牧羊人在中央，被山羊環繞。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001614</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStartSummary | The Shepherd wishes for a photo of his friend, Lani the goat. -->
+      <Text>The Shepherd wishes for a photo of his friend, Lani the goat.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001615</GUID>
+      <!-- Quest | RQ_Nomad_GoatRun_Picturepuzzle | The Goat Escape -->
+      <Text>山羊集中營</Text>
+    </Text>
+    <Text>
+      <GUID>1404001616</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_GoatRun_QuestStart | Just like me they like to go gallivanting off. Could you help me find the goats before they eat Taborime dry? -->
+      <Text>牠們喜歡四處遊蕩，跟我一樣。你可以在牠們把塔伯里姆的草吃光之前幫我把牠們找回來嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001617</GUID>
+      <!-- CollectablePicturePuzzle | Goat walking | The scapegoats -->
+      <Text>代罪羔羊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001618</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Story | An Enbesan proverb says goats came into being the night after the creation of tej, after the Almighty overindulged. Certainly the beasts are wayward and oddly temperamental— often amusing except when they start destroying everything in sight. Herd them back into their pens before two-toed chaos befalls Taborime. -->
+      <Text>An Enbesan proverb says goats came into being the night after the creation of tej, after the Almighty overindulged. Certainly the beasts are wayward and oddly temperamental— often amusing except when they start destroying everything in sight. Herd them back into their pens before two-toed chaos befalls Taborime.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001619</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Hint | The goats are roaming through the city streets. -->
+      <Text>山羊在城市街道上遊蕩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001620</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_QuestStartSummary | The Shepherd needs your help catching his runaway goats. -->
+      <Text>牧羊人需要你幫忙抓住他逃走的山羊。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001621</GUID>
+      <!-- Quest | RQ_Nomad_ExoticNature_Photo | Zootopic -->
+      <Text>動物「圓」城市</Text>
+    </Text>
+    <Text>
+      <GUID>1404001622</GUID>
+      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestStart | Is it true that in your land there are places where animals of all reaches of creation live together in harmony? -->
+      <Text>你所掌管的土地上，真的有任何一種造物都能夠和諧共存的地方嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001623</GUID>
+      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestSuccess | In cages? They're not so free then... (sigh) Well, maybe it will at least help people better understand them... -->
+      <Text>關進籠子裡？這樣牠們就不自由了…… (嘆氣) 好吧，也許這至少能讓人類更了解牠們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001624</GUID>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
+      <Text>拜託，拍下我們在動物園的照片！這是小提摩西屈服於病痛之前最後的機會了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001625</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_Story | There has been much talk in Taborime of the wonders of Old World zoos. The Shepherd is awed at these rumours of a place where creatures from all walks of creation can live in harmony, and humbly requests photographic evidence of this earthly Eden. -->
+      <Text>There has been much talk in Taborime of the wonders of Old World zoos. The Shepherd is awed at these rumours of a place where creatures from all walks of creation can live in harmony, and humbly requests photographic evidence of this earthly Eden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001626</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_Hint | A picture of any zoo in the Old World will satisfy the Shepherd's request -->
+      <Text>任何一張舊世界的動物園照片都可以滿足牧羊人的需求。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001627</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestStartSummary | The Shepherd imagines Old World zoos as places of harmony and longs to see proof of this. -->
+      <Text>The Shepherd imagines Old World zoos as places of harmony and longs to see proof of this.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001628</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestSuccessSummary | The Shepherd is dejected to find zoos aren't all they cracked up to be. -->
+      <Text>牧羊人失望地發現動物園並不是如同其他人所吹噓的那樣。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001629</GUID>
+      <!-- A7_QuestPickupObject | RQ_Nomad_SongOfDurin_Transport | Verdant Verse -->
+      <Text>鬱鬱詩歌</Text>
+    </Text>
+    <Text>
+      <GUID>1404001630</GUID>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_QuestStart | I... wrote a poem because I worry for nature in Enbesa with all this building.  I wish the Emperor could hear it, but I doubt it will ever reach him… -->
+      <Text>我……寫了一首詩，因為看到了這些建築，我很擔心安貝沙的大自然。我希望皇帝能聽見，但我懷疑他大概不會聽到……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001631</GUID>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup | There’s a land where the mountains are nameless, and the rivers all run God knows where… -->
+      <Text>在這片土地上，高山無名、河流遍布，上帝才知道流向……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001632</GUID>
+      <!-- AudioText | AT_ADDON01_Ketema_IdleGossip02 | As a younger man I shared the dreams of the Shepherds, and to an extent still do. Enbesa must adapt if it is to rise anew. -->
+      <Text>以前較年輕的時候，我和牧羊人們有著同樣的夢想，而現在在某方面來說依舊如此。如果安貝沙想要重新崛起，就必須適應。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001633</GUID>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup2 | There’s a land where life and love is boundless, And soft scented honey wafts through the air. -->
+      <Text>在這片土地上，生命和愛無窮無際，空氣中瀰漫著淡淡的蜂蜜香。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001634</GUID>
+      <!-- QuestItem | QI Nomad Poem - Song of Durin | Shepherd's Paean to Nature -->
+      <Text>牧羊人的大自然頌歌</Text>
+    </Text>
+    <Text>
+      <GUID>1404001635</GUID>
+      <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001636</GUID>
+      <!-- Text | Smuggler_ShipInRange | Sail to [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>航向[AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001637</GUID>
+      <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
+      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001638</GUID>
+      <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
+      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001639</GUID>
+      <!-- Text | SmuggleQuest_Bente_TheArtOfHistory_HintText | Princess Qing tells me that some heirlooms belonging to her forefathers remain locked away at High Clarence Hall, and the Emperor has written to the Queen several times to ask for them back. I know it's naughty, but if you could somehow get them to the Princess, the world will be a better place for it. -->
+      <Text>Princess Qing tells me that some heirlooms belonging to her forefathers remain locked away at High Clarence Hall, and the Emperor has written to the Queen several times to ask for them back. I know it's naughty, but if you could somehow get them to the Princess, the world will be a better place for it.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001640</GUID>
+      <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001641</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_Story | Enbesa's rise from the ashes under Emperor Ketema has not come without cost, and much of what used to be lush greenland has fallen under the axe and machines of renewed industry. While the Shepherd understands the need for progress, he feels a softer path, more respectful of Nature, should be found. He has condensed his feelings in a short poem which he wishes you would convey to the Emperor in the hope that he will read it. -->
+      <Text>Enbesa's rise from the ashes under Emperor Ketema has not come without cost, and much of what used to be lush greenland has fallen under the axe and machines of renewed industry. While the Shepherd understands the need for progress, he feels a softer path, more respectful of Nature, should be found. He has condensed his feelings in a short poem which he wishes you would convey to the Emperor in the hope that he will read it.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001642</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_QuestStartSummary | The Shepherd asks you to convey a poem he wrote to Emperor Ketema. -->
+      <Text>牧羊人要求你將他寫的這首詩傳達給柯提馬皇帝。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001643</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_KetemaReplySummary | Ketema acknowledges the Shepherd's concerns. -->
+      <Text>柯提馬認知到牧羊人的顧慮。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001644</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2 | The young poet proudly shares the second half of his poem with you. -->
+      <Text>這名年輕的詩人驕傲地與你分享詩作的另一半。</Text>
+    </Text>
   </ModOp>
 </ModOps>

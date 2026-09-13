@@ -338,7 +338,7 @@
                                                         <Values>
                                                             <SpawnArea>
                                                                 <SpawnContext>Object</SpawnContext>
-                                                                <MatcherGUID>118757</MatcherGUID>
+                                                                <MatcherGUID>1404001645</MatcherGUID>
                                                                 <LimitToQuestArea>1</LimitToQuestArea>
                                                                 <DistanceToContext>10</DistanceToContext>
                                                                 <MinObjectDistance>5</MinObjectDistance>
@@ -377,7 +377,7 @@
                                                 <Values>
                                                     <SpawnArea>
                                                         <SpawnContext>Area</SpawnContext>
-                                                        <MatcherGUID>118757</MatcherGUID>
+                                                        <MatcherGUID>1404001645</MatcherGUID>
                                                         <LimitToQuestArea>1</LimitToQuestArea>
                                                         <DistanceToContext>5</DistanceToContext>
                                                         <DistanceToBorder>Near</DistanceToBorder>

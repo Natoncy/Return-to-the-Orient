@@ -1,4 +1,4 @@
-<ModOps>
+﻿<ModOps>
 
     <ModOp Type="addNextSibling" GUID="153293">
         <Asset>
@@ -12,25 +12,76 @@
                 <QuestPool>
                     <Quests>
                         <Item>
-                            <Quest>1414041300</Quest>
+                            <Quest>1404001275</Quest>
                         </Item>
                         <Item>
-                            <Quest>1414041800</Quest>
+                            <Quest>1404001290</Quest>
                         </Item>
                         <Item>
-                            <Quest>1414042000</Quest>
+                            <Quest>1404001296</Quest>
                         </Item>
                         <Item>
-                            <Quest>1414043000</Quest>
+                            <Quest>1404001304</Quest>
                         </Item>
                         <Item>
-                            <Quest>1414043500</Quest>
+                            <Quest>1404001313</Quest>
                         </Item>
                         <Item>
-                            <Quest>1414043300</Quest>
+                            <Quest>1404001321</Quest>
                         </Item>
                         <Item>
-                            <Quest>1414042900</Quest>
+                            <Quest>1404001330</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001351</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001358</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001376</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001381</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001387</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001397</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001405</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001412</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001426</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001436</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001455</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001459</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001465</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001470</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001474</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001480</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001504</Quest>
                         </Item>
                     </Quests>
                     <PoolCooldown>9000000</PoolCooldown>
@@ -39,8 +90,7 @@
                     <QuestCooldown>90000000</QuestCooldown>
                     <SessionDependencies>
                         <Item>
-                            <SessionOrRegion>112132</SessionOrRegion>
-                            <!--African_Session-->
+                            <SessionOrRegion>1404000000</SessionOrRegion>
                         </Item>
                     </SessionDependencies>
                     <QuestPoolActionCallbacks>

@@ -1,0 +1,136 @@
+<ModOps>
+
+    <!-- Orient counterparts of the vanilla Enbesa quest matchers.                       -->
+    <!-- Vanilla ElderMatcher (118757) matches residence_colony02_tier02 (114437) and    -->
+    <!-- ShepherdMatcher (118763) matches residence_colony02_tier01 (114436), neither of -->
+    <!-- which exists in the Orient. These match the mod's own residences instead, so    -->
+    <!-- quest starter objects find a spawn area. The vanilla matchers are left          -->
+    <!-- untouched so the Enbesa elder/shepherd quests keep working in the same save.    -->
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>Matcher</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001645</GUID>
+                    <Name>OrientEnvoyMatcher</Name>
+                </Standard>
+                <Matcher>
+                    <Criterion>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <MatcherCriterion />
+                            <MatcherCriterionAnd>
+                                <CriterionOperandListAnd>
+                                    <Item>
+                                        <VectorElement>
+                                            <InheritedIndex>0</InheritedIndex>
+                                            <InheritanceMapV2>
+                                                <Entry>
+                                                    <TemplateName>MatcherCriterionAnd</TemplateName>
+                                                    <Index>0</Index>
+                                                </Entry>
+                                            </InheritanceMapV2>
+                                        </VectorElement>
+                                        <CriterionOperand>
+                                            <Template>MatcherCriterionGUID</Template>
+                                            <Values>
+                                                <MatcherCriterion />
+                                                <MatcherCriterionGUID>
+                                                    <ObjectMatched>1404000017</ObjectMatched>
+                                                    <!--residence_orient_tier02 (Envoys)-->
+                                                </MatcherCriterionGUID>
+                                            </Values>
+                                        </CriterionOperand>
+                                    </Item>
+                                    <Item>
+                                        <VectorElement>
+                                            <InheritedIndex>1</InheritedIndex>
+                                            <InheritanceMapV2>
+                                                <Entry>
+                                                    <TemplateName>MatcherCriterionAnd</TemplateName>
+                                                    <Index>1</Index>
+                                                </Entry>
+                                            </InheritanceMapV2>
+                                        </VectorElement>
+                                        <CriterionOperand>
+                                            <Template>MatcherCriterionOwner</Template>
+                                            <Values>
+                                                <MatcherCriterion />
+                                                <MatcherCriterionOwner>
+                                                    <UseProcessingParticipant>1</UseProcessingParticipant>
+                                                </MatcherCriterionOwner>
+                                            </Values>
+                                        </CriterionOperand>
+                                    </Item>
+                                </CriterionOperandListAnd>
+                            </MatcherCriterionAnd>
+                        </Values>
+                    </Criterion>
+                </Matcher>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Matcher</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001646</GUID>
+                    <Name>OrientNomadMatcher</Name>
+                </Standard>
+                <Matcher>
+                    <Criterion>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <MatcherCriterion />
+                            <MatcherCriterionAnd>
+                                <CriterionOperandListAnd>
+                                    <Item>
+                                        <VectorElement>
+                                            <InheritedIndex>0</InheritedIndex>
+                                            <InheritanceMapV2>
+                                                <Entry>
+                                                    <TemplateName>MatcherCriterionAnd</TemplateName>
+                                                    <Index>0</Index>
+                                                </Entry>
+                                            </InheritanceMapV2>
+                                        </VectorElement>
+                                        <CriterionOperand>
+                                            <Template>MatcherCriterionGUID</Template>
+                                            <Values>
+                                                <MatcherCriterion />
+                                                <MatcherCriterionGUID>
+                                                    <ObjectMatched>1404000016</ObjectMatched>
+                                                    <!--residence_orient_tier01 (Nomads)-->
+                                                </MatcherCriterionGUID>
+                                            </Values>
+                                        </CriterionOperand>
+                                    </Item>
+                                    <Item>
+                                        <VectorElement>
+                                            <InheritedIndex>1</InheritedIndex>
+                                            <InheritanceMapV2>
+                                                <Entry>
+                                                    <TemplateName>MatcherCriterionAnd</TemplateName>
+                                                    <Index>1</Index>
+                                                </Entry>
+                                            </InheritanceMapV2>
+                                        </VectorElement>
+                                        <CriterionOperand>
+                                            <Template>MatcherCriterionOwner</Template>
+                                            <Values>
+                                                <MatcherCriterion />
+                                                <MatcherCriterionOwner>
+                                                    <UseProcessingParticipant>1</UseProcessingParticipant>
+                                                </MatcherCriterionOwner>
+                                            </Values>
+                                        </CriterionOperand>
+                                    </Item>
+                                </CriterionOperandListAnd>
+                            </MatcherCriterionAnd>
+                        </Values>
+                    </Criterion>
+                </Matcher>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

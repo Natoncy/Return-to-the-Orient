@@ -172,7 +172,7 @@
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <MatcherGUID>118763</MatcherGUID>
+                                                    <MatcherGUID>1404001646</MatcherGUID>
                                                     <DistanceToContext>5</DistanceToContext>
                                                 </SpawnArea>
                                                 <SessionFilter>
@@ -499,7 +499,7 @@
                                                 <Values>
                                                     <SpawnArea>
                                                         <SpawnContext>Area</SpawnContext>
-                                                        <MatcherGUID>118763</MatcherGUID>
+                                                        <MatcherGUID>1404001646</MatcherGUID>
                                                         <LimitToQuestArea>1</LimitToQuestArea>
                                                         <DistanceToContext>5</DistanceToContext>
                                                         <DistanceToBorder>Near</DistanceToBorder>
