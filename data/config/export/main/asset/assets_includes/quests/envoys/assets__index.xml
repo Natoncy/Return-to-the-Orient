@@ -1,0 +1,28 @@
+<ModOps>
+
+    <Include File="assets_118764_traditionkeeper1_invitation_decision.xml" />
+    <Include File="assets_118765_traditionkeeper2_bullceremony_picturepuzzle.xml" />
+    <Include File="assets_118772_traditionkeeper5_aida_select.xml" />
+    <Include File="assets_118753_kidsnowadays1_takechristmasaway_picturepuzzle.xml" />
+    <Include File="assets_118758_kidsnowadays2_makethemwork_picturepuzzle.xml" />
+    <Include File="assets_118760_kidsnowadays3_publicconfession_photo.xml" />
+    <Include File="assets_118774_iamthesenate1_speech_decision.xml" />
+    <Include File="assets_118781_iamthesenate2_stuffballots_select.xml" />
+    <Include File="assets_118775_iamthesenate3_ruiningreputation_select.xml" />
+    <Include File="assets_118785_iamthesenate5_duralexsedlex_statusquo.xml" />
+    <Include File="assets_118876_higherbynature1_gold_deliver.xml" />
+    <Include File="assets_118878_higherbynature2_beggars_picturepuzzle.xml" />
+    <Include File="assets_118879_higherbynature3_helpingindigents_deliver.xml" />
+    <Include File="assets_118880_higherbynature4a_timqetfestival_deliver.xml" />
+    <Include File="assets_118883_higherbynature5_fruitbasket_select.xml" />
+    <Include File="assets_118890_higherbynature6_fasting_sustain.xml" />
+    <Include File="assets_118787_storyteller_decision.xml" />
+    <Include File="assets_118858_learningfromthose_deliver.xml" />
+    <Include File="assets_118859_cleanupyourmess_picturepuzzle.xml" />
+    <Include File="assets_118861_setrightexemple_solveincident.xml" />
+    <Include File="assets_118864_cupoftea_deliver.xml" />
+    <Include File="assets_118865_daycare_build.xml" />
+    <Include File="assets_118867_visitingrelatives_transport.xml" />
+    <Include File="assets_118868_realitycheck_select.xml" />
+
+</ModOps>

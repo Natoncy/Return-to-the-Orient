@@ -1,0 +1,582 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>Quest</Template>
+            <Values>
+                <Standard>
+                    <GUID>118975</GUID>
+                    <Name>RQ_Nomad_ExoticNature_Photo</Name>
+                </Standard>
+                <Quest>
+                    <StarterMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StarterMessage>
+                    <SuccessMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000018</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>119330</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>119329</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </SuccessMessage>
+                    <FailureMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </FailureMessage>
+                    <SelectionReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SelectionReminderMessage>
+                    <AbortedManuallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedManuallyMessage>
+                    <AbortedAutomaticallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedAutomaticallyMessage>
+                    <InvitationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000018</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>119328</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>119327</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </InvitationMessage>
+                    <EscortShipSelectedMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </EscortShipSelectedMessage>
+                    <ReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ReminderMessage>
+                    <ResolveConfirmationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ResolveConfirmationMessage>
+                    <InvitationSmugglerQuestMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </InvitationSmugglerQuestMessage>
+                    <SmugglerQuestTradingStationReached>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SmugglerQuestTradingStationReached>
+                    <StartInvitationGiveItemMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartInvitationGiveItemMessage>
+                    <StartFollowShipMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartFollowShipMessage>
+                    <OnQuestStart>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestStart>
+                    <OnQuestDeclined>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDeclined>
+                    <OnQuestActive>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestActive>
+                    <OnQuestAborted>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestAborted>
+                    <OnQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestTimedOut>
+                    <OnActiveQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnActiveQuestTimedOut>
+                    <OnQuestFailed>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestFailed>
+                    <OnQuestDiscarded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDiscarded>
+                    <OnQuestSucceeded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestSucceeded>
+                    <OnQuestEnd>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestEnd>
+                    <OnPhotographySuccessNewspaperAction>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Action />
+                            <ActionForceNewspaper />
+                        </Values>
+                    </OnPhotographySuccessNewspaperAction>
+                    <QuestGiver>1404000018</QuestGiver>
+                    <StoryText>119325</StoryText>
+                    <QuestCategory>RandomQuest</QuestCategory>
+                    <QuestActivation>ManualActivation</QuestActivation>
+                    <IsAbortable>1</IsAbortable>
+                    <QuestTrackerVisibility>Global</QuestTrackerVisibility>
+                    <ConfirmOnReachedCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ConditionQuestResolveConfirmation />
+                            <Condition />
+                            <ConditionQuestObjective />
+                        </Values>
+                    </ConfirmOnReachedCondition>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
+                    <ReputationQuestFail>
+                        <ReputationFailList />
+                    </ReputationQuestFail>
+                    <QuestHints>
+                        <Item>
+                            <Text>17675</Text>
+                        </Item>
+                        <Item>
+                            <Text>119326</Text>
+                        </Item>
+                    </QuestHints>
+                    <StarterSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction>
+                                <HintText>15502</HintText>
+                                <ObjectFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ObjectFilter>
+                                            <ObjectGUID>101659</ObjectGUID>
+                                        </ObjectFilter>
+                                    </Values>
+                                </ObjectFilter>
+                                <UseSpecificPortrait>1</UseSpecificPortrait>
+                                <SpecificPortraitProfile>87</SpecificPortraitProfile>
+                            </ConditionTutorialInteraction>
+                        </Values>
+                    </StarterSpeechBubble>
+                    <SuccessSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction />
+                        </Values>
+                    </SuccessSpeechBubble>
+                </Quest>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                    <SubConditions>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <Context>1010470</Context>
+                                                    <CounterAmount>1</CounterAmount>
+                                                    <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                    </SubConditions>
+                </PreConditionList>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Zootopic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>43807</LineID>
+                </Text>
+                <Reward>
+                    <RewardAssets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Quest</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Quest</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Reward>130369</Reward>
+                            <SentToQuestArea>1</SentToQuestArea>
+                            <IsDisguised>1</IsDisguised>
+                        </Item>
+                    </RewardAssets>
+                    <RewardReputation />
+                </Reward>
+                <Objectives>
+                    <WinConditions>
+                        <Item>
+                            <Objective>
+                                <Template>PhotographyObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>13010</TextCombinedContextValue>
+                                        <ObjectiveSignsAndFeedback>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ConditionObjectiveSignsAndFeedback>
+                                                    <Infolayer>501017</Infolayer>
+                                                </ConditionObjectiveSignsAndFeedback>
+                                            </Values>
+                                        </ObjectiveSignsAndFeedback>
+                                    </ConditionQuestObjective>
+                                    <ConditionQuestPhotography>
+                                        <PhotographyObjectList>
+                                            <Item>
+                                                <Entry>
+                                                    <Template>ConditionObjectPrebuiltObject</Template>
+                                                    <Values>
+                                                        <ConditionObjectPrebuiltObject>
+                                                            <PrebuiltObject>1010470</PrebuiltObject>
+                                                        </ConditionObjectPrebuiltObject>
+                                                        <ConditionScanner />
+                                                        <ConditionObjectiveSignsAndFeedback>
+                                                            <Infolayer>0</Infolayer>
+                                                        </ConditionObjectiveSignsAndFeedback>
+                                                    </Values>
+                                                </Entry>
+                                                <CircleAreaPercentage>2</CircleAreaPercentage>
+                                            </Item>
+                                        </PhotographyObjectList>
+                                    </ConditionQuestPhotography>
+                                    <ConditionPropsExecutionPlaceSettings />
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                </Objectives>
+                <QuestOptional>
+                    <HasStarterObject>Specific</HasStarterObject>
+                    <StarterObject>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionStarterObject>
+                                <StarterObjectObject>
+                                    <Template>ConditionObjectSpawnedObject</Template>
+                                    <Values>
+                                        <ConditionObjectSpawnedObject>
+                                            <ExecutionObject>118755</ExecutionObject>
+                                            <ObjectSpawnArea>
+                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                <Values>
+                                                    <SpawnArea>
+                                                        <SpawnContext>Area</SpawnContext>
+                                                        <MatcherGUID>118763</MatcherGUID>
+                                                        <LimitToQuestArea>1</LimitToQuestArea>
+                                                        <DistanceToContext>5</DistanceToContext>
+                                                        <DistanceToBorder>Near</DistanceToBorder>
+                                                        <DistanceToIsland>Far</DistanceToIsland>
+                                                    </SpawnArea>
+                                                </Values>
+                                            </ObjectSpawnArea>
+                                        </ConditionObjectSpawnedObject>
+                                        <ConditionScanner />
+                                        <ConditionObjectiveSignsAndFeedback />
+                                    </Values>
+                                </StarterObjectObject>
+                            </ConditionStarterObject>
+                            <ConditionQuestObjective>
+                                <ObjectiveSignsAndFeedback>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ConditionObjectiveSignsAndFeedback>
+                                            <Infolayer>501006</Infolayer>
+                                        </ConditionObjectiveSignsAndFeedback>
+                                    </Values>
+                                </ObjectiveSignsAndFeedback>
+                            </ConditionQuestObjective>
+                            <ConditionPropsSessionSettings />
+                        </Values>
+                    </StarterObject>
+                </QuestOptional>
+            </Values>
+        </Asset>
+
+        <!-- referenced vanilla assets, copied from _original_assets.xml -->
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Is it true that in your land there are places where animals of all reaches of creation live together in harmony?</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41381</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>277532</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>119327</GUID>
+                    <Name>RQ_Nomad_Photo_ExoticNature_QuestStart</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>In cages? They're not so free then... (sigh) Well, maybe it will at least help people better understand them...</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41382</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>277533</AudioAsset>
+                    <Mood>Negative</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>119329</GUID>
+                    <Name>RQ_Nomad_Photo_ExoticNature_QuestSuccess</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>15502</GUID>
+                    <Name>RQ_Artisans_FamilyZoo_HintText</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>20300</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119325</GUID>
+                    <Name>RQ_Nomad_Photo_ExoticNature_Story</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>There has been much talk in Taborime of the wonders of Old World zoos. The Shepherd is awed at these rumours of a place where creatures from all walks of creation can live in harmony, and humbly requests photographic evidence of this earthly Eden.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44177</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119326</GUID>
+                    <Name>RQ_Nomad_Photo_ExoticNature_Hint</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A picture of any zoo in the Old World will satisfy the Shepherd's request</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44178</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119328</GUID>
+                    <Name>RQ_Nomad_Photo_ExoticNature_QuestStartSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Shepherd imagines Old World zoos as places of harmony and longs to see proof of this.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44179</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119330</GUID>
+                    <Name>RQ_Nomad_Photo_ExoticNature_QuestSuccessSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Shepherd is dejected to find zoos aren't all they cracked up to be.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -14,7 +14,7 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 TODO:
 - Population quests
-
+- Update Readme/Mod.io Description
 
 Bugs:
 - Festival icon not showing

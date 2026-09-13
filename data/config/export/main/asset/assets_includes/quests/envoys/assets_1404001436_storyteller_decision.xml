@@ -1,0 +1,1020 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>A7_QuestDecision</Template>
+            <Values>
+                <Standard>
+                    <GUID>118787</GUID>
+                    <Name>RQ_Envoy_Storyteller_Decision</Name>
+                </Standard>
+                <Quest>
+                    <StarterMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StarterMessage>
+                    <SuccessMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SuccessMessage>
+                    <FailureMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </FailureMessage>
+                    <SelectionReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SelectionReminderMessage>
+                    <AbortedManuallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedManuallyMessage>
+                    <AbortedAutomaticallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedAutomaticallyMessage>
+                    <InvitationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000019</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>119369</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>119368</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </InvitationMessage>
+                    <EscortShipSelectedMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </EscortShipSelectedMessage>
+                    <ReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ReminderMessage>
+                    <ResolveConfirmationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ResolveConfirmationMessage>
+                    <InvitationSmugglerQuestMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </InvitationSmugglerQuestMessage>
+                    <SmugglerQuestTradingStationReached>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SmugglerQuestTradingStationReached>
+                    <StartInvitationGiveItemMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartInvitationGiveItemMessage>
+                    <StartFollowShipMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartFollowShipMessage>
+                    <OnQuestStart>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestStart>
+                    <OnQuestDeclined>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDeclined>
+                    <OnQuestActive>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestActive>
+                    <OnQuestAborted>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestAborted>
+                    <OnQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestTimedOut>
+                    <OnActiveQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnActiveQuestTimedOut>
+                    <OnQuestFailed>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestFailed>
+                    <OnQuestDiscarded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDiscarded>
+                    <OnQuestSucceeded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestSucceeded>
+                    <OnQuestEnd>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestEnd>
+                    <OnPhotographySuccessNewspaperAction>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Action />
+                            <ActionForceNewspaper />
+                        </Values>
+                    </OnPhotographySuccessNewspaperAction>
+                    <QuestGiver>1404000019</QuestGiver>
+                    <StoryText>118790</StoryText>
+                    <QuestActivation>ManualActivation</QuestActivation>
+                    <IsAbortable>1</IsAbortable>
+                    <ConfirmOnReachedCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ConditionQuestResolveConfirmation />
+                            <Condition />
+                            <ConditionQuestObjective />
+                        </Values>
+                    </ConfirmOnReachedCondition>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
+                    <ReputationQuestFail>
+                        <ReputationFailList />
+                    </ReputationQuestFail>
+                    <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
+                    <StarterSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction>
+                                <HintText>15437</HintText>
+                                <ObjectFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ObjectFilter>
+                                            <ObjectGUID>101594</ObjectGUID>
+                                        </ObjectFilter>
+                                    </Values>
+                                </ObjectFilter>
+                                <UseSpecificPortrait>1</UseSpecificPortrait>
+                                <SpecificPortraitProfile>86</SpecificPortraitProfile>
+                            </ConditionTutorialInteraction>
+                        </Values>
+                    </StarterSpeechBubble>
+                    <SuccessSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction />
+                        </Values>
+                    </SuccessSpeechBubble>
+                </Quest>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                </PreConditionList>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Fable Foible</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44603</LineID>
+                </Text>
+                <Reward>
+                    <RewardAssets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestDecision</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestDecision</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Reward>130378</Reward>
+                            <SentToQuestArea>1</SentToQuestArea>
+                            <IsDisguised>1</IsDisguised>
+                        </Item>
+                    </RewardAssets>
+                    <RewardReputation />
+                </Reward>
+                <Objectives>
+                    <WinConditions>
+                        <Item>
+                            <Objective>
+                                <Template>DecisionObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>130628</TextCombinedContextValue>
+                                        <QuestTrackerIcon>data/ui/2kimages/main/icons/icon_proposals_negotiate.png</QuestTrackerIcon>
+                                    </ConditionQuestObjective>
+                                    <ConditionQuestDecision>
+                                        <DecisionBG>data/ui/2kimages/main/assets16/decision_quest/bg_decision_quest_lol_lion.png</DecisionBG>
+                                        <DecisionList>
+                                            <Item>
+                                                <Decision>
+                                                    <Template>ConditionDecision</Template>
+                                                    <Values>
+                                                        <Condition />
+                                                        <ConditionDecision>
+                                                            <DecisionFluffText>119370</DecisionFluffText>
+                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionOptionList>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119371</DecisionOptionText>
+                                                                                <FollowUpDecisionList>
+                                                                                    <Item>
+                                                                                        <FollowUpDecision>
+                                                                                            <Template>ConditionDecision</Template>
+                                                                                            <Values>
+                                                                                                <Condition />
+                                                                                                <ConditionDecision>
+                                                                                                    <DecisionFluffText>119373</DecisionFluffText>
+                                                                                                    <DecisionPortrait>114622</DecisionPortrait>
+                                                                                                    <DecisionOptionList>
+                                                                                                        <Item>
+                                                                                                            <DecisionOption>
+                                                                                                                <Template>ConditionDecisionOption</Template>
+                                                                                                                <Values>
+                                                                                                                    <Condition />
+                                                                                                                    <ConditionDecisionOption>
+                                                                                                                        <DecisionOptionText>119374</DecisionOptionText>
+                                                                                                                        <FollowUpDecisionList>
+                                                                                                                            <Item>
+                                                                                                                                <FollowUpDecision>
+                                                                                                                                    <Template>ConditionDecision</Template>
+                                                                                                                                    <Values>
+                                                                                                                                        <Condition />
+                                                                                                                                        <ConditionDecision>
+                                                                                                                                            <DecisionFluffText>119376</DecisionFluffText>
+                                                                                                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                                                                                                            <DecisionOptionList>
+                                                                                                                                                <Item>
+                                                                                                                                                    <DecisionOption>
+                                                                                                                                                        <Template>ConditionDecisionOption</Template>
+                                                                                                                                                        <Values>
+                                                                                                                                                            <Condition />
+                                                                                                                                                            <ConditionDecisionOption>
+                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <ActionList>
+                                                                                                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                                                                                                    <Values>
+                                                                                                                                                                        <ActionList>
+                                                                                                                                                                            <Actions>
+                                                                                                                                                                                <Item>
+                                                                                                                                                                                    <Action>
+                                                                                                                                                                                        <Template>ActionPlaySound</Template>
+                                                                                                                                                                                        <Values>
+                                                                                                                                                                                            <Action />
+                                                                                                                                                                                            <ActionPlaySound>
+                                                                                                                                                                                                <Sound>277080</Sound>
+                                                                                                                                                                                            </ActionPlaySound>
+                                                                                                                                                                                        </Values>
+                                                                                                                                                                                    </Action>
+                                                                                                                                                                                </Item>
+                                                                                                                                                                            </Actions>
+                                                                                                                                                                        </ActionList>
+                                                                                                                                                                    </Values>
+                                                                                                                                                                </ActionList>
+                                                                                                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                                                                                                            </ConditionDecisionOption>
+                                                                                                                                                        </Values>
+                                                                                                                                                    </DecisionOption>
+                                                                                                                                                </Item>
+                                                                                                                                            </DecisionOptionList>
+                                                                                                                                        </ConditionDecision>
+                                                                                                                                    </Values>
+                                                                                                                                </FollowUpDecision>
+                                                                                                                            </Item>
+                                                                                                                        </FollowUpDecisionList>
+                                                                                                                    </ConditionDecisionOption>
+                                                                                                                </Values>
+                                                                                                            </DecisionOption>
+                                                                                                        </Item>
+                                                                                                        <Item>
+                                                                                                            <DecisionOption>
+                                                                                                                <Template>ConditionDecisionOption</Template>
+                                                                                                                <Values>
+                                                                                                                    <Condition />
+                                                                                                                    <ConditionDecisionOption>
+                                                                                                                        <DecisionOptionText>119375</DecisionOptionText>
+                                                                                                                        <FollowUpDecisionList>
+                                                                                                                            <Item>
+                                                                                                                                <FollowUpDecision>
+                                                                                                                                    <Template>ConditionDecision</Template>
+                                                                                                                                    <Values>
+                                                                                                                                        <Condition />
+                                                                                                                                        <ConditionDecision>
+                                                                                                                                            <DecisionFluffText>119377</DecisionFluffText>
+                                                                                                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                                                                                                            <DecisionOptionList>
+                                                                                                                                                <Item>
+                                                                                                                                                    <DecisionOption>
+                                                                                                                                                        <Template>ConditionDecisionOption</Template>
+                                                                                                                                                        <Values>
+                                                                                                                                                            <Condition />
+                                                                                                                                                            <ConditionDecisionOption>
+                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <ActionList>
+                                                                                                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                                                                                                    <Values>
+                                                                                                                                                                        <ActionList>
+                                                                                                                                                                            <Actions>
+                                                                                                                                                                                <Item>
+                                                                                                                                                                                    <Action>
+                                                                                                                                                                                        <Template>ActionPlaySound</Template>
+                                                                                                                                                                                        <Values>
+                                                                                                                                                                                            <Action />
+                                                                                                                                                                                            <ActionPlaySound>
+                                                                                                                                                                                                <Sound>277019</Sound>
+                                                                                                                                                                                            </ActionPlaySound>
+                                                                                                                                                                                        </Values>
+                                                                                                                                                                                    </Action>
+                                                                                                                                                                                </Item>
+                                                                                                                                                                            </Actions>
+                                                                                                                                                                        </ActionList>
+                                                                                                                                                                    </Values>
+                                                                                                                                                                </ActionList>
+                                                                                                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                                                                                                            </ConditionDecisionOption>
+                                                                                                                                                        </Values>
+                                                                                                                                                    </DecisionOption>
+                                                                                                                                                </Item>
+                                                                                                                                            </DecisionOptionList>
+                                                                                                                                        </ConditionDecision>
+                                                                                                                                    </Values>
+                                                                                                                                </FollowUpDecision>
+                                                                                                                            </Item>
+                                                                                                                        </FollowUpDecisionList>
+                                                                                                                    </ConditionDecisionOption>
+                                                                                                                </Values>
+                                                                                                            </DecisionOption>
+                                                                                                        </Item>
+                                                                                                    </DecisionOptionList>
+                                                                                                </ConditionDecision>
+                                                                                            </Values>
+                                                                                        </FollowUpDecision>
+                                                                                    </Item>
+                                                                                </FollowUpDecisionList>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119372</DecisionOptionText>
+                                                                                <FollowUpDecisionList>
+                                                                                    <Item>
+                                                                                        <FollowUpDecision>
+                                                                                            <Template>ConditionDecision</Template>
+                                                                                            <Values>
+                                                                                                <Condition />
+                                                                                                <ConditionDecision>
+                                                                                                    <DecisionFluffText>119378</DecisionFluffText>
+                                                                                                    <DecisionPortrait>114622</DecisionPortrait>
+                                                                                                    <DecisionOptionList>
+                                                                                                        <Item>
+                                                                                                            <DecisionOption>
+                                                                                                                <Template>ConditionDecisionOption</Template>
+                                                                                                                <Values>
+                                                                                                                    <Condition />
+                                                                                                                    <ConditionDecisionOption>
+                                                                                                                        <DecisionOptionText>119379</DecisionOptionText>
+                                                                                                                        <FollowUpDecisionList>
+                                                                                                                            <Item>
+                                                                                                                                <FollowUpDecision>
+                                                                                                                                    <Template>ConditionDecision</Template>
+                                                                                                                                    <Values>
+                                                                                                                                        <Condition />
+                                                                                                                                        <ConditionDecision>
+                                                                                                                                            <DecisionFluffText>119381</DecisionFluffText>
+                                                                                                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                                                                                                            <DecisionOptionList>
+                                                                                                                                                <Item>
+                                                                                                                                                    <DecisionOption>
+                                                                                                                                                        <Template>ConditionDecisionOption</Template>
+                                                                                                                                                        <Values>
+                                                                                                                                                            <Condition />
+                                                                                                                                                            <ConditionDecisionOption>
+                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <ActionList>
+                                                                                                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                                                                                                    <Values>
+                                                                                                                                                                        <ActionList>
+                                                                                                                                                                            <Actions>
+                                                                                                                                                                                <Item>
+                                                                                                                                                                                    <Action>
+                                                                                                                                                                                        <Template>ActionPlaySound</Template>
+                                                                                                                                                                                        <Values>
+                                                                                                                                                                                            <Action />
+                                                                                                                                                                                            <ActionPlaySound>
+                                                                                                                                                                                                <Sound>277081</Sound>
+                                                                                                                                                                                            </ActionPlaySound>
+                                                                                                                                                                                        </Values>
+                                                                                                                                                                                    </Action>
+                                                                                                                                                                                </Item>
+                                                                                                                                                                            </Actions>
+                                                                                                                                                                        </ActionList>
+                                                                                                                                                                    </Values>
+                                                                                                                                                                </ActionList>
+                                                                                                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                                                                                                            </ConditionDecisionOption>
+                                                                                                                                                        </Values>
+                                                                                                                                                    </DecisionOption>
+                                                                                                                                                </Item>
+                                                                                                                                            </DecisionOptionList>
+                                                                                                                                        </ConditionDecision>
+                                                                                                                                    </Values>
+                                                                                                                                </FollowUpDecision>
+                                                                                                                            </Item>
+                                                                                                                        </FollowUpDecisionList>
+                                                                                                                    </ConditionDecisionOption>
+                                                                                                                </Values>
+                                                                                                            </DecisionOption>
+                                                                                                        </Item>
+                                                                                                        <Item>
+                                                                                                            <DecisionOption>
+                                                                                                                <Template>ConditionDecisionOption</Template>
+                                                                                                                <Values>
+                                                                                                                    <Condition />
+                                                                                                                    <ConditionDecisionOption>
+                                                                                                                        <DecisionOptionText>119380</DecisionOptionText>
+                                                                                                                        <FollowUpDecisionList>
+                                                                                                                            <Item>
+                                                                                                                                <FollowUpDecision>
+                                                                                                                                    <Template>ConditionDecision</Template>
+                                                                                                                                    <Values>
+                                                                                                                                        <Condition />
+                                                                                                                                        <ConditionDecision>
+                                                                                                                                            <DecisionFluffText>119382</DecisionFluffText>
+                                                                                                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                                                                                                            <DecisionOptionList>
+                                                                                                                                                <Item>
+                                                                                                                                                    <DecisionOption>
+                                                                                                                                                        <Template>ConditionDecisionOption</Template>
+                                                                                                                                                        <Values>
+                                                                                                                                                            <Condition />
+                                                                                                                                                            <ConditionDecisionOption>
+                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <ActionList>
+                                                                                                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                                                                                                    <Values>
+                                                                                                                                                                        <ActionList>
+                                                                                                                                                                            <Actions>
+                                                                                                                                                                                <Item>
+                                                                                                                                                                                    <Action>
+                                                                                                                                                                                        <Template>ActionPlaySound</Template>
+                                                                                                                                                                                        <Values>
+                                                                                                                                                                                            <Action />
+                                                                                                                                                                                            <ActionPlaySound>
+                                                                                                                                                                                                <Sound>276992</Sound>
+                                                                                                                                                                                            </ActionPlaySound>
+                                                                                                                                                                                        </Values>
+                                                                                                                                                                                    </Action>
+                                                                                                                                                                                </Item>
+                                                                                                                                                                            </Actions>
+                                                                                                                                                                        </ActionList>
+                                                                                                                                                                    </Values>
+                                                                                                                                                                </ActionList>
+                                                                                                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                                                                                                            </ConditionDecisionOption>
+                                                                                                                                                        </Values>
+                                                                                                                                                    </DecisionOption>
+                                                                                                                                                </Item>
+                                                                                                                                            </DecisionOptionList>
+                                                                                                                                        </ConditionDecision>
+                                                                                                                                    </Values>
+                                                                                                                                </FollowUpDecision>
+                                                                                                                            </Item>
+                                                                                                                        </FollowUpDecisionList>
+                                                                                                                    </ConditionDecisionOption>
+                                                                                                                </Values>
+                                                                                                            </DecisionOption>
+                                                                                                        </Item>
+                                                                                                    </DecisionOptionList>
+                                                                                                </ConditionDecision>
+                                                                                            </Values>
+                                                                                        </FollowUpDecision>
+                                                                                    </Item>
+                                                                                </FollowUpDecisionList>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                            </DecisionOptionList>
+                                                        </ConditionDecision>
+                                                    </Values>
+                                                </Decision>
+                                            </Item>
+                                        </DecisionList>
+                                    </ConditionQuestDecision>
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                </Objectives>
+                <QuestOptional>
+                    <HasStarterObject>Specific</HasStarterObject>
+                    <StarterObject>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionStarterObject>
+                                <StarterObjectObject>
+                                    <Template>ConditionObjectSpawnedObject</Template>
+                                    <Values>
+                                        <ConditionObjectSpawnedObject>
+                                            <ExecutionObject>118754</ExecutionObject>
+                                            <ObjectSpawnArea>
+                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                <Values>
+                                                    <SpawnArea>
+                                                        <SpawnContext>Area</SpawnContext>
+                                                        <MatcherGUID>118757</MatcherGUID>
+                                                        <LimitToQuestArea>1</LimitToQuestArea>
+                                                        <DistanceToContext>5</DistanceToContext>
+                                                        <DistanceToBorder>Near</DistanceToBorder>
+                                                        <DistanceToIsland>Far</DistanceToIsland>
+                                                    </SpawnArea>
+                                                </Values>
+                                            </ObjectSpawnArea>
+                                        </ConditionObjectSpawnedObject>
+                                        <ConditionScanner />
+                                        <ConditionObjectiveSignsAndFeedback />
+                                    </Values>
+                                </StarterObjectObject>
+                            </ConditionStarterObject>
+                            <ConditionQuestObjective>
+                                <ObjectiveSignsAndFeedback>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ConditionObjectiveSignsAndFeedback>
+                                            <Infolayer>501006</Infolayer>
+                                        </ConditionObjectiveSignsAndFeedback>
+                                    </Values>
+                                </ObjectiveSignsAndFeedback>
+                            </ConditionQuestObjective>
+                            <ConditionPropsSessionSettings />
+                        </Values>
+                    </StarterObject>
+                </QuestOptional>
+            </Values>
+        </Asset>
+
+        <!-- referenced vanilla assets, copied from _original_assets.xml -->
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>It is storytelling time for the younger ones, to teach them virtue and piety, but I... seem to have forgotten some parts of the tale.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41028</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>278271</AudioAsset>
+                </AudioText>
+                <Standard>
+                    <GUID>119368</GUID>
+                    <Name>RQ_Envoy_Storyteller_QuestStart</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118790</GUID>
+                    <Name>RQ_Envoy_Storyteller_Story</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Elder needs your help patching together an educational story for the children's Tale-time. She appears to have forgotten many of its most important sections, much to her vexation.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44305</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119369</GUID>
+                    <Name>RQ_Envoy_Storyteller_QuestStartSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Elder needs your help remembering parts of a story she wants to tell the children.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44306</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119370</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleStart</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Once upon a time, a long, long, time ago, a king had only one son, renowned for being kind and compassionate to all.&lt;br/&gt;One day, as he was exploring his father's kingdom, he stumbled upon a young shepherdess who was struggling to get water from the well. Now the prince was... err...</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44307</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119371</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleCrafty</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Very crafty, so he tied a rock to the end of the rope to make the pulling easier.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44314</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119372</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleStrong</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Tall and strong! He pulled  on the rope and... pop! The bucket came up!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44308</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119373</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleMeetLion</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The pail came easily out of the well, and the shepherdess thanked the prince by giving him some of her honey. &lt;br/&gt;Delighted, the prince thanked her and continued on, until he reached the edge of his father's kingdom. He had walked for hours and was very hungry, and he was just opening the honey pot when a lion jumped out in front of him! So the prince ...</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44309</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119374</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleShareHoney</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Shared his honey with the lion.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44310</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119375</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleUseHoney</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Covered himself in honey to disgust the lion.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44311</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119376</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleKindHeart</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The lion's jaw fell open in surprise! "I never met a human who wasn't scared of me. Much less a human willing to share their meal with me!"&lt;br/&gt;The prince responded "We should always show a kind heart. Everyone deserves compassion, whether they be sheep, human or lion."&lt;br/&gt;Impressed by these wise words, the lion decided to accompany the prince to his kingdom. The prince became a beloved king and the lion and him were great friends as long their lives lasted, and that is why the lion is the symbol of our nation.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44312</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119377</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleSweetChat</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>"Eat me now and the honey will stick your jaw shut!" Exclaimed the prince. The lion sighed, "I'll wait for the honey to dry, then eat you." &lt;br/&gt;"Fair," said the prince, "in the meantime, tell me: what's it like being a lion?"&lt;br/&gt;After that they talked so long that when the honey dried, the lion didn't want to eat the prince anymore. The prince offered the lion took a place at his side, and thus became the symbol of our nation.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44313</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119378</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleMeetSnakes</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>In a matter of minutes, the prince had extracted enough water for the shepherdess's whole family. He helped her carry it to her house where he met with her father, a poor, old man who had little to offer by way of thanks but insisted that the prince stay the night. Exhausted by the ordeal, the prince gladly accepted.&lt;br/&gt;In the middle of the night, however, the prince was awakened by low, hissing sounds. Still quite tired, he sat up to ask for some quiet, but froze when he saw two enormous pale snakes by his bed.&lt;br/&gt;Despite the danger, however, the prince kept his composure and... hum...</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44315</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119379</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleStrikeSnakes</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Struck both snakes at once.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44316</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119380</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleHushSnakes</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Politely asked the snakes to be more quiet.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44317</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119381</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleRemorse</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Reaching for the sword by his pillow, the prince struck out and beheaded both snakes with one blow! But as they dropped to the floor, their bodies shifted, revealing two very young, very dead men. Alerted by the noise, the old man hobbled into the room and started weeping at the sight. "My boys! What have you done! You seemed kind-hearted, and so I thought you'd help them  but now... how could you!"&lt;br/&gt;Red-faced with shame and remorse, the prince fled the hovel at once, back to his father's palace, swearing to the Heavens that he would never again judge by appearances and that he would remain good to all, human or otherwise.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44318</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119382</GUID>
+                    <Name>RQ_Envoy_Storyteller_TaleBreakCurse</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>"You,... you do not fear us?" the surprised snakes asked ."&lt;br/&gt;'Why should I?" answered the prince. "We are all the Lord's creatures and you deserve as much respect as any other creature." &lt;br/&gt;Upon these words, the snakes' skin blurred and hazed, and soon two young boys stood in their stead. "Father, father!" one of them cried in glee. The old man rushed out of the house and wept to see his sons. "I knew it! Only one as wise as you could treat them with humanity and break the curse! A thousand blessings on a prince with such kindness in his heart!"&lt;br/&gt;Soon the news of the prince's wisdom spread throughout the land, and all praised him and strove, like him, not to judge anyone so readily.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44319</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>120351</GUID>
+                    <Name>RQ_Envoy_Storyteller_End</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The End</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44320</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>130628</GUID>
+                    <Name>RQ_Envoy_Storyteller_Objective</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Help the Elder tell the children a story</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44376</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

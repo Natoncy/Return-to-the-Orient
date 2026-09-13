@@ -1,0 +1,752 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>Quest</Template>
+            <Values>
+                <Standard>
+                    <GUID>118880</GUID>
+                    <Name>RQ_Envoy_HigherByNature4A_TimqetFestival_Deliver</Name>
+                </Standard>
+                <Quest>
+                    <StarterMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StarterMessage>
+                    <SuccessMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000019</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>118454</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>118452</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </SuccessMessage>
+                    <FailureMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </FailureMessage>
+                    <SelectionReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SelectionReminderMessage>
+                    <AbortedManuallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedManuallyMessage>
+                    <AbortedAutomaticallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedAutomaticallyMessage>
+                    <InvitationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification>
+                                    <NotificationText>118453</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>118451</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </InvitationMessage>
+                    <EscortShipSelectedMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </EscortShipSelectedMessage>
+                    <ReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ReminderMessage>
+                    <ResolveConfirmationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ResolveConfirmationMessage>
+                    <InvitationSmugglerQuestMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </InvitationSmugglerQuestMessage>
+                    <SmugglerQuestTradingStationReached>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SmugglerQuestTradingStationReached>
+                    <StartInvitationGiveItemMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartInvitationGiveItemMessage>
+                    <StartFollowShipMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartFollowShipMessage>
+                    <OnQuestStart>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestStart>
+                    <OnQuestDeclined>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDeclined>
+                    <OnQuestActive>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList>
+                                <Actions>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionDelayedActions</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionDelayedActions>
+                                                    <ExecutionDelay>30000</ExecutionDelay>
+                                                    <DelayedActions>
+                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                        <Values>
+                                                            <ActionList>
+                                                                <Actions>
+                                                                    <Item>
+                                                                        <Action>
+                                                                            <Template>ActionStartQuest</Template>
+                                                                            <Values>
+                                                                                <Action />
+                                                                                <ActionStartQuest>
+                                                                                    <Quest>118881</Quest>
+                                                                                    <InheritQuestArea>1</InheritQuestArea>
+                                                                                    <InheritQuestSession>1</InheritQuestSession>
+                                                                                </ActionStartQuest>
+                                                                            </Values>
+                                                                        </Action>
+                                                                    </Item>
+                                                                </Actions>
+                                                            </ActionList>
+                                                        </Values>
+                                                    </DelayedActions>
+                                                </ActionDelayedActions>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                </Actions>
+                            </ActionList>
+                        </Values>
+                    </OnQuestActive>
+                    <OnQuestAborted>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestAborted>
+                    <OnQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestTimedOut>
+                    <OnActiveQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnActiveQuestTimedOut>
+                    <OnQuestFailed>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestFailed>
+                    <OnQuestDiscarded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDiscarded>
+                    <OnQuestSucceeded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList>
+                                <Actions>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionSpawnObjects</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionSpawnObjects>
+                                                    <SpawnGUID>118882</SpawnGUID>
+                                                    <Amount>1</Amount>
+                                                </ActionSpawnObjects>
+                                                <SpawnArea>
+                                                    <SpawnContext>Object</SpawnContext>
+                                                    <ContextGUID>114520</ContextGUID>
+                                                    <ContextMarkerName>quest_monks</ContextMarkerName>
+                                                    <LimitToQuestArea>1</LimitToQuestArea>
+                                                </SpawnArea>
+                                                <SessionFilter>
+                                                    <AllowProcessingSession>1</AllowProcessingSession>
+                                                </SessionFilter>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionDelayedActions</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionDelayedActions>
+                                                    <ExecutionDelay>300000</ExecutionDelay>
+                                                    <DelayedActions>
+                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                        <Values>
+                                                            <ActionList>
+                                                                <Actions>
+                                                                    <Item>
+                                                                        <Action>
+                                                                            <Template>ActionDeleteObjects</Template>
+                                                                            <Values>
+                                                                                <Action />
+                                                                                <ActionDeleteObjects />
+                                                                                <ObjectFilter>
+                                                                                    <ObjectGUID>118882</ObjectGUID>
+                                                                                    <ObjectSession>1404000000</ObjectSession>
+                                                                                </ObjectFilter>
+                                                                            </Values>
+                                                                        </Action>
+                                                                    </Item>
+                                                                </Actions>
+                                                            </ActionList>
+                                                        </Values>
+                                                    </DelayedActions>
+                                                </ActionDelayedActions>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                </Actions>
+                            </ActionList>
+                        </Values>
+                    </OnQuestSucceeded>
+                    <OnQuestEnd>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestEnd>
+                    <OnPhotographySuccessNewspaperAction>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Action />
+                            <ActionForceNewspaper />
+                        </Values>
+                    </OnPhotographySuccessNewspaperAction>
+                    <QuestGiver>1404000019</QuestGiver>
+                    <StoryText>118557</StoryText>
+                    <QuestCategory>RandomQuest</QuestCategory>
+                    <QuestActivation>ManualActivation</QuestActivation>
+                    <IsAbortable>1</IsAbortable>
+                    <ConfirmOnReached>1</ConfirmOnReached>
+                    <ConfirmOnReachedCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ConditionQuestResolveConfirmation />
+                            <Condition />
+                            <ConditionQuestObjective />
+                        </Values>
+                    </ConfirmOnReachedCondition>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
+                    <ReputationQuestFail>
+                        <ReputationFailList />
+                    </ReputationQuestFail>
+                    <QuestHints>
+                        <Item>
+                            <Text>17670</Text>
+                        </Item>
+                        <Item>
+                            <Text>17689</Text>
+                        </Item>
+                    </QuestHints>
+                    <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
+                    <StarterSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction>
+                                <HintText>15456</HintText>
+                                <ObjectFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ObjectFilter>
+                                            <ObjectGUID>101594</ObjectGUID>
+                                        </ObjectFilter>
+                                    </Values>
+                                </ObjectFilter>
+                                <UseSpecificPortrait>1</UseSpecificPortrait>
+                                <SpecificPortraitProfile>86</SpecificPortraitProfile>
+                            </ConditionTutorialInteraction>
+                        </Values>
+                    </StarterSpeechBubble>
+                    <SuccessSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction />
+                        </Values>
+                    </SuccessSpeechBubble>
+                </Quest>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                    <SubConditions>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>GoodsInStock</PlayerCounter>
+                                                    <Context>114368</Context>
+                                                    <CounterAmount>1</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>GoodsInStock</PlayerCounter>
+                                                    <Context>114404</Context>
+                                                    <CounterAmount>1</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                    </SubConditions>
+                </PreConditionList>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Heaven-Born — God's Gifts</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44600</LineID>
+                </Text>
+                <Reward>
+                    <RewardAssets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Quest</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Quest</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Reward>130378</Reward>
+                            <SentToQuestArea>1</SentToQuestArea>
+                            <IsDisguised>1</IsDisguised>
+                        </Item>
+                    </RewardAssets>
+                    <RewardReputation />
+                </Reward>
+                <Objectives>
+                    <WinConditions>
+                        <Item>
+                            <Objective>
+                                <Template>DeliveryObjective</Template>
+                                <Values>
+                                    <ConditionQuestDelivery>
+                                        <DeliveryObject_cqd>
+                                            <Item>
+                                                <VectorElement>
+                                                    <InheritedIndex>0</InheritedIndex>
+                                                    <InheritanceMapV2>
+                                                        <Entry>
+                                                            <TemplateName>DeliveryObjective</TemplateName>
+                                                            <Index>0</Index>
+                                                        </Entry>
+                                                    </InheritanceMapV2>
+                                                </VectorElement>
+                                                <ObjectGUID>114356</ObjectGUID>
+                                                <Min>15</Min>
+                                                <Max>15</Max>
+                                            </Item>
+                                            <Item>
+                                                <ObjectGUID>114368</ObjectGUID>
+                                                <Min>30</Min>
+                                                <Max>30</Max>
+                                            </Item>
+                                            <Item>
+                                                <ObjectGUID>114404</ObjectGUID>
+                                                <Min>5</Min>
+                                                <Max>5</Max>
+                                            </Item>
+                                        </DeliveryObject_cqd>
+                                        <DeliveryType>Area</DeliveryType>
+                                        <DeliveryExecutionPlace>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ConditionObjectClientQuestObject />
+                                                <ConditionScanner />
+                                                <ConditionObjectiveSignsAndFeedback />
+                                            </Values>
+                                        </DeliveryExecutionPlace>
+                                        <UseQuestArea>1</UseQuestArea>
+                                    </ConditionQuestDelivery>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>13014</TextCombinedContextValue>
+                                        <FakeMinimapPings>
+                                            <Objects>
+                                                <Item>
+                                                    <FakeMinimapObjects>
+                                                        <Template>ObjectFilter</Template>
+                                                        <Values>
+                                                            <ObjectFilter>
+                                                                <ObjectGUID>118754</ObjectGUID>
+                                                            </ObjectFilter>
+                                                        </Values>
+                                                    </FakeMinimapObjects>
+                                                </Item>
+                                            </Objects>
+                                        </FakeMinimapPings>
+                                    </ConditionQuestObjective>
+                                    <ObjectiveScaling />
+                                    <ConditionPropsSessionSettings />
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                </Objectives>
+                <QuestOptional>
+                    <HasStarterObject>Specific</HasStarterObject>
+                    <StarterObject>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionStarterObject>
+                                <StarterObjectObject>
+                                    <Template>ConditionObjectSpawnedObject</Template>
+                                    <Values>
+                                        <ConditionObjectSpawnedObject>
+                                            <ExecutionObject>118754</ExecutionObject>
+                                            <ObjectSpawnArea>
+                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                <Values>
+                                                    <SpawnArea>
+                                                        <SpawnContext>Area</SpawnContext>
+                                                        <MatcherGUID>118757</MatcherGUID>
+                                                        <LimitToQuestArea>1</LimitToQuestArea>
+                                                        <DistanceToContext>5</DistanceToContext>
+                                                        <DistanceToBorder>Near</DistanceToBorder>
+                                                        <DistanceToIsland>Far</DistanceToIsland>
+                                                    </SpawnArea>
+                                                </Values>
+                                            </ObjectSpawnArea>
+                                        </ConditionObjectSpawnedObject>
+                                        <ConditionScanner />
+                                        <ConditionObjectiveSignsAndFeedback />
+                                    </Values>
+                                </StarterObjectObject>
+                            </ConditionStarterObject>
+                            <ConditionQuestObjective>
+                                <ObjectiveSignsAndFeedback>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ConditionObjectiveSignsAndFeedback>
+                                            <Infolayer>501006</Infolayer>
+                                        </ConditionObjectiveSignsAndFeedback>
+                                    </Values>
+                                </ObjectiveSignsAndFeedback>
+                            </ConditionQuestObjective>
+                            <ConditionPropsSessionSettings />
+                        </Values>
+                    </StarterObject>
+                </QuestOptional>
+            </Values>
+        </Asset>
+
+        <!-- referenced vanilla assets, copied from _original_assets.xml -->
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Must I do everything? The festival but weeks away and there is so much still to arrange— the materials to fashion a proper tabot, for instance!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41015</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>278279</AudioAsset>
+                    <Mood>Negative</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>118451</GUID>
+                    <Name>RQ_Envoy_Delivery_TimqetFestival_QuestStart</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A pin here, a fold there... perfect! As long as the tabot is complete, the festival may proceed.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41016</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>278280</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>118452</GUID>
+                    <Name>RQ_Envoy_Delivery_TimqetFestival_QuestComplete</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>CollectablePicturePuzzle</Template>
+            <Values>
+                <Standard>
+                    <GUID>118882</GUID>
+                    <Name>Timqet Celebration</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2.png</IconFilename>
+                </Standard>
+                <Collectable>
+                    <DestroyOnCollect>0</DestroyOnCollect>
+                    <CollectOnSelection>0</CollectOnSelection>
+                    <OnCollect>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnCollect>
+                </Collectable>
+                <Mesh>
+                    <MeshPlacement>OnTerrain</MeshPlacement>
+                    <DefaultSequence>default</DefaultSequence>
+                    <InitialVisibility>0</InitialVisibility>
+                    <ConstructionEffectDuration>0</ConstructionEffectDuration>
+                </Mesh>
+                <Selection>
+                    <GUIType>Quest</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc06/graphics/quest/quest_unit_groups/religious_celebration/religious_celebration.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <CommandQueue />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sacred Festivities</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44544</LineID>
+                </Text>
+                <Infolayer />
+                <MinimapToken />
+                <QuestObject />
+                <SoundEmitter>
+                    <CollectedSounds>
+                        <Item>
+                            <Sound>214111</Sound>
+                        </Item>
+                    </CollectedSounds>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Trailer />
+                <Blocking />
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118453</GUID>
+                    <Name>RQ_Envoy_Delivery_TimqetFestival_QuestStartSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Elder Kurati needs you to deliver the materials for a tabot for the upcoming festival.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44285</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118454</GUID>
+                    <Name>RQ_Envoy_Delivery_TimqetFestival_QuestCompleteSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Elder Kurati puts the finishing touches to a shrine for the sacred tablets.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44286</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118557</GUID>
+                    <Name>RQ_Envoy_Delivery_TimqetFestival_Story</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Up at the monastery, Elder Kurati worries that the preparations for an upcoming festival are far behind schedule, and asks for your help making a religious ornament.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44284</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,9 @@
+<ModOps>
+
+    <Include File="assets_shared.xml" />
+
+    <Include File="envoys/assets__index.xml" />
+    <Include File="nomads/assets__index.xml" />
+    <Include File="pools/assets__index.xml" />
+
+</ModOps>

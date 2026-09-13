@@ -23,6 +23,7 @@
     <Include File="production_chains/assets__index.xml" />
     <Include File="products/assets__index.xml" />
     <Include File="profiles/assets__index.xml" />
+    <!-- <Include File="quests/assets__index.xml" /> -->
     <Include File="recipe_lists/assets__index.xml" />
     <Include File="recipes/assets__index.xml" />
     <Include File="reward_pools/assets__index.xml" />

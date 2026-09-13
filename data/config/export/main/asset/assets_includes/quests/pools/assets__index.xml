@@ -1,0 +1,7 @@
+<ModOps>
+    
+    <Include File="assets_all.xml" />
+    <Include File="assets_envoy.xml" />
+    <Include File="assets_nomad.xml" />
+
+</ModOps>

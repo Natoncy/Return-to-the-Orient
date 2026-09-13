@@ -1,0 +1,1012 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>A7_QuestDecision</Template>
+            <Values>
+                <Standard>
+                    <GUID>118774</GUID>
+                    <Name>RQ_Envoy_IamTheSenate1_Speech_Decision</Name>
+                </Standard>
+                <Quest>
+                    <StarterMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StarterMessage>
+                    <SuccessMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000019</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>130484</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>126842</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </SuccessMessage>
+                    <FailureMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </FailureMessage>
+                    <SelectionReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SelectionReminderMessage>
+                    <AbortedManuallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedManuallyMessage>
+                    <AbortedAutomaticallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedAutomaticallyMessage>
+                    <InvitationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification>
+                                    <NotificationText>118493</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>118492</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </InvitationMessage>
+                    <EscortShipSelectedMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </EscortShipSelectedMessage>
+                    <ReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ReminderMessage>
+                    <ResolveConfirmationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ResolveConfirmationMessage>
+                    <InvitationSmugglerQuestMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </InvitationSmugglerQuestMessage>
+                    <SmugglerQuestTradingStationReached>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SmugglerQuestTradingStationReached>
+                    <StartInvitationGiveItemMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartInvitationGiveItemMessage>
+                    <StartFollowShipMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartFollowShipMessage>
+                    <OnQuestStart>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestStart>
+                    <OnQuestDeclined>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDeclined>
+                    <OnQuestActive>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestActive>
+                    <OnQuestAborted>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestAborted>
+                    <OnQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestTimedOut>
+                    <OnActiveQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnActiveQuestTimedOut>
+                    <OnQuestFailed>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestFailed>
+                    <OnQuestDiscarded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDiscarded>
+                    <OnQuestSucceeded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestSucceeded>
+                    <OnQuestEnd>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestEnd>
+                    <OnPhotographySuccessNewspaperAction>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Action />
+                            <ActionForceNewspaper />
+                        </Values>
+                    </OnPhotographySuccessNewspaperAction>
+                    <QuestGiver>1404000019</QuestGiver>
+                    <StoryText>118682</StoryText>
+                    <QuestActivation>ManualActivation</QuestActivation>
+                    <IsAbortable>1</IsAbortable>
+                    <ConfirmOnReachedCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ConditionQuestResolveConfirmation />
+                            <Condition />
+                            <ConditionQuestObjective />
+                        </Values>
+                    </ConfirmOnReachedCondition>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
+                    <ReputationQuestFail>
+                        <ReputationFailList />
+                    </ReputationQuestFail>
+                    <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
+                    <StarterSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction>
+                                <HintText>15437</HintText>
+                                <ObjectFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ObjectFilter>
+                                            <ObjectGUID>101594</ObjectGUID>
+                                        </ObjectFilter>
+                                    </Values>
+                                </ObjectFilter>
+                                <UseSpecificPortrait>1</UseSpecificPortrait>
+                                <SpecificPortraitProfile>86</SpecificPortraitProfile>
+                            </ConditionTutorialInteraction>
+                        </Values>
+                    </StarterSpeechBubble>
+                    <SuccessSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction />
+                        </Values>
+                    </SuccessSpeechBubble>
+                </Quest>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                </PreConditionList>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Moot Points — The Speech</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44593</LineID>
+                </Text>
+                <Reward>
+                    <RewardAssets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestDecision</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestDecision</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Reward>130378</Reward>
+                            <SentToQuestArea>1</SentToQuestArea>
+                            <IsDisguised>1</IsDisguised>
+                        </Item>
+                    </RewardAssets>
+                    <RewardReputation />
+                </Reward>
+                <Objectives>
+                    <WinConditions>
+                        <Item>
+                            <Objective>
+                                <Template>DecisionObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>130625</TextCombinedContextValue>
+                                        <QuestTrackerIcon>data/ui/2kimages/main/icons/icon_proposals_negotiate.png</QuestTrackerIcon>
+                                    </ConditionQuestObjective>
+                                    <ConditionQuestDecision>
+                                        <DecisionBG>data/ui/2kimages/main/assets16/decision_quest/bg_decision_quest_lol_lion.png</DecisionBG>
+                                        <DecisionList>
+                                            <Item>
+                                                <Decision>
+                                                    <Template>ConditionDecision</Template>
+                                                    <Values>
+                                                        <Condition />
+                                                        <ConditionDecision>
+                                                            <DecisionFluffText>118494</DecisionFluffText>
+                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionOptionList>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119837</DecisionOptionText>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119838</DecisionOptionText>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119839</DecisionOptionText>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                            </DecisionOptionList>
+                                                        </ConditionDecision>
+                                                    </Values>
+                                                </Decision>
+                                            </Item>
+                                            <Item>
+                                                <Decision>
+                                                    <Template>ConditionDecision</Template>
+                                                    <Values>
+                                                        <Condition />
+                                                        <ConditionDecision>
+                                                            <DecisionFluffText>118684</DecisionFluffText>
+                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionOptionList>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119840</DecisionOptionText>
+                                                                                <ActionList>
+                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                    <Values>
+                                                                                        <ActionList>
+                                                                                            <Actions>
+                                                                                                <Item>
+                                                                                                    <Action>
+                                                                                                        <Template>ActionBuff</Template>
+                                                                                                        <Values>
+                                                                                                            <Action />
+                                                                                                            <ActionBuff>
+                                                                                                                <BuffAsset>129996</BuffAsset>
+                                                                                                                <AddBuff>1</AddBuff>
+                                                                                                                <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                                                                                                <BuffTimeout>1800000</BuffTimeout>
+                                                                                                            </ActionBuff>
+                                                                                                        </Values>
+                                                                                                    </Action>
+                                                                                                </Item>
+                                                                                            </Actions>
+                                                                                        </ActionList>
+                                                                                    </Values>
+                                                                                </ActionList>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119841</DecisionOptionText>
+                                                                                <ActionList>
+                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                    <Values>
+                                                                                        <ActionList>
+                                                                                            <Actions>
+                                                                                                <Item>
+                                                                                                    <Action>
+                                                                                                        <Template>ActionBuff</Template>
+                                                                                                        <Values>
+                                                                                                            <Action />
+                                                                                                            <ActionBuff>
+                                                                                                                <BuffAsset>130301</BuffAsset>
+                                                                                                                <AddBuff>1</AddBuff>
+                                                                                                                <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                                                                                                <BuffTimeout>1800000</BuffTimeout>
+                                                                                                            </ActionBuff>
+                                                                                                        </Values>
+                                                                                                    </Action>
+                                                                                                </Item>
+                                                                                            </Actions>
+                                                                                        </ActionList>
+                                                                                    </Values>
+                                                                                </ActionList>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119842</DecisionOptionText>
+                                                                                <ActionList>
+                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                    <Values>
+                                                                                        <ActionList>
+                                                                                            <Actions>
+                                                                                                <Item>
+                                                                                                    <Action>
+                                                                                                        <Template>ActionBuff</Template>
+                                                                                                        <Values>
+                                                                                                            <Action />
+                                                                                                            <ActionBuff>
+                                                                                                                <BuffAsset>130305</BuffAsset>
+                                                                                                                <AddBuff>1</AddBuff>
+                                                                                                                <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                                                                                                <BuffTimeout>1800000</BuffTimeout>
+                                                                                                            </ActionBuff>
+                                                                                                        </Values>
+                                                                                                    </Action>
+                                                                                                </Item>
+                                                                                            </Actions>
+                                                                                        </ActionList>
+                                                                                    </Values>
+                                                                                </ActionList>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                            </DecisionOptionList>
+                                                        </ConditionDecision>
+                                                    </Values>
+                                                </Decision>
+                                            </Item>
+                                            <Item>
+                                                <Decision>
+                                                    <Template>ConditionDecision</Template>
+                                                    <Values>
+                                                        <Condition />
+                                                        <ConditionDecision>
+                                                            <DecisionFluffText>118686</DecisionFluffText>
+                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionOptionList>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119843</DecisionOptionText>
+                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119844</DecisionOptionText>
+                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                                <Item>
+                                                                    <DecisionOption>
+                                                                        <Template>ConditionDecisionOption</Template>
+                                                                        <Values>
+                                                                            <Condition />
+                                                                            <ConditionDecisionOption>
+                                                                                <DecisionOptionText>119845</DecisionOptionText>
+                                                                                <ActionList>
+                                                                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                                    <Values>
+                                                                                        <ActionList>
+                                                                                            <Actions>
+                                                                                                <Item>
+                                                                                                    <Action>
+                                                                                                        <Template>ActionNotification</Template>
+                                                                                                        <Values>
+                                                                                                            <Action />
+                                                                                                            <ActionNotification>
+                                                                                                                <Notification>
+                                                                                                                    <Template>CharacterNotification</Template>
+                                                                                                                    <Values>
+                                                                                                                        <CharacterNotification>
+                                                                                                                            <Profile>1404000019</Profile>
+                                                                                                                        </CharacterNotification>
+                                                                                                                        <BaseNotification>
+                                                                                                                            <NotificationText>130486</NotificationText>
+                                                                                                                        </BaseNotification>
+                                                                                                                        <NotificationSubtitle>
+                                                                                                                            <Subtitle>126844</Subtitle>
+                                                                                                                        </NotificationSubtitle>
+                                                                                                                    </Values>
+                                                                                                                </Notification>
+                                                                                                            </ActionNotification>
+                                                                                                        </Values>
+                                                                                                    </Action>
+                                                                                                </Item>
+                                                                                            </Actions>
+                                                                                        </ActionList>
+                                                                                    </Values>
+                                                                                </ActionList>
+                                                                                <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
+                                                                            </ConditionDecisionOption>
+                                                                        </Values>
+                                                                    </DecisionOption>
+                                                                </Item>
+                                                            </DecisionOptionList>
+                                                        </ConditionDecision>
+                                                    </Values>
+                                                </Decision>
+                                            </Item>
+                                        </DecisionList>
+                                    </ConditionQuestDecision>
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                    <WinConditionCompletionOrder>Linear</WinConditionCompletionOrder>
+                </Objectives>
+                <QuestOptional>
+                    <HasStarterObject>Specific</HasStarterObject>
+                    <StarterObject>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionStarterObject>
+                                <StarterObjectObject>
+                                    <Template>ConditionObjectSpawnedObject</Template>
+                                    <Values>
+                                        <ConditionObjectSpawnedObject>
+                                            <ExecutionObject>118754</ExecutionObject>
+                                            <ObjectSpawnArea>
+                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                <Values>
+                                                    <SpawnArea>
+                                                        <SpawnContext>Area</SpawnContext>
+                                                        <MatcherGUID>118757</MatcherGUID>
+                                                        <LimitToQuestArea>1</LimitToQuestArea>
+                                                        <DistanceToContext>5</DistanceToContext>
+                                                        <DistanceToBorder>Near</DistanceToBorder>
+                                                        <DistanceToIsland>Far</DistanceToIsland>
+                                                    </SpawnArea>
+                                                </Values>
+                                            </ObjectSpawnArea>
+                                        </ConditionObjectSpawnedObject>
+                                        <ConditionScanner />
+                                        <ConditionObjectiveSignsAndFeedback />
+                                    </Values>
+                                </StarterObjectObject>
+                            </ConditionStarterObject>
+                            <ConditionQuestObjective>
+                                <ObjectiveSignsAndFeedback>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ConditionObjectiveSignsAndFeedback>
+                                            <Infolayer>501006</Infolayer>
+                                        </ConditionObjectiveSignsAndFeedback>
+                                    </Values>
+                                </ObjectiveSignsAndFeedback>
+                            </ConditionQuestObjective>
+                            <ConditionPropsSessionSettings />
+                        </Values>
+                    </StarterObject>
+                </QuestOptional>
+            </Values>
+        </Asset>
+
+        <!-- referenced vanilla assets, copied from _original_assets.xml -->
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The council have finally welcomed me among the elders of the Keftanya Moot! Help me prepare my acceptance speech!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>40993</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>278246</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>118492</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_QuestStart</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Thank you... for helping me understand what I needed to do in my speech.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>40994</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>278247</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>126842</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_QuestSuccess</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>I'm not saying that, you wicked bushpig!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>40996</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>278249</AudioAsset>
+                    <Mood>Negative</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>126844</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_QuestBadChoice2</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118493</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_QuestStartSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Elder has been invited to join a council of Elders and wants your help preparing a speech.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44236</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118494</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech1</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Elder Tebibi: 'I have several ideas on how to open my speech, but I'm uncertain which would be most efficacious. First I am to stand and call "Dear Council members", then...&lt;b&gt;Hm, what is most important in my first impression?&lt;/b&gt;'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44233</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118682</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Story</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Elder Tebibi needs your help fine-tuning her acceptance speech for the Keftanya Moot. She has been waiting ever since her husband died to join this committee and does not wish to ruin her chances of success at what she considers the final hurdle.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44232</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118684</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Elder Tebibi: 'Good, I shall consider that...Now, a series of necessary flourishes and acknowledgements, then on to the matter at hand: "There is much to be done. Our first mandate should be..."'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44234</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>118686</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech3</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Elder Tebibi: 'There will be much murmuring and discussion at that point I like to think— but I will control it easily. Now to the conclusion: "By the grace of the Lord I solemnly swear that...'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44235</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119837</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech1Decision1</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'Your vote of confidence—for once in my life— humbles me...' </Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44240</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119838</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech1Decision2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'I rejoice in joining forces with you for, clearly, the greater good of our city...'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44241</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119839</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech1Decision3</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'Long...very long...have I awaited this honour!' </Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44242</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119840</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech2Decision1</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'The needs of the lowliest, as befits the virtuous...'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44243</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119841</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech2Decision2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'To strive to encourage piety and abidance with the covenant...'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44244</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119842</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech2Decision3</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'To lessen the burdens of the Elders, that we may better uplift Enbesa...'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44245</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119843</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech3Decision1</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'I will make my tenure with the Moot my life's work!'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44246</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119844</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech3Decision2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'I will not rest until this Moot's influence reaches beyond Taborime, to the whole of Enbesa!'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44247</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>119845</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_Speech3Decision3</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>'Order will be restored, and the righteous uplifted...'</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44248</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>130484</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_QuestSuccessSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Elder thanks you for the small part you played in composing the final speech.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44237</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>130486</GUID>
+                    <Name>RQ_Envoy_Decision_TheSpeech_BadChoice2Summary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Elder offers not even the faintest smile at your suggestion.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44239</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>130625</GUID>
+                    <Name>RQ_Envoy_IAmTheSenate_Speech_Objective</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Help the Elder compose her speech for the Moot</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44374</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
