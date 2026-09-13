@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118781</GUID>
+                    <GUID>1404001351</GUID>
                     <Name>RQ_Envoy_IamTheSenate2_StuffBallots_Select</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118503</NotificationText>
+                                    <NotificationText>1404001355</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118502</Subtitle>
+                                    <Subtitle>1404001353</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118501</NotificationText>
+                                    <NotificationText>1404001354</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118500</Subtitle>
+                                    <Subtitle>1404001352</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -227,7 +227,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118688</StoryText>
+                    <StoryText>1404001356</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -312,7 +312,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118774</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001330</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -354,7 +354,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118690</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001357</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionQuestSelectObject>
                                         <SelectObjects>
@@ -446,7 +446,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118500</GUID>
+                    <GUID>1404001352</GUID>
                     <Name>RQ_Envoy_Select_StuffTheBallot_QuestStart</Name>
                 </Standard>
             </Values>
@@ -468,7 +468,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118502</GUID>
+                    <GUID>1404001353</GUID>
                     <Name>RQ_Envoy_Select_StuffTheBallot_QuestSuccess</Name>
                 </Standard>
             </Values>
@@ -478,7 +478,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118501</GUID>
+                    <GUID>1404001354</GUID>
                     <Name>RQ_Envoy_Select_StuffTheBallot_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -496,7 +496,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118503</GUID>
+                    <GUID>1404001355</GUID>
                     <Name>RQ_Envoy_Select_StuffTheBallot_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>
@@ -514,7 +514,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118688</GUID>
+                    <GUID>1404001356</GUID>
                     <Name>RQ_Envoy_Select_StuffTheBallot_Story</Name>
                 </Standard>
                 <Text>
@@ -532,7 +532,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118690</GUID>
+                    <GUID>1404001357</GUID>
                     <Name>RQ_Envoy_Select_StuffTheBallot_Fraud</Name>
                 </Standard>
                 <Text>

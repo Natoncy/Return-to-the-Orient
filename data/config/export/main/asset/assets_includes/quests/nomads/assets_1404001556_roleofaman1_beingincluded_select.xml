@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118979</GUID>
+                    <GUID>1404001556</GUID>
                     <Name>RQ_Nomad_RoleOfaMan1_BeingIncluded_Select</Name>
                 </Standard>
                 <Quest>
@@ -78,10 +78,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119159</NotificationText>
+                                    <NotificationText>1404001562</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119158</Subtitle>
+                                    <Subtitle>1404001557</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -167,7 +167,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118893</SpawnGUID>
+                                                    <SpawnGUID>1404001558</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
@@ -297,7 +297,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118893</ObjectGUID>
+                                                                                    <ObjectGUID>1404001558</ObjectGUID>
                                                                                 </ObjectFilter>
                                                                             </Values>
                                                                         </Action>
@@ -322,7 +322,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119154</StoryText>
+                    <StoryText>1404001559</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -340,10 +340,10 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>119155</Text>
+                            <Text>1404001560</Text>
                         </Item>
                         <Item>
-                            <Text>119156</Text>
+                            <Text>1404001561</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -443,7 +443,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118893</ObjectGUID>
+                                                            <ObjectGUID>1404001558</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -523,7 +523,7 @@
                     <AudioAsset>277555</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>119158</GUID>
+                    <GUID>1404001557</GUID>
                     <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStart</Name>
                 </Standard>
             </Values>
@@ -533,7 +533,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118893</GUID>
+                    <GUID>1404001558</GUID>
                     <Name>Group of youngster</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_1a.png</IconFilename>
                 </Standard>
@@ -601,7 +601,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119154</GUID>
+                    <GUID>1404001559</GUID>
                     <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_Story</Name>
                 </Standard>
                 <Text>
@@ -619,7 +619,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119155</GUID>
+                    <GUID>1404001560</GUID>
                     <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_Hint1</Name>
                 </Standard>
                 <Text>
@@ -637,7 +637,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119156</GUID>
+                    <GUID>1404001561</GUID>
                     <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_Hint2</Name>
                 </Standard>
                 <Text>
@@ -655,7 +655,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119159</GUID>
+                    <GUID>1404001562</GUID>
                     <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStartSummary</Name>
                 </Standard>
                 <Text>

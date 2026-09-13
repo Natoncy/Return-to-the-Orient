@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118954</GUID>
+                    <GUID>1404001532</GUID>
                     <Name>RQ_Nomad_TheLostSheep1_Grazing_Select</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119070</NotificationText>
+                                    <NotificationText>1404001540</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119068</Subtitle>
+                                    <Subtitle>1404001533</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -166,7 +166,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118955</SpawnGUID>
+                                                    <SpawnGUID>1404001536</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
@@ -242,12 +242,12 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118901</SpawnGUID>
+                                                    <SpawnGUID>1404001534</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <ContextGUID>118955</ContextGUID>
+                                                    <ContextGUID>1404001536</ContextGUID>
                                                     <SpawnAreaType>Campaign_02</SpawnAreaType>
                                                     <DistanceToContext>50</DistanceToContext>
                                                 </SpawnArea>
@@ -280,7 +280,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118955</ObjectGUID>
+                                                                                    <ObjectGUID>1404001536</ObjectGUID>
                                                                                     <ObjectSession>1404000000</ObjectSession>
                                                                                 </ObjectFilter>
                                                                             </Values>
@@ -312,12 +312,12 @@
                                                                             <Values>
                                                                                 <Action />
                                                                                 <ActionSpawnObjects>
-                                                                                    <SpawnGUID>130503</SpawnGUID>
+                                                                                    <SpawnGUID>1404001535</SpawnGUID>
                                                                                     <Amount>1</Amount>
                                                                                 </ActionSpawnObjects>
                                                                                 <SpawnArea>
                                                                                     <SpawnContext>Object</SpawnContext>
-                                                                                    <ContextGUID>118901</ContextGUID>
+                                                                                    <ContextGUID>1404001534</ContextGUID>
                                                                                     <SpawnAreaType>Campaign_01</SpawnAreaType>
                                                                                     <DistanceToContext>200</DistanceToContext>
                                                                                 </SpawnArea>
@@ -400,7 +400,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118955</ObjectGUID>
+                                                                                    <ObjectGUID>1404001536</ObjectGUID>
                                                                                 </ObjectFilter>
                                                                             </Values>
                                                                         </Action>
@@ -425,7 +425,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119063</StoryText>
+                    <StoryText>1404001537</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -443,10 +443,10 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>119064</Text>
+                            <Text>1404001538</Text>
                         </Item>
                         <Item>
-                            <Text>119065</Text>
+                            <Text>1404001539</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -567,7 +567,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118955</ObjectGUID>
+                                                            <ObjectGUID>1404001536</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -648,7 +648,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119068</GUID>
+                    <GUID>1404001533</GUID>
                     <Name>RQ_Nomad_Select_LostSheepGrazing_QuestStart</Name>
                 </Standard>
             </Values>
@@ -658,7 +658,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118901</GUID>
+                    <GUID>1404001534</GUID>
                     <Name>Nomad with sheep</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_2.png</IconFilename>
                 </Standard>
@@ -725,7 +725,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>130503</GUID>
+                    <GUID>1404001535</GUID>
                     <Name>Amun the sheep</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_sheep.png</IconFilename>
                 </Standard>
@@ -792,7 +792,7 @@
             <Template>QuestObject</Template>
             <Values>
                 <Standard>
-                    <GUID>118955</GUID>
+                    <GUID>1404001536</GUID>
                     <Name>Grazing spot</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/machine_items/icon_anarchy_flag_2.png</IconFilename>
                 </Standard>
@@ -856,7 +856,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119063</GUID>
+                    <GUID>1404001537</GUID>
                     <Name>RQ_Nomad_Select_LostSheepGrazing_Story</Name>
                 </Standard>
                 <Text>
@@ -874,7 +874,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119064</GUID>
+                    <GUID>1404001538</GUID>
                     <Name>RQ_Nomad_Select_LostSheepGrazing_Hint1</Name>
                 </Standard>
                 <Text>
@@ -892,7 +892,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119065</GUID>
+                    <GUID>1404001539</GUID>
                     <Name>RQ_Nomad_Select_LostSheepGrazing_Hint2</Name>
                 </Standard>
                 <Text>
@@ -910,7 +910,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119070</GUID>
+                    <GUID>1404001540</GUID>
                     <Name>RQ_Nomad_Select_LostSheepGrazing_QuestStartSummary</Name>
                 </Standard>
                 <Text>

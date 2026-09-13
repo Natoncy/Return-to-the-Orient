@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118969</GUID>
+                    <GUID>1404001598</GUID>
                     <Name>RQ_Nomad_HelpingInTheField_Gift</Name>
                 </Standard>
                 <Quest>
@@ -15,10 +15,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>119296</NotificationText>
+                                    <NotificationText>1404001606</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119295</Subtitle>
+                                    <Subtitle>1404001599</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -32,10 +32,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>130480</NotificationText>
+                                    <NotificationText>1404001607</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>124954</Subtitle>
+                                    <Subtitle>1404001600</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -88,10 +88,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119296</NotificationText>
+                                    <NotificationText>1404001606</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119295</Subtitle>
+                                    <Subtitle>1404001599</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -234,7 +234,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119294</StoryText>
+                    <StoryText>1404001605</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -252,7 +252,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>17677</Text>
+                            <Text>1404001604</Text>
                         </Item>
                     </QuestHints>
                     <StarterSpeechBubble>
@@ -260,7 +260,7 @@
                         <Values>
                             <Condition />
                             <ConditionTutorialInteraction>
-                                <HintText>15427</HintText>
+                                <HintText>1404001603</HintText>
                                 <ObjectFilter>
                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                     <Values>
@@ -339,7 +339,7 @@
                                     <ConditionQuestPicturePuzzle>
                                         <PicturePuzzleObjects>
                                             <Item>
-                                                <Object>101581</Object>
+                                                <Object>1404001601</Object>
                                                 <Amount>1</Amount>
                                                 <Context>
                                                     <SpawnArea>
@@ -359,7 +359,7 @@
                                         </PicturePuzzleObjects>
                                     </ConditionQuestPicturePuzzle>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>13008</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001602</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/3dicons/narative_item/icon_booty.png</QuestTrackerIcon>
                                         <ObjectiveSignsAndFeedback>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -443,7 +443,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119295</GUID>
+                    <GUID>1404001599</GUID>
                     <Name>RQ_Nomad_Gift_HelpingInTheFields_QuestStart</Name>
                 </Standard>
             </Values>
@@ -465,7 +465,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>124954</GUID>
+                    <GUID>1404001600</GUID>
                     <Name>RQ_Nomad_Gift_HelpingInTheFields_QuestSuccess</Name>
                 </Standard>
             </Values>
@@ -475,7 +475,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>101581</GUID>
+                    <GUID>1404001601</GUID>
                     <Name>ResidentGift01</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/narative_item/icon_crates.png</IconFilename>
                 </Standard>
@@ -538,7 +538,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>13008</GUID>
+                    <GUID>1404001602</GUID>
                     <Name>RQ_Gift_ObjectiveText</Name>
                 </Standard>
                 <Text>
@@ -556,7 +556,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>15427</GUID>
+                    <GUID>1404001603</GUID>
                     <Name>RQ_Farmers_DigField_HintText</Name>
                 </Standard>
                 <Text>
@@ -574,7 +574,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>17677</GUID>
+                    <GUID>1404001604</GUID>
                     <Name>QuestbookHint_Generic_GiftResident</Name>
                 </Standard>
                 <Text>
@@ -592,7 +592,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119294</GUID>
+                    <GUID>1404001605</GUID>
                     <Name>RQ_Nomad_Gift_HelpingInTheFields_Story</Name>
                 </Standard>
                 <Text>
@@ -610,7 +610,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119296</GUID>
+                    <GUID>1404001606</GUID>
                     <Name>RQ_Nomad_Gift_HelpingInTheFields_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -628,7 +628,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130480</GUID>
+                    <GUID>1404001607</GUID>
                     <Name>RQ_Nomad_Gift_HelpingInTheFields_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>

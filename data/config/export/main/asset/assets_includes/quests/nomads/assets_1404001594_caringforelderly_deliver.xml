@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118968</GUID>
+                    <GUID>1404001594</GUID>
                     <Name>RQ_Nomad_CaringForElderly_Deliver</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119292</NotificationText>
+                                    <NotificationText>1404001597</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119291</Subtitle>
+                                    <Subtitle>1404001595</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -223,7 +223,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119290</StoryText>
+                    <StoryText>1404001596</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -439,7 +439,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119291</GUID>
+                    <GUID>1404001595</GUID>
                     <Name>RQ_Nomad_Delivery_CaringForTheElderly_QuestStart</Name>
                 </Standard>
             </Values>
@@ -449,7 +449,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119290</GUID>
+                    <GUID>1404001596</GUID>
                     <Name>RQ_Nomad_Delivery_CaringForTheElderly_Story</Name>
                 </Standard>
                 <Text>
@@ -467,7 +467,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119292</GUID>
+                    <GUID>1404001597</GUID>
                     <Name>RQ_Nomad_Delivery_CaringForTheElderly_QuestStartSummary</Name>
                 </Standard>
                 <Text>

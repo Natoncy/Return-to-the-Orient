@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118865</GUID>
+                    <GUID>1404001474</GUID>
                     <Name>RQ_Envoy_DayCare_Build</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118837</NotificationText>
+                                    <NotificationText>1404001479</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118838</Subtitle>
+                                    <Subtitle>1404001476</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -83,10 +83,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118834</NotificationText>
+                                    <NotificationText>1404001477</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118835</Subtitle>
+                                    <Subtitle>1404001475</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -229,7 +229,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118836</StoryText>
+                    <StoryText>1404001478</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -432,7 +432,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118835</GUID>
+                    <GUID>1404001475</GUID>
                     <Name>RQ_Envoy_DayCare_QuestStart</Name>
                 </Standard>
             </Values>
@@ -454,7 +454,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118838</GUID>
+                    <GUID>1404001476</GUID>
                     <Name>RQ_Envoy_DayCare_QuestSuccess</Name>
                 </Standard>
             </Values>
@@ -464,7 +464,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118834</GUID>
+                    <GUID>1404001477</GUID>
                     <Name>RQ_Envoy_DayCare_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -482,7 +482,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118836</GUID>
+                    <GUID>1404001478</GUID>
                     <Name>RQ_Envoy_DayCare_Story</Name>
                 </Standard>
                 <Text>
@@ -500,7 +500,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118837</GUID>
+                    <GUID>1404001479</GUID>
                     <Name>RQ_Envoy_DayCare_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>

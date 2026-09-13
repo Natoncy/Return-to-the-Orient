@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118859</GUID>
+                    <GUID>1404001459</GUID>
                     <Name>RQ_Envoy_CleanUpYourMess_Picturepuzzle</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119390</NotificationText>
+                                    <NotificationText>1404001464</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119389</Subtitle>
+                                    <Subtitle>1404001460</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -223,7 +223,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118795</StoryText>
+                    <StoryText>1404001462</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -241,7 +241,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118798</Text>
+                            <Text>1404001463</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -329,7 +329,7 @@
                                     <ConditionQuestPicturePuzzle>
                                         <PicturePuzzleObjects>
                                             <Item>
-                                                <Object>118860</Object>
+                                                <Object>1404001461</Object>
                                                 <Amount>5</Amount>
                                                 <AdditionalAmount>3</AdditionalAmount>
                                                 <Context>
@@ -426,7 +426,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119389</GUID>
+                    <GUID>1404001460</GUID>
                     <Name>RQ_Envoy_CleanUpYourMess_QuestStart</Name>
                 </Standard>
             </Values>
@@ -436,7 +436,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118860</GUID>
+                    <GUID>1404001461</GUID>
                     <Name>Pile of trash</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_junk.png</IconFilename>
                 </Standard>
@@ -502,7 +502,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118795</GUID>
+                    <GUID>1404001462</GUID>
                     <Name>RQ_Envoy_CleanUpYourMess_Story</Name>
                 </Standard>
                 <Text>
@@ -520,7 +520,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118798</GUID>
+                    <GUID>1404001463</GUID>
                     <Name>RQ_Envoy_CleanUpYourMess_Hint</Name>
                 </Standard>
                 <Text>
@@ -538,7 +538,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119390</GUID>
+                    <GUID>1404001464</GUID>
                     <Name>RQ_Envoy_CleanUpYourMess_QuestStartSummary</Name>
                 </Standard>
                 <Text>

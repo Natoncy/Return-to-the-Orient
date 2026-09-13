@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118890</GUID>
+                    <GUID>1404001426</GUID>
                     <Name>RQ_Envoy_HigherByNature6_Fasting_Sustain</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118486</NotificationText>
+                                    <NotificationText>1404001432</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118485</Subtitle>
+                                    <Subtitle>1404001429</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118482</NotificationText>
+                                    <NotificationText>1404001430</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118481</Subtitle>
+                                    <Subtitle>1404001427</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -237,10 +237,10 @@
                                                                                                 <Profile>1404000019</Profile>
                                                                                             </CharacterNotification>
                                                                                             <BaseNotification>
-                                                                                                <NotificationText>118484</NotificationText>
+                                                                                                <NotificationText>1404001431</NotificationText>
                                                                                             </BaseNotification>
                                                                                             <NotificationSubtitle>
-                                                                                                <Subtitle>118483</Subtitle>
+                                                                                                <Subtitle>1404001428</Subtitle>
                                                                                             </NotificationSubtitle>
                                                                                         </Values>
                                                                                     </Notification>
@@ -274,7 +274,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118562</StoryText>
+                    <StoryText>1404001433</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -292,7 +292,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118563</Text>
+                            <Text>1404001434</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -343,7 +343,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118883</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001412</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -437,7 +437,7 @@
                                 <Template>SustainObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>131601</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001435</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>PopulationSatisfactionByGood</PlayerCounter>
@@ -524,7 +524,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118481</GUID>
+                    <GUID>1404001427</GUID>
                     <Name>RQ_Envoy_Status_Fasting_QuestStart</Name>
                 </Standard>
             </Values>
@@ -545,7 +545,7 @@
                     <AudioAsset>278286</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118483</GUID>
+                    <GUID>1404001428</GUID>
                     <Name>RQ_Envoy_Status_Fasting_QuestCompleteEnvoy</Name>
                 </Standard>
             </Values>
@@ -566,7 +566,7 @@
                     <AudioAsset>277523</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118485</GUID>
+                    <GUID>1404001429</GUID>
                     <Name>AT_DLC06_NOmad_RQ_Envoy_Status_Fasting_QuestCompleteNomad</Name>
                 </Standard>
             </Values>
@@ -576,7 +576,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118482</GUID>
+                    <GUID>1404001430</GUID>
                     <Name>RQ_Envoy_Status_Fasting_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -594,7 +594,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118484</GUID>
+                    <GUID>1404001431</GUID>
                     <Name>RQ_Envoy_Status_Fasting_QuestCompleteEnvoySummary</Name>
                 </Standard>
                 <Text>
@@ -612,7 +612,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118486</GUID>
+                    <GUID>1404001432</GUID>
                     <Name>RQ_Envoy_Status_Fasting_QuestCompleteNomadSummary</Name>
                 </Standard>
                 <Text>
@@ -630,7 +630,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118562</GUID>
+                    <GUID>1404001433</GUID>
                     <Name>RQ_Envoy_Status_Fasting_Story</Name>
                 </Standard>
                 <Text>
@@ -648,7 +648,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118563</GUID>
+                    <GUID>1404001434</GUID>
                     <Name>RQ_Envoy_Status_Fasting_Hints</Name>
                 </Standard>
                 <Text>
@@ -666,7 +666,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>131601</GUID>
+                    <GUID>1404001435</GUID>
                     <Name>RQ_Envoy_Status_Fasting_Objective</Name>
                 </Standard>
                 <Text>

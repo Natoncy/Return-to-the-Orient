@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118879</GUID>
+                    <GUID>1404001397</GUID>
                     <Name>RQ_Envoy_HigherByNature3_HelpingIndigents_Deliver</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118448</NotificationText>
+                                    <NotificationText>1404001401</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118446</Subtitle>
+                                    <Subtitle>1404001399</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118447</NotificationText>
+                                    <NotificationText>1404001400</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118445</Subtitle>
+                                    <Subtitle>1404001398</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -227,7 +227,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118554</StoryText>
+                    <StoryText>1404001402</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -388,7 +388,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118555</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001403</TextCombinedContextValue>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -399,7 +399,7 @@
                                                                 <Template>ActionTriggerTextPopup</Template>
                                                                 <Values>
                                                                     <ActionTriggerTextPopup>
-                                                                        <PopupText>118673</PopupText>
+                                                                        <PopupText>1404001404</PopupText>
                                                                         <TextPopupLayout>LetterQuest</TextPopupLayout>
                                                                     </ActionTriggerTextPopup>
                                                                     <Action />
@@ -500,7 +500,7 @@
                     <AudioAsset>278281</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118445</GUID>
+                    <GUID>1404001398</GUID>
                     <Name>RQ_Envoy_Delivery_HelpingTheIndigent_QuestStart</Name>
                 </Standard>
             </Values>
@@ -522,7 +522,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118446</GUID>
+                    <GUID>1404001399</GUID>
                     <Name>RQ_Envoy_Delivery_HelpingTheIndigent_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -532,7 +532,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118447</GUID>
+                    <GUID>1404001400</GUID>
                     <Name>RQ_Envoy_Delivery_HelpingTheIndigent_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -550,7 +550,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118448</GUID>
+                    <GUID>1404001401</GUID>
                     <Name>RQ_Envoy_Delivery_HelpingTheIndigent_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>
@@ -568,7 +568,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118554</GUID>
+                    <GUID>1404001402</GUID>
                     <Name>RQ_Envoy_Delivery_HelpingTheIndigent_Story</Name>
                 </Standard>
                 <Text>
@@ -586,7 +586,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118555</GUID>
+                    <GUID>1404001403</GUID>
                     <Name>RQ_Envoy_Delivery_HelpingTheIndigent_CallingAllStations</Name>
                 </Standard>
                 <Text>
@@ -604,7 +604,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118673</GUID>
+                    <GUID>1404001404</GUID>
                     <Name>RQ_Envoy_Delviery_HelpingTheIndigent_Invitation</Name>
                 </Standard>
                 <Text>

@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118878</GUID>
+                    <GUID>1404001387</GUID>
                     <Name>RQ_Envoy_HigherByNature2_Beggars_Picturepuzzle</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118440</NotificationText>
+                                    <NotificationText>1404001396</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118437</Subtitle>
+                                    <Subtitle>1404001389</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -83,10 +83,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118439</NotificationText>
+                                    <NotificationText>1404001395</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118436</Subtitle>
+                                    <Subtitle>1404001388</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -229,7 +229,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118433</StoryText>
+                    <StoryText>1404001392</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -247,7 +247,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118434</Text>
+                            <Text>1404001393</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -357,7 +357,7 @@
                                     <ConditionQuestPicturePuzzle>
                                         <PicturePuzzleObjects>
                                             <Item>
-                                                <Object>118877</Object>
+                                                <Object>1404001391</Object>
                                                 <Amount>1</Amount>
                                                 <Context>
                                                     <SpawnArea>
@@ -379,7 +379,7 @@
                                         </PicturePuzzleObjects>
                                     </ConditionQuestPicturePuzzle>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118435</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001394</TextCombinedContextValue>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -400,7 +400,7 @@
                                                                                     <HintEndCondition>Time</HintEndCondition>
                                                                                     <HintDisplayTime>30000</HintDisplayTime>
                                                                                     <HintAnchor>BottomRight</HintAnchor>
-                                                                                    <HintText>118438</HintText>
+                                                                                    <HintText>1404001390</HintText>
                                                                                     <ObjectFilter>
                                                                                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                         <Values>
@@ -499,7 +499,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118436</GUID>
+                    <GUID>1404001388</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_QuestStart</Name>
                 </Standard>
             </Values>
@@ -521,7 +521,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118437</GUID>
+                    <GUID>1404001389</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -543,7 +543,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118438</GUID>
+                    <GUID>1404001390</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_BeggarAudio</Name>
                 </Standard>
             </Values>
@@ -553,7 +553,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118877</GUID>
+                    <GUID>1404001391</GUID>
                     <Name>Beggars</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_3a.png</IconFilename>
                 </Standard>
@@ -619,7 +619,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118433</GUID>
+                    <GUID>1404001392</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_Story</Name>
                 </Standard>
                 <Text>
@@ -637,7 +637,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118434</GUID>
+                    <GUID>1404001393</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -655,7 +655,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118435</GUID>
+                    <GUID>1404001394</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_Beggars</Name>
                 </Standard>
                 <Text>
@@ -673,7 +673,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118439</GUID>
+                    <GUID>1404001395</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -691,7 +691,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118440</GUID>
+                    <GUID>1404001396</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Beggars_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>

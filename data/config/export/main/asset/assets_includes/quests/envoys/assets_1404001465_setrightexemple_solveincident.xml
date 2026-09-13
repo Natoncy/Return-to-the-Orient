@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118861</GUID>
+                    <GUID>1404001465</GUID>
                     <Name>RQ_Envoy_SetRightExemple_SolveIncident</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118800</NotificationText>
+                                    <NotificationText>1404001468</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118801</Subtitle>
+                                    <Subtitle>1404001466</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -288,7 +288,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118799</StoryText>
+                    <StoryText>1404001467</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -387,7 +387,7 @@
                                 <Template>StatusQuoObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118803</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001469</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>IncidentActive</PlayerCounter>
@@ -470,7 +470,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118801</GUID>
+                    <GUID>1404001466</GUID>
                     <Name>RQ_Envoy_SetRightExemple_QuestStart</Name>
                 </Standard>
             </Values>
@@ -480,7 +480,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118799</GUID>
+                    <GUID>1404001467</GUID>
                     <Name>RQ_Envoy_SetRightExemple_Story</Name>
                 </Standard>
                 <Text>
@@ -498,7 +498,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118800</GUID>
+                    <GUID>1404001468</GUID>
                     <Name>RQ_Envoy_SetRightExemple_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -516,7 +516,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118803</GUID>
+                    <GUID>1404001469</GUID>
                     <Name>RQ_Envoy_SetRightExample_Objective</Name>
                 </Standard>
                 <Text>

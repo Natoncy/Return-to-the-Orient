@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118867</GUID>
+                    <GUID>1404001480</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_Transport</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118825</NotificationText>
+                                    <NotificationText>1404001495</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118824</Subtitle>
+                                    <Subtitle>1404001489</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -83,10 +83,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119401</NotificationText>
+                                    <NotificationText>1404001503</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118816</Subtitle>
+                                    <Subtitle>1404001481</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -129,10 +129,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118826</NotificationText>
+                                    <NotificationText>1404001496</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118817</Subtitle>
+                                    <Subtitle>1404001482</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -235,7 +235,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118814</StoryText>
+                    <StoryText>1404001494</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -363,7 +363,7 @@
                                                 <ConditionObjectiveSignsAndFeedback />
                                             </Values>
                                         </InitialTradingStation>
-                                        <RetrieveItemAtInitialTradingStation>118872</RetrieveItemAtInitialTradingStation>
+                                        <RetrieveItemAtInitialTradingStation>1404001491</RetrieveItemAtInitialTradingStation>
                                         <SmugglerStations>
                                             <Item>
                                                 <Station>
@@ -380,8 +380,8 @@
                                                                     <ConditionObjectiveSignsAndFeedback />
                                                                 </Values>
                                                             </TradingStationDestination>
-                                                            <TradingStationBringItem>118872</TradingStationBringItem>
-                                                            <TradingStationRetrieveItem>118872</TradingStationRetrieveItem>
+                                                            <TradingStationBringItem>1404001491</TradingStationBringItem>
+                                                            <TradingStationRetrieveItem>1404001491</TradingStationRetrieveItem>
                                                             <OnTradingStationVisited>
                                                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                 <Values>
@@ -412,10 +412,10 @@
                                                                                                                                         <Profile>1404000019</Profile>
                                                                                                                                     </CharacterNotification>
                                                                                                                                     <BaseNotification>
-                                                                                                                                        <NotificationText>118830</NotificationText>
+                                                                                                                                        <NotificationText>1404001500</NotificationText>
                                                                                                                                     </BaseNotification>
                                                                                                                                     <NotificationSubtitle>
-                                                                                                                                        <Subtitle>118821</Subtitle>
+                                                                                                                                        <Subtitle>1404001486</Subtitle>
                                                                                                                                     </NotificationSubtitle>
                                                                                                                                 </Values>
                                                                                                                             </Notification>
@@ -442,10 +442,10 @@
                                                                         <Profile>1404000019</Profile>
                                                                     </CharacterNotification>
                                                                     <BaseNotification>
-                                                                        <NotificationText>118827</NotificationText>
+                                                                        <NotificationText>1404001497</NotificationText>
                                                                     </BaseNotification>
                                                                     <NotificationSubtitle>
-                                                                        <Subtitle>118818</Subtitle>
+                                                                        <Subtitle>1404001483</Subtitle>
                                                                     </NotificationSubtitle>
                                                                 </Values>
                                                             </TradingStationReachedNotification>
@@ -468,8 +468,8 @@
                                                                     <ConditionObjectiveSignsAndFeedback />
                                                                 </Values>
                                                             </TradingStationDestination>
-                                                            <TradingStationBringItem>118872</TradingStationBringItem>
-                                                            <TradingStationRetrieveItem>118872</TradingStationRetrieveItem>
+                                                            <TradingStationBringItem>1404001491</TradingStationBringItem>
+                                                            <TradingStationRetrieveItem>1404001491</TradingStationRetrieveItem>
                                                             <OnTradingStationVisited>
                                                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                 <Values>
@@ -500,10 +500,10 @@
                                                                                                                                         <Profile>1404000019</Profile>
                                                                                                                                     </CharacterNotification>
                                                                                                                                     <BaseNotification>
-                                                                                                                                        <NotificationText>118831</NotificationText>
+                                                                                                                                        <NotificationText>1404001501</NotificationText>
                                                                                                                                     </BaseNotification>
                                                                                                                                     <NotificationSubtitle>
-                                                                                                                                        <Subtitle>118822</Subtitle>
+                                                                                                                                        <Subtitle>1404001487</Subtitle>
                                                                                                                                     </NotificationSubtitle>
                                                                                                                                 </Values>
                                                                                                                             </Notification>
@@ -530,10 +530,10 @@
                                                                         <Profile>1404000019</Profile>
                                                                     </CharacterNotification>
                                                                     <BaseNotification>
-                                                                        <NotificationText>118828</NotificationText>
+                                                                        <NotificationText>1404001498</NotificationText>
                                                                     </BaseNotification>
                                                                     <NotificationSubtitle>
-                                                                        <Subtitle>118819</Subtitle>
+                                                                        <Subtitle>1404001484</Subtitle>
                                                                     </NotificationSubtitle>
                                                                 </Values>
                                                             </TradingStationReachedNotification>
@@ -556,8 +556,8 @@
                                                                     <ConditionObjectiveSignsAndFeedback />
                                                                 </Values>
                                                             </TradingStationDestination>
-                                                            <TradingStationBringItem>118872</TradingStationBringItem>
-                                                            <TradingStationRetrieveItem>118872</TradingStationRetrieveItem>
+                                                            <TradingStationBringItem>1404001491</TradingStationBringItem>
+                                                            <TradingStationRetrieveItem>1404001491</TradingStationRetrieveItem>
                                                             <OnTradingStationVisited>
                                                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                 <Values>
@@ -588,10 +588,10 @@
                                                                                                                                         <Profile>1404000019</Profile>
                                                                                                                                     </CharacterNotification>
                                                                                                                                     <BaseNotification>
-                                                                                                                                        <NotificationText>118832</NotificationText>
+                                                                                                                                        <NotificationText>1404001502</NotificationText>
                                                                                                                                     </BaseNotification>
                                                                                                                                     <NotificationSubtitle>
-                                                                                                                                        <Subtitle>118823</Subtitle>
+                                                                                                                                        <Subtitle>1404001488</Subtitle>
                                                                                                                                     </NotificationSubtitle>
                                                                                                                                 </Values>
                                                                                                                             </Notification>
@@ -618,10 +618,10 @@
                                                                         <Profile>1404000019</Profile>
                                                                     </CharacterNotification>
                                                                     <BaseNotification>
-                                                                        <NotificationText>118829</NotificationText>
+                                                                        <NotificationText>1404001499</NotificationText>
                                                                     </BaseNotification>
                                                                     <NotificationSubtitle>
-                                                                        <Subtitle>118820</Subtitle>
+                                                                        <Subtitle>1404001485</Subtitle>
                                                                     </NotificationSubtitle>
                                                                 </Values>
                                                             </TradingStationReachedNotification>
@@ -634,7 +634,7 @@
                                                     <Template>QuestTradingStation</Template>
                                                     <Values>
                                                         <TradingStation>
-                                                            <TradingStationBringItem>118872</TradingStationBringItem>
+                                                            <TradingStationBringItem>1404001491</TradingStationBringItem>
                                                             <TradingStationReachedNotification>
                                                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                 <Values>
@@ -642,10 +642,10 @@
                                                                         <Profile>1404000019</Profile>
                                                                     </CharacterNotification>
                                                                     <BaseNotification>
-                                                                        <NotificationText>21733</NotificationText>
+                                                                        <NotificationText>1404001493</NotificationText>
                                                                     </BaseNotification>
                                                                     <NotificationSubtitle>
-                                                                        <Subtitle>122220</Subtitle>
+                                                                        <Subtitle>1404001490</Subtitle>
                                                                     </NotificationSubtitle>
                                                                 </Values>
                                                             </TradingStationReachedNotification>
@@ -654,7 +654,7 @@
                                                 </Station>
                                             </Item>
                                         </SmugglerStations>
-                                        <TextTradingStation_NoItem>20068</TextTradingStation_NoItem>
+                                        <TextTradingStation_NoItem>1404001492</TextTradingStation_NoItem>
                                         <TextTradingStation>20067</TextTradingStation>
                                     </ConditionQuestSmuggler>
                                     <ConditionQuestObjective />
@@ -742,7 +742,7 @@
                     <AudioAsset>278257</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118816</GUID>
+                    <GUID>1404001481</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_QuestStart</Name>
                 </Standard>
             </Values>
@@ -763,7 +763,7 @@
                     <AudioAsset>278258</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118817</GUID>
+                    <GUID>1404001482</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioPickupEnvoy</Name>
                 </Standard>
             </Values>
@@ -785,7 +785,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118818</GUID>
+                    <GUID>1404001483</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy1</Name>
                 </Standard>
             </Values>
@@ -807,7 +807,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118819</GUID>
+                    <GUID>1404001484</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy2</Name>
                 </Standard>
             </Values>
@@ -829,7 +829,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118820</GUID>
+                    <GUID>1404001485</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy3</Name>
                 </Standard>
             </Values>
@@ -851,7 +851,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118821</GUID>
+                    <GUID>1404001486</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioOnTheRoad1</Name>
                 </Standard>
             </Values>
@@ -873,7 +873,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118822</GUID>
+                    <GUID>1404001487</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioOnTheRoad2</Name>
                 </Standard>
             </Values>
@@ -894,7 +894,7 @@
                     <AudioAsset>278261</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118823</GUID>
+                    <GUID>1404001488</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioOnTheRoad3</Name>
                 </Standard>
             </Values>
@@ -915,7 +915,7 @@
                     <AudioAsset>278265</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118824</GUID>
+                    <GUID>1404001489</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_AudioSuccess</Name>
                 </Standard>
             </Values>
@@ -936,7 +936,7 @@
                     <AudioAsset>278511</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>122220</GUID>
+                    <GUID>1404001490</GUID>
                     <Name>AT_ADDON01_res2_Quest_HandIn3</Name>
                 </Standard>
             </Values>
@@ -946,7 +946,7 @@
             <Template>QuestItem</Template>
             <Values>
                 <Standard>
-                    <GUID>118872</GUID>
+                    <GUID>1404001491</GUID>
                     <Name>QI Envoy - Visiting Relatives</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_elder.png</IconFilename>
                     <InfoDescription>127962</InfoDescription>
@@ -975,7 +975,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>20068</GUID>
+                    <GUID>1404001492</GUID>
                     <Name>Smuggler_Pickup with object</Name>
                 </Standard>
                 <Text>
@@ -993,7 +993,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>21733</GUID>
+                    <GUID>1404001493</GUID>
                     <Name>ST_SmugglerQuestTradingStationReached GivePeople - f</Name>
                 </Standard>
                 <Text>
@@ -1011,7 +1011,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118814</GUID>
+                    <GUID>1404001494</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_Story</Name>
                 </Standard>
                 <Text>
@@ -1029,7 +1029,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118825</GUID>
+                    <GUID>1404001495</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummarySuccess</Name>
                 </Standard>
                 <Text>
@@ -1047,7 +1047,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118826</GUID>
+                    <GUID>1404001496</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryPickupEnvoy</Name>
                 </Standard>
                 <Text>
@@ -1065,7 +1065,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118827</GUID>
+                    <GUID>1404001497</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy1</Name>
                 </Standard>
                 <Text>
@@ -1083,7 +1083,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118828</GUID>
+                    <GUID>1404001498</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy2</Name>
                 </Standard>
                 <Text>
@@ -1101,7 +1101,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118829</GUID>
+                    <GUID>1404001499</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy3</Name>
                 </Standard>
                 <Text>
@@ -1119,7 +1119,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118830</GUID>
+                    <GUID>1404001500</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryOnTheRoad1</Name>
                 </Standard>
                 <Text>
@@ -1137,7 +1137,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118831</GUID>
+                    <GUID>1404001501</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryOnTheRoad2</Name>
                 </Standard>
                 <Text>
@@ -1155,7 +1155,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118832</GUID>
+                    <GUID>1404001502</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_SummaryOnTheRoad3</Name>
                 </Standard>
                 <Text>
@@ -1173,7 +1173,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119401</GUID>
+                    <GUID>1404001503</GUID>
                     <Name>RQ_Envoy_VisitingRelatives_QuestStartSummary</Name>
                 </Standard>
                 <Text>

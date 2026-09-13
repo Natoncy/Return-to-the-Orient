@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118785</GUID>
+                    <GUID>1404001376</GUID>
                     <Name>RQ_Envoy_IamTheSenate5_DuraLexSedLex_StatusQuo</Name>
                 </Standard>
                 <Quest>
@@ -75,10 +75,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118531</NotificationText>
+                                    <NotificationText>1404001379</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118530</Subtitle>
+                                    <Subtitle>1404001377</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -257,7 +257,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118706</StoryText>
+                    <StoryText>1404001380</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -377,7 +377,7 @@
                                 <Template>SustainObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>22060</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001378</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>WorkingConditions</PlayerCounter>
@@ -505,7 +505,7 @@
                     <AudioAsset>278245</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118530</GUID>
+                    <GUID>1404001377</GUID>
                     <Name>RQ_Envoy_Sustain_DuraLexSedLex_QuestStart</Name>
                 </Standard>
             </Values>
@@ -515,7 +515,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>22060</GUID>
+                    <GUID>1404001378</GUID>
                     <Name>SustainWorkingConditions_Above_NonSpecific</Name>
                 </Standard>
                 <Text>
@@ -533,7 +533,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118531</GUID>
+                    <GUID>1404001379</GUID>
                     <Name>RQ_Envoy_Sustain_DuraLexSedLex_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -551,7 +551,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118706</GUID>
+                    <GUID>1404001380</GUID>
                     <Name>RQ_Envoy_Sustain_DuraLexSedLex_Story</Name>
                 </Standard>
                 <Text>

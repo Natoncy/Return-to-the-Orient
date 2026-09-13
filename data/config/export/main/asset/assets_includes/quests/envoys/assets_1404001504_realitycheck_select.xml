@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118868</GUID>
+                    <GUID>1404001504</GUID>
                     <Name>RQ_Envoy_RealityCheck_Select</Name>
                 </Standard>
                 <Quest>
@@ -75,10 +75,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118840</NotificationText>
+                                    <NotificationText>1404001519</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118841</Subtitle>
+                                    <Subtitle>1404001508</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -164,12 +164,12 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118869</SpawnGUID>
+                                                    <SpawnGUID>1404001515</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <MatcherGUID>118873</MatcherGUID>
+                                                    <MatcherGUID>1404001505</MatcherGUID>
                                                     <ContextMarkerName>quest_spawn_0</ContextMarkerName>
                                                 </SpawnArea>
                                                 <SessionFilter>
@@ -188,12 +188,12 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118870</SpawnGUID>
+                                                    <SpawnGUID>1404001516</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <MatcherGUID>118874</MatcherGUID>
+                                                    <MatcherGUID>1404001506</MatcherGUID>
                                                     <ContextMarkerName>quest_spawn_0</ContextMarkerName>
                                                 </SpawnArea>
                                                 <SessionFilter>
@@ -212,12 +212,12 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118871</SpawnGUID>
+                                                    <SpawnGUID>1404001517</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <MatcherGUID>118875</MatcherGUID>
+                                                    <MatcherGUID>1404001507</MatcherGUID>
                                                     <ContextMarkerName>quest_spawn_0</ContextMarkerName>
                                                 </SpawnArea>
                                                 <SessionFilter>
@@ -294,7 +294,7 @@
                                                 <Action />
                                                 <ActionDeleteObjects />
                                                 <ObjectFilter>
-                                                    <ObjectGUID>118869</ObjectGUID>
+                                                    <ObjectGUID>1404001515</ObjectGUID>
                                                     <ObjectSession>180023</ObjectSession>
                                                 </ObjectFilter>
                                             </Values>
@@ -307,7 +307,7 @@
                                                 <Action />
                                                 <ActionDeleteObjects />
                                                 <ObjectFilter>
-                                                    <ObjectGUID>118870</ObjectGUID>
+                                                    <ObjectGUID>1404001516</ObjectGUID>
                                                     <ObjectSession>180023</ObjectSession>
                                                 </ObjectFilter>
                                             </Values>
@@ -320,7 +320,7 @@
                                                 <Action />
                                                 <ActionDeleteObjects />
                                                 <ObjectFilter>
-                                                    <ObjectGUID>118871</ObjectGUID>
+                                                    <ObjectGUID>1404001517</ObjectGUID>
                                                     <ObjectSession>180023</ObjectSession>
                                                 </ObjectFilter>
                                             </Values>
@@ -338,7 +338,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118839</StoryText>
+                    <StoryText>1404001518</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -357,10 +357,10 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118842</Text>
+                            <Text>1404001520</Text>
                         </Item>
                         <Item>
-                            <Text>118843</Text>
+                            <Text>1404001521</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -542,10 +542,10 @@
                                                     <Profile>118731</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118847</NotificationText>
+                                                    <NotificationText>1404001522</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118844</Subtitle>
+                                                    <Subtitle>1404001509</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -557,7 +557,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118869</ObjectGUID>
+                                                            <ObjectGUID>1404001515</ObjectGUID>
                                                         </ObjectFilter>
                                                     </Values>
                                                 </Object>
@@ -583,10 +583,10 @@
                                                     <Profile>118731</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118849</NotificationText>
+                                                    <NotificationText>1404001523</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118845</Subtitle>
+                                                    <Subtitle>1404001510</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -598,7 +598,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118870</ObjectGUID>
+                                                            <ObjectGUID>1404001516</ObjectGUID>
                                                         </ObjectFilter>
                                                     </Values>
                                                 </Object>
@@ -624,10 +624,10 @@
                                                     <Profile>118731</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118850</NotificationText>
+                                                    <NotificationText>1404001524</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118846</Subtitle>
+                                                    <Subtitle>1404001511</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -639,7 +639,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118871</ObjectGUID>
+                                                            <ObjectGUID>1404001517</ObjectGUID>
                                                         </ObjectFilter>
                                                     </Values>
                                                 </Object>
@@ -658,7 +658,7 @@
                                 <Template>DecisionObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130768</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001531</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/3dicons/achievement/icon_achievement_quests_silver.png</QuestTrackerIcon>
                                     </ConditionQuestObjective>
                                     <ConditionQuestDecision>
@@ -670,7 +670,7 @@
                                                     <Values>
                                                         <Condition />
                                                         <ConditionDecision>
-                                                            <DecisionFluffText>130320</DecisionFluffText>
+                                                            <DecisionFluffText>1404001527</DecisionFluffText>
                                                             <DecisionOptionList>
                                                                 <Item>
                                                                     <DecisionOption>
@@ -678,7 +678,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>130321</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001528</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -697,10 +697,10 @@
                                                                                                                             <Profile>1404000019</Profile>
                                                                                                                         </CharacterNotification>
                                                                                                                         <BaseNotification>
-                                                                                                                            <NotificationText>118856</NotificationText>
+                                                                                                                            <NotificationText>1404001526</NotificationText>
                                                                                                                         </BaseNotification>
                                                                                                                         <NotificationSubtitle>
-                                                                                                                            <Subtitle>118851</Subtitle>
+                                                                                                                            <Subtitle>1404001512</Subtitle>
                                                                                                                         </NotificationSubtitle>
                                                                                                                     </Values>
                                                                                                                 </Notification>
@@ -722,7 +722,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>130322</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001529</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -741,10 +741,10 @@
                                                                                                                             <Profile>1404000019</Profile>
                                                                                                                         </CharacterNotification>
                                                                                                                         <BaseNotification>
-                                                                                                                            <NotificationText>118855</NotificationText>
+                                                                                                                            <NotificationText>1404001525</NotificationText>
                                                                                                                         </BaseNotification>
                                                                                                                         <NotificationSubtitle>
-                                                                                                                            <Subtitle>118852</Subtitle>
+                                                                                                                            <Subtitle>1404001513</Subtitle>
                                                                                                                         </NotificationSubtitle>
                                                                                                                     </Values>
                                                                                                                 </Notification>
@@ -766,7 +766,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>130323</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001530</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -785,10 +785,10 @@
                                                                                                                             <Profile>1404000019</Profile>
                                                                                                                         </CharacterNotification>
                                                                                                                         <BaseNotification>
-                                                                                                                            <NotificationText>118856</NotificationText>
+                                                                                                                            <NotificationText>1404001526</NotificationText>
                                                                                                                         </BaseNotification>
                                                                                                                         <NotificationSubtitle>
-                                                                                                                            <Subtitle>118853</Subtitle>
+                                                                                                                            <Subtitle>1404001514</Subtitle>
                                                                                                                         </NotificationSubtitle>
                                                                                                                     </Values>
                                                                                                                 </Notification>
@@ -868,7 +868,7 @@
             <Template>Matcher</Template>
             <Values>
                 <Standard>
-                    <GUID>118873</GUID>
+                    <GUID>1404001505</GUID>
                     <Name>Scholar 1 University</Name>
                 </Standard>
                 <Matcher>
@@ -929,7 +929,7 @@
             <Template>Matcher</Template>
             <Values>
                 <Standard>
-                    <GUID>118874</GUID>
+                    <GUID>1404001506</GUID>
                     <Name>Scholar 2 Cabaret</Name>
                 </Standard>
                 <Matcher>
@@ -990,7 +990,7 @@
             <Template>Matcher</Template>
             <Values>
                 <Standard>
-                    <GUID>118875</GUID>
+                    <GUID>1404001507</GUID>
                     <Name>Scholar 3 Pub</Name>
                 </Standard>
                 <Matcher>
@@ -1065,7 +1065,7 @@
                     <AudioAsset>278251</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118841</GUID>
+                    <GUID>1404001508</GUID>
                     <Name>RQ_Envoy_RealityCheck_AudioStart</Name>
                 </Standard>
             </Values>
@@ -1087,7 +1087,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118844</GUID>
+                    <GUID>1404001509</GUID>
                     <Name>RQ_Envoy_RealityCheck_ScholarAudioIntellectual1</Name>
                 </Standard>
             </Values>
@@ -1109,7 +1109,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118845</GUID>
+                    <GUID>1404001510</GUID>
                     <Name>RQ_Envoy_RealityCheck_AudioIntellectual2</Name>
                 </Standard>
             </Values>
@@ -1131,7 +1131,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118846</GUID>
+                    <GUID>1404001511</GUID>
                     <Name>RQ_Envoy_RealityCheck_AudioIntellectual3</Name>
                 </Standard>
             </Values>
@@ -1153,7 +1153,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118851</GUID>
+                    <GUID>1404001512</GUID>
                     <Name>RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual1</Name>
                 </Standard>
             </Values>
@@ -1175,7 +1175,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118852</GUID>
+                    <GUID>1404001513</GUID>
                     <Name>RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual2</Name>
                 </Standard>
             </Values>
@@ -1197,7 +1197,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118853</GUID>
+                    <GUID>1404001514</GUID>
                     <Name>RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual3</Name>
                 </Standard>
             </Values>
@@ -1207,7 +1207,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118869</GUID>
+                    <GUID>1404001515</GUID>
                     <Name>Scholar 1</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_scholars.png</IconFilename>
                 </Standard>
@@ -1274,7 +1274,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118870</GUID>
+                    <GUID>1404001516</GUID>
                     <Name>Scholar 2</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_scholars.png</IconFilename>
                 </Standard>
@@ -1341,7 +1341,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118871</GUID>
+                    <GUID>1404001517</GUID>
                     <Name>Scholar 3</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_scholars.png</IconFilename>
                 </Standard>
@@ -1409,7 +1409,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118839</GUID>
+                    <GUID>1404001518</GUID>
                     <Name>RQ_Envoy_RealityCheck_Story</Name>
                 </Standard>
                 <Text>
@@ -1427,7 +1427,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118840</GUID>
+                    <GUID>1404001519</GUID>
                     <Name>RQ_Envoy_RealityCheck_SummaryStart</Name>
                 </Standard>
                 <Text>
@@ -1445,7 +1445,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118842</GUID>
+                    <GUID>1404001520</GUID>
                     <Name>RQ_Envoy_RealityCheck_Hint</Name>
                 </Standard>
                 <Text>
@@ -1463,7 +1463,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118843</GUID>
+                    <GUID>1404001521</GUID>
                     <Name>RQ_Envoy_RealityCheck_Hint2</Name>
                 </Standard>
                 <Text>
@@ -1481,7 +1481,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118847</GUID>
+                    <GUID>1404001522</GUID>
                     <Name>RQ_Envoy_RealityCheck_SummaryIntellectual1</Name>
                 </Standard>
                 <Text>
@@ -1499,7 +1499,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118849</GUID>
+                    <GUID>1404001523</GUID>
                     <Name>RQ_Envoy_RealityCheck_SummaryIntellectual2</Name>
                 </Standard>
                 <Text>
@@ -1517,7 +1517,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118850</GUID>
+                    <GUID>1404001524</GUID>
                     <Name>RQ_Envoy_RealityCheck_SummaryIntellectual3</Name>
                 </Standard>
                 <Text>
@@ -1535,7 +1535,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118855</GUID>
+                    <GUID>1404001525</GUID>
                     <Name>RQ_Envoy_RealityCheck_SuccessSummaryIntellectual2</Name>
                 </Standard>
                 <Text>
@@ -1553,7 +1553,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118856</GUID>
+                    <GUID>1404001526</GUID>
                     <Name>RQ_Envoy_RealityCheck_SuccessSummaryIntellectual3</Name>
                 </Standard>
                 <Text>
@@ -1571,7 +1571,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130320</GUID>
+                    <GUID>1404001527</GUID>
                     <Name>RQ_Envoy_RealityCheck_DecisionBaseText</Name>
                 </Standard>
                 <Text>
@@ -1589,7 +1589,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130321</GUID>
+                    <GUID>1404001528</GUID>
                     <Name>RQ_Envoy_RealityCheck_DecisionChooseIntellectual1</Name>
                 </Standard>
                 <Text>
@@ -1607,7 +1607,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130322</GUID>
+                    <GUID>1404001529</GUID>
                     <Name>RQ_Envoy_RealityCheck_DecisionChooseIntellectual2</Name>
                 </Standard>
                 <Text>
@@ -1625,7 +1625,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130323</GUID>
+                    <GUID>1404001530</GUID>
                     <Name>RQ_Envoy_RealityCheck_DecisionChooseIntellectual3</Name>
                 </Standard>
                 <Text>
@@ -1643,7 +1643,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130768</GUID>
+                    <GUID>1404001531</GUID>
                     <Name>RQ_Envoy_RealityCheck_Objective</Name>
                 </Standard>
                 <Text>

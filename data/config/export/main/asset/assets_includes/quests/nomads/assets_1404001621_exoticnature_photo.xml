@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118975</GUID>
+                    <GUID>1404001621</GUID>
                     <Name>RQ_Nomad_ExoticNature_Photo</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119330</NotificationText>
+                                    <NotificationText>1404001628</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119329</Subtitle>
+                                    <Subtitle>1404001623</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -83,10 +83,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119328</NotificationText>
+                                    <NotificationText>1404001627</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119327</Subtitle>
+                                    <Subtitle>1404001622</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -229,7 +229,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119325</StoryText>
+                    <StoryText>1404001625</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -251,7 +251,7 @@
                             <Text>17675</Text>
                         </Item>
                         <Item>
-                            <Text>119326</Text>
+                            <Text>1404001626</Text>
                         </Item>
                     </QuestHints>
                     <StarterSpeechBubble>
@@ -259,7 +259,7 @@
                         <Values>
                             <Condition />
                             <ConditionTutorialInteraction>
-                                <HintText>15502</HintText>
+                                <HintText>1404001624</HintText>
                                 <ObjectFilter>
                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                     <Values>
@@ -459,7 +459,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119327</GUID>
+                    <GUID>1404001622</GUID>
                     <Name>RQ_Nomad_Photo_ExoticNature_QuestStart</Name>
                 </Standard>
             </Values>
@@ -481,7 +481,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119329</GUID>
+                    <GUID>1404001623</GUID>
                     <Name>RQ_Nomad_Photo_ExoticNature_QuestSuccess</Name>
                 </Standard>
             </Values>
@@ -491,7 +491,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>15502</GUID>
+                    <GUID>1404001624</GUID>
                     <Name>RQ_Artisans_FamilyZoo_HintText</Name>
                 </Standard>
                 <Text>
@@ -509,7 +509,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119325</GUID>
+                    <GUID>1404001625</GUID>
                     <Name>RQ_Nomad_Photo_ExoticNature_Story</Name>
                 </Standard>
                 <Text>
@@ -527,7 +527,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119326</GUID>
+                    <GUID>1404001626</GUID>
                     <Name>RQ_Nomad_Photo_ExoticNature_Hint</Name>
                 </Standard>
                 <Text>
@@ -545,7 +545,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119328</GUID>
+                    <GUID>1404001627</GUID>
                     <Name>RQ_Nomad_Photo_ExoticNature_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -563,7 +563,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119330</GUID>
+                    <GUID>1404001628</GUID>
                     <Name>RQ_Nomad_Photo_ExoticNature_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>

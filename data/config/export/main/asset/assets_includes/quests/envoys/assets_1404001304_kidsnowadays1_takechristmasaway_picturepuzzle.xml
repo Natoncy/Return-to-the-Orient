@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118753</GUID>
+                    <GUID>1404001304</GUID>
                     <Name>RQ_Envoy_KidsNowadays1_TakeChristmasAway_Picturepuzzle</Name>
                 </Standard>
                 <Quest>
@@ -76,10 +76,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118390</NotificationText>
+                                    <NotificationText>1404001312</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118385</Subtitle>
+                                    <Subtitle>1404001305</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -232,10 +232,10 @@
                                                                                                 <Profile>1404000019</Profile>
                                                                                             </CharacterNotification>
                                                                                             <BaseNotification>
-                                                                                                <NotificationText>2391</NotificationText>
+                                                                                                <NotificationText>1404001308</NotificationText>
                                                                                             </BaseNotification>
                                                                                             <NotificationSubtitle>
-                                                                                                <Subtitle>122223</Subtitle>
+                                                                                                <Subtitle>1404001306</Subtitle>
                                                                                             </NotificationSubtitle>
                                                                                         </Values>
                                                                                     </Notification>
@@ -269,7 +269,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118382</StoryText>
+                    <StoryText>1404001309</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -287,7 +287,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118383</Text>
+                            <Text>1404001310</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -375,7 +375,7 @@
                                     <ConditionQuestPicturePuzzle>
                                         <PicturePuzzleObjects>
                                             <Item>
-                                                <Object>118756</Object>
+                                                <Object>1404001307</Object>
                                                 <Amount>5</Amount>
                                                 <AdditionalAmount>2</AdditionalAmount>
                                                 <Context>
@@ -398,7 +398,7 @@
                                         </PicturePuzzleObjects>
                                     </ConditionQuestPicturePuzzle>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118384</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001311</TextCombinedContextValue>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -492,7 +492,7 @@
                     <AudioAsset>278277</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118385</GUID>
+                    <GUID>1404001305</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStart</Name>
                 </Standard>
             </Values>
@@ -514,7 +514,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>122223</GUID>
+                    <GUID>1404001306</GUID>
                     <Name>AT_ADDON01_res2_Quest_Success1</Name>
                 </Standard>
             </Values>
@@ -524,7 +524,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118756</GUID>
+                    <GUID>1404001307</GUID>
                     <Name>Pile of gifts</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_ornament_christmas.png</IconFilename>
                 </Standard>
@@ -590,7 +590,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>2391</GUID>
+                    <GUID>1404001308</GUID>
                     <Name>ST_QuestSuccessful_1 - f</Name>
                 </Standard>
                 <Text>
@@ -608,7 +608,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118382</GUID>
+                    <GUID>1404001309</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_Story</Name>
                 </Standard>
                 <Text>
@@ -626,7 +626,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118383</GUID>
+                    <GUID>1404001310</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -644,7 +644,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118384</GUID>
+                    <GUID>1404001311</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents</Name>
                 </Standard>
                 <Text>
@@ -662,7 +662,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118390</GUID>
+                    <GUID>1404001312</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary</Name>
                 </Standard>
                 <Text>

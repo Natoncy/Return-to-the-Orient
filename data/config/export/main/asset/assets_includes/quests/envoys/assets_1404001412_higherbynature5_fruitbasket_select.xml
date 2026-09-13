@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118883</GUID>
+                    <GUID>1404001412</GUID>
                     <Name>RQ_Envoy_HigherByNature5_FruitBasket_Select</Name>
                 </Standard>
                 <Quest>
@@ -17,10 +17,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>130488</NotificationText>
+                                    <NotificationText>1404001425</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>124950</Subtitle>
+                                    <Subtitle>1404001418</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -33,10 +33,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118474</NotificationText>
+                                    <NotificationText>1404001420</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118473</Subtitle>
+                                    <Subtitle>1404001414</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -87,10 +87,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118472</NotificationText>
+                                    <NotificationText>1404001419</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118471</Subtitle>
+                                    <Subtitle>1404001413</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -233,7 +233,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118566</StoryText>
+                    <StoryText>1404001421</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -251,7 +251,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118567</Text>
+                            <Text>1404001422</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -323,7 +323,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118880</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001405</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -379,7 +379,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118568</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001423</TextCombinedContextValue>
                                         <ObjectiveSuccessMessage>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -387,10 +387,10 @@
                                                     <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118884</NotificationText>
+                                                    <NotificationText>1404001424</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118887</Subtitle>
+                                                    <Subtitle>1404001415</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -422,7 +422,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118568</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001423</TextCombinedContextValue>
                                         <ObjectiveSuccessMessage>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -430,10 +430,10 @@
                                                     <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118884</NotificationText>
+                                                    <NotificationText>1404001424</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118888</Subtitle>
+                                                    <Subtitle>1404001416</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -463,7 +463,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118568</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001423</TextCombinedContextValue>
                                         <ObjectiveSuccessMessage>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -471,10 +471,10 @@
                                                     <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118884</NotificationText>
+                                                    <NotificationText>1404001424</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118889</Subtitle>
+                                                    <Subtitle>1404001417</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -569,7 +569,7 @@
                     <AudioAsset>278287</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118471</GUID>
+                    <GUID>1404001413</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_QuestStart</Name>
                 </Standard>
             </Values>
@@ -591,7 +591,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118473</GUID>
+                    <GUID>1404001414</GUID>
                     <Name>RQ_Envoy_Select_FruitBaskete_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -612,7 +612,7 @@
                     <AudioAsset>278290</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118887</GUID>
+                    <GUID>1404001415</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_AudioHouse1</Name>
                 </Standard>
             </Values>
@@ -633,7 +633,7 @@
                     <AudioAsset>278291</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118888</GUID>
+                    <GUID>1404001416</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_AudioHouse2</Name>
                 </Standard>
             </Values>
@@ -655,7 +655,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118889</GUID>
+                    <GUID>1404001417</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_AudioHouse3</Name>
                 </Standard>
             </Values>
@@ -676,7 +676,7 @@
                     <AudioAsset>278289</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>124950</GUID>
+                    <GUID>1404001418</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_QuestStart2</Name>
                 </Standard>
             </Values>
@@ -686,7 +686,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118472</GUID>
+                    <GUID>1404001419</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -704,7 +704,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118474</GUID>
+                    <GUID>1404001420</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>
@@ -722,7 +722,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118566</GUID>
+                    <GUID>1404001421</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_Story</Name>
                 </Standard>
                 <Text>
@@ -740,7 +740,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118567</GUID>
+                    <GUID>1404001422</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -758,7 +758,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118568</GUID>
+                    <GUID>1404001423</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_DoorToDoor</Name>
                 </Standard>
                 <Text>
@@ -776,7 +776,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118884</GUID>
+                    <GUID>1404001424</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_SummaryHouse123</Name>
                 </Standard>
                 <Text>
@@ -794,7 +794,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130488</GUID>
+                    <GUID>1404001425</GUID>
                     <Name>RQ_Envoy_Select_FruitBasket_QuestStartSummary2</Name>
                 </Standard>
                 <Text>

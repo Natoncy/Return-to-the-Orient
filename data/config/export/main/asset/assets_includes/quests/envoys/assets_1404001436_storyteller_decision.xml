@@ -5,7 +5,7 @@
             <Template>A7_QuestDecision</Template>
             <Values>
                 <Standard>
-                    <GUID>118787</GUID>
+                    <GUID>1404001436</GUID>
                     <Name>RQ_Envoy_Storyteller_Decision</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119369</NotificationText>
+                                    <NotificationText>1404001439</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119368</Subtitle>
+                                    <Subtitle>1404001437</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -223,7 +223,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118790</StoryText>
+                    <StoryText>1404001438</StoryText>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
                     <ConfirmOnReachedCondition>
@@ -321,7 +321,7 @@
                                 <Template>DecisionObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130628</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001454</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/icons/icon_proposals_negotiate.png</QuestTrackerIcon>
                                     </ConditionQuestObjective>
                                     <ConditionQuestDecision>
@@ -333,7 +333,7 @@
                                                     <Values>
                                                         <Condition />
                                                         <ConditionDecision>
-                                                            <DecisionFluffText>119370</DecisionFluffText>
+                                                            <DecisionFluffText>1404001440</DecisionFluffText>
                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
@@ -342,7 +342,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119371</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001441</DecisionOptionText>
                                                                                 <FollowUpDecisionList>
                                                                                     <Item>
                                                                                         <FollowUpDecision>
@@ -350,7 +350,7 @@
                                                                                             <Values>
                                                                                                 <Condition />
                                                                                                 <ConditionDecision>
-                                                                                                    <DecisionFluffText>119373</DecisionFluffText>
+                                                                                                    <DecisionFluffText>1404001443</DecisionFluffText>
                                                                                                     <DecisionPortrait>114622</DecisionPortrait>
                                                                                                     <DecisionOptionList>
                                                                                                         <Item>
@@ -359,7 +359,7 @@
                                                                                                                 <Values>
                                                                                                                     <Condition />
                                                                                                                     <ConditionDecisionOption>
-                                                                                                                        <DecisionOptionText>119374</DecisionOptionText>
+                                                                                                                        <DecisionOptionText>1404001444</DecisionOptionText>
                                                                                                                         <FollowUpDecisionList>
                                                                                                                             <Item>
                                                                                                                                 <FollowUpDecision>
@@ -367,7 +367,7 @@
                                                                                                                                     <Values>
                                                                                                                                         <Condition />
                                                                                                                                         <ConditionDecision>
-                                                                                                                                            <DecisionFluffText>119376</DecisionFluffText>
+                                                                                                                                            <DecisionFluffText>1404001446</DecisionFluffText>
                                                                                                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                                                                                                             <DecisionOptionList>
                                                                                                                                                 <Item>
@@ -376,7 +376,7 @@
                                                                                                                                                         <Values>
                                                                                                                                                             <Condition />
                                                                                                                                                             <ConditionDecisionOption>
-                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <DecisionOptionText>1404001453</DecisionOptionText>
                                                                                                                                                                 <ActionList>
                                                                                                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                                                                                                     <Values>
@@ -418,7 +418,7 @@
                                                                                                                 <Values>
                                                                                                                     <Condition />
                                                                                                                     <ConditionDecisionOption>
-                                                                                                                        <DecisionOptionText>119375</DecisionOptionText>
+                                                                                                                        <DecisionOptionText>1404001445</DecisionOptionText>
                                                                                                                         <FollowUpDecisionList>
                                                                                                                             <Item>
                                                                                                                                 <FollowUpDecision>
@@ -426,7 +426,7 @@
                                                                                                                                     <Values>
                                                                                                                                         <Condition />
                                                                                                                                         <ConditionDecision>
-                                                                                                                                            <DecisionFluffText>119377</DecisionFluffText>
+                                                                                                                                            <DecisionFluffText>1404001447</DecisionFluffText>
                                                                                                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                                                                                                             <DecisionOptionList>
                                                                                                                                                 <Item>
@@ -435,7 +435,7 @@
                                                                                                                                                         <Values>
                                                                                                                                                             <Condition />
                                                                                                                                                             <ConditionDecisionOption>
-                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <DecisionOptionText>1404001453</DecisionOptionText>
                                                                                                                                                                 <ActionList>
                                                                                                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                                                                                                     <Values>
@@ -487,7 +487,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119372</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001442</DecisionOptionText>
                                                                                 <FollowUpDecisionList>
                                                                                     <Item>
                                                                                         <FollowUpDecision>
@@ -495,7 +495,7 @@
                                                                                             <Values>
                                                                                                 <Condition />
                                                                                                 <ConditionDecision>
-                                                                                                    <DecisionFluffText>119378</DecisionFluffText>
+                                                                                                    <DecisionFluffText>1404001448</DecisionFluffText>
                                                                                                     <DecisionPortrait>114622</DecisionPortrait>
                                                                                                     <DecisionOptionList>
                                                                                                         <Item>
@@ -504,7 +504,7 @@
                                                                                                                 <Values>
                                                                                                                     <Condition />
                                                                                                                     <ConditionDecisionOption>
-                                                                                                                        <DecisionOptionText>119379</DecisionOptionText>
+                                                                                                                        <DecisionOptionText>1404001449</DecisionOptionText>
                                                                                                                         <FollowUpDecisionList>
                                                                                                                             <Item>
                                                                                                                                 <FollowUpDecision>
@@ -512,7 +512,7 @@
                                                                                                                                     <Values>
                                                                                                                                         <Condition />
                                                                                                                                         <ConditionDecision>
-                                                                                                                                            <DecisionFluffText>119381</DecisionFluffText>
+                                                                                                                                            <DecisionFluffText>1404001451</DecisionFluffText>
                                                                                                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                                                                                                             <DecisionOptionList>
                                                                                                                                                 <Item>
@@ -521,7 +521,7 @@
                                                                                                                                                         <Values>
                                                                                                                                                             <Condition />
                                                                                                                                                             <ConditionDecisionOption>
-                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <DecisionOptionText>1404001453</DecisionOptionText>
                                                                                                                                                                 <ActionList>
                                                                                                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                                                                                                     <Values>
@@ -563,7 +563,7 @@
                                                                                                                 <Values>
                                                                                                                     <Condition />
                                                                                                                     <ConditionDecisionOption>
-                                                                                                                        <DecisionOptionText>119380</DecisionOptionText>
+                                                                                                                        <DecisionOptionText>1404001450</DecisionOptionText>
                                                                                                                         <FollowUpDecisionList>
                                                                                                                             <Item>
                                                                                                                                 <FollowUpDecision>
@@ -571,7 +571,7 @@
                                                                                                                                     <Values>
                                                                                                                                         <Condition />
                                                                                                                                         <ConditionDecision>
-                                                                                                                                            <DecisionFluffText>119382</DecisionFluffText>
+                                                                                                                                            <DecisionFluffText>1404001452</DecisionFluffText>
                                                                                                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                                                                                                             <DecisionOptionList>
                                                                                                                                                 <Item>
@@ -580,7 +580,7 @@
                                                                                                                                                         <Values>
                                                                                                                                                             <Condition />
                                                                                                                                                             <ConditionDecisionOption>
-                                                                                                                                                                <DecisionOptionText>120351</DecisionOptionText>
+                                                                                                                                                                <DecisionOptionText>1404001453</DecisionOptionText>
                                                                                                                                                                 <ActionList>
                                                                                                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                                                                                                     <Values>
@@ -703,7 +703,7 @@
                     <AudioAsset>278271</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>119368</GUID>
+                    <GUID>1404001437</GUID>
                     <Name>RQ_Envoy_Storyteller_QuestStart</Name>
                 </Standard>
             </Values>
@@ -713,7 +713,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118790</GUID>
+                    <GUID>1404001438</GUID>
                     <Name>RQ_Envoy_Storyteller_Story</Name>
                 </Standard>
                 <Text>
@@ -731,7 +731,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119369</GUID>
+                    <GUID>1404001439</GUID>
                     <Name>RQ_Envoy_Storyteller_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -749,7 +749,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119370</GUID>
+                    <GUID>1404001440</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleStart</Name>
                 </Standard>
                 <Text>
@@ -767,7 +767,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119371</GUID>
+                    <GUID>1404001441</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleCrafty</Name>
                 </Standard>
                 <Text>
@@ -785,7 +785,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119372</GUID>
+                    <GUID>1404001442</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleStrong</Name>
                 </Standard>
                 <Text>
@@ -803,7 +803,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119373</GUID>
+                    <GUID>1404001443</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleMeetLion</Name>
                 </Standard>
                 <Text>
@@ -821,7 +821,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119374</GUID>
+                    <GUID>1404001444</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleShareHoney</Name>
                 </Standard>
                 <Text>
@@ -839,7 +839,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119375</GUID>
+                    <GUID>1404001445</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleUseHoney</Name>
                 </Standard>
                 <Text>
@@ -857,7 +857,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119376</GUID>
+                    <GUID>1404001446</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleKindHeart</Name>
                 </Standard>
                 <Text>
@@ -875,7 +875,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119377</GUID>
+                    <GUID>1404001447</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleSweetChat</Name>
                 </Standard>
                 <Text>
@@ -893,7 +893,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119378</GUID>
+                    <GUID>1404001448</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleMeetSnakes</Name>
                 </Standard>
                 <Text>
@@ -911,7 +911,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119379</GUID>
+                    <GUID>1404001449</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleStrikeSnakes</Name>
                 </Standard>
                 <Text>
@@ -929,7 +929,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119380</GUID>
+                    <GUID>1404001450</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleHushSnakes</Name>
                 </Standard>
                 <Text>
@@ -947,7 +947,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119381</GUID>
+                    <GUID>1404001451</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleRemorse</Name>
                 </Standard>
                 <Text>
@@ -965,7 +965,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119382</GUID>
+                    <GUID>1404001452</GUID>
                     <Name>RQ_Envoy_Storyteller_TaleBreakCurse</Name>
                 </Standard>
                 <Text>
@@ -983,7 +983,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>120351</GUID>
+                    <GUID>1404001453</GUID>
                     <Name>RQ_Envoy_Storyteller_End</Name>
                 </Standard>
                 <Text>
@@ -1001,7 +1001,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130628</GUID>
+                    <GUID>1404001454</GUID>
                     <Name>RQ_Envoy_Storyteller_Objective</Name>
                 </Standard>
                 <Text>

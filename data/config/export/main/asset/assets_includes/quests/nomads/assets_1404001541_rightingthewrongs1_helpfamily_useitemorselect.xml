@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118958</GUID>
+                    <GUID>1404001541</GUID>
                     <Name>RQ_Nomad_RightingTheWrongs1_HelpFamily_UseItemORSelect</Name>
                 </Standard>
                 <Quest>
@@ -37,10 +37,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119110</NotificationText>
+                                    <NotificationText>1404001551</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119109</Subtitle>
+                                    <Subtitle>1404001543</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -83,10 +83,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119108</NotificationText>
+                                    <NotificationText>1404001550</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119107</Subtitle>
+                                    <Subtitle>1404001542</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -172,7 +172,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118959</SpawnGUID>
+                                                    <SpawnGUID>1404001546</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
@@ -239,13 +239,13 @@
                                                         <Template>CharacterNotification</Template>
                                                         <Values>
                                                             <CharacterNotification>
-                                                                <Profile>244</Profile>
+                                                                <Profile>1404000019</Profile>
                                                             </CharacterNotification>
                                                             <BaseNotification>
-                                                                <NotificationText>119112</NotificationText>
+                                                                <NotificationText>1404001552</NotificationText>
                                                             </BaseNotification>
                                                             <NotificationSubtitle>
-                                                                <Subtitle>119111</Subtitle>
+                                                                <Subtitle>1404001544</Subtitle>
                                                             </NotificationSubtitle>
                                                         </Values>
                                                     </Notification>
@@ -293,7 +293,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118959</ObjectGUID>
+                                                                                    <ObjectGUID>1404001546</ObjectGUID>
                                                                                 </ObjectFilter>
                                                                             </Values>
                                                                         </Action>
@@ -318,7 +318,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119104</StoryText>
+                    <StoryText>1404001547</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -336,10 +336,10 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>119105</Text>
+                            <Text>1404001548</Text>
                         </Item>
                         <Item>
-                            <Text>119106</Text>
+                            <Text>1404001549</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -425,7 +425,7 @@
                                 <Template>ItemUsageObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130318</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001554</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/3dicons/icon_fertile_lands.png</QuestTrackerIcon>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -445,10 +445,10 @@
                                                                                     <Profile>1404000018</Profile>
                                                                                 </CharacterNotification>
                                                                                 <BaseNotification>
-                                                                                    <NotificationText>119114</NotificationText>
+                                                                                    <NotificationText>1404001553</NotificationText>
                                                                                 </BaseNotification>
                                                                                 <NotificationSubtitle>
-                                                                                    <Subtitle>119113</Subtitle>
+                                                                                    <Subtitle>1404001545</Subtitle>
                                                                                 </NotificationSubtitle>
                                                                             </Values>
                                                                         </Notification>
@@ -513,7 +513,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130363</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001555</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/3dicons/resident/icon_resident_elder.png</QuestTrackerIcon>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -545,7 +545,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118959</ObjectGUID>
+                                                            <ObjectGUID>1404001546</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -627,7 +627,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119107</GUID>
+                    <GUID>1404001542</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestStart</Name>
                 </Standard>
             </Values>
@@ -649,7 +649,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119109</GUID>
+                    <GUID>1404001543</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestFailNomad</Name>
                 </Standard>
             </Values>
@@ -670,7 +670,7 @@
                     <AudioAsset>278318</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>119111</GUID>
+                    <GUID>1404001544</GUID>
                     <Name>DLC06_Elder_RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoy</Name>
                 </Standard>
             </Values>
@@ -692,7 +692,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119113</GUID>
+                    <GUID>1404001545</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestSuccess</Name>
                 </Standard>
             </Values>
@@ -702,7 +702,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118959</GUID>
+                    <GUID>1404001546</GUID>
                     <Name>Landowner</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_elder.png</IconFilename>
                 </Standard>
@@ -770,7 +770,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119104</GUID>
+                    <GUID>1404001547</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_Story</Name>
                 </Standard>
                 <Text>
@@ -788,7 +788,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119105</GUID>
+                    <GUID>1404001548</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_Hint1</Name>
                 </Standard>
                 <Text>
@@ -806,7 +806,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119106</GUID>
+                    <GUID>1404001549</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_Hint2</Name>
                 </Standard>
                 <Text>
@@ -824,7 +824,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119108</GUID>
+                    <GUID>1404001550</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -842,7 +842,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119110</GUID>
+                    <GUID>1404001551</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestFailNomadSummary</Name>
                 </Standard>
                 <Text>
@@ -860,7 +860,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119112</GUID>
+                    <GUID>1404001552</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoySummary</Name>
                 </Standard>
                 <Text>
@@ -878,7 +878,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119114</GUID>
+                    <GUID>1404001553</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>
@@ -896,7 +896,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130318</GUID>
+                    <GUID>1404001554</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_ObjectiveUseItem</Name>
                 </Standard>
                 <Text>
@@ -914,7 +914,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130363</GUID>
+                    <GUID>1404001555</GUID>
                     <Name>RQ_Nomad_Select_HelpTheFamily_ObjectiveSelectLandowner</Name>
                 </Standard>
                 <Text>

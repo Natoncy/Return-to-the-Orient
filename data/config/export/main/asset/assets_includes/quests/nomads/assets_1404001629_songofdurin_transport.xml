@@ -5,7 +5,7 @@
             <Template>A7_QuestPickupObject</Template>
             <Values>
                 <Standard>
-                    <GUID>118976</GUID>
+                    <GUID>1404001629</GUID>
                     <Name>RQ_Nomad_SongOfDurin_Transport</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>119051</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119339</NotificationText>
+                                    <NotificationText>1404001643</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>122437</Subtitle>
+                                    <Subtitle>1404001632</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,13 +81,13 @@
                             <Values>
                                 <CharacterNotification>
                                     <Profile>1404000018</Profile>
-                                    <NotificationTextFemale>21467</NotificationTextFemale>
+                                    <NotificationTextFemale>1404001640</NotificationTextFemale>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119337</NotificationText>
+                                    <NotificationText>1404001642</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119336</Subtitle>
+                                    <Subtitle>1404001630</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -230,7 +230,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119332</StoryText>
+                    <StoryText>1404001641</StoryText>
                     <ConfirmOnReachedCondition>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
@@ -271,7 +271,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Text>17674</Text>
+                            <Text>1404001637</Text>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -283,7 +283,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Text>17697</Text>
+                            <Text>1404001638</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -292,7 +292,7 @@
                         <Values>
                             <Condition />
                             <ConditionTutorialInteraction>
-                                <HintText>18381</HintText>
+                                <HintText>1404001639</HintText>
                                 <ObjectFilter>
                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                     <Values>
@@ -385,7 +385,7 @@
                                                                     <ConditionObjectiveSignsAndFeedback />
                                                                 </Values>
                                                             </TradingStationDestination>
-                                                            <TradingStationRetrieveItem>118978</TradingStationRetrieveItem>
+                                                            <TradingStationRetrieveItem>1404001634</TradingStationRetrieveItem>
                                                             <OnTradingStationVisited>
                                                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                 <Values>
@@ -404,10 +404,10 @@
                                                                                                         <Profile>1404000018</Profile>
                                                                                                     </CharacterNotification>
                                                                                                     <BaseNotification>
-                                                                                                        <NotificationText>130481</NotificationText>
+                                                                                                        <NotificationText>1404001644</NotificationText>
                                                                                                     </BaseNotification>
                                                                                                     <NotificationSubtitle>
-                                                                                                        <Subtitle>124955</Subtitle>
+                                                                                                        <Subtitle>1404001633</Subtitle>
                                                                                                     </NotificationSubtitle>
                                                                                                 </Values>
                                                                                             </Notification>
@@ -426,10 +426,10 @@
                                                                         <Profile>1404000018</Profile>
                                                                     </CharacterNotification>
                                                                     <BaseNotification>
-                                                                        <NotificationText>3437</NotificationText>
+                                                                        <NotificationText>1404001635</NotificationText>
                                                                     </BaseNotification>
                                                                     <NotificationSubtitle>
-                                                                        <Subtitle>119340</Subtitle>
+                                                                        <Subtitle>1404001631</Subtitle>
                                                                     </NotificationSubtitle>
                                                                 </Values>
                                                             </TradingStationReachedNotification>
@@ -438,7 +438,7 @@
                                                 </Station>
                                             </Item>
                                         </SmugglerStations>
-                                        <TextTradingStation_NoItem>15268</TextTradingStation_NoItem>
+                                        <TextTradingStation_NoItem>1404001636</TextTradingStation_NoItem>
                                         <TextTradingStation>20067</TextTradingStation>
                                     </ConditionQuestSmuggler>
                                     <ConditionQuestObjective />
@@ -517,7 +517,7 @@
                     <AudioAsset>277537</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>119336</GUID>
+                    <GUID>1404001630</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_QuestStart</Name>
                 </Standard>
             </Values>
@@ -539,7 +539,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119340</GUID>
+                    <GUID>1404001631</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_ItemPickup</Name>
                 </Standard>
             </Values>
@@ -560,7 +560,7 @@
                     <AudioAsset>277469</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>122437</GUID>
+                    <GUID>1404001632</GUID>
                     <Name>AT_ADDON01_Ketema_IdleGossip02</Name>
                 </Standard>
             </Values>
@@ -582,7 +582,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>124955</GUID>
+                    <GUID>1404001633</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_ItemPickup2</Name>
                 </Standard>
             </Values>
@@ -592,7 +592,7 @@
             <Template>QuestItem</Template>
             <Values>
                 <Standard>
-                    <GUID>118978</GUID>
+                    <GUID>1404001634</GUID>
                     <Name>QI Nomad Poem - Song of Durin</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/campaign/icon_letter_closed.png</IconFilename>
                     <InfoDescription>127963</InfoDescription>
@@ -621,7 +621,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>3437</GUID>
+                    <GUID>1404001635</GUID>
                     <Name>ST_SmugglerQuestTradingStationReached PickupItem - f</Name>
                 </Standard>
                 <Text>
@@ -639,7 +639,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>15268</GUID>
+                    <GUID>1404001636</GUID>
                     <Name>Smuggler_ShipInRange</Name>
                 </Standard>
                 <Text>
@@ -657,7 +657,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>17674</GUID>
+                    <GUID>1404001637</GUID>
                     <Name>QuestbookHint_Generic_Smuggle01</Name>
                 </Standard>
                 <Text>
@@ -675,7 +675,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>17697</GUID>
+                    <GUID>1404001638</GUID>
                     <Name>QuestbookHint_Generic_Smuggle02_withAttackers</Name>
                 </Standard>
                 <Text>
@@ -693,7 +693,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>18381</GUID>
+                    <GUID>1404001639</GUID>
                     <Name>SmuggleQuest_Bente_TheArtOfHistory_HintText</Name>
                 </Standard>
                 <Text>
@@ -711,7 +711,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>21467</GUID>
+                    <GUID>1404001640</GUID>
                     <Name>ST_QuestOffered_1 - f Smuggle</Name>
                 </Standard>
                 <Text>
@@ -729,7 +729,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119332</GUID>
+                    <GUID>1404001641</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_Story</Name>
                 </Standard>
                 <Text>
@@ -747,7 +747,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119337</GUID>
+                    <GUID>1404001642</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -765,7 +765,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119339</GUID>
+                    <GUID>1404001643</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_KetemaReplySummary</Name>
                 </Standard>
                 <Text>
@@ -783,7 +783,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130481</GUID>
+                    <GUID>1404001644</GUID>
                     <Name>RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2</Name>
                 </Standard>
                 <Text>

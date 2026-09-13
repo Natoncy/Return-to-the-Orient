@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118864</GUID>
+                    <GUID>1404001470</GUID>
                     <Name>RQ_Envoy_CupOfTea_Deliver</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119395</NotificationText>
+                                    <NotificationText>1404001473</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119394</Subtitle>
+                                    <Subtitle>1404001471</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -223,7 +223,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118811</StoryText>
+                    <StoryText>1404001472</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -477,7 +477,7 @@
                     <AudioAsset>278250</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>119394</GUID>
+                    <GUID>1404001471</GUID>
                     <Name>RQ_Envoy_CupOfTea_QuestStart</Name>
                 </Standard>
             </Values>
@@ -487,7 +487,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118811</GUID>
+                    <GUID>1404001472</GUID>
                     <Name>RQ_Envoy_CupOfTea_Story</Name>
                 </Standard>
                 <Text>
@@ -505,7 +505,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119395</GUID>
+                    <GUID>1404001473</GUID>
                     <Name>RQ_Envoy_CupOfTea_QuestStartSummary</Name>
                 </Standard>
                 <Text>

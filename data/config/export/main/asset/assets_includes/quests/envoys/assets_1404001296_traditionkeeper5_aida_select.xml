@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118772</GUID>
+                    <GUID>1404001296</GUID>
                     <Name>RQ_Envoy_TraditionKeeper5_Aida_Select</Name>
                 </Standard>
                 <Quest>
@@ -75,10 +75,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118361</NotificationText>
+                                    <NotificationText>1404001301</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118359</Subtitle>
+                                    <Subtitle>1404001297</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -164,7 +164,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118771</SpawnGUID>
+                                                    <SpawnGUID>1404001298</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
@@ -296,7 +296,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118771</ObjectGUID>
+                                                                                    <ObjectGUID>1404001298</ObjectGUID>
                                                                                     <ObjectSession>1404000000</ObjectSession>
                                                                                 </ObjectFilter>
                                                                             </Values>
@@ -322,7 +322,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118357</StoryText>
+                    <StoryText>1404001299</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -340,7 +340,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118358</Text>
+                            <Text>1404001300</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -454,7 +454,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130621</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001303</TextCombinedContextValue>
                                         <JumpToVisibility>Hide</JumpToVisibility>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -475,12 +475,12 @@
                                                                                     <HintType>Object</HintType>
                                                                                     <HintEndCondition>Time</HintEndCondition>
                                                                                     <HintDisplayTime>30000</HintDisplayTime>
-                                                                                    <HintText>118363</HintText>
+                                                                                    <HintText>1404001302</HintText>
                                                                                     <ObjectFilter>
                                                                                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                         <Values>
                                                                                             <ObjectFilter>
-                                                                                                <ObjectGUID>118771</ObjectGUID>
+                                                                                                <ObjectGUID>1404001298</ObjectGUID>
                                                                                             </ObjectFilter>
                                                                                         </Values>
                                                                                     </ObjectFilter>
@@ -506,7 +506,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118771</ObjectGUID>
+                                                            <ObjectGUID>1404001298</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -587,7 +587,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118359</GUID>
+                    <GUID>1404001297</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Aida_QuestStart</Name>
                 </Standard>
             </Values>
@@ -597,7 +597,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118771</GUID>
+                    <GUID>1404001298</GUID>
                     <Name>Aida</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_innkeeper_2.png</IconFilename>
                 </Standard>
@@ -665,7 +665,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118357</GUID>
+                    <GUID>1404001299</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Aida_Story</Name>
                 </Standard>
                 <Text>
@@ -683,7 +683,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118358</GUID>
+                    <GUID>1404001300</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Aida_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -701,7 +701,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118361</GUID>
+                    <GUID>1404001301</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -719,7 +719,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118363</GUID>
+                    <GUID>1404001302</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble</Name>
                 </Standard>
                 <Text>
@@ -737,7 +737,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130621</GUID>
+                    <GUID>1404001303</GUID>
                     <Name>RQ_Envoy_TraditionKeeper_Aida_Objective</Name>
                 </Standard>
                 <Text>

@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118876</GUID>
+                    <GUID>1404001381</GUID>
                     <Name>RQ_Envoy_HigherByNature1_Gold_Deliver</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118431</NotificationText>
+                                    <NotificationText>1404001386</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118429</Subtitle>
+                                    <Subtitle>1404001383</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118430</NotificationText>
+                                    <NotificationText>1404001385</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118428</Subtitle>
+                                    <Subtitle>1404001382</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -227,7 +227,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118427</StoryText>
+                    <StoryText>1404001384</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -474,7 +474,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118428</GUID>
+                    <GUID>1404001382</GUID>
                     <Name>RQ_Envoy_Delivery_Gold_QuestStart</Name>
                 </Standard>
             </Values>
@@ -496,7 +496,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118429</GUID>
+                    <GUID>1404001383</GUID>
                     <Name>RQ_Envoy_Delivery_Gold_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -506,7 +506,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118427</GUID>
+                    <GUID>1404001384</GUID>
                     <Name>RQ_Envoy_Delivery_Gold_Story</Name>
                 </Standard>
                 <Text>
@@ -524,7 +524,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118430</GUID>
+                    <GUID>1404001385</GUID>
                     <Name>RQ_Envoy_Delivery_Gold_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -542,7 +542,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118431</GUID>
+                    <GUID>1404001386</GUID>
                     <Name>RQ_Envoy_Delivery_Gold_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>

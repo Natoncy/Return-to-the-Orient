@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118987</GUID>
+                    <GUID>1404001580</GUID>
                     <Name>RQ_Nomad_RoleOfaMan9_Banquet_Deliver</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>130579</NotificationText>
+                                    <NotificationText>1404001587</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>121989</Subtitle>
+                                    <Subtitle>1404001583</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -80,13 +80,13 @@
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
                                 <CharacterNotification>
-                                    <Profile>244</Profile>
+                                    <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119263</NotificationText>
+                                    <NotificationText>1404001585</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119262</Subtitle>
+                                    <Subtitle>1404001581</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -236,13 +236,13 @@
                                                                                         <Template>CharacterNotification</Template>
                                                                                         <Values>
                                                                                             <CharacterNotification>
-                                                                                                <Profile>244</Profile>
+                                                                                                <Profile>1404000019</Profile>
                                                                                             </CharacterNotification>
                                                                                             <BaseNotification>
-                                                                                                <NotificationText>120312</NotificationText>
+                                                                                                <NotificationText>1404001586</NotificationText>
                                                                                             </BaseNotification>
                                                                                             <NotificationSubtitle>
-                                                                                                <Subtitle>120313</Subtitle>
+                                                                                                <Subtitle>1404001582</Subtitle>
                                                                                             </NotificationSubtitle>
                                                                                         </Values>
                                                                                     </Notification>
@@ -307,8 +307,8 @@
                             <ActionForceNewspaper />
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
-                    <QuestGiver>244</QuestGiver>
-                    <StoryText>119261</StoryText>
+                    <QuestGiver>1404000019</QuestGiver>
+                    <StoryText>1404001584</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ConfirmationDialog</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -549,7 +549,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119262</GUID>
+                    <GUID>1404001581</GUID>
                     <Name>DLC06_Envoy_RQ_Nomad_Delivery_Banquet_QuestStart</Name>
                 </Standard>
             </Values>
@@ -571,7 +571,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>120313</GUID>
+                    <GUID>1404001582</GUID>
                     <Name>DLC06_Elder_RQ_Nomad_Delivery_Banquet_QuestSuccessEnvoy</Name>
                 </Standard>
             </Values>
@@ -593,7 +593,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>121989</GUID>
+                    <GUID>1404001583</GUID>
                     <Name>AT_ADDON01_res1_NegativeGenFB4</Name>
                 </Standard>
             </Values>
@@ -603,7 +603,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119261</GUID>
+                    <GUID>1404001584</GUID>
                     <Name>RQ_Nomad_Delivery_Banquet_Story</Name>
                 </Standard>
                 <Text>
@@ -621,7 +621,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119263</GUID>
+                    <GUID>1404001585</GUID>
                     <Name>RQ_Nomad_Delivery_Banquet_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -639,7 +639,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>120312</GUID>
+                    <GUID>1404001586</GUID>
                     <Name>RQ_Nomad_Delivery_Banquet_QuestSuccessSummaryEnvoy</Name>
                 </Standard>
                 <Text>
@@ -657,7 +657,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130579</GUID>
+                    <GUID>1404001587</GUID>
                     <Name>RQ_Nomad_Delivery_Banquet_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>

@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118760</GUID>
+                    <GUID>1404001321</GUID>
                     <Name>RQ_Envoys_KidsNowadays3_PublicConfession_Photo</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118407</NotificationText>
+                                    <NotificationText>1404001329</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118405</Subtitle>
+                                    <Subtitle>1404001323</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118406</NotificationText>
+                                    <NotificationText>1404001328</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118404</Subtitle>
+                                    <Subtitle>1404001322</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -269,7 +269,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118402</StoryText>
+                    <StoryText>1404001326</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -287,7 +287,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118403</Text>
+                            <Text>1404001327</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -296,7 +296,7 @@
                         <Values>
                             <Condition />
                             <ConditionTutorialInteraction>
-                                <HintText>15448</HintText>
+                                <HintText>1404001325</HintText>
                                 <ObjectFilter>
                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                     <Values>
@@ -359,7 +359,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118758</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001313</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -432,7 +432,7 @@
                                                     <Template>ConditionObjectSpawnedObject</Template>
                                                     <Values>
                                                         <ConditionObjectSpawnedObject>
-                                                            <ExecutionObject>118761</ExecutionObject>
+                                                            <ExecutionObject>1404001324</ExecutionObject>
                                                             <ObjectSpawnArea>
                                                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                 <Values>
@@ -528,7 +528,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118404</GUID>
+                    <GUID>1404001322</GUID>
                     <Name>RQ_Envoy_Photo_PublicConfession_QuestStart</Name>
                 </Standard>
             </Values>
@@ -549,7 +549,7 @@
                     <AudioAsset>278273</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118405</GUID>
+                    <GUID>1404001323</GUID>
                     <Name>RQ_Envoy_Photo_PublicConfession_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -559,7 +559,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118761</GUID>
+                    <GUID>1404001324</GUID>
                     <Name>Public confession</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_monastery.png</IconFilename>
                 </Standard>
@@ -627,7 +627,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>15448</GUID>
+                    <GUID>1404001325</GUID>
                     <Name>RQ_Farmers_Wedding_HintText</Name>
                 </Standard>
                 <Text>
@@ -645,7 +645,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118402</GUID>
+                    <GUID>1404001326</GUID>
                     <Name>RQ_Envoy_Photo_PublicConfession_Story</Name>
                 </Standard>
                 <Text>
@@ -663,7 +663,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118403</GUID>
+                    <GUID>1404001327</GUID>
                     <Name>RQ_Envoy_Photo_PublicConfession_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -681,7 +681,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118406</GUID>
+                    <GUID>1404001328</GUID>
                     <Name>RQ_Envoy_Photo_PublicConfession_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -699,7 +699,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118407</GUID>
+                    <GUID>1404001329</GUID>
                     <Name>RQ_Envoy_Photo_PublicConfession_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>

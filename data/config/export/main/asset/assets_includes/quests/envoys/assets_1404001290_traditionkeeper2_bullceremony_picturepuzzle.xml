@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118765</GUID>
+                    <GUID>1404001290</GUID>
                     <Name>RQ_Envoy_TraditionKeeper2_BullCeremony_Picturepuzzle</Name>
                 </Standard>
                 <Quest>
@@ -77,10 +77,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118331</NotificationText>
+                                    <NotificationText>1404001295</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118328</Subtitle>
+                                    <Subtitle>1404001291</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -260,7 +260,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118322</StoryText>
+                    <StoryText>1404001293</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -278,7 +278,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118324</Text>
+                            <Text>1404001294</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -329,7 +329,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118764</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001275</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -373,7 +373,7 @@
                                     <ConditionQuestPicturePuzzle>
                                         <PicturePuzzleObjects>
                                             <Item>
-                                                <Object>118766</Object>
+                                                <Object>1404001292</Object>
                                                 <Amount>5</Amount>
                                                 <AdditionalAmount>10</AdditionalAmount>
                                                 <Context>
@@ -468,7 +468,7 @@
                     <AudioAsset>278303</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118328</GUID>
+                    <GUID>1404001291</GUID>
                     <Name>RQ_Envoy_BullLeapingCeremony_QuestStart</Name>
                 </Standard>
             </Values>
@@ -478,7 +478,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118766</GUID>
+                    <GUID>1404001292</GUID>
                     <Name>Wild bull</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_wildebeest.png</IconFilename>
                 </Standard>
@@ -543,7 +543,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118322</GUID>
+                    <GUID>1404001293</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_BullLeapingCeremony_Story</Name>
                 </Standard>
                 <Text>
@@ -561,7 +561,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118324</GUID>
+                    <GUID>1404001294</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -579,7 +579,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118331</GUID>
+                    <GUID>1404001295</GUID>
                     <Name>RQ_Envoy_BullLeapingCeremony_QuestStartSummary</Name>
                 </Standard>
                 <Text>

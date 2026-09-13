@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118758</GUID>
+                    <GUID>1404001313</GUID>
                     <Name>RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118399</NotificationText>
+                                    <NotificationText>1404001320</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118397</Subtitle>
+                                    <Subtitle>1404001315</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118398</NotificationText>
+                                    <NotificationText>1404001319</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118396</Subtitle>
+                                    <Subtitle>1404001314</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -227,7 +227,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118393</StoryText>
+                    <StoryText>1404001317</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -245,7 +245,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118394</Text>
+                            <Text>1404001318</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -359,7 +359,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118753</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001304</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -417,7 +417,7 @@
                                     <ConditionQuestPicturePuzzle>
                                         <PicturePuzzleObjects>
                                             <Item>
-                                                <Object>118759</Object>
+                                                <Object>1404001316</Object>
                                                 <Amount>3</Amount>
                                                 <AdditionalAmount>5</AdditionalAmount>
                                                 <Context>
@@ -664,7 +664,7 @@
                     <AudioAsset>278275</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118396</GUID>
+                    <GUID>1404001314</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart</Name>
                 </Standard>
             </Values>
@@ -686,7 +686,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118397</GUID>
+                    <GUID>1404001315</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -696,7 +696,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118759</GUID>
+                    <GUID>1404001316</GUID>
                     <Name>Children playing</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_1.png</IconFilename>
                 </Standard>
@@ -762,7 +762,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118393</GUID>
+                    <GUID>1404001317</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_MakeThemWork_Story</Name>
                 </Standard>
                 <Text>
@@ -780,7 +780,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118394</GUID>
+                    <GUID>1404001318</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_MakeThemWork_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -798,7 +798,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118398</GUID>
+                    <GUID>1404001319</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -816,7 +816,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118399</GUID>
+                    <GUID>1404001320</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_MakeThemWork_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>

@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118880</GUID>
+                    <GUID>1404001405</GUID>
                     <Name>RQ_Envoy_HigherByNature4A_TimqetFestival_Deliver</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118454</NotificationText>
+                                    <NotificationText>1404001410</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118452</Subtitle>
+                                    <Subtitle>1404001407</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118453</NotificationText>
+                                    <NotificationText>1404001409</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118451</Subtitle>
+                                    <Subtitle>1404001406</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -254,7 +254,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118882</SpawnGUID>
+                                                    <SpawnGUID>1404001408</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
@@ -288,7 +288,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118882</ObjectGUID>
+                                                                                    <ObjectGUID>1404001408</ObjectGUID>
                                                                                     <ObjectSession>1404000000</ObjectSession>
                                                                                 </ObjectFilter>
                                                                             </Values>
@@ -320,7 +320,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118557</StoryText>
+                    <StoryText>1404001411</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -597,7 +597,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118451</GUID>
+                    <GUID>1404001406</GUID>
                     <Name>RQ_Envoy_Delivery_TimqetFestival_QuestStart</Name>
                 </Standard>
             </Values>
@@ -619,7 +619,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118452</GUID>
+                    <GUID>1404001407</GUID>
                     <Name>RQ_Envoy_Delivery_TimqetFestival_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -629,7 +629,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118882</GUID>
+                    <GUID>1404001408</GUID>
                     <Name>Timqet Celebration</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_horticulturist_2.png</IconFilename>
                 </Standard>
@@ -697,7 +697,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118453</GUID>
+                    <GUID>1404001409</GUID>
                     <Name>RQ_Envoy_Delivery_TimqetFestival_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -715,7 +715,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118454</GUID>
+                    <GUID>1404001410</GUID>
                     <Name>RQ_Envoy_Delivery_TimqetFestival_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>
@@ -733,7 +733,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118557</GUID>
+                    <GUID>1404001411</GUID>
                     <Name>RQ_Envoy_Delivery_TimqetFestival_Story</Name>
                 </Standard>
                 <Text>

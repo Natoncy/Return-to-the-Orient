@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118983</GUID>
+                    <GUID>1404001572</GUID>
                     <Name>RQ_Nomad_RoleOfaMan5_GoneGirl_Select</Name>
                 </Standard>
                 <Quest>
@@ -78,10 +78,10 @@
                                     <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>119194</NotificationText>
+                                    <NotificationText>1404001579</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>119193</Subtitle>
+                                    <Subtitle>1404001573</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -167,7 +167,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118897</SpawnGUID>
+                                                    <SpawnGUID>1404001574</SpawnGUID>
                                                     <Amount>1</Amount>
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
@@ -278,7 +278,7 @@
                                                                                 <Action />
                                                                                 <ActionDeleteObjects />
                                                                                 <ObjectFilter>
-                                                                                    <ObjectGUID>118897</ObjectGUID>
+                                                                                    <ObjectGUID>1404001574</ObjectGUID>
                                                                                 </ObjectFilter>
                                                                             </Values>
                                                                         </Action>
@@ -303,7 +303,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000018</QuestGiver>
-                    <StoryText>119188</StoryText>
+                    <StoryText>1404001575</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -321,10 +321,10 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>119189</Text>
+                            <Text>1404001576</Text>
                         </Item>
                         <Item>
-                            <Text>119190</Text>
+                            <Text>1404001577</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -375,7 +375,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118982</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001563</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -448,7 +448,7 @@
                                                                 <Template>ActionTriggerTextPopup</Template>
                                                                 <Values>
                                                                     <ActionTriggerTextPopup>
-                                                                        <PopupText>119192</PopupText>
+                                                                        <PopupText>1404001578</PopupText>
                                                                         <TextPopupLayout>LetterQuest</TextPopupLayout>
                                                                     </ActionTriggerTextPopup>
                                                                     <Action />
@@ -467,7 +467,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118897</ObjectGUID>
+                                                            <ObjectGUID>1404001574</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -548,7 +548,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>119193</GUID>
+                    <GUID>1404001573</GUID>
                     <Name>RQ_Nomad_Select_FindFamily_QuestStart</Name>
                 </Standard>
             </Values>
@@ -558,7 +558,7 @@
             <Template>CollectablePicturePuzzle</Template>
             <Values>
                 <Standard>
-                    <GUID>118897</GUID>
+                    <GUID>1404001574</GUID>
                     <Name>Gone girl family</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/specialists/africa/icon_herder_3b.png</IconFilename>
                 </Standard>
@@ -626,7 +626,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119188</GUID>
+                    <GUID>1404001575</GUID>
                     <Name>RQ_Nomad_Select_FindFamily_Story</Name>
                 </Standard>
                 <Text>
@@ -644,7 +644,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119189</GUID>
+                    <GUID>1404001576</GUID>
                     <Name>RQ_Nomad_Select_FindFamily_Hint1</Name>
                 </Standard>
                 <Text>
@@ -662,7 +662,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119190</GUID>
+                    <GUID>1404001577</GUID>
                     <Name>RQ_Nomad_Select_FindFamily_Hint2</Name>
                 </Standard>
                 <Text>
@@ -680,7 +680,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119192</GUID>
+                    <GUID>1404001578</GUID>
                     <Name>RQ_Nomad_Select_FindFamily_LetterContent</Name>
                 </Standard>
                 <Text>
@@ -698,7 +698,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119194</GUID>
+                    <GUID>1404001579</GUID>
                     <Name>RQ_Nomad_Select_FindFamily_QuestStartSummary</Name>
                 </Standard>
                 <Text>

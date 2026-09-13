@@ -5,7 +5,7 @@
             <Template>A7_QuestDecision</Template>
             <Values>
                 <Standard>
-                    <GUID>118764</GUID>
+                    <GUID>1404001275</GUID>
                     <Name>RQ_Envoy_TraditionKeeper1_Invitation_Decision</Name>
                 </Standard>
                 <Quest>
@@ -17,10 +17,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>130482</NotificationText>
+                                    <NotificationText>1404001288</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>124946</Subtitle>
+                                    <Subtitle>1404001279</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -33,10 +33,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118339</NotificationText>
+                                    <NotificationText>1404001282</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118336</Subtitle>
+                                    <Subtitle>1404001277</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -49,10 +49,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118340</NotificationText>
+                                    <NotificationText>1404001283</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118337</Subtitle>
+                                    <Subtitle>1404001278</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -93,10 +93,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118338</NotificationText>
+                                    <NotificationText>1404001281</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118335</Subtitle>
+                                    <Subtitle>1404001276</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -239,7 +239,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118334</StoryText>
+                    <StoryText>1404001280</StoryText>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
                     <ConfirmOnReachedCondition>
@@ -336,7 +336,7 @@
                                 <Template>DecisionObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130623</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001289</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/icons/icon_proposals_negotiate.png</QuestTrackerIcon>
                                     </ConditionQuestObjective>
                                     <ConditionQuestDecision>
@@ -348,7 +348,7 @@
                                                     <Values>
                                                         <Condition />
                                                         <ConditionDecision>
-                                                            <DecisionFluffText>119430</DecisionFluffText>
+                                                            <DecisionFluffText>1404001284</DecisionFluffText>
                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
@@ -357,7 +357,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119431</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001285</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -369,7 +369,7 @@
                                                                                                         <Values>
                                                                                                             <Action />
                                                                                                             <ActionEndQuest>
-                                                                                                                <Quest>118764</Quest>
+                                                                                                                <Quest>1404001275</Quest>
                                                                                                             </ActionEndQuest>
                                                                                                         </Values>
                                                                                                     </Action>
@@ -389,7 +389,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119432</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001286</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -401,7 +401,7 @@
                                                                                                         <Values>
                                                                                                             <Action />
                                                                                                             <ActionEndQuest>
-                                                                                                                <Quest>118764</Quest>
+                                                                                                                <Quest>1404001275</Quest>
                                                                                                             </ActionEndQuest>
                                                                                                         </Values>
                                                                                                     </Action>
@@ -421,7 +421,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119433</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001287</DecisionOptionText>
                                                                                 <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
                                                                             </ConditionDecisionOption>
                                                                         </Values>
@@ -504,7 +504,7 @@
                     <AudioAsset>278310</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118335</GUID>
+                    <GUID>1404001276</GUID>
                     <Name>RQ_Envoy_Invitation_QuestStart</Name>
                 </Standard>
             </Values>
@@ -526,7 +526,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118336</GUID>
+                    <GUID>1404001277</GUID>
                     <Name>RQ_Envoy_Invitation_RightChoice</Name>
                 </Standard>
             </Values>
@@ -548,7 +548,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118337</GUID>
+                    <GUID>1404001278</GUID>
                     <Name>RQ_Envoy_Invitation_WrongChoice</Name>
                 </Standard>
             </Values>
@@ -569,7 +569,7 @@
                     <AudioAsset>278313</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>124946</GUID>
+                    <GUID>1404001279</GUID>
                     <Name>RQ_Envoy_Invitation_QuestStart2</Name>
                 </Standard>
             </Values>
@@ -579,7 +579,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118334</GUID>
+                    <GUID>1404001280</GUID>
                     <Name>RQ_Envoy_Decision_Invitation_Story</Name>
                 </Standard>
                 <Text>
@@ -597,7 +597,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118338</GUID>
+                    <GUID>1404001281</GUID>
                     <Name>RQ_Envoy_Invitation_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -615,7 +615,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118339</GUID>
+                    <GUID>1404001282</GUID>
                     <Name>RQ_Envoy_Invitation_RightChoiceSummary</Name>
                 </Standard>
                 <Text>
@@ -633,7 +633,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118340</GUID>
+                    <GUID>1404001283</GUID>
                     <Name>RQ_Envoy_Invitation_WrongChoiceSummary</Name>
                 </Standard>
                 <Text>
@@ -651,7 +651,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119430</GUID>
+                    <GUID>1404001284</GUID>
                     <Name>RQ_Envoy_Decision_Invitation_DecisionText</Name>
                 </Standard>
                 <Text>
@@ -669,7 +669,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119431</GUID>
+                    <GUID>1404001285</GUID>
                     <Name>RQ_Envoy_Decision_Invitation_Decision1</Name>
                 </Standard>
                 <Text>
@@ -687,7 +687,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119432</GUID>
+                    <GUID>1404001286</GUID>
                     <Name>RQ_Envoy_Decision_Invitation_Decision2</Name>
                 </Standard>
                 <Text>
@@ -705,7 +705,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119433</GUID>
+                    <GUID>1404001287</GUID>
                     <Name>RQ_Envoy_Decision_Invitation_Decision3</Name>
                 </Standard>
                 <Text>
@@ -723,7 +723,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130482</GUID>
+                    <GUID>1404001288</GUID>
                     <Name>RQ_Envoy_Invitation_QuestStartSummary2</Name>
                 </Standard>
                 <Text>
@@ -741,7 +741,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130623</GUID>
+                    <GUID>1404001289</GUID>
                     <Name>RQ_Envoy_TraditionKeeper_Invitation_Objective</Name>
                 </Standard>
                 <Text>

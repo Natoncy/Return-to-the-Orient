@@ -5,7 +5,7 @@
             <Template>A7_QuestDecision</Template>
             <Values>
                 <Standard>
-                    <GUID>118774</GUID>
+                    <GUID>1404001330</GUID>
                     <Name>RQ_Envoy_IamTheSenate1_Speech_Decision</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>130484</NotificationText>
+                                    <NotificationText>1404001348</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>126842</Subtitle>
+                                    <Subtitle>1404001332</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118493</NotificationText>
+                                    <NotificationText>1404001334</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118492</Subtitle>
+                                    <Subtitle>1404001331</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -227,7 +227,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118682</StoryText>
+                    <StoryText>1404001336</StoryText>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
                     <ConfirmOnReachedCondition>
@@ -325,7 +325,7 @@
                                 <Template>DecisionObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>130625</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001350</TextCombinedContextValue>
                                         <QuestTrackerIcon>data/ui/2kimages/main/icons/icon_proposals_negotiate.png</QuestTrackerIcon>
                                     </ConditionQuestObjective>
                                     <ConditionQuestDecision>
@@ -337,7 +337,7 @@
                                                     <Values>
                                                         <Condition />
                                                         <ConditionDecision>
-                                                            <DecisionFluffText>118494</DecisionFluffText>
+                                                            <DecisionFluffText>1404001335</DecisionFluffText>
                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
@@ -346,7 +346,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119837</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001339</DecisionOptionText>
                                                                             </ConditionDecisionOption>
                                                                         </Values>
                                                                     </DecisionOption>
@@ -357,7 +357,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119838</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001340</DecisionOptionText>
                                                                             </ConditionDecisionOption>
                                                                         </Values>
                                                                     </DecisionOption>
@@ -368,7 +368,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119839</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001341</DecisionOptionText>
                                                                             </ConditionDecisionOption>
                                                                         </Values>
                                                                     </DecisionOption>
@@ -384,7 +384,7 @@
                                                     <Values>
                                                         <Condition />
                                                         <ConditionDecision>
-                                                            <DecisionFluffText>118684</DecisionFluffText>
+                                                            <DecisionFluffText>1404001337</DecisionFluffText>
                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
@@ -393,7 +393,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119840</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001342</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -427,7 +427,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119841</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001343</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -461,7 +461,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119842</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001344</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -500,7 +500,7 @@
                                                     <Values>
                                                         <Condition />
                                                         <ConditionDecision>
-                                                            <DecisionFluffText>118686</DecisionFluffText>
+                                                            <DecisionFluffText>1404001338</DecisionFluffText>
                                                             <DecisionPortrait>114622</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
@@ -509,7 +509,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119843</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001345</DecisionOptionText>
                                                                                 <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
                                                                             </ConditionDecisionOption>
                                                                         </Values>
@@ -521,7 +521,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119844</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001346</DecisionOptionText>
                                                                                 <HideDecisionPanelAfterChoice>1</HideDecisionPanelAfterChoice>
                                                                             </ConditionDecisionOption>
                                                                         </Values>
@@ -533,7 +533,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>119845</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001347</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -552,10 +552,10 @@
                                                                                                                             <Profile>1404000019</Profile>
                                                                                                                         </CharacterNotification>
                                                                                                                         <BaseNotification>
-                                                                                                                            <NotificationText>130486</NotificationText>
+                                                                                                                            <NotificationText>1404001349</NotificationText>
                                                                                                                         </BaseNotification>
                                                                                                                         <NotificationSubtitle>
-                                                                                                                            <Subtitle>126844</Subtitle>
+                                                                                                                            <Subtitle>1404001333</Subtitle>
                                                                                                                         </NotificationSubtitle>
                                                                                                                     </Values>
                                                                                                                 </Notification>
@@ -651,7 +651,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118492</GUID>
+                    <GUID>1404001331</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_QuestStart</Name>
                 </Standard>
             </Values>
@@ -673,7 +673,7 @@
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>126842</GUID>
+                    <GUID>1404001332</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_QuestSuccess</Name>
                 </Standard>
             </Values>
@@ -695,7 +695,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>126844</GUID>
+                    <GUID>1404001333</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_QuestBadChoice2</Name>
                 </Standard>
             </Values>
@@ -705,7 +705,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118493</GUID>
+                    <GUID>1404001334</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -723,7 +723,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118494</GUID>
+                    <GUID>1404001335</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech1</Name>
                 </Standard>
                 <Text>
@@ -741,7 +741,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118682</GUID>
+                    <GUID>1404001336</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Story</Name>
                 </Standard>
                 <Text>
@@ -759,7 +759,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118684</GUID>
+                    <GUID>1404001337</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech2</Name>
                 </Standard>
                 <Text>
@@ -777,7 +777,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118686</GUID>
+                    <GUID>1404001338</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech3</Name>
                 </Standard>
                 <Text>
@@ -795,7 +795,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119837</GUID>
+                    <GUID>1404001339</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech1Decision1</Name>
                 </Standard>
                 <Text>
@@ -813,7 +813,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119838</GUID>
+                    <GUID>1404001340</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech1Decision2</Name>
                 </Standard>
                 <Text>
@@ -831,7 +831,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119839</GUID>
+                    <GUID>1404001341</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech1Decision3</Name>
                 </Standard>
                 <Text>
@@ -849,7 +849,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119840</GUID>
+                    <GUID>1404001342</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech2Decision1</Name>
                 </Standard>
                 <Text>
@@ -867,7 +867,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119841</GUID>
+                    <GUID>1404001343</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech2Decision2</Name>
                 </Standard>
                 <Text>
@@ -885,7 +885,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119842</GUID>
+                    <GUID>1404001344</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech2Decision3</Name>
                 </Standard>
                 <Text>
@@ -903,7 +903,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119843</GUID>
+                    <GUID>1404001345</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech3Decision1</Name>
                 </Standard>
                 <Text>
@@ -921,7 +921,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119844</GUID>
+                    <GUID>1404001346</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech3Decision2</Name>
                 </Standard>
                 <Text>
@@ -939,7 +939,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>119845</GUID>
+                    <GUID>1404001347</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_Speech3Decision3</Name>
                 </Standard>
                 <Text>
@@ -957,7 +957,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130484</GUID>
+                    <GUID>1404001348</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_QuestSuccessSummary</Name>
                 </Standard>
                 <Text>
@@ -975,7 +975,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130486</GUID>
+                    <GUID>1404001349</GUID>
                     <Name>RQ_Envoy_Decision_TheSpeech_BadChoice2Summary</Name>
                 </Standard>
                 <Text>
@@ -993,7 +993,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>130625</GUID>
+                    <GUID>1404001350</GUID>
                     <Name>RQ_Envoy_IAmTheSenate_Speech_Objective</Name>
                 </Standard>
                 <Text>

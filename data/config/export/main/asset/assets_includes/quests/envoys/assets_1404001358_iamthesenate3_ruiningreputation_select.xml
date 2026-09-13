@@ -5,7 +5,7 @@
             <Template>Quest</Template>
             <Values>
                 <Standard>
-                    <GUID>118775</GUID>
+                    <GUID>1404001358</GUID>
                     <Name>RQ_Envoy_IamTheSenate3_RuiningReputation_Select</Name>
                 </Standard>
                 <Quest>
@@ -27,10 +27,10 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>118511</NotificationText>
+                                    <NotificationText>1404001368</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118510</Subtitle>
+                                    <Subtitle>1404001363</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -81,10 +81,10 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>118509</NotificationText>
+                                    <NotificationText>1404001367</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
-                                    <Subtitle>118508</Subtitle>
+                                    <Subtitle>1404001362</Subtitle>
                                 </NotificationSubtitle>
                             </Values>
                         </Notification>
@@ -196,7 +196,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionRegisterTrigger>
-                                                    <TriggerAsset>118778</TriggerAsset>
+                                                    <TriggerAsset>1404001359</TriggerAsset>
                                                 </ActionRegisterTrigger>
                                             </Values>
                                         </Action>
@@ -300,7 +300,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionRegisterTrigger>
-                                                    <TriggerAsset>118778</TriggerAsset>
+                                                    <TriggerAsset>1404001359</TriggerAsset>
                                                     <UnregisterTrigger>1</UnregisterTrigger>
                                                 </ActionRegisterTrigger>
                                             </Values>
@@ -312,7 +312,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionRegisterTrigger>
-                                                    <TriggerAsset>118779</TriggerAsset>
+                                                    <TriggerAsset>1404001360</TriggerAsset>
                                                     <UnregisterTrigger>1</UnregisterTrigger>
                                                 </ActionRegisterTrigger>
                                             </Values>
@@ -324,7 +324,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionRegisterTrigger>
-                                                    <TriggerAsset>118783</TriggerAsset>
+                                                    <TriggerAsset>1404001361</TriggerAsset>
                                                     <UnregisterTrigger>1</UnregisterTrigger>
                                                 </ActionRegisterTrigger>
                                             </Values>
@@ -354,7 +354,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
-                    <StoryText>118692</StoryText>
+                    <StoryText>1404001369</StoryText>
                     <QuestCategory>RandomQuest</QuestCategory>
                     <QuestActivation>ManualActivation</QuestActivation>
                     <IsAbortable>1</IsAbortable>
@@ -372,7 +372,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>118693</Text>
+                            <Text>1404001370</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -444,7 +444,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118781</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001351</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -521,7 +521,7 @@
                                 <Template>SelectObjectObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118697</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001371</TextCombinedContextValue>
                                         <ObjectiveSuccessMessage>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -529,10 +529,10 @@
                                                     <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118699</NotificationText>
+                                                    <NotificationText>1404001372</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118698</Subtitle>
+                                                    <Subtitle>1404001364</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </ObjectiveSuccessMessage>
@@ -564,14 +564,14 @@
                                 <Template>FakeQuestObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>118782</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001374</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionQuestFakeObjective>
                                         <QuestTrackerEntries>
                                             <Item>
-                                                <TextContent>118782</TextContent>
-                                                <TextValue>118782</TextValue>
-                                                <CombinedText>118782</CombinedText>
+                                                <TextContent>1404001374</TextContent>
+                                                <TextValue>1404001374</TextValue>
+                                                <CombinedText>1404001374</CombinedText>
                                                 <QuestTrackerIcon>data/ui/2kimages/main/3dicons/specialists/africa/icon_politician.png</QuestTrackerIcon>
                                             </Item>
                                         </QuestTrackerEntries>
@@ -633,7 +633,7 @@
             <Template>TriggerQuest</Template>
             <Values>
                 <Standard>
-                    <GUID>118778</GUID>
+                    <GUID>1404001359</GUID>
                     <Name>Move Council member to town hall</Name>
                 </Standard>
                 <Trigger>
@@ -674,7 +674,7 @@
                                 <Values>
                                     <Action />
                                     <ActionRegisterTrigger>
-                                        <TriggerAsset>118779</TriggerAsset>
+                                        <TriggerAsset>1404001360</TriggerAsset>
                                     </ActionRegisterTrigger>
                                 </Values>
                             </TriggerAction>
@@ -694,7 +694,7 @@
             <Template>TriggerQuest</Template>
             <Values>
                 <Standard>
-                    <GUID>118779</GUID>
+                    <GUID>1404001360</GUID>
                     <Name>Move Council member to market</Name>
                 </Standard>
                 <Trigger>
@@ -731,10 +731,10 @@
                                                     <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118701</NotificationText>
+                                                    <NotificationText>1404001373</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118700</Subtitle>
+                                                    <Subtitle>1404001365</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </Notification>
@@ -765,7 +765,7 @@
                                 <Values>
                                     <Action />
                                     <ActionRegisterTrigger>
-                                        <TriggerAsset>118783</TriggerAsset>
+                                        <TriggerAsset>1404001361</TriggerAsset>
                                     </ActionRegisterTrigger>
                                 </Values>
                             </TriggerAction>
@@ -785,7 +785,7 @@
             <Template>TriggerQuest</Template>
             <Values>
                 <Standard>
-                    <GUID>118783</GUID>
+                    <GUID>1404001361</GUID>
                     <Name>Council member reach market</Name>
                 </Standard>
                 <Trigger>
@@ -822,10 +822,10 @@
                                                     <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
-                                                    <NotificationText>118930</NotificationText>
+                                                    <NotificationText>1404001375</NotificationText>
                                                 </BaseNotification>
                                                 <NotificationSubtitle>
-                                                    <Subtitle>118929</Subtitle>
+                                                    <Subtitle>1404001366</Subtitle>
                                                 </NotificationSubtitle>
                                             </Values>
                                         </Notification>
@@ -851,7 +851,7 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionEndQuest>
-                                                                        <Quest>118775</Quest>
+                                                                        <Quest>1404001358</Quest>
                                                                         <WinQuest>1</WinQuest>
                                                                     </ActionEndQuest>
                                                                 </Values>
@@ -895,7 +895,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118508</GUID>
+                    <GUID>1404001362</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_QuestStart</Name>
                 </Standard>
             </Values>
@@ -916,7 +916,7 @@
                     <AudioAsset>278237</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118510</GUID>
+                    <GUID>1404001363</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_QuestComplete</Name>
                 </Standard>
             </Values>
@@ -938,7 +938,7 @@
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
-                    <GUID>118698</GUID>
+                    <GUID>1404001364</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_LeaveKontor</Name>
                 </Standard>
             </Values>
@@ -959,7 +959,7 @@
                     <AudioAsset>278239</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118700</GUID>
+                    <GUID>1404001365</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_ReachTownHall</Name>
                 </Standard>
             </Values>
@@ -980,7 +980,7 @@
                     <AudioAsset>278240</AudioAsset>
                 </AudioText>
                 <Standard>
-                    <GUID>118929</GUID>
+                    <GUID>1404001366</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_ReachMarket</Name>
                 </Standard>
             </Values>
@@ -990,7 +990,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118509</GUID>
+                    <GUID>1404001367</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -1008,7 +1008,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118511</GUID>
+                    <GUID>1404001368</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_QuestCompleteSummary</Name>
                 </Standard>
                 <Text>
@@ -1026,7 +1026,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118692</GUID>
+                    <GUID>1404001369</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_Story</Name>
                 </Standard>
                 <Text>
@@ -1044,7 +1044,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118693</GUID>
+                    <GUID>1404001370</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -1062,7 +1062,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118697</GUID>
+                    <GUID>1404001371</GUID>
                     <Name>RQElder_RuinAReputation_TailingTheEnvoy</Name>
                 </Standard>
                 <Text>
@@ -1080,7 +1080,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118699</GUID>
+                    <GUID>1404001372</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_LeaveKontorSummary</Name>
                 </Standard>
                 <Text>
@@ -1098,7 +1098,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118701</GUID>
+                    <GUID>1404001373</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_ReachTownHallSummary</Name>
                 </Standard>
                 <Text>
@@ -1116,7 +1116,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118782</GUID>
+                    <GUID>1404001374</GUID>
                     <Name>RQElder_RuinAReputation_TailingTheEnvoy2</Name>
                 </Standard>
                 <Text>
@@ -1134,7 +1134,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>118930</GUID>
+                    <GUID>1404001375</GUID>
                     <Name>RQ_Envoy_Select_RuinAReputation_ReachMarketSummary</Name>
                 </Standard>
                 <Text>
