@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF Tier 01 Normal Female 01 transport  (vanilla 118572) -->
+    <ModOp Type="addNextSibling" GUID="118572">
+        <Asset>
+            <BaseAssetGUID>118572</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002009</GUID>
+                    <Name>Orient | Tier 01 Normal Female 01 transport</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_normal_f_01/residence_colony_02_tier01_normal_f_01_with_pot.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

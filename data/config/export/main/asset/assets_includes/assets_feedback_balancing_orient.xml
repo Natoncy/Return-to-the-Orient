@@ -11,7 +11,7 @@
                 </Standard>
                 <FeedbackSessionDescription>
                     <CulturalBuildingSpawnGroup>
-                        <VisitorSpawnClass>117751</VisitorSpawnClass>
+                        <VisitorSpawnClass>1404002101</VisitorSpawnClass>
                     </CulturalBuildingSpawnGroup>
                     <HarborConfig>
                         <SpawnBuildings>
@@ -51,7 +51,7 @@
                                         </Entry>
                                     </InheritanceMapV2>
                                 </VectorElement>
-                                <ClassAsset>117756</ClassAsset>
+                                <ClassAsset>1404002105</ClassAsset>
                             </Item>
                             <Item>
                                 <VectorElement>
@@ -63,7 +63,7 @@
                                         </Entry>
                                     </InheritanceMapV2>
                                 </VectorElement>
-                                <ClassAsset>117756</ClassAsset>
+                                <ClassAsset>1404002105</ClassAsset>
                             </Item>
                         </SpawnClasses>
                         <SpawnInterval>0.2</SpawnInterval>
@@ -72,7 +72,7 @@
                     <HarborWaterConfig>
                         <SpawnClassesWorker>
                             <Item>
-                                <ClassAsset>132549</ClassAsset>
+                                <ClassAsset>1404002307</ClassAsset>
                             </Item>
                         </SpawnClassesWorker>
                         <SpawnClassesTourism />
@@ -81,13 +81,13 @@
                     <LogisticConfig>
                         <TransporterClasses>
                             <FactoryTransporter>
-                                <TransporterClass>117747</TransporterClass>
+                                <TransporterClass>1404002303</TransporterClass>
                             </FactoryTransporter>
                             <WarehouseTransporter>
                                 <TransporterClass>117748</TransporterClass>
                             </WarehouseTransporter>
                             <FuelTransporter>
-                                <TransporterClass>123979</TransporterClass>
+                                <TransporterClass>1404002304</TransporterClass>
                             </FuelTransporter>
                         </TransporterClasses>
                     </LogisticConfig>
@@ -106,12 +106,12 @@
                                 <Building>1404000159</Building>
                                 <PersonSpawners>
                                     <Item>
-                                        <UnitClass>117761</UnitClass>
+                                        <UnitClass>1404002107</UnitClass>
                                     </Item>
                                 </PersonSpawners>
                                 <VehicleSpawners>
                                     <Item>
-                                        <UnitClass>131238</UnitClass>
+                                        <UnitClass>1404002306</UnitClass>
                                     </Item>
                                     <Item>
                                         <UnitClass>25313</UnitClass>
@@ -123,12 +123,12 @@
                                 <Building>1404000160</Building>
                                 <PersonSpawners>
                                     <Item>
-                                        <UnitClass>117761</UnitClass>
+                                        <UnitClass>1404002107</UnitClass>
                                     </Item>
                                 </PersonSpawners>
                                 <VehicleSpawners>
                                     <Item>
-                                        <UnitClass>131238</UnitClass>
+                                        <UnitClass>1404002306</UnitClass>
                                     </Item>
                                     <Item>
                                         <UnitClass>25313</UnitClass>
@@ -140,12 +140,12 @@
                                 <Building>1404000169</Building>
                                 <PersonSpawners>
                                     <Item>
-                                        <UnitClass>117761</UnitClass>
+                                        <UnitClass>1404002107</UnitClass>
                                     </Item>
                                 </PersonSpawners>
                                 <VehicleSpawners>
                                     <Item>
-                                        <UnitClass>123976</UnitClass>
+                                        <UnitClass>1404002305</UnitClass>
                                         <ShrinksFieldsOnTouch>1</ShrinksFieldsOnTouch>
                                         <VehicleType>Harvester</VehicleType>
                                     </Item>
@@ -159,12 +159,12 @@
                                 <Building>1404000292</Building>
                                 <PersonSpawners>
                                     <Item>
-                                        <UnitClass>117761</UnitClass>
+                                        <UnitClass>1404002107</UnitClass>
                                     </Item>
                                 </PersonSpawners>
                                 <VehicleSpawners>
                                     <Item>
-                                        <UnitClass>131238</UnitClass>
+                                        <UnitClass>1404002306</UnitClass>
                                     </Item>
                                     <Item>
                                         <UnitClass>25313</UnitClass>
@@ -176,12 +176,12 @@
                                 <Building>1404000300</Building>
                                 <PersonSpawners>
                                     <Item>
-                                        <UnitClass>117761</UnitClass>
+                                        <UnitClass>1404002107</UnitClass>
                                     </Item>
                                 </PersonSpawners>
                                 <VehicleSpawners>
                                     <Item>
-                                        <UnitClass>131238</UnitClass>
+                                        <UnitClass>1404002306</UnitClass>
                                     </Item>
                                     <Item>
                                         <UnitClass>25313</UnitClass>
@@ -382,7 +382,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>117751</ClassAsset>
+                                            <ClassAsset>1404002101</ClassAsset>
                                             <!--AF | Residence1Persons-->
                                         </Item>
                                     </SpawnClasses>
@@ -408,7 +408,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>117749</ClassAsset>
+                                            <ClassAsset>1404002301</ClassAsset>
                                             <!--AF | Residence1 Vehicles-->
                                         </Item>
                                     </SpawnClasses>
@@ -452,7 +452,7 @@
                                 <Item>
                                     <SpawnClasses>
                                         <Item>
-                                            <ClassAsset>123971</ClassAsset>
+                                            <ClassAsset>1404002108</ClassAsset>
                                             <!--AF | Residence2Special-->
                                         </Item>
                                     </SpawnClasses>
@@ -461,7 +461,7 @@
                                 <Item>
                                     <SpawnClasses>
                                         <Item>
-                                            <ClassAsset>117753</ClassAsset>
+                                            <ClassAsset>1404002103</ClassAsset>
                                             <!--AF | Residence1Children-->
                                         </Item>
                                     </SpawnClasses>
@@ -513,7 +513,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>117752</ClassAsset>
+                                            <ClassAsset>1404002102</ClassAsset>
                                             <!--AF | Residence2Persons-->
                                         </Item>
                                     </SpawnClasses>
@@ -540,7 +540,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>118569</ClassAsset>
+                                            <ClassAsset>1404002302</ClassAsset>
                                             <!--AF | Residence2 Vehicles-->
                                         </Item>
                                     </SpawnClasses>
@@ -567,7 +567,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>123971</ClassAsset>
+                                            <ClassAsset>1404002108</ClassAsset>
                                             <!--AF | Residence2Special-->
                                         </Item>
                                     </SpawnClasses>
@@ -602,7 +602,7 @@
                                 <Item>
                                     <SpawnClasses>
                                         <Item>
-                                            <ClassAsset>117755</ClassAsset>
+                                            <ClassAsset>1404002104</ClassAsset>
                                             <!--AF | Residence2Children-->
                                         </Item>
                                     </SpawnClasses>
@@ -645,7 +645,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>117759</ClassAsset>
+                                            <ClassAsset>1404002106</ClassAsset>
                                             <!--AF | Production: Street And Workforce Transfer-->
                                         </Item>
                                     </SpawnClasses>
@@ -687,7 +687,7 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>117759</ClassAsset>
+                                            <ClassAsset>1404002106</ClassAsset>
                                             <!--AF | Production: Street And Workforce Transfer-->
                                         </Item>
                                     </SpawnClasses>

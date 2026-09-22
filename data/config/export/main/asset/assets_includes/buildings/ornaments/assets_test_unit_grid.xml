@@ -1,0 +1,102 @@
+<ModOps>
+
+    <!-- DEBUG ORNAMENT - not intended for release.
+         Instantiates every Orient unit cfg on a 1 m grid so the whole reskinned set can be
+         inspected in one place. People occupy the front block, vehicles and boats sit
+         behind them with a gap so the carts do not tangle with the pedestrians.
+         Costs nothing to build. Remove this file (and its Include) before shipping. -->
+
+    <ModOp Type="addNextSibling" GUID='130726'>
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002401</GUID>
+                    <Name>TEST Orient Unit Grid</Name>
+                    <IconFilename>data/graphics/icons/ornaments/palm.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>[TEST] Orient Unit Grid</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Blocking/>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>0</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/test_unit_grid/test_unit_grid.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable/>
+                <Mesh/>
+                <SoundEmitter/>
+                <Locked/>
+                <FeedbackController/>
+                <Ornament>
+                    <OrnamentUnit>4</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider/>
+                <Pausable/>
+                <Infolayer/>
+                <Culture/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

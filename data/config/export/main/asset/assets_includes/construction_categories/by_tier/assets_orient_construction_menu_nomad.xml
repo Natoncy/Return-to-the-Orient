@@ -11,6 +11,11 @@
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
+                        <!-- debug only - remove before release -->
+                        <Item>
+                            <Building>1404002401</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
                         <Item>
                             <Building>1404000845</Building>
                         </Item>

@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF Tier 02 Large Female 02  (vanilla 142827) -->
+    <ModOp Type="addNextSibling" GUID="142827">
+        <Asset>
+            <BaseAssetGUID>142827</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002018</GUID>
+                    <Name>Orient | Tier 02 Large Female 02</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_large_f_02/residence_colony_02_tier_02_large_f_02.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

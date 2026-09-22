@@ -1,0 +1,30 @@
+<ModOps>
+
+    <!-- clone of vanilla 142871 "AF | Logistic Transporter Warehouse" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="142871">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002211</GUID>
+                    <Name>Orient | Logistic Transporter Warehouse</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/economy_market_horse_carriage_02/economy_market_horse_carriage_02.cfg</CfgPath>
+                    <SpeedSource>Managed</SpeedSource>
+                    <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+                </TrafficFeedbackUnit>
+                <Trailer>
+                    <TrailerEndPartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/graphics/vehicle/horse_drawn_carriage_warehouse/horse_drawn_carriage_warehouse_rear.cfg</CfgVariation>
+                        </Item>
+                    </TrailerEndPartCfgVariations>
+                </Trailer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

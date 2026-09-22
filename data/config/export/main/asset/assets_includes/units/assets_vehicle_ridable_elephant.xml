@@ -1,0 +1,33 @@
+<ModOps>
+
+    <!-- clone of vanilla 127438 "AF | Ridable Elephant" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="127438">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002204</GUID>
+                    <Name>Orient | Ridable Elephant</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_03_back.cfg</CfgPath>
+                    <SpeedSource>TakeFromAsset</SpeedSource>
+                    <OverwriteSpeed>0.25</OverwriteSpeed>
+                    <ResidentCamInteraction>MountAsAnimal</ResidentCamInteraction>
+                </TrafficFeedbackUnit>
+                <Trailer>
+                    <TrailerCount>1</TrailerCount>
+                    <TrailerEndPartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/graphics/vehicle/orient/animal_handler/animal_handler_colony_02_03_front.cfg</CfgVariation>
+                            <RelativeProbability>8</RelativeProbability>
+                        </Item>
+                    </TrailerEndPartCfgVariations>
+                </Trailer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

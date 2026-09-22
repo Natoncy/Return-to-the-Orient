@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF | Production Street 01  (vanilla 142839) -->
+    <ModOp Type="addNextSibling" GUID="142839">
+        <Asset>
+            <BaseAssetGUID>142839</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002034</GUID>
+                    <Name>Orient | Production Street 01</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/production/street_feedback_worker/worker_normal_m_01.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

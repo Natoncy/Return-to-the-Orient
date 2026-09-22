@@ -1,0 +1,21 @@
+<ModOps>
+
+    <!-- clone of vanilla 132545 "AF | WorkerBoat 1" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="132545">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002213</GUID>
+                    <Name>Orient | WorkerBoat 1</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Ship</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/small_feedback_boat_02/colony_02_worker_feedback_boat_01.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+                <Trailer />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

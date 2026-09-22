@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF | Generic Worker 03  (vanilla 142847) -->
+    <ModOp Type="addNextSibling" GUID="142847">
+        <Asset>
+            <BaseAssetGUID>142847</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002026</GUID>
+                    <Name>Orient | Generic Worker 03</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_03/production_generic_worker_colony_02_03.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

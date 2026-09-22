@@ -21,4 +21,7 @@
 
     <Include File="assets_tent.xml" />
 
+    <!-- debug only - remove before release -->
+    <Include File="assets_test_unit_grid.xml" />
+
 </ModOps>

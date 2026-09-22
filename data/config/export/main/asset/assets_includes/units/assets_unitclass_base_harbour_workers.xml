@@ -1,0 +1,57 @@
+<ModOps>
+
+    <!-- clone of vanilla 117756 "AF | Base Harbour Workers" - standalone, NOT BaseAssetGUID, so the
+    UnitAssets list is exactly the Orient units and nothing is inherited -->
+    <ModOp Type="addNextSibling" GUID="117756">
+        <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002105</GUID>
+                    <Name>Orient | Base Harbour Workers</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_residence_big_dummy.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackClass>
+                    <DefaultBehaviour>HarborWorker</DefaultBehaviour>
+                    <UnitAssets>
+                        <Item>
+                            <UnitAsset>1404002024</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002025</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002026</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002027</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002028</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002029</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002030</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002031</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002009</UnitAsset>
+                            <RelativeProbability>300</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002010</UnitAsset>
+                            <RelativeProbability>300</RelativeProbability>
+                        </Item>
+                    </UnitAssets>
+                    <AllowedReactions>Listen;Talk;DangerAvoiding;DummyWorkHammerWall;DummyWorkHammerFloor;DummyWorkShovel;DummyWorkThink;DummyWorkHands</AllowedReactions>
+                    <ClassFlags>HarbourWorker</ClassFlags>
+                </TrafficFeedbackClass>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

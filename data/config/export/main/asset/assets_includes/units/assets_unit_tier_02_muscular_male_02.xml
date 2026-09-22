@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF Tier 02 Muscular Male 02  (vanilla 142829) -->
+    <ModOp Type="addNextSibling" GUID="142829">
+        <Asset>
+            <BaseAssetGUID>142829</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002014</GUID>
+                    <Name>Orient | Tier 02 Muscular Male 02</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_muscular_m_02/residence_colony_02_tier_02_muscular_m_02.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

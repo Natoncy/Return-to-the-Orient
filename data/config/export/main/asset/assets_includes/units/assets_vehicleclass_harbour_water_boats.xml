@@ -1,0 +1,38 @@
+<ModOps>
+
+    <!-- clone of vanilla 132549 "AF | Harbour Water Boats" - standalone so UnitAssets is exact -->
+    <ModOp Type="addNextSibling" GUID="132549">
+        <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002307</GUID>
+                    <Name>Orient | Harbour Water Boats</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_residence_big_dummy.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackClass>
+                    <DefaultBehaviour>INTERNAL_HarbourWater</DefaultBehaviour>
+                    <UnitAssets>
+                        <Item>
+                            <UnitAsset>1404002212</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002215</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002216</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002213</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002214</UnitAsset>
+                        </Item>
+                    </UnitAssets>
+                    <AllowedReactions />
+                </TrafficFeedbackClass>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

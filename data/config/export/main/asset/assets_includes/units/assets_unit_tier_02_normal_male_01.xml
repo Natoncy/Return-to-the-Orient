@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF Tier 02 Normal Male 01  (vanilla 142832) -->
+    <ModOp Type="addNextSibling" GUID="142832">
+        <Asset>
+            <BaseAssetGUID>142832</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002015</GUID>
+                    <Name>Orient | Tier 02 Normal Male 01</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_normal_m_01/residence_colony_02_tier02_normal_m_01.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,37 @@
+<ModOps>
+
+    <!-- clone of vanilla 142836 "AF | Tier 01 Animal Handler 01" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="142836">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002201</GUID>
+                    <Name>Orient | Tier 01 Animal Handler 01</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/animal_handler/animal_handler_colony_02_01_front.cfg</CfgPath>
+                    <SpeedSource>TakeFromAsset</SpeedSource>
+                    <OverwriteSpeed>0.25</OverwriteSpeed>
+                </TrafficFeedbackUnit>
+                <Trailer>
+                    <TrailerCount>1</TrailerCount>
+                    <TrailerEndPartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_01_back.cfg</CfgVariation>
+                        </Item>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_01_var_1_back.cfg</CfgVariation>
+                        </Item>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_01_var_2_back.cfg</CfgVariation>
+                        </Item>
+                    </TrailerEndPartCfgVariations>
+                </Trailer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

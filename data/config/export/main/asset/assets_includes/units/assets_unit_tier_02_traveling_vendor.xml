@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- AF | Tier 02 Traveling Vendor  (vanilla 123970) -->
+    <ModOp Type="addNextSibling" GUID="123970">
+        <Asset>
+            <BaseAssetGUID>123970</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002023</GUID>
+                    <Name>Orient | Tier 02 Traveling Vendor</Name>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/inhabitants/special/traveling_vendor/colony_02_traveling_vendor.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

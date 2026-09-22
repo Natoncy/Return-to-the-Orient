@@ -1,0 +1,30 @@
+<ModOps>
+
+    <!-- clone of vanilla 117753 "AF | Residence1Children" - standalone, NOT BaseAssetGUID, so the
+    UnitAssets list is exactly the Orient units and nothing is inherited -->
+    <ModOp Type="addNextSibling" GUID="117753">
+        <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002103</GUID>
+                    <Name>Orient | Residence1Children</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_module_workforce.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackClass>
+                    <UnitAssets>
+                        <Item>
+                            <UnitAsset>1404002011</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002012</UnitAsset>
+                        </Item>
+                    </UnitAssets>
+                    <AllowedReactions>Listen;DangerAvoiding;DummyTalk;DummyVanish</AllowedReactions>
+                    <ClassFlags>InhabitsTier1Building;IsChild</ClassFlags>
+                </TrafficFeedbackClass>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

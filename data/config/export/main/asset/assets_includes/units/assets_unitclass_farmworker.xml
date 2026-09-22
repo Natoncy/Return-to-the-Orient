@@ -1,0 +1,48 @@
+<ModOps>
+
+    <!-- clone of vanilla 117761 "AF | FarmWorker" - standalone, NOT BaseAssetGUID, so the
+    UnitAssets list is exactly the Orient units and nothing is inherited -->
+    <ModOp Type="addNextSibling" GUID="117761">
+        <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002107</GUID>
+                    <Name>Orient | FarmWorker</Name>
+                </Standard>
+                <TrafficFeedbackClass>
+                    <DefaultBehaviour>FarmWorker</DefaultBehaviour>
+                    <UnitAssets>
+                        <Item>
+                            <UnitAsset>1404002024</UnitAsset>
+                            <RelativeProbability>50</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002025</UnitAsset>
+                            <RelativeProbability>50</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002026</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002027</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002028</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002032</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002033</UnitAsset>
+                        </Item>
+                    </UnitAssets>
+                    <AllowedReactions>Talk</AllowedReactions>
+                    <UseSpecialPathPlannerLayer_Deprecated>1</UseSpecialPathPlannerLayer_Deprecated>
+                    <SpecialPathPlannerLayer>FarmFields_Person</SpecialPathPlannerLayer>
+                </TrafficFeedbackClass>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

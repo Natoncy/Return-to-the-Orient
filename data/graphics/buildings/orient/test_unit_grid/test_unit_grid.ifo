@@ -1,0 +1,37 @@
+<Info>
+	<DisableFeedbackArea>1</DisableFeedbackArea>
+	<BoundingBox>
+		<Name>BoundingBox</Name>
+		<Position>
+			<xf>0.000000</xf>
+			<yf>1.000000</yf>
+			<zf>2.500000</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf><yf>0</yf><zf>0</zf><wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>4.500000</xf>
+			<yf>2.000000</yf>
+			<zf>5.500000</zf>
+		</Extents>
+	</BoundingBox>
+	<BuildBlocker>
+		<Position>
+			<xf>-4</xf>
+			<zf>-3</zf>
+		</Position>
+		<Position>
+			<xf>4</xf>
+			<zf>-3</zf>
+		</Position>
+		<Position>
+			<xf>4</xf>
+			<zf>8</zf>
+		</Position>
+		<Position>
+			<xf>-4</xf>
+			<zf>8</zf>
+		</Position>
+	</BuildBlocker>
+</Info>

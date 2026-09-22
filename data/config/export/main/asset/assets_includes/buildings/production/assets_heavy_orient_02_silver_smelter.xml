@@ -156,6 +156,10 @@
                 <QuestObject/>
                 <Electrifiable/>
                 <EcoSystemProvider/>
+                <Watered>
+                    <RequiresWater>1</RequiresWater>
+                    <MissingWaterInfolayer>119857</MissingWaterInfolayer>
+                </Watered>
             </Values>
         </Asset>
     </ModOp>

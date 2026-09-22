@@ -1,0 +1,80 @@
+<ModOps>
+
+    <!-- person units -->
+    <Include File="assets_unit_generic_worker_01.xml" />
+    <Include File="assets_unit_generic_worker_02.xml" />
+    <Include File="assets_unit_generic_worker_03.xml" />
+    <Include File="assets_unit_generic_worker_04.xml" />
+    <Include File="assets_unit_generic_worker_05.xml" />
+    <Include File="assets_unit_generic_worker_06.xml" />
+    <Include File="assets_unit_generic_worker_f_large_01.xml" />
+    <Include File="assets_unit_generic_worker_f_large_02.xml" />
+    <Include File="assets_unit_generic_worker_f_normal_01.xml" />
+    <Include File="assets_unit_generic_worker_f_normal_02.xml" />
+    <Include File="assets_unit_production_street_01.xml" />
+    <Include File="assets_unit_production_street_02.xml" />
+    <Include File="assets_unit_production_street_03.xml" />
+    <Include File="assets_unit_production_street_04.xml" />
+    <Include File="assets_unit_production_street_05.xml" />
+    <Include File="assets_unit_tier_01_child_female_01.xml" />
+    <Include File="assets_unit_tier_01_child_male_01.xml" />
+    <Include File="assets_unit_tier_01_large_female_01.xml" />
+    <Include File="assets_unit_tier_01_large_female_02.xml" />
+    <Include File="assets_unit_tier_01_muscular_male_01.xml" />
+    <Include File="assets_unit_tier_01_muscular_male_02.xml" />
+    <Include File="assets_unit_tier_01_normal_female_01.xml" />
+    <Include File="assets_unit_tier_01_normal_female_01_transport.xml" />
+    <Include File="assets_unit_tier_01_normal_female_02.xml" />
+    <Include File="assets_unit_tier_01_normal_female_02_transport.xml" />
+    <Include File="assets_unit_tier_01_normal_male_01.xml" />
+    <Include File="assets_unit_tier_01_normal_male_02.xml" />
+    <Include File="assets_unit_tier_02_child_female_01.xml" />
+    <Include File="assets_unit_tier_02_child_male_01.xml" />
+    <Include File="assets_unit_tier_02_large_female_01.xml" />
+    <Include File="assets_unit_tier_02_large_female_02.xml" />
+    <Include File="assets_unit_tier_02_muscular_male_01.xml" />
+    <Include File="assets_unit_tier_02_muscular_male_02.xml" />
+    <Include File="assets_unit_tier_02_normal_female_01.xml" />
+    <Include File="assets_unit_tier_02_normal_female_02.xml" />
+    <Include File="assets_unit_tier_02_normal_male_01.xml" />
+    <Include File="assets_unit_tier_02_normal_male_02.xml" />
+    <Include File="assets_unit_tier_02_traveling_vendor.xml" />
+
+    <!-- person unit classes -->
+    <Include File="assets_unitclass_base_harbour_workers.xml" />
+    <Include File="assets_unitclass_farmworker.xml" />
+    <Include File="assets_unitclass_production_street_and_workforce_transfer.xml" />
+    <Include File="assets_unitclass_residence1children.xml" />
+    <Include File="assets_unitclass_residence1persons.xml" />
+    <Include File="assets_unitclass_residence2children.xml" />
+    <Include File="assets_unitclass_residence2persons.xml" />
+    <Include File="assets_unitclass_residence2special.xml" />
+
+    <!-- vehicle / boat units (Orient driver, vanilla vehicle) -->
+    <Include File="assets_vehicle_goat_chain.xml" />
+    <Include File="assets_vehicle_harvester.xml" />
+    <Include File="assets_vehicle_logistic_transporter_fuel.xml" />
+    <Include File="assets_vehicle_logistic_transporter_warehouse.xml" />
+    <Include File="assets_vehicle_ridable_elephant.xml" />
+    <Include File="assets_vehicle_sailingboat_1.xml" />
+    <Include File="assets_vehicle_sailingboat_2.xml" />
+    <Include File="assets_vehicle_sailingboat_3.xml" />
+    <Include File="assets_vehicle_tier_01_animal_handler_01.xml" />
+    <Include File="assets_vehicle_tier_01_animal_handler_02.xml" />
+    <Include File="assets_vehicle_tier_01_animal_handler_03.xml" />
+    <Include File="assets_vehicle_tier_01_transport_wagon_01.xml" />
+    <Include File="assets_vehicle_tier_01_transport_wagon_02.xml" />
+    <Include File="assets_vehicle_tractor_hibiscus.xml" />
+    <Include File="assets_vehicle_workerboat_1.xml" />
+    <Include File="assets_vehicle_workerboat_2.xml" />
+
+    <!-- vehicle / boat unit classes -->
+    <Include File="assets_vehicleclass_harbour_water_boats.xml" />
+    <Include File="assets_vehicleclass_harverster.xml" />
+    <Include File="assets_vehicleclass_logistic_transporters_fuel.xml" />
+    <Include File="assets_vehicleclass_logistic_transporters_warehouse.xml" />
+    <Include File="assets_vehicleclass_residence1_vehicles.xml" />
+    <Include File="assets_vehicleclass_residence2_vehicles.xml" />
+    <Include File="assets_vehicleclass_tractor_hibiscus.xml" />
+
+</ModOps>

@@ -1,0 +1,31 @@
+<ModOps>
+
+    <!-- clone of vanilla 123973 "AF | Harvester" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="123973">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002209</GUID>
+                    <Name>Orient | Harvester</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/agricultural_vehicle/harvester_01_colony_02.cfg</CfgPath>
+                    <SpeedSource>TakeFromAsset</SpeedSource>
+                    <OverwriteSpeed>0.25</OverwriteSpeed>
+                    <ResidentCamInteraction>MountAsMotorized</ResidentCamInteraction>
+                </TrafficFeedbackUnit>
+                <Trailer>
+                    <TrailerEndPartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/graphics/vehicle/animal_handler/animal_handler_01_back.cfg</CfgVariation>
+                        </Item>
+                    </TrailerEndPartCfgVariations>
+                </Trailer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -291,6 +291,10 @@
                                             <Item>
                                                 <Asset>1404000871</Asset>
                                             </Item>
+                                            <!-- debug only - remove before release -->
+                                            <Item>
+                                                <Asset>1404002401</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                     </ActionUnlockAsset>
                                 </Values>

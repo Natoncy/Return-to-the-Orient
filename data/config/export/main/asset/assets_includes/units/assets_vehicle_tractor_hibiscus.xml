@@ -1,0 +1,32 @@
+<ModOps>
+
+    <!-- clone of vanilla 131241 "AF | Tractor (Hibiscus)" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="131241">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002210</GUID>
+                    <Name>Orient | Tractor (Hibiscus)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/agricultural_vehicle/agriculture_vehicle_01_colony_02_front.cfg</CfgPath>
+                    <SpeedSource>TakeFromAsset</SpeedSource>
+                    <OverwriteSpeed>0.25</OverwriteSpeed>
+                    <ResidentCamInteraction>MountAsMotorized</ResidentCamInteraction>
+                </TrafficFeedbackUnit>
+                <Trailer>
+                    <TrailerCount>1</TrailerCount>
+                    <TrailerEndPartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/agricultural_vehicle/trailer_01_transport_colony_02_back_03_hibiscus.cfg</CfgVariation>
+                        </Item>
+                    </TrailerEndPartCfgVariations>
+                </Trailer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

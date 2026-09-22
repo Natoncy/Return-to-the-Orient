@@ -1,0 +1,55 @@
+<ModOps>
+
+    <!-- clone of vanilla 127465 "AF | Goat Chain" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="127465">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002205</GUID>
+                    <Name>Orient | Goat Chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/animal_handler/animal_handler_colony_02_01_front.cfg</CfgPath>
+                    <SpeedSource>TakeFromAsset</SpeedSource>
+                    <OverwriteSpeed>0.25</OverwriteSpeed>
+                </TrafficFeedbackUnit>
+                <Trailer>
+                    <TrailerCount>2</TrailerCount>
+                    <TrailerMiddlePartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_02_back.cfg</CfgVariation>
+                            <RelativeProbability>1</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_02_var_1_back.cfg</CfgVariation>
+                            <RelativeProbability>1</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_02_var_2_back.cfg</CfgVariation>
+                            <RelativeProbability>1</RelativeProbability>
+                        </Item>
+                    </TrailerMiddlePartCfgVariations>
+                    <TrailerEndPartCfgVariations>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_02_back.cfg</CfgVariation>
+                            <RelativeProbability>1</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_02_var_1_back.cfg</CfgVariation>
+                            <RelativeProbability>1</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <CfgVariation>data/dlc06/graphics/vehicle/animal_handler/animal_handler_colony_02_02_var_2_back.cfg</CfgVariation>
+                            <RelativeProbability>1</RelativeProbability>
+                        </Item>
+                    </TrailerEndPartCfgVariations>
+                    <Stiffness>0.1</Stiffness>
+                </Trailer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

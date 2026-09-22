@@ -1,0 +1,25 @@
+<ModOps>
+
+    <!-- clone of vanilla 123972 "AF | Logistic Transporter Fuel" - Orient driver, vanilla vehicle -->
+    <ModOp Type="addNextSibling" GUID="123972">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002208</GUID>
+                    <Name>Orient | Logistic Transporter Fuel</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <UnitType>Vehicle</UnitType>
+                    <CfgPath>data/graphics/vehicle/orient/fuel_transport/fuel_transport_01_colony_02.cfg</CfgPath>
+                    <SpeedSource>Managed</SpeedSource>
+                    <OverwriteSpeed>0.25</OverwriteSpeed>
+                    <ResidentCamInteraction>MountAsMotorized</ResidentCamInteraction>
+                </TrafficFeedbackUnit>
+                <Trailer />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

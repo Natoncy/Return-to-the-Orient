@@ -1,0 +1,26 @@
+<ModOps>
+
+    <!-- clone of vanilla 117747 "AF | Logistic Transporters Warehouse" - standalone so UnitAssets is exact -->
+    <ModOp Type="addNextSibling" GUID="117747">
+        <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002303</GUID>
+                    <Name>Orient | Logistic Transporters Warehouse</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_beams.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackClass>
+                    <DefaultBehaviour>INTERNAL_TransportationStreet</DefaultBehaviour>
+                    <UnitAssets>
+                        <Item>
+                            <UnitAsset>1404002211</UnitAsset>
+                        </Item>
+                    </UnitAssets>
+                    <AllowedReactions />
+                </TrafficFeedbackClass>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
