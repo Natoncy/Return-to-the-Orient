@@ -14,21 +14,23 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 TODO:
 - Silver
-    Add Irrigation and oil to silver smelter with recipes
+    Reskin building models
+    Add Irrigation and oil to silver smelter
     Adding smelter recipes for other ores
+- Tractor modules from Bright Harvest
+- Player portraits Nomads/Envoys and expanding body downward
 - Population quests
 - Feedback units
-- Tractor modules from Bright Harvest
+- Wares as model props for marketstalls
+- Background city sounds and voicelines
 
 
 Bugs:
-
+- Duplicate GUIDs 1404000847 and 1404000851?
 
 
 
 Backlog:
-- Player portraits Nomads/Envoys and expanding body downward
-- Background city sounds and voicelines
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 - Camera sequence when entering region for the first time
 
