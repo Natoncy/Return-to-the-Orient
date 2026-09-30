@@ -198,97 +198,62 @@
   <!-- Add Pool and Mixer to all production Chains -->
 
 
-  <!-- <ModOp Type="addPrevSibling" GUID="500005,500145,500003,500016,500023,500012,500029,501254" Path="/Values/ProductionChain/Tier1/Item[Building='1010297']/Tier2/Item[Building='1010305']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
+  <ModOp Type="addPrevSibling" GUID="500005,500145,500003,500016,500023,500012,500029,501254" Path="/Values/ProductionChain/Tier1/Item[Building='1010297']/Tier2/Item[Building='1010305']">
+        <Item>
+          <Building>1404000886</Building>
+        </Item>
   </ModOp>
 
 
   <ModOp Type="addPrevSibling" GUID="137598,137600,137602" Condition="@137598" Path="/Values/ProductionChain/Tier1/Item[Building='1010297']/Tier2/Item[Building='1010305']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
+            <Item>
+          <Building>1404000886</Building>
+        </Item>
   </ModOp>
 
   <ModOp Type="addPrevSibling" GUID="137602" Condition="@137602" Path="/Values/ProductionChain/Tier1/Item[Building='1010302']/Tier2/Item[Building='1010297']/Tier3/Item[Building='1010305']">
     <Item>
-      <Building>1404005004</Building>
+      <Building>1404000886</Building>
     </Item>
   </ModOp>
 
 
   <ModOp Type="addPrevSibling" GUID="500901,500023,500020" Path="/Values/ProductionChain/Tier1/Item[Building='1010282']/Tier2/Item[Building='1010307']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
+            <Item>
+          <Building>1404000886</Building>
+        </Item>
   </ModOp>
 
   <ModOp Type="addPrevSibling" GUID="112713" Condition="@112713" Path="/Values/ProductionChain/Tier1/Item[Building='1010282']/Tier2/Item[Building='1010307']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
+            <Item>
+          <Building>1404000886</Building>
+        </Item>
   </ModOp>
 
   <ModOp Type="addPrevSibling" GUID="117740" Condition="@117740" Path="/Values/ProductionChain/Tier1/Item[Building='1010282']/Tier2/Item[Building='1010307']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
+            <Item>
+          <Building>1404000886</Building>
+        </Item>
   </ModOp>
 
   <ModOp Type="addPrevSibling" GUID="137600" Condition="@137600" Path="/Values/ProductionChain/Tier1/Item[Building='1010282']/Tier2/Item[Building='1010307']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
+            <Item>
+          <Building>1404000886</Building>
+        </Item>
   </ModOp>
 
   <ModOp Type="addPrevSibling" GUID="137602" Condition="@137602" Path="/Values/ProductionChain/Tier1/Item[Building='1010302']/Tier2/Item[Building='1010282']/Tier3/Item[Building='1010307']">
     <Item>
-      <Building>1404005004</Building>
+      <Building>1404000886</Building>
     </Item>
   </ModOp>
 
 
   <ModOp Type="addPrevSibling" GUID="500015,500022" Path="/Values/ProductionChain/Tier1/Item[Building='1010327']/Tier2/Item[Building='1010304']">
-    <Item>
-      <Building>1404005004</Building>
-        <Tier3>
-          <Item>
-            <Building>1404000886</Building>
-          </Item>
-        </Tier3>
-    </Item>
-  </ModOp> -->
+            <Item>
+          <Building>1404000886</Building>
+        </Item>
+  </ModOp>
 
   <!-- add pool as module -->
 
