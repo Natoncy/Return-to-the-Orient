@@ -16,12 +16,7 @@
                             <Building>1010282</Building>
                             <Tier2>
                                 <Item>
-                                <Building>1404005004</Building>
-                                    <Tier3>
-                                    <Item>
-                                        <Building>1404000886</Building>
-                                    </Item>
-                                    </Tier3>
+                                    <Building>1404000886</Building>
                                 </Item>
                                 <Item>
                                     <Building>1010307</Building>
