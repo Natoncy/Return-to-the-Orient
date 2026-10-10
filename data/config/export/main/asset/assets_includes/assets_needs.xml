@@ -19,7 +19,7 @@
         </Item>
     </ModOp>
 
-    <!-- ## Artista: Lokum ## -->
+    <!-- ## Artista: Lokum and Incense ## -->
     <ModOp Type="addNextSibling" GUID="5403" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='5830']">
         <Item>
             <Product>1400201053</Product>
@@ -28,6 +28,19 @@
             <MoneyValue>120</MoneyValue>
             <FullWeightPopulationCount>6000</FullWeightPopulationCount>
             <NoWeightPopulationCount>4499</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>500</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement> -->
+        </Item>
+        <Item>
+            <Product>1440306</Product>
+            <Amount>0.00001</Amount>
+            <HappinessValue>12</HappinessValue>
+            <MoneyValue>85</MoneyValue>
+            <FullWeightPopulationCount>7500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>5999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <!-- <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
