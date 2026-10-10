@@ -8,6 +8,7 @@
     <Include File="assets_agriculture_orient_07_pistachio_farm.xml" />
     <Include File="assets_agriculture_orient_module_fertilizer.xml" />
     <Include File="assets_agriculture_orient_module_honey.xml" />
+    <Include File="assets_agriculture_orient_module_palm_leaves.xml" />
     <Include File="assets_agriculture_orient_module_silo.xml" />
     <Include File="assets_agriculture_orient_module_tractor.xml" />
 </ModOps>

@@ -1,0 +1,167 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID='1010284'>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>1404005045</GUID>
+          <Name>agriculture_orient_module_palm_leaves (palm leaves module)</Name>
+          <IconFilename>data\ui\Icons\PalmL.png</IconFilename>
+          <InfoDescription>1404005049</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Ore Drum Module</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>55287</LineID>
+        </Text>
+        <Building>
+          <AssociatedRegions>Mod3</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <BuildingCategoryName>1404005043</BuildingCategoryName>
+        </Building>
+        <Blocking/>
+        <Mesh/>
+        <BuffFactory/>
+        <FactoryBase>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <FeedbackController/>
+        <Pausable/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+        </Attackable>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>200</Amount>
+              <InactiveAmount>100</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1404000012</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <AmbientMoodProvider/>
+        <LogisticNode/>
+        <Constructable/>
+        <Locked/>
+        <IncidentInfectable/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/orient/heavy_orient_03/heavy_orient_03_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>282241</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1400201040</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <BuildingModule>
+            <ModuleType>PalmLeaves</ModuleType>
+        </BuildingModule>
+        <Infolayer/>
+        <UpgradeList/>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1404005048</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>6</ProductionBuffDistance>
+        </BuffFactory>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="112297">
+    <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+            <Standard>
+                <GUID>1404005048</GUID>
+                <Name>Palm Leaf Buff</Name>
+                <IconFilename>data\ui\Icons\PalmL.png</IconFilename>
+                <InfoDescription>1404005049</InfoDescription>
+            </Standard>
+            <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                        <GUID>1404000865</GUID>
+                    </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+            </ItemEffect>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Honey Production</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>55287</LineID>
+            </Text>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>-30</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+              <AdditionalOutput>
+                <Item>
+                  <Product>1888999915</Product>
+                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                  <Amount>1</Amount>
+                </Item>
+              </AdditionalOutput>
+            </FactoryUpgrade>
+            <BuildingUpgrade/>
+            <Buff />
+            <CultureUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfectableUpgrade />
+            <PowerplantUpgrade />
+            <IndustrializableUpgrade />
+            <ItemContainerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+            <ResourceUpgrade />
+        </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

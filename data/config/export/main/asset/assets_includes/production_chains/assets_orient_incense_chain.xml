@@ -1,0 +1,48 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005047</GUID>
+                    <Name>orient incense chain</Name>
+                    <IconFilename>data\graphics\ui\icons\goods\icon_incense.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005044</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404005045</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000865</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>134614</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010282</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010307</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010308</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1440306</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

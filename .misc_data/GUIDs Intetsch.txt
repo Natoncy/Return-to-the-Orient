@@ -35,8 +35,14 @@ NEW NEEDS
 1404005034: Pistachio Seeds Epic Fluff
 --
 1404005041: Enbesa Elephant Hunting Cabin
-1404005042: Ivory Asset Pool
-
+1404005042: Ivory Asset Pool7
+--
+1404005044: Incense Workshop
+1404005045: module palm leaves
+1404005046: Asset Pool Incense
+1404005047: Incense ProductionChain
+1404005048: Palm Leaf Module Buff
+1404005049: Palm Leaf Buff Fluff
 
 INDUSTRY
 ----------
