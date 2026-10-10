@@ -153,6 +153,10 @@
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
                             <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000003</Population>
+                                <MinPopulationAmount>1000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000357</Product>
@@ -162,6 +166,10 @@
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
                             <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>601883</Population>
+                                <MinPopulationAmount>15</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000360</Product>
@@ -171,6 +179,10 @@
                             <FullWeightPopulationCount>1400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>1800</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000359</Product>
@@ -180,6 +192,10 @@
                             <FullWeightPopulationCount>1400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000004</Population>
+                                <MinPopulationAmount>3000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000364</Product>
@@ -189,6 +205,10 @@
                             <FullWeightPopulationCount>1900</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>601890</Population>
+                                <MinPopulationAmount>1</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000358</Product>
@@ -198,6 +218,10 @@
                             <FullWeightPopulationCount>1900</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>4000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000363</Product>
@@ -207,6 +231,10 @@
                             <FullWeightPopulationCount>2400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1899</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000004</Population>
+                                <MinPopulationAmount>5000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000362</Product>
@@ -216,6 +244,10 @@
                             <FullWeightPopulationCount>2400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1899</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>6000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000283</Product>
