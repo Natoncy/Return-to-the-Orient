@@ -26,6 +26,7 @@
                                 <Values>
                                     <Action/>
                                     <ActionUnlockAsset>
+                                        <!-- AIs get this set from 1404004102 (assets_ai_settle.xml): keep both in sync -->
                                         <UnlockAssets>
                                             <Item>
                                                 <Asset>1404000218</Asset>

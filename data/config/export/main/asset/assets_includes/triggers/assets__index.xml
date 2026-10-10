@@ -1,5 +1,6 @@
 <ModOps>
 
+    <Include File="assets_ai_settle.xml" />
     <Include File="assets_creative_mode.xml" />
     <Include File="assets_enter_session.xml" />
 

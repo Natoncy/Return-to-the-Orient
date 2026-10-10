@@ -11,5 +11,6 @@
     <Include File="assets_harbor_orient_04_oil_harbor4.xml" />
     <Include File="assets_harbor_orient_05_oil_depot.xml" />
     <Include File="assets_harbor_orient_06_trading_company.xml" />
+    <Include File="assets_harbor_orient_07_defense_towers.xml" />
 
 </ModOps>

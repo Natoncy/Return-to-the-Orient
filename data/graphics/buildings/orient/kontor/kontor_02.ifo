@@ -721,38 +721,38 @@
 	</Dummy>
 	<BuildBlocker>
 		<Position>
-			<xf>8.000000</xf>
-			<zf>2.500000</zf>
-		</Position>
-		<Position>
-			<xf>9.000000</xf>
-			<zf>2.500000</zf>
-		</Position>
-		<Position>
-			<xf>9.000000</xf>
-			<zf>-2.500000</zf>
+			<xf>-2.000000</xf>
+			<zf>3.500000</zf>
 		</Position>
 		<Position>
 			<xf>8.000000</xf>
-			<zf>-2.500000</zf>
+			<zf>3.500000</zf>
+		</Position>
+		<Position>
+			<xf>8.000000</xf>
+			<zf>-3.500000</zf>
+		</Position>
+		<Position>
+			<xf>-2.000000</xf>
+			<zf>-3.500000</zf>
 		</Position>
 	</BuildBlocker>
 	<BuildBlocker>
 		<Position>
-			<xf>-2.000000</xf>
-			<zf>3.500000</zf>
+			<xf>8.000000</xf>
+			<zf>2.500000</zf>
+		</Position>
+		<Position>
+			<xf>9.000000</xf>
+			<zf>2.500000</zf>
+		</Position>
+		<Position>
+			<xf>9.000000</xf>
+			<zf>-2.500000</zf>
 		</Position>
 		<Position>
 			<xf>8.000000</xf>
-			<zf>3.500000</zf>
-		</Position>
-		<Position>
-			<xf>8.000000</xf>
-			<zf>-3.500000</zf>
-		</Position>
-		<Position>
-			<xf>-2.000000</xf>
-			<zf>-3.500000</zf>
+			<zf>-2.500000</zf>
 		</Position>
 	</BuildBlocker>
 	<IntersectBox>

@@ -1,0 +1,95 @@
+<ModOps>
+
+    <!-- TEST ONLY - do not ship. Rename the folder to "-Natoncy_orient_test_unlock" or delete it to switch it off.
+         Regular games get the Orient session at the start, like InitCreativeMode-Orient (1404000791) unlocks it in
+         creative and the Q01 expedition unhides it. Intermediate Orient 1.0 then fires for the human at once.
+         UsedBySecondParties 0 keeps the session away from the AIs, so they still have to go through
+         triggers/assets_ai_settle.xml: switch to the Orient (Numpad 8) and they should follow. -->
+    <ModOp Type="addNextSibling" GUID="1404000791">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004130</GUID>
+                    <Name>TEST Orient Session Unlock (regular game)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                            <ConditionPropsNegatable>
+                                <NegateCondition>1</NegateCondition>
+                            </ConditionPropsNegatable>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404000000</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404000000</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Free building: every build cost, upgrade cost, influence cost and maintenance (money and workforce) becomes 0.
+         Asset data is shared, so this applies to the AIs too. The submod loads after all others ("*") to catch the
+         buildings of the shared product submods. Items without an Amount inherit one from their base asset or
+         template, so they get an explicit 0; costs that come only from a template are zeroed in templates.xml. -->
+    <ModOp Type="replace" Path="//Values/Cost/Costs/Item/Amount">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="add" Path="//Values/Cost/Costs/Item[not(Amount)]">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="replace" Path="//Values/Cost/InfluenceCostPoints">
+        <InfluenceCostPoints>0</InfluenceCostPoints>
+    </ModOp>
+    <ModOp Type="replace" Path="//Values/Upgradable/UpgradeCost/Item/Amount">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="add" Path="//Values/Upgradable/UpgradeCost/Item[not(Amount)]">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="replace" Path="//Values/Maintenance/Maintenances/Item/Amount">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="add" Path="//Values/Maintenance/Maintenances/Item[not(Amount)]">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="replace" Path="//Values/Maintenance/Maintenances/Item/InactiveAmount">
+        <InactiveAmount>0</InactiveAmount>
+    </ModOp>
+    <ModOp Type="add" Path="//Values/Maintenance/Maintenances/Item[not(InactiveAmount)]">
+        <InactiveAmount>0</InactiveAmount>
+    </ModOp>
+
+</ModOps>

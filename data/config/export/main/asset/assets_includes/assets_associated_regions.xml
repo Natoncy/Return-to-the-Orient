@@ -1,6 +1,10 @@
 <ModOps>
 
     <ModOp Type="add" GUID="1404000845,1404000846,119029,122988,101058,112842,117786,114545,127913,102818,119035,273697,273698,273699" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Quay Street SA: the Mod3 region's CoastGUIDReplacements turn coast streets into it (assets_region.xml).
+         Vanilla regions only ever replace with a quay street of their own region. While it was Colony01-only,
+         every AI settle mission in the Orient ended in a coast error. -->
+    <ModOp Type="add" GUID="131865" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
     <!-- Creative buildings -->
     <ModOp Type="add" GUID="10284,13011,13911,10283" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
     <!-- Creative palace -->

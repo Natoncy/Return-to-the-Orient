@@ -455,6 +455,8 @@
     </ModOp>
 
 
+    <!-- AI ornaments: Orient ones plus the vanilla 1x1 palm (Mod3 in assets_associated_regions.xml).
+         The Enbesa park trees and flower bed copied here before are Africa only. -->
     <ModOp Type="merge" GUID="167" Path="Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion">
         <Mod3>
             <PerRegionEntry>
@@ -462,93 +464,73 @@
                     <Production>
                         <RegularOrnamentals>
                             <Item>
-                                <Ornamental>130715</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>130716</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>130717</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>130718</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>131423</Ornamental>
+                                <Ornamental>102818</Ornamental>
                                 <RelativeProbabilityWithinSameSizeGroup>50</RelativeProbabilityWithinSameSizeGroup>
+                            </Item>
+                            <Item>
+                                <Ornamental>1404000381</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>30</RelativeProbabilityWithinSameSizeGroup>
+                            </Item>
+                            <Item>
+                                <Ornamental>1404000379</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>20</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                         </RegularOrnamentals>
                         <AvenueOrnamental1x1End>
-                            <Ornamental>130709</Ornamental>
+                            <Ornamental>102818</Ornamental>
                         </AvenueOrnamental1x1End>
                         <AvenueOrnamentals1x1Middle>
                             <Item>
-                                <Ornamental>130709</Ornamental>
+                                <Ornamental>102818</Ornamental>
                             </Item>
                         </AvenueOrnamentals1x1Middle>
                         <AvenueOrnamentals1x1Corner>
-                            <Ornamental>130709</Ornamental>
+                            <Ornamental>102818</Ornamental>
                         </AvenueOrnamentals1x1Corner>
                     </Production>
                     <City>
                         <RegularOrnamentals>
                             <Item>
-                                <Ornamental>130715</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
+                                <Ornamental>102818</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>40</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                             <Item>
-                                <Ornamental>130716</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
+                                <Ornamental>1404000381</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>20</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                             <Item>
-                                <Ornamental>130717</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
+                                <Ornamental>1404000234</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>15</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                             <Item>
-                                <Ornamental>130718</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
+                                <Ornamental>1404000178</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>15</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                             <Item>
-                                <Ornamental>131423</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>60</RelativeProbabilityWithinSameSizeGroup>
+                                <Ornamental>1404000586</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                         </RegularOrnamentals>
                         <AvenueOrnamental1x1End>
-                            <Ornamental>130709</Ornamental>
+                            <Ornamental>102818</Ornamental>
                         </AvenueOrnamental1x1End>
                         <AvenueOrnamentals1x1Middle>
                             <Item>
-                                <Ornamental>130709</Ornamental>
+                                <Ornamental>102818</Ornamental>
                             </Item>
                         </AvenueOrnamentals1x1Middle>
                         <AvenueOrnamentals1x1Corner>
-                            <Ornamental>130709</Ornamental>
+                            <Ornamental>102818</Ornamental>
                         </AvenueOrnamentals1x1Corner>
                     </City>
                     <RailroadHiding>
                         <RegularOrnamentals>
                             <Item>
-                                <Ornamental>130715</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
+                                <Ornamental>102818</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>50</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                             <Item>
-                                <Ornamental>130716</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>10</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>130717</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>15</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>130718</Ornamental>
-                                <RelativeProbabilityWithinSameSizeGroup>15</RelativeProbabilityWithinSameSizeGroup>
-                            </Item>
-                            <Item>
-                                <Ornamental>131423</Ornamental>
+                                <Ornamental>1404000381</Ornamental>
                                 <RelativeProbabilityWithinSameSizeGroup>50</RelativeProbabilityWithinSameSizeGroup>
                             </Item>
                         </RegularOrnamentals>
@@ -558,19 +540,20 @@
         </Mod3>
     </ModOp>
 
+    <!-- Orient clones of the Enbesa towers, buildings/harbor/assets_harbor_orient_07_defense_towers.xml -->
     <ModOp Type="merge" GUID="167" Path="Values/ConstructionAI/DefenseStructuresGround">
         <Mod3>
             <HarborDefenses>
                 <Item>
-                    <Building>117861</Building>
+                    <Building>1404004110</Building>
                     <Weight>30</Weight>
                 </Item>
                 <Item>
-                    <Building>117863</Building>
+                    <Building>1404004111</Building>
                     <Weight>70</Weight>
                 </Item>
                 <Item>
-                    <Building>823</Building>
+                    <Building>1404004112</Building>
                     <Weight>20</Weight>
                     <MaintenanceFactor>0.4</MaintenanceFactor>
                 </Item>
@@ -584,7 +567,7 @@
         <Mod3>
             <AirDefenses>
                 <Item>
-                    <Building>743</Building>
+                    <Building>1404004114</Building>
                     <Weight>10</Weight>
                     <MaintenanceFactor>0.6</MaintenanceFactor>
                 </Item>
@@ -613,7 +596,7 @@
         <Mod3>
             <AdditionalProductionInEverySupplementSession>
                 <Item>
-                    <Product>114356</Product>
+                    <Product>1400201040</Product>
                     <PerProgressLevelInfos>
                         <MidGame>
                             <ProducerBuildingCount>3</ProducerBuildingCount>
@@ -655,7 +638,7 @@
         <Mod3>
             <AdditionalProductionInEverySupplementSession>
                 <Item>
-                    <Product>114356</Product>
+                    <Product>1400201040</Product>
                     <PerProgressLevelInfos>
                         <MidGame>
                             <ProducerBuildingCount>3</ProducerBuildingCount>
@@ -704,7 +687,7 @@
         <Mod3>
             <AdditionalProductionInEverySupplementSession>
                 <Item>
-                    <Product>114356</Product>
+                    <Product>1400201040</Product>
                     <PerProgressLevelInfos>
                         <MidGame>
                             <ProducerBuildingCount>3</ProducerBuildingCount>
@@ -789,7 +772,8 @@
         </Mod3>
     </ModOp>
 
-    <ModOp Type="merge" GUID="170" Path="Values/ConstructionAI/DefenseStructuresGround">
+    <!-- Alonso Gravez (48) has his own Africa weights in vanilla; this used to overwrite Hard (170) -->
+    <ModOp Type="merge" GUID="48" Path="Values/ConstructionAI/DefenseStructuresGround">
         <!-- result: 10 -->
         <Mod3>
             <HarborDefenses>

@@ -13,6 +13,7 @@
     <Include File="assets_asset_pool_orient_dates.xml" />
     <Include File="assets_asset_pool_orient_elmore_mixture.xml" />
     <Include File="assets_asset_pool_orient_hookas.xml" />
+    <Include File="assets_asset_pool_orient_harbour_defenses.xml" />
     <Include File="assets_asset_pool_orient_irrigation.xml" />
     <Include File="assets_asset_pool_orient_ivory.xml" />
     <Include File="assets_asset_pool_orient_kaftans.xml" />

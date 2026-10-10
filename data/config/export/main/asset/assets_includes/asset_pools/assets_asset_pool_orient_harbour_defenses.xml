@@ -1,0 +1,48 @@
+<ModOps>
+
+    <!-- Same split as vanilla Enbesa (117918 at 1.1/1.2, 117921 + fire tower at 2.2/2.3) -->
+    <ModOp Type="addNextSibling" GUID="118226">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004120</GUID>
+                    <Name>asset pool orient harbour defenses 1</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404004110</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404004114</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004121</GUID>
+                    <Name>asset pool orient harbour defenses 2</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404004111</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404004112</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404004113</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

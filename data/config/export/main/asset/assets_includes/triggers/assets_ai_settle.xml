@@ -1,0 +1,175 @@
+<ModOps>
+
+    <!-- AI settling in the Orient, built like vanilla "ThePassage AI Settle Unlock" (116870/116022/116024):
+         1. The first human who enters the Orient session flips the game-wide (MetaGame scope) flag 1404004101.
+         2. Every second party then runs 1404004102: it gets the Orient base tier and 1404004100.
+         3. The session names 1404004100 as SecondPartyReferenceUnlock and sets SecondPartiesMaySettleHere and
+            SecondPartyForceFollowPlayer, so an AI only settles once it holds that unlock.
+         The AIs never get the session itself unlocked (the Q01 expedition reward is human only), so the
+         Intermediate Orient 1.0 trigger never fires for them; 1404004102 hands out the same set instead. -->
+    <ModOp Type="addNextSibling" GUID="130450">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004100</GUID>
+                    <Name>Orient AI Settle Unlock MAIN</Name>
+                </Standard>
+                <Locked />
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysFalse</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysFalse />
+                        </Values>
+                    </TriggerCondition>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004101</GUID>
+                    <Name>Orient AI Settle Unlock Human Condition</Name>
+                </Standard>
+                <Locked>
+                    <Scope>MetaGame</Scope>
+                </Locked>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionActiveSession</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionActiveSession>
+                                <ActiveSession>1404000000</ActiveSession>
+                            </ConditionActiveSession>
+                        </Values>
+                    </TriggerCondition>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004102</GUID>
+                    <Name>Orient AI Settle Unlock AI Condition</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>1404004101</UnlockNeeded>
+                            </ConditionUnlocked>
+                            <ConditionPropsNegatable />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <!-- Keep in sync with Intermediate Orient 1.0 (1404000792) -->
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004100</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000218</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000866</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000862</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000845</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000846</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000790</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000016</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404001110</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404000771</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000769</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <SubTriggers>
+                        <!-- Humans who own the session got all of this from 1.0 already -->
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionUnlocked</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionUnlocked>
+                                                    <UnlockNeeded>1404000000</UnlockNeeded>
+                                                </ConditionUnlocked>
+                                                <ConditionPropsNegatable>
+                                                    <NegateCondition>1</NegateCondition>
+                                                </ConditionPropsNegatable>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

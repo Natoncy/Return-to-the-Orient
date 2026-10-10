@@ -101,6 +101,9 @@
   ],
   "CreatorName": "Natoncy",
   "LoadAfterIds": [
-    "shared_production_silver_bars"
+    "shared_production_silver_bars",
+    "Taludas_shared_tradingcompany",
+    "Natoncy_shared_importdock_honey",
+    "Taludas_shared_importdock_ebony"
   ]
 }

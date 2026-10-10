@@ -1,0 +1,17 @@
+{
+  "Version": "1.0.0",
+  "ModID": "natoncy_return_to_the_orient_test_unlock",
+  "Category": {
+    "English": "Test"
+  },
+  "ModName": {
+    "English": "Return to the Orient Test Unlock (do not ship)"
+  },
+  "Description": {
+    "English": "TEST ONLY: regular games unlock the Orient session right at the start, as creative mode does, so AI settling can be checked without the Q01 expedition (AIs don't get the session). All build, upgrade and influence costs and all maintenance are 0, for AIs too."
+  },
+  "LoadAfterIds": [
+    "*"
+  ],
+  "CreatorName": "Natoncy"
+}

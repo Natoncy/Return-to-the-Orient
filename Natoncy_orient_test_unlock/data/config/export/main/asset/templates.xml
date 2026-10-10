@@ -1,0 +1,11 @@
+<ModOps>
+
+    <!-- TEST ONLY - do not ship. Build costs that assets take straight from their template (assets.xml zeroes the rest) -->
+    <ModOp Type="replace" Path="//Properties/Cost/Costs/Item/Amount">
+        <Amount>0</Amount>
+    </ModOp>
+    <ModOp Type="add" Path="//Properties/Cost/Costs/Item[not(Amount)]">
+        <Amount>0</Amount>
+    </ModOp>
+
+</ModOps>

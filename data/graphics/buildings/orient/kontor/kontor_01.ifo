@@ -42,11 +42,11 @@
 			<zf>3.500000</zf>
 		</Position>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>3.500000</zf>
 		</Position>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>2.500000</zf>
 		</Position>
 		<Position>
@@ -60,11 +60,11 @@
 			<zf>-3.500000</zf>
 		</Position>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>-3.500000</zf>
 		</Position>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>-2.500000</zf>
 		</Position>
 		<Position>
@@ -74,11 +74,11 @@
 	</QuayArea>
 	<InvisibleQuayArea>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>-3.500000</zf>
 		</Position>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>-2.500000</zf>
 		</Position>
 		<Position>
@@ -92,11 +92,11 @@
 	</InvisibleQuayArea>
 	<InvisibleQuayArea>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>2.500000</zf>
 		</Position>
 		<Position>
-			<xf>8</xf>
+			<xf>7</xf>
 			<zf>3.500000</zf>
 		</Position>
 		<Position>
@@ -721,38 +721,38 @@
 	</Dummy>
 	<BuildBlocker>
 		<Position>
-			<xf>8.000000</xf>
-			<zf>2.500000</zf>
+			<xf>-2.000000</xf>
+			<zf>3.500000</zf>
 		</Position>
 		<Position>
-			<xf>9.000000</xf>
-			<zf>2.500000</zf>
+			<xf>7.000000</xf>
+			<zf>3.500000</zf>
 		</Position>
 		<Position>
-			<xf>9.000000</xf>
-			<zf>-2.500000</zf>
+			<xf>7.000000</xf>
+			<zf>-3.500000</zf>
 		</Position>
 		<Position>
-			<xf>8.000000</xf>
-			<zf>-2.500000</zf>
+			<xf>-2.000000</xf>
+			<zf>-3.500000</zf>
 		</Position>
 	</BuildBlocker>
 	<BuildBlocker>
 		<Position>
-			<xf>-2.000000</xf>
-			<zf>3.500000</zf>
+			<xf>7.000000</xf>
+			<zf>2.500000</zf>
 		</Position>
 		<Position>
-			<xf>8.000000</xf>
-			<zf>3.500000</zf>
+			<xf>9.000000</xf>
+			<zf>2.500000</zf>
 		</Position>
 		<Position>
-			<xf>8.000000</xf>
-			<zf>-3.500000</zf>
+			<xf>9.000000</xf>
+			<zf>-2.500000</zf>
 		</Position>
 		<Position>
-			<xf>-2.000000</xf>
-			<zf>-3.500000</zf>
+			<xf>7.000000</xf>
+			<zf>-2.500000</zf>
 		</Position>
 	</BuildBlocker>
 	<IntersectBox>
