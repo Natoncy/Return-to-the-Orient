@@ -5596,6 +5596,406 @@
       <Text>Feuerschlucker, Akrobaten und Gaukler locken Schaulustige an, wo immer sie ihre Zelte aufschlagen.</Text>
     </Text>
     <Text>
+      <GUID>1404003800</GUID>
+      <!-- OrnamentalBuilding | buildings/ornament/north/bannerpole | buildings/ornament/north/bannerpole -->
+      <Text>buildings/ornament/north/bannerpole</Text>
+    </Text>
+    <Text>
+      <GUID>1404003801</GUID>
+      <!-- OrnamentalBuilding | gvdb/okzident/poekelstube/salzvorrat | gvdb/okzident/poekelstube/salzvorrat -->
+      <Text>gvdb/okzident/poekelstube/salzvorrat</Text>
+    </Text>
+    <Text>
+      <GUID>1404003802</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/001offentliche_gebaude/lagerhaus | gvdb/orient/001offentliche_gebaude/lagerhaus -->
+      <Text>gvdb/orient/001offentliche_gebaude/lagerhaus</Text>
+    </Text>
+    <Text>
+      <GUID>1404003803</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/001offentliche_gebaude/lagerzelt | gvdb/orient/001offentliche_gebaude/lagerzelt -->
+      <Text>gvdb/orient/001offentliche_gebaude/lagerzelt</Text>
+    </Text>
+    <Text>
+      <GUID>1404003804</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/003farmen_plantagen/rose_nursery_field | gvdb/orient/003farmen_plantagen/rose_nursery_field -->
+      <Text>gvdb/orient/003farmen_plantagen/rose_nursery_field</Text>
+    </Text>
+    <Text>
+      <GUID>1404003805</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/goldschmelze | gvdb/orient/goldschmelze -->
+      <Text>gvdb/orient/goldschmelze</Text>
+    </Text>
+    <Text>
+      <GUID>1404003806</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/goldwaescher | gvdb/orient/goldwaescher -->
+      <Text>gvdb/orient/goldwaescher</Text>
+    </Text>
+    <Text>
+      <GUID>1404003807</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/lagerzelt | gvdb/orient/lagerzelt -->
+      <Text>gvdb/orient/lagerzelt</Text>
+    </Text>
+    <Text>
+      <GUID>1404003808</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/salzsee | gvdb/orient/salzsee -->
+      <Text>gvdb/orient/salzsee</Text>
+    </Text>
+    <Text>
+      <GUID>1404003809</GUID>
+      <!-- OrnamentalBuilding | gvdb/orient/steinmauer | gvdb/orient/steinmauer -->
+      <Text>gvdb/orient/steinmauer</Text>
+    </Text>
+    <Text>
+      <GUID>1404003810</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/001offentliche_gebaude/wasserturm | iaam/okzident/001offentliche_gebaude/wasserturm -->
+      <Text>iaam/okzident/001offentliche_gebaude/wasserturm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003811</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/003farmen_plantagen/tabakplantage | iaam/okzident/003farmen_plantagen/tabakplantage -->
+      <Text>iaam/okzident/003farmen_plantagen/tabakplantage</Text>
+    </Text>
+    <Text>
+      <GUID>1404003812</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/005kustengebaude/feuer_zimmermann_lagune | iaam/okzident/005kustengebaude/feuer_zimmermann_lagune -->
+      <Text>iaam/okzident/005kustengebaude/feuer_zimmermann_lagune</Text>
+    </Text>
+    <Text>
+      <GUID>1404003813</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/005kustengebaude/fischerhutte | iaam/okzident/005kustengebaude/fischerhutte -->
+      <Text>iaam/okzident/005kustengebaude/fischerhutte</Text>
+    </Text>
+    <Text>
+      <GUID>1404003814</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/005kustengebaude/gruben_kran | iaam/okzident/005kustengebaude/gruben_kran -->
+      <Text>iaam/okzident/005kustengebaude/gruben_kran</Text>
+    </Text>
+    <Text>
+      <GUID>1404003815</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/005kustengebaude/kleiner_kran | iaam/okzident/005kustengebaude/kleiner_kran -->
+      <Text>iaam/okzident/005kustengebaude/kleiner_kran</Text>
+    </Text>
+    <Text>
+      <GUID>1404003816</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/005kustengebaude/marktstande | iaam/okzident/005kustengebaude/marktstande -->
+      <Text>iaam/okzident/005kustengebaude/marktstande</Text>
+    </Text>
+    <Text>
+      <GUID>1404003817</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/005kustengebaude/mittlerer_kran | iaam/okzident/005kustengebaude/mittlerer_kran -->
+      <Text>iaam/okzident/005kustengebaude/mittlerer_kran</Text>
+    </Text>
+    <Text>
+      <GUID>1404003818</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/008zierobjekte/Ruinenmauer | iaam/okzident/008zierobjekte/Ruinenmauer -->
+      <Text>iaam/okzident/008zierobjekte/Ruinenmauer</Text>
+    </Text>
+    <Text>
+      <GUID>1404003819</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/008zierobjekte/canal_shipyard | iaam/okzident/008zierobjekte/canal_shipyard -->
+      <Text>iaam/okzident/008zierobjekte/canal_shipyard</Text>
+    </Text>
+    <Text>
+      <GUID>1404003820</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/008zierobjekte/market_cart | iaam/okzident/008zierobjekte/market_cart -->
+      <Text>iaam/okzident/008zierobjekte/market_cart</Text>
+    </Text>
+    <Text>
+      <GUID>1404003821</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/008zierobjekte/storchennest | iaam/okzident/008zierobjekte/storchennest -->
+      <Text>iaam/okzident/008zierobjekte/storchennest</Text>
+    </Text>
+    <Text>
+      <GUID>1404003822</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/008zierobjekte/suppentopf | iaam/okzident/008zierobjekte/suppentopf -->
+      <Text>iaam/okzident/008zierobjekte/suppentopf</Text>
+    </Text>
+    <Text>
+      <GUID>1404003823</GUID>
+      <!-- OrnamentalBuilding | iaam/okzident/008zierobjekte/zierobjekte01 | iaam/okzident/008zierobjekte/zierobjekte01 -->
+      <Text>iaam/okzident/008zierobjekte/zierobjekte01</Text>
+    </Text>
+    <Text>
+      <GUID>1404003824</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/gate | iaam/orient/001offenliche_gebaude/gate -->
+      <Text>iaam/orient/001offenliche_gebaude/gate</Text>
+    </Text>
+    <Text>
+      <GUID>1404003825</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/gebetsplatz | iaam/orient/001offenliche_gebaude/gebetsplatz -->
+      <Text>iaam/orient/001offenliche_gebaude/gebetsplatz</Text>
+    </Text>
+    <Text>
+      <GUID>1404003826</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/gilde | iaam/orient/001offenliche_gebaude/gilde -->
+      <Text>iaam/orient/001offenliche_gebaude/gilde</Text>
+    </Text>
+    <Text>
+      <GUID>1404003827</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/hauser | iaam/orient/001offenliche_gebaude/hauser -->
+      <Text>iaam/orient/001offenliche_gebaude/hauser</Text>
+    </Text>
+    <Text>
+      <GUID>1404003828</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/herrenhaus | iaam/orient/001offenliche_gebaude/herrenhaus -->
+      <Text>iaam/orient/001offenliche_gebaude/herrenhaus</Text>
+    </Text>
+    <Text>
+      <GUID>1404003829</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/kleiner marktplatz | iaam/orient/001offenliche_gebaude/kleiner marktplatz -->
+      <Text>iaam/orient/001offenliche_gebaude/kleiner marktplatz</Text>
+    </Text>
+    <Text>
+      <GUID>1404003830</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/lagerzelt | iaam/orient/001offenliche_gebaude/lagerzelt -->
+      <Text>iaam/orient/001offenliche_gebaude/lagerzelt</Text>
+    </Text>
+    <Text>
+      <GUID>1404003831</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/o_speicherstadt | iaam/orient/001offenliche_gebaude/o_speicherstadt -->
+      <Text>iaam/orient/001offenliche_gebaude/o_speicherstadt</Text>
+    </Text>
+    <Text>
+      <GUID>1404003832</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/obelisk | iaam/orient/001offenliche_gebaude/obelisk -->
+      <Text>iaam/orient/001offenliche_gebaude/obelisk</Text>
+    </Text>
+    <Text>
+      <GUID>1404003833</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/palast_vier_winde | iaam/orient/001offenliche_gebaude/palast_vier_winde -->
+      <Text>iaam/orient/001offenliche_gebaude/palast_vier_winde</Text>
+    </Text>
+    <Text>
+      <GUID>1404003834</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/pyramide | iaam/orient/001offenliche_gebaude/pyramide -->
+      <Text>iaam/orient/001offenliche_gebaude/pyramide</Text>
+    </Text>
+    <Text>
+      <GUID>1404003835</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/speicher | iaam/orient/001offenliche_gebaude/speicher -->
+      <Text>iaam/orient/001offenliche_gebaude/speicher</Text>
+    </Text>
+    <Text>
+      <GUID>1404003836</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/sultanspalast | iaam/orient/001offenliche_gebaude/sultanspalast -->
+      <Text>iaam/orient/001offenliche_gebaude/sultanspalast</Text>
+    </Text>
+    <Text>
+      <GUID>1404003837</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/001offenliche_gebaude/zimmermann | iaam/orient/001offenliche_gebaude/zimmermann -->
+      <Text>iaam/orient/001offenliche_gebaude/zimmermann</Text>
+    </Text>
+    <Text>
+      <GUID>1404003838</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/002strassen_platze/platze | iaam/orient/002strassen_platze/platze -->
+      <Text>iaam/orient/002strassen_platze/platze</Text>
+    </Text>
+    <Text>
+      <GUID>1404003839</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/buffalo_farm | iaam/orient/003farmen_plantagen/buffalo_farm -->
+      <Text>iaam/orient/003farmen_plantagen/buffalo_farm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003840</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/camel_farm | iaam/orient/003farmen_plantagen/camel_farm -->
+      <Text>iaam/orient/003farmen_plantagen/camel_farm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003841</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/coffee_plantation_field | iaam/orient/003farmen_plantagen/coffee_plantation_field -->
+      <Text>iaam/orient/003farmen_plantagen/coffee_plantation_field</Text>
+    </Text>
+    <Text>
+      <GUID>1404003842</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/forsthaus | iaam/orient/003farmen_plantagen/forsthaus -->
+      <Text>iaam/orient/003farmen_plantagen/forsthaus</Text>
+    </Text>
+    <Text>
+      <GUID>1404003843</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/gewuerzfarm | iaam/orient/003farmen_plantagen/gewuerzfarm -->
+      <Text>iaam/orient/003farmen_plantagen/gewuerzfarm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003844</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/indigo_farm | iaam/orient/003farmen_plantagen/indigo_farm -->
+      <Text>iaam/orient/003farmen_plantagen/indigo_farm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003845</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/rose_nursery_field | iaam/orient/003farmen_plantagen/rose_nursery_field -->
+      <Text>iaam/orient/003farmen_plantagen/rose_nursery_field</Text>
+    </Text>
+    <Text>
+      <GUID>1404003846</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/silk_plantation_field | iaam/orient/003farmen_plantagen/silk_plantation_field -->
+      <Text>iaam/orient/003farmen_plantagen/silk_plantation_field</Text>
+    </Text>
+    <Text>
+      <GUID>1404003847</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/ziegenweide | iaam/orient/003farmen_plantagen/ziegenweide -->
+      <Text>iaam/orient/003farmen_plantagen/ziegenweide</Text>
+    </Text>
+    <Text>
+      <GUID>1404003848</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/zierfelder | iaam/orient/003farmen_plantagen/zierfelder -->
+      <Text>iaam/orient/003farmen_plantagen/zierfelder</Text>
+    </Text>
+    <Text>
+      <GUID>1404003849</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/003farmen_plantagen/zurckerrohrfarm | iaam/orient/003farmen_plantagen/zurckerrohrfarm -->
+      <Text>iaam/orient/003farmen_plantagen/zurckerrohrfarm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003850</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/baecker | iaam/orient/004handwerk/baecker -->
+      <Text>iaam/orient/004handwerk/baecker</Text>
+    </Text>
+    <Text>
+      <GUID>1404003851</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/erzschmelze | iaam/orient/004handwerk/erzschmelze -->
+      <Text>iaam/orient/004handwerk/erzschmelze</Text>
+    </Text>
+    <Text>
+      <GUID>1404003852</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/kohler | iaam/orient/004handwerk/kohler -->
+      <Text>iaam/orient/004handwerk/kohler</Text>
+    </Text>
+    <Text>
+      <GUID>1404003853</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/kupferschmelze | iaam/orient/004handwerk/kupferschmelze -->
+      <Text>iaam/orient/004handwerk/kupferschmelze</Text>
+    </Text>
+    <Text>
+      <GUID>1404003854</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/muehle | iaam/orient/004handwerk/muehle -->
+      <Text>iaam/orient/004handwerk/muehle</Text>
+    </Text>
+    <Text>
+      <GUID>1404003855</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/ori_gold_ore_smelter | iaam/orient/004handwerk/ori_gold_ore_smelter -->
+      <Text>iaam/orient/004handwerk/ori_gold_ore_smelter</Text>
+    </Text>
+    <Text>
+      <GUID>1404003856</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/quartzbruch | iaam/orient/004handwerk/quartzbruch -->
+      <Text>iaam/orient/004handwerk/quartzbruch</Text>
+    </Text>
+    <Text>
+      <GUID>1404003857</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/schmied | iaam/orient/004handwerk/schmied -->
+      <Text>iaam/orient/004handwerk/schmied</Text>
+    </Text>
+    <Text>
+      <GUID>1404003858</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/steinmetz | iaam/orient/004handwerk/steinmetz -->
+      <Text>iaam/orient/004handwerk/steinmetz</Text>
+    </Text>
+    <Text>
+      <GUID>1404003859</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/toepfer | iaam/orient/004handwerk/toepfer -->
+      <Text>iaam/orient/004handwerk/toepfer</Text>
+    </Text>
+    <Text>
+      <GUID>1404003860</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/004handwerk/topfer | iaam/orient/004handwerk/topfer -->
+      <Text>iaam/orient/004handwerk/topfer</Text>
+    </Text>
+    <Text>
+      <GUID>1404003861</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/anlegestelle | iaam/orient/005kustengebaude/anlegestelle -->
+      <Text>iaam/orient/005kustengebaude/anlegestelle</Text>
+    </Text>
+    <Text>
+      <GUID>1404003862</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/hafenmeister | iaam/orient/005kustengebaude/hafenmeister -->
+      <Text>iaam/orient/005kustengebaude/hafenmeister</Text>
+    </Text>
+    <Text>
+      <GUID>1404003863</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/hafenturm | iaam/orient/005kustengebaude/hafenturm -->
+      <Text>iaam/orient/005kustengebaude/hafenturm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003864</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/kaimauer | iaam/orient/005kustengebaude/kaimauer -->
+      <Text>iaam/orient/005kustengebaude/kaimauer</Text>
+    </Text>
+    <Text>
+      <GUID>1404003865</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/kaimauer-berg | iaam/orient/005kustengebaude/kaimauer-berg -->
+      <Text>iaam/orient/005kustengebaude/kaimauer-berg</Text>
+    </Text>
+    <Text>
+      <GUID>1404003866</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/kontor_gross | iaam/orient/005kustengebaude/kontor_gross -->
+      <Text>iaam/orient/005kustengebaude/kontor_gross</Text>
+    </Text>
+    <Text>
+      <GUID>1404003867</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/lagerzelt | iaam/orient/005kustengebaude/lagerzelt -->
+      <Text>iaam/orient/005kustengebaude/lagerzelt</Text>
+    </Text>
+    <Text>
+      <GUID>1404003868</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/leuchtturm | iaam/orient/005kustengebaude/leuchtturm -->
+      <Text>iaam/orient/005kustengebaude/leuchtturm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003869</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/reparaturkran | iaam/orient/005kustengebaude/reparaturkran -->
+      <Text>iaam/orient/005kustengebaude/reparaturkran</Text>
+    </Text>
+    <Text>
+      <GUID>1404003870</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/speicherstadt | iaam/orient/005kustengebaude/speicherstadt -->
+      <Text>iaam/orient/005kustengebaude/speicherstadt</Text>
+    </Text>
+    <Text>
+      <GUID>1404003871</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/005kustengebaude/tradecenter | iaam/orient/005kustengebaude/tradecenter -->
+      <Text>iaam/orient/005kustengebaude/tradecenter</Text>
+    </Text>
+    <Text>
+      <GUID>1404003872</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/007militar/mauer | iaam/orient/007militar/mauer -->
+      <Text>iaam/orient/007militar/mauer</Text>
+    </Text>
+    <Text>
+      <GUID>1404003873</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/007militar/mauertor | iaam/orient/007militar/mauertor -->
+      <Text>iaam/orient/007militar/mauertor</Text>
+    </Text>
+    <Text>
+      <GUID>1404003874</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/007militar/mauerturm | iaam/orient/007militar/mauerturm -->
+      <Text>iaam/orient/007militar/mauerturm</Text>
+    </Text>
+    <Text>
+      <GUID>1404003875</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/008zierobjekte/brunnen | iaam/orient/008zierobjekte/brunnen -->
+      <Text>iaam/orient/008zierobjekte/brunnen</Text>
+    </Text>
+    <Text>
+      <GUID>1404003876</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/008zierobjekte/marktstand_org | iaam/orient/008zierobjekte/marktstand_org -->
+      <Text>iaam/orient/008zierobjekte/marktstand_org</Text>
+    </Text>
+    <Text>
+      <GUID>1404003877</GUID>
+      <!-- OrnamentalBuilding | iaam/orient/008zierobjekte/oasen | iaam/orient/008zierobjekte/oasen -->
+      <Text>iaam/orient/008zierobjekte/oasen</Text>
+    </Text>
+    <Text>
+      <GUID>1404003898</GUID>
+      <!-- ConstructionCategory | Test Buildings: iaam/orient | Test Buildings: iaam/orient -->
+      <Text>Testgebäude: iaam/orient</Text>
+    </Text>
+    <Text>
+      <GUID>1404003899</GUID>
+      <!-- ConstructionCategory | Test Buildings: gvdb, iaam/okzident | Test Buildings: gvdb, iaam/okzident -->
+      <Text>Testgebäude: gvdb, iaam/okzident</Text>
+    </Text>
+    <Text>
       <GUID>1404005002</GUID>
       <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
       <Text>Die Erztrommeln sind leer und müssen aufgefüllt werden.</Text>

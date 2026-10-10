@@ -23,9 +23,11 @@
                         </Item>
                         <Item>
                             <UnitAsset>1404002206</UnitAsset>
+                            <RelativeProbability>10</RelativeProbability>
                         </Item>
                         <Item>
                             <UnitAsset>1404002207</UnitAsset>
+                            <RelativeProbability>10</RelativeProbability>
                         </Item>
                     </UnitAssets>
                     <AllowedReactions>DangerAvoiding;DummyIdle_Vehicle;DummyDrink_Vehicle</AllowedReactions>

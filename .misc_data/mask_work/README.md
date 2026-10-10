@@ -21,6 +21,26 @@ On first load, click **Choose masks folder…** and pick `.misc_data/mask_work/m
 Saves then go straight into the repo. If you skip that, Save falls back to downloading
 the PNG and you move it in yourself.
 
+## Viewing the result
+
+<http://localhost:8765/tools/unit_viewer.html> lines all the units up together so the set
+can be judged as a crowd rather than one atlas at a time.
+
+- **Orient / Vanilla / Split A/B** — swaps the textures instantly. Split alternates the two
+  across the lineup, which is the quickest way to see whether the new set still reads as a
+  coherent population.
+- **Game / Mid / Close** — Game places the camera so a unit is about 42 px tall, which is
+  roughly Anno's default zoom. That is the view that matters for judging motif scale; a
+  pattern that looks right at Close can vanish entirely at Game. The panel always states
+  the pixel height actually in use.
+- **show** filters to women, men, children or a tier.
+- **Reload textures** re-reads `out_png` without a page refresh, so you can leave it open
+  beside `reskin_from_masks.ps1` and iterate.
+- Unlit by default, for the same reason as the painter: you want the atlas's real colours.
+
+Body meshes in bind pose only — hats, props and carried equipment are separate meshes and
+are not shown. For those, build the in-game test ornament.
+
 ## Labels
 
 | Label | Colour | What the pipeline does with it |

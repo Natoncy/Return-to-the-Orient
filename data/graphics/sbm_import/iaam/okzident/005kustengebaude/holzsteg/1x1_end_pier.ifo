@@ -1,0 +1,151 @@
+
+<Info>
+	<DisableFeedbackArea>0</DisableFeedbackArea>
+	<BoundingBox>
+		<Name>BoundingBox</Name>
+		<Position>
+			<xf>-0.07421875</xf>
+			<yf>-1.331298828125</yf>
+			<zf>0.006591796875</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.4970703125</xf>
+			<yf>1.4658203125</yf>
+			<zf>0.499267578125</zf>
+		</Extents>
+	</BoundingBox>
+
+	<BuildBlocker>
+
+		<Position>
+			<xf>-0.5</xf>
+			<zf>0.5</zf>
+		</Position>
+
+		<Position>
+			<xf>0.5</xf>
+			<zf>0.5</zf>
+		</Position>
+
+		<Position>
+			<xf>0.5</xf>
+			<zf>-0.5</zf>
+		</Position>
+
+		<Position>
+			<xf>-0.5</xf>
+			<zf>-0.5</zf>
+		</Position>
+
+	</BuildBlocker>
+
+	<Dummy>
+		<Name>infolayer</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>transporter_spawn</Name>
+		<Position>
+			<xf>-0.75</xf>
+			<yf>0</yf>
+			<zf>0.75</zf>
+		</Position>
+		<Rotation>
+			<xf>0.000000</xf>
+			<yf>0.000000</yf>
+			<zf>0.000000</zf>
+			<wf>1.000000</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.100000</xf>
+			<yf>0.100000</yf>
+			<zf>0.100000</zf>
+		</Extents>
+	</Dummy>
+
+	<FeedbackBlocker>
+
+		<Position>
+			<xf>-0.5</xf>
+			<zf>0.5</zf>
+		</Position>
+
+		<Position>
+			<xf>0.5</xf>
+			<zf>0.5</zf>
+		</Position>
+
+		<Position>
+			<xf>0.5</xf>
+			<zf>-0.5</zf>
+		</Position>
+
+		<Position>
+			<xf>-0.5</xf>
+			<zf>-0.5</zf>
+		</Position>
+
+	</FeedbackBlocker>
+
+	<IntersectBox>
+		<Name>Hitbox_0</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.5</xf>
+			<yf>0.5</yf>
+			<zf>0.5</zf>
+		</Extents>
+	</IntersectBox>
+
+	<MeshBoundingBox>
+		<Name>MeshBoundingBox</Name>
+		<Position>
+			<xf>-0.074358</xf>
+			<yf>-1.331311</yf>
+			<zf>0.006779</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.597087</xf>
+			<yf>1.566036</yf>
+			<zf>0.599482</zf>
+		</Extents>
+	</MeshBoundingBox>
+</Info>

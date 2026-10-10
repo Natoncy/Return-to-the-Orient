@@ -16,12 +16,17 @@ TODO:
 - Add happiness needs for OW/NW/Enbesa tiers
 - Palace or needs replacement for monument
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
-- Feedback units (branch feedback_units)
+- SBM/IAAM Buildings
+    Palace system
+    Square (street) pieces
+    Defense wall
+    Industrial
+
 
 
 
 Bugs:
-- Duplicate GUIDs 1404000847 and 1404000851?
+- FTC not unlocked?
 
 
 Backlog:

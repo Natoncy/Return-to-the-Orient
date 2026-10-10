@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Orient Unit Viewer</title>
+<style>
+  :root{ --bg:#15151a; --panel:#1e1e24; --line:#2e2e38; --fg:#e8e8ee; --dim:#9a9aa8; --accent:#6aa9ff; }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);
+    font:13px/1.45 "Segoe UI",system-ui,sans-serif;overflow:hidden}
+  #app{display:flex;flex-direction:column;height:100%}
+  #bar{display:flex;gap:6px;align-items:center;padding:8px 10px;background:var(--panel);
+    border-bottom:1px solid var(--line);flex-wrap:wrap}
+  #bar strong{font-size:13px;margin-right:6px}
+  button,select{background:#2a2a33;color:var(--fg);border:1px solid #3a3a46;border-radius:5px;
+    padding:5px 10px;font:inherit;font-size:12px;cursor:pointer}
+  button:hover{background:#343440}
+  button.on{background:var(--accent);border-color:var(--accent);color:#08121f;font-weight:600}
+  .sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+  label.f{display:inline-flex;align-items:center;gap:5px;color:var(--dim);font-size:11.5px}
+  #stage{flex:1;position:relative;min-height:0}
+  #stage canvas{display:block}
+  #tip{position:absolute;left:10px;bottom:10px;color:var(--dim);font-size:11px;
+    background:#15151ac8;padding:6px 9px;border-radius:5px;pointer-events:none}
+  #scaleNote{position:absolute;right:10px;top:10px;color:var(--dim);font-size:11px;
+    background:#15151ac8;padding:6px 9px;border-radius:5px;pointer-events:none;text-align:right}
+  #labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+  .ulbl{position:absolute;transform:translate(-50%,0);font-size:10px;color:#cfd4e0;
+    background:#15151ac0;padding:1px 5px;border-radius:3px;white-space:nowrap}
+  #err{position:absolute;inset:0;display:none;align-items:center;justify-content:center;
+    background:#15151aee;padding:30px;text-align:center}
+  code{background:#2a2a33;padding:1px 5px;border-radius:3px;font:12px ui-monospace,monospace}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="bar">
+    <strong>Orient Unit Viewer</strong>
+    <button id="bOrient" class="on">Orient</button>
+    <button id="bVanilla">Vanilla</button>
+    <button id="bSplit">Split A/B</button>
+    <span class="sep"></span>
+    <span style="color:var(--dim);font-size:11.5px">zoom</span>
+    <button id="zGame" class="on">Game</button>
+    <button id="zMid">Mid</button>
+    <button id="zClose">Close</button>
+    <span class="sep"></span>
+    <label class="f"><input type="checkbox" id="lit"> lit</label>
+    <label class="f"><input type="checkbox" id="names" checked> names</label>
+    <label class="f">bg
+      <select id="bg">
+        <option value="#2a2520">sand</option>
+        <option value="#15151a">dark</option>
+        <option value="#8a9ba8">sky</option>
+        <option value="#c9c2b4">light</option>
+      </select>
+    </label>
+    <span class="sep"></span>
+    <label class="f">show
+      <select id="filter">
+        <option value="all">all units</option>
+        <option value="f">women only</option>
+        <option value="m">men only</option>
+        <option value="small">children only</option>
+        <option value="tier_01">tier 1</option>
+        <option value="tier_02">tier 2</option>
+      </select>
+    </label>
+    <button id="bReload">Reload textures</button>
+  </div>
+  <div id="stage">
+    <div id="labels"></div>
+    <div id="tip">drag rotate · wheel zoom · right-drag pan</div>
+    <div id="scaleNote"></div>
+    <div id="err"><div>
+      <h3 style="margin:0 0 8px">Could not load the unit data</h3>
+      <p style="color:var(--dim)">Serve <code>.misc_data</code> over http and open this from there:</p>
+      <p><code>npx --yes http-server -p 8765 -c-1</code></p>
+    </div></div>
+  </div>
+</div>
+
+<script type="importmap">
+{"imports":{
+  "three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+// ===================================================================================
+// Orient Unit Viewer
+//
+// Lines the reskinned units up so the whole set can be judged together, with an A/B
+// against the vanilla Enbesa textures and a zoom preset that matches how large a unit
+// actually appears in Anno. Everything is read from .misc_data/mask_work, which already
+// holds the meshes, the vanilla atlases and the current Orient output.
+//
+// Shows the BODY mesh only, in bind pose. Hats, props and carried equipment are separate
+// meshes and are not part of this view.
+// ===================================================================================
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {GLTFLoader}    from 'three/addons/loaders/GLTFLoader.js';
+
+const DATA = '../mask_work/';
+const stage  = document.getElementById('stage');
+const labels = document.getElementById('labels');
+
+const scene    = new THREE.Scene();
+const camera   = new THREE.PerspectiveCamera(35, 1, 0.01, 500);
+const renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+stage.appendChild(renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+
+const hemi = new THREE.HemisphereLight(0xffffff, 0x60584a, 2.0);
+const key  = new THREE.DirectionalLight(0xfff0dd, 1.5);
+scene.add(hemi, key);
+
+// ground, so the figures read as standing rather than floating
+const ground = new THREE.Mesh(
+  new THREE.PlaneGeometry(200,200),
+  new THREE.MeshBasicMaterial({color:0x3a3228})
+);
+ground.rotation.x = -Math.PI/2;
+scene.add(ground);
+
+const texLoader = new THREE.TextureLoader();
+const gltfLoader = new GLTFLoader();
+
+let manifest = [], units = [], mode = 'orient', lit = false, showNames = true, curPx = 42;
+
+function loadTex(url){
+  return new Promise(res=>{
+    texLoader.load(url+'?t='+Date.now(), t=>{
+      t.flipY = false;                       // glTF UV convention
+      t.colorSpace = THREE.SRGBColorSpace;
+      t.anisotropy = renderer.capabilities.getMaxAnisotropy();
+      res(t);
+    }, undefined, ()=>res(null));
+  });
+}
+
+function makeMaterial(map){
+  return lit
+    ? new THREE.MeshStandardMaterial({map, roughness:.9, metalness:0, side:THREE.DoubleSide})
+    : new THREE.MeshBasicMaterial({map, side:THREE.DoubleSide});
+}
+
+async function boot(){
+  try{ manifest = await (await fetch(DATA+'manifest.json')).json(); }
+  catch(e){ document.getElementById('err').style.display='flex'; return; }
+
+  for(const m of manifest){
+    if(!m.model) continue;
+    const [gltf, texO, texV] = await Promise.all([
+      gltfLoader.loadAsync(DATA+'models/'+m.model).catch(()=>null),
+      loadTex(DATA+'out_png/'+m.name+'.png'),
+      loadTex(DATA+'textures/'+m.name+'.png')
+    ]);
+    if(!gltf) continue;
+    const root = gltf.scene;
+    // drop the mesh onto the ground plane and face it at the camera side
+    const box = new THREE.Box3().setFromObject(root);
+    const ctr = box.getCenter(new THREE.Vector3());
+    const min = box.min.clone();
+    root.position.set(-ctr.x, -min.y, -ctr.z);
+    const pivot = new THREE.Object3D();
+    pivot.add(root);
+    pivot.rotation.y = (m.yaw||0) * Math.PI/180;
+    scene.add(pivot);
+
+    const meshes = [];
+    root.traverse(o=>{ if(o.isMesh){ o.material = makeMaterial(texO); meshes.push(o); } });
+    units.push({
+      name:m.name, pivot, meshes, texO, texV,
+      height: box.max.y - box.min.y,
+      label: document.createElement('div')
+    });
+    const L = units[units.length-1].label;
+    L.className='ulbl';
+    L.textContent = m.name.replace(/^residence_colony_02_/,'').replace(/_diff$/,'');
+    labels.appendChild(L);
+  }
+  layout();
+  setZoom('game');
+}
+
+// lay the visible units out in a shallow grid, like the in-game test ornament
+function layout(){
+  const vis = units.filter(u=>u.pivot.visible);
+  const cols = Math.max(1, Math.ceil(Math.sqrt(vis.length*2.2)));
+  const rows = Math.ceil(vis.length/cols);
+  const sx = 0.55, sz = 0.75;        // wide enough that figures do not overlap at an angle
+  vis.forEach((u,i)=>{
+    const c = i % cols, r = Math.floor(i/cols);
+    u.pivot.position.x = (c - (cols-1)/2) * sx;
+    u.pivot.position.z = (r - (rows-1)/2) * sz;    // centre the block on the origin
+  });
+  window.__span = { w: cols*sx, d: rows*sz, cols, rows };
+}
+
+function applyFilter(v){
+  for(const u of units){
+    const n = u.name;
+    let ok = true;
+    if(v==='f')          ok = /_f_0|normal_f_0/.test(n) && !/_small_f/.test(n);
+    else if(v==='m')     ok = /_m_0/.test(n) && !/_small_m/.test(n);
+    else if(v==='small') ok = /_small_[fm]/.test(n);
+    else if(v==='tier_01') ok = /tier_?01/.test(n);
+    else if(v==='tier_02') ok = /tier_?02/.test(n);
+    u.pivot.visible = ok;
+    u.label.style.display = ok && showNames ? 'block' : 'none';
+  }
+  layout();
+}
+
+function setMode(m){
+  mode = m;
+  units.forEach((u,i)=>{
+    let t = u.texO;
+    if(m==='vanilla') t = u.texV;
+    else if(m==='split') t = (i%2===0) ? u.texO : u.texV;   // alternate, easy to compare
+    u.meshes.forEach(me=>{ me.material.map = t; me.material.needsUpdate = true; });
+  });
+  document.getElementById('bOrient').classList.toggle('on', m==='orient');
+  document.getElementById('bVanilla').classList.toggle('on', m==='vanilla');
+  document.getElementById('bSplit').classList.toggle('on', m==='split');
+}
+
+// Distance chosen so a unit covers a given number of screen pixels. At Anno's default
+// zoom a citizen is roughly 40 px tall, which is the whole reason the motif had to be
+// coarsened - this preset shows that honestly instead of flattering the texture.
+function distanceForPixelHeight(px){
+  const h = stage.clientHeight || 600;
+  const modelH = 0.6;
+  const fov = camera.fov * Math.PI/180;
+  return (modelH * h) / (2 * px * Math.tan(fov/2));
+}
+function setZoom(which){
+  const span = window.__span || {w:4,d:2};
+  curPx = which==='game' ? 42 : (which==='mid' ? 130 : 420);
+  let d = distanceForPixelHeight(curPx);
+
+  // At the close presets the camera would otherwise sit inside the block, so pull back
+  // far enough to clear it and report the pixel height that actually results.
+  const aspect = Math.max(0.3, (stage.clientWidth||800)/(stage.clientHeight||600));
+  const fitW = (span.w*0.6) / Math.tan(camera.fov*Math.PI/360) / aspect;
+  const minD = Math.max(span.d*0.75 + 0.6, fitW*0.55);
+  if(d < minD){ d = minD; curPx = Math.round(0.6*(stage.clientHeight||600)/(2*d*Math.tan(camera.fov*Math.PI/360))); }
+
+  const tgt = new THREE.Vector3(0, 0.3, 0);
+  controls.target.copy(tgt);
+  camera.position.set(tgt.x, tgt.y + d*0.45, tgt.z - d*0.92);
+  camera.updateProjectionMatrix();
+  controls.update();
+  for(const [id,k] of [['zGame','game'],['zMid','mid'],['zClose','close']])
+    document.getElementById(id).classList.toggle('on', k===which);
+  note();
+}
+function note(){
+  document.getElementById('scaleNote').innerHTML =
+    'a unit is about <b>'+curPx+' px</b> tall here' +
+    (curPx<=60 ? '<br>roughly Anno default zoom' : '');
+}
+
+function rebuildMaterials(){
+  units.forEach(u=>{
+    const map = u.meshes[0] ? u.meshes[0].material.map : u.texO;
+    u.meshes.forEach(me=>{ me.material.dispose(); me.material = makeMaterial(map); });
+  });
+}
+
+// ---- ui ----
+document.getElementById('bOrient').onclick =()=>setMode('orient');
+document.getElementById('bVanilla').onclick=()=>setMode('vanilla');
+document.getElementById('bSplit').onclick  =()=>setMode('split');
+document.getElementById('zGame').onclick   =()=>setZoom('game');
+document.getElementById('zMid').onclick    =()=>setZoom('mid');
+document.getElementById('zClose').onclick  =()=>setZoom('close');
+document.getElementById('lit').onchange = e=>{ lit=e.target.checked; rebuildMaterials(); };
+document.getElementById('names').onchange = e=>{
+  showNames=e.target.checked;
+  units.forEach(u=>u.label.style.display = (u.pivot.visible&&showNames)?'block':'none');
+};
+document.getElementById('bg').onchange = e=>{
+  scene.background = new THREE.Color(e.target.value);
+  ground.material.color = new THREE.Color(e.target.value).multiplyScalar(0.75);
+};
+document.getElementById('filter').onchange = e=>applyFilter(e.target.value);
+document.getElementById('bReload').onclick = async ()=>{
+  for(const u of units){
+    const t = await loadTex(DATA+'out_png/'+u.name+'.png');
+    if(t){ u.texO.dispose?.(); u.texO = t; }
+  }
+  setMode(mode);
+};
+
+scene.background = new THREE.Color('#2a2520');
+ground.material.color = new THREE.Color('#2a2520').multiplyScalar(0.75);
+
+function resize(){
+  const w = stage.clientWidth, h = stage.clientHeight;
+  if(!w||!h) return;
+  renderer.setSize(w,h,false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+}
+new ResizeObserver(resize).observe(stage);
+resize();
+
+const v = new THREE.Vector3();
+renderer.setAnimationLoop(()=>{
+  key.position.copy(camera.position);
+  controls.update();
+  renderer.render(scene,camera);
+  if(showNames){
+    for(const u of units){
+      if(!u.pivot.visible){ continue; }
+      v.set(u.pivot.position.x, u.height+0.04, u.pivot.position.z).project(camera);
+      const x=(v.x*0.5+0.5)*stage.clientWidth, y=(-v.y*0.5+0.5)*stage.clientHeight;
+      // names are noise once figures are small; the checkbox stays a master switch
+      const on = v.z<1 && curPx>=75 && x>-80 && x<stage.clientWidth+80;
+      u.label.style.display = on ? 'block':'none';
+      u.label.style.left = x+'px';
+      u.label.style.top  = y+'px';
+    }
+  }
+});
+
+boot();
+</script>
+</body>
+</html>

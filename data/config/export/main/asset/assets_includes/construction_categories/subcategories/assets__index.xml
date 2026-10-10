@@ -7,4 +7,7 @@
     <Include File="assets_orient_construction_menu_trading_company.xml" />
     <Include File="assets_orient_ornaments.xml" />
 
+    <!-- debug only - remove before release -->
+    <Include File="assets_orient_test_buildings.xml" />
+
 </ModOps>
