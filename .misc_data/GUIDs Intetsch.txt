@@ -1,6 +1,8 @@
 1404000845-1404000887
 1404005000+
 
+robocopy "D:\philipp\Return-to-the-Orient\Return-to-the-Orient" "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Anno 1800\mods\Return-to-the-Orient" /mir /mt:20
+
 NEW NEEDS
 ----------
 1404005012: Honey Module
@@ -105,3 +107,4 @@ OTHER
 1404005007: Fertilizer module
 1404005018: ItemEffectTargetPool All Farms
 1404005038: Wrong Region InfoTip Text
+1404005043: Module Category Text
