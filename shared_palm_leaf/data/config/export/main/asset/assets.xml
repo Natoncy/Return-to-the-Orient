@@ -1,29 +1,29 @@
 <ModOps>
-  <!-- Rosenwasser-->
-  <ModOp GUID="133183" Type="addPrevSibling">
+  <!-- Palm Leaves-->
+  <ModOp Type="addNextSibling" GUID='1010200'>
     <Asset>
       <Template>Product</Template>
       <Values>
         <Standard>
-          <GUID>1900100125</GUID>
-          <Name>Rosenwasser</Name>
-          <IconFilename>data/ui\Icons\icon_rosenwasser.png</IconFilename>
+          <GUID>1888999915</GUID>
+          <Name>Palm Leaves</Name>
+          <IconFilename>data/ui/Icons/PalmL.png</IconFilename>
         </Standard>
         <Locked />
         <Product>
           <StorageLevel>Building</StorageLevel>
-          <ProductCategory>11702</ProductCategory>
-          <BasePrice>60</BasePrice>
+          <ProductCategory>11702</ProductCategory> 
+          <BasePrice>2</BasePrice>
           <CivLevel>1</CivLevel>
           <AssociatedRegion>Meta</AssociatedRegion>
           <ProductionRegions />
         </Product>
         <ExpeditionAttribute>
-          <BaseMorale>0</BaseMorale>
+          <BaseMorale>20</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>Diplomacy</Attribute>
-              <Amount>9</Amount>
+              <Attribute>Crafting</Attribute>
+              <Amount>2</Amount>
             </Item>
           </ExpeditionAttributes>
         </ExpeditionAttribute>
@@ -31,30 +31,30 @@
     </Asset>
   </ModOp>
 
-
   <!-- Expedition -->
   <ModOp Type="add" GUID="800111">
     <Item>
       <MoraleFactor>0.5</MoraleFactor>
-      <Product>1900100125</Product>
+      <Product>1888999915</Product>
     </Item>
   </ModOp>
 
-  <!-- Rosewater Workshop-->
-   <ModOp Type="addNextSibling" GUID='114447'>
-      <Asset>
-        <Template>FactoryBuilding7</Template>
-        <Values>
-          <Standard>
-            <GUID>1900100124</GUID>
-            <Name>IsMainFactory_Fake_Rosewater_Workshop</Name>
-            <IconFilename>data/ui\Icons\icon_rosenwasser.png</IconFilename>
-          </Standard>
-          <Building>
-            <AssociatedRegions>Africa</AssociatedRegions>
-            <SecondPartyRelevant>0</SecondPartyRelevant>
-          </Building>
-          <Blocking/>
+ <!-- START PRODUCTION Palms -->
+  <ModOp Type="addNextSibling" GUID='101263'>
+    <Asset>
+      <Template>FreeAreaBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1888999916</GUID>
+          <Name>Palms Plantation</Name>
+          <IconFilename>data/ui/Icons/PalmL.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking/>
         <Cost>
           <Costs>
             <Item>
@@ -62,15 +62,15 @@
               <Amount>500</Amount>
             </Item>
             <Item>
-              <Ingredient>114356</Ingredient>
-					    <Amount>10</Amount>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
             </Item>
           </Costs>
         </Cost>
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc06/graphics/buildings/production/production_colony02_10/production_colony02_10.cfg</Filename>
+              <Filename>data/graphics/buildings/production/agriculture_colony01_10/agriculture_colony01_10.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -81,7 +81,7 @@
               <ActionList/>
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
           <Colors>
             <WeakSelectionColorType>NoColor</WeakSelectionColorType>
           </Colors>
@@ -89,71 +89,58 @@
         <Text>
           <LocaText>
             <English>
-              <Text>Rosewater Workshop</Text>
+              <Text>Palms Plantation</Text>
               <Status>Exported</Status>
               <ExportCount>2</ExportCount>
             </English>
           </LocaText>
         </Text>
       <SoundEmitter>
-			<ActiveSounds>
+			 <ActiveSounds>
 				<Item>
-					<Sound>270300</Sound>
+					<Sound>200795</Sound>
 				</Item>
-				<Item>
-					<Sound>270266</Sound>
-				</Item>
-			</ActiveSounds>
-		</SoundEmitter>
-      <FactoryBase>
-			  <FactoryInputs>
-				  <Item>
-					  <Product>1900100099</Product>
-				   	<!--Roses-->
-					  <Amount>1</Amount>
-					  <StorageAmount>6</StorageAmount>
-				  </Item>
-          <Item>
-					  <Product>1010241</Product>
-					  <Amount>1</Amount>
-					  <StorageAmount>6</StorageAmount>
-				  </Item>
-          <Item>
-					  <Product>114356</Product>
-					  <Amount>1</Amount>
-					  <StorageAmount>6</StorageAmount>
-				  </Item>
-			  </FactoryInputs>
-		   	<FactoryOutputs>
-				  <Item>
-					  <Product>1900100125</Product>
-					  <Amount>1</Amount>
-					<StorageAmount>10</StorageAmount>
-				 </Item>
-			 </FactoryOutputs>
-			 <CycleTime>60</CycleTime>
-			 <IsMainFactory>1</IsMainFactory>
-		  </FactoryBase>
+			 </ActiveSounds>
+			 <IncidentSounds>
+				<InfectedFire>
+					<Item>
+						<Sound>214659</Sound>
+					</Item>
+				</InfectedFire>
+			 </IncidentSounds>
+		  </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1888999915</Product>
+              <Amount>1</Amount>
+              <StorageAmount>20</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
         <LogisticNode/>
         <AmbientMoodProvider>
-          <AmbientMood>Africa_Factories</AmbientMood>
+          <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
         </AmbientMoodProvider>
         <Maintenance>
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>120</Amount>
+              <Amount>30</Amount>
               <InactiveAmount>0</InactiveAmount>
             </Item>
             <Item>
-              <Product>114341</Product>
-              <Amount>50</Amount>
+              <Product>1010366</Product>
+              <Amount>12</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
         <Attackable>
           <AttackableType>IslandBuilding</AttackableType>
-          <MaximumHitPoints>1150</MaximumHitPoints>
+          <MaximumHitPoints>1100</MaximumHitPoints>
           <SelfHealPerHealTick>4</SelfHealPerHealTick>
         </Attackable>
         <Pausable/>
@@ -185,46 +172,47 @@
             </Riot>
           </IncidentInfectionChanceFactors>
         </IncidentInfectable>
-        <Pausable />
-		    <Culture>
-			    <CultureType>Culture</CultureType>
-		    </Culture>
+        <FreeAreaProductivity>
+			   <InfluenceRadius>7</InfluenceRadius>
+			   <NeededAreaPercent>70</NeededAreaPercent>
+			   <MaxWorkerAmount>4</MaxWorkerAmount>
+			   <AdditionalWorkerForForestation>3</AdditionalWorkerForForestation>
+			   <WorkerPause>10000</WorkerPause>
+         <FreeAreaType>Coconut</FreeAreaType>
+         <AdditionalTreeProp>data/graphics/props/storage/basket_pile_v1.prp</AdditionalTreeProp>
+		    </FreeAreaProductivity>
+        <Culture>
+          <CultureType>Landscaping</CultureType>
+        </Culture>
       </Values>
     </Asset>
   </ModOp>
-
   <!-- ADD PRODUCT TO PRODUCTSTORAGELISTS -->
-  <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='114390']">
+  <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010200']">
     <Item>
-      <Product>1900100125</Product>     
+      <Product>1888999915</Product>     
     </Item>
   </ModOp>
 
   <ModOp Type="add" GUID='502016,502065,502220,502078,502080,502028,502068,502027,502067,501955' Path="/Values/ProductList/List">
     <Item>
-      <Product>1900100125</Product>      
+      <Product>1888999915</Product>      
     </Item>
   </ModOp>
 
-  <!-- Start ADD TO ALL all Embesa farms prod-->
-    <ModOp Type="add" GUID="193959" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <!-- ADD GOODS TO OTHER PRODUCTLIST - INTERMEDIATE GOODS -->
+
+    <!-- Start ADD TO ALL ORCHARDS -->
+  <ModOp Type="add" GUID="194013,194008" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
          <Item>
-             <GUID>1900100124</GUID>
+             <GUID>1888999916</GUID>
          </Item>
-    </ModOp>
+  </ModOp>
+
     <!-- START ADD TO GLOBAL PRODUCTION POOLS -->
     <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
          <Item>
-             <GUID>1900100124</GUID>
+             <GUID>1888999916</GUID>
          </Item>
     </ModOp>
-
-  <!--Unlock Goods and Elder workforce list-->
-  <ModOp Type="add" GUID="502072,502070"
-    Condition="!~/Values/ProductList/List/Item[Product='1900100125']"
-    Path="/Values/ProductList/List">
-    <Item>
-      <Product>1900100125</Product>
-    </Item>
-  </ModOp>
 </ModOps>

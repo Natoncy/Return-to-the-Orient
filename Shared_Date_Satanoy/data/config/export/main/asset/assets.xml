@@ -15,12 +15,8 @@
           <ProductCategory>11702</ProductCategory>
           <BasePrice>16</BasePrice>
           <CivLevel>1</CivLevel>
-          <AssociatedRegion>Africa</AssociatedRegion>
-            <ProductionRegions>
-              <Item>
-                <RegionType>Africa</RegionType>
-              </Item>
-            </ProductionRegions>
+          <AssociatedRegion>Meta</AssociatedRegion>
+          <ProductionRegions />
         </Product>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
@@ -33,13 +29,6 @@
         </ExpeditionAttribute>
       </Values>
     </Asset>
-  </ModOp>
-
-  <!-- START ADD GOOD TO AgriculturalProducts-->
-  <ModOp Type="addNextSibling" GUID='502041,502038,502076' Path="/Values/ProductList/List">
-      <Item>
-        <Product>1888999749</Product>
-      </Item>
   </ModOp>
 
   <!-- Expedition -->
