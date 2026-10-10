@@ -8,6 +8,7 @@
     <Include File="assets_orient_fuel_chain.xml" />
     <Include File="assets_orient_elmore_mixture_chain.xml" />
     <Include File="assets_orient_hookahs_chain.xml" />
+    <Include File="assets_orient_incense_chain.xml" />
     <Include File="assets_orient_irrigation_chain.xml" />
     <Include File="assets_orient_kaftans_chain.xml" />
     <Include File="assets_orient_lokum_chain.xml" />

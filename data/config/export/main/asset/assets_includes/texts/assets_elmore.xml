@@ -64,5 +64,21 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005043</GUID>
+					<Name>Module Category Text</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Perhaps best not touched with bare hands. Also known as oil of vitriol.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
     </ModOp>
 </ModOps>

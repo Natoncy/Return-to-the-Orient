@@ -5,15 +5,15 @@
       <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
-          <GUID>1404005012</GUID>
-          <Name>agriculture_orient_module_honey</Name>
-          <IconFilename>data/modgraphics/ui/icon_honey.png</IconFilename>
-          <InfoDescription>1404005014</InfoDescription>
+          <GUID>1404005045</GUID>
+          <Name>agriculture_orient_module_palm_leaves (palm leaves module)</Name>
+          <IconFilename>data\ui\Icons\PalmL.png</IconFilename>
+          <InfoDescription>1404005049</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Bee Garden</Text>
+              <Text>Ore Drum Module</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
@@ -27,7 +27,10 @@
         <Blocking/>
         <Mesh/>
         <BuffFactory/>
-        <FactoryBase/>
+        <FactoryBase>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
         <FeedbackController/>
         <Pausable/>
         <Selection>
@@ -37,7 +40,7 @@
               <ActionList/>
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>Mod9</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
         </Selection>
         <Attackable>
           <AttackableType>IslandBuilding</AttackableType>
@@ -46,12 +49,12 @@
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>100</Amount>
-              <InactiveAmount>50</InactiveAmount>
+              <Amount>200</Amount>
+              <InactiveAmount>100</InactiveAmount>
             </Item>
             <Item>
-              <Product>1404000013</Product>
-              <Amount>20</Amount>
+              <Product>1404000012</Product>
+              <Amount>10</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -63,14 +66,14 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/orient/honey_module_orient/honey_module_orient.cfg</Filename>
+              <Filename>data/graphics/buildings/orient/heavy_orient_03/heavy_orient_03_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
         <SoundEmitter>
           <ActiveSounds>
             <Item>
-              <Sound>273669</Sound>
+              <Sound>282241</Sound>
             </Item>
           </ActiveSounds>
         </SoundEmitter>
@@ -78,32 +81,27 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>5000</Amount>
+              <Amount>200</Amount>
             </Item>
             <Item>
               <Ingredient>1400201040</Ingredient>
               <Amount>10</Amount>
             </Item>
-            <Item>
-              <Ingredient>114402</Ingredient>
-              <Amount>3</Amount>
-            </Item>
           </Costs>
         </Cost>
-        <BuildingModule/>
+        <BuildingModule>
+            <ModuleType>PalmLeaves</ModuleType>
+        </BuildingModule>
         <Infolayer/>
         <UpgradeList/>
         <BuffFactory>
           <ProductionBuffs>
             <Item>
-              <ProductivityBuff>1404005013</ProductivityBuff>
+              <ProductivityBuff>1404005048</ProductivityBuff>
             </Item>
           </ProductionBuffs>
           <ProductionBuffScope>Radius</ProductionBuffScope>
-          <ProductionBuffDistance>12</ProductionBuffDistance>
-          <BaseBuff>1404005017</BaseBuff>
-          <BaseBuffScope>Radius</BaseBuffScope>
-          <BaseBuffDistance>12</BaseBuffDistance>
+          <ProductionBuffDistance>6</ProductionBuffDistance>
         </BuffFactory>
       </Values>
     </Asset>
@@ -115,15 +113,15 @@
         <Template>GuildhouseBuff</Template>
         <Values>
             <Standard>
-                <GUID>1404005013</GUID>
-                <Name>Honey Buff</Name>
-                <IconFilename>data/modgraphics/ui/icon_honey.png</IconFilename>
-                <InfoDescription>1404005015</InfoDescription>
+                <GUID>1404005048</GUID>
+                <Name>Palm Leaf Buff</Name>
+                <IconFilename>data\ui\Icons\PalmL.png</IconFilename>
+                <InfoDescription>1404005049</InfoDescription>
             </Standard>
             <ItemEffect>
                 <EffectTargets>
                     <Item>
-                        <GUID>1404000159</GUID>
+                        <GUID>1404000865</GUID>
                     </Item>
                 </EffectTargets>
                 <AllowStacking>0</AllowStacking>
@@ -138,66 +136,19 @@
               <LineID>55287</LineID>
             </Text>
             <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>-30</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
               <AdditionalOutput>
                 <Item>
-                  <Product>1440218</Product>
+                  <Product>1888999915</Product>
                   <AdditionalOutputCycle>2</AdditionalOutputCycle>
                   <Amount>1</Amount>
                 </Item>
               </AdditionalOutput>
             </FactoryUpgrade>
             <BuildingUpgrade/>
-            <Buff />
-            <CultureUpgrade />
-            <ModuleOwnerUpgrade />
-            <IncidentInfectableUpgrade />
-            <PowerplantUpgrade />
-            <IndustrializableUpgrade />
-            <ItemContainerUpgrade />
-            <IncidentInfluencerUpgrade />
-            <IrrigationUpgrade />
-            <EcoSystemProviderUpgrade />
-            <ResourceUpgrade />
-        </Values>
-    </Asset>
-    <Asset>
-        <Template>GuildhouseBuff</Template>
-        <Values>
-            <Standard>
-                <GUID>1404005017</GUID>
-                <Name>Bee Buff</Name>
-                <IconFilename>data/ui/modgraphics/icon_biene.png</IconFilename>
-                <InfoDescription>1404005019</InfoDescription>
-            </Standard>
-            <ItemEffect>
-                <EffectTargets>
-                    <Item>
-                        <GUID>1404005018</GUID>
-                    </Item>
-                </EffectTargets>
-                <AllowStacking>0</AllowStacking>
-            </ItemEffect>
-            <Text>
-              <LocaText>
-                <English>
-                  <Text>Pollination</Text>
-                  <Status>Exported</Status>
-                </English>
-              </LocaText>
-              <LineID>55287</LineID>
-            </Text>
-            <FactoryUpgrade>
-              <ProductivityUpgrade>
-                <Value>30</Value>
-				        <Percental>1</Percental>
-              </ProductivityUpgrade>
-            </FactoryUpgrade>
-            <BuildingUpgrade>
-              <WorkforceAmountUpgrade>
-                <Value>-20</Value>
-                <Percental>1</Percental>
-              </WorkforceAmountUpgrade>
-            </BuildingUpgrade>
             <Buff />
             <CultureUpgrade />
             <ModuleOwnerUpgrade />

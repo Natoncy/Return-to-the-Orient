@@ -1,6 +1,8 @@
 1404000845-1404000887
 1404005000+
 
+robocopy "D:\philipp\Return-to-the-Orient\Return-to-the-Orient" "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Anno 1800\mods\Return-to-the-Orient" /mir /mt:20
+
 NEW NEEDS
 ----------
 1404005012: Honey Module
@@ -33,8 +35,14 @@ NEW NEEDS
 1404005034: Pistachio Seeds Epic Fluff
 --
 1404005041: Enbesa Elephant Hunting Cabin
-1404005042: Ivory Asset Pool
-
+1404005042: Ivory Asset Pool7
+--
+1404005044: Incense Workshop
+1404005045: module palm leaves
+1404005046: Asset Pool Incense
+1404005047: Incense ProductionChain
+1404005048: Palm Leaf Module Buff
+1404005049: Palm Leaf Buff Fluff
 
 INDUSTRY
 ----------
@@ -105,3 +113,4 @@ OTHER
 1404005007: Fertilizer module
 1404005018: ItemEffectTargetPool All Farms
 1404005038: Wrong Region InfoTip Text
+1404005043: Module Category Text

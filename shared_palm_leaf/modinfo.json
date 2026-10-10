@@ -1,0 +1,46 @@
+{
+  "Version": "1.0",
+  "ModID": "Palm_Leaves",
+  "LoadAfterIds": [],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Palm_Leaves",
+    "Chinese": "Palm_Leaves",
+    "French": "Palm_Leaves",
+    "German": "Palm_Leaves",
+    "Italian": "Palm_Leaves",
+    "Japanese": "Palm_Leaves",
+    "Korean": "Palm_Leaves",
+    "Polish": "Palm_Leaves",
+    "Russian": "Palm_Leaves",
+    "Spanish": "Palm_Leaves",
+    "Taiwanese": "Palm_Leaves"
+  },
+  "CreatorName": "Satanoy",
+  
+  "Description": {
+    "English": "Shared Product Palm Leaves",
+    "Chinese": "Shared Product Palm Leaves",
+    "French": "Shared Product Palm Leaves",
+    "German": "Shared Product Palm Leaves",
+    "Italian": "Shared Product Palm Leaves",
+    "Japanese": "Shared Product Palm Leaves",
+    "Korean": "Shared Product Palm Leaves",
+    "Polish": "Shared Product Palm Leaves",
+    "Russian": "Shared Product Palm Leaves",
+    "Spanish": "Shared Product Palm Leaves",
+    "Taiwanese": "Shared Product Palm Leaves"
+  }
+}

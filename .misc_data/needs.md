@@ -84,13 +84,16 @@
     - (Seidenschals): Seide + Baumwolle + Pigmente
   - Magnates:
     - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
+    - (Oud-Parfüm): Oud wird traditionell aus Adlerholzbäumen die von Pilzen befallen wurden, gewonnen. Daher:
+                    Adlerholzplantage im Orient -> wird befallen von Pilzen, die in einem Labor der alten Welt gewonnen werden
+                    -> infiziertes Holz -> Lagerkammer -> Saft -> Destillerie -> Oud-Parfüm
 - Enbesa:
   - Elders:
     - (Gewürztee): Gewürze + Kräuter + Papier + Zimt
     - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
 - NW:
   - Artista:
-    - (Räucherwerk): Gewürze + Harzmodul + Messing + Kampfer
+    - (Räucherwerk): Kampfer + Palmenblätter + Messing
     - (Lokum): Mehl + Rosenwasser + Pistazien + Zucker
   - Obrera:
     - (kandierte Datteln): Datteln + Rum + Honig (siehe Bienenmodul)

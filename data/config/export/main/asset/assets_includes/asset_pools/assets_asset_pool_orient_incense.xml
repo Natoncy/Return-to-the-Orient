@@ -1,0 +1,37 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005046</GUID>
+					<Name>asset pool orient Incense</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1440306</Asset>
+						</Item>
+						<Item>
+							<Asset>1888999915</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005045</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005044</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005047</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005048</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
