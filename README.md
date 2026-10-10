@@ -10,7 +10,7 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 
 - A new hot and dry desert region inspired by the middle east.
 - A new questline from Madame Kahina that leads you on an expedition deep into the sultanate and to the new session Wadi Al Zahir.
-- Music from 1404 imported and playing in the Background!
+- Music from 1404 imported and playing in the Background.
 - Nomads and Envoys can settle there with their own buildings, needs and public services, just like 400 years ago.
 - Use norias to water your fields in the desert in a new irrigation system.
 - New production chains require resources from all across the rest of your empire to produce the required new wares.
@@ -22,12 +22,13 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 - Madame Kahina joined you on your journey and is willing to help you by trading new wares and new orient-specific items.
 - Use the Foreign Trading Company to import needed wares for the envoys that you might not be able to produce yourself.
 - Produce special mixtures to refine more ores and boost your Old World Smelters.
+- Delight your Population in other worlds by bringing them foreign products from the orient.
 
 # Requirements & Compatibility
 
-Required DLCs: Land of Lions and New World Rising
+Required DLCs: Land of Lions
 
-Optional DLCs: Tourist Season, Bright Harvest and Empire of the Skies
+Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies and New World Rising
 
 The mod is compatible with new and existing saves, regular and creative modes. Campaign and multiplayer were not tested but should work.
 It does not change anything in the other regions, except some optional lifestyle needs in the old world.
@@ -37,7 +38,7 @@ Other mods should be compatible, this includes mods that add new regions (New Ho
 Recommended optional mods: Noblesse Oblige (Ricky & Taludas) and New Horizons
 
 The mod content starts with a quest to complete an expedition by Madame Kahina.
-To unlock the quest and expedition you need to have 5000 Investors, 6000 Artistas and 1000 Elders.
+To unlock the quest and expedition you need to have 3000 Investors, 1800 Obreras and 1000 Elders.
 
 # Credits 
 

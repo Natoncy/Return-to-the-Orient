@@ -3,6 +3,7 @@
     <Include File="assets_elmore_mixture.xml" />
     <Include File="assets_FAKE_water.xml" />
     <Include File="assets_shared_cyanide.xml" />
+    <Include File="assets_shared_incense.xml" />
     <Include File="assets_sultans_seals.xml" />
     <Include File="assets_shared_silver_bars.xml" />
     <Include File="assets_sulfuric_acid.xml" />

@@ -4,7 +4,7 @@ Enums:
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
 Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
 Required DLCs: Land of Lions
-Optional DLCs: New World Rising, HighLife, Tourist Season, Bright Harvest, Empire of the Skies
+Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
 Optional Mods: New Horizons, Noblesse Oblige
 
 
@@ -24,9 +24,10 @@ TODO:
 
 
 
-
 Bugs:
-- FTC not unlocked?
+- Flotation Plant leaves behind rails when deconstructed
+- FTC not unlocked
+
 
 
 Backlog:
@@ -34,6 +35,7 @@ Backlog:
 - Rewrite some quest texts
 - Fix mod loader errors/warnings
 - Update Readme/Mod.io Description
+
 
 
 Not fixable/doable:
