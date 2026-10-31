@@ -3,7 +3,7 @@ const fs = require('fs'), path = require('path');
 const ROOT = process.argv[2], SCR = process.argv[3];
 const vanilla = new Set(fs.readFileSync(path.join(SCR, 'vanilla_files.txt'), 'latin1').split(/\r?\n/));
 
-// mods = repo root + every folder below it with modinfo.json + data/ (shared mods sit in data_shared_mods_*/<mod>)
+// mods = repo root + every folder below it with modinfo.json + data/ (shared mods sit in shared_*/<mod>)
 const mods = [{ name: '<main>', dir: ROOT }];
 (function findMods(dir, rel) {
   for (const d of fs.readdirSync(dir, { withFileTypes: true })) {
