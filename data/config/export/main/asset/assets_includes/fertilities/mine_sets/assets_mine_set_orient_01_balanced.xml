@@ -20,7 +20,7 @@
                 <ResourceSetCondition>
                     <Priority>10</Priority>
                     <AllowedRegion>Mod3</AllowedRegion>
-                    <AllowedIslandType>Normal</AllowedIslandType>
+                    <AllowedIslandType>Normal;Starter</AllowedIslandType>
                     <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
                     <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
                 </ResourceSetCondition>
