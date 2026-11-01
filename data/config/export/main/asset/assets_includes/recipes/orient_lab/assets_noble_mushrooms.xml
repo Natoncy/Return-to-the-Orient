@@ -15,7 +15,7 @@
                 <Recipe>
                     <RecipeBuilding>1404005066</RecipeBuilding>
                     <RecipeDescriptionText>1404005070</RecipeDescriptionText>
-                    <RecipeImage>data\ui\modgraphics\noble_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/noble_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>0</PosX>

@@ -56,6 +56,25 @@
 			<zf>0.1</zf>
 		</Extents>
 	</Dummy>
+	<Dummy>
+		<Name>nextFloor</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>4.459951</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.1</xf>
+			<yf>0.1</yf>
+			<zf>0.1</zf>
+		</Extents>
+	</Dummy>
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>

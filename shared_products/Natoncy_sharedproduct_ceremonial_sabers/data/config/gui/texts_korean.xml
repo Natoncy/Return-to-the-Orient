@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000238</GUID>
+      <!-- Product | ceremonial sabers | Ceremonial Sabers -->
+      <Text>의식용 세이버</Text>
+    </Text>
+    <Text>
+      <GUID>1404000239</GUID>
+      <!-- Text | ceremonial sabers fluff text | Also usable for cutting. -->
+      <Text>절단에도 사용할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000240</GUID>
+      <!-- Text | Sharp enough to cut bandages, and much else besides. | Sharp enough to cut bandages, and much else besides. -->
+      <Text>붕대를 자를 만큼 날카롭습니다. 물론 다른 것도요.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

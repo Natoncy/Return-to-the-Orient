@@ -65,5 +65,67 @@
         </Asset>
     </ModOp>
 
+    <!-- Scholars tab copy (shown 3.4, unlocked 3.5): the original also opens with the Envoy skyscrapers (shown Sky 1.2),
+         which would show the Scholars tab before the first Scholar. Like vanilla's Artista copies (6623) -->
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004882</GUID>
+                    <Name>orient scholars chandeliers chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_chandeliers.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000315</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404001302</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404001300</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1404000886</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1010320</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010266</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>114461</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>114453</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010331</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1010319</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010560</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1404000298</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
 
 </ModOps>

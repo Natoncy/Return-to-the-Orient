@@ -1,6 +1,6 @@
 <ModOps>
 
-    <!-- debug only - remove before release: unfinished buildings in the Nomads menu (IAAM Test, completed lighthouse and Grand Mosque
+    <!-- debug only - remove before release: unfinished buildings, listed in the creative menu 1404000614 so normal games never show them (IAAM Test, completed lighthouse and Grand Mosque
          monuments placed directly without construction, lighthouse foundation, Sultan's palace) -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
@@ -21,13 +21,7 @@
                             <Building>1404007002</Building>
                         </Item>
                         <Item>
-                            <Building>1404004800</Building>
-                        </Item>
-                        <Item>
                             <Building>1404000327</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004211</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

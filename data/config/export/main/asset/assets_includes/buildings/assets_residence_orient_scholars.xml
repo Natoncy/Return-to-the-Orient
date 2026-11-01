@@ -238,6 +238,13 @@
         </Item>
     </ModOp>
 
+    <!-- all residences EU + Scholars (Actor, Acclaimed Tragedian, Maxime Chabroud, Edward Bernays, Jukebox) -->
+    <ModOp Type="add" GUID="190041" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+
     <!-- ItemSearchConfig -->
     <ModOp Type="add" GUID="26026" Path="Values/ItemSearchConfig/SearchCategories/Residents/SubCategories/Item/Keywords">
         <Item>

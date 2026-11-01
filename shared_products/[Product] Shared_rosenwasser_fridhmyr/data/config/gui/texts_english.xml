@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Rosewater -->
+    <Text>
+      <GUID>1900100125</GUID>
+      <Text>Rosewater</Text>
+    </Text>
+  <!-- Rosewater -->
+  <!-- Rosenwater workshop-->
+    <Text>
+      <GUID>1900100124</GUID>
+      <Text>Rosewater Workshop</Text>
+    </Text>
+  <!-- Rosenwater workshop -->
+  </ModOp>
+</ModOps>

@@ -1,6 +1,9 @@
 <ModOps>
 
-    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product!='1404001116' and Product!='1404000265' and Product!='1404000253' and Product!='1404000283' and Product!='1404000262' and Product!='1404000288' and Product!='1010217' and Product!='114410' and Product!='114431' and Product!='114428' and Product!='114390' and Product!='114404' and Product!='114414' and Product!='1010248' and Product!='1010232' and Product!='5392' and Product!='5395' and Product!='5391']">
+    <!-- every scholar need not listed here becomes vanilla-residence only (114445).
+         Listed: the Orient replacements (main mod population_levels/assets_scholars.xml) and the needs both
+         residences share: Seafood Stew, Leather Boots, Tapestries (= Rugs), bonus needs 1010232/5392/5395/5391 -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product!='1404001116' and Product!='1404005087' and Product!='1404005120' and Product!='1404000253' and Product!='1404000283' and Product!='1404000265' and Product!='1400201044' and Product!='1404005131' and Product!='1404000250' and Product!='1404000288' and Product!='1404000241' and Product!='114410' and Product!='114428' and Product!='114404' and Product!='1010232' and Product!='5392' and Product!='5395' and Product!='5391']">
         <RequiredBuildings>
             <Item>
                 <RequiredBuilding>114445</RequiredBuilding>
@@ -16,17 +19,30 @@
         </Item>
     </ModOp>
 
+    <!-- Orient scholars get the effects of other mods' items aimed at the scholar residence 114445,
+         directly or through a target pool. Vanilla ones: main mod items/assets_vanilla_scholar_items.xml -->
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='114445'][not(Item/GUID='1404001113')]" AllowNoMatch="1">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='114445'][not(Item/GUID='1404001113')]" AllowNoMatch="1">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+
     <!-- most of these products come from shared product submods that load after the main mod -->
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod3</ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod3</ModOp>
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
         <AssociatedRegion>Mod3</AssociatedRegion>
     </ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
         <Item>
             <RegionType>Mod3</RegionType>
         </Item>
     </ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
         <ProductionRegions>
             <Item>
                 <RegionType>Mod3</RegionType>
@@ -72,7 +88,7 @@
     </ModOp>
 
     <!-- Add need: Magnates: Oudh-Perfume
-         Unlock counts match trigger 1404005062 in triggers/assets_new_horizons_triggers.xml -->
+         The Envoy count is the Orient's own oud unlock, trigger 1404004032 in triggers/assets_new_horizons_triggers.xml -->
     <ModOp Type="addNextSibling" GUID="15100100" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1440216']" Condition="#new_horizons_session">
         <Item>
             <Product>1404005059</Product>
@@ -84,7 +100,7 @@
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>2400</MinPopulationAmount>
+                <MinPopulationAmount>6000</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>

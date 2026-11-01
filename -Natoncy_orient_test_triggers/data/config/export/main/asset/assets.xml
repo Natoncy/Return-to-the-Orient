@@ -35,13 +35,13 @@
     <ModOp Type="replace" GUID="1404000819" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
         <CounterAmount>2</CounterAmount>
     </ModOp>
-    <ModOp Type="replace" GUID="1404001016,1404001260,1404001269" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
+    <ModOp Type="replace" GUID="1404001016,1404001260"Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
         <CounterAmount>3</CounterAmount>
     </ModOp>
-    <ModOp Type="replace" GUID="1404000820,1404001270,1404001261,1404001262" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
+    <ModOp Type="replace" GUID="1404000820,1404001270"Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
         <CounterAmount>4</CounterAmount>
     </ModOp>
-    <ModOp Type="replace" GUID="1404000821,1404001263,1404001264,1404001265,1404001266" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
+    <ModOp Type="replace" GUID="1404000821,1404001263,1404001264"Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
         <CounterAmount>5</CounterAmount>
     </ModOp>
     <ModOp Type="replace" GUID="1404000822,1404001267,1404001268" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">

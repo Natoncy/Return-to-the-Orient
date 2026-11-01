@@ -9,6 +9,7 @@
 					<Name>StandardMarketplaceOrientStorageList</Name>
 				</Standard>
 				<ProductStorageList>
+					<!-- Every good Orient residents consume, lifestyle needs included, like vanilla's 120057/120058 -->
 					<ProductList>
 						<!-- Nomads -->
 						<Item>
@@ -23,21 +24,47 @@
 						<Item>
 							<Product>114404</Product>
 						</Item>
-						<!-- Envoys -->
+						<!-- Nomads: Bedouin Tents -->
+						<Item>
+							<Product>1404005087</Product>
+						</Item>
+						<Item>
+							<Product>1400201065</Product>
+						</Item>
+						<Item>
+							<Product>1400201044</Product>
+						</Item>
+						<!-- Nomads: lifestyle -->
+						<Item>
+							<Product>1010213</Product>
+						</Item>
+						<Item>
+							<Product>1010193</Product>
+						</Item>
+						<Item>
+							<Product>1010258</Product>
+						</Item>
+						<Item>
+							<Product>1010201</Product>
+						</Item>
 						<Item>
 							<Product>1500301148</Product>
 						</Item>
 						<Item>
-							<Product>1404000262</Product>
+							<Product>5400</Product>
 						</Item>
 						<Item>
-							<Product>1404000253</Product>
+							<Product>5384</Product>
+						</Item>
+						<!-- Envoys -->
+						<Item>
+							<Product>1404000262</Product>
 						</Item>
 						<Item>
 							<Product>1404000238</Product>
 						</Item>
 						<Item>
-							<Product>1900100125</Product>
+							<Product>1404000253</Product>
 						</Item>
 						<Item>
 							<Product>1404000250</Product>
@@ -46,10 +73,64 @@
 							<Product>1999005057</Product>
 						</Item>
 						<Item>
-							<Product>1404000283</Product>
+							<Product>1404005059</Product>
+						</Item>
+						<Item>
+							<Product>1900100125</Product>
+						</Item>
+						<Item>
+							<Product>1400201056</Product>
 						</Item>
 						<Item>
 							<Product>1404000241</Product>
+						</Item>
+						<Item>
+							<Product>1400201053</Product>
+						</Item>
+						<!-- Envoys: lifestyle -->
+						<Item>
+							<Product>1010203</Product>
+						</Item>
+						<Item>
+							<Product>1404005131</Product>
+						</Item>
+						<Item>
+							<Product>5397</Product>
+						</Item>
+						<Item>
+							<Product>5386</Product>
+						</Item>
+						<Item>
+							<Product>114414</Product>
+						</Item>
+						<Item>
+							<Product>5392</Product>
+						</Item>
+						<Item>
+							<Product>133532</Product>
+						</Item>
+						<!-- Scholars (Orient residence), beyond the goods above -->
+						<Item>
+							<Product>114428</Product>
+						</Item>
+						<Item>
+							<Product>1404005120</Product>
+						</Item>
+						<Item>
+							<Product>1404000283</Product>
+						</Item>
+						<Item>
+							<Product>114410</Product>
+						</Item>
+						<!-- Scholars: lifestyle -->
+						<Item>
+							<Product>1010232</Product>
+						</Item>
+						<Item>
+							<Product>5395</Product>
+						</Item>
+						<Item>
+							<Product>5391</Product>
 						</Item>
 					</ProductList>
 				</ProductStorageList>

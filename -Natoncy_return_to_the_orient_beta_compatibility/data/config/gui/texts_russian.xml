@@ -5,5 +5,10 @@
       <!-- trading_company_orient | Silver Ore Import Dock -->
       <Text>Импортный док: Серебряная руда</Text>
     </Text>
+    <Text>
+      <GUID>1404003909</GUID>
+      <!-- trading_company_orient | Beryl Import Dock -->
+      <Text>Импортный док: Берилл</Text>
+    </Text>
   </ModOp>
 </ModOps>

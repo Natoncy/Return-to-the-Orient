@@ -708,6 +708,422 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009101</GUID>
+                    <Name>Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009103</GUID>
+                    <Name>Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009105</GUID>
+                    <Name>Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009107</GUID>
+                    <Name>Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009109</GUID>
+                    <Name>Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009111</GUID>
+                    <Name>Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009113</GUID>
+                    <Name>Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009115</GUID>
+                    <Name>This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009117</GUID>
+                    <Name>Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009119</GUID>
+                    <Name>In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009121</GUID>
+                    <Name>Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009123</GUID>
+                    <Name>Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009125</GUID>
+                    <Name>Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009127</GUID>
+                    <Name>She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009129</GUID>
+                    <Name>The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009131</GUID>
+                    <Name>Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009133</GUID>
+                    <Name>Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009135</GUID>
+                    <Name>Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009137</GUID>
+                    <Name>Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009139</GUID>
+                    <Name>Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009141</GUID>
+                    <Name>Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009143</GUID>
+                    <Name>Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009145</GUID>
+                    <Name>Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009147</GUID>
+                    <Name>The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded.</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004887</GUID>
+                    <Name>fluff_WadiAlZahirSands</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004888</GUID>
+                    <Name>setfluff_DesertTreasures</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

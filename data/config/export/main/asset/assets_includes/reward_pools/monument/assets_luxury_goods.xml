@@ -8,7 +8,7 @@
                     <GUID>1404000761</GUID>
                     <Name>Luxury Orient Carnival Goods</Name>
                     <IconFilename>data/graphics/icons/monument_products/large_carnival_goods.png</IconFilename>
-                    <InfoDescription>16527</InfoDescription>
+                    <InfoDescription>1404001212</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
@@ -16,7 +16,10 @@
                             <ItemLink>117698</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>5388</ItemLink>
+                            <ItemLink>1404000283</ItemLink>
+                        </Item>
+                        <Item>
+                            <ItemLink>1404000250</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

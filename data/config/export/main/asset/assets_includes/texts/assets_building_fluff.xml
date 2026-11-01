@@ -417,6 +417,38 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004886</GUID>
+					<Name>Orient_Camel_Silo_Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Stores chickpeas as fodder for your camels, increasing the farm's productivity.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004892</GUID>
+					<Name>Canal_Water_Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fresh water drawn from the canals.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
 	</ModOp>
 
 </ModOps>

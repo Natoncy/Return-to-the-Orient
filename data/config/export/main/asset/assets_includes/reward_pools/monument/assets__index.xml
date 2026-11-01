@@ -3,6 +3,7 @@
     <Include File="assets_correct_drinks.xml" />
     <Include File="assets_correct_food.xml" />
     <Include File="assets_correct_goods.xml" />
+    <Include File="assets_correct_decorations.xml" />
 
     <Include File="assets_luxury_decorations.xml" />
     <Include File="assets_luxury_drinks.xml" />

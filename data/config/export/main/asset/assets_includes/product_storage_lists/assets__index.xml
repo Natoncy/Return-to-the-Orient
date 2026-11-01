@@ -1,5 +1,6 @@
 <ModOps>
 
+    <Include File="assets_consulate_orient_storage_list.xml" />
     <Include File="assets_standard_marketplace_orient_storage_list.xml" />
     <Include File="assets_trade_licenses_orient_storage_list.xml" />
 

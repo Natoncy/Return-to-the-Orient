@@ -180,6 +180,22 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004885</GUID>
+                    <Name>Orient_Lighthouse_Construction_Description</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

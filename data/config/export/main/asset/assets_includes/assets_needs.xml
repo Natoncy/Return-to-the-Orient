@@ -1,7 +1,9 @@
 <!-- Add Happiness Needs to different population
      Each need unlocks at NoWeightPopulationCount + 1 of its own tier and at the Envoy count in
-     AdditionalGlobalUnlockRequirement. The export trigger in triggers/assets_intermediate_orient_2_*.xml
-     ("Export: ...") unlocks the production at the same two counts, so change them together. -->
+     AdditionalGlobalUnlockRequirement. That Envoy count is the one of the Orient trigger that unlocks the
+     good's pool (skyscraper and Scholar stages: the Envoy count they require), and the pool is the only
+     production unlock, so change them together. Incense has no Orient unlock yet: its export trigger
+     in triggers/assets_intermediate_orient_2_4/2_5.xml unlocks the production at the same two counts. -->
 
 <ModOps>
 
@@ -52,7 +54,7 @@
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>1900</MinPopulationAmount>
+                <MinPopulationAmount>2250</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
@@ -67,9 +69,10 @@
             <FullWeightPopulationCount>1500</FullWeightPopulationCount>
             <NoWeightPopulationCount>999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- Orient: 15 level 2 Envoy houses (skyscraper 1.2), which need 6000 Envoys -->
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>600</MinPopulationAmount>
+                <MinPopulationAmount>6000</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
@@ -85,9 +88,10 @@
             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
             <NoWeightPopulationCount>749</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- Orient: 1 Scholar + 3250 Envoys (3.0) -->
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>1000</MinPopulationAmount>
+                <MinPopulationAmount>3250</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
@@ -107,9 +111,10 @@
             <FullWeightPopulationCount>5500</FullWeightPopulationCount>
             <NoWeightPopulationCount>4499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- Orient: 15 level 3 Envoy houses (skyscraper 2.2), which need 6000 Envoys -->
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>1400</MinPopulationAmount>
+                <MinPopulationAmount>6000</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
@@ -124,9 +129,10 @@
             <FullWeightPopulationCount>3500</FullWeightPopulationCount>
             <NoWeightPopulationCount>2999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- Orient: 4000 Scholars + 3250 Envoys (3.4) -->
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>300</MinPopulationAmount>
+                <MinPopulationAmount>3250</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>

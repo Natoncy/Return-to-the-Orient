@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404005055</GUID>
 					<Name>export_orient_07 (Infestation Cellar)</Name>
-					<IconFilename>data\ui/modgraphics/icon_oud.png</IconFilename>
+					<IconFilename>data/graphics/icons/products/icon_oud.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -178,7 +178,7 @@
 							<InactiveAmount>350</InactiveAmount>
 						</Item>
 						<Item>
-							<Product>1404000012</Product>
+							<Product>1404000013</Product>
 							<Amount>55</Amount>
 						</Item>
 					</Maintenances>

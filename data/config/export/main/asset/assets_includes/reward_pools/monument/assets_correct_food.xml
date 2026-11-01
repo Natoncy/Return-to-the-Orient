@@ -8,18 +8,15 @@
                     <GUID>1404000757</GUID>
                     <Name>Correct Orient Food</Name>
                     <IconFilename>data/graphics/icons/monument_products/medium_food.png</IconFilename>
-                    <InfoDescription>19634</InfoDescription>
+                    <InfoDescription>1404001198</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>1010213</ItemLink>
+                            <ItemLink>1404005087</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>120035</ItemLink>
-                        </Item>
-                        <Item>
-                            <ItemLink>1010258</ItemLink>
+                            <ItemLink>1999005057</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

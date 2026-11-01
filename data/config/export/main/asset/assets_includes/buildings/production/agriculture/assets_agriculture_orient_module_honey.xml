@@ -50,7 +50,7 @@
               <InactiveAmount>50</InactiveAmount>
             </Item>
             <Item>
-              <Product>1404000012</Product>
+              <Product>1404000013</Product>
               <Amount>20</Amount>
             </Item>
           </Maintenances>
@@ -166,7 +166,7 @@
             <Standard>
                 <GUID>1404005017</GUID>
                 <Name>Bee Buff</Name>
-                <IconFilename>data/ui/modgraphics/icon_biene.png</IconFilename>
+                <IconFilename>data/graphics/icons/products/icon_biene.png</IconFilename>
                 <InfoDescription>1404005019</InfoDescription>
             </Standard>
             <ItemEffect>

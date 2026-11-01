@@ -11,8 +11,8 @@
 //     (ItemSetsActive < 1 -> ActionBuff remove, 1404007700+i) that register each other.
 // Beacons are sold by Madame Kahina in the Orient only (her Orient assortment 1404000978), rarely, and the
 // rarer ones even less often (rarity weights 50/30/15/5). Items are locked by default and traders skip
-// locked items, so the asset pool 1404007046 holds all beacons; the Envoys 2.2 trigger 1404001016 (with the
-// lighthouse) and creative trigger 1404000791 unlock it by hand.
+// locked items, so the asset pool 1404007046 holds all beacons; the Envoys 2.4 trigger 1404000821 (with the
+// completed lighthouse) and creative trigger 1404000791 unlock it by hand.
 //
 // Balancing: a beacon works on a whole fleet, so a legendary beacon is about as strong as a vanilla
 // uncommon-to-rare item on one ship; uncommon/rare/epic beacons get roughly 40/60/80% of that.

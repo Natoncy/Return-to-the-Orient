@@ -110,6 +110,8 @@
                 </Industrializable>
                 <Electrifiable>
                     <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
                 </Electrifiable>
             </Values>
         </Asset>
@@ -127,7 +129,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/production/mining_colony01_silver_slot_01/mining_colony01_silver_slot_01.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/mining_orient_01/mining_orient_01_workarea.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>

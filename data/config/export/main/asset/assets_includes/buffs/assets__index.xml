@@ -1,5 +1,7 @@
 <ModOps>
 
     <Include File="assets_coffee_house_buffs.xml" />
+    <Include File="assets_ramadan_festival.xml" />
+    <Include File="assets_zuckerfest_festival.xml" />
 
 </ModOps>

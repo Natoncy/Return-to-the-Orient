@@ -78,6 +78,14 @@
         <Constructable/>
         <Locked/>
         <IncidentInfectable/>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ElectrifiedEffect>0</ElectrifiedEffect>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
         <Object>
           <Variations>
             <Item>

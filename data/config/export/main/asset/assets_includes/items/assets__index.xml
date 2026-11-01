@@ -2,8 +2,10 @@
   
   <Include File="decrees/assets__index.xml" />
   <Include File="guildhouse/assets__index.xml" />
+  <Include File="harbour_office/assets__index.xml" />
   <Include File="museum/assets__index.xml" />
   <Include File="townhall/assets__index.xml" />
+  <Include File="assets_vanilla_scholar_items.xml" />
 
 
   <!--Specialist Guildhouse Legendary -->

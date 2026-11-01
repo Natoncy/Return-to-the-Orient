@@ -1,0 +1,142 @@
+<ModOps>
+
+    <!-- vanilla items and buffs aimed at the scholar residence 114445 also reach the Orient scholars 1404001113.
+         Townhall: Kaldi, Fashion Designer, Telephone installer, Associate professor, Dean, Melancholic expatriate,
+         Enbesan chef, Enbesan products dealer. Guildhouse: Landline Repeater. Set buffs: Highlands, Enbesa's Roots.
+         Palace decree buffs 273690, 269160, 269162, 273678, 273692.
+         Other mods' items: Natoncy_orient_after_other_mods -->
+    <ModOp Type="add" GUID="125114,129022,125140,125142,125143,125144,125145,125146,125071,124208,124915,273690,269160,269162,273678,273692" Path="Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- the effects on scholar needs the Orient replaces (population_levels/assets_scholars.xml) also go to the
+         Orient good, same values. Only for items aimed at scholars (114445 or pool 190041), so Nomads and Envoys
+         are not touched. Actor stays as it is: its Variety Theatre substitute has no Orient counterpart -->
+
+    <!-- Kaldi, the coffee discoverer -->
+    <ModOp Type="addNextSibling" GUID="125114" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114390']">
+        <Item>
+            <Product>1404000265</Product>    <!-- Pomegranate Juice instead of Hibiscus Tea -->
+            <AdditionalHappiness>10</AdditionalHappiness>
+            <AdditionalResearch>4</AdditionalResearch>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="125114" Path="Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='114390']">
+        <Item>
+            <ProvidedNeed>1404000265</ProvidedNeed>    <!-- Pomegranate Juice instead of Hibiscus Tea -->
+            <AmountInPercent>-30</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- Amazing Fashion Designer -->
+    <ModOp Type="addNextSibling" GUID="129022" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114430']">
+        <Item>
+            <Product>1404000253</Product>    <!-- Kaftans instead of Tailored Suits -->
+            <AdditionalSupply>9</AdditionalSupply>
+        </Item>
+    </ModOp>
+
+    <!-- Telephone installer -->
+    <ModOp Type="addNextSibling" GUID="125140" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114431']">
+        <Item>
+            <Product>1404005131</Product>    <!-- Astrolabes instead of Telephones -->
+            <AdditionalSupply>9</AdditionalSupply>
+            <AdditionalHappiness>4</AdditionalHappiness>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="125140" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114425']">
+        <Item>
+            <Product>1404000288</Product>    <!-- Coffee House instead of Radio Tower -->
+            <AdditionalSupply>9</AdditionalSupply>
+            <AdditionalHappiness>4</AdditionalHappiness>
+        </Item>
+    </ModOp>
+
+    <!-- Associate professor -->
+    <ModOp Type="addNextSibling" GUID="125142" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010353']">
+        <Item>
+            <Product>1404001116</Product>    <!-- Research Outpost instead of University -->
+            <AdditionalResearch>1</AdditionalResearch>
+        </Item>
+    </ModOp>
+
+    <!-- Dean -->
+    <ModOp Type="addNextSibling" GUID="125143" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010353']">
+        <Item>
+            <Product>1404001116</Product>    <!-- Research Outpost instead of University -->
+            <AdditionalSupply>24</AdditionalSupply>
+            <AdditionalHappiness>10</AdditionalHappiness>
+            <AdditionalResearch>2</AdditionalResearch>
+        </Item>
+    </ModOp>
+
+    <!-- Melancholic expatriate -->
+    <ModOp Type="addNextSibling" GUID="125144" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114390']">
+        <Item>
+            <Product>1404000265</Product>    <!-- Pomegranate Juice instead of Hibiscus Tea -->
+            <AdditionalResearch>1</AdditionalResearch>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="125144" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114414']">
+        <Item>
+            <Product>1404000250</Product>    <!-- Hookahs instead of Clay Pipes -->
+            <AdditionalResearch>1</AdditionalResearch>
+        </Item>
+    </ModOp>
+
+    <!-- Enbesan chef -->
+    <ModOp Type="addNextSibling" GUID="125145" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114390']">
+        <Item>
+            <Product>1404000265</Product>    <!-- Pomegranate Juice instead of Hibiscus Tea -->
+            <AdditionalHappiness>3</AdditionalHappiness>
+        </Item>
+    </ModOp>
+
+    <!-- Enbesan products dealer -->
+    <ModOp Type="addNextSibling" GUID="125146" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='114414']">
+        <Item>
+            <Product>1404000250</Product>    <!-- Hookahs instead of Clay Pipes -->
+            <AdditionalHappiness>4</AdditionalHappiness>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="125146" Path="Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='114414']">
+        <Item>
+            <ProvidedNeed>1404000250</ProvidedNeed>    <!-- Hookahs instead of Clay Pipes -->
+            <AmountInPercent>-20</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- Landline Repeater -->
+    <ModOp Type="addNextSibling" GUID="125071" Path="Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='114431']">
+        <Item>
+            <ProvidedNeed>1404005131</ProvidedNeed>    <!-- Astrolabes instead of Telephones -->
+            <AmountInPercent>-25</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- setbuff_Highlands -->
+    <ModOp Type="addNextSibling" GUID="124208" Path="Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='114390']">
+        <Item>
+            <ProvidedNeed>1404000265</ProvidedNeed>    <!-- Pomegranate Juice instead of Hibiscus Tea -->
+            <AmountInPercent>-10</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- Edward Bernays - Father of Consumerism Propaganda -->
+    <ModOp Type="addNextSibling" GUID="111169" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010257']">
+        <Item>
+            <Product>1404005120</Product>    <!-- Arak instead of Rum -->
+            <AdditionalHappiness>2</AdditionalHappiness>
+            <AdditionalMoney>3</AdditionalMoney>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="111169" Path="Values/PopulationUpgrade/InputBenefitModifier/Item[Product='1010248']">
+        <Item>
+            <Product>1404000241</Product>    <!-- Chandeliers instead of Gramophones -->
+            <AdditionalHappiness>2</AdditionalHappiness>
+            <AdditionalMoney>3</AdditionalMoney>
+        </Item>
+    </ModOp>
+</ModOps>

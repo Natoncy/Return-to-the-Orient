@@ -204,7 +204,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

@@ -16,7 +16,7 @@
                             <ConditionPlayerCounter>
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                 <Context>1404000011</Context>
-                                <CounterAmount>2400</CounterAmount>
+                                <CounterAmount>3250</CounterAmount>
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
@@ -37,10 +37,25 @@
                                             <Item>
                                                 <Asset>1404003600</Asset>
                                             </Item>
+                                            <Item>
+                                                <Asset>1404000763</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004801</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004201</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
-                                                <Asset>1404000789</Asset>
+                                                <Asset>1404004203</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004206</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000325</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

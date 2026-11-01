@@ -166,36 +166,39 @@
         <FloorStackOwner />
     </ModOp>
 
-    <!-- HarborOffice + BuildingUnique: the completed Oriental Lighthouse 1404007002 (HarborOffice for its socket and
-         item sets) counts as the island's TourismMonument like its construction stages, so placement allows one
-         lighthouse per island without triggers. -->
-    <ModOp Template="HarborOffice" Type="addNextSibling">
+    <!-- MonumentColony + ItemContainer: every stage of the Oriental Lighthouse (1404004800 -> 7000 -> 7001 -> 7002).
+         Like vanilla's airship hangar (Monument_with_Shipyard on all stages, only the last one switches GUIType to
+         Shipyard), the completed 7002 stays the same template and only sets the socket and GUIType Guildhouse. So every
+         upgrade is a plain GUID change, the monument UI counts the completed lighthouse as phase 4 with its own icon,
+         and no UseReplaceInsteadOfChangeGUID is needed. Stages have no SocketCount (0 sockets). Replaces the earlier
+         HarborOffice_Unique final, which a GUID change crashed into and a replace left out of the phase count. -->
+    <ModOp Template="MonumentColony" Type="addNextSibling">
         <Template>
-          <Name>HarborOffice_Unique</Name>
+          <Name>MonumentColony_ItemSocket</Name>
           <Properties>
-            <Standard />
+            <Standard>
+              <InfoDescription>100027</InfoDescription>
+            </Standard>
             <Building>
               <BuildingType>Factory</BuildingType>
-              <BuildingCategoryName>100001</BuildingCategoryName>
-              <TerrainType>Water_Including_Coast</TerrainType>
+              <BuildingCategoryName>100002</BuildingCategoryName>
+              <DestructionConfirmation>1</DestructionConfirmation>
+              <AssociatedRegions>Colony01</AssociatedRegions>
             </Building>
             <Blocking />
-            <Cost>
-              <InfluenceCostType>HarborOffice</InfluenceCostType>
-            </Cost>
+            <Cost />
             <Object>
               <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
             </Object>
             <Mesh />
             <Selection>
-              <GUIType>Guildhouse</GUIType>
+              <GUIType>Production</GUIType>
               <OnSelection>
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                   <ActionList />
                 </Values>
               </OnSelection>
-              <AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
             </Selection>
             <Text />
             <Constructable>
@@ -231,35 +234,47 @@
                 </BuildMoveEnd>
               </ConstructionSounds>
             </SoundEmitter>
-            <FeedbackController />
+            <FeedbackController>
+              <NightBehavior>HideNone</NightBehavior>
+              <StopOldSequenceWhenStartingNewOne>1</StopOldSequenceWhenStartingNewOne>
+            </FeedbackController>
             <Infolayer />
-            <ItemContainer>
-              <SocketCount>3</SocketCount>
-              <SocketAllocation>RadiusBuilding;HarborOffice</SocketAllocation>
-              <SocketScope>Radius</SocketScope>
-              <SocketScopeRadius>20</SocketScopeRadius>
-              <SocketScopeRadiusOverlapCategory>HarborOffice</SocketScopeRadiusOverlapCategory>
-            </ItemContainer>
-            <UpgradeList />
-            <Attackable>
-              <HasRuinState>1</HasRuinState>
-              <ExplosionEffects>
-                <Item />
-              </ExplosionEffects>
-              <SelfHealPerHealTick>300</SelfHealPerHealTick>
-            </Attackable>
-            <Pausable />
-            <Maintenance>
-              <IncomeCategory>AdministrationBuildings</IncomeCategory>
-            </Maintenance>
-            <Culture />
-            <Warehouse>
-              <StorageType>Depot</StorageType>
-            </Warehouse>
+            <ItemContainer />
+            <FactoryBase />
             <LogisticNode />
-            <StorageBase />
-            <Distribution />
+            <Monument>
+              <ConstructionStateText>
+                <Interrupted>
+                  <Text>163011</Text>
+                </Interrupted>
+                <OutOfWorkforce>
+                  <Text>163026</Text>
+                </OutOfWorkforce>
+                <WaitingForResources>
+                  <Text>163012</Text>
+                </WaitingForResources>
+                <Processing>
+                  <Text>163010</Text>
+                </Processing>
+              </ConstructionStateText>
+              <PhaseCompletedNotification>501327</PhaseCompletedNotification>
+            </Monument>
+            <Culture>
+              <CultureType>Monument</CultureType>
+            </Culture>
+            <AmbientMoodProvider />
+            <Maintenance>
+              <IncomeCategory>CultureBuildings</IncomeCategory>
+            </Maintenance>
+            <Attackable />
+            <Pausable />
             <BuildingUnique />
+            <UpgradeList />
+            <Industrializable>
+              <BoostedByIndustrialization>0</BoostedByIndustrialization>
+            </Industrializable>
+            <QuestObject />
+            <Electrifiable />
           </Properties>
         </Template>
     </ModOp>

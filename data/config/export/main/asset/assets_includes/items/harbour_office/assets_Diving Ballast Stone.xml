@@ -1,0 +1,72 @@
+<ModOps>
+    
+    <ModOp GUID="125072" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009140</GUID>
+                    <Name>Diving Ballast Stone</Name>
+                    <IconFilename>data/graphics/icons/items/DIVBSt.png</IconFilename>
+                    <InfoDescription>1404009141</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Diving Ballast Stone</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <Allocation>HarborOffice</Allocation>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <TradePrice>200500</TradePrice>
+                    <TradePriceOnlineCurrency>1030</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000861</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1010339</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Hunting</Attribute>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Navigation</Attribute>
+                            <Amount>20</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>-10</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-16</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

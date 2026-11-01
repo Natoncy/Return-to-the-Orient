@@ -34,7 +34,7 @@
                                             <ConditionPlayerCounter>
                                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                                 <Context>1404000011</Context>
-                                                <CounterAmount>3600</CounterAmount>
+                                                <CounterAmount>3250</CounterAmount>
                                             </ConditionPlayerCounter>
                                         </Values>
                                     </TriggerCondition>
@@ -57,13 +57,16 @@
 											<Item>
 												<Asset>1404001143</Asset>
 											</Item>
+											<Item>
+												<Asset>1404004202</Asset>
+											</Item>
 										</UnlockAssets>
 										<UnhideAssets>
 											<Item>
-												<Asset>1404001145</Asset>
+												<Asset>1404005132</Asset>
 											</Item>
 											<Item>
-												<Asset>1404001144</Asset>
+												<Asset>1404004881</Asset>
 											</Item>
 										</UnhideAssets>
 									</ActionUnlockAsset>

@@ -124,9 +124,6 @@
                                                 <Asset>1404000203</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>133886</Asset>
-                                            </Item>
-                                            <Item>
                                                 <Asset>1404000783</Asset>
                                             </Item>
                                             <Item>
@@ -239,6 +236,12 @@
                                             </Item>
                                             <Item>
                                                 <Asset>1404004210</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404007000</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404007001</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1404007002</Asset>
@@ -376,19 +379,25 @@
                                                 <Asset>1404001140</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404001141</Asset>
-                                            </Item>
-                                            <Item>
                                                 <Asset>1404001142</Asset>
                                             </Item>
                                             <Item>
+                                                <Asset>1404004878</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004879</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004880</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004881</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004882</Asset>
+                                            </Item>
+                                            <Item>
                                                 <Asset>1404001143</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404001144</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404001145</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1404001151</Asset>
@@ -446,6 +455,9 @@
                                             </Item>
                                             <Item>
                                                 <Asset>1404007003</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404008107</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1404004220</Asset>
@@ -510,6 +522,27 @@
                                             <Item>
                                                 <Asset>1404005132</Asset>
                                             </Item>
+                                            <Item>
+                                                <Asset>1404008102</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404001116</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004113</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004871</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004872</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004873</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004874</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                     </ActionUnlockAsset>
                                 </Values>
@@ -517,7 +550,7 @@
                             </TriggerAction>
                         </Item>
                         <Item>
-                            <!-- Oriental Lighthouse 1404004800 (one per island through BuildingUnique, 5 build permits) -->
+                            <!-- Oriental Lighthouse 1404004800 (one per island through BuildingUnique) -->
                             <TriggerAction>
                                 <Template>ActionUnlockAsset</Template>
                                 <Values>
@@ -534,6 +567,79 @@
                         </Item>
                     </TriggerActions>
                     <SubTriggers />
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Palm Trees (Orient copy 1404004870) in creative games, only with Tourist Season, like vanilla 12259 -->
+    <ModOp Type="addNextSibling" GUID="10138">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004877</GUID>
+                    <Name>InitCreativeMode-Orient Palm Trees</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionIsCreativeMode/>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionIsDLCActive</Template>
+                                            <Values>
+                                                <Condition/>
+                                                <ConditionIsDLCActive>
+                                                    <DLCAssetList>
+                                                        <Item>
+                                                            <DLCAsset>410084</DLCAsset>
+                                                        </Item>
+                                                    </DLCAssetList>
+                                                </ConditionIsDLCActive>
+                                                <ConditionPropsNegatable/>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004870</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
                     <ResetTrigger>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>

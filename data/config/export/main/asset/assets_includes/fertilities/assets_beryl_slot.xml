@@ -1,0 +1,126 @@
+<ModOps>
+
+    <!-- Beryl deposit: copy of the Orient silver deposit 1404001281 (same rock and footprint) on slot type Tin,
+         which no other Orient deposit uses. Region Orient SlotBuildings maps Tin to the Beryl Mine 1404003903. -->
+    <ModOp Type="addNextSibling" GUID="1404001281">
+        <Asset>
+            <Template>Slot</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003905</GUID>
+                    <Name>mining_beryl_slot (Beryl Deposit - Orient)</Name>
+                    <IconFilename>data/modgraphics/ui/icon_beryl.png</IconFilename>
+                    <InfoDescription>1404003907</InfoDescription>
+                </Standard>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_colony_01/mining_blocker_colony01_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Slot>
+                    <SlotType>Tin</SlotType>
+                    <AutoChangeVariation>1</AutoChangeVariation>
+                    <WorkAreaPathSnapDummy>workareapath</WorkAreaPathSnapDummy>
+                </Slot>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Beryl Deposit</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <MinimapToken>
+                    <TokenAsset>2002226</TokenAsset>
+                </MinimapToken>
+                <RandomMapObject />
+                <Building>
+                    <!-- not movable, like the silver deposit -->
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <SoundEmitter>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>Slot</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Sound>202368</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                </SoundEmitter>
+                <Infolayer>
+                    <DefaultInfoLayer>1404003906</DefaultInfoLayer>
+                </Infolayer>
+                <QuestObject />
+                <Constructable />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="1404001282">
+        <Asset>
+            <Template>InfoLayerIcon</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003906</GUID>
+                    <Name>Beryl Deposit Infolayer (Orient)</Name>
+                </Standard>
+                <InfoLayerIcon>
+                    <Config>data/graphics/ui/infolayer3d/infolayer_a7_marker_mine_general.cfg</Config>
+                    <PopupDelay>0</PopupDelay>
+                    <ShowInCreativeMode>1</ShowInCreativeMode>
+                </InfoLayerIcon>
+                <Text>
+                    <TextOverride>1404003905</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="1404001282">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003907</GUID>
+                    <Name>Beryl Deposit description</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Beryl can be mined from this deposit and cut into tesserae for mosaics.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1000029" Path="/Values/RandomMapObject/Replacements">
+        <Item>
+            <NewAsset>1404003905</NewAsset>
+        </Item>
+    </ModOp>
+
+</ModOps>

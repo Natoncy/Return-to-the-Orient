@@ -2,12 +2,13 @@
     <!-- Use seperate triggers for if NH is added later, and also seperate triggers for unhide and unlock.
     Only added when NH is active -->
     <ModOp Type="addNextSibling" GUID="10138" Condition="#new_horizons_session">
+        <!-- Envoys' own Oudh Perfume need (last luxury need, 6000 Envoys, assets_envoys.xml): no Magnates needed -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1404005060</GUID>
-                    <Name>Intermediate Orient New Horizons Unhide</Name>
+                    <GUID>1404004031</GUID>
+                    <Name>Intermediate Orient 2.7 Oudh Perfume (New Horizons)</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -15,37 +16,12 @@
                         <Values>
                             <Condition/>
                             <ConditionPlayerCounter>
-                                <!-- ## CHANGE ## -->
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                 <Context>1404000011</Context>
-                                <CounterAmount>1900</CounterAmount>
-                                <!-- ## CHANGE ## -->
+                                <CounterAmount>4500</CounterAmount>
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
-                    <!-- Magnates at the Oudh Perfume need's NoWeightPopulationCount + 1 (Natoncy_orient_after_other_mods) -->
-                    <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15100100</Context>
-                                                    <CounterAmount>4000</CounterAmount>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
-                    </SubTriggers>
                     <TriggerActions>
                         <Item>
                             <TriggerAction>
@@ -77,8 +53,8 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1404005062</GUID>
-                    <Name>Intermediate Orient New Horizons Unlock</Name>
+                    <GUID>1404004032</GUID>
+                    <Name>Intermediate Orient 2.8 Oudh Perfume (New Horizons)</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -86,37 +62,12 @@
                         <Values>
                             <Condition/>
                             <ConditionPlayerCounter>
-                                <!-- ## CHANGE ## -->
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                 <Context>1404000011</Context>
-                                <CounterAmount>2400</CounterAmount>
-                                <!-- ## CHANGE ## -->
+                                <CounterAmount>6000</CounterAmount>
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
-                    <!-- Magnates at the Oudh Perfume need's NoWeightPopulationCount + 1 (Natoncy_orient_after_other_mods) -->
-                    <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15100100</Context>
-                                                    <CounterAmount>4000</CounterAmount>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
-                    </SubTriggers>
                     <TriggerActions>
                         <Item>
                             <TriggerAction>

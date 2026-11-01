@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- dates -->
+    <Text>
+      <GUID>1888999749</GUID>
+      <Text>Финики</Text>
+    </Text>
+  <!-- date orchard -->
+    <Text>
+      <GUID>1888999751</GUID>
+      <Text>Финиковый сад</Text>
+    </Text>
+  </ModOp>
+</ModOps>

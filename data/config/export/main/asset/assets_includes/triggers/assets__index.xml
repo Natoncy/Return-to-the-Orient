@@ -18,6 +18,7 @@
     <Include File="assets_intermediate_orient_2_6.xml" />
     <Include File="assets_intermediate_orient_2_7.xml" />
     <Include File="assets_intermediate_orient_2_8.xml" />
+    <Include File="assets_intermediate_orient_skyscrapers.xml" />
     
     <Include File="assets_intermediate_orient_3_0.xml" />
     <Include File="assets_intermediate_orient_3_1.xml" />

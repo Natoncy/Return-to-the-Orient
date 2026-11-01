@@ -5,5 +5,10 @@
       <!-- trading_company_orient | Silver Ore Import Dock -->
       <Text>Importuj dok: Ruda srebra</Text>
     </Text>
+    <Text>
+      <GUID>1404003909</GUID>
+      <!-- trading_company_orient | Beryl Import Dock -->
+      <Text>Importuj dok: Beryl</Text>
+    </Text>
   </ModOp>
 </ModOps>

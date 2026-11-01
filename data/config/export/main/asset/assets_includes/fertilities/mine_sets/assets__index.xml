@@ -4,5 +4,6 @@
     <Include File="assets_mine_set_orient_02_silver_no_oil.xml" />
     <Include File="assets_mine_set_orient_03_oil_no_silver.xml" />
     <Include File="assets_mine_set_orient_04_oil_silver_no_clay.xml" />
+    <Include File="assets_mine_set_orient_05_beryl_no_oil.xml" />
 
 </ModOps>

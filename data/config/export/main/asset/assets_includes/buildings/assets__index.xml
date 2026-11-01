@@ -11,6 +11,7 @@
     <Include File="assets_kontor_02.xml" />
     <Include File="assets_kontor_03.xml" />
     <Include File="assets_kontor_trader.xml" />
+    <Include File="assets_kahina_orient.xml" />
     <Include File="assets_logistic_orient_01.xml" />
     <Include File="assets_logistic_orient_02.xml" />
     <Include File="assets_logistic_orient_03.xml" />

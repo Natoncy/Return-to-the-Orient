@@ -1,0 +1,56 @@
+<ModOps>
+
+    <!-- Orient Set 05 (Beryl, No Oil)
+         beryl, clay, beryl, silver, beryl, clay, beryl
+         beryl x4, clay x2, silver x1
+
+         Beryl-focused counterpart of Set 02 (Silver, No Oil), added with the beryl deposit
+         (1404003905) on 2026-10-31. No New World original.
+         Order matters: the generator walks MineSlots up to the island's mine
+         budget, so the first entries are the ones most likely to be placed. -->
+
+    <ModOp Type="addNextSibling" GUID="141554">
+        <Asset>
+            <Template>MineSlotSet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003908</GUID>
+                    <Name>Orient Set 05 (Beryl, No Oil)</Name>
+                </Standard>
+                <ResourceSetCondition>
+                    <Priority>10</Priority>
+                    <AllowedRegion>Mod3</AllowedRegion>
+                    <AllowedIslandType>Normal;Starter</AllowedIslandType>
+                    <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
+                    <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
+                </ResourceSetCondition>
+                <MineSlotResourceSet>
+                    <MineSlots>
+                        <Item>
+                            <MineSlot>1404003905</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404003905</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404003905</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404003905</MineSlot>
+                        </Item>
+                    </MineSlots>
+                </MineSlotResourceSet>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

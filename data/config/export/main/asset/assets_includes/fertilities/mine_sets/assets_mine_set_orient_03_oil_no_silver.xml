@@ -1,11 +1,12 @@
 <ModOps>
 
     <!-- Orient Set 03 (Oil, No Silver)
-         oil, oil, oil, clay, oil, clay, oil
-         oil x5, clay x2
+         oil, oil, beryl, clay, oil, clay, oil
+         oil x4, beryl x1, clay x2
 
          Mirrors the New World's 141558 Set 03 (Oil, No Gold), with gold replaced by
          silver (1404001281) so clay and oil keep their Colony01 frequency.
+         Beryl (1404003905) took one entry of the set's most frequent resource (2026-10-31).
          Order matters: the generator walks MineSlots up to the island's mine
          budget, so the first entries are the ones most likely to be placed. -->
 
@@ -20,7 +21,7 @@
                 <ResourceSetCondition>
                     <Priority>10</Priority>
                     <AllowedRegion>Mod3</AllowedRegion>
-                    <AllowedIslandType>Normal</AllowedIslandType>
+                    <AllowedIslandType>Normal;Starter</AllowedIslandType>
                     <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
                     <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
                 </ResourceSetCondition>
@@ -33,7 +34,7 @@
                             <MineSlot>1404001315</MineSlot>
                         </Item>
                         <Item>
-                            <MineSlot>1404001315</MineSlot>
+                            <MineSlot>1404003905</MineSlot>
                         </Item>
                         <Item>
                             <MineSlot>101061</MineSlot>

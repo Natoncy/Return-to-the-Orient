@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404003900</GUID>
+      <!-- Product | beryl | Beryl -->
+      <Text>緑柱石</Text>
+    </Text>
+    <Text>
+      <GUID>1404003901</GUID>
+      <!-- Text | beryl fluff text | Hewn from the desert hills, cut into shimmering tesserae. -->
+      <Text>砂漠の丘から切り出され、きらめくモザイクの石片に加工される。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

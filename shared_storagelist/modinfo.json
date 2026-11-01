@@ -1,0 +1,36 @@
+{
+  "Version": "1.0.0",
+  "ModID": "natoncy_return_to_the_orient_shared_storagelist",
+  "Category": {
+    "English": "SharedGroup",
+    "French": "SharedGroup",
+    "German": "SharedGroup",
+    "Italian": "SharedGroup",
+    "Japanese": "SharedGroup",
+    "Korean": "SharedGroup",
+    "Polish": "SharedGroup",
+    "Russian": "SharedGroup",
+    "Chinese": "SharedGroup",
+    "Spanish": "SharedGroup",
+    "Taiwanese": "SharedGroup"
+  },
+  "ModName": {
+    "English": "Return to the Orient - Shared Storagelist",
+    "French": "Return to the Orient - Shared Storagelist",
+    "German": "Return to the Orient - Shared Storagelist",
+    "Italian": "Return to the Orient - Shared Storagelist",
+    "Japanese": "Return to the Orient - Shared Storagelist",
+    "Korean": "Return to the Orient - Shared Storagelist",
+    "Polish": "Return to the Orient - Shared Storagelist",
+    "Russian": "Return to the Orient - Shared Storagelist",
+    "Chinese": "Return to the Orient - Shared Storagelist",
+    "Spanish": "Return to the Orient - Shared Storagelist",
+    "Taiwanese": "Return to the Orient - Shared Storagelist"
+  },
+  "ModDependencies": [
+    "import_storagelist_almonds_taludas",
+    "import_storagelist_ebony_taludas",
+    "import_storagelist_silkfabric_taludas"
+  ],
+  "CreatorName": "Natoncy"
+}

@@ -38,6 +38,9 @@
                         <Clay>
                             <Building>1404001285</Building>
                         </Clay>
+                        <Tin>
+                            <Building>1404003903</Building>
+                        </Tin>
                     </SlotBuildings>
                     <ConstructionMaterialList>
                         <Item>
@@ -408,7 +411,8 @@
                             <PlantPercent>40</PlantPercent>
                         </Lumberjack>
                         <FirTrees>
-                            <GUID>133886</GUID>
+                            <!-- player-plantable trees = the region's LeafTrees/FirTrees slots; Palm Trees Orient copy -->
+                            <GUID>1404004870</GUID>
                             <PlantPercent>10</PlantPercent>
                         </FirTrees>
                     </Trees>

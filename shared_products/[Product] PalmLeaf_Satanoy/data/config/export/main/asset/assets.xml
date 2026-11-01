@@ -1,0 +1,210 @@
+<ModOps>
+  <!-- Palm Leaves-->
+  <ModOp Type="addNextSibling" GUID='1010200'>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1888999915</GUID>
+          <Name>Palm Leaves</Name>
+          <IconFilename>data/ui/Icons/PalmL.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> 
+          <BasePrice>2</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Meta</AssociatedRegion>
+          <ProductionRegions />
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>20</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>2</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Expedition -->
+  <ModOp Type="add" GUID="800111">
+    <Item>
+      <MoraleFactor>0.5</MoraleFactor>
+      <Product>1888999915</Product>
+    </Item>
+  </ModOp>
+
+ <!-- START PRODUCTION Palms -->
+  <ModOp Type="addNextSibling" GUID='101263'>
+    <Asset>
+      <Template>FreeAreaBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1888999916</GUID>
+          <Name>Palms Plantation</Name>
+          <IconFilename>data/ui/Icons/PalmL.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/agriculture_colony01_10/agriculture_colony01_10.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Palms Plantation</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+      <SoundEmitter>
+			 <ActiveSounds>
+				<Item>
+					<Sound>200795</Sound>
+				</Item>
+			 </ActiveSounds>
+			 <IncidentSounds>
+				<InfectedFire>
+					<Item>
+						<Sound>214659</Sound>
+					</Item>
+				</InfectedFire>
+			 </IncidentSounds>
+		  </SoundEmitter>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1888999915</Product>
+              <Amount>1</Amount>
+              <StorageAmount>20</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <AmbientMoodProvider>
+          <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>30</Amount>
+              <InactiveAmount>0</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010366</Product>
+              <Amount>12</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1100</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable>
+          <Infectable>
+            <Illness>
+              <Escalated>0</Escalated>
+            </Illness>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <FreeAreaProductivity>
+			   <InfluenceRadius>7</InfluenceRadius>
+			   <NeededAreaPercent>70</NeededAreaPercent>
+			   <MaxWorkerAmount>4</MaxWorkerAmount>
+			   <AdditionalWorkerForForestation>3</AdditionalWorkerForForestation>
+			   <WorkerPause>10000</WorkerPause>
+         <FreeAreaType>Coconut</FreeAreaType>
+         <AdditionalTreeProp>data/graphics/props/storage/basket_pile_v1.prp</AdditionalTreeProp>
+		    </FreeAreaProductivity>
+        <Culture>
+          <CultureType>Landscaping</CultureType>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1888999915']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+      <Item>
+        <Product>1888999915</Product>
+      </Item>
+  </ModOp>
+
+    <!-- Start ADD TO ALL ORCHARDS -->
+  <ModOp Type="add" GUID="194013,194008" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+         <Item>
+             <GUID>1888999916</GUID>
+         </Item>
+  </ModOp>
+
+    <!-- START ADD TO GLOBAL PRODUCTION POOLS -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+         <Item>
+             <GUID>1888999916</GUID>
+         </Item>
+    </ModOp>
+</ModOps>

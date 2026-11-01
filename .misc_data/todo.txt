@@ -2,8 +2,9 @@ Enums:
     RegionID: Mod3 (Orient)
     ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
+    SocketExclusiveGroup: Mod14 (Light house)
     InternalID: 28, 64, 65, 66, 69
-Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
+Required Pop.: 3000 Investors, 1500 Obreros, 1000 Elders
 Required DLCs: Land of Lions
 Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
 Optional Mods: New Horizons
@@ -15,24 +16,29 @@ Optional Mods: New Horizons
 
 TODO:
 
-v0.6.1
-- Reorder needs based on skyscraper levels and rebalance
-- add compost for moldy bread
-
 v0.7.0
-- Palace with needs replacement
+- add compost for moldy bread
+- Light house monument 
+    construction scaffolding stage 2 & 3
+    construction feedback units
+- Palace
+- Beryl for mosaics and other wares
 - Construction material rework
     Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
+- Check lifestyle needs
 - Letting AI settle the region
 
 Before v1.0.0
 - Add light emitting surfaces for windows at night
+- Check IntersectBox for clicking for all buildings
 - Check shared mods
 - Check quests
 - Check loading screen hints
+- Check all guid used exist (1404000205)
 - remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
+- Revise which products are shared (can be produced and used by other mods independently), and which are specific to the orient/the mod
 - Update Readme/Mod.io Description (add useable but not shared products)
 
 
@@ -42,9 +48,9 @@ Bugs:
 
 
 Backlog:
+- Goat milk as a bedouin alternative
 - Rewrite some quest texts maybe
 - Camera sequence when entering region for the first time
-- Update scholar residences (final)
 
 
 Not fixable/doable:

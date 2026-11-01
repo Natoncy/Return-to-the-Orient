@@ -234,6 +234,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>30</Amount>
                         </Item>
                     </UpgradeCost>
                 </Upgradable>

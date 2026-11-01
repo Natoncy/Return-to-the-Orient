@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+     <!-- START Palm Leaves-->   
+    <Text>
+      <GUID>1888999915</GUID>
+      <Text>Foglie di palma</Text>
+    </Text>
+    <!-- END Orchard Palm Leaves-->
+    <Text>
+      <GUID>1888999916</GUID>
+      <Text>Piantagione di palme</Text>
+    </Text>
+  </ModOp>
+</ModOps>

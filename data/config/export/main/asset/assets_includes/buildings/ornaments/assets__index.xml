@@ -15,6 +15,7 @@
     <Include File="assets_stonewall.xml" />
     <Include File="assets_fountain.xml" />
     <Include File="assets_palm.xml" />
+    <Include File="assets_orient_park_plants.xml" />
     <Include File="assets_orient_creative_fields.xml" />
     <Include File="assets_orient_creative_ornaments.xml" />
     <Include File="assets_orient_creative_museum.xml" />

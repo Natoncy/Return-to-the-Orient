@@ -10,13 +10,13 @@
          Add new progression triggers here too. -->
     <ModOp Type="addNextSibling" GUID="10138">
 
-        <!-- Fires once per save for main mod version 0.5.0 -->
+        <!-- Fires once per save for main mod version 0.6.1 -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1404006050</GUID>
-                    <Name>Orient trigger reset run 0.5.0</Name>
+                    <GUID>1404006061</GUID>
+                    <Name>Orient trigger reset run 0.6.1</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -256,7 +256,7 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.0 Roasted Chickpeas -->
+                        <!-- Intermediate Orient 2.0 Palm Trees -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
@@ -275,71 +275,7 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004010</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.0 Hummus -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>8000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004012</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.0 Astrolabes -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>9000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004025</TriggerAsset>
+                                                                        <TriggerAsset>1404004876</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -359,7 +295,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>10000</ExecutionDelay>
+                                        <ExecutionDelay>8000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -384,174 +320,14 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.1 Roasted Chickpeas -->
+                        <!-- Intermediate Orient 2.1 Biscuits -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>11000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004011</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.1 Hummus -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>12000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004013</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.1 Candied Dates -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>13000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004014</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.1 Astrolabes -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>14000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004026</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.2 -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>15000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001016</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.2 Biscuits -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>16000</ExecutionDelay>
+                                        <ExecutionDelay>9000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -576,14 +352,14 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.2 Ice Cream -->
+                        <!-- Intermediate Orient 2.2 -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>17000</ExecutionDelay>
+                                        <ExecutionDelay>10000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -595,103 +371,7 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001269</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.2 Candied Dates -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>18000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004015</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.2 Spiced Tea -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>19000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004016</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.2 Arak -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>20000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004018</TriggerAsset>
+                                                                        <TriggerAsset>1404001016</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -711,7 +391,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>21000</ExecutionDelay>
+                                        <ExecutionDelay>11000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -743,7 +423,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>22000</ExecutionDelay>
+                                        <ExecutionDelay>12000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -775,7 +455,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>23000</ExecutionDelay>
+                                        <ExecutionDelay>13000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -800,166 +480,6 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.3 Typewriters -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>24000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001261</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.3 Fans -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>25000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001262</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.3 Spiced Tea -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>26000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004017</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.3 Arak -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>27000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004019</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.3 Lokum -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>28000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004020</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
                         <!-- Intermediate Orient 2.4 -->
                         <Item>
                             <TriggerAction>
@@ -967,7 +487,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>29000</ExecutionDelay>
+                                        <ExecutionDelay>14000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -992,198 +512,6 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.4 Typewriters -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>30000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001263</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.4 Typewriters Engineers -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>31000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004024</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.4 Fans -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>32000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001264</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.4 Steam Carriages -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>33000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001265</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.4 Scooters -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>34000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001266</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.4 Lokum -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>35000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004021</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
                         <!-- Intermediate Orient 2.4 Incense -->
                         <Item>
                             <TriggerAction>
@@ -1191,7 +519,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>36000</ExecutionDelay>
+                                        <ExecutionDelay>15000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1223,7 +551,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>37000</ExecutionDelay>
+                                        <ExecutionDelay>16000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1248,14 +576,14 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.5 Steam Carriages -->
+                        <!-- Intermediate Orient 2.5 Typewriters -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>38000</ExecutionDelay>
+                                        <ExecutionDelay>17000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1267,7 +595,7 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001267</TriggerAsset>
+                                                                        <TriggerAsset>1404001263</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -1280,14 +608,14 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient 2.5 Scooters -->
+                        <!-- Intermediate Orient 2.5 Typewriters Engineers -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>39000</ExecutionDelay>
+                                        <ExecutionDelay>18000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1299,7 +627,39 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404001268</TriggerAsset>
+                                                                        <TriggerAsset>1404004024</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <!-- Intermediate Orient 2.5 Fans -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>19000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404001264</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -1319,7 +679,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>40000</ExecutionDelay>
+                                        <ExecutionDelay>20000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1351,7 +711,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>41000</ExecutionDelay>
+                                        <ExecutionDelay>21000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1383,7 +743,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>42000</ExecutionDelay>
+                                        <ExecutionDelay>22000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1408,6 +768,70 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
+                        <!-- Intermediate Orient 2.7 Steam Carriages -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>23000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404001267</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <!-- Intermediate Orient 2.7 Scooters -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>24000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404001268</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
                         <!-- Intermediate Orient 2.8 -->
                         <Item>
                             <TriggerAction>
@@ -1415,7 +839,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>43000</ExecutionDelay>
+                                        <ExecutionDelay>25000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1440,6 +864,134 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
+                        <!-- Intermediate Orient Skyscraper 1.1 -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>26000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404004027</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <!-- Intermediate Orient Skyscraper 1.2 -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>27000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404004028</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <!-- Intermediate Orient Skyscraper 2.1 -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>28000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404004029</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <!-- Intermediate Orient Skyscraper 2.2 -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>29000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404004030</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
                         <!-- Intermediate Orient 3.0 -->
                         <Item>
                             <TriggerAction>
@@ -1447,7 +999,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>44000</ExecutionDelay>
+                                        <ExecutionDelay>30000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1479,7 +1031,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>45000</ExecutionDelay>
+                                        <ExecutionDelay>31000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1511,7 +1063,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>46000</ExecutionDelay>
+                                        <ExecutionDelay>32000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1543,7 +1095,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>47000</ExecutionDelay>
+                                        <ExecutionDelay>33000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1575,7 +1127,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>48000</ExecutionDelay>
+                                        <ExecutionDelay>34000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1607,7 +1159,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>49000</ExecutionDelay>
+                                        <ExecutionDelay>35000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1639,7 +1191,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>50000</ExecutionDelay>
+                                        <ExecutionDelay>36000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1671,7 +1223,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>51000</ExecutionDelay>
+                                        <ExecutionDelay>37000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1696,14 +1248,14 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient New Horizons Unhide -->
+                        <!-- Intermediate Orient 2.7 Oudh Perfume (New Horizons) -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>52000</ExecutionDelay>
+                                        <ExecutionDelay>38000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1715,7 +1267,7 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404005060</TriggerAsset>
+                                                                        <TriggerAsset>1404004031</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -1728,14 +1280,14 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient New Horizons Unlock -->
+                        <!-- Intermediate Orient 2.8 Oudh Perfume (New Horizons) -->
                         <Item>
                             <TriggerAction>
                                 <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>53000</ExecutionDelay>
+                                        <ExecutionDelay>39000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1747,7 +1299,7 @@
                                                                 <Values>
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404005062</TriggerAsset>
+                                                                        <TriggerAsset>1404004032</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -1767,7 +1319,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>54000</ExecutionDelay>
+                                        <ExecutionDelay>40000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1799,7 +1351,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>55000</ExecutionDelay>
+                                        <ExecutionDelay>41000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1831,7 +1383,7 @@
                                 <Values>
                                     <Action />
                                     <ActionDelayedActions>
-                                        <ExecutionDelay>56000</ExecutionDelay>
+                                        <ExecutionDelay>42000</ExecutionDelay>
                                         <DelayedActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -1844,6 +1396,38 @@
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
                                                                         <TriggerAsset>1404007026</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <!-- InitCreativeMode-Orient Palm Trees -->
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>43000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404004877</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>

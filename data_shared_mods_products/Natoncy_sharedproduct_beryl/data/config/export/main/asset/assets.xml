@@ -1,0 +1,110 @@
+<ModOps>
+  <Group>
+    <!-- # Product: beryl -->
+    <ModOp Type="addNextSibling" GUID="1010228">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1404003900</GUID>
+            <Name>beryl</Name>
+            <IconFilename>data\modgraphics\ui\icon_beryl.png</IconFilename>
+            <InfoDescription>1404003901</InfoDescription>
+          </Standard>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>30</BasePrice>
+            <CivLevel>2</CivLevel>
+            <AssociatedRegion>Meta</AssociatedRegion>
+            <ProductionRegions />
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>5</BaseMorale>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- # Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404003900']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010228']">
+      <Item>
+        <Product>1404003900</Product>
+      </Item>
+    </ModOp>
+
+    <!-- # Docklands: NONE -->
+
+    <!-- # Fake MainFactory -->
+    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1404003900']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1404003902</GUID>
+            <Name>IsMainfactory_Fake: beryl</Name>
+            <IconFilename>data\modgraphics\ui\icon_beryl.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1404003900</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>120</Amount>
+                <InactiveAmount>60</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>30</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404003901</GUID>
+            <Name>beryl fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>beryl fluff text</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  </Group>
+</ModOps>

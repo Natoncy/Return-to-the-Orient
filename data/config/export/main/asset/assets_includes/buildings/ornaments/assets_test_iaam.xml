@@ -81,14 +81,6 @@
                         <Item>
                             <Filename>data/graphics/buildings/orient/sbm/iaam/orient/005kustengebaude/speicherstadt/warehouse_var01.cfg</Filename>
                         </Item>
-
-<!--                         
-                        <Item>
-                            <Filename>data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/ori_gold_ore_smelter/o_gold_ore_smelter.cfg</Filename>
-                        </Item>
-                        <Item>
-                            <Filename>data/graphics/buildings/orient/sbm/iaam/orient/001offenliche_gebaude/palast_vier_winde/palast02.cfg</Filename>
-                        </Item> -->
                     </Variations>
                 </Object>
                 <Constructable/>

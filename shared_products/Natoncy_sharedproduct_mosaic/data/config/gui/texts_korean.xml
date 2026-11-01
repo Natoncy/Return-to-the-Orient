@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000256</GUID>
+      <!-- Product | mosaic | Mosaic -->
+      <Text>모자이크</Text>
+    </Text>
+    <Text>
+      <GUID>1404000257</GUID>
+      <!-- Text | mosaic fluff text | More than the sum of its pieces. -->
+      <Text>조각의 합보다 더 많은 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000258</GUID>
+      <!-- Text | Pieced together, just like a broken bone. | Pieced together, just like a broken bone. -->
+      <Text>부러진 뼈처럼 한 조각씩 맞춰 붙였습니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

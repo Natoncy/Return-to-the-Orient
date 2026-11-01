@@ -786,6 +786,11 @@
       <Text>文書上的蘇丹印章在蘇丹國具有很大的分量。</Text>
     </Text>
     <Text>
+      <GUID>1404000287</GUID>
+      <!-- Text | No harbour master dares to question the Sultan's seal. | No harbour master dares to question the Sultan's seal. -->
+      <Text>沒有哪個港務長敢質疑蘇丹的印章。</Text>
+    </Text>
+    <Text>
       <GUID>1404000288</GUID>
       <!-- Product | Coffee House | Coffee House -->
       <Text>咖啡廳</Text>
@@ -1048,17 +1053,17 @@
     <Text>
       <GUID>1404000358</GUID>
       <!-- Product | Marketstall: Fans | Marketstall: Fans -->
-      <Text>市場攤位：風扇</Text>
+      <Text>市場攤位：電扇</Text>
     </Text>
     <Text>
       <GUID>1404000359</GUID>
       <!-- Product | Marketstall: Gramophones | Marketstall: Gramophones -->
-      <Text>市集攤位：留聲機</Text>
+      <Text>市場攤位：留聲機</Text>
     </Text>
     <Text>
       <GUID>1404000360</GUID>
       <!-- Product | Marketstall: Ice Cream | Marketstall: Ice Cream -->
-      <Text>市集攤位：冰淇淋</Text>
+      <Text>市場攤位：冰淇淋</Text>
     </Text>
     <Text>
       <GUID>1404000361</GUID>
@@ -1068,12 +1073,12 @@
     <Text>
       <GUID>1404000362</GUID>
       <!-- Product | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>市場攤位：踏板車</Text>
+      <Text>市場攤位：機車</Text>
     </Text>
     <Text>
       <GUID>1404000363</GUID>
       <!-- Product | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>市場攤位：蒸汽馬車</Text>
+      <Text>市場攤位：蒸汽車</Text>
     </Text>
     <Text>
       <GUID>1404000364</GUID>
@@ -1083,27 +1088,27 @@
     <Text>
       <GUID>1404000365</GUID>
       <!-- Mall | Marketstall: Fans | Marketstall: Fans -->
-      <Text>市場攤位：風扇</Text>
+      <Text>市場攤位：電扇</Text>
     </Text>
     <Text>
       <GUID>1404000366</GUID>
       <!-- Mall | Marketstall: Gramophones | Marketstall: Gramophones -->
-      <Text>市集攤位：留聲機</Text>
+      <Text>市場攤位：留聲機</Text>
     </Text>
     <Text>
       <GUID>1404000367</GUID>
       <!-- Mall | Marketstall: Ice Cream | Marketstall: Ice Cream -->
-      <Text>市集攤位：冰淇淋</Text>
+      <Text>市場攤位：冰淇淋</Text>
     </Text>
     <Text>
       <GUID>1404000369</GUID>
       <!-- Mall | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>市場攤位：踏板車</Text>
+      <Text>市場攤位：機車</Text>
     </Text>
     <Text>
       <GUID>1404000370</GUID>
       <!-- Mall | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>市場攤位：蒸汽馬車</Text>
+      <Text>市場攤位：蒸汽車</Text>
     </Text>
     <Text>
       <GUID>1404000371</GUID>
@@ -2318,7 +2323,7 @@
     <Text>
       <GUID>1404000881</GUID>
       <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
-      <Text>提供混合物</Text>
+      <Text>提供精礦</Text>
     </Text>
     <Text>
       <GUID>1404000882</GUID>
@@ -2943,7 +2948,7 @@
     <Text>
       <GUID>1404001058</GUID>
       <!-- ExpeditionDecision | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. -->
-      <Text>&lt;b&gt;商隊沿著隱藏的沙漠小徑蜿蜒而行，繞過沙丘和古老的廢墟，然後重新匯入一條宏偉的林蔭大道。日落時分，首都的圓頂在地平線上閃閃發光。大篷車已將您安全送到目的地。</Text>
+      <Text>&lt;b&gt;商隊沿著隱藏的沙漠小徑蜿蜒而行，&lt;/b&gt;繞過沙丘和古老的廢墟，然後重新匯入一條宏偉的林蔭大道。日落時分，首都的圓頂在地平線上閃閃發光。大篷車已將您安全送到目的地。</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
@@ -2978,7 +2983,7 @@
     <Text>
       <GUID>1404001065</GUID>
       <!-- ExpeditionDecision | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. -->
-      <Text>&lt;b&gt;道路突然終止，被高聳的沙丘吞沒。風在沙地上呼嘯，抹去了方向的痕跡。您必須決定下一步行動。</Text>
+      <Text>&lt;b&gt;道路突然終止，&lt;/b&gt;被高聳的沙丘吞沒。風在沙地上呼嘯，抹去了方向的痕跡。您必須決定下一步行動。</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
@@ -3118,7 +3123,7 @@
     <Text>
       <GUID>1404001093</GUID>
       <!-- ExpeditionDecision | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? -->
-      <Text>&lt;b&gt;您站在蘇丹面前，坐在華麗的王座上。所有的目光都集中在你身上。你會怎麼跟他打招呼？</Text>
+      <Text>&lt;b&gt;您站在蘇丹面前，&lt;/b&gt;他端坐在華麗的寶座上。所有人的目光都落在您身上。您將如何向他致意？</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
@@ -3432,13 +3437,13 @@
     </Text>
     <Text>
       <GUID>1404001195</GUID>
-      <!-- Text | Nibbles and canapés | Nibbles and canapés -->
-      <Text>小吃和開胃菜</Text>
+      <!-- Text | Nibbles and canapés | Provisions for the road -->
+      <Text>路上的乾糧</Text>
     </Text>
     <Text>
       <GUID>1404001196</GUID>
-      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. -->
-      <Text>參觀規模不大的展覽的參觀者在展品中漫步時通常會享用一些小吃和小吃。</Text>
+      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Pilgrims on the road are grateful for a handful of dates and roasted chickpeas to keep them going. -->
+      <Text>旅途中的朝聖者會感激能有一把椰棗和烤鷹嘴豆來補充體力。</Text>
     </Text>
     <Text>
       <GUID>1404001197</GUID>
@@ -3447,8 +3452,8 @@
     </Text>
     <Text>
       <GUID>1404001198</GUID>
-      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Large displays of savoury meals are essential to welcoming many visitors. -->
-      <Text>大量展示美味佳餚對於歡迎眾多遊客至關重要。</Text>
+      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Generous platters of hummus and marzipan are essential to welcoming many pilgrims. -->
+      <Text>要迎接眾多朝聖者，大盤的鷹嘴豆泥和杏仁糖必不可少。</Text>
     </Text>
     <Text>
       <GUID>1404001199</GUID>
@@ -3477,8 +3482,8 @@
     </Text>
     <Text>
       <GUID>1404001204</GUID>
-      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. -->
-      <Text>要取悅要求苛刻的遊客，沒有比為他們提供優質酒精飲料更好的方法了。</Text>
+      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | Nothing refreshes weary pilgrims like cool pomegranate juice and fragrant spiced tea. -->
+      <Text>對於疲憊的朝聖者來說，沒有什麼比清涼的石榴汁和芬芳的香料茶更提神了。</Text>
     </Text>
     <Text>
       <GUID>1404001205</GUID>
@@ -3497,8 +3502,8 @@
     </Text>
     <Text>
       <GUID>1404001208</GUID>
-      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. -->
-      <Text>一抹色彩可以改變世界，彈跳的球有種讓人無法不好好踢一踢的感覺。</Text>
+      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | Sturdy camels for the caravan and a prayer rug for every halt: simple things that mean a great deal to a pilgrim. -->
+      <Text>供商隊騎乘的健壯駱駝，每次歇腳時鋪開的禮拜毯：這些樸素的東西對朝聖者意義重大。</Text>
     </Text>
     <Text>
       <GUID>1404001209</GUID>
@@ -3507,8 +3512,8 @@
     </Text>
     <Text>
       <GUID>1404001210</GUID>
-      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>只要看看那些精美的羽毛服裝 - 嘉年華和混亂在街道上交織在一起，偶爾被重擊聲打斷！球撞擊地面的情況。</Text>
+      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Fine kaftans for the feast days and a hookah to share in the evening turn the long road into a celebration. -->
+      <Text>節日裡精美的長袍，夜晚共享的水煙袋，讓漫長的旅途變成一場慶典。</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3517,8 +3522,8 @@
     </Text>
     <Text>
       <GUID>1404001212</GUID>
-      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. -->
-      <Text>所有最新的奢侈品，都是由聰明的雙手設計出來的——空氣中縈繞的甜蜜香氣、音樂的聲音、錯綜複雜的面具——所有這些都遵循著參加這場化裝舞會的人海。</Text>
+      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | Precious oudh perfume, fine turbans and ornate hookahs, crafted by skilled hands, fill the courtyards with splendour and sweet scents. -->
+      <Text>巧手製作的珍貴沉香香水、精美頭巾和華麗水煙袋，讓庭院充滿華彩與芬芳。</Text>
     </Text>
     <Text>
       <GUID>1404001213</GUID>
@@ -3544,6 +3549,11 @@
       <GUID>1404001217</GUID>
       <!-- RewardPool | Luxury Orient Decoration | Luxury Orient Decoration -->
       <Text>豪華東方裝修</Text>
+    </Text>
+    <Text>
+      <GUID>1404004893</GUID>
+      <!-- RewardPool | Correct Orient Decoration | Orient Decoration -->
+      <Text>東方裝飾</Text>
     </Text>
     <Text>
       <GUID>1404001218</GUID>
@@ -4298,7 +4308,7 @@
     <Text>
       <GUID>1404001435</GUID>
       <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
-      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+      <Text>在這個地區維持：&lt;br/&gt;[AssetData([Conditions QuestCondition Context]) Text]供給低於[Conditions QuestCondition Amount]%，持續 [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
     </Text>
     <Text>
       <GUID>1404001436</GUID>
@@ -4568,7 +4578,7 @@
     <Text>
       <GUID>1404001493</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]詢問你是否準備好帶他們離船。</Text>
     </Text>
     <Text>
       <GUID>1404001494</GUID>
@@ -5073,17 +5083,17 @@
     <Text>
       <GUID>1404001602</GUID>
       <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
-      <Text>Pick up the gift offered by your resident</Text>
+      <Text>收下居民給你的禮物</Text>
     </Text>
     <Text>
       <GUID>1404001603</GUID>
-      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
-      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+      <!-- Text | RQ_Farmers_DigField_HintText | My climbing harness is finished! Take one from the box beside me, and even the highest dates will be within your reach. -->
+      <Text>我的攀爬安全帶做好了！從我身旁的箱子裡拿一條吧，再高的椰棗也能摘到。</Text>
     </Text>
     <Text>
       <GUID>1404001604</GUID>
       <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
-      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+      <Text>點擊任務居民旁的箱子即可拾起禮物。</Text>
     </Text>
     <Text>
       <GUID>1404001605</GUID>
@@ -5182,8 +5192,8 @@
     </Text>
     <Text>
       <GUID>1404001624</GUID>
-      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
-      <Text>拜託，拍下我們在動物園的照片！這是小提摩西屈服於病痛之前最後的機會了。</Text>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Lions, parrots and elephants, all in one garden? Bring me a picture of this marvel, so that I may believe it! -->
+      <Text>獅子、鸚鵡和大象，全都在同一座園子裡？給我帶一張這奇觀的照片來，我才能相信！</Text>
     </Text>
     <Text>
       <GUID>1404001625</GUID>
@@ -5238,7 +5248,7 @@
     <Text>
       <GUID>1404001635</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]詢問你是否準備好取得貨物。</Text>
     </Text>
     <Text>
       <GUID>1404001636</GUID>
@@ -5248,12 +5258,12 @@
     <Text>
       <GUID>1404001637</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
-      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+      <Text>帶一艘船艦到任務指定的地點。在遊戲世界中按一下任務即可找到其所在位置。</Text>
     </Text>
     <Text>
       <GUID>1404001638</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
-      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+      <Text>別進入巡邏船的視線半徑範圍，否則他們會對你展開攻擊。這件任務中，你使用越小越快的船艦，成功的機率就越高。</Text>
     </Text>
     <Text>
       <GUID>1404001639</GUID>
@@ -5263,7 +5273,7 @@
     <Text>
       <GUID>1404001640</GUID>
       <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]交付你一件走私任務。</Text>
     </Text>
     <Text>
       <GUID>1404001641</GUID>
@@ -5691,6 +5701,11 @@
       <Text>糧倉</Text>
     </Text>
     <Text>
+      <GUID>1404004219</GUID>
+      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
+      <Text>IAAM Test</Text>
+    </Text>
+    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>使館：等級 2</Text>
@@ -5731,9 +5746,49 @@
       <Text>東方牆體連接件</Text>
     </Text>
     <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>碾碎的礦石在油中浮起後撇取，專供冶煉廠使用。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>東方燈塔分成數個階段建造。建成後可放入信標，每個信標都會強化你在所有區域的某一類全部船隻。每座島嶼只能建造一座燈塔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>儲存鷹嘴豆作為駱駝的飼料，提高農場的生產力。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>出土於Wadi Al Zahir的沙地，古時的商隊曾在那裡歇腳。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>出土於Wadi Al Zahir沙地的先知、學者與殉道者的遺物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>在神聖的月份裡，信徒們從黎明齋戒到黃昏，全城都在等待日落時的禮拜召喚。</Text>
+    </Text>
+    <Text>
       <GUID>1404004890</GUID>
       <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
       <Text>大清真寺分成數個階段建造。建成後，來自蘇丹國各地的朝聖者將紛至沓來。舉辦盛大的朝聖活動，信眾會助你在蘇丹宮廷中贏得影響力。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>開齋之時，家家戶戶帶著甜點互相拜訪，沒有哪位鄰居會收不到禮物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>從運河中汲取的清水。</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -6691,6 +6746,11 @@
       <Text>減少貝都因人對土特產的消耗</Text>
     </Text>
     <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>裝飾貝都因營地</Text>
+    </Text>
+    <Text>
       <GUID>1404008110</GUID>
       <!-- EffectContainer | Camel Breeding | Camel Breeding -->
       <Text>駱駝育種</Text>
@@ -6764,6 +6824,261 @@
       <GUID>1404009002</GUID>
       <!-- FarmBuilding | Rammed Earth Farm | Rammed Earth Farm -->
       <Text>夯土農場</Text>
+    </Text>
+    <Text>
+      <GUID>1404009100</GUID>
+      <!-- GuildhouseItem | Nadira al-Lawz, The Lady of the Almond Grove | Nadira al-Lawz, The Lady of the Almond Grove -->
+      <Text>Nadira al-Lawz，杏仁林夫人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009101</GUID>
+      <!-- Text | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. -->
+      <Text>納迪拉出生在杏樹之間，自幼便學會了嫁接與修剪的訣竅。她憑著耐心，讓別人認為已經無望的樹木重獲生機。她的收成很快成為鄰近農民的榜樣。如今，她的學識在每一座交由她照料的果園中開花結果。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009102</GUID>
+      <!-- GuildhouseItem | Decree on the Grafting and Pruning of Fruit Trees | Decree on the Grafting and Pruning of Fruit Trees -->
+      <Text>果樹嫁接與修剪法令</Text>
+    </Text>
+    <Text>
+      <GUID>1404009103</GUID>
+      <!-- Text | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. -->
+      <Text>鑑於許多農莊產量低落，農業當局推行了改善果樹養護的新措施。選枝、嫁接抗病品種和定期修剪成為田間勞作的核心。儘管一些莊園主起初對這些新要求心存疑慮，最終還是被成果所說服。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009104</GUID>
+      <!-- GuildhouseItem | Leyla al-Harir, the Mistress of the Cocoon | Leyla al-Harir, the Mistress of the Cocoon -->
+      <Text>Leyla al-Harir，蠶繭女主人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009105</GUID>
+      <!-- Text | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. -->
+      <Text>蕾拉在一個絲綢生產世家長大，很早就發現自己在養蠶方面天賦過人。當別人因疏忽而損失整季收成時，她總能產出大量優質蠶繭。據說她只需觀察桑樹，就能判斷一季收成的好壞。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009106</GUID>
+      <!-- GuildhouseItem | Steam boilers for silk reeling | Steam boilers for silk reeling -->
+      <Text>繅絲蒸汽鍋爐</Text>
+    </Text>
+    <Text>
+      <GUID>1404009107</GUID>
+      <!-- Text | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. -->
+      <Text>熱水能軟化蠶繭中的天然絲膠，使其極細的絲線得以抽出。蒸汽有助於保持溫度穩定。較成功的生產者採用了這一方法，以獲得更均勻的絲線。由此產出的絲綢在不失其細膩光澤的同時開拓了新的市場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009108</GUID>
+      <!-- GuildhouseItem | Khalil al-Najjar, the Woodcutter of the Oases | Khalil al-Najjar, The Woodcutter of the Oases -->
+      <Text>Khalil al-Najjar，綠洲伐木工</Text>
+    </Text>
+    <Text>
+      <GUID>1404009109</GUID>
+      <!-- Text | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. -->
+      <Text>哈利勒跟隨村裡的伐木工學藝，那裡木材稀缺，每一根原木都必須物盡其用。他熟知棕櫚樹的弱點，懂得如何砍伐而不浪費任何材料。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009110</GUID>
+      <!-- GuildhouseItem | Frame Saw | Frame Saw -->
+      <Text>框鋸</Text>
+    </Text>
+    <Text>
+      <GUID>1404009111</GUID>
+      <!-- Text | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. -->
+      <Text>鋸條張緊在框架中，只需相對較少的力氣就能精確地切割木材。工人們用它分割原木、加工建築構件。結構簡單，便於保養和更換鋸條。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009112</GUID>
+      <!-- GuildhouseItem | Samir al-Fustuq, the Pistachio Expert | Samir al-Fustuq, The Pistachio Expert -->
+      <Text>Samir al-Fustuq，開心果專家</Text>
+    </Text>
+    <Text>
+      <GUID>1404009113</GUID>
+      <!-- Text | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. -->
+      <Text>薩米爾穿行於古老的開心果林間，辨認出結出最珍貴果實的樹木。想在不耗竭土壤的前提下提高收成的農民紛紛前來求教。在市集上，他的名字就是上等開心果的代名詞。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009114</GUID>
+      <!-- GuildhouseItem | Spice Supply Decree | Spice Supply Decree -->
+      <Text>香料供應法令</Text>
+    </Text>
+    <Text>
+      <GUID>1404009115</GUID>
+      <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
+      <Text>這項協定規定了牲畜放牧路線和水源的共同使用。透過協調各部族與牧民，牲畜損失得以減少，繁殖情況得到改善。這項措施使人們能夠維持更大、更穩定的畜群。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009116</GUID>
+      <!-- GuildhouseItem | Jalaluddin al-Qahwa, The Master of Spices | Jalaluddin al-Qahwa, The Master of Spices -->
+      <Text>Jalaluddin al-Qahwa，香料大師</Text>
+    </Text>
+    <Text>
+      <GUID>1404009117</GUID>
+      <!-- Text | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. -->
+      <Text>賈拉魯丁穿梭於各個市集，尋找珍稀香料和可靠的供貨商。他的嗅覺能分辨出最新鮮的小豆蔻與在倉庫裡存放數月的貨物。深知他要求嚴苛的商人們爭相向他提供最好的貨品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009118</GUID>
+      <!-- GuildhouseItem | Şehrazat Hanım, the Lady of Sugar | Şehrazat Hanım, the Lady of Sugar -->
+      <Text>Şehrazat Hanım，糖之夫人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009119</GUID>
+      <!-- Text | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. -->
+      <Text>在甜點師的市集裡，謝赫拉扎特精研將糖和澱粉變成精緻甜點的技藝。她的拿手之處在於做出既能保持形狀又不會變硬的柔滑口感。她用玫瑰水、柑橘和開心果不斷嘗試，征服最挑剔的味蕾。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009120</GUID>
+      <!-- GuildhouseItem | Mercury Thermometer | Mercury Thermometer -->
+      <Text>水銀溫度計</Text>
+    </Text>
+    <Text>
+      <GUID>1404009121</GUID>
+      <!-- Text | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. -->
+      <Text>製作土耳其軟糖需要控制熬糖的火候，才能獲得均勻的質地。水銀溫度計測量糖漿溫度遠比目測準確。甜點師因此能穩定地重現配方，減少過軟或過硬的失敗品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009122</GUID>
+      <!-- GuildhouseItem | Baha al-Din al-Fustuq, The Roasting Alchemist | Baha al-Din al-Fustuq, The Roasting Alchemist -->
+      <Text>Baha al-Din al-Fustuq，烘焙鍊金術士</Text>
+    </Text>
+    <Text>
+      <GUID>1404009123</GUID>
+      <!-- Text | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. -->
+      <Text>巴哈精通烘烤開心果的技藝，既不損其細膩風味，也不改其招牌色澤。他小心調節火候，不停翻動果仁，確保烘烤均勻。商人們紛紛請他為最挑剔的顧客準備貨品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009124</GUID>
+      <!-- GuildhouseItem | Iron Roasting Drum | Iron Roasting Drum -->
+      <Text>鐵製烘焙滾筒</Text>
+    </Text>
+    <Text>
+      <GUID>1404009125</GUID>
+      <!-- Text | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. -->
+      <Text>工匠們使用旋轉的金屬容器來分散熱量，防止開心果一側烤焦。持續的轉動使烘烤更加均勻，處理量也比普通平底鍋更大。它結構堅固，經得起作坊和小商舖的日常使用。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009126</GUID>
+      <!-- GuildhouseItem | Mahinbanu Khatun, the Shah’s Personal Confectioner | Mahinbanu Khatun, the Shah’s Personal Confectioner -->
+      <Text>Mahinbanu Khatun，沙阿的御用甜點師</Text>
+    </Text>
+    <Text>
+      <GUID>1404009127</GUID>
+      <!-- Text | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. -->
+      <Text>她經營著一家著名的作坊，將椰棗製成精緻的甜點，供最顯貴的宴席享用。她挑選飽滿多肉的果實，細心照看它們在芳香糖漿中熬煮。她對細節的敏銳把握讓每一塊都成為小小的珍饈，足以作為禮儀饋贈。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009128</GUID>
+      <!-- GuildhouseItem | Tin-Lined Copper Cauldron | Tin-Lined Copper Cauldron -->
+      <Text>鍍錫銅鍋</Text>
+    </Text>
+    <Text>
+      <GUID>1404009129</GUID>
+      <!-- Text | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. -->
+      <Text>銅鍋導熱迅速，非常適合用糖漿熬煮大量椰棗。鍋內的鍍錫層避免了食物與銅直接接觸。在果實慢慢吸收甜味的過程中，甜點師會密切注意糖漿的濃度。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009130</GUID>
+      <!-- GuildhouseItem | Iskandar ibn Faraj, Chemistry Expert | Iskandar ibn Faraj, Chemistry Expert -->
+      <Text>Iskandar ibn Faraj，化學專家</Text>
+    </Text>
+    <Text>
+      <GUID>1404009131</GUID>
+      <!-- Text | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. -->
+      <Text>伊斯坎達爾將實驗重點放在烴類及其工業衍生物的利用上。他在油槽與反應釜之間，研究如何獲得更穩定的混合物。他一絲不苟的性格使他能夠協調複雜的化學工藝而不浪費原料。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009132</GUID>
+      <!-- GuildhouseItem | Daryush Mehrzad, Tireless Foreman | Daryush Mehrzad, Tireless Foreman -->
+      <Text>Daryush Mehrzad，不知疲倦的工頭</Text>
+    </Text>
+    <Text>
+      <GUID>1404009133</GUID>
+      <!-- Text | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. -->
+      <Text>達留什負責監督將含硫氣體轉化為高工業價值化學產品的反應；他看管設備，使工藝連續不斷地運行。憑藉專業知識，他成為依賴這種腐蝕性物質的生產企業不可或缺的人物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009134</GUID>
+      <!-- GuildhouseItem | Lead Chamber | Lead Chamber -->
+      <Text>鉛室</Text>
+    </Text>
+    <Text>
+      <GUID>1404009135</GUID>
+      <!-- Text | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. -->
+      <Text>內襯鉛板的大型房室用於以鉛室法生產硫酸，這種方法自18世紀起便已在工業規模上應用。在這些房室中，氣體在水蒸氣和含氮化合物的存在下發生反應。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009136</GUID>
+      <!-- GuildhouseItem | Bahram ibn Kaveh, Obsessive Smelter | Bahram ibn Kaveh, Obsessive Smelter -->
+      <Text>Bahram ibn Kaveh，痴迷的冶煉師</Text>
+    </Text>
+    <Text>
+      <GUID>1404009137</GUID>
+      <!-- Text | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. -->
+      <Text>巴赫拉姆了解每一座熔爐的脾性，憑火焰的顏色就能判斷礦石何時可以熔煉。他調節溫度，監督將白銀從礦石雜質中分離出來。商人們看重他細緻的工作和始終如一的銀錠品質。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009138</GUID>
+      <!-- GuildhouseItem | Zubayda al-Durra, the Deep-Sea Diver | Zubayda al-Durra, the Deep-Sea Diver -->
+      <Text>Zubayda al-Durra，深海潛水員</Text>
+    </Text>
+    <Text>
+      <GUID>1404009139</GUID>
+      <!-- Text | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. -->
+      <Text>祖拜達熟悉中東的牡蠣床，能分辨哪片水域藏著最珍貴的珍珠。她帶著一只小籃子下潛，憑經驗充分利用每一次潛水。商人們被她所得之物的稀有與光澤吸引，翹首以待她的收穫。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009140</GUID>
+      <!-- GuildhouseItem | Diving Ballast Stone | Diving Ballast Stone -->
+      <Text>潛水壓艙石</Text>
+    </Text>
+    <Text>
+      <GUID>1404009141</GUID>
+      <!-- Text | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. -->
+      <Text>採珠人使用綁在身上或下潛時抱在懷中的壓艙石，以迅速抵達海底。同伴們藉助繩索控制下潛，並幫助潛水者返回水面。這項技術需要耐力、默契配合以及對洋流的準確掌握。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009142</GUID>
+      <!-- GuildhouseItem | Gallery Foreman | Gallery Foreman -->
+      <Text>坑道工頭</Text>
+    </Text>
+    <Text>
+      <GUID>1404009143</GUID>
+      <!-- Text | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. -->
+      <Text>他負責組織採礦班組並分配任務，使每條坑道都滿載運轉。憑藉經驗，他能將停工時間降到最低，充分利用每一個採掘班次。在他的監督下，工具、工人和採出礦石的流轉始終平穩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009144</GUID>
+      <!-- GuildhouseItem | Nasrin Khatun, The Master of Clay | Nasrin Khatun, The Master of Clay -->
+      <Text>Nasrin Khatun，黏土大師</Text>
+    </Text>
+    <Text>
+      <GUID>1404009145</GUID>
+      <!-- Text | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. -->
+      <Text>納斯琳熟悉這一地區富含黏土的土地。她根據土壤的濕度和質地安排開採。她的專業知識使人們甚至能夠利用最難開採的礦床。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009146</GUID>
+      <!-- GuildhouseItem | Mining Dewatering Pump | Mining Dewatering Pump -->
+      <Text>礦場排水泵</Text>
+    </Text>
+    <Text>
+      <GUID>1404009147</GUID>
+      <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
+      <Text>積水威脅著礦井坑道，迫使許多礦場暫停開採。排水泵能夠排乾豎井，使作業區域保持暢通。使用它們便於向更深處開採，並收復原本會一直被水淹沒的地段。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
+      <Text>綠柱石礦場</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Beryl Deposit | Beryl Deposit -->
+      <Text>綠柱石礦床</Text>
+    </Text>
+    <Text>
+      <GUID>1404003907</GUID>
+      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
+      <Text>可以從這處礦床開採綠柱石，再切割成馬賽克鑲片。</Text>
     </Text>
   </ModOp>
 </ModOps>

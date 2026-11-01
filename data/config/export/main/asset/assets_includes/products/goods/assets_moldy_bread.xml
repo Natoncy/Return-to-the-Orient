@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005095</GUID>
                     <Name>Moldy Bread</Name>
-                    <IconFilename>data\ui\modgraphics\icon_moldy_bread.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_moldy_bread.png</IconFilename>
                     <InfoDescription>1404005097</InfoDescription>
                 </Standard>
                 <Locked />

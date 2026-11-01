@@ -16,7 +16,9 @@
                         <Values>
                             <Condition/>
                             <ConditionUnlocked>
-                                <UnlockNeeded>1404000786</UnlockNeeded>
+                                <!-- Marketstall: Gramophones (2.3), one stage after the Hospital (2.2), as vanilla's illness
+                                     starts with the University, one stage after the Hospital -->
+                                <UnlockNeeded>1404000366</UnlockNeeded>
                             </ConditionUnlocked>
                             <ConditionPropsNegatable/>
                         </Values>

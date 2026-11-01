@@ -157,12 +157,13 @@
                             </RequiredBuildings>
                         </Item>
                         
-                        <!-- Lifestyle -->
+                        <!-- Lifestyle: rewards on the vanilla Jornaleros scale (SupplyWeight 1-2, MoneyValue 11-16).
+                             The AGU is the count at which the good's production unlocks, like vanilla -->
                         <Item>
                             <Product>1010213</Product>
                             <Amount>0.0004</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>11</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000001</Population>
                                 <MinPopulationAmount>150</MinPopulationAmount>
@@ -185,8 +186,8 @@
                         <Item>
                             <Product>1010258</Product>
                             <Amount>0.0002</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>16</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000004</Population>
                                 <MinPopulationAmount>1750</MinPopulationAmount>
@@ -198,7 +199,7 @@
                             <Product>1010201</Product>
                             <Amount>0.00025</Amount>
                             <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <MoneyValue>11</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000001</Population>
                                 <MinPopulationAmount>1</MinPopulationAmount>
@@ -206,11 +207,24 @@
                             <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
                             <IsBonusNeed>1</IsBonusNeed>
                         </Item>
+                        <!-- Spice Powder: the Orient good of the next tier, like the Jornaleros' Felt (600 Obreros) -->
+                        <Item>
+                            <Product>1500301148</Product>
+                            <Amount>0.0002</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>14</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>600</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
                         <Item>
                             <Product>5400</Product>
                             <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>14</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>1800</MinPopulationAmount>
@@ -221,7 +235,7 @@
                         <Item>
                             <Product>5384</Product>
                             <Amount>0.00025</Amount>
-                            <SupplyWeight>1</SupplyWeight>
+                            <SupplyWeight>2</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>

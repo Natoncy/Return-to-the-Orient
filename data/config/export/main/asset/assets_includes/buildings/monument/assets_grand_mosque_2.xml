@@ -93,7 +93,7 @@
 							<StorageAmount>150</StorageAmount>
 						</Item>
 						<Item>
-							<Product>1404000241</Product>
+							<Product>1404000250</Product>
 							<Amount>5</Amount>
 							<StorageAmount>150</StorageAmount>
 						</Item>
@@ -125,7 +125,7 @@
 				<Maintenance>
 					<Maintenances>
 						<Item>
-							<Product>1404000012</Product>
+							<Product>1404000013</Product>
 							<Amount>2400</Amount>
 							<ShutdownThreshold>0.4</ShutdownThreshold>
 						</Item>
@@ -153,7 +153,11 @@
 					<MandatoryIndustrialization>0</MandatoryIndustrialization>
 				</Industrializable>
 				<QuestObject />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 	</ModOp>

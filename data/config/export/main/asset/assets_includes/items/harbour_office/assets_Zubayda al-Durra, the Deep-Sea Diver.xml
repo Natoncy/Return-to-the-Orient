@@ -1,0 +1,77 @@
+<ModOps>
+    
+    <ModOp GUID="125072" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009138</GUID>
+                    <Name>Zubayda al-Durra, the Deep-Sea Diver</Name>
+                    <IconFilename>data/graphics/icons/items/Zubayda_Al_D.png</IconFilename>
+                    <InfoDescription>1404009139</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Zubayda al-Durra, the Deep-Sea Diver</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <Allocation>HarborOffice</Allocation>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <TradePrice>390500</TradePrice>
+                    <TradePriceOnlineCurrency>10030</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>35</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1010256</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000861</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1010339</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkFemale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Hunting</Attribute>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Navigation</Attribute>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkDiver</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

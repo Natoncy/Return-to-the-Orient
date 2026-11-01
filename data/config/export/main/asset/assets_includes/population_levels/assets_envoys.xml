@@ -47,7 +47,12 @@
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
 
-                        <!-- Basic -->
+                        <!-- Basic
+                             Envoy stages (triggers 2.0-2.8): 1 / 300 / 600 / 1000 / 1500 / 2250 / 3250 / 4500 / 6000.
+                             A need shows at NoWeight + 1 and is full at the next stage.
+                             RequiredBuildings = regular Envoy residence and its two skyscraper levels:
+                             the Sultan's Palace residence (v0.7.0) gets other needs in these places
+                             (Palace radius, Incense, Turbans, Coffee House) -->
                         <Item>
                             <Product>1404000206</Product>
                             <SupplyWeight>3</SupplyWeight>
@@ -55,90 +60,73 @@
                             <FullWeightPopulationCount>300</FullWeightPopulationCount>
                             <NoWeightPopulationCount>0</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000017</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004300</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
-                            <Product>1500301148</Product>
-                            <Amount>0.00057971</Amount>
+                            <Product>1404000238</Product>
+                            <Amount>0.0004504505</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>0</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000017</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004300</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1404000253</Product>
                             <Amount>0.00055</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>2250</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
-                        </Item>
-                        <Item>
-                            <Product>1404000151</Product>
-                            <SupplyWeight>3</SupplyWeight>
-                            <MoneyValue>3</MoneyValue>
-                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                        </Item>
-                        <Item>
-                            <Product>1900100125</Product>
-                            <Amount>0.0004</Amount>
-                            <SupplyWeight>3</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>999</NoWeightPopulationCount>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                        </Item>
-                        <Item>
-                            <Product>1404000250</Product>
-                            <Amount>0.0003846155</Amount>
-                            <SupplyWeight>3</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
-                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000017</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004300</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1999005057</Product>
                             <Amount>0.0002941175</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>3000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>2399</NoWeightPopulationCount>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                        </Item>
-                        <Item>
-                            <Product>1404000241</Product>
-                            <Amount>0.00015</Amount>
-                            <SupplyWeight>3</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>4000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>3599</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>4500</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>3249</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
 
-                        <!-- Skycraper FloorLevel 1 -->
+                        <!-- Skyscraper FloorLevel 1 (level 2 house): production unlocks with 1 / 15 level 2 houses built
+                             (triggers 1404004027 / 1404004028), like vanilla's Investor skyscraper needs -->
                         <Item>
-                            <Product>1404005087</Product>
-                            <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                            <RequiredFloorLevel>1</RequiredFloorLevel>
-                        </Item>
-                        <Item>
-                            <Product>1404005131</Product>
-                            <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                            <RequiredFloorLevel>1</RequiredFloorLevel>
-                        </Item>
-                        <Item>
-                            <Product>1400201065</Product>
-                            <Amount>0.00015</Amount>
+                            <Product>1900100125</Product>
+                            <Amount>0.0004</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <IsConsideredByAI>1</IsConsideredByAI>
@@ -153,33 +141,18 @@
                             <RequiredFloorLevel>1</RequiredFloorLevel>
                         </Item>
 
-                        <!-- Skycraper FloorLevel 2 -->
+                        <!-- Skyscraper FloorLevel 2 (level 3 house): production unlocks with 1 / 15 level 3 houses built
+                             (triggers 1404004029 / 1404004030) -->
+                        <Item>
+                            <Product>1404000241</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>2</RequiredFloorLevel>
+                        </Item>
                         <Item>
                             <Product>1400201053</Product>
-                            <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                            <RequiredFloorLevel>2</RequiredFloorLevel>
-                        </Item>
-                        <Item>
-                            <Product>1400201044</Product>
-                            <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                            <RequiredFloorLevel>2</RequiredFloorLevel>
-                        </Item>
-                        <Item>
-                            <Product>1440306</Product>
-                            <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                            <RequiredFloorLevel>2</RequiredFloorLevel>
-                        </Item>
-                        <Item>
-                            <Product>1404005120</Product>
                             <Amount>0.00015</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
@@ -203,23 +176,64 @@
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
 
-                        <!-- Luxury -->
+                        <!-- Luxury: one Orient good or service per own stage, the market stalls in pairs on the
+                             stages between them. Listed Orient needs first, then the stalls.
+                             Oudh perfume (New Horizons, last ModOp below) unlocks last and is listed after the Bath House -->
                         <Item>
-                            <Product>1404000238</Product>
-                            <Amount>0.0004504505</Amount>
+                            <Product>1404000262</Product>
+                            <Amount>0.0004</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>600</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>0</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
+                        <Item>
+                            <Product>1500301148</Product>
+                            <Amount>0.00057971</Amount>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>1404000250</Product>
+                            <Amount>0.0003846155</Amount>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>2250</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>1404000151</Product>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>3</MoneyValue>
+                            <FullWeightPopulationCount>4500</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>3249</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000017</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004300</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+
+                        <!-- Luxury: market stalls -->
                         <Item>
                             <Product>1404000361</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>600</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000003</Population>
@@ -231,8 +245,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>600</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <!-- no AdditionalGlobalUnlockRequirement: it only takes a population level, not skyscrapers.
                                  Like vanilla's own High Life needs, the stall's unlock (trigger 1404001260) gates it -->
@@ -242,7 +256,7 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
+                            <FullWeightPopulationCount>1500</FullWeightPopulationCount>
                             <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <AdditionalGlobalUnlockRequirement>
@@ -255,7 +269,7 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
+                            <FullWeightPopulationCount>1500</FullWeightPopulationCount>
                             <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <AdditionalGlobalUnlockRequirement>
@@ -268,8 +282,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>3250</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>2249</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <!-- no AdditionalGlobalUnlockRequirement, see Biscuits: gated by the stall's unlock
                                  (triggers 1404001263 / 1404004024) -->
@@ -279,8 +293,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>3250</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>2249</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
@@ -292,8 +306,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>8</ResearchValue>
-                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>6000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>4499</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000004</Population>
@@ -305,30 +319,22 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>8</ResearchValue>
-                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>6000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>4499</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>6000</MinPopulationAmount>
                             </AdditionalGlobalUnlockRequirement>
                         </Item>
-                        <Item>
-                            <Product>1404000283</Product>
-                            <Amount>0.0003</Amount>
-                            <HappinessValue>8</HappinessValue>
-                            <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>3600</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                        </Item>
 
-                        <!-- Lifestyle -->
+                        <!-- Lifestyle: rewards on the vanilla Obreros scale (SupplyWeight 1-6, MoneyValue 5-58), no ResearchValue
+                             (vanilla gives that to Scholars only). The AGU is the count at which the good's production unlocks, like vanilla -->
                         <Item>
                             <Product>1010203</Product>
                             <Amount>0.0005</Amount>
                             <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <MoneyValue>5</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000001</Population>
                                 <MinPopulationAmount>300</MinPopulationAmount>
@@ -336,12 +342,25 @@
                             <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
                             <IsBonusNeed>1</IsBonusNeed>
                         </Item>
+                        <!-- Astrolabes: the late Orient good, like the Obreros' Typewriter. Production unlocks at 4000 Scholars (3.4).
+                             The AGU counts vanilla Scholars too; the locked product hides the need until 3.4 -->
+                        <Item>
+                            <Product>1404005131</Product>
+                            <Amount>0.0005</Amount>
+                            <SupplyWeight>5</SupplyWeight>
+                            <MoneyValue>35</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>118745</Population>
+                                <MinPopulationAmount>4000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
                         <Item>
                             <Product>5397</Product>
                             <Amount>0.0004</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
+                            <SupplyWeight>6</SupplyWeight>
+                            <MoneyValue>58</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>6000</MinPopulationAmount>
@@ -352,8 +371,8 @@
                         <Item>
                             <Product>5386</Product>
                             <Amount>0.0007</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>14</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>2700</MinPopulationAmount>
@@ -364,8 +383,8 @@
                         <Item>
                             <Product>114414</Product>
                             <Amount>0.0003333</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>26</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>114330</Population>
                                 <MinPopulationAmount>300</MinPopulationAmount>
@@ -376,9 +395,8 @@
                         <Item>
                             <Product>5392</Product>
                             <Amount>0.000222</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
+                            <SupplyWeight>4</SupplyWeight>
+                            <MoneyValue>30</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>4000</MinPopulationAmount>
@@ -389,9 +407,8 @@
                         <Item>
                             <Product>133532</Product>
                             <Amount>0.0003</Amount>
-                            <SupplyWeight>1</SupplyWeight>
+                            <SupplyWeight>2</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>601379</Population>
                                 <MinPopulationAmount>2000</MinPopulationAmount>
@@ -470,15 +487,17 @@
         </Item>
     </ModOp>
 
-    <!-- add Oudh Perfume if NH is present -->
-    <ModOp Type="addNextSibling" GUID="1404000011" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1400201053']" Condition="#new_horizons_session">
+    <!-- add Oudh Perfume if NH is present: the last luxury need to unlock (6000 Envoys, triggers 1404004031 / 1404004032),
+         listed after the Bath House, before the market stalls -->
+    <ModOp Type="addNextSibling" GUID="1404000011" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1404000151']" Condition="#new_horizons_session">
         <Item>
             <Product>1404005059</Product>
             <Amount>0.000222</Amount>
-            <SupplyWeight>1</SupplyWeight>
+            <HappinessValue>8</HappinessValue>
             <MoneyValue>12</MoneyValue>
+            <FullWeightPopulationCount>8000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>5999</NoWeightPopulationCount>
             <IsConsideredByAI>1</IsConsideredByAI>
-            <RequiredFloorLevel>2</RequiredFloorLevel>
         </Item>
     </ModOp>
 

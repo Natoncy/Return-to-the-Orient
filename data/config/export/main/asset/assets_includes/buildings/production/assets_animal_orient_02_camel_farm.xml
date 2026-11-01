@@ -218,7 +218,9 @@
 					<CultureType>Military</CultureType>
 				</Culture>
 				<QuestObject/>
-				<Industrializable/>
+				<Industrializable>
+					<BoostedByIndustrialization>0</BoostedByIndustrialization>
+				</Industrializable>
 				<Motorizable>
 					<MotorizableType>Silo</MotorizableType>
 				</Motorizable>

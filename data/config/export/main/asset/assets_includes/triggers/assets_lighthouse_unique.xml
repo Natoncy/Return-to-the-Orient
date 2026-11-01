@@ -1,7 +1,7 @@
 <ModOps>
 
     <!-- Oriental Lighthouse unlock. One lighthouse per island comes from BuildingUnique (TourismMonument, Area) on
-         every stage and on the completed lighthouse (mod template HarborOffice_Unique); there is no other limit.
+         every stage and on the completed lighthouse (mod template MonumentColony_ItemSocket); there is no other limit.
          1404007024 (a removed build-permit site swap) is retired here as well.
          1404007021-023 used to lock/unlock the foundation per island with island-scoped ConditionThresholds that
          registered each other. Once a completed lighthouse existed both conditions held at the same time and the

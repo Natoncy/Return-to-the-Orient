@@ -5,5 +5,10 @@
       <!-- trading_company_orient | Silver Ore Import Dock -->
       <Text>Quai d’importation : Minerai d'argent</Text>
     </Text>
+    <Text>
+      <GUID>1404003909</GUID>
+      <!-- trading_company_orient | Beryl Import Dock -->
+      <Text>Quai d’importation : Béryl</Text>
+    </Text>
   </ModOp>
 </ModOps>

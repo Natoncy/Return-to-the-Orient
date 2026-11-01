@@ -67,7 +67,7 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1404000256</Ingredient>
-                            <Amount>25</Amount>
+                            <Amount>45</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -79,6 +79,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>

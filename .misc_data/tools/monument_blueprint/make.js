@@ -1,7 +1,7 @@
 // Monument construction drawings (972x544 like vanilla, see README).
 // Phase k (asset with UpgradeTarget = stage k+1) shows the model of stage k+1, as vanilla does.
-// Usage: node make.js <monument> [outDir] [--install]   (install: copy into the mod and build _0.._3.dds with annotex)
-const fs = require('fs'), path = require('path'), { execFileSync } = require('child_process');
+// Usage: node make.js <monument> [outDir] [--install]   (install: copy the PNGs into the mod; UI images ship without .dds)
+const fs = require('fs'), path = require('path');
 const { gbuffer, extent } = require('./gbuffer.js');
 const { compose, ground } = require('./style.js');
 const { encode } = require('../ornament_icons/png.js');
@@ -83,9 +83,7 @@ for (const [nn, st] of Object.entries(M.images)) {
 if (install) {
   const dst = path.join(MOD, UI, path.dirname(M.name));
   fs.mkdirSync(dst, { recursive: true });
-  for (const f of fs.readdirSync(OUT).filter(f => /^(.*)_\d\d(_coloured)?\.png$/.exec(f)?.[1] === NAME)) {
+  for (const f of fs.readdirSync(OUT).filter(f => /^(.*)_\d\d(_coloured)?\.png$/.exec(f)?.[1] === NAME))
     fs.copyFileSync(path.join(OUT, f), path.join(dst, f));
-    execFileSync('C:/tools/annotex.exe', ['-f=diff', '-l=4', f], { cwd: dst, stdio: 'ignore' }); // writes into its cwd
-  }
   console.log('installed into ' + dst);
 }

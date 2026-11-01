@@ -5,5 +5,10 @@
       <!-- trading_company_orient | Silver Ore Import Dock -->
       <Text>가져오기 도크: 은 광석</Text>
     </Text>
+    <Text>
+      <GUID>1404003909</GUID>
+      <!-- trading_company_orient | Beryl Import Dock -->
+      <Text>가져오기 도크: 녹주석</Text>
+    </Text>
   </ModOp>
 </ModOps>

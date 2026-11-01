@@ -1,6 +1,5 @@
 <ModOps>
     <Include File="assets_ramadan.xml" />
     <Include File="assets_zuckerfest.xml" />
-    <Include File="effects/assets__index.xml" />
 
 </ModOps>

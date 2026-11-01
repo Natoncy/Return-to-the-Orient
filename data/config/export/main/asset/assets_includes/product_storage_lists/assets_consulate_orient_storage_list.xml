@@ -1,0 +1,23 @@
+<ModOps>
+
+	<!-- Storage of the Consulate (1404000204): the Sultan's Seals it hands out, like the Arctic post office's 4269 -->
+	<ModOp Type="addNextSibling" GUID="502168">
+		<Asset>
+			<Template>ProductStorageList</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000205</GUID>
+					<Name>ConsulateOrientStorageList</Name>
+				</Standard>
+				<ProductStorageList>
+					<ProductList>
+						<Item>
+							<Product>1404000207</Product>
+						</Item>
+					</ProductList>
+				</ProductStorageList>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

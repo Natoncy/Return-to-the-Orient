@@ -1,0 +1,44 @@
+{
+  "Version": "1.0",
+  "ModID": "natoncy_sharedproduct_beryl",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "sharedproduct_beryl (Natoncy)",
+    "Chinese": "sharedproduct_beryl (Natoncy)",
+    "French": "sharedproduct_beryl (Natoncy)",
+    "German": "sharedproduct_beryl (Natoncy)",
+    "Italian": "sharedproduct_beryl (Natoncy)",
+    "Japanese": "sharedproduct_beryl (Natoncy)",
+    "Korean": "sharedproduct_beryl (Natoncy)",
+    "Polish": "sharedproduct_beryl (Natoncy)",
+    "Russian": "sharedproduct_beryl (Natoncy)",
+    "Spanish": "sharedproduct_beryl (Natoncy)",
+    "Taiwanese": "sharedproduct_beryl (Natoncy)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - New product: Beryl",
+    "Chinese": null,
+    "French": null,
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Neues Produkt: Beryll",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "CreatorName": "Natoncy"
+}

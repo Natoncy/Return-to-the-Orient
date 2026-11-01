@@ -146,7 +146,7 @@
 							<StorageAmount>4</StorageAmount>
 						</Item>
 						<Item>
-							<Product>1010228</Product>
+							<Product>1404003900</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -204,7 +204,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

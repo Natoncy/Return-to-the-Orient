@@ -17,14 +17,12 @@
                         <Item>
                             <Building>119029</Building>
                         </Item>
-
                         <Item>
                             <Building>1404000016</Building>
                         </Item>
                         <Item>
                             <Building>1404000156</Building>
                         </Item>
-
                         <Item>
                             <Building>1404000147</Building>
                         </Item>
@@ -43,11 +41,6 @@
                         <Item>
                             <Building>1404000290</Building>
                         </Item>
-                        
-                        <Item>
-                            <Building>1404001249</Building>
-                        </Item>
-
                         <Item>
                             <Building>1404000376</Building>
                         </Item>
@@ -57,12 +50,17 @@
                         <Item>
                             <Building>1404001151</Building>
                         </Item>
-
                         <Item>
                             <Building>1404000203</Building>
                         </Item>
                         <Item>
                             <Building>1404000202</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404008100</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404001249</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

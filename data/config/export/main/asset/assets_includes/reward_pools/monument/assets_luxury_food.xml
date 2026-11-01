@@ -8,18 +8,18 @@
                     <GUID>1404000760</GUID>
                     <Name>Luxury Orient Food</Name>
                     <IconFilename>data/graphics/icons/monument_products/large_food.png</IconFilename>
-                    <InfoDescription>19638</InfoDescription>
+                    <InfoDescription>1404001200</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>120035</ItemLink>
+                            <ItemLink>1400201053</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>5381</ItemLink>
+                            <ItemLink>1400201056</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>5382</ItemLink>
+                            <ItemLink>1999005057</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

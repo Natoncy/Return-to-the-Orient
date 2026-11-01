@@ -16,6 +16,8 @@
                         <Values>
                             <Condition/>
                             <ConditionUnlocked>
+                                <!-- Town Hall (2.0), one stage after the Police Station (1.4), as vanilla's riots start
+                                     with the School, one stage after the Police Station -->
                                 <UnlockNeeded>1404000202</UnlockNeeded>
                             </ConditionUnlocked>
                             <ConditionPropsNegatable/>

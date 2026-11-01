@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Roses -->
+    <Text>
+      <GUID>1900100099</GUID>
+      <Text>Róże</Text>
+    </Text>
+  <!-- Roses -->
+  <!-- Rose farm -->
+    <Text>
+      <GUID>1900100082</GUID>
+      <Text>Farma róż</Text>
+    </Text>
+  <!-- Roses farm -->
+  <!-- Rose Farm Field -->
+    <Text>
+      <GUID>1900100141</GUID>
+      <Text>Pole róż</Text>
+    </Text>
+  <!-- Rose Farm Field -->
+  </ModOp>
+</ModOps>

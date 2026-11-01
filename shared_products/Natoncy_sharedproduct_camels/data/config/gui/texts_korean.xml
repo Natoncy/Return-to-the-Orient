@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000235</GUID>
+      <!-- Product | camels | Camels -->
+      <Text>낙타</Text>
+    </Text>
+    <Text>
+      <GUID>1404000236</GUID>
+      <!-- Text | camels fluff text | Built for the desert. -->
+      <Text>사막을 위해 만들어졌습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000237</GUID>
+      <!-- Text | Always finds the way to the next well. | Always finds the way to the next well. -->
+      <Text>다음 우물로 가는 길을 언제나 찾아냅니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

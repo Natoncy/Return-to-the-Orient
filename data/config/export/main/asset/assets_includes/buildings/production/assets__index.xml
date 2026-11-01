@@ -15,6 +15,7 @@
     <Include File="assets_factory_orient_01_clay_pit.xml" /> 
 
     <Include File="assets_mining_orient_01_silver_ore_mine.xml" />
+    <Include File="assets_mining_orient_02_beryl_mine.xml" />
 
     
 </ModOps>

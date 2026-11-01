@@ -205,7 +205,11 @@
 				<RecipeBuilding>
 					<RecipeList>1404005101</RecipeList>
 				</RecipeBuilding>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

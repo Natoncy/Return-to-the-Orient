@@ -119,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Mosaic Workshop</Text>
+							<Text>Date Farm</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -215,7 +215,9 @@
 					<CultureType>Landscaping</CultureType>
 				</Culture>
 				<QuestObject/>
-				<Industrializable/>
+				<Industrializable>
+					<BoostedByIndustrialization>0</BoostedByIndustrialization>
+				</Industrializable>
 				<Motorizable>
 					<MotorizableType>Tractor</MotorizableType>
 				</Motorizable>

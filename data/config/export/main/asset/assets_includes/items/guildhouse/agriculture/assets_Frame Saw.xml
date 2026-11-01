@@ -1,0 +1,55 @@
+<ModOps>
+    
+    <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009110</GUID>
+                    <Name>Frame Saw</Name>
+                    <IconFilename>data/graphics/icons/items/FrameSaw.png</IconFilename>
+                    <InfoDescription>1404009111</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Frame Saw</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>150000</TradePrice>
+                    <TradePriceOnlineCurrency>15030</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000865</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-5</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>6</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

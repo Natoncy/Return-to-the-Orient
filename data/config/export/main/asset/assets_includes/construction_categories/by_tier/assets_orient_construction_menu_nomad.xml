@@ -12,6 +12,10 @@
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
+                            <Building>1404004865</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                        <Item>
                             <Building>1404000845</Building>
                         </Item>
                         <Item>
@@ -33,6 +37,9 @@
                             <Building>1404000159</Building>
                         </Item>
                         <Item>
+                            <Building>1404000203</Building>
+                        </Item>
+                        <Item>
                             <Building>1404000215</Building>
                         </Item>
                         <Item>
@@ -48,20 +55,13 @@
                             <Building>1404009004</Building>
                         </Item>
                         <Item>
-                            <Building>1404000203</Building>
-                        </Item>
-                        <Item>
                             <Building>1404000148</Building>
                         </Item>
                         <Item>
                             <Building>1404000172</Building>
                         </Item>
                         <Item>
-                            <Building>1404008100</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004865</Building>
-                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                            <Building>1404000375</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

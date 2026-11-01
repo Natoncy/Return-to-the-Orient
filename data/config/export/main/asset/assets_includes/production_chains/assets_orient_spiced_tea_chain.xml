@@ -50,5 +50,56 @@
         </Asset>
     </ModOp>
 
+    <!-- Scholars tab copy (shown 3.1, unlocked 3.2), so the tab does not open with the Envoys' chain, like vanilla's Artista copies (6623) -->
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004880</GUID>
+                    <Name>orient scholars spiced tea chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_spiced_tea.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005020</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404000170</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>114452</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1404005090</Building>
+                                </Item>
+                                <Item>
+                                    <Building>114440</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>5463</Building>
+                        </Item>
+                        <Item>
+                            <Building>133030</Building>
+                        </Item>
+                        <Item>
+                            <Building>117744</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010266</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1400201044</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
 
 </ModOps>

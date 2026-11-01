@@ -1,22 +1,24 @@
 <ModOps>
 
 	<!-- Oriental Lighthouse monument: IAAM's lighthouse models (buildings/orient/lighthouse) as construction stages.
-	     Stage 1 Nomad goods, stage 2 Envoy goods, stage 3 late Envoy goods, then the completed lighthouse
-	     (HarborOffice template, like vanilla's tourist monument turning into a TowerRestaurant) with one socket for
-	     the mod's beacon items (allocation Mod14); assets_lighthouse_beacons.xml buffs the beacon's ship type everywhere.
-	     One per island: BuildingUnique TourismMonument (Area) on every stage and the completed one (mod template
-	     HarborOffice_Unique); the island-threshold triggers that did this before looped and are retired.
+	     Free: no build cost and no goods; each stage is 4 microphases x 5 s, so all three take 1 minute. Then the completed lighthouse
+	     with one socket for the mod's beacon items (allocation Mod14); assets_lighthouse_beacons.xml buffs the beacon's
+	     ship type everywhere. All four use mod template MonumentColony_ItemSocket (templates.xml), like vanilla's airship
+	     hangar, so each upgrade is a plain GUID change and the monument UI shows 4 phases.
+	     One per island: BuildingUnique TourismMonument (Area) on every stage and the completed one; the
+	     island-threshold triggers that did this before looped and are retired.
 	     Harbour placement like the harbour tower 1404004801: Water_Including_Coast, Orient (New World) quay, QuayArea over the
 	     whole BuildBlocker in the stage .ifo files, terrain-height adaption off in the cfgs. -->
 
 	<ModOp Type="addNextSibling" GUID='1010492'>
 		<Asset>
-			<Template>MonumentColony</Template>
+			<Template>MonumentColony_ItemSocket</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004800</GUID>
 					<Name>orient_lighthouse_0</Name>
 					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
+					<InfoDescription>1404004885</InfoDescription>
 				</Standard>
 				<Building>
 					<PickingAsset>1404004800</PickingAsset>
@@ -30,22 +32,7 @@
 					<BlockWater>1</BlockWater>
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>1500000</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1400201040</Ingredient>
-							<Amount>100</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1404009000</Ingredient>
-							<Amount>150</Amount>
-						</Item>
-					</Costs>
-				</Cost>
+				<Cost />
 				<Object>
 					<Variations>
 						<Item>
@@ -84,26 +71,14 @@
 				<FeedbackController />
 				<Infolayer />
 				<FactoryBase>
-					<FactoryInputs>
-						<Item>
-							<Product>1400201040</Product>
-							<Amount>10</Amount>
-							<StorageAmount>200</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1404009000</Product>
-							<Amount>10</Amount>
-							<StorageAmount>200</StorageAmount>
-						</Item>
-					</FactoryInputs>
-					<CycleTime>60</CycleTime>
+					<CycleTime>5</CycleTime>
 				</FactoryBase>
 				<LogisticNode>
 					<TransporterCountMax>2</TransporterCountMax>
 				</LogisticNode>
 				<Monument>
 					<UpgradeTarget>1404007000</UpgradeTarget>
-					<MicrophaseCount>20</MicrophaseCount>
+					<MicrophaseCount>4</MicrophaseCount>
 					<UnfinishedIcon>500422</UnfinishedIcon>
 					<FinishedIcon>500422</FinishedIcon>
 					<ShutdownText>6783</ShutdownText>
@@ -151,19 +126,24 @@
 					<MandatoryIndustrialization>0</MandatoryIndustrialization>
 				</Industrializable>
 				<QuestObject />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 	</ModOp>
 
 	<ModOp Type="addNextSibling" GUID='1404004800'>
 		<Asset>
-			<Template>MonumentColony</Template>
+			<Template>MonumentColony_ItemSocket</Template>
 			<Values>
 				<Standard>
 					<GUID>1404007000</GUID>
 					<Name>orient_lighthouse_1</Name>
 					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
+					<InfoDescription>1404004885</InfoDescription>
 				</Standard>
 				<Building>
 					<PickingAsset>1404004800</PickingAsset>
@@ -221,31 +201,14 @@
 				<FeedbackController />
 				<Infolayer />
 				<FactoryBase>
-					<FactoryInputs>
-						<Item>
-							<Product>1404000256</Product>
-							<Amount>10</Amount>
-							<StorageAmount>200</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1010205</Product>
-							<Amount>10</Amount>
-							<StorageAmount>200</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1400201040</Product>
-							<Amount>5</Amount>
-							<StorageAmount>100</StorageAmount>
-						</Item>
-					</FactoryInputs>
-					<CycleTime>60</CycleTime>
+					<CycleTime>5</CycleTime>
 				</FactoryBase>
 				<LogisticNode>
 					<TransporterCountMax>2</TransporterCountMax>
 				</LogisticNode>
 				<Monument>
 					<UpgradeTarget>1404007001</UpgradeTarget>
-					<MicrophaseCount>20</MicrophaseCount>
+					<MicrophaseCount>4</MicrophaseCount>
 					<UnfinishedIcon>500414</UnfinishedIcon>
 					<FinishedIcon>500418</FinishedIcon>
 					<ShutdownText>6783</ShutdownText>
@@ -293,19 +256,24 @@
 					<MandatoryIndustrialization>0</MandatoryIndustrialization>
 				</Industrializable>
 				<QuestObject />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 	</ModOp>
 
 	<ModOp Type="addNextSibling" GUID='1404007000'>
 		<Asset>
-			<Template>MonumentColony</Template>
+			<Template>MonumentColony_ItemSocket</Template>
 			<Values>
 				<Standard>
 					<GUID>1404007001</GUID>
 					<Name>orient_lighthouse_2</Name>
 					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
+					<InfoDescription>1404004885</InfoDescription>
 				</Standard>
 				<Building>
 					<PickingAsset>1404004800</PickingAsset>
@@ -363,31 +331,14 @@
 				<FeedbackController />
 				<Infolayer />
 				<FactoryBase>
-					<FactoryInputs>
-						<Item>
-							<Product>1010207</Product>
-							<Amount>10</Amount>
-							<StorageAmount>200</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1404000241</Product>
-							<Amount>5</Amount>
-							<StorageAmount>100</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1404000256</Product>
-							<Amount>5</Amount>
-							<StorageAmount>100</StorageAmount>
-						</Item>
-					</FactoryInputs>
-					<CycleTime>60</CycleTime>
+					<CycleTime>5</CycleTime>
 				</FactoryBase>
 				<LogisticNode>
 					<TransporterCountMax>2</TransporterCountMax>
 				</LogisticNode>
 				<Monument>
 					<UpgradeTarget>1404007002</UpgradeTarget>
-					<MicrophaseCount>20</MicrophaseCount>
+					<MicrophaseCount>4</MicrophaseCount>
 					<UnfinishedIcon>500415</UnfinishedIcon>
 					<FinishedIcon>500419</FinishedIcon>
 					<ShutdownText>6783</ShutdownText>
@@ -407,7 +358,7 @@
 				<Maintenance>
 					<Maintenances>
 						<Item>
-							<Product>1404000012</Product>
+							<Product>1404000013</Product>
 							<Amount>1000</Amount>
 							<ShutdownThreshold>0.4</ShutdownThreshold>
 						</Item>
@@ -435,16 +386,25 @@
 					<MandatoryIndustrialization>0</MandatoryIndustrialization>
 				</Industrializable>
 				<QuestObject />
-				<Electrifiable />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 	</ModOp>
 
-	<!-- completed: HarborOffice for its ItemContainer + Culture (item sets); the socketed item itself affects nothing here.
-	     Mod template HarborOffice_Unique adds BuildingUnique, so it stays the island's TourismMonument like the stages. -->
+	<!-- completed: same template as the stages (MonumentColony_ItemSocket), like vanilla's completed airship hangar:
+	     GUIType Guildhouse shows the socket; ItemContainer + Culture (CultureType Culture, as on the HarborOffice it
+	     used to be) carry the item sets; the socketed item itself affects nothing here. The Monument block makes it the
+	     monument UI's 4th phase, exactly like the airship hangar's 636: icon 500417/500421 (the mosque's complete) and
+	     ProgressbarHeight 150 (without it, default 0, the phase is left out: "Phase 2/3"). The demolish popup comes
+	     from the template. Variation 0 = lit, spinning beacon (what the last stage completes into, BuildModeStartVariation 0
+	     instead of random); variation 1 = beacon dark and still, switchable like residences via AllowChangeVariation. -->
 	<ModOp Type="addNextSibling" GUID='1404007001'>
 		<Asset>
-			<Template>HarborOffice_Unique</Template>
+			<Template>MonumentColony_ItemSocket</Template>
 			<Values>
 				<Standard>
 					<GUID>1404007002</GUID>
@@ -457,6 +417,8 @@
 					<PickingAsset>1404004800</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<AllowChangeVariation>1</AllowChangeVariation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
 				</Building>
 				<Blocking>
@@ -470,9 +432,23 @@
 						<Item>
 							<Filename>data/graphics/buildings/orient/lighthouse/iaam/orient/005kustengebaude/leuchtturm/stufe04/leuchtturm04.cfg</Filename>
 						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/lighthouse/iaam/orient/005kustengebaude/leuchtturm/stufe04/leuchtturm04_off.cfg</Filename>
+						</Item>
 					</Variations>
 				</Object>
 				<Mesh />
+				<Selection>
+					<GUIType>Guildhouse</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
 				<Text>
 					<LocaText>
 						<English>
@@ -483,6 +459,13 @@
 				</Text>
 				<Constructable />
 				<Locked />
+				<SoundEmitter>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
 				<FeedbackController />
 				<Infolayer />
 				<ItemContainer>
@@ -500,7 +483,15 @@
 				</Attackable>
 				<Pausable />
 				<Maintenance />
-				<Culture />
+				<Culture>
+					<CultureType>Culture</CultureType>
+				</Culture>
+				<Monument>
+					<UnfinishedIcon>500417</UnfinishedIcon>
+					<FinishedIcon>500421</FinishedIcon>
+					<MonumentHeadline>1404007002</MonumentHeadline>
+					<ProgressbarHeight>150</ProgressbarHeight>
+				</Monument>
 				<BuildingUnique>
 					<Uniques>
 						<Item>
@@ -509,6 +500,15 @@
 						</Item>
 					</Uniques>
 				</BuildingUnique>
+				<Industrializable>
+					<MandatoryIndustrialization>0</MandatoryIndustrialization>
+				</Industrializable>
+				<QuestObject />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 	</ModOp>

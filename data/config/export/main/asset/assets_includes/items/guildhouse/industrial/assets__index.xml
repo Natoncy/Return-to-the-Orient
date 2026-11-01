@@ -25,5 +25,20 @@
 	<Include File="assets_Aisha bint Marwan, Pearlsmith of Bahrain.xml" />
 	<Include File="assets_Abdul Rahman al-Haddad, The Weigher of a Thousand Spices.xml" />
 	<Include File="assets_Zayn al-Qadir, Allergic to Spicy Food.xml" />
+	<Include File="assets_Spice Supply Decree.xml" />
+	<Include File="assets_Jalaluddin al-Qahwa, The Master of Spices.xml" />
+	<Include File="assets_Sehrazat Hanim, the Lady of Sugar.xml" />
+	<Include File="assets_Mercury Thermometer.xml" />
+	<Include File="assets_Baha al-Din al-Fustuq, The Roasting Alchemist.xml" />
+	<Include File="assets_Iron Roasting Drum.xml" />
+	<Include File="assets_Mahinbanu Khatun, the Shah's Personal Confectioner.xml" />
+	<Include File="assets_Tin-Lined Copper Cauldron.xml" />
+	<Include File="assets_Iskandar ibn Faraj, Chemistry Expert.xml" />
+	<Include File="assets_Daryush Mehrzad, Tireless Foreman.xml" />
+	<Include File="assets_Lead Chamber.xml" />
+	<Include File="assets_Bahram ibn Kaveh, Obsessive Smelter.xml" />
+	<Include File="assets_Gallery Foreman.xml" />
+	<Include File="assets_Nasrin Khatun, The Master of Clay.xml" />
+	<Include File="assets_Mining Dewatering Pump.xml" />
 
 </ModOps>

@@ -209,7 +209,11 @@
 					<Attractiveness>0</Attractiveness>
 				</Culture>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 				<RecipeBuilding>
 					<RecipeList>1404000313</RecipeList>
@@ -220,14 +224,14 @@
 
 	<ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
-			<GUID>1404000317</GUID>
+			<GUID>1404000321</GUID>
 		</Item>
 	</ModOp>
 
 	<!-- WorkforceMenu/BoostableFactories -->
 	<ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
 		<Item>
-			<Factory>1404000317</Factory>
+			<Factory>1404000321</Factory>
 		</Item>
 	</ModOp>
 

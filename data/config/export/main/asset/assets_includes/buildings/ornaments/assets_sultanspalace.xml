@@ -67,7 +67,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/haupthaus.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sultanspalace/haupthaus.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -194,7 +194,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/wohnflugel/wohnflugel.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sultanspalace/wohnflugel/wohnflugel.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -269,7 +269,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/bogengang/bogengang.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sultanspalace/bogengang/bogengang.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -349,7 +349,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/torhaus/torhaus.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sultanspalace/torhaus/torhaus.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -424,7 +424,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/eckturm/eckturm.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sultanspalace/eckturm/eckturm.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -499,7 +499,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/eckflugel/eckflugel.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sultanspalace/eckflugel/eckflugel.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>

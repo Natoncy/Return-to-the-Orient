@@ -3445,7 +3445,7 @@
 <IdCounter>204</IdCounter>
 <SplineData></SplineData>
 <FeedbackDefinition><FeedbackConfigs><i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ш^ЇSяяяящ^ЇS   ш^ЇSяяяящ^ЇS   ш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -3574,7 +3574,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[8   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяянЊ яяяяоЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[8   ш^ЇSяяяящ^ЇS   ш^ЇSяяяящ^ЇS   ш^ЇSяяяяю^ЇSяяяяю^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -3703,7 +3703,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   Ј’ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   _ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -3832,7 +3832,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   бB яяяязB яяяяvЉ яяяяyЉ яяяяzЉ яяяя{Љ яяяя~Љ яяяяЂЉ яяяяэ яяяяю яяяяя яяяя  яяяя яяяяф  яяяях  яяяяпЌ яяяяХЌ яяяяйЊ яяяялЊ яяяямЊ яяяяоЊ яяяяпЊ яяяяг‘ яяяяд‘ яяяяю яяяяя яяяяя яяяяя яяяяю яяяяю яяяя  яяяя  яяяя  яяяя  яяяя  яяяя	  яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   _ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя  яяяя яяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяяэ^ЇSяяяя _ЇSяяяя _ЇSяяяяю^ЇSяяяяя^ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -3961,7 +3961,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[`   бB яяяяvЉ яяяяwЉ яяяяэ яяяяю яяяяя яяяя  яяяя яяяянЊ яяяяоЊ яяяяпЊ яяяярЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[`   _ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя  яяяя яяяяю^ЇSяяяяю^ЇSяяяяя^ЇSяяяяя^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -4099,7 +4099,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[€   бB яяяязB яяяяwЉ яяяяyЉ яяяя}Љ яяяя~Љ яяяяЉ яяяяЂЉ яяяяэ яяяяю яяяяя яяяя  яяяя яяяянЊ яяяяоЊ яяяяпЊ яяяярЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[€   _ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя  яяяя яяяяю^ЇSяяяяю^ЇSяяяяя^ЇSяяяяя^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -4236,7 +4236,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяяш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -4365,7 +4365,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[@   "Љ    #Љ    г‘ яяяяд‘ яяяяг‘ яяяяд‘ яяяяд‘ яяяяг‘ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[@   _ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -4494,7 +4494,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   ћЏ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   я^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -4639,8 +4639,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   (В    (В 	   (В 
-   (В    (В    ]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   я^ЇSяяяяя^ЇSяяяяя^ЇSяяяяя^ЇSяяяяю^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -5164,7 +5163,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ш^ЇSяяяящ^ЇS   ш^ЇSяяяящ^ЇS   ш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -5385,7 +5384,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ш^ЇSяяяящ^ЇS   ш^ЇSяяяящ^ЇS   ш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -5600,7 +5599,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяяш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -5829,7 +5828,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[    г‘ яяяяд‘ яяяяд‘ яяяяг‘ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[    _ЇSяяяя_ЇSяяяя_ЇSяяяя_ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -6078,7 +6077,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   шЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяяш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -6295,7 +6294,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   : яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   _ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -6424,7 +6423,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   9 яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   _ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -6562,7 +6561,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[(   mB яяяя§Ќ яяяяЁЌ яяяяmB яяяяmB яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[(   ОB яяяяОB яяяяОB яяяяОB яяяяОB яяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>

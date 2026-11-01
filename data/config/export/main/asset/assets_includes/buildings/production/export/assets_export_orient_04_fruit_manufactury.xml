@@ -183,7 +183,7 @@
 							<InactiveAmount>175</InactiveAmount>
 						</Item>
 						<Item>
-							<Product>1404000012</Product>
+							<Product>1404000013</Product>
 							<Amount>55</Amount>
 						</Item>
 					</Maintenances>
@@ -214,7 +214,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

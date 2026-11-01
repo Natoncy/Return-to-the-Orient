@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005122</GUID>
                     <Name>orient arak chain</Name>
-                    <IconFilename>data\ui\modgraphics\icon_arak.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_arak.png</IconFilename>
                 </Standard>
                 <ProductionChain>
                     <Building>1404005121</Building>

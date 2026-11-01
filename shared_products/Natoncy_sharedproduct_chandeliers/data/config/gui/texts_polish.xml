@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000241</GUID>
+      <!-- Product | chandeliers | Chandeliers -->
+      <Text>Żyrandole</Text>
+    </Text>
+    <Text>
+      <GUID>1404000242</GUID>
+      <!-- Text | chandeliers fluff text | Lights that turn any hall into a palace. -->
+      <Text>Światła, które zamienią każdą salę w pałac.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000243</GUID>
+      <!-- Text | Enough light to stitch a wound in the darkest night. | Enough light to stitch a wound in the darkest night. -->
+      <Text>Dość światła, by zszyć ranę w najciemniejszą noc.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

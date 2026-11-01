@@ -8,7 +8,7 @@ Plain Node.js, no packages. Scene loading, meshes and textures come from `../orn
 
 - `node make.js lighthouse` or `node make.js grand_mosque` writes the PNGs into `out/` (git-ignored).
 - `--install` also copies them into `data/ui/2kimages/main/assets16/monument_construction/` (the lighthouse into
-  `orient_lighthouse/`) and builds `_0.dds` to `_3.dds` with annotex.
+  `orient_lighthouse/`). It builds no `_0.dds` to `_3.dds`: UI images ship as .png only (user rule, 2026-10-30).
 - Another monument: add an entry to `MONUMENTS` in `make.js` (stage cfgs, image numbers, camera, framing).
 
 ## The monuments
@@ -21,7 +21,7 @@ Plain Node.js, no packages. Scene loading, meshes and textures come from `../orn
 
 ## How it matches vanilla
 
-- 972x544 RGBA, like every vanilla monument image. The annotex `_0.dds` is 706260 bytes, the same as vanilla.
+- 972x544 RGBA, like every vanilla monument image. An annotex `_0.dds` of it would be 706260 bytes, the same as vanilla.
 - Pure elevation (orthographic, elevation 0°), game handedness (x mirrored).
   Geometry below y = 0 is cut off, because the terrain hides it.
 - Framing: the finished model's top and y = 0 sit on fixed rows, centred, at most 860–877 px wide (the World's Fair spans 877).

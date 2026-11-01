@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000253</GUID>
+      <!-- Product | kaftans | Kaftans -->
+      <Text>カフタン</Text>
+    </Text>
+    <Text>
+      <GUID>1404000254</GUID>
+      <!-- Text | kaftans fluff text | Flowing garments suited to both comfort and status. -->
+      <Text>快適さとステータスの両方に適した、流れるような衣服。</Text>
+    </Text>
+    <Text>
+      <GUID>1404000255</GUID>
+      <!-- Text | Keeps out the sun by day and the cold by night. | Keeps out the sun by day and the cold by night. -->
+      <Text>昼は日差しを、夜は寒さを防ぐ。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -52,7 +52,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114356</Ingredient>
+                            <Ingredient>1400201040</Ingredient>
                             <Amount>150</Amount>
                         </Item>
                         <Item>
@@ -100,6 +100,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
                             <Amount>30</Amount>
                         </Item>
                     </Costs>

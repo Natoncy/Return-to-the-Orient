@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000241</GUID>
+      <!-- Product | chandeliers | Chandeliers -->
+      <Text>シャンデリア</Text>
+    </Text>
+    <Text>
+      <GUID>1404000242</GUID>
+      <!-- Text | chandeliers fluff text | Lights that turn any hall into a palace. -->
+      <Text>あらゆるホールを宮殿に変える照明。</Text>
+    </Text>
+    <Text>
+      <GUID>1404000243</GUID>
+      <!-- Text | Enough light to stitch a wound in the darkest night. | Enough light to stitch a wound in the darkest night. -->
+      <Text>真っ暗な夜でも傷口を縫えるほどの明るさ。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

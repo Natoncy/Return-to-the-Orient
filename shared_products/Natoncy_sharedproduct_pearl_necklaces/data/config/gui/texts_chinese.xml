@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000262</GUID>
+      <!-- Product | pearl necklaces | Pearl Necklaces -->
+      <Text>珍珠项链</Text>
+    </Text>
+    <Text>
+      <GUID>1404000263</GUID>
+      <!-- Text | pearl necklaces fluff text | Treasures drawn from the ocean’s depths. -->
+      <Text>从海洋深处取出的宝藏。</Text>
+    </Text>
+    <Text>
+      <GUID>1404000264</GUID>
+      <!-- Text | Opens doors that no sword can. | Opens doors that no sword can. -->
+      <Text>能打开任何刀剑都打不开的门。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -144,7 +144,7 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1404005079</Product>
+							<Product>1010226</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -154,7 +154,7 @@
 							<StorageAmount>4</StorageAmount>
 						</Item>
 						<Item>
-							<Product>1010226</Product>
+							<Product>1404005079</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -215,7 +215,11 @@
 				<RecipeBuilding>
 					<RecipeList>1404005101</RecipeList>
 				</RecipeBuilding>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

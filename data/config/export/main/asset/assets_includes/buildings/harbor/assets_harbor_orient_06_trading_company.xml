@@ -245,6 +245,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -314,6 +319,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -415,6 +425,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -510,6 +525,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -605,6 +625,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -700,6 +725,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -795,6 +825,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 
@@ -890,6 +925,11 @@
 					</Maintenances>
 				</Maintenance>
 				<Locked />
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 			</Values>
 		</Asset>
 

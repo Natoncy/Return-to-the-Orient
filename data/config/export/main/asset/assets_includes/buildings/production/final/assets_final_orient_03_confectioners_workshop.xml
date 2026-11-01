@@ -119,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Mosaic Workshop</Text>
+							<Text>Confectioner's Workshop</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -209,7 +209,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

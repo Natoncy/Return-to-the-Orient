@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005115</GUID>
                     <Name>alembics</Name>
-                    <IconFilename>data/ui/modgraphics/icon_alembic.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_alembic.png</IconFilename>
                     <InfoDescription>1404005116</InfoDescription>
                 </Standard>
                 <Locked />

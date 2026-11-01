@@ -35,19 +35,7 @@
                                                 <Asset>1404001230</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404001231</Asset>
-                                            </Item>
-                                            <Item>
                                                 <Asset>1404001232</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000202</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000584</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000585</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1404000765</Asset>
@@ -64,379 +52,136 @@
                                             <Item>
                                                 <Asset>1404000871</Asset>
                                             </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404000777</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000372</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404005078</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404005104</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404004121</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000586</Asset>
+                                            </Item>
                                             <Item>
                                                 <Asset>1404000380</Asset>
                                             </Item>
-                                            <Item>
-                                                <Asset>1404004200</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004201</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004202</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004203</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004205</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004850</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004851</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004852</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004207</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004208</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004209</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004210</Asset>
-                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
                                             <Item>
                                                 <Asset>1404004800</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404004801</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004211</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004212</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004213</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004214</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004215</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004217</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404004216</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000772</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000763</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000381</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404001112</Asset>
-                                            </Item>
-                                            <Item>
                                                 <Asset>1404001151</Asset>
                                             </Item>
-                                        </UnhideAssets>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                    <ResetTrigger>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <EmptyAutoCreateValue/>
-                        </Values>
-                    </ResetTrigger>
-                </Trigger>
-                <TriggerSetup/>
-            </Values>
-        </Asset>
-
-
-
-        <!-- Export goods for other regions' needs -->
-
-
-        <!-- Export: Roasted Chickpeas for 400 Shepherds, need in assets_needs.xml -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404004011</GUID>
-                    <Name>Intermediate Orient 2.1 Roasted Chickpeas</Name>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition/>
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>1404000011</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>114329</Context>
-                                                    <CounterAmount>400</CounterAmount>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
-                    </SubTriggers>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action/>
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
                                             <Item>
-                                                <Asset>1404005104</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                    <ResetTrigger>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <EmptyAutoCreateValue/>
-                        </Values>
-                    </ResetTrigger>
-                </Trigger>
-                <TriggerSetup/>
-            </Values>
-        </Asset>
-
-        <!-- Export: Hummus for 1500 Artisans, need in assets_needs.xml -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404004013</GUID>
-                    <Name>Intermediate Orient 2.1 Hummus</Name>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition/>
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>1404000011</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15000002</Context>
-                                                    <CounterAmount>1500</CounterAmount>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
-                    </SubTriggers>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action/>
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>1404005078</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                    <ResetTrigger>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <EmptyAutoCreateValue/>
-                        </Values>
-                    </ResetTrigger>
-                </Trigger>
-                <TriggerSetup/>
-            </Values>
-        </Asset>
-
-        <!-- Export: Astrolabes for 3000 Engineers, need in assets_needs.xml -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404004026</GUID>
-                    <Name>Intermediate Orient 2.1 Astrolabes</Name>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition/>
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>1404000011</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15000003</Context>
-                                                    <CounterAmount>3000</CounterAmount>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
-                    </SubTriggers>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action/>
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets>
-                                            <Item>
-                                                <Asset>1404005132</Asset>
-                                            </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets/>
-                                    </ActionUnlockAsset>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                    </TriggerActions>
-                    <ResetTrigger>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <EmptyAutoCreateValue/>
-                        </Values>
-                    </ResetTrigger>
-                </Trigger>
-                <TriggerSetup/>
-            </Values>
-        </Asset>
-
-        <!-- Export: Candied Dates for 1000 Obreras (unhide) -->
-        <Asset>
-            <Template>Trigger</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404004014</GUID>
-                    <Name>Intermediate Orient 2.1 Candied Dates</Name>
-                </Standard>
-                <Trigger>
-                    <TriggerCondition>
-                        <Template>ConditionPlayerCounter</Template>
-                        <Values>
-                            <Condition/>
-                            <ConditionPlayerCounter>
-                                <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                <Context>1404000011</Context>
-                                <CounterAmount>300</CounterAmount>
-                            </ConditionPlayerCounter>
-                        </Values>
-                    </TriggerCondition>
-                    <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15000006</Context>
-                                                    <CounterAmount>1000</CounterAmount>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
-                    </SubTriggers>
-                    <TriggerActions>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionUnlockAsset</Template>
-                                <Values>
-                                    <Action/>
-                                    <ActionUnlockAsset>
-                                        <UnlockAssets/>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>1404005036</Asset>
+                                                <Asset>1404004205</Asset>
                                             </Item>
                                         </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+
+
+        <!-- Vanilla population unlocks -->
+
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001260</GUID>
+                    <Name>Intermediate Orient 2.1 Biscuits</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>300</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <!-- 15 Investor skyscrapers level 2 built, as vanilla "skyscraper unlocks 1.3" (136120) unlocks biscuits -->
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>ObjectBuilt</PlayerCounter>
+                                                    <Context>601883</Context>
+                                                    <CounterAmount>15</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionIsDLCActive</Template>
+                                            <Values>
+                                                <Condition/>
+                                                <ConditionIsDLCActive>
+                                                    <DLCAssetList>
+                                                        <Item>
+                                                            <DLCAsset>410085</DLCAsset>
+                                                        </Item>
+                                                    </DLCAssetList>
+                                                </ConditionIsDLCActive>
+                                                <ConditionPropsNegatable/>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404000773</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets/>
                                     </ActionUnlockAsset>
                                 </Values>
                             </TriggerAction>

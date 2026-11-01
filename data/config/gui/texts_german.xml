@@ -786,6 +786,11 @@
       <Text>Das Siegel des Sultans auf offiziellen Dokumenten hat im Sultanat großes Gewicht.</Text>
     </Text>
     <Text>
+      <GUID>1404000287</GUID>
+      <!-- Text | No harbour master dares to question the Sultan's seal. | No harbour master dares to question the Sultan's seal. -->
+      <Text>Kein Hafenmeister wagt es, das Siegel des Sultans anzuzweifeln.</Text>
+    </Text>
+    <Text>
       <GUID>1404000288</GUID>
       <!-- Product | Coffee House | Coffee House -->
       <Text>Kaffeehaus</Text>
@@ -3432,13 +3437,13 @@
     </Text>
     <Text>
       <GUID>1404001195</GUID>
-      <!-- Text | Nibbles and canapés | Nibbles and canapés -->
-      <Text>Häppchen und Canapés</Text>
+      <!-- Text | Nibbles and canapés | Provisions for the road -->
+      <Text>Proviant für den Weg</Text>
     </Text>
     <Text>
       <GUID>1404001196</GUID>
-      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. -->
-      <Text>Besucher kleinerer Ausstellungen genießen in der Regel ein paar Häppchen und Canapés, während sie durch die Ausstellung schlendern.</Text>
+      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Pilgrims on the road are grateful for a handful of dates and roasted chickpeas to keep them going. -->
+      <Text>Pilger auf der Reise sind dankbar für eine Handvoll Datteln und geröstete Kichererbsen, die sie bei Kräften halten.</Text>
     </Text>
     <Text>
       <GUID>1404001197</GUID>
@@ -3447,8 +3452,8 @@
     </Text>
     <Text>
       <GUID>1404001198</GUID>
-      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Large displays of savoury meals are essential to welcoming many visitors. -->
-      <Text>Ein reichhaltiges Angebot an herzhaften Speisen ist unerlässlich, um viele Besucher willkommen zu heißen.</Text>
+      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Generous platters of hummus and marzipan are essential to welcoming many pilgrims. -->
+      <Text>Reich gedeckte Platten mit Hummus und Marzipan sind unerlässlich, um viele Pilger willkommen zu heißen.</Text>
     </Text>
     <Text>
       <GUID>1404001199</GUID>
@@ -3477,8 +3482,8 @@
     </Text>
     <Text>
       <GUID>1404001204</GUID>
-      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. -->
-      <Text>Es gibt keine bessere Möglichkeit, anspruchsvolle Gäste zu begeistern, als ihnen eine Auswahl an hochwertigen alkoholischen Getränken anzubieten.</Text>
+      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | Nothing refreshes weary pilgrims like cool pomegranate juice and fragrant spiced tea. -->
+      <Text>Nichts erfrischt müde Pilger so wie kühler Granatapfelsaft und duftender Gewürztee.</Text>
     </Text>
     <Text>
       <GUID>1404001205</GUID>
@@ -3497,8 +3502,8 @@
     </Text>
     <Text>
       <GUID>1404001208</GUID>
-      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. -->
-      <Text>Ein Hauch von Farbe kann die Welt verändern, und ein hüpfender Ball hat etwas an sich, das es unmöglich macht, ihm nicht einen kräftigen Tritt zu versetzen.</Text>
+      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | Sturdy camels for the caravan and a prayer rug for every halt: simple things that mean a great deal to a pilgrim. -->
+      <Text>Kräftige Kamele für die Karawane und ein Gebetsteppich für jede Rast: einfache Dinge, die einem Pilger viel bedeuten.</Text>
     </Text>
     <Text>
       <GUID>1404001209</GUID>
@@ -3507,8 +3512,8 @@
     </Text>
     <Text>
       <GUID>1404001210</GUID>
-      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>Schaut euch nur diese fantastischen, federleichten Kostüme an – Karneval und Chaos vermischen sich auf den Straßen, unterbrochen vom gelegentlichen „Thwack!“ eines Balls, der auf den Boden aufschlägt.</Text>
+      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Fine kaftans for the feast days and a hookah to share in the evening turn the long road into a celebration. -->
+      <Text>Feine Kaftane für die Festtage und eine Shisha am Abend machen den langen Weg zu einem Fest.</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3517,8 +3522,8 @@
     </Text>
     <Text>
       <GUID>1404001212</GUID>
-      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. -->
-      <Text>All die neuesten, von geschickten Händen geschaffenen Kostbarkeiten – süße Düfte, die in der Luft verweilen, der Klang von Musik, kunstvolle Masken, all dies begleitet das Meer aus Gesichtern, das sich dieser Maskerade anschließt.</Text>
+      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | Precious oudh perfume, fine turbans and ornate hookahs, crafted by skilled hands, fill the courtyards with splendour and sweet scents. -->
+      <Text>Kostbares Oudh-Parfum, feine Turbane und kunstvolle Shishas aus geschickten Händen erfüllen die Höfe mit Pracht und süßen Düften.</Text>
     </Text>
     <Text>
       <GUID>1404001213</GUID>
@@ -3544,6 +3549,11 @@
       <GUID>1404001217</GUID>
       <!-- RewardPool | Luxury Orient Decoration | Luxury Orient Decoration -->
       <Text>Luxuriöse orientalische Dekoration</Text>
+    </Text>
+    <Text>
+      <GUID>1404004893</GUID>
+      <!-- RewardPool | Correct Orient Decoration | Orient Decoration -->
+      <Text>Orientalische Dekoration</Text>
     </Text>
     <Text>
       <GUID>1404001218</GUID>
@@ -4298,7 +4308,7 @@
     <Text>
       <GUID>1404001435</GUID>
       <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
-      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+      <Text>Halten Sie in der Region:&lt;br/&gt;weniger als [Conditions QuestCondition Amount] % der [AssetData([Conditions QuestCondition Context]) Text]-Versorgung für [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
     </Text>
     <Text>
       <GUID>1404001436</GUID>
@@ -4568,7 +4578,7 @@
     <Text>
       <GUID>1404001493</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] fragt, ob sie bereit sind, von Bord zu gehen.</Text>
     </Text>
     <Text>
       <GUID>1404001494</GUID>
@@ -5073,17 +5083,17 @@
     <Text>
       <GUID>1404001602</GUID>
       <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
-      <Text>Pick up the gift offered by your resident</Text>
+      <Text>Holen Sie sich das Geschenk Ihres Einwohners ab.</Text>
     </Text>
     <Text>
       <GUID>1404001603</GUID>
-      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
-      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+      <!-- Text | RQ_Farmers_DigField_HintText | My climbing harness is finished! Take one from the box beside me, and even the highest dates will be within your reach. -->
+      <Text>Mein Klettergurt ist fertig! Nehmen Sie einen aus der Kiste neben mir, und selbst die höchsten Datteln sind in Ihrer Reichweite.</Text>
     </Text>
     <Text>
       <GUID>1404001604</GUID>
       <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
-      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+      <Text>Nehmen Sie das Geschenk auf, indem Sie auf die Kiste neben dem Einwohner mit der Aufgabe klicken.</Text>
     </Text>
     <Text>
       <GUID>1404001605</GUID>
@@ -5182,8 +5192,8 @@
     </Text>
     <Text>
       <GUID>1404001624</GUID>
-      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
-      <Text>Bitte, ein Foto von uns im Zoo! Wir haben vielleicht nie wieder Gelegenheit dazu, wo unser kleiner Timothy doch so krank ist.</Text>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Lions, parrots and elephants, all in one garden? Bring me a picture of this marvel, so that I may believe it! -->
+      <Text>Löwen, Papageien und Elefanten, alle in einem Garten? Bringen Sie mir ein Bild von diesem Wunder, damit ich es glauben kann!</Text>
     </Text>
     <Text>
       <GUID>1404001625</GUID>
@@ -5238,7 +5248,7 @@
     <Text>
       <GUID>1404001635</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] fragt, ob Sie bereit sind, die Ladung aufzunehmen.</Text>
     </Text>
     <Text>
       <GUID>1404001636</GUID>
@@ -5248,12 +5258,12 @@
     <Text>
       <GUID>1404001637</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
-      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+      <Text>Bringen Sie ein Schiff an die angeforderte Position. Sie finden es, indem Sie auf die Aufgabe in der Spielwelt klicken.</Text>
     </Text>
     <Text>
       <GUID>1404001638</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
-      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+      <Text>Vermeiden Sie es, in den Sichtbereich der Patrouille zu gelangen, sonst wird sie Sie angreifen. Je kleiner und schneller das Schiff ist, das Sie für diese Aufgabe wählen, desto höher ist Ihre Chance auf Erfolg.</Text>
     </Text>
     <Text>
       <GUID>1404001639</GUID>
@@ -5263,7 +5273,7 @@
     <Text>
       <GUID>1404001640</GUID>
       <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] bietet Ihnen eine Schmuggelaufgabe an.</Text>
     </Text>
     <Text>
       <GUID>1404001641</GUID>
@@ -5736,9 +5746,49 @@
       <Text>Orientalische Mauerverbindung</Text>
     </Text>
     <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>Zerkleinertes Erz, in Öl aufgeschwemmt und für die Schmelze abgeschöpft.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>Der Orientalische Leuchtturm wird in mehreren Phasen errichtet. Nach seiner Vollendung können Leuchtfeuer eingesetzt werden, die jeweils alle Ihre Schiffe eines Typs in allen Regionen stärken. Pro Insel kann nur ein Leuchtturm gebaut werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>Lagert Kichererbsen als Futter für Ihre Kamele und steigert die Produktivität der Farm.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>Geborgen aus dem Sand von Wadi Al Zahir, wo einst die Karawanen vergangener Zeiten rasteten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>Reliquien von Propheten, Gelehrten und Märtyrern, geborgen aus dem Sand von Wadi Al Zahir.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>Im heiligen Monat fasten die Gläubigen von der Morgendämmerung bis zur Abenddämmerung, und die ganze Stadt wartet auf den Gebetsruf bei Sonnenuntergang.</Text>
+    </Text>
+    <Text>
       <GUID>1404004890</GUID>
       <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
       <Text>Die Große Moschee wird in mehreren Phasen errichtet. Nach ihrer Vollendung empfängt sie Pilger aus allen Winkeln des Sultanats. Richten Sie prächtige Pilgerfahrten aus, und die Gläubigen verschaffen Ihnen Einfluss am Hof des Sultans.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>Wenn das Fasten gebrochen wird, besuchen sich die Familien mit Süßigkeiten, und kein Nachbar bleibt ohne Geschenk.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>Frisches Wasser aus den Kanälen.</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -6696,6 +6746,11 @@
       <Text>Verringert den Verbrauch an lokalen Waren für Beduinen</Text>
     </Text>
     <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>Dekoratives Beduinenlager</Text>
+    </Text>
+    <Text>
       <GUID>1404008110</GUID>
       <!-- EffectContainer | Camel Breeding | Camel Breeding -->
       <Text>Kamelzucht</Text>
@@ -6769,6 +6824,261 @@
       <GUID>1404009002</GUID>
       <!-- FarmBuilding | Rammed Earth Farm | Rammed Earth Farm -->
       <Text>Stampflehmhof</Text>
+    </Text>
+    <Text>
+      <GUID>1404009100</GUID>
+      <!-- GuildhouseItem | Nadira al-Lawz, The Lady of the Almond Grove | Nadira al-Lawz, The Lady of the Almond Grove -->
+      <Text>Nadira al-Lawz, Herrin des Mandelhains</Text>
+    </Text>
+    <Text>
+      <GUID>1404009101</GUID>
+      <!-- Text | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. -->
+      <Text>Zwischen Mandelbäumen geboren, lernte Nadira schon als Kind die Geheimnisse des Veredelns und Beschneidens. Mit Geduld gelang es ihr, Bäume wiederzubeleben, die andere längst aufgegeben hatten. Ihre Ernten wurden bald zum Vorbild für die benachbarten Bauern. Heute blüht ihr Wissen in jedem Obstgarten, der ihrer Obhut anvertraut wird.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009102</GUID>
+      <!-- GuildhouseItem | Decree on the Grafting and Pruning of Fruit Trees | Decree on the Grafting and Pruning of Fruit Trees -->
+      <Text>Erlass über das Veredeln und Beschneiden von Obstbäumen</Text>
+    </Text>
+    <Text>
+      <GUID>1404009103</GUID>
+      <!-- Text | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. -->
+      <Text>Angesichts der geringen Erträge vieler Landgüter führten die Landwirtschaftsbehörden neue Maßnahmen zur besseren Pflege der Obstbäume ein. Die Auswahl der Äste, das Aufpfropfen widerstandsfähiger Sorten und der regelmäßige Schnitt rückten in den Mittelpunkt der Feldarbeit. Obwohl manche Besitzer den neuen Vorschriften zunächst misstrauten, überzeugten sie am Ende die Ergebnisse.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009104</GUID>
+      <!-- GuildhouseItem | Leyla al-Harir, the Mistress of the Cocoon | Leyla al-Harir, the Mistress of the Cocoon -->
+      <Text>Leyla al-Harir, Herrin der Kokons</Text>
+    </Text>
+    <Text>
+      <GUID>1404009105</GUID>
+      <!-- Text | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. -->
+      <Text>Leyla wuchs in einer Familie von Seidenerzeugern auf und entdeckte bald ihr besonderes Talent für die Zucht von Seidenraupen. Während andere durch Nachlässigkeit ganze Ernten verloren, brachte sie stets eine Fülle hochwertiger Kokons hervor. Man sagt, sie könne den Erfolg einer Ernte allein am Anblick der Maulbeerbäume ablesen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009106</GUID>
+      <!-- GuildhouseItem | Steam boilers for silk reeling | Steam boilers for silk reeling -->
+      <Text>Dampfkessel zum Abhaspeln von Seide</Text>
+    </Text>
+    <Text>
+      <GUID>1404009107</GUID>
+      <!-- Text | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. -->
+      <Text>Heißes Wasser löst den natürlichen Seidenleim der Kokons, sodass sich ihre hauchfeinen Fäden abwickeln lassen. Dampf hilft, die Temperatur gleichmäßig zu halten. Die erfolgreicheren Erzeuger übernahmen dieses Verfahren, um gleichmäßigere Fäden zu gewinnen. Die so entstandene Seide eroberte neue Märkte, ohne ihren zarten Glanz zu verlieren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009108</GUID>
+      <!-- GuildhouseItem | Khalil al-Najjar, the Woodcutter of the Oases | Khalil al-Najjar, The Woodcutter of the Oases -->
+      <Text>Khalil al-Najjar, Holzfäller der Oasen</Text>
+    </Text>
+    <Text>
+      <GUID>1404009109</GUID>
+      <!-- Text | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. -->
+      <Text>Khalil erlernte sein Handwerk bei den Holzfällern seines Dorfes, wo Holz knapp war und jeder Stamm bis zum Letzten genutzt werden musste. Er kennt die Schwachstellen der Palmen und weiß, wie man sie fällt, ohne Material zu verschwenden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009110</GUID>
+      <!-- GuildhouseItem | Frame Saw | Frame Saw -->
+      <Text>Rahmensäge</Text>
+    </Text>
+    <Text>
+      <GUID>1404009111</GUID>
+      <!-- Text | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. -->
+      <Text>Ihr in einen Rahmen gespanntes Blatt ermöglicht präzise Holzschnitte mit vergleichsweise wenig Kraftaufwand. Die Arbeiter teilen damit Stämme und bereiten Bauteile für den Bau vor. Ihre einfache Bauweise macht Wartung und Blattwechsel leicht.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009112</GUID>
+      <!-- GuildhouseItem | Samir al-Fustuq, the Pistachio Expert | Samir al-Fustuq, The Pistachio Expert -->
+      <Text>Samir al-Fustuq, Pistazienexperte</Text>
+    </Text>
+    <Text>
+      <GUID>1404009113</GUID>
+      <!-- Text | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. -->
+      <Text>Samir durchstreift die alten Pistazienhaine und erkennt die Bäume, die die begehrtesten Nüsse tragen. Sein Rat lockt Bauern an, die ihre Ernten verbessern wollen, ohne den Boden auszulaugen. Auf den Märkten steht sein Name für Pistazien von außergewöhnlicher Qualität.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009114</GUID>
+      <!-- GuildhouseItem | Spice Supply Decree | Spice Supply Decree -->
+      <Text>Erlass über die Gewürzversorgung</Text>
+    </Text>
+    <Text>
+      <GUID>1404009115</GUID>
+      <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
+      <Text>Diese Vereinbarung regelt die gemeinsame Nutzung von Weidewegen und Wasserstellen für das Vieh. Durch die Abstimmung zwischen Clans und Züchtern werden Tierverluste verringert und die Vermehrung verbessert. Diese Maßnahme ermöglicht größere und stabilere Herden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009116</GUID>
+      <!-- GuildhouseItem | Jalaluddin al-Qahwa, The Master of Spices | Jalaluddin al-Qahwa, The Master of Spices -->
+      <Text>Jalaluddin al-Qahwa, Meister der Gewürze</Text>
+    </Text>
+    <Text>
+      <GUID>1404009117</GUID>
+      <!-- Text | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. -->
+      <Text>Jalaluddin durchstreift die Basare auf der Suche nach seltenen Gewürzen und verlässlichen Lieferanten. Sein Geruchssinn erlaubt ihm, frischesten Kardamom von Ware zu unterscheiden, die seit Monaten im Lager liegt. Die Händler kennen seine hohen Ansprüche und wetteifern darum, ihm ihre besten Waren anzubieten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009118</GUID>
+      <!-- GuildhouseItem | Şehrazat Hanım, the Lady of Sugar | Şehrazat Hanım, the Lady of Sugar -->
+      <Text>Şehrazat Hanım, Herrin des Zuckers</Text>
+    </Text>
+    <Text>
+      <GUID>1404009119</GUID>
+      <!-- Text | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. -->
+      <Text>In den Basaren der Zuckerbäcker vervollkommnet Şehrazat die Kunst, Zucker und Stärke in zarte Leckereien zu verwandeln. Ihre Spezialität ist eine geschmeidige Konsistenz, die ihre Form behält, ohne hart zu werden. Sie experimentiert mit Rosenwasser, Zitrusfrüchten und Pistazien, um selbst die anspruchsvollsten Gaumen zu gewinnen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009120</GUID>
+      <!-- GuildhouseItem | Mercury Thermometer | Mercury Thermometer -->
+      <Text>Quecksilberthermometer</Text>
+    </Text>
+    <Text>
+      <GUID>1404009121</GUID>
+      <!-- Text | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. -->
+      <Text>Für die Herstellung von Lokum muss das Kochen des Zuckers genau überwacht werden, damit eine gleichmäßige Konsistenz entsteht. Ein Quecksilberthermometer misst die Temperatur des Sirups weit genauer als bloßes Augenmaß. So können die Zuckerbäcker ihre Rezepte zuverlässig wiederholen, und es geraten weniger Chargen zu weich oder zu hart.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009122</GUID>
+      <!-- GuildhouseItem | Baha al-Din al-Fustuq, The Roasting Alchemist | Baha al-Din al-Fustuq, The Roasting Alchemist -->
+      <Text>Baha al-Din al-Fustuq, Alchemist des Röstens</Text>
+    </Text>
+    <Text>
+      <GUID>1404009123</GUID>
+      <!-- Text | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. -->
+      <Text>Baha beherrscht die Kunst, Pistazien zu rösten, ohne ihren feinen Geschmack oder ihre typische Farbe zu beeinträchtigen. Er regelt die Hitze mit Bedacht und rührt die Nüsse ständig, damit sie gleichmäßig rösten. Händler suchen seine Dienste, um Chargen für ihre anspruchsvollsten Kunden vorzubereiten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009124</GUID>
+      <!-- GuildhouseItem | Iron Roasting Drum | Iron Roasting Drum -->
+      <Text>Eiserne Rösttrommel</Text>
+    </Text>
+    <Text>
+      <GUID>1404009125</GUID>
+      <!-- Text | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. -->
+      <Text>Handwerker nutzen drehende Metallbehälter, um die Hitze zu verteilen und zu verhindern, dass Pistazien auf einer Seite verbrennen. Die ständige Bewegung sorgt für eine gleichmäßigere Röstung und erlaubt größere Mengen als in einer gewöhnlichen Pfanne. Ihre robuste Bauweise hält dem täglichen Einsatz in Werkstätten und kleinen Betrieben stand.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009126</GUID>
+      <!-- GuildhouseItem | Mahinbanu Khatun, the Shah’s Personal Confectioner | Mahinbanu Khatun, the Shah’s Personal Confectioner -->
+      <Text>Mahinbanu Khatun, Leibkonditorin des Schahs</Text>
+    </Text>
+    <Text>
+      <GUID>1404009127</GUID>
+      <!-- Text | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. -->
+      <Text>Sie führt eine berühmte Werkstatt, in der Datteln zu feinen Süßigkeiten für die vornehmsten Tafeln verarbeitet werden. Sie wählt pralle, fleischige Früchte aus und überwacht sorgfältig ihr Einkochen in duftenden Sirupen. Ihr scharfes Auge für Details macht aus jedem Stück eine kleine Köstlichkeit, würdig, als feierliches Geschenk überreicht zu werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009128</GUID>
+      <!-- GuildhouseItem | Tin-Lined Copper Cauldron | Tin-Lined Copper Cauldron -->
+      <Text>Verzinnter Kupferkessel</Text>
+    </Text>
+    <Text>
+      <GUID>1404009129</GUID>
+      <!-- Text | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. -->
+      <Text>Der Kupferkessel verteilt die Hitze schnell und eignet sich daher ideal, um große Mengen Datteln in Sirup zu kochen. Sein verzinntes Inneres verhindert, dass die Speisen direkt mit dem Kupfer in Berührung kommen. Die Zuckerbäcker überwachen die Dichte des Sirups, während die Früchte langsam seine Süße aufnehmen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009130</GUID>
+      <!-- GuildhouseItem | Iskandar ibn Faraj, Chemistry Expert | Iskandar ibn Faraj, Chemistry Expert -->
+      <Text>Iskandar ibn Faraj, Chemieexperte</Text>
+    </Text>
+    <Text>
+      <GUID>1404009131</GUID>
+      <!-- Text | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. -->
+      <Text>Iskandar widmet seine Versuche der Nutzung von Kohlenwasserstoffen und ihren industriellen Derivaten. Zwischen Öltanks und Reaktionsgefäßen erforscht er, wie sich beständigere Mischungen gewinnen lassen. Seine Gründlichkeit erlaubt es ihm, komplexe chemische Prozesse zu steuern, ohne Rohstoffe zu verschwenden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009132</GUID>
+      <!-- GuildhouseItem | Daryush Mehrzad, Tireless Foreman | Daryush Mehrzad, Tireless Foreman -->
+      <Text>Daryush Mehrzad, unermüdlicher Vorarbeiter</Text>
+    </Text>
+    <Text>
+      <GUID>1404009133</GUID>
+      <!-- Text | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. -->
+      <Text>Daryush überwacht die Reaktionen, die schwefelhaltige Gase in chemische Erzeugnisse von hohem industriellem Wert verwandeln; er kontrolliert die Anlagen und hält die Prozesse ununterbrochen in Gang. Sein Fachwissen macht ihn unentbehrlich für Betriebe, die auf diesen ätzenden Stoff angewiesen sind.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009134</GUID>
+      <!-- GuildhouseItem | Lead Chamber | Lead Chamber -->
+      <Text>Bleikammer</Text>
+    </Text>
+    <Text>
+      <GUID>1404009135</GUID>
+      <!-- Text | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. -->
+      <Text>Große, mit Blei ausgekleidete Kammern dienen der Herstellung von Schwefelsäure im Bleikammerverfahren, das seit dem 18. Jahrhundert im industriellen Maßstab angewandt wird. In diesen Kammern reagieren Gase in Gegenwart von Wasserdampf und Stickstoffverbindungen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009136</GUID>
+      <!-- GuildhouseItem | Bahram ibn Kaveh, Obsessive Smelter | Bahram ibn Kaveh, Obsessive Smelter -->
+      <Text>Bahram ibn Kaveh, besessener Schmelzer</Text>
+    </Text>
+    <Text>
+      <GUID>1404009137</GUID>
+      <!-- Text | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. -->
+      <Text>Bahram kennt das Temperament jedes Ofens und erkennt an der Farbe der Flammen, wann das Erz schmelzbereit ist. Er regelt die Temperaturen und überwacht die Trennung des Silbers von den Verunreinigungen im Erz. Händler schätzen seine gewissenhafte Arbeit und die gleichbleibende Güte seiner Barren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009138</GUID>
+      <!-- GuildhouseItem | Zubayda al-Durra, the Deep-Sea Diver | Zubayda al-Durra, the Deep-Sea Diver -->
+      <Text>Zubayda al-Durra, Tiefseetaucherin</Text>
+    </Text>
+    <Text>
+      <GUID>1404009139</GUID>
+      <!-- Text | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. -->
+      <Text>Zubayda kennt die Austernbänke des Nahen Ostens und weiß, welche Gewässer die begehrtesten Perlen verbergen. Mit einem kleinen Korb taucht sie hinab und verlässt sich auf ihre Erfahrung, um jeden Tauchgang bestmöglich zu nutzen. Händler erwarten ihren Fang, angelockt von der Seltenheit und dem Glanz ihrer Funde.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009140</GUID>
+      <!-- GuildhouseItem | Diving Ballast Stone | Diving Ballast Stone -->
+      <Text>Tauchballaststein</Text>
+    </Text>
+    <Text>
+      <GUID>1404009141</GUID>
+      <!-- Text | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. -->
+      <Text>Perlentaucher benutzen Ballaststeine, die sie am Körper befestigen oder beim Abstieg festhalten, um schnell den Meeresgrund zu erreichen. Ein Seil erlaubt ihren Gefährten, den Tauchgang zu kontrollieren und dem Taucher beim Auftauchen zu helfen. Diese Technik erfordert Ausdauer, Abstimmung und ein genaues Verständnis der Strömungen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009142</GUID>
+      <!-- GuildhouseItem | Gallery Foreman | Gallery Foreman -->
+      <Text>Stollenvorarbeiter</Text>
+    </Text>
+    <Text>
+      <GUID>1404009143</GUID>
+      <!-- Text | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. -->
+      <Text>Er ist dafür zuständig, die Bergmannstrupps zu organisieren und die Aufgaben so zu verteilen, dass jeder Stollen voll in Betrieb bleibt. Seine Erfahrung erlaubt es ihm, Stillstände gering zu halten und jede Abbauschicht bestmöglich zu nutzen. Unter seiner Aufsicht bleibt der Fluss von Werkzeug, Arbeitern und gefördertem Erz stetig.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009144</GUID>
+      <!-- GuildhouseItem | Nasrin Khatun, The Master of Clay | Nasrin Khatun, The Master of Clay -->
+      <Text>Nasrin Khatun, Meisterin des Lehms</Text>
+    </Text>
+    <Text>
+      <GUID>1404009145</GUID>
+      <!-- Text | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. -->
+      <Text>Nasrin kennt die lehmreichen Böden der Region. Sie richtet den Abbau nach der Feuchtigkeit und Beschaffenheit des Bodens aus. Ihr Fachwissen macht es möglich, selbst die am schwersten zu bearbeitenden Vorkommen zu nutzen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009146</GUID>
+      <!-- GuildhouseItem | Mining Dewatering Pump | Mining Dewatering Pump -->
+      <Text>Grubenentwässerungspumpe</Text>
+    </Text>
+    <Text>
+      <GUID>1404009147</GUID>
+      <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
+      <Text>Sich ansammelndes Wasser bedroht die Stollen der Bergwerke und zwingt vielerorts zur Einstellung der Abbauarbeiten. Entwässerungspumpen machen es möglich, Schächte trockenzulegen und die Arbeitsbereiche zugänglich zu halten. Ihr Einsatz erleichtert den Abbau in größerer Tiefe und die Rückgewinnung von Boden, der sonst überflutet bliebe.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
+      <Text>Beryllmine</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Beryl Deposit | Beryl Deposit -->
+      <Text>Beryllvorkommen</Text>
+    </Text>
+    <Text>
+      <GUID>1404003907</GUID>
+      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
+      <Text>Aus diesem Vorkommen kann Beryll abgebaut und zu Mosaiksteinen geschnitten werden.</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -8,7 +8,7 @@
                     <GUID>1404000759</GUID>
                     <Name>Luxury Orient Drinks</Name>
                     <IconFilename>data/graphics/icons/monument_products/large_drinks.png</IconFilename>
-                    <InfoDescription>19639</InfoDescription>
+                    <InfoDescription>1404001206</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
@@ -16,7 +16,7 @@
                             <ItemLink>114390</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>120032</ItemLink>
+                            <ItemLink>1400201044</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

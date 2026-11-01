@@ -141,12 +141,12 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1404005079</Product>
+							<Product>1500011326</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
-							<Product>1500011326</Product>
+							<Product>1404005079</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -173,7 +173,7 @@
 							<InactiveAmount>450</InactiveAmount>
 						</Item>
 						<Item>
-							<Product>1404000012</Product>
+							<Product>1404000013</Product>
 							<Amount>55</Amount>
 						</Item>
 					</Maintenances>
@@ -204,7 +204,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

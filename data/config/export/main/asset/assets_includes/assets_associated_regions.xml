@@ -39,5 +39,7 @@
     <ModOp Type="replace" GUID="119035" Path="Values/Locked">
         <Locked/>
     </ModOp>
+    <!-- instead of using up even more InternalIDs, remove the wanza wood cost from the africa rails. (shouldn't be noticed anyway) -->
+    <ModOp Type="remove" GUID="119035" Path="Values/Cost/Costs/Item[Ingredient='114356']/Amount"/>
 
 </ModOps>

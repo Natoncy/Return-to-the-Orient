@@ -8,7 +8,7 @@
                     <GUID>1404000879</GUID>
                     <Name>Elmore Mixture</Name>
                     <IconFilename>data/graphics/icons/products/icon_mix.png</IconFilename>
-                    <InfoDescription>1404000286</InfoDescription>
+                    <InfoDescription>1404004884</InfoDescription>
                 </Standard>
                 <Locked />
                 <Product>
@@ -33,6 +33,25 @@
         <Item>
             <Product>1404000879</Product>
         </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004884</GUID>
+                    <Name>flotation concentrate fluff text</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Crushed ore, floated in oil and skimmed off for the smelter.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 

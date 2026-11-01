@@ -28,17 +28,17 @@
     "Taiwanese": "Return to the Orient - Beta Compatibility"
   },
   "Description": {
-    "English": "Use this mod if you added an earlier version of Return to the Orient and are now missing some features: Adds an Import Dock for Silver Ore for old savegames before v0.5.0",
-    "French": "Utilisez ce mod si vous avez ajouté une version antérieure de Return to the Orient et qu'il vous manque maintenant certaines fonctionnalités : ajoute un quai d'importation pour le minerai d'argent pour les anciennes sauvegardes antérieures à la v0.5.0",
-    "German": "Nutze diese Mod, wenn du eine frühere Version von Return to the Orient hinzugefügt hast und dir jetzt einige Funktionen fehlen: Fügt ein Import-Dock für Silbererz für alte Spielstände vor v0.5.0 hinzu",
-    "Italian": "Usa questa mod se hai aggiunto una versione precedente di Return to the Orient e ora ti mancano alcune funzionalità: aggiunge un dock di importazione per il minerale d'argento per i vecchi salvataggi precedenti alla v0.5.0",
-    "Japanese": "以前のバージョンの Return to the Orient を導入していて、一部の機能が欠けている場合はこの MOD を使用してください：v0.5.0 より前の古いセーブデータ向けに、銀鉱石のインポートドックを追加します",
-    "Korean": "이전 버전의 Return to the Orient를 추가했으며 지금 일부 기능이 빠져 있다면 이 모드를 사용하세요: v0.5.0 이전의 오래된 저장 파일을 위해 은 광석 가져오기 도크를 추가합니다",
-    "Polish": "Użyj tego moda, jeśli dodałeś wcześniejszą wersję Return to the Orient i teraz brakuje ci niektórych funkcji: dodaje dok importowy rudy srebra dla starych zapisów gry sprzed wersji v0.5.0",
-    "Russian": "Используйте этот мод, если вы добавили более раннюю версию Return to the Orient и теперь вам не хватает некоторых функций: добавляет импортный док для серебряной руды для старых сохранений до v0.5.0",
-    "Chinese": "如果您添加过较早版本的 Return to the Orient，现在缺少某些功能，请使用此模组：为 v0.5.0 之前的旧存档添加银矿进口码头",
-    "Spanish": "Usa este mod si añadiste una versión anterior de Return to the Orient y ahora te faltan algunas funciones: añade un muelle de importación de mineral de plata para partidas guardadas anteriores a la v0.5.0",
-    "Taiwanese": "如果您加入過較早版本的 Return to the Orient，現在缺少某些功能，請使用此模組：為 v0.5.0 之前的舊存檔加入銀礦進口碼頭"
+    "English": "Use this mod if you added an earlier version of Return to the Orient and are now missing some features: Adds an Import Dock for Silver Ore for old savegames before v0.5.0 and an Import Dock for Beryl for old savegames from before the beryl deposits",
+    "French": "Utilisez ce mod si vous avez ajouté une version antérieure de Return to the Orient et qu'il vous manque maintenant certaines fonctionnalités : ajoute un quai d'importation pour le minerai d'argent pour les anciennes sauvegardes antérieures à la v0.5.0 et un quai d'importation pour le béryl pour les anciennes sauvegardes antérieures aux gisements de béryl",
+    "German": "Nutze diese Mod, wenn du eine frühere Version von Return to the Orient hinzugefügt hast und dir jetzt einige Funktionen fehlen: Fügt ein Import-Dock für Silbererz für alte Spielstände vor v0.5.0 hinzu und ein Import-Dock für Beryll für alte Spielstände aus der Zeit vor den Beryllvorkommen",
+    "Italian": "Usa questa mod se hai aggiunto una versione precedente di Return to the Orient e ora ti mancano alcune funzionalità: aggiunge un dock di importazione per il minerale d'argento per i vecchi salvataggi precedenti alla v0.5.0 e un dock di importazione per il berillo per i vecchi salvataggi precedenti ai giacimenti di berillo",
+    "Japanese": "以前のバージョンの Return to the Orient を導入していて、一部の機能が欠けている場合はこの MOD を使用してください：v0.5.0 より前の古いセーブデータ向けに、銀鉱石のインポートドックを追加します。また、緑柱石鉱床が追加される前の古いセーブデータ向けに、緑柱石のインポートドックも追加します",
+    "Korean": "이전 버전의 Return to the Orient를 추가했으며 지금 일부 기능이 빠져 있다면 이 모드를 사용하세요: v0.5.0 이전의 오래된 저장 파일을 위해 은 광석 가져오기 도크를 추가합니다. 또한 녹주석 매장지가 추가되기 전의 오래된 저장 파일을 위해 녹주석 가져오기 도크를 추가합니다",
+    "Polish": "Użyj tego moda, jeśli dodałeś wcześniejszą wersję Return to the Orient i teraz brakuje ci niektórych funkcji: dodaje dok importowy rudy srebra dla starych zapisów gry sprzed wersji v0.5.0 oraz dok importowy berylu dla starych zapisów gry sprzed dodania złóż berylu",
+    "Russian": "Используйте этот мод, если вы добавили более раннюю версию Return to the Orient и теперь вам не хватает некоторых функций: добавляет импортный док для серебряной руды для старых сохранений до v0.5.0, а также импортный док для берилла для старых сохранений, созданных до появления месторождений берилла",
+    "Chinese": "如果您添加过较早版本的 Return to the Orient，现在缺少某些功能，请使用此模组：为 v0.5.0 之前的旧存档添加银矿进口码头，并为加入绿柱石矿床之前的旧存档添加绿柱石进口码头",
+    "Spanish": "Usa este mod si añadiste una versión anterior de Return to the Orient y ahora te faltan algunas funciones: añade un muelle de importación de mineral de plata para partidas guardadas anteriores a la v0.5.0 y un muelle de importación de berilo para partidas guardadas anteriores a los depósitos de berilo",
+    "Taiwanese": "如果您加入過較早版本的 Return to the Orient，現在缺少某些功能，請使用此模組：為 v0.5.0 之前的舊存檔加入銀礦進口碼頭，並為加入綠柱石礦床之前的舊存檔加入綠柱石進口碼頭"
   },
   "LoadAfterIds": [
     "natoncy_return_to_the_orient"

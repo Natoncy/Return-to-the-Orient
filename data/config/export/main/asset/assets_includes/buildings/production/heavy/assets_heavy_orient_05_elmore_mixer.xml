@@ -33,16 +33,12 @@
                             <Amount>25</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010207</Ingredient>
-                            <Amount>10</Amount>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>15</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010218</Ingredient>
                             <Amount>10</Amount>
-                        </Item>
-                        <Item>
-                            <Ingredient>1010202</Ingredient>
-                            <Amount>5</Amount>
                         </Item>
                     </Costs>
                 </Cost>
@@ -164,7 +160,11 @@
                     <BoostedByIndustrialization>0</BoostedByIndustrialization>
                 </Industrializable>
                 <QuestObject/>
-                <Electrifiable/>
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
                 <EcoSystemProvider/>
                 <Watered>
                     <RequiresWater>1</RequiresWater>
