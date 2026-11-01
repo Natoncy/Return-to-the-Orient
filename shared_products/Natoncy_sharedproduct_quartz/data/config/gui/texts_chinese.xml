@@ -3,12 +3,12 @@
     <Text>
       <GUID>1404003900</GUID>
       <!-- Product | beryl | Beryl -->
-      <Text>綠柱石</Text>
+      <Text>石英</Text>
     </Text>
     <Text>
       <GUID>1404003901</GUID>
       <!-- Text | beryl fluff text | Hewn from the desert hills, cut into shimmering tesserae. -->
-      <Text>開採自沙漠丘陵，切割成閃閃發光的馬賽克鑲片。</Text>
+      <Text>开采自沙漠丘陵，切割成闪闪发光的马赛克镶片。</Text>
     </Text>
   </ModOp>
 </ModOps>

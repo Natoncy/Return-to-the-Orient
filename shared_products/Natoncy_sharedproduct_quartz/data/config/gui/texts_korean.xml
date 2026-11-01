@@ -3,12 +3,12 @@
     <Text>
       <GUID>1404003900</GUID>
       <!-- Product | beryl | Beryl -->
-      <Text>Berilo</Text>
+      <Text>석영</Text>
     </Text>
     <Text>
       <GUID>1404003901</GUID>
       <!-- Text | beryl fluff text | Hewn from the desert hills, cut into shimmering tesserae. -->
-      <Text>Extraído das colinas do deserto, lapidado em tesselas cintilantes.</Text>
+      <Text>사막 언덕에서 캐내어 반짝이는 모자이크 조각으로 다듬어진다.</Text>
     </Text>
   </ModOp>
 </ModOps>

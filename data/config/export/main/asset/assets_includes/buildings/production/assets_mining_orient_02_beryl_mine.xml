@@ -1,7 +1,7 @@
 <ModOps>
 
-    <!-- Beryl Mine: the Silver Ore Mine's model mirrored left/right (z -> -z, mining_orient_02), so it keeps the
-         mine-slot footprint (3x3 entrance + 5x5 yard on +x). The Orient's free slot type Tin carries the beryl deposit
+    <!-- quartz Mine: the Silver Ore Mine's model mirrored left/right (z -> -z, mining_orient_02), so it keeps the
+         mine-slot footprint (3x3 entrance + 5x5 yard on +x). The Orient's free slot type Tin carries the quartz deposit
          1404003905; Region Orient SlotBuildings maps Tin to this mine. 30 s cycle = one mine per Mosaic Workshop. -->
     <ModOp Type="addNextSibling" GUID="1404001300">
         <Asset>
@@ -9,8 +9,8 @@
             <Values>
                 <Standard>
                     <GUID>1404003903</GUID>
-                    <Name>mining_orient_02 (Beryl Mine)</Name>
-                    <IconFilename>data/modgraphics/ui/icon_beryl.png</IconFilename>
+                    <Name>mining_orient_02 (quartz Mine)</Name>
+                    <IconFilename>data/modgraphics/ui/icon_quartz.png</IconFilename>
                     <InfoDescription>11143</InfoDescription>
                 </Standard>
                 <Building>
@@ -54,7 +54,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Beryl Mine</Text>
+                            <Text>quartz Mine</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -133,7 +133,7 @@
             <Values>
                 <Standard>
                     <GUID>1404003904</GUID>
-                    <Name>mining_orient_02_workarea (Beryl)</Name>
+                    <Name>mining_orient_02_workarea (quartz)</Name>
                 </Standard>
                 <Object>
                     <Variations>
