@@ -25,6 +25,28 @@
                             <Product>120020</Product>
                             <SupplyWeight>3</SupplyWeight>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000017</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004300</RequiredBuilding>
+                                </Item>
+                                <Item>
+                                    <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Sultan's Palace residences: Palace radius instead of the Marketplace (Bazaar) -->
+                        <Item>
+                            <Product>1404004247</Product>
+                            <SupplyWeight>3</SupplyWeight>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404004212</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1888999749</Product>
@@ -52,7 +74,7 @@
                              A need shows at NoWeight + 1 and is full at the next stage.
                              RequiredBuildings = regular Envoy residence and its two skyscraper levels:
                              the Sultan's Palace residence (v0.7.0) gets other needs in these places
-                             (Palace radius, Incense, Turbans, Coffee House) -->
+                             (Palace radius, Incense, Turbans, Coffee House instead of Marketplace, Sabers, Kaftans, Bath House) -->
                         <Item>
                             <Product>1404000206</Product>
                             <SupplyWeight>3</SupplyWeight>
@@ -60,17 +82,6 @@
                             <FullWeightPopulationCount>300</FullWeightPopulationCount>
                             <NoWeightPopulationCount>0</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
-                            <RequiredBuildings>
-                                <Item>
-                                    <RequiredBuilding>1404000017</RequiredBuilding>
-                                </Item>
-                                <Item>
-                                    <RequiredBuilding>1404004300</RequiredBuilding>
-                                </Item>
-                                <Item>
-                                    <RequiredBuilding>1404004301</RequiredBuilding>
-                                </Item>
-                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1404000238</Product>
@@ -92,6 +103,21 @@
                                 </Item>
                             </RequiredBuildings>
                         </Item>
+                        <!-- Sultan's Palace residences: Incense instead of Ceremonial Sabers -->
+                        <Item>
+                            <Product>1440306</Product>
+                            <Amount>0.0004504505</Amount>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404004212</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
                         <Item>
                             <Product>1404000253</Product>
                             <Amount>0.00055</Amount>
@@ -109,6 +135,21 @@
                                 </Item>
                                 <Item>
                                     <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Sultan's Palace residences: Turbans instead of Kaftans -->
+                        <Item>
+                            <Product>1404000283</Product>
+                            <Amount>0.000825</Amount>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>2250</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404004212</RequiredBuilding>
                                 </Item>
                             </RequiredBuildings>
                         </Item>
@@ -222,6 +263,20 @@
                                 </Item>
                                 <Item>
                                     <RequiredBuilding>1404004301</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Sultan's Palace residences: Coffee House instead of the Bath House -->
+                        <Item>
+                            <Product>1404000288</Product>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>3</MoneyValue>
+                            <FullWeightPopulationCount>4500</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>3249</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404004212</RequiredBuilding>
                                 </Item>
                             </RequiredBuildings>
                         </Item>

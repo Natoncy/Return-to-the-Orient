@@ -42,6 +42,9 @@
                         <Item>
                             <GUID>1404004301</GUID>                            <!-- envoys level 3-->
                         </Item>
+                        <Item>
+                            <GUID>1404004212</GUID>                            <!-- palace envoy quarters-->
+                        </Item>
                     </EffectTargets>
                 </ItemEffect>
                 <ExpeditionAttribute>

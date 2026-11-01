@@ -3837,18 +3837,28 @@
     </Text>
     <Text>
       <GUID>1404004212</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <!-- ResidenceBuilding7_Colony | Palace Envoy Quarters | Palace Envoy Quarters -->
+      <Text>Viviendas de enviados de palacio</Text>
+    </Text>
+    <Text>
+      <GUID>1404004241</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing | Sultan's Palace Wing -->
       <Text>Ala del palacio del sultán</Text>
     </Text>
     <Text>
-      <GUID>1404004213</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <GUID>1404004242</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
       <Text>Ala del palacio del sultán - Puente</Text>
     </Text>
     <Text>
       <GUID>1404004214</GUID>
       <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
       <Text>Ala del palacio del sultán - Puerta</Text>
+    </Text>
+    <Text>
+      <GUID>1404004244</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>Ala del palacio del sultán - Cruce</Text>
     </Text>
     <Text>
       <GUID>1404004215</GUID>
@@ -3861,8 +3871,8 @@
       <Text>Palacio del sultán</Text>
     </Text>
     <Text>
-      <GUID>1404004217</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <GUID>1404004245</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
       <Text>Ala del palacio del sultán - Esquina</Text>
     </Text>
     <Text>
@@ -4902,8 +4912,8 @@
     </Text>
     <Text>
       <GUID>1404008101</GUID>
-      <!-- ResidenceBuilding7_Colony | Bedouin Tent | Bedouin Tent -->
-      <Text>Tienda beduina</Text>
+      <!-- ResidenceBuilding7_Colony | Bedouin Nomad Quarters | Bedouin Nomad Quarters -->
+      <Text>Viviendas de nómadas beduinos</Text>
     </Text>
     <Text>
       <GUID>1404008103</GUID>
@@ -4997,8 +5007,8 @@
     </Text>
     <Text>
       <GUID>1404009002</GUID>
-      <!-- FarmBuilding | Rammed Earth Farm | Rammed Earth Farm -->
-      <Text>Granja de tapial</Text>
+      <!-- FactoryBuilding7 | Rammed Earth Works | Rammed Earth Works -->
+      <Text>Taller de tapial</Text>
     </Text>
     <Text>
       <GUID>1404009100</GUID>
@@ -7079,6 +7089,81 @@
       <GUID>1404003907</GUID>
       <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
       <Text>De este depósito se puede extraer berilo, que luego se talla en teselas para mosaicos.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004250</GUID>
+      <!-- EffectContainer | Royal Manufactories | Royal Manufactories -->
+      <Text>Manufacturas reales</Text>
+    </Text>
+    <Text>
+      <GUID>1404004251</GUID>
+      <!-- Text | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. -->
+      <Text>Los talleres al servicio de la corte del sultán reciben las mejores herramientas y los maestros más hábiles.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004253</GUID>
+      <!-- Text | Increases the productivity of incense workshops and turban weavers | Increases the productivity of incense workshops and turban weavers -->
+      <Text>Aumenta la productividad de los talleres de incienso y los tejedores de turbantes</Text>
+    </Text>
+    <Text>
+      <GUID>1404004254</GUID>
+      <!-- EffectContainer | Sultan's Treasury | Sultan's Treasury -->
+      <Text>Tesoro del sultán</Text>
+    </Text>
+    <Text>
+      <GUID>1404004255</GUID>
+      <!-- Text | The court collects its dues in gold, and every envoy knows that tribute is expected. | The court collects its dues in gold, and every envoy knows that tribute is expected. -->
+      <Text>La corte cobra sus tributos en oro, y cada enviado sabe que se espera su tributo.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004257</GUID>
+      <!-- Text | Increases the taxes of Envoys | Increases the taxes of Envoys -->
+      <Text>Aumenta los impuestos de los enviados</Text>
+    </Text>
+    <Text>
+      <GUID>1404004258</GUID>
+      <!-- EffectContainer | Court Splendour | Court Splendour -->
+      <Text>Esplendor de la corte</Text>
+    </Text>
+    <Text>
+      <GUID>1404004259</GUID>
+      <!-- Text | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. -->
+      <Text>Fuentes, patios alicatados y cúpulas doradas recuerdan a cada huésped la cercanía del palacio.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004261</GUID>
+      <!-- Text | Increases the happiness of palace envoys | Increases the happiness of palace envoys -->
+      <Text>Aumenta la felicidad de los enviados del palacio</Text>
+    </Text>
+    <Text>
+      <GUID>1404004262</GUID>
+      <!-- EffectContainer | Palace Service | Palace Service -->
+      <Text>Servicio de palacio</Text>
+    </Text>
+    <Text>
+      <GUID>1404004263</GUID>
+      <!-- Text | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. -->
+      <Text>Escribas, guardias y mayordomos: un palacio necesita muchas manos, y sirven con orgullo.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004265</GUID>
+      <!-- Text | Increases the workforce of palace envoys | Increases the workforce of palace envoys -->
+      <Text>Aumenta la mano de obra de los enviados del palacio</Text>
+    </Text>
+    <Text>
+      <GUID>1404004266</GUID>
+      <!-- EffectContainer | Court Economy | Court Economy -->
+      <Text>Economía de la corte</Text>
+    </Text>
+    <Text>
+      <GUID>1404004267</GUID>
+      <!-- Text | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. -->
+      <Text>Incluso en la corte, el gran visir cuenta cada rollo de tela y cada grano de incienso.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004269</GUID>
+      <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
+      <Text>Reduce el consumo de incienso y turbantes de los enviados del palacio</Text>
     </Text>
   </ModOp>
 </ModOps>

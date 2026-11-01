@@ -17,14 +17,14 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
+- Feedbacks and Nets from the Pearl Diver are offset
+- Update quests
 - add compost for moldy bread
 - Light house monument 
     construction scaffolding stage 2 & 3
     construction feedback units
-- Palace
-- Beryl for mosaics and other wares
-- Construction material rework
-    Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
+- Agates for mosaics and other wares
+- Rammed Earth factory model
 - Check lifestyle needs
 - Letting AI settle the region
 
@@ -32,7 +32,6 @@ Before v1.0.0
 - Add light emitting surfaces for windows at night
 - Check IntersectBox for clicking for all buildings
 - Check shared mods
-- Check quests
 - Check loading screen hints
 - Check all guid used exist (1404000205)
 - remove IAAM Test and other test assets

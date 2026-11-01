@@ -3837,18 +3837,28 @@
     </Text>
     <Text>
       <GUID>1404004212</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <!-- ResidenceBuilding7_Colony | Palace Envoy Quarters | Palace Envoy Quarters -->
+      <Text>宮殿の使者の住居</Text>
+    </Text>
+    <Text>
+      <GUID>1404004241</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing | Sultan's Palace Wing -->
       <Text>スルタンの宮殿の翼棟</Text>
     </Text>
     <Text>
-      <GUID>1404004213</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <GUID>1404004242</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
       <Text>スルタンの宮殿の翼棟 - 橋</Text>
     </Text>
     <Text>
       <GUID>1404004214</GUID>
       <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
       <Text>スルタンの宮殿の翼棟 - 門</Text>
+    </Text>
+    <Text>
+      <GUID>1404004244</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>スルタンの宮殿の翼棟 - 交差</Text>
     </Text>
     <Text>
       <GUID>1404004215</GUID>
@@ -3861,8 +3871,8 @@
       <Text>スルタンの宮殿</Text>
     </Text>
     <Text>
-      <GUID>1404004217</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <GUID>1404004245</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
       <Text>スルタンの宮殿の翼棟 - 角</Text>
     </Text>
     <Text>
@@ -4902,8 +4912,8 @@
     </Text>
     <Text>
       <GUID>1404008101</GUID>
-      <!-- ResidenceBuilding7_Colony | Bedouin Tent | Bedouin Tent -->
-      <Text>ベドウィンのテント</Text>
+      <!-- ResidenceBuilding7_Colony | Bedouin Nomad Quarters | Bedouin Nomad Quarters -->
+      <Text>ベドウィンの遊牧民の住居</Text>
     </Text>
     <Text>
       <GUID>1404008103</GUID>
@@ -4997,8 +5007,8 @@
     </Text>
     <Text>
       <GUID>1404009002</GUID>
-      <!-- FarmBuilding | Rammed Earth Farm | Rammed Earth Farm -->
-      <Text>版築農場</Text>
+      <!-- FactoryBuilding7 | Rammed Earth Works | Rammed Earth Works -->
+      <Text>版築工房</Text>
     </Text>
     <Text>
       <GUID>1404009100</GUID>
@@ -7079,6 +7089,81 @@
       <GUID>1404003907</GUID>
       <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
       <Text>この鉱床から緑柱石を採掘し、モザイク用の石片に加工できる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004250</GUID>
+      <!-- EffectContainer | Royal Manufactories | Royal Manufactories -->
+      <Text>王室工房</Text>
+    </Text>
+    <Text>
+      <GUID>1404004251</GUID>
+      <!-- Text | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. -->
+      <Text>スルタンの宮廷に仕える工房には、最高の道具と最も腕の立つ職人が与えられる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004253</GUID>
+      <!-- Text | Increases the productivity of incense workshops and turban weavers | Increases the productivity of incense workshops and turban weavers -->
+      <Text>香工房とターバン織り手の生産性を上げる</Text>
+    </Text>
+    <Text>
+      <GUID>1404004254</GUID>
+      <!-- EffectContainer | Sultan's Treasury | Sultan's Treasury -->
+      <Text>スルタンの宝物庫</Text>
+    </Text>
+    <Text>
+      <GUID>1404004255</GUID>
+      <!-- Text | The court collects its dues in gold, and every envoy knows that tribute is expected. | The court collects its dues in gold, and every envoy knows that tribute is expected. -->
+      <Text>宮廷は税を金で取り立て、使者は皆、貢ぎ物が求められていることを知っている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004257</GUID>
+      <!-- Text | Increases the taxes of Envoys | Increases the taxes of Envoys -->
+      <Text>使者の税収を増やす</Text>
+    </Text>
+    <Text>
+      <GUID>1404004258</GUID>
+      <!-- EffectContainer | Court Splendour | Court Splendour -->
+      <Text>宮廷の華やぎ</Text>
+    </Text>
+    <Text>
+      <GUID>1404004259</GUID>
+      <!-- Text | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. -->
+      <Text>噴水、タイル張りの中庭、金色のドームが、宮殿のそばに暮らしていることを客人に思い出させる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004261</GUID>
+      <!-- Text | Increases the happiness of palace envoys | Increases the happiness of palace envoys -->
+      <Text>宮殿の使者の幸福度を上げる</Text>
+    </Text>
+    <Text>
+      <GUID>1404004262</GUID>
+      <!-- EffectContainer | Palace Service | Palace Service -->
+      <Text>宮殿の務め</Text>
+    </Text>
+    <Text>
+      <GUID>1404004263</GUID>
+      <!-- Text | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. -->
+      <Text>書記、衛兵、執事――宮殿には多くの人手が要り、彼らは誇りを持って仕える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004265</GUID>
+      <!-- Text | Increases the workforce of palace envoys | Increases the workforce of palace envoys -->
+      <Text>宮殿の使者の労働力を増やす</Text>
+    </Text>
+    <Text>
+      <GUID>1404004266</GUID>
+      <!-- EffectContainer | Court Economy | Court Economy -->
+      <Text>宮廷の倹約</Text>
+    </Text>
+    <Text>
+      <GUID>1404004267</GUID>
+      <!-- Text | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. -->
+      <Text>宮廷においてさえ、大宰相は布の一反、香の一粒まで数える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004269</GUID>
+      <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
+      <Text>宮殿の使者の香とターバンの消費量を減らす</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -1,7 +1,7 @@
 <ModOps>
 
-    <!-- Not in any menu while the palace sits in the Nomads' Development group (assets_orient_construction_menu_development.xml).
-         The wing pieces are the palace's Hacienda modules and are placed from its module panel, not from a menu. -->
+    <!-- Not in any menu: the palace itself sits in the Envoys tier menu 1404000015.
+         The Palace Envoy Quarters are the palace's Hacienda module, placed from its module panel; so are the gate 1404004214 and the cross wing 1404004215 (ornaments). -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -25,6 +25,46 @@
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- creative group of the palace copies 1404004240-245, in the creative menu 1404000614 after the Palace group 1404004501 -->
+    <ModOp Type="addNextSibling" GUID="1404004216">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004246</GUID>
+                    <Name>orient creative group sultan's palace</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_orient_sultanspalace_emblem.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404004240</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004241</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004242</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004243</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004244</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004245</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1404004211</TextOverride>
                 </Text>
                 <Locked/>
             </Values>

@@ -1,14 +1,13 @@
 <ModOps>
 
-	<!-- Rammed Earth Farm: clay -> rammed earth, fields are oxidation pools 1404009003 (3x4, in radius like the vanilla Cyanide Leacher 24844).
-	     Model = silk plantation with the dome recoloured to clay brown / sandstone. -->
+	<!-- Rammed Earth Works: plain factory, clay -> rammed earth. Model = silk plantation with the dome recoloured to clay brown / sandstone. -->
 	<ModOp Type="addNextSibling" GUID='1404000169'>
 		<Asset>
-			<Template>FarmBuilding</Template>
+			<Template>FactoryBuilding7</Template>
 			<Values>
 				<Standard>
 					<GUID>1404009002</GUID>
-					<Name>agriculture_orient_12 (Rammed Earth Farm)</Name>
+					<Name>production_orient_12 (Rammed Earth Works)</Name>
 					<IconFilename>data/graphics/icons/products/icon_rammed_earth.png</IconFilename>
 				</Standard>
 				<Building>
@@ -23,7 +22,7 @@
 								<InheritedIndex>0</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FarmBuilding</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>0</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -35,7 +34,7 @@
 								<InheritedIndex>1</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FarmBuilding</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>1</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -48,7 +47,7 @@
 								<InheritedIndex>2</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FarmBuilding</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>2</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -61,7 +60,7 @@
 								<InheritedIndex>3</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FarmBuilding</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>3</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -74,7 +73,7 @@
 								<InheritedIndex>4</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FarmBuilding</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>4</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -85,7 +84,7 @@
 								<InheritedIndex>5</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FarmBuilding</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>5</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -121,7 +120,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Rammed Earth Farm</Text>
+							<Text>Rammed Earth Works</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -155,23 +154,9 @@
 						</Item>
 					</FactoryOutputs>
 					<CycleTime>30</CycleTime>
-					<IsMainFactory>1</IsMainFactory>
+					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
-				<ModuleOwner>
-					<ModuleLimits>
-						<Main>
-							<Limit>6</Limit>
-						</Main>
-					</ModuleLimits>
-					<ModulesRequiredForFullProductivity>6</ModulesRequiredForFullProductivity>
-					<ConstructionOptions>
-						<Item>
-							<ModuleGUID>1404009003</ModuleGUID>
-						</Item>
-					</ConstructionOptions>
-					<ModuleBuildRadius>12</ModuleBuildRadius>
-				</ModuleOwner>
 				<AmbientMoodProvider>
 					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
@@ -209,9 +194,7 @@
 					</IncidentInfectionChanceFactors>
 				</IncidentInfectable>
 				<Pausable/>
-				<Culture>
-					<CultureType>Landscaping</CultureType>
-				</Culture>
+				<Culture/>
 				<QuestObject/>
 				<Industrializable>
 					<BoostedByIndustrialization>0</BoostedByIndustrialization>
@@ -220,7 +203,7 @@
 		</Asset>
 	</ModOp>
 
-	<ModOp Type="add" GUID="6000018,193856,190011,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+	<ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
 			<GUID>1404009002</GUID>
 		</Item>

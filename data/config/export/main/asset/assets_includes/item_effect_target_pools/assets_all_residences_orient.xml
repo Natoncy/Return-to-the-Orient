@@ -36,6 +36,9 @@
 							<GUID>1404004301</GUID>
 						</Item>
 						<Item>
+							<GUID>1404004212</GUID>
+						</Item>
+						<Item>
 							<GUID>1404001113</GUID>
 						</Item>
 					</EffectTargetGUIDs>
@@ -78,6 +81,9 @@
 						</Item>
 						<Item>
 							<GUID>1404004301</GUID>
+						</Item>
+						<Item>
+							<GUID>1404004212</GUID>
 						</Item>
 					</EffectTargetGUIDs>
 				</ItemEffectTargetPool>

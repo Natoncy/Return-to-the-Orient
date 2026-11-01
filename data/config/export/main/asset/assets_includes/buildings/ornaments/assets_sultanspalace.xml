@@ -1,7 +1,10 @@
 <ModOps>
 
 	<!-- Sultan's palace (IAAM sultanspalast, copied from sbm_import to buildings/orient/sultanspalace): the main house is a
-			Hacienda without decrees and without a build limit (no UniqueType), the wing pieces are its modules.
+			Hacienda with five decrees (items/decrees/assets_orient_sultanspalace_decreeN.xml) and without a build limit (no UniqueType), the wing pieces are its modules.
+			The wing pieces are one Envoy residence 1404004212 (Palace Envoy Quarters) whose variation follows its neighbours like
+			the Engineer/Investor residences; the gate 1404004214 and the cross wing 1404004215 are OrnamentalBuildings in the palace module panel. Palace radius 1404004247 / Incense /
+			Turbans / Coffee House replace Marketplace / Ceremonial Sabers / Kaftans / Bath House (population_levels/assets_envoys.xml).
 			Group 1404004216 in construction_categories/subcategories/assets_orient_sultanspalace.xml -->
 	<ModOp Type="addNextSibling" GUID='130726'>
 		<Asset>
@@ -118,16 +121,10 @@
 							<ModuleGUID>1404004212</ModuleGUID>
 						</Item>
 						<Item>
-							<ModuleGUID>1404004213</ModuleGUID>
-						</Item>
-						<Item>
 							<ModuleGUID>1404004214</ModuleGUID>
 						</Item>
 						<Item>
 							<ModuleGUID>1404004215</ModuleGUID>
-						</Item>
-						<Item>
-							<ModuleGUID>1404004217</ModuleGUID>
 						</Item>
 					</ConstructionOptions>
 					<AddModuleLimit>0</AddModuleLimit>
@@ -139,25 +136,55 @@
 						<ShowRemainingModuleCount>0</ShowRemainingModuleCount>
 					</BlueprintModuleOption>
 				</ModuleOwner>
-				<Hacienda/>
+				<Hacienda>
+					<Policies>
+						<Tier1Decree>
+							<Policy>1404004250</Policy>
+							<Description>1404004253</Description>
+						</Tier1Decree>
+						<Tier2Decree>
+							<Policy>1404004254</Policy>
+							<Description>1404004257</Description>
+						</Tier2Decree>
+						<Tier3Decree>
+							<Policy>1404004258</Policy>
+							<Description>1404004261</Description>
+						</Tier3Decree>
+						<Tier4Decree>
+							<Policy>1404004262</Policy>
+							<Description>1404004265</Description>
+						</Tier4Decree>
+						<Tier5Decree>
+							<Policy>1404004266</Policy>
+							<Description>1404004269</Description>
+						</Tier5Decree>
+					</Policies>
+				</Hacienda>
 				<IncidentInfectable/>
-				<PublicService/>
+				<PublicService>
+					<PublicServiceOutputs>
+						<Item>
+							<Product>1404004247</Product>
+						</Item>
+					</PublicServiceOutputs>
+					<FunctionDescription>100364</FunctionDescription>
+				</PublicService>
 				<Culture/>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>AdditionalModule</Template>
+			<Template>ResidenceBuilding7_Colony</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004212</GUID>
-					<Name>orientSultansPalaceWing</Name>
+					<Name>residence_orient_sultanspalace</Name>
 					<IconFilename>data/graphics/icons/ornaments/sultanspalace_wing.png</IconFilename>
-					<InfoDescription>1404001003</InfoDescription>
+					<InfoDescription>163059</InfoDescription>
 				</Standard>
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Sultan's Palace Wing</Text>
+							<Text>Palace Envoy Quarters</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -165,115 +192,249 @@
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>0</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingType>Residence</BuildingType>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<ModuleParentType>Hacienda</ModuleParentType>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1404004211</Building>
+						</Item>
+						<Item>
+							<Building>1404004212</Building>
+						</Item>
+						<Item>
+							<Building>1404004214</Building>
+						</Item>
+						<Item>
+							<Building>1404004215</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<!-- neighbour table of the Orient fence 1404004205 (vanilla park fence 102093): it has T and X entries, the residence
+					     template default maps T to Mid. Its directions are one quarter turn ahead of the residence table, so every
+					     offset below is +1; corner wing checked in game with the residence table at offset 2 -->
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</DontCare>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>200</Amount>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>ResidenceBuilding7_Colony</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>4</Amount>
 						</Item>
 						<Item>
-							<Ingredient>1400201040</Ingredient>
-							<Amount>0</Amount>
-						</Item>
-						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>ResidenceBuilding7_Colony</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1404009000</Ingredient>
-							<Amount>0</Amount>
+							<Amount>3</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>ResidenceBuilding7_Colony</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>ResidenceBuilding7_Colony</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>ResidenceBuilding7_Colony</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>ResidenceBuilding7_Colony</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
 					</Costs>
 				</Cost>
+				<Mesh/>
 				<Object>
 					<Variations>
 						<Item>
 							<Filename>data/graphics/buildings/orient/sultanspalace/wohnflugel/wohnflugel.cfg</Filename>
 						</Item>
-					</Variations>
-				</Object>
-				<Mesh/>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList/>
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Constructable/>
-				<Locked/>
-				<SoundEmitter/>
-				<FeedbackController/>
-				<Infolayer/>
-				<BuildingModule>
-					<ModuleType>Main</ModuleType>
-				</BuildingModule>
-				<AmbientMoodProvider>
-					<AmbientMood>ResidenceTier1</AmbientMood>
-				</AmbientMoodProvider>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>AdditionalModule</Template>
-			<Values>
-				<Standard>
-					<GUID>1404004213</GUID>
-					<Name>orientSultansPalaceWingBridge</Name>
-					<IconFilename>data/graphics/icons/ornaments/sultanspalace_bridge.png</IconFilename>
-					<InfoDescription>1404001003</InfoDescription>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Sultan's Palace Wing - Bridge</Text>
-							<Status>Exported</Status>
-						</English>
-					</LocaText>
-					<LineID>45376</LineID>
-				</Text>
-				<Blocking/>
-				<Building>
-					<BuildingCategoryName>0</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Mod3</AssociatedRegions>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<ModuleParentType>Hacienda</ModuleParentType>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>200</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1400201040</Ingredient>
-							<Amount>0</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1404009000</Ingredient>
-							<Amount>0</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1404000256</Ingredient>
-							<Amount>0</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Object>
-					<Variations>
 						<Item>
 							<Filename>data/graphics/buildings/orient/sultanspalace/bogengang/bogengang.cfg</Filename>
 						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/eckturm/eckturm.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/eckflugel/eckflugel.cfg</Filename>
+						</Item>
 					</Variations>
+					<DefaultParticipant>Mod9</DefaultParticipant>
 				</Object>
-				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -281,22 +442,52 @@
 							<ActionList/>
 						</Values>
 					</OnSelection>
+					<ParticipantMessageArcheType>Mod9</ParticipantMessageArcheType>
 				</Selection>
-				<Constructable/>
+				<Constructable>
+					<DestructionCategory>Residents</DestructionCategory>
+					<ConstructionMenuIcon>1404000011</ConstructionMenuIcon>
+				</Constructable>
 				<Locked/>
-				<SoundEmitter/>
-				<FeedbackController/>
+				<Upgradable/>
+				<SoundEmitter>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+					<MaterialType>Wood</MaterialType>
+				</SoundEmitter>
 				<Infolayer/>
-				<BuildingModule>
-					<ModuleType>Main</ModuleType>
-				</BuildingModule>
+				<FeedbackController/>
+				<Residence7>
+					<PopulationLevel7>1404000011</PopulationLevel7>
+					<ResidentMax>20</ResidentMax>
+					<ResidentsRequiredForUpgrade>20</ResidentsRequiredForUpgrade>
+				</Residence7>
+				<LogisticNode/>
 				<AmbientMoodProvider>
-					<AmbientMood>ResidenceTier1</AmbientMood>
+					<DynamicEnvironmentType>ResidenceT1</DynamicEnvironmentType>
 				</AmbientMoodProvider>
+				<UpgradeList/>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+					<MaximumHitPoints>2000</MaximumHitPoints>
+				</Attackable>
+				<IncidentInfectable/>
+				<!-- no IsHaciendaDependent: the engine checks it against the island's UniqueType Hacienda building (the Bedouin Camp),
+				     which the palace doesn't have; the Palace radius need 1404004247 ties the quarters to a palace instead -->
+				<Pausable/>
+				<Culture/>
+				<StreetActivation/>
+				<InfluenceSource>
+					<InfluenceAmount>4</InfluenceAmount>
+					<InfluenceSource>Culture</InfluenceSource>
+				</InfluenceSource>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>AdditionalModule</Template>
+			<Template>OrnamentalBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004214</GUID>
@@ -320,40 +511,86 @@
 					<BelowArchBuildHeight>1</BelowArchBuildHeight>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>0</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingCategoryName>11149</BuildingCategoryName>
 					<AssociatedRegions>Mod3</AssociatedRegions>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<Ingredient>1010017</Ingredient>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
 					</Costs>
 				</Cost>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/torhaus/torhaus.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -362,21 +599,30 @@
 						</Values>
 					</OnSelection>
 				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/torhaus/torhaus.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
 				<Constructable/>
-				<Locked/>
+				<Mesh/>
 				<SoundEmitter/>
+				<Locked/>
 				<FeedbackController/>
+				<Ornament>
+					<OrnamentUnit>4</OrnamentUnit>
+					<OrnamentDescription>6013</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider/>
+				<Pausable/>
 				<Infolayer/>
-				<BuildingModule>
-					<ModuleType>Main</ModuleType>
-				</BuildingModule>
-				<AmbientMoodProvider>
-					<AmbientMood>ResidenceTier1</AmbientMood>
-				</AmbientMoodProvider>
+				<Culture/>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>AdditionalModule</Template>
+			<Template>OrnamentalBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004215</GUID>
@@ -395,40 +641,86 @@
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>0</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingCategoryName>11149</BuildingCategoryName>
 					<AssociatedRegions>Mod3</AssociatedRegions>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<Ingredient>1010017</Ingredient>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
 					</Costs>
 				</Cost>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/eckturm/eckturm.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -437,27 +729,573 @@
 						</Values>
 					</OnSelection>
 				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/eckturm/eckturm.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
 				<Constructable/>
-				<Locked/>
+				<Mesh/>
 				<SoundEmitter/>
+				<Locked/>
 				<FeedbackController/>
+				<Ornament>
+					<OrnamentUnit>4</OrnamentUnit>
+					<OrnamentDescription>6013</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider/>
+				<Pausable/>
 				<Infolayer/>
-				<BuildingModule>
-					<ModuleType>Main</ModuleType>
-				</BuildingModule>
+				<Culture/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- creative copies of the palace and its wing pieces, like vanilla's OrnamentalPalaceGroup 12707.
+			Group 1404004246 in construction_categories/subcategories/assets_orient_sultanspalace.xml -->
+	<ModOp Type="addNextSibling" GUID='1404004214'>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004240</GUID>
+					<Name>CreativeMode_Ornament_Orient_SultansPalace_Main</Name>
+					<IconFilename>data/graphics/icons/public_services/icon_orient_sultanspalace_emblem.png</IconFilename>
+					<InfoDescription>13601</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>1404004211</TextOverride>
+				</Text>
+				<Blocking>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList/>
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/haupthaus.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable/>
+				<Mesh/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked/>
+				<FeedbackController/>
+				<Ornament/>
 				<AmbientMoodProvider>
-					<AmbientMood>ResidenceTier1</AmbientMood>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
+				<Pausable/>
+				<Infolayer/>
+				<Culture>
+					<Attractiveness>200</Attractiveness>
+				</Culture>
+				<Attackable/>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>AdditionalModule</Template>
+			<Template>OrnamentalBuildingRuin</Template>
 			<Values>
 				<Standard>
-					<GUID>1404004217</GUID>
-					<Name>orientSultansPalaceWingCorner</Name>
+					<GUID>1404004241</GUID>
+					<Name>CreativeMode_Ornament_Orient_SultansPalace_Wing</Name>
+					<IconFilename>data/graphics/icons/ornaments/sultanspalace_wing.png</IconFilename>
+					<InfoDescription>13601</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Sultan's Palace Wing</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Blocking/>
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList/>
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/wohnflugel/wohnflugel.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable/>
+				<Mesh/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked/>
+				<FeedbackController/>
+				<Ornament/>
+				<AmbientMoodProvider>
+					<Murmur>None</Murmur>
+				</AmbientMoodProvider>
+				<Pausable/>
+				<Infolayer/>
+				<Culture>
+					<Attractiveness>200</Attractiveness>
+				</Culture>
+				<Attackable/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004242</GUID>
+					<Name>CreativeMode_Ornament_Orient_SultansPalace_WingBridge</Name>
+					<IconFilename>data/graphics/icons/ornaments/sultanspalace_bridge.png</IconFilename>
+					<InfoDescription>13601</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Sultan's Palace Wing - Bridge</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Blocking/>
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList/>
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/bogengang/bogengang.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable/>
+				<Mesh/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked/>
+				<FeedbackController/>
+				<Ornament/>
+				<AmbientMoodProvider>
+					<Murmur>None</Murmur>
+				</AmbientMoodProvider>
+				<Pausable/>
+				<Infolayer/>
+				<Culture>
+					<Attractiveness>200</Attractiveness>
+				</Culture>
+				<Attackable/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004243</GUID>
+					<Name>CreativeMode_Ornament_Orient_SultansPalace_WingGate</Name>
+					<IconFilename>data/graphics/icons/ornaments/sultanspalace_gate.png</IconFilename>
+					<InfoDescription>13601</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>1404004214</TextOverride>
+				</Text>
+				<Blocking>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>1</ArchHeight>
+					<OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+					<BelowArchBuildHeight>1</BelowArchBuildHeight>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList/>
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/torhaus/torhaus.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable/>
+				<Mesh/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked/>
+				<FeedbackController/>
+				<Ornament/>
+				<AmbientMoodProvider>
+					<Murmur>None</Murmur>
+				</AmbientMoodProvider>
+				<Pausable/>
+				<Infolayer/>
+				<Culture>
+					<Attractiveness>200</Attractiveness>
+				</Culture>
+				<Attackable/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004244</GUID>
+					<Name>CreativeMode_Ornament_Orient_SultansPalace_WingCross</Name>
+					<IconFilename>data/graphics/icons/ornaments/sultanspalace_cross.png</IconFilename>
+					<InfoDescription>13601</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Sultan's Palace Wing - Cross</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Blocking/>
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList/>
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/eckturm/eckturm.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable/>
+				<Mesh/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked/>
+				<FeedbackController/>
+				<Ornament/>
+				<AmbientMoodProvider>
+					<Murmur>None</Murmur>
+				</AmbientMoodProvider>
+				<Pausable/>
+				<Infolayer/>
+				<Culture>
+					<Attractiveness>200</Attractiveness>
+				</Culture>
+				<Attackable/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004245</GUID>
+					<Name>CreativeMode_Ornament_Orient_SultansPalace_WingCorner</Name>
 					<IconFilename>data/graphics/icons/ornaments/sultanspalace_corner.png</IconFilename>
-					<InfoDescription>1404001003</InfoDescription>
+					<InfoDescription>13601</InfoDescription>
 				</Standard>
 				<Text>
 					<LocaText>
@@ -466,36 +1304,30 @@
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
-					<LineID>45376</LineID>
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>0</BuildingCategoryName>
+					<BuildingCategoryName>15314</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<ModuleParentType>Hacienda</ModuleParentType>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
 							<Ingredient>1010017</Ingredient>
-							<Amount>200</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1400201040</Ingredient>
-							<Amount>0</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1404009000</Ingredient>
-							<Amount>0</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1404000256</Ingredient>
-							<Amount>0</Amount>
 						</Item>
 					</Costs>
 				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList/>
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
 				<Object>
 					<Variations>
 						<Item>
@@ -503,28 +1335,95 @@
 						</Item>
 					</Variations>
 				</Object>
-				<Mesh/>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList/>
-						</Values>
-					</OnSelection>
-				</Selection>
 				<Constructable/>
+				<Mesh/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+				</SoundEmitter>
 				<Locked/>
-				<SoundEmitter/>
 				<FeedbackController/>
-				<Infolayer/>
-				<BuildingModule>
-					<ModuleType>Main</ModuleType>
-				</BuildingModule>
+				<Ornament/>
 				<AmbientMoodProvider>
-					<AmbientMood>ResidenceTier1</AmbientMood>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
+				<Pausable/>
+				<Infolayer/>
+				<Culture>
+					<Attractiveness>200</Attractiveness>
+				</Culture>
+				<Attackable/>
 			</Values>
 		</Asset>
+	</ModOp>
+
+	<!-- AllResidences -->
+	<ModOp Type="add" GUID="142785" Path="Values/FeedbackBuildingGroup/Buildings">
+		<Item>
+			<Building>1404004212</Building>
+		</Item>
+	</ModOp>
+
+	<!-- Residence2Buildings -->
+	<ModOp Type="add" GUID="2001089" Path="Values/FeedbackBuildingGroup/Buildings">
+		<Item>
+			<Building>1404004212</Building>
+		</Item>
+	</ModOp>
+
+	<!-- all residences EU & SA + Africa & Scholar -->
+	<ModOp Type="add" GUID="190762" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404004212</GUID>
+		</Item>
+	</ModOp>
+
+	<!-- ItemSearchConfig -->
+	<ModOp Type="add" GUID="26026" Path="Values/ItemSearchConfig/SearchCategories/Residents/SubCategories/Item/Keywords">
+		<Item>
+			<Keyword>1404004212</Keyword>
+			<Priority>18</Priority>
+		</Item>
 	</ModOp>
 
 </ModOps>

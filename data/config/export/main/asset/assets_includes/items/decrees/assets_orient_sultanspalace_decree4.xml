@@ -1,0 +1,107 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004262</GUID>
+                    <Name>Orient_Sultans_Palace_Decree4</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_professional_development.png</IconFilename>
+                    <InfoDescription>1404004263</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Palace Service</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404004264</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004263</GUID>
+                    <Name>Orient_Sultans_Palace_Decree4_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Scribes, guards and stewards: a palace needs many hands, and they are proud to serve.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004264</GUID>
+                    <Name>Orient_Sultans_Palace - Decree4 Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_professional_development.png</IconFilename>
+                    <InfoDescription>1404004263</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404004212</GUID>
+                            <!--palace envoy quarters-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404004262</TextOverride>
+                </Text>
+                <BuildingUpgrade />
+                <Buff/>
+                <PopulationUpgrade/>
+                <ResidenceUpgrade>
+                    <WorkforceModifierInPercent>15</WorkforceModifierInPercent>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade/>
+                <CultureUpgrade/>
+                <InfluenceSourceUpgrade/>
+                <WarehouseUpgrade/>
+                <DistributionUpgrade/>
+                <ItemContainerUpgrade/>
+                <FactoryUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004265</GUID>
+                    <Name>Orient_Sultans_Palace_Decree4_Info</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Increases the workforce of palace envoys</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

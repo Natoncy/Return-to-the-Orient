@@ -10,13 +10,13 @@
          Add new progression triggers here too. -->
     <ModOp Type="addNextSibling" GUID="10138">
 
-        <!-- Fires once per save for main mod version 0.6.1 -->
+        <!-- Fires once per save for main mod version 0.6.2 -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1404006061</GUID>
-                    <Name>Orient trigger reset run 0.6.1</Name>
+                    <GUID>1404006062</GUID>
+                    <Name>Orient trigger reset run 0.6.2</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>

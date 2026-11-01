@@ -239,7 +239,7 @@
         </Asset>
     </ModOp>
 
-    <!-- Bedouin Tent: the camp's only module, a nomad residence on the tent ornament models -->
+    <!-- Bedouin Nomad Quarters: the camp's only module, a nomad residence on the tent ornament models -->
     <ModOp Type="addNextSibling" GUID="24792">
         <Asset>
             <Template>ResidenceBuilding7_Colony</Template>
@@ -247,7 +247,7 @@
                 <Standard>
                     <GUID>1404008101</GUID>
                     <Name>residence_orient_bedouin_tent</Name>
-                    <IconFilename>data/graphics/icons/ornaments/tent.png</IconFilename>
+                    <IconFilename>data/graphics/icons/ornaments/bedouin_tent.png</IconFilename>
                     <InfoDescription>163059</InfoDescription>
                 </Standard>
                 <Blocking />
@@ -338,19 +338,19 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/1404_import/buildings/residence/south/tent01/s_tent01.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/bedouin_tent01/s_tent01.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data/graphics/1404_import/buildings/residence/south/tent02/s_tent02.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/bedouin_tent02/s_tent02.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/tent03/s_tent03.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/bedouin_tent03/s_tent03.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/tent04/s_tent04.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/bedouin_tent04/s_tent04.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/tent05/s_tent05.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/bedouin_tent05/s_tent05.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
@@ -371,7 +371,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Bedouin Tent</Text>
+                            <Text>Bedouin Nomad Quarters</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -408,9 +408,10 @@
                     <MaximumHitPoints>1500</MaximumHitPoints>
                 </Attackable>
                 <IncidentInfectable />
-                <Pausable>
-                    <IsHaciendaDependent>1</IsHaciendaDependent>
-                </Pausable>
+                <!-- no IsHaciendaDependent: its out-of-range warning shows the vanilla hacienda icon;
+                     the Bedouin Camp radius need 1404008102 ties the tents to a camp instead -->
+                <Pausable />
+
                 <Culture />
                 <StreetActivation />
                 <InfluenceSource />

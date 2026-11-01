@@ -95,9 +95,14 @@ The need already shows (hidden/preview) one trigger stage earlier.
     - Marketstall: Steam Carriages [need: 4500 Envoys + 5000 Investors]
     - Marketstall: Scooter [need: 4500 Envoys + 6000 Artistas + DLC New World Rising]
 
-  - Palace Envoys (v0.7.0, not built yet): regular Envoy needs with Palace radius / Incense / Turbans / Coffee House
-    in place of Consulate / Ceremonial Sabers / Kaftans / Bath House (those four already have RequiredBuildings
-    = regular Envoy residence 1404000017 + levels 1404004300/4301)
+  - Palace Envoys (Palace Envoy Quarters 1404004212 = the palace's residence module, palace shown 3.0 / unlocked 3.1):
+    regular Envoy needs with Palace radius / Incense / Turbans / Coffee House in place of
+    Marketplace / Ceremonial Sabers / Kaftans / Bath House (those four have RequiredBuildings = regular Envoy residence
+    1404000017 + levels 1404004300/4301; the replacements have RequiredBuildings = 1404004212). The Consulate is shared.
+    - Palace radius (Public service, product 1404004247) [unlock: 3.1 with the palace]
+    - Incense (Orient) [pool: 3.0 unhide / 3.1 unlock with the palace, or the export trigger 2.4/2.5]
+    - Turbans (Orient) [pool: 3.0 unhide / 3.1 unlock]
+    - Coffee House (Public service) [unlock: 7000 Scholars + 3250 Envoys]
 
   - Coffee House (Public service, Scholars) [unlock: 7000 Scholars + 3250 Envoys]
     - Roasted Coffee (Orient)
@@ -140,7 +145,7 @@ The need already shows (hidden/preview) one trigger stage earlier.
 Unlock = the good's own Orient unlock + the other population's count (NoWeightPopulationCount + 1).
 The production has no extra trigger: it unlocks with the Orient pool. The need's AGU holds the Envoy count of that
 Orient stage. Skyscraper and Scholar stages rely on the locked product to hide the need until then (untested in game).
-Incense is the exception: it has no Orient unlock yet, so its export trigger (2.4 unhide, 2.5 unlock) stays.
+Incense is the exception: its export trigger (2.4 unhide, 2.5 unlock) stays; its Orient unlock is the palace (3.0 / 3.1).
 The region itself unlocks at 3000 Investors + 1500 Obreros + 1000 Elders (assets_orient_feature_unlock.xml),
 so the Elders and Obreros counts below are always reached.
 
