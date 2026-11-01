@@ -3,12 +3,12 @@
     <Text>
       <GUID>1404003900</GUID>
       <!-- Product | beryl | Beryl -->
-      <Text>Berilo</Text>
+      <Text>Quartz</Text>
     </Text>
     <Text>
       <GUID>1404003901</GUID>
       <!-- Text | beryl fluff text | Hewn from the desert hills, cut into shimmering tesserae. -->
-      <Text>Extraído das colinas do deserto, lapidado em tesselas cintilantes.</Text>
+      <Text>Hewn from the desert hills, cut into shimmering tesserae.</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -1,15 +1,15 @@
 <ModOps>
 
-    <!-- Beryl deposit: copy of the Orient silver deposit 1404001281 (same rock and footprint) on slot type Tin,
-         which no other Orient deposit uses. Region Orient SlotBuildings maps Tin to the Beryl Mine 1404003903. -->
+    <!-- quartz deposit: copy of the Orient silver deposit 1404001281 (same rock and footprint) on slot type Tin,
+         which no other Orient deposit uses. Region Orient SlotBuildings maps Tin to the quartz Mine 1404003903. -->
     <ModOp Type="addNextSibling" GUID="1404001281">
         <Asset>
             <Template>Slot</Template>
             <Values>
                 <Standard>
                     <GUID>1404003905</GUID>
-                    <Name>mining_beryl_slot (Beryl Deposit - Orient)</Name>
-                    <IconFilename>data/modgraphics/ui/icon_beryl.png</IconFilename>
+                    <Name>mining_quartz_slot (quartz Deposit - Orient)</Name>
+                    <IconFilename>data/modgraphics/ui/icon_quartz.png</IconFilename>
                     <InfoDescription>1404003907</InfoDescription>
                 </Standard>
                 <Blocking />
@@ -37,7 +37,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Beryl Deposit</Text>
+                            <Text>quartz Deposit</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -83,7 +83,7 @@
             <Values>
                 <Standard>
                     <GUID>1404003906</GUID>
-                    <Name>Beryl Deposit Infolayer (Orient)</Name>
+                    <Name>quartz Deposit Infolayer (Orient)</Name>
                 </Standard>
                 <InfoLayerIcon>
                     <Config>data/graphics/ui/infolayer3d/infolayer_a7_marker_mine_general.cfg</Config>
@@ -103,7 +103,7 @@
             <Values>
                 <Standard>
                     <GUID>1404003907</GUID>
-                    <Name>Beryl Deposit description</Name>
+                    <Name>quartz Deposit description</Name>
                 </Standard>
                 <Text>
                     <LocaText>
