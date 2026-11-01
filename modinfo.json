@@ -1,5 +1,5 @@
 {
-  "Version": "0.6.1",
+  "Version": "0.6.2",
   "ModID": "natoncy_return_to_the_orient",
   "ModioResourceId": 6129743,
   "Category": {
@@ -54,6 +54,7 @@
     "natoncy_return_to_the_orient_shared_products",
     "natoncy_return_to_the_orient_shared_storagelist",
     "natoncy_return_to_the_orient_after_other_mods",
+    "shared_production_silver_bars",
     
     "natoncy_return_to_the_orient_trigger_reset"
   ],
