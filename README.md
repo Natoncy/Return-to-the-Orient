@@ -115,14 +115,14 @@ These products are added by the mod, but are specific to the Orient. This is the
 
 #### Portraits (Natoncy)
 
-- Natoncy_player_portrait_1404_26_nomad by Natoncy
-- Natoncy_player_portrait_1404_27_envoy by Natoncy
-- Natoncy_player_portrait_1404_28_al_zahir by Natoncy
-- Natoncy_player_portrait_1404_29_sultan by Natoncy
-- Natoncy_player_portrait_1404_30_assassine_keeper by Natoncy
-- Natoncy_player_portrait_1404_31_caravanserai_keeper by Natoncy
-- Natoncy_player_portrait_1404_32_alchemist by Natoncy
-- Natoncy_player_portrait_1404_33_scholar by Natoncy
+- Natoncy_portrait_1404_26_nomad by Natoncy
+- Natoncy_portrait_1404_27_envoy by Natoncy
+- Natoncy_portrait_1404_28_al_zahir by Natoncy
+- Natoncy_portrait_1404_29_sultan by Natoncy
+- Natoncy_portrait_1404_30_assassin by Natoncy
+- Natoncy_portrait_1404_31_caravanserai by Natoncy
+- Natoncy_portrait_1404_32_alchemist by Natoncy
+- Natoncy_portrait_1404_33_scholar by Natoncy
 
 ---
 

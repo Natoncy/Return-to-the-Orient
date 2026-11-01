@@ -5,8 +5,8 @@ set -e
 cd "$(dirname "$0")"
 MOD="$(cd ../../.. && pwd -W)"
 RDM4="$(ls -d ~/.vscode/extensions/jakobharder.anno-modding-tools-*/external | tail -1)/rdm4-bin.exe"
-# each portrait is a submod, Natoncy_player_portrait_1404_<nn>_<name> (../portrait_1404/picker.json)
-sub() { ls -d "$MOD"/Natoncy_player_portrait_1404_*_$1 | head -1; }
+# each portrait is a submod, shared_portraits/Natoncy_portrait_1404_<nn>_<name> (../portrait_1404/picker.json)
+sub() { ls -d "$MOD"/shared_portraits/Natoncy_portrait_1404_*_$1 | head -1; }
 name() { if [ $1 = 01 ]; then echo nomad; else echo envoy; fi; }
 
 for t in 01 02; do
