@@ -5,8 +5,8 @@ Enums:
     SocketExclusiveGroup: Mod14 (Light house)
     InternalID: 28, 64, 65, 66, 69
 Required Pop.: 3000 Investors, 1500 Obreros, 1000 Elders
-Required DLCs: Land of Lions
-Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
+Required DLCs: Land of Lions, New World Rising
+Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies
 Optional Mods: New Horizons
 
 
@@ -17,16 +17,12 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Feedbacks and Nets from the Pearl Diver are offset
-- Update quests
 - add compost for moldy bread
 - Light house monument 
     construction scaffolding stage 2 & 3
     construction feedback units
-- Agates for mosaics and other wares
-- Rammed Earth factory model
-- Check lifestyle needs
 - Letting AI settle the region
+- Add Silver Ore Mine workspace model
 
 Before v1.0.0
 - Add light emitting surfaces for windows at night
@@ -47,8 +43,6 @@ Bugs:
 
 
 Backlog:
-- Goat milk as a bedouin alternative
-- Rewrite some quest texts maybe
 - Camera sequence when entering region for the first time
 
 

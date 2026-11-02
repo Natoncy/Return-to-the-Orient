@@ -7077,18 +7077,28 @@
     </Text>
     <Text>
       <GUID>1404003903</GUID>
-      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
-      <Text>绿柱石矿场</Text>
+      <!-- SlotFactoryBuilding7 | Agate Collector | Agate Collector -->
+      <Text>玛瑙采集场</Text>
     </Text>
     <Text>
       <GUID>1404003905</GUID>
-      <!-- Slot | Beryl Deposit | Beryl Deposit -->
-      <Text>绿柱石矿床</Text>
+      <!-- Slot | Riverslot Orient | Riverbed Plot -->
+      <Text>河床槽位</Text>
     </Text>
     <Text>
-      <GUID>1404003907</GUID>
-      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
-      <Text>可以从这处矿床开采绿柱石，再切割成马赛克镶片。</Text>
+      <GUID>1404003912</GUID>
+      <!-- InfoLayerIcon | RiverSlot Orient | Riverbed Plot -->
+      <Text>河床槽位</Text>
+    </Text>
+    <Text>
+      <GUID>1404003913</GUID>
+      <!-- WorkAreaRiverSlot | Riverslot_workarea Orient | Riverbed Plot -->
+      <Text>河床槽位</Text>
+    </Text>
+    <Text>
+      <GUID>1404003906</GUID>
+      <!-- Text | Riverslot Orient description | Build an Agate Collector to gather agates from the riverbed. -->
+      <Text>建造玛瑙采集场以从河床采集玛瑙。</Text>
     </Text>
     <Text>
       <GUID>1404004250</GUID>
@@ -7164,6 +7174,91 @@
       <GUID>1404004269</GUID>
       <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
       <Text>降低宫殿特使对熏香和头巾的消耗</Text>
+    </Text>
+    <Text>
+      <GUID>1404009200</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q08_envoys_600 | A Beacon on the Horizon -->
+      <Text>地平线上的灯塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404009201</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q09_lighthouse | Light over the Reefs -->
+      <Text>照亮暗礁之光</Text>
+    </Text>
+    <Text>
+      <GUID>1404009210</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q12_envoys_6000 | Seekers of Knowledge -->
+      <Text>求知之人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009211</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q13_research_outpost | A House of Knowledge -->
+      <Text>知识之家</Text>
+    </Text>
+    <Text>
+      <GUID>1404009212</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q14_scholars_300 | Scholars in the Desert -->
+      <Text>沙漠中的学者</Text>
+    </Text>
+    <Text>
+      <GUID>1404009213</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q15_sultans_palace | A Palace for the Sultan -->
+      <Text>献给苏丹的宫殿</Text>
+    </Text>
+    <Text>
+      <GUID>1404009220</GUID>
+      <!-- Text | Orient_Q08_envoys_600_Questbook | Word of your city has reached the ports of the sultanate, and more and more envoys are crossing the sea to see it with their own eyes. The captains, however, complain about the treacherous reefs and shifting sandbanks around your islands. The Diwan has promised the plans for a great lighthouse once enough envoys live in your city to justify such an expense. -->
+      <Text>您城市的名声已传到苏丹国的各个港口，越来越多的特使渡海而来，想亲眼看一看它。然而船长们抱怨您岛屿周围暗礁险恶、沙洲变幻莫测。迪万议会已承诺，一旦您的城市中居住了足够多的特使、足以让这笔开支物有所值，便会送来一座大灯塔的设计图。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009221</GUID>
+      <!-- Text | Orient_Q09_lighthouse_Questbook | The Diwan has kept its word: the plans for an Oriental Lighthouse have arrived, sealed with the Grand Vizier's own stamp. Its fire will guide merchant ships safely into your harbour by night, and its beacons can strengthen entire fleets. First lay the foundations on the coast, on solid rock and not on sand, as the master builders insist. -->
+      <Text>迪万议会信守了承诺：东方灯塔的设计图已经送达，上面盖着大维齐尔本人的印章。它的火光将在夜里引导商船安全驶入您的港口，它的信标还能增强整支舰队。首先在海岸上打下地基——正如建筑大师们坚持的那样，要建在坚固的岩石上，而不是沙子上。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009230</GUID>
+      <!-- Text | Orient_Q12_envoys_6000_Questbook | Your city has become the jewel of the sultanate, and its fame has travelled far beyond the desert. Scholars from distant lands have asked whether they may study the ancient libraries of the sultanate, the stars above the dunes and the secrets of the norias. The Diwan will only grant their request once your city is large enough to welcome envoys of every rank. -->
+      <Text>您的城市已成为苏丹国的明珠，声名远播至沙漠之外。来自远方的学者们询问，能否研究苏丹国古老的图书馆、沙丘上空的星辰以及诺里亚的奥秘。只有当您的城市大到足以接待各级特使时，迪万议会才会批准他们的请求。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009231</GUID>
+      <!-- Text | Orient_Q13_research_outpost_Questbook | The scholars' request has been granted. Build a Research Outpost where they can live and work among the envoys and nomads, and where the knowledge of East and West can meet. -->
+      <Text>学者们的请求已获批准。建造一座研究前哨，让他们能够在特使和游牧民之间生活与工作，让东西方的知识在此交汇。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009232</GUID>
+      <!-- Text | Orient_Q14_scholars_300_Questbook | The first scholars have arrived at the Research Outpost and are poring over star charts, old manuscripts and the secrets of the norias. Word has spread among the universities of the Old World. Give more scholars a home in Wadi Al Zahir, and the Sultan may soon take notice of a city that has become a meeting place of faith, trade and science. -->
+      <Text>第一批学者已抵达研究前哨，正埋头研究星图、古老手稿和诺里亚的奥秘。消息已在旧世界的大学中传开。在 Wadi Al Zahir 为更多学者提供家园，苏丹或许很快就会注意到这座已成为信仰、贸易与科学交汇之地的城市。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009233</GUID>
+      <!-- Text | Orient_Q15_sultans_palace_Questbook | The Sultan is so impressed by your city that he wishes to reside here himself for part of the year. The Grand Vizier has sent the plans for a Sultan's Palace, together with a long list of demands from the court. Build the palace, and your city will be second to none in the whole sultanate. -->
+      <Text>苏丹对您的城市印象深刻，希望每年有一段时间亲自住在这里。大维齐尔送来了苏丹宫殿的设计图，还附上了一长串宫廷的要求。建造这座宫殿，您的城市将在整个苏丹国无可匹敌。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009240</GUID>
+      <!-- Text | Orient_Quest_Hint_Bedouin_Camp | The Bedouin Camp can be expanded with Bedouin Nomad Quarters. Its decrees let you adapt the camp to the needs of your Nomads. -->
+      <Text>贝都因营地可以扩建贝都因游牧民区。通过它的法令，您可以让营地适应游牧民族的需求。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009241</GUID>
+      <!-- Text | Orient_Quest_Hint_Lighthouse | The Oriental Lighthouse is built in several phases, each unlocked by a growing number of Envoys. Once complete, a beacon placed in it strengthens all of your ships. -->
+      <Text>东方灯塔分为多个阶段建造，每个阶段都随着特使人数的增长而解锁。建成后，放置在其中的信标可以增强您的所有船只。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009242</GUID>
+      <!-- Text | Orient_Quest_Hint_Research_Outpost | The Research Outpost can be expanded with residences for Scholars. -->
+      <Text>研究前哨可以扩建学者住宅。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009243</GUID>
+      <!-- Text | Orient_Quest_Hint_Scholars | Scholars live in the residences of the Research Outpost. Fulfil their needs to attract more of them. -->
+      <Text>学者居住在研究前哨的住宅中。满足他们的需求以吸引更多学者。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009244</GUID>
+      <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
+      <Text>苏丹宫殿可以扩建宫殿特使区，它的法令能为您的城市带来强大的加成。</Text>
     </Text>
   </ModOp>
 </ModOps>

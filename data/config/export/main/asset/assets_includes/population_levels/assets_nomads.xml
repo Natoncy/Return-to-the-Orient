@@ -315,4 +315,11 @@
         </Item>
     </ModOp>
 
+    <!-- Lifestyle popup group: Spice Powder → Food and Drink -->
+    <ModOp Type="add" GUID="25000118" Path="Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs">
+        <Item>
+            <BonusNeed>1500301148</BonusNeed>
+        </Item>
+    </ModOp>
+
 </ModOps>

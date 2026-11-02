@@ -51,7 +51,7 @@ const mT = med(tealL), mG = med(goldL);
 console.log('teal px', tealL.length, 'median L', mT.toFixed(1), '| gold px', goldL.length, 'median L', mG.toFixed(1));
 
 const CLAY = { L: 44, a: 17, b: 27, k: 0.85 };   // clay brown field
-const SAND = { L: 70, a: 6, b: 26, k: 0.8 };     // sandstone trim
+const SAND = { L: 26, a: 12, b: 18, k: 0.6 };    // dark brown trim (was sandstone L 70, a 6, b 26)
 const sm = (e0, e1, x) => { const t = Math.max(0, Math.min(1, (x - e0) / (e1 - e0))); return t * t * (3 - 2 * t); };
 let n = 0;
 for (let i = 0; i < W * H; i++) {

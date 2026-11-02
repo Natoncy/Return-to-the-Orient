@@ -94,8 +94,8 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Paved Street
 - Mosaic (pool)
-  - Buildings: Mosaic Workshop; Clay Pit; Beryl Mine; Beryl Mine work area
-  - Goods: Beryl; Mosaic
+  - Buildings: Mosaic Workshop; Clay Pit; Agate Collector; Agate Collector work area
+  - Goods: Agates; Mosaic
   - Chains: Mosaic
   - Items: Nasrin Khatun, The Master of Clay; Mining Dewatering Pump
 - Consulate (pool)

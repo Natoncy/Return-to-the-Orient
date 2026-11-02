@@ -219,17 +219,17 @@
 		</Asset>
 	</ModOp>
 
-	<!-- Compatibility for saves from before the Orient beryl deposits: same dock, licenses into beryl.
-	     8 per license like the honey and ebony docks (a Beryl Mine makes 3 per 90 s). No mosaic in the cost:
-	     without beryl such a save may have no way to make mosaic. -->
+	<!-- Compatibility for saves from before the Orient agate river slots (older islands have no river slots): same dock, licenses into agates.
+	     8 per license like the honey and ebony docks (an Agate Collector makes 3 per 90 s). No mosaic in the cost:
+	     without agates such a save may have no way to make mosaic. -->
 	<ModOp Type="addNextSibling" GUID="1404003212">
 		<Asset>
 			<BaseAssetGUID>1404000382</BaseAssetGUID>
 			<Values>
 				<Standard>
 					<GUID>1404003909</GUID>
-					<Name>trading_company_orient (Beryl Import Dock)</Name>
-					<IconFilename>data/graphics/icons/trading_company/icon_import_dock_beryl.png</IconFilename>
+					<Name>trading_company_orient (Agates Import Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_import_dock_agates.png</IconFilename>
 				</Standard>
 				<Building>
 					<AssociatedRegions>Mod3</AssociatedRegions>
@@ -255,7 +255,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Import Dock: Beryl</Text>
+							<Text>Import Dock: Agates</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -338,7 +338,7 @@
 			<Values>
 				<Standard>
 					<GUID>1404003910</GUID>
-					<Name>Orient Beryl Import Dock unlock (300 Envoys)</Name>
+					<Name>Orient Agates Import Dock unlock (300 Envoys)</Name>
 				</Standard>
 				<Trigger>
 					<TriggerCondition>
@@ -385,7 +385,7 @@
 			<Values>
 				<Standard>
 					<GUID>1404003911</GUID>
-					<Name>Orient Beryl Import Dock unlock (creative mode)</Name>
+					<Name>Orient Agates Import Dock unlock (creative mode)</Name>
 				</Standard>
 				<Trigger>
 					<TriggerCondition>

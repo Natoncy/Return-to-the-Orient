@@ -260,6 +260,9 @@
                         <Item>
                             <Text>1404000841</Text>
                         </Item>
+                        <Item>
+                            <Text>1404009240</Text>
+                        </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
                     <StarterSpeechBubble>
@@ -328,6 +331,27 @@
                                     </ConditionPlayerCounter>
                                     <ConditionQuestStatusQuo/>
                                     <ConditionPropsExecutionPlaceSettings/>
+                                </Values>
+                            </Objective>
+                        </Item>
+                        <Item>
+                            <Objective>
+                                <Template>StatusQuoObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>12714</TextCombinedContextValue>
+                                    </ConditionQuestObjective>
+                                    <ConditionPlayerCounter>
+                                        <Context>1404008100</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                        <CounterScope>Session</CounterScope>
+                                        <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                        <CounterScopeContext>1404000000</CounterScopeContext>
+                                    </ConditionPlayerCounter>
+                                    <ConditionQuestStatusQuo/>
+                                    <ConditionPropsExecutionPlaceSettings>
+                                        <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+                                    </ConditionPropsExecutionPlaceSettings>
                                 </Values>
                             </Objective>
                         </Item>

@@ -32,6 +32,9 @@
     <!-- Clay slot -->
 	<ModOp Type="add" GUID="101061" Path="/Values/Building/AssociatedRegions">;Mod3</ModOp>
 
+	<!-- Enbesa river slot + its work area: the Orient islands carry them for the Agate Collector 1404003903 -->
+	<ModOp Type="add" GUID="117741,117742" Path="/Values/Building/AssociatedRegions">;Mod3</ModOp>
+
 	<!-- Quay system -->
 	<ModOp Type="add" GUID="101339" Path="/Values/Building/AssociatedRegions" Condition="/Values/Building/AssociatedRegions">;Mod3</ModOp>
 

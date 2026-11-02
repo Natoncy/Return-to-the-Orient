@@ -45,6 +45,10 @@
     {
       "DLC": "LandOfLions",
       "Dependant": "required"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "required"
     }
   ],
   "ModDependencies": [

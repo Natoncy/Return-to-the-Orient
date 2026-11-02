@@ -7077,18 +7077,28 @@
     </Text>
     <Text>
       <GUID>1404003903</GUID>
-      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
-      <Text>녹주석 광산</Text>
+      <!-- SlotFactoryBuilding7 | Agate Collector | Agate Collector -->
+      <Text>마노 채집소</Text>
     </Text>
     <Text>
       <GUID>1404003905</GUID>
-      <!-- Slot | Beryl Deposit | Beryl Deposit -->
-      <Text>녹주석 매장지</Text>
+      <!-- Slot | Riverslot Orient | Riverbed Plot -->
+      <Text>강바닥 슬롯</Text>
     </Text>
     <Text>
-      <GUID>1404003907</GUID>
-      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
-      <Text>이 매장지에서 녹주석을 채굴하여 모자이크 조각으로 다듬을 수 있습니다.</Text>
+      <GUID>1404003912</GUID>
+      <!-- InfoLayerIcon | RiverSlot Orient | Riverbed Plot -->
+      <Text>강바닥 슬롯</Text>
+    </Text>
+    <Text>
+      <GUID>1404003913</GUID>
+      <!-- WorkAreaRiverSlot | Riverslot_workarea Orient | Riverbed Plot -->
+      <Text>강바닥 슬롯</Text>
+    </Text>
+    <Text>
+      <GUID>1404003906</GUID>
+      <!-- Text | Riverslot Orient description | Build an Agate Collector to gather agates from the riverbed. -->
+      <Text>강바닥에서 마노를 채집하려면 마노 채집소를 건설하세요.</Text>
     </Text>
     <Text>
       <GUID>1404004250</GUID>
@@ -7164,6 +7174,91 @@
       <GUID>1404004269</GUID>
       <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
       <Text>궁전 특사의 향과 터번 소비량이 감소합니다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009200</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q08_envoys_600 | A Beacon on the Horizon -->
+      <Text>수평선의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404009201</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q09_lighthouse | Light over the Reefs -->
+      <Text>암초 위의 빛</Text>
+    </Text>
+    <Text>
+      <GUID>1404009210</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q12_envoys_6000 | Seekers of Knowledge -->
+      <Text>지식을 찾는 사람들</Text>
+    </Text>
+    <Text>
+      <GUID>1404009211</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q13_research_outpost | A House of Knowledge -->
+      <Text>지식의 집</Text>
+    </Text>
+    <Text>
+      <GUID>1404009212</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q14_scholars_300 | Scholars in the Desert -->
+      <Text>사막의 학자들</Text>
+    </Text>
+    <Text>
+      <GUID>1404009213</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q15_sultans_palace | A Palace for the Sultan -->
+      <Text>술탄을 위한 궁전</Text>
+    </Text>
+    <Text>
+      <GUID>1404009220</GUID>
+      <!-- Text | Orient_Q08_envoys_600_Questbook | Word of your city has reached the ports of the sultanate, and more and more envoys are crossing the sea to see it with their own eyes. The captains, however, complain about the treacherous reefs and shifting sandbanks around your islands. The Diwan has promised the plans for a great lighthouse once enough envoys live in your city to justify such an expense. -->
+      <Text>당신의 도시에 대한 소문이 술탄국의 항구들에 닿았고, 직접 눈으로 보려고 바다를 건너오는 특사들이 점점 늘고 있습니다. 하지만 선장들은 당신의 섬 주변에 있는 위험한 암초와 움직이는 모래톱에 대해 불평합니다. 디완은 그런 비용을 정당화할 만큼 충분한 특사가 당신의 도시에 살게 되면 거대한 등대의 설계도를 보내겠다고 약속했습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009221</GUID>
+      <!-- Text | Orient_Q09_lighthouse_Questbook | The Diwan has kept its word: the plans for an Oriental Lighthouse have arrived, sealed with the Grand Vizier's own stamp. Its fire will guide merchant ships safely into your harbour by night, and its beacons can strengthen entire fleets. First lay the foundations on the coast, on solid rock and not on sand, as the master builders insist. -->
+      <Text>디완이 약속을 지켰습니다. 대재상이 직접 날인한 동양 등대의 설계도가 도착했습니다. 등대의 불빛은 밤에 상선들을 당신의 항구로 안전하게 인도하고, 그 신호등은 함대 전체를 강화할 수 있습니다. 먼저 해안에 기초를 놓으세요. 건축 장인들이 고집하듯 모래가 아니라 단단한 바위 위에 말이죠.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009230</GUID>
+      <!-- Text | Orient_Q12_envoys_6000_Questbook | Your city has become the jewel of the sultanate, and its fame has travelled far beyond the desert. Scholars from distant lands have asked whether they may study the ancient libraries of the sultanate, the stars above the dunes and the secrets of the norias. The Diwan will only grant their request once your city is large enough to welcome envoys of every rank. -->
+      <Text>당신의 도시는 술탄국의 보석이 되었고, 그 명성은 사막 너머 먼 곳까지 퍼졌습니다. 먼 나라의 학자들이 술탄국의 오래된 도서관과 모래 언덕 위의 별들, 그리고 노리아의 비밀을 연구해도 되는지 묻고 있습니다. 디완은 당신의 도시가 모든 지위의 특사를 맞이할 만큼 커져야만 그들의 청을 들어줄 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009231</GUID>
+      <!-- Text | Orient_Q13_research_outpost_Questbook | The scholars' request has been granted. Build a Research Outpost where they can live and work among the envoys and nomads, and where the knowledge of East and West can meet. -->
+      <Text>학자들의 청이 받아들여졌습니다. 그들이 특사와 유목민 사이에서 살며 일할 수 있고, 동양과 서양의 지식이 만나는 연구 전초기지를 건설하세요.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009232</GUID>
+      <!-- Text | Orient_Q14_scholars_300_Questbook | The first scholars have arrived at the Research Outpost and are poring over star charts, old manuscripts and the secrets of the norias. Word has spread among the universities of the Old World. Give more scholars a home in Wadi Al Zahir, and the Sultan may soon take notice of a city that has become a meeting place of faith, trade and science. -->
+      <Text>첫 학자들이 연구 전초기지에 도착해 성도와 오래된 필사본, 노리아의 비밀에 몰두하고 있습니다. 소문은 구대륙의 대학들 사이에 퍼졌습니다. Wadi Al Zahir에 더 많은 학자들의 보금자리를 마련하면, 술탄도 곧 신앙과 무역과 과학이 만나는 곳이 된 이 도시에 주목할지 모릅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009233</GUID>
+      <!-- Text | Orient_Q15_sultans_palace_Questbook | The Sultan is so impressed by your city that he wishes to reside here himself for part of the year. The Grand Vizier has sent the plans for a Sultan's Palace, together with a long list of demands from the court. Build the palace, and your city will be second to none in the whole sultanate. -->
+      <Text>술탄은 당신의 도시에 깊은 인상을 받아 일 년 중 얼마 동안 직접 이곳에 머물고 싶어 합니다. 대재상은 궁정의 긴 요구 목록과 함께 술탄의 궁전 설계도를 보내왔습니다. 궁전을 지으면 당신의 도시는 술탄국 전체에서 견줄 곳이 없게 될 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009240</GUID>
+      <!-- Text | Orient_Quest_Hint_Bedouin_Camp | The Bedouin Camp can be expanded with Bedouin Nomad Quarters. Its decrees let you adapt the camp to the needs of your Nomads. -->
+      <Text>베두인 야영지는 베두인 유목민 숙소로 확장할 수 있습니다. 야영지의 칙령으로 유목민의 요구에 맞게 야영지를 조정할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009241</GUID>
+      <!-- Text | Orient_Quest_Hint_Lighthouse | The Oriental Lighthouse is built in several phases, each unlocked by a growing number of Envoys. Once complete, a beacon placed in it strengthens all of your ships. -->
+      <Text>동양 등대는 여러 단계에 걸쳐 건설되며, 각 단계는 특사 인구가 늘어남에 따라 잠금 해제됩니다. 완공 후 그 안에 배치한 신호등이 당신의 모든 선박을 강화합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009242</GUID>
+      <!-- Text | Orient_Quest_Hint_Research_Outpost | The Research Outpost can be expanded with residences for Scholars. -->
+      <Text>연구 전초기지는 학자 거주지로 확장할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009243</GUID>
+      <!-- Text | Orient_Quest_Hint_Scholars | Scholars live in the residences of the Research Outpost. Fulfil their needs to attract more of them. -->
+      <Text>학자는 연구 전초기지의 거주지에서 삽니다. 그들의 요구를 충족해 더 많은 학자를 불러들이세요.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009244</GUID>
+      <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
+      <Text>술탄의 궁전은 궁전 특사 숙소로 확장할 수 있으며, 그 칙령은 당신의 도시에 강력한 보너스를 부여합니다.</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -320,7 +320,7 @@
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>PopulationByLevel</PlayerCounter>
                                         <Context>1404000011</Context>
-                                        <CounterAmount>600</CounterAmount>
+                                        <CounterAmount>300</CounterAmount>
                                         <CounterScope>Session</CounterScope>
                                         <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
                                         <CounterScopeContext>1404000000</CounterScopeContext>

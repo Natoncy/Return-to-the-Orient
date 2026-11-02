@@ -556,4 +556,11 @@
         </Item>
     </ModOp>
 
+    <!-- Lifestyle popup group: Astrolabes → Research -->
+    <ModOp Type="add" GUID="25000118" Path="Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='4275']/Needs">
+        <Item>
+            <BonusNeed>1404005131</BonusNeed>
+        </Item>
+    </ModOp>
+
 </ModOps>

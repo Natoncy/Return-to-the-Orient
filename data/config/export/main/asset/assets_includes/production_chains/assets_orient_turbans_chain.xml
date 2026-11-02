@@ -27,6 +27,9 @@
                                 </Item>
                             </Tier2>
                         </Item>
+                        <Item>
+                            <Building>1404003903</Building>
+                        </Item>
                     </Tier1>
                 </ProductionChain>
                 <Locked/>
@@ -67,6 +70,9 @@
                                     <Building>5164</Building>
                                 </Item>
                             </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1404003903</Building>
                         </Item>
                     </Tier1>
                 </ProductionChain>

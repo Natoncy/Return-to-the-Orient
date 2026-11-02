@@ -1,0 +1,44 @@
+{
+  "Version": "1.0",
+  "ModID": "natoncy_sharedproduct_agates",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "sharedproduct_agates (Natoncy)",
+    "Chinese": "sharedproduct_agates (Natoncy)",
+    "French": "sharedproduct_agates (Natoncy)",
+    "German": "sharedproduct_agates (Natoncy)",
+    "Italian": "sharedproduct_agates (Natoncy)",
+    "Japanese": "sharedproduct_agates (Natoncy)",
+    "Korean": "sharedproduct_agates (Natoncy)",
+    "Polish": "sharedproduct_agates (Natoncy)",
+    "Russian": "sharedproduct_agates (Natoncy)",
+    "Spanish": "sharedproduct_agates (Natoncy)",
+    "Taiwanese": "sharedproduct_agates (Natoncy)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - New product: Agates",
+    "Chinese": null,
+    "French": null,
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Neues Produkt: Achate",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "CreatorName": "Natoncy"
+}

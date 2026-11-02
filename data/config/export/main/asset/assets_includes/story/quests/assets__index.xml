@@ -1,17 +1,19 @@
 <ModOps>
 
     <Include File="assets__orient_q01_expedition.xml" />
-    
     <Include File="assets__orient_q02_nomads.xml" />
     <Include File="assets__orient_q03_noria.xml" />
-    
     <Include File="assets__orient_q04_envoys_1.xml" />
     <Include File="assets__orient_q05_consulate.xml" />
-    
     <Include File="assets__orient_q06_envoys_2.xml" />
     <Include File="assets__orient_q07_marketstall.xml" />
-    
-    <Include File="assets__orient_q08_envoys_3.xml" />
-    <Include File="assets__orient_q09_grand_mosque.xml" />
+    <Include File="assets__orient_q08_envoys_600.xml" />
+    <Include File="assets__orient_q09_lighthouse.xml" />
+    <Include File="assets__orient_q10_envoys_2250.xml" />
+    <Include File="assets__orient_q11_grand_mosque.xml" />
+    <Include File="assets__orient_q12_envoys_6000.xml" />
+    <Include File="assets__orient_q13_research_outpost.xml" />
+    <Include File="assets__orient_q14_scholars_300.xml" />
+    <Include File="assets__orient_q15_sultans_palace.xml" />
 
 </ModOps>

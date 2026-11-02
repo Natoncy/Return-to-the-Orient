@@ -16,17 +16,17 @@
       <None>
         <None>
           <ObjectId>0E00000001002880</ObjectId>
-          <ObjectGuid>EECB0100</ObjectGuid>
+          <ObjectGuid>4966AF53</ObjectGuid>
           <Position>00800143D2D5C13F00803943</Position>
         </None>
         <None>
           <ObjectId>0800000001003480</ObjectId>
-          <ObjectGuid>EECB0100</ObjectGuid>
+          <ObjectGuid>4966AF53</ObjectGuid>
           <Position>0000DD429EB9D13F00804943</Position>
         </None>
         <None>
           <ObjectId>0E00000001001480</ObjectId>
-          <ObjectGuid>EECB0100</ObjectGuid>
+          <ObjectGuid>4966AF53</ObjectGuid>
           <Position>0000FD4200DBB53F0000C342</Position>
         </None>
       </None>
@@ -38,17 +38,17 @@
       <None>
         <None>
           <ObjectId>2500000001001880</ObjectId>
-          <ObjectGuid>EDCB0100</ObjectGuid>
+          <ObjectGuid>4166AF53</ObjectGuid>
           <Position>008005439C21DD3F0000C542</Position>
         </None>
         <None>
-          <ObjectId>0300000001002480</ObjectId>
-          <ObjectGuid>EDCB0100</ObjectGuid>
+          <ObjectId>0800000001002480</ObjectId>
+          <ObjectGuid>4166AF53</ObjectGuid>
           <Position>0000F5420051CF3F00803843</Position>
         </None>
         <None>
-          <ObjectId>0100000001003480</ObjectId>
-          <ObjectGuid>EDCB0100</ObjectGuid>
+          <ObjectId>0500000001003480</ObjectId>
+          <ObjectGuid>4166AF53</ObjectGuid>
           <Position>0000EB4200AEF73F00804A43</Position>
         </None>
       </None>

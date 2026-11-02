@@ -147,6 +147,167 @@
         </ProductionRegions>
     </ModOp>
 
+    <!-- Docklands import traders (131764) sell Orient wares, like New Horizon does for its goods.
+         Each ware joins the vanilla trade level it fits, and is skipped if another mod already lists it. -->
+    <!-- Tattershire Farms: farm goods -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131850']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005079']">
+        <Item>
+          <Level>Common</Level>
+          <Good>1404005079</Good>  <!-- Chickpeas -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131850']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005092']">
+        <Item>
+          <Level>Common</Level>
+          <Good>1404005092</Good>  <!-- Aniseed -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131851']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201047']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1400201047</Good>  <!-- Pistachio Fruits -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131851']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1999005084']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1999005084</Good>  <!-- Almonds -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131852']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000235']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404000235</Good>  <!-- Camels -->
+        </Item>
+    </ModOp>
+
+    <!-- FeedL: food and drink -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131830']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005087']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1404005087</Good>  <!-- Hummus -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131830']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201065']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1400201065</Good>  <!-- Roasted Chickpeas -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131831']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201053']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1400201053</Good>  <!-- Lokum -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131831']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000265']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404000265</Good>  <!-- Pomegranate Juice -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131831']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201056']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1400201056</Good>  <!-- Candied Dates -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131832']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1999005057']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1999005057</Good>  <!-- Marzipan -->
+        </Item>
+    </ModOp>
+
+    <!-- colonial goods trader: tea and tobacco -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131767']/TradeLevels/Item[Unlock='131826']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201044']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1400201044</Good>  <!-- Spiced Tea -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131767']/TradeLevels/Item[Unlock='131828']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000250']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000250</Good>  <!-- Hookahs -->
+        </Item>
+    </ModOp>
+
+    <!-- Chanteuse: clothing -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131770']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000253']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1404000253</Good>  <!-- Kaftans -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131770']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000283']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1404000283</Good>  <!-- Turbans -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131824']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000262']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000262</Good>  <!-- Pearl Necklaces -->
+        </Item>
+    </ModOp>
+
+    <!-- Qinsa Mining: metals and minerals -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item[Unlock='131843']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005109']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404005109</Good>  <!-- Copper Bars -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item[Unlock='131844']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404003900']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404003900</Good>  <!-- Agates -->
+        </Item>
+    </ModOp>
+
+    <!-- Not-Ikea: craftsmanship -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Unlock='131835']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000256']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404000256</Good>  <!-- Mosaic -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Unlock='131836']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000241']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000241</Good>  <!-- Chandeliers -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Unlock='131836']/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000238']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000238</Good>  <!-- Ceremonial Sabers -->
+        </Item>
+    </ModOp>
+
     <!-- temporary NH region fix -->
     <ModOp Type="replace" GUID="133700001" Path="Values/Standard/IconFilename" Condition="#new_horizons_session">
         <IconFilename>data/graphics/ui/icons/icon_session_asia.png</IconFilename>

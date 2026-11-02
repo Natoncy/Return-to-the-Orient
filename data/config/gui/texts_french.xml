@@ -7077,18 +7077,28 @@
     </Text>
     <Text>
       <GUID>1404003903</GUID>
-      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
-      <Text>Mine de béryl</Text>
+      <!-- SlotFactoryBuilding7 | Agate Collector | Agate Collector -->
+      <Text>Collecteur d'agates</Text>
     </Text>
     <Text>
       <GUID>1404003905</GUID>
-      <!-- Slot | Beryl Deposit | Beryl Deposit -->
-      <Text>Gisement de béryl</Text>
+      <!-- Slot | Riverslot Orient | Riverbed Plot -->
+      <Text>Emplacement de lit de rivière</Text>
     </Text>
     <Text>
-      <GUID>1404003907</GUID>
-      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
-      <Text>Ce gisement permet d'extraire du béryl, taillé ensuite en tesselles pour les mosaïques.</Text>
+      <GUID>1404003912</GUID>
+      <!-- InfoLayerIcon | RiverSlot Orient | Riverbed Plot -->
+      <Text>Emplacement de lit de rivière</Text>
+    </Text>
+    <Text>
+      <GUID>1404003913</GUID>
+      <!-- WorkAreaRiverSlot | Riverslot_workarea Orient | Riverbed Plot -->
+      <Text>Emplacement de lit de rivière</Text>
+    </Text>
+    <Text>
+      <GUID>1404003906</GUID>
+      <!-- Text | Riverslot Orient description | Build an Agate Collector to gather agates from the riverbed. -->
+      <Text>Construisez un collecteur d'agates pour récolter les agates du lit de la rivière.</Text>
     </Text>
     <Text>
       <GUID>1404004250</GUID>
@@ -7164,6 +7174,91 @@
       <GUID>1404004269</GUID>
       <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
       <Text>Réduit la consommation d'encens et de turbans des envoyés du palais</Text>
+    </Text>
+    <Text>
+      <GUID>1404009200</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q08_envoys_600 | A Beacon on the Horizon -->
+      <Text>Un phare à l'horizon</Text>
+    </Text>
+    <Text>
+      <GUID>1404009201</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q09_lighthouse | Light over the Reefs -->
+      <Text>Une lumière sur les récifs</Text>
+    </Text>
+    <Text>
+      <GUID>1404009210</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q12_envoys_6000 | Seekers of Knowledge -->
+      <Text>En quête de savoir</Text>
+    </Text>
+    <Text>
+      <GUID>1404009211</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q13_research_outpost | A House of Knowledge -->
+      <Text>Une maison du savoir</Text>
+    </Text>
+    <Text>
+      <GUID>1404009212</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q14_scholars_300 | Scholars in the Desert -->
+      <Text>Des érudits dans le désert</Text>
+    </Text>
+    <Text>
+      <GUID>1404009213</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q15_sultans_palace | A Palace for the Sultan -->
+      <Text>Un palais pour le sultan</Text>
+    </Text>
+    <Text>
+      <GUID>1404009220</GUID>
+      <!-- Text | Orient_Q08_envoys_600_Questbook | Word of your city has reached the ports of the sultanate, and more and more envoys are crossing the sea to see it with their own eyes. The captains, however, complain about the treacherous reefs and shifting sandbanks around your islands. The Diwan has promised the plans for a great lighthouse once enough envoys live in your city to justify such an expense. -->
+      <Text>La renommée de votre ville a atteint les ports du sultanat, et de plus en plus d'envoyés traversent la mer pour la voir de leurs propres yeux. Les capitaines se plaignent cependant des récifs traîtres et des bancs de sable mouvants autour de vos îles. Le Diwan a promis les plans d'un grand phare dès que suffisamment d'envoyés vivront dans votre ville pour justifier une telle dépense.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009221</GUID>
+      <!-- Text | Orient_Q09_lighthouse_Questbook | The Diwan has kept its word: the plans for an Oriental Lighthouse have arrived, sealed with the Grand Vizier's own stamp. Its fire will guide merchant ships safely into your harbour by night, and its beacons can strengthen entire fleets. First lay the foundations on the coast, on solid rock and not on sand, as the master builders insist. -->
+      <Text>Le Diwan a tenu parole : les plans d'un Phare oriental sont arrivés, scellés du cachet du Grand Vizir en personne. Son feu guidera de nuit les navires marchands en toute sécurité jusqu'à votre port, et ses balises peuvent renforcer des flottes entières. Posez d'abord les fondations sur la côte, sur de la roche solide et non sur du sable, comme l'exigent les maîtres d'œuvre.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009230</GUID>
+      <!-- Text | Orient_Q12_envoys_6000_Questbook | Your city has become the jewel of the sultanate, and its fame has travelled far beyond the desert. Scholars from distant lands have asked whether they may study the ancient libraries of the sultanate, the stars above the dunes and the secrets of the norias. The Diwan will only grant their request once your city is large enough to welcome envoys of every rank. -->
+      <Text>Votre ville est devenue le joyau du sultanat, et sa renommée s'étend bien au-delà du désert. Des érudits venus de terres lointaines ont demandé s'ils pouvaient étudier les anciennes bibliothèques du sultanat, les étoiles au-dessus des dunes et les secrets des norias. Le Diwan n'accédera à leur demande que lorsque votre ville sera assez grande pour accueillir des envoyés de tout rang.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009231</GUID>
+      <!-- Text | Orient_Q13_research_outpost_Questbook | The scholars' request has been granted. Build a Research Outpost where they can live and work among the envoys and nomads, and where the knowledge of East and West can meet. -->
+      <Text>La demande des érudits a été acceptée. Construisez un Avant-poste de recherche où ils pourront vivre et travailler parmi les envoyés et les nomades, et où les savoirs de l'Orient et de l'Occident pourront se rencontrer.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009232</GUID>
+      <!-- Text | Orient_Q14_scholars_300_Questbook | The first scholars have arrived at the Research Outpost and are poring over star charts, old manuscripts and the secrets of the norias. Word has spread among the universities of the Old World. Give more scholars a home in Wadi Al Zahir, and the Sultan may soon take notice of a city that has become a meeting place of faith, trade and science. -->
+      <Text>Les premiers érudits sont arrivés à l'Avant-poste de recherche et se penchent sur des cartes célestes, de vieux manuscrits et les secrets des norias. La nouvelle s'est répandue dans les universités de l'Ancien Monde. Offrez un foyer à davantage d'érudits à Wadi Al Zahir, et le sultan pourrait bientôt remarquer une ville devenue un lieu de rencontre de la foi, du commerce et de la science.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009233</GUID>
+      <!-- Text | Orient_Q15_sultans_palace_Questbook | The Sultan is so impressed by your city that he wishes to reside here himself for part of the year. The Grand Vizier has sent the plans for a Sultan's Palace, together with a long list of demands from the court. Build the palace, and your city will be second to none in the whole sultanate. -->
+      <Text>Le sultan est si impressionné par votre ville qu'il souhaite y résider lui-même une partie de l'année. Le Grand Vizir a envoyé les plans d'un Palais du sultan, accompagnés d'une longue liste d'exigences de la cour. Construisez le palais, et votre ville n'aura pas d'égale dans tout le sultanat.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009240</GUID>
+      <!-- Text | Orient_Quest_Hint_Bedouin_Camp | The Bedouin Camp can be expanded with Bedouin Nomad Quarters. Its decrees let you adapt the camp to the needs of your Nomads. -->
+      <Text>Le Campement bédouin peut être agrandi avec des Quartiers de nomades (bédouins). Ses décrets vous permettent d'adapter le campement aux besoins de vos Nomades.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009241</GUID>
+      <!-- Text | Orient_Quest_Hint_Lighthouse | The Oriental Lighthouse is built in several phases, each unlocked by a growing number of Envoys. Once complete, a beacon placed in it strengthens all of your ships. -->
+      <Text>Le Phare oriental se construit en plusieurs phases, chacune débloquée par un nombre croissant d'Envoyés. Une fois achevé, une balise placée à l'intérieur renforce tous vos navires.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009242</GUID>
+      <!-- Text | Orient_Quest_Hint_Research_Outpost | The Research Outpost can be expanded with residences for Scholars. -->
+      <Text>L'Avant-poste de recherche peut être agrandi avec des résidences pour Érudits.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009243</GUID>
+      <!-- Text | Orient_Quest_Hint_Scholars | Scholars live in the residences of the Research Outpost. Fulfil their needs to attract more of them. -->
+      <Text>Les Érudits vivent dans les résidences de l'Avant-poste de recherche. Répondez à leurs besoins pour en attirer davantage.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009244</GUID>
+      <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
+      <Text>Le Palais du sultan peut être agrandi avec des Quartiers d'envoyés (palais), et ses décrets accordent de puissants bonus à votre ville.</Text>
     </Text>
   </ModOp>
 </ModOps>

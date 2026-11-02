@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404003900</GUID>
+      <!-- Product | agates | Agates -->
+      <Text>瑪瑙</Text>
+    </Text>
+    <Text>
+      <GUID>1404003901</GUID>
+      <!-- Text | agates fluff text | Gathered from the riverbed, cut into shimmering tesserae. -->
+      <Text>採集自河床，切割成閃閃發光的馬賽克鑲片。</Text>
+    </Text>
+  </ModOp>
+</ModOps>
