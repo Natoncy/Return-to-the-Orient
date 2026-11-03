@@ -375,17 +375,8 @@
       <None>data/dlc06/graphics/props/terrain_props/trees_dead/tree_dead_stump_04.prp</None>
       <None>data/dlc06/graphics/props/terrain_props/trees_dead/tree_dead_stump_top_03.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_02.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_03.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_08.prp</None>
     </FileNames>
     <Instances>
-      <None>
-        <Index>36</Index>
-        <Position>115 -0.6 120</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
       <None>
         <Index>35</Index>
         <Position>109.18973 -1.588006 29.706076</Position>

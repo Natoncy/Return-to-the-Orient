@@ -11495,6 +11495,35 @@
                     <AmbientMoodProvider />
                     <SoundEmitter />
                   </None>
+                  <None>
+                    <guid>1002784</guid>
+                    <ID>-9152440338428723199</ID>
+                    <ObjectFolderID>0</ObjectFolderID>
+                    <Position>115.5607 0 119.5429</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                      <SequenceData>
+                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                      </SequenceData>
+                      <Scale>2.6289</Scale>
+                      <Orientation>0 0 0 1</Orientation>
+                    </Mesh>
+                    <SoundEmitter />
+                  </None>
                 </objects>
               </GameObject>
               <NaturePreset>

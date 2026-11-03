@@ -17,12 +17,13 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- add compost for moldy bread
+- Cover the 2 visible water cutout edges at the end of the riverbed
+- Add Silver Ore Mine workspace model
 - Light house monument 
     construction scaffolding stage 2 & 3
     construction feedback units
 - Letting AI settle the region
-- Add Silver Ore Mine workspace model
+- add compost for moldy bread
 
 Before v1.0.0
 - Add light emitting surfaces for windows at night

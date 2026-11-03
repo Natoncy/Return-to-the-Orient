@@ -429,38 +429,8 @@
       <None>data/graphics/props/orient/empty/empty.prp</None>
       <None>data/graphics/props/orient/empty/empty.prp</None>
       <None>data/graphics/props/orient/empty/empty.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_03.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_08.prp</None>
     </FileNames>
     <Instances>
-      <None>
-        <Index>56</Index>
-        <Position>170 -2.2 172</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 5 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>56</Index>
-        <Position>180 -2.2 172</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 5 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>55</Index>
-        <Position>170 -2.2 182</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 5 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>55</Index>
-        <Position>180 -2.2 182</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 5 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
       <None>
         <Index>19</Index>
         <Position>139.55348 0.20523243 10.638663</Position>

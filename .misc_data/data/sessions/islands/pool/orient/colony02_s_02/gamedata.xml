@@ -7180,6 +7180,122 @@
                     </Selection>
                     <SoundEmitter />
                   </None>
+                  <None>
+                    <guid>1002784</guid>
+                    <ID>-9152440338428723199</ID>
+                    <ObjectFolderID>0</ObjectFolderID>
+                    <Position>106.2248 0 114.6685</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                      <SequenceData>
+                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                      </SequenceData>
+                      <Scale>1.2539</Scale>
+                      <Orientation>0 0 0 1</Orientation>
+                    </Mesh>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1002784</guid>
+                    <ID>-9152440338428723198</ID>
+                    <ObjectFolderID>0</ObjectFolderID>
+                    <Position>114.2248 0 114.6685</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                      <SequenceData>
+                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                      </SequenceData>
+                      <Scale>1.2539</Scale>
+                      <Orientation>0 0 0 1</Orientation>
+                    </Mesh>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1002784</guid>
+                    <ID>-9152440338428723197</ID>
+                    <ObjectFolderID>0</ObjectFolderID>
+                    <Position>114.2248 0 106.6685</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                      <SequenceData>
+                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                      </SequenceData>
+                      <Scale>1.2539</Scale>
+                      <Orientation>0 0 0 1</Orientation>
+                    </Mesh>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1002784</guid>
+                    <ID>-9152440338428723196</ID>
+                    <ObjectFolderID>0</ObjectFolderID>
+                    <Position>120.3184 0 97.7604</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                      <SequenceData>
+                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                      </SequenceData>
+                      <Scale>0.45</Scale>
+                      <Orientation>0 0 0 1</Orientation>
+                    </Mesh>
+                    <SoundEmitter />
+                  </None>
                 </objects>
               </GameObject>
               <NaturePreset>

@@ -377,66 +377,8 @@
       <None>data/dlc06/graphics/props/terrain_props/trees_dead/tree_dead_stump_top_03.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_01.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_02.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_03.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_08.prp</None>
     </FileNames>
     <Instances>
-      <None>
-        <Index>39</Index>
-        <Position>120 -0.6 118</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>125 -0.6 118</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>125 -0.6 110</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>125 -0.6 102</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>120 -0.7 96</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>120 -0.7 88</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>126 -0.7 80</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>39</Index>
-        <Position>128 -0.8 75</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
       <None>
         <Index>37</Index>
         <Position>71.16239 -7.944991 21.463316</Position>

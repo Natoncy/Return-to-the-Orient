@@ -418,45 +418,8 @@
       <None>data/graphics/props/orient/empty/empty.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_01.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_02.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_03.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_08.prp</None>
     </FileNames>
     <Instances>
-      <None>
-        <Index>45</Index>
-        <Position>78 -0.7 126</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>45</Index>
-        <Position>86 -0.7 130</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>45</Index>
-        <Position>94 -0.7 134</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>45</Index>
-        <Position>100 -0.7 140</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>45</Index>
-        <Position>106 -0.7 142</Position>
-        <Rotation>0 1 0 0</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
       <None>
         <Index>43</Index>
         <Position>239.38066 -6.604686 36.11408</Position>
