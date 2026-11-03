@@ -137,8 +137,8 @@ INDUSTRY
 1404005004: Elmore Module MODERATE
 1404005005: Elmore Module Buff Moderate
 1404005006: Elmore Module Buff Text
-1404005039: Sulfuric Acid
-1404005040: Sulfuric Acid Fluff
+DEPR 1404005039: Sulfuric Acid
+DEPR 1404005040: Sulfuric Acid Fluff
 
 OIL
 ----------

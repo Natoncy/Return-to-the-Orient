@@ -1,0 +1,22 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_goods_sulfuric_acid",
+  "DeprecateIds": [],
+  "ModDependencies": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "shared_goods_sulfuric_acid"
+  },
+  "Description": {
+    "English": "Adds Sulfuric Acid as intermediate goods"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Kaapriss",
+  "Image": null
+}
