@@ -7,6 +7,7 @@
     <Include File="assets_festival.xml" />
     <Include File="assets_happiness_envoys.xml" />
     <Include File="assets_happiness_nomads.xml" />
+    <Include File="assets_infotips.xml" />
     <Include File="assets_item_fluff.xml" />
     <Include File="assets_keywords.xml" />
     <Include File="assets_monument_fluff.xml" />

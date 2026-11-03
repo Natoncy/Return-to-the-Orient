@@ -43,5 +43,7 @@
     <Include File="assets_region.xml" />
     <Include File="assets_session.xml" />
     <Include File="assets_worldmap.xml" />
+    <Include File="infotips/assets_index.xml" />
+    <Include File="infotips/assets_infotip_no_attractiveness.xml" />
 
 </ModOps>

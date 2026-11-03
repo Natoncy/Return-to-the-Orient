@@ -1,0 +1,134 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="124919">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005138</GUID>
+                    <Name>InfoTip sultans seals header</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005139</GUID>
+                    <Name>InfoTip Sultans Seals Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005141</GUID>
+                    <Name>InfoTip Attractiveness Header</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005142</GUID>
+                    <Name>InfoTip Attractiveness Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005143</GUID>
+                    <Name>InfoTip Beacons Header 1</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005144</GUID>
+                    <Name>InfoTip Beacons Header 2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005145</GUID>
+                    <Name>InfoTip Beacons Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005146</GUID>
+                    <Name>InfoTip Beacons Fluff 2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

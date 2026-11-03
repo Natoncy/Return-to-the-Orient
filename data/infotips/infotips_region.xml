@@ -1,0 +1,130 @@
+<ModOps>
+  <ModOp Type="addNextSibling" Path="//InfoElement[VisibilityElement/VisibilityElement/Condition = '[StaticData Building AllowedInRegion(4, [RefGuid])]']">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType />
+          <Condition>[StaticData Building AllowedInRegion(7, [RefGuid])]</Condition>
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>1404000000</IconGUID>
+        <Style/>
+      </Icon>
+      <Text>
+        <TextGUID>1404005038</TextGUID>
+        <Style />
+      </Text>
+      <Value>
+        <Style />
+      </Value>
+      <WarningType>
+        <WarningType>2</WarningType>
+      </WarningType>
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+  <ModOp Type = "addNextSibling" Path = "//InfoElement[VisibilityElement/VisibilityElement/Condition = '[ToolOneHelper IsProductInProductionRegionList([RefGuid], 114327)]']">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType />
+          <Condition>[ToolOneHelper IsProductInProductionRegionList([RefGuid], 1404000006)]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueBool>False</ExpectedValueBool>
+            <Condition>[ProductAssetData([RefGuid]) CanBeProducedInCurrentRegion]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>11477</TextGUID>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[ToolOneHelper GetProductInProductionRegionListDLC([RefGuid], regionGUID)]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <Style />
+        </Icon>
+        <Text>
+          <Text>DLC dependency if applicable  </Text>
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <Icon>
+        <IconGUID>1404000000</IconGUID>
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>1404000000</TextGUID>
+        <Style />
+      </Text>
+      <Value>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+  </ModOp>
+</ModOps>

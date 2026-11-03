@@ -137,8 +137,8 @@ INDUSTRY
 1404005004: Elmore Module MODERATE
 1404005005: Elmore Module Buff Moderate
 1404005006: Elmore Module Buff Text
-1404005039: Sulfuric Acid
-1404005040: Sulfuric Acid Fluff
+DEPR 1404005039: Sulfuric Acid
+DEPR 1404005040: Sulfuric Acid Fluff
 
 OIL
 ----------
@@ -193,6 +193,12 @@ OTHER
 1404005127: Roasted Coffee ProductionChain
 1404005128: Roasted Coffee Recipe
 1404005129: Roasted Coffee Recipe Fluff
+1404005138: InfoTip Sultans Seals Header
+1404005139: InfoTip Sultans Seals Fluff
+1404005140: InfoTip No Attractiveness Orient
+1404005141: InfoTip No Attractiveness Orient Header
+1404005142: InfoTip No Attractiveness Orient Fluff
+1404005143-1404005146: InfoTip Fluff
 
 SUBMODS
 ----------
