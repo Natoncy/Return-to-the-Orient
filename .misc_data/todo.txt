@@ -22,14 +22,14 @@ v0.7.0
 - Light house monument 
     construction scaffolding stage 2 & 3
     construction feedback units
+- Add light emitting surfaces for windows at night
+- Check IntersectBox for clicking for all buildings
+- Update loading screen hints
 - Letting AI settle the region
 - add compost for moldy bread
 
 Before v1.0.0
-- Add light emitting surfaces for windows at night
-- Check IntersectBox for clicking for all buildings
 - Check shared mods
-- Check loading screen hints
 - Check all guid used exist (1404000205)
 - remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
