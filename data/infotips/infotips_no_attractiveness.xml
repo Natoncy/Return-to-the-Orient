@@ -1,0 +1,63 @@
+<ModOps>
+  <ModOp Type = "addNextSibling" Path = "//InfoTipData[Guid = '501932']">
+    <InfoTipData>
+      <Guid>1404005140</Guid>
+      <ChildCount>3</ChildCount>
+      <InfoElement>
+        <ElementType>1</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>2366</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>3</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>1404005141</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <WarningType>
+          <WarningType>2</WarningType>
+        </WarningType>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>18</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <TextGUID>1404005142</TextGUID>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+</ModOps>

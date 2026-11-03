@@ -1,0 +1,78 @@
+<ModOps>
+  <ModOp Path = "//InfoElement[Headline/TextGUID = '134145']" Type = "addNextSibling">
+    <InfoElement>
+      <ElementType>16</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>1404000849</ExpectedValueInt>
+          <Condition>[AreaManager AreaFestival BuffGuids AT(0)]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>1404000849</IconGUID>
+        <Style />
+      </Icon>
+      <CategoryIcon>
+        <Style />
+      </CategoryIcon>
+      <Headline>
+        <TextGUID>1404000847</TextGUID>
+        <Style />
+      </Headline>
+      <Subline>
+        <TextGUID>20106</TextGUID>
+        <Style />
+      </Subline>
+      <ColorValue>-1527800</ColorValue>
+    </InfoElement>
+    <InfoElement>
+      <ElementType>16</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>1404000850</ExpectedValueInt>
+          <Condition>[AreaManager AreaFestival BuffGuids AT(0)]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>1404000850</IconGUID>
+        <Style />
+      </Icon>
+      <CategoryIcon>
+        <Style />
+      </CategoryIcon>
+      <Headline>
+        <TextGUID>1404000848</TextGUID>
+        <Style />
+      </Headline>
+      <Subline>
+        <TextGUID>20106</TextGUID>
+        <Style />
+      </Subline>
+      <ColorValue>-328966</ColorValue>
+    </InfoElement>
+  </ModOp>
+</ModOps>
