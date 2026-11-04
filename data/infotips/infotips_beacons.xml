@@ -99,7 +99,7 @@
             <Style />
           </Icon>
           <Text>
-            <Text>[ItemAssetData(191454) ItemOrBuffEffectTargetsFormatted]</Text>
+            <TextGUID>191454</TextGUID>
             <Style />
           </Text>
           <Value><Style /></Value>
@@ -150,7 +150,7 @@
           <ElementType>4</ElementType>
           <Icon><IconGUID>191455</IconGUID><Style /></Icon>
           <Text>
-            <Text>[ItemAssetData(191455) ItemOrBuffEffectTargetsFormatted]</Text>
+            <TextGUID>191455</TextGUID>
             <Style />
           </Text>
           <Value><Style /></Value>
@@ -201,7 +201,7 @@
           <ElementType>4</ElementType>
           <Icon><IconGUID>191456</IconGUID><Style /></Icon>
           <Text>
-            <Text>[ItemAssetData(191456) ItemOrBuffEffectTargetsFormatted]</Text>
+            <TextGUID>191456</TextGUID>
             <Style />
           </Text>
           <Value><Style /></Value>
@@ -252,7 +252,7 @@
           <ElementType>4</ElementType>
           <Icon><IconGUID>12812</IconGUID><Style /></Icon>
           <Text>
-            <Text>[ItemAssetData(191458) ItemOrBuffEffectTargetsFormatted]</Text>
+            <TextGUID>191458</TextGUID>
             <Style />
           </Text>
           <Value><Style /></Value>
@@ -303,7 +303,7 @@
           <ElementType>4</ElementType>
           <Icon><IconGUID>115184</IconGUID><Style /></Icon>
           <Text>
-            <Text>[ItemAssetData(4146) ItemOrBuffEffectTargetsFormatted]</Text>
+            <TextGUID>4146</TextGUID>
             <Style />
           </Text>
           <Value><Style /></Value>
@@ -354,7 +354,7 @@
           <ElementType>4</ElementType>
           <Icon><IconGUID>112084</IconGUID><Style /></Icon>
           <Text>
-            <Text>[ItemAssetData(112084) Text]</Text>
+            <TextGUID>112084</TextGUID>
             <Style />
           </Text>
           <Value><Style /></Value>
@@ -372,17 +372,10 @@
         <ElementType>6</ElementType>
         <ChildCount>0</ChildCount>
       </InfoElement>
-      <InfoElement>
-        <ElementType>5</ElementType>
-        <Text>
-          <TextGUID>1404005144</TextGUID>
-          <Style />
-        </Text>
-        <BackgroundType />
-      </InfoElement>
     </InfoElement>
   </ModOp>
 </ModOps>
+
 
 
 

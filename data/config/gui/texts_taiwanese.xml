@@ -1,4 +1,5 @@
-﻿<ModOps>
+<?xml version='1.0' encoding='utf-8'?>
+<ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000000</GUID>
@@ -6597,123 +6598,123 @@
     </Text>
     <Text>
       <GUID>1404007260</GUID>
-      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>每個港務長都知道：看見這道光的船，總能完好無損地回家。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部船隻都會獲得這些效果。</Text>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>每個港務長都知道：看見這道光的船，總能完好無損地回家。</Text>
     </Text>
     <Text>
       <GUID>1404007261</GUID>
-      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>船匠行會讓它常明不熄——今天補一塊木板，總好過明天修整個船體。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部船隻都會獲得這些效果。</Text>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>船匠行會讓它常明不熄——今天補一塊木板，總好過明天修整個船體。</Text>
     </Text>
     <Text>
       <GUID>1404007262</GUID>
-      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>它的火焰從未動搖，追隨它的船隻也不會動搖。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部船隻都會獲得這些效果。</Text>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>它的火焰從未動搖，追隨它的船隻也不會動搖。</Text>
     </Text>
     <Text>
       <GUID>1404007263</GUID>
-      <!-- Text | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>傳說它的光芒能同時從世界每一處海岸看見。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部船隻都會獲得這些效果。</Text>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>傳說它的光芒能同時從世界每一處海岸看見。</Text>
     </Text>
     <Text>
       <GUID>1404007264</GUID>
-      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>老一輩的獨桅帆船船長發誓：跟著光走，風就會跟著你。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部帆船都會獲得這些效果。</Text>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>老一輩的獨桅帆船船長發誓：跟著光走，風就會跟著你。</Text>
     </Text>
     <Text>
       <GUID>1404007265</GUID>
-      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>在信風轉向時點亮，讓每位商人都不錯過任何一陣風。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部帆船都會獲得這些效果。</Text>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>在信風轉向時點亮，讓每位商人都不錯過任何一陣風。</Text>
     </Text>
     <Text>
       <GUID>1404007266</GUID>
-      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>哨兵在它的迴廊上，早在第一聲砲響前就發現敵人的船帆。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部帆船都會獲得這些效果。</Text>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>哨兵在它的迴廊上，早在第一聲砲響前就發現敵人的船帆。</Text>
     </Text>
     <Text>
       <GUID>1404007267</GUID>
-      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>季風來臨時，它的藍色火焰會鼓滿從這裡到香料海岸的每一面帆。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部帆船都會獲得這些效果。</Text>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>季風來臨時，它的藍色火焰會鼓滿從這裡到香料海岸的每一面帆。</Text>
     </Text>
     <Text>
       <GUID>1404007268</GUID>
-      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>為碼頭上的司爐點亮的光：煤裝得越快，船就出港越早。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部蒸汽船都會獲得這些效果。</Text>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>為碼頭上的司爐點亮的光：煤裝得越快，船就出港越早。</Text>
     </Text>
     <Text>
       <GUID>1404007269</GUID>
-      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>它與它守護的鍋爐燒著同樣的煤，卻一點也不浪費。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部蒸汽船都會獲得這些效果。</Text>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>它與它守護的鍋爐燒著同樣的煤，卻一點也不浪費。</Text>
     </Text>
     <Text>
       <GUID>1404007270</GUID>
-      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>無論什麼擊中船身，明輪都會繼續轉動。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部蒸汽船都會獲得這些效果。</Text>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>無論什麼擊中船身，明輪都會繼續轉動。</Text>
     </Text>
     <Text>
       <GUID>1404007271</GUID>
-      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>金色光芒照耀之處，市集便敞開大門與錢袋。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部蒸汽船都會獲得這些效果。</Text>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>金色光芒照耀之處，市集便敞開大門與錢袋。</Text>
     </Text>
     <Text>
       <GUID>1404007272</GUID>
-      <!-- Text | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>為砲手點亮的紅光：瞄得準，打得快。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部戰艦都會獲得這些效果。</Text>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>為砲手點亮的紅光：瞄得準，打得快。</Text>
     </Text>
     <Text>
       <GUID>1404007273</GUID>
-      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>在它的紅光下齊射，無論風帆還是煙囪都無處可逃。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部戰艦都會獲得這些效果。</Text>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>在它的紅光下齊射，無論風帆還是煙囪都無處可逃。</Text>
     </Text>
     <Text>
       <GUID>1404007274</GUID>
-      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>蘇丹艦隊的將軍們藉著它的強光閱讀命令。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部戰艦都會獲得這些效果。</Text>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>蘇丹艦隊的將軍們藉著它的強光閱讀命令。</Text>
     </Text>
     <Text>
       <GUID>1404007275</GUID>
-      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>為一支不向風暴低頭、不在砲火下折斷的艦隊而鍛造。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部戰艦都會獲得這些效果。</Text>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>為一支不向風暴低頭、不在砲火下折斷的艦隊而鍛造。</Text>
     </Text>
     <Text>
       <GUID>1404007276</GUID>
-      <!-- Text | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>宣禮塔上方高懸的綠光，指引飛船歸航。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部飛船都會獲得這些效果。</Text>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>宣禮塔上方高懸的綠光，指引飛船歸航。</Text>
     </Text>
     <Text>
       <GUID>1404007277</GUID>
-      <!-- Text | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>它溫暖的光芒像正午的沙漠空氣一樣托起飛船。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部飛船都會獲得這些效果。</Text>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>它溫暖的光芒像正午的沙漠空氣一樣托起飛船。</Text>
     </Text>
     <Text>
       <GUID>1404007278</GUID>
-      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>飛行員相信它勝過任何羅盤：只要它亮著綠光，引擎就能堅持。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部飛船都會獲得這些效果。</Text>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>飛行員相信它勝過任何羅盤：只要它亮著綠光，引擎就能堅持。</Text>
     </Text>
     <Text>
       <GUID>1404007279</GUID>
-      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>據說鏡片中住著一位精靈，用雙翼托起每一艘飛船。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部飛船都會獲得這些效果。</Text>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>據說鏡片中住著一位精靈，用雙翼托起每一艘飛船。</Text>
     </Text>
     <Text>
       <GUID>1404007280</GUID>
-      <!-- Text | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>海灣的採珠人每次下潛前都會點亮它，祈求好運。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部打撈船都會獲得這些效果。</Text>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>海灣的採珠人每次下潛前都會點亮它，祈求好運。</Text>
     </Text>
     <Text>
       <GUID>1404007281</GUID>
-      <!-- Text | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>它的紫色光芒能照到沙子裡藏著不只貝殼的深處。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部打撈船都會獲得這些效果。</Text>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>它的紫色光芒能照到沙子裡藏著不只貝殼的深處。</Text>
     </Text>
     <Text>
       <GUID>1404007282</GUID>
-      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>沒人知道是誰第一個點亮它——只知道它照到的沉船從來不是空的。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部打撈船都會獲得這些效果。</Text>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>沒人知道是誰第一個點亮它——只知道它照到的沉船從來不是空的。</Text>
     </Text>
     <Text>
       <GUID>1404007283</GUID>
-      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>據說點亮它的，是一個被大海整個吞沒的王國的最後一位守護者。&lt;br/&gt;放入東方燈塔後，你在所有區域的全部打撈船都會獲得這些效果。</Text>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>據說點亮它的，是一個被大海整個吞沒的王國的最後一位守護者。</Text>
     </Text>
     <Text>
       <GUID>1404007041</GUID>
@@ -7259,6 +7260,51 @@
       <GUID>1404009244</GUID>
       <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
       <Text>蘇丹宮殿可以擴建宮殿特使區，它的法令能為您的城市帶來強大的加成。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005139</GUID>
+      <!-- Text | <Key> | The Sultan must be able to recognize whether your city has reached the required size to house such a building. -->
+      <Text>蘇丹人一定能看清你的城市 是否达到了必要的大小 才能建起這樣的建築物</Text>
+    </Text>
+    <Text>
+      <GUID>1404005138</GUID>
+      <!-- Text | <Key> | Sultan licenses required -->
+      <Text>需要蘇丹的執照</Text>
+    </Text>
+    <Text>
+      <GUID>1404005142</GUID>
+      <!-- Text | <Key> | There are no tourists in the Orient, as outsiders are not welcome. -->
+      <Text>東方沒有觀光客 因為外人不受歡迎</Text>
+    </Text>
+    <Text>
+      <GUID>1404005141</GUID>
+      <!-- Text | <Key> | No Attractiveness in the Orient -->
+      <Text>在东方沒有吸引力</Text>
+    </Text>
+    <Text>
+      <GUID>1404005143</GUID>
+      <!-- Text | <Key> | Beacon -->
+      <Text>燈塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404005144</GUID>
+      <!-- Text | <Key> | Effects -->
+      <Text>效果</Text>
+    </Text>
+    <Text>
+      <GUID>1404005145</GUID>
+      <!-- Text | <Key> | The effect of this beacon applies to all regions. -->
+      <Text>信號的影響波及了所有地区</Text>
+    </Text>
+    <Text>
+      <GUID>1404005146</GUID>
+      <!-- Text | <Key> | All ships of this ship type, as well as special ships belonging to this ship type, are affected. -->
+      <Text>所有這類船只和這類船只的 特殊船只都受到影響</Text>
+    </Text>
+    <Text>
+      <GUID>1404005147</GUID>
+      <!-- Text | <Key> | Must be provided through a channel. -->
+      <Text>必須通过通道提供 。</Text>
     </Text>
   </ModOp>
 </ModOps>

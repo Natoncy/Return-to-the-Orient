@@ -4,6 +4,7 @@
     <Include File="assets_arak.xml" />
     <Include File="assets_astrolabe.xml" />
     <Include File="assets_elmore_mixture.xml" />
+    <Include File="assets_FAKE_sand.xml" />
     <Include File="assets_FAKE_water.xml" />
     <Include File="assets_moldy_bread.xml" />
     <Include File="assets_mushrooms.xml" />

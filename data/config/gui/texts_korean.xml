@@ -1,4 +1,5 @@
-﻿<ModOps>
+<?xml version='1.0' encoding='utf-8'?>
+<ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000000</GUID>
@@ -3606,1651 +3607,6 @@
       <Text>사절들은 산업 시대의 새로운 상품과 발명품에 호기심이 많습니다. 시장 노점은 이를 선보이고 사절들이 직접 써 볼 수 있게 하는 좋은 방법입니다.</Text>
     </Text>
     <Text>
-      <GUID>1404001271</GUID>
-      <!-- PublicServiceBuilding | Mosque | Mosque -->
-      <Text>사원</Text>
-    </Text>
-    <Text>
-      <GUID>1404003206</GUID>
-      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
-      <Text>수출 도크: 모자이크</Text>
-    </Text>
-    <Text>
-      <GUID>1404003207</GUID>
-      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
-      <Text>수출 도크: 장미수</Text>
-    </Text>
-    <Text>
-      <GUID>1404003208</GUID>
-      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
-      <Text>수출 도크: 의식용 세이버</Text>
-    </Text>
-    <Text>
-      <GUID>1404003209</GUID>
-      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
-      <Text>수출 도크: 부양 농축액</Text>
-    </Text>
-    <Text>
-      <GUID>1404003210</GUID>
-      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
-      <Text>수출 도크: 진주 목걸이</Text>
-    </Text>
-    <Text>
-      <GUID>1404003211</GUID>
-      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
-      <Text>수출 도크: 샹들리에</Text>
-    </Text>
-    <Text>
-      <GUID>1404003300</GUID>
-      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
-      <Text>다방 메뉴</Text>
-    </Text>
-    <Text>
-      <GUID>1404003301</GUID>
-      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
-      <Text>평범한 커피만으로도 의자는 가득 차지만, 영리한 주인은 우유, 향신료, 대추야자, 장미, 꿀을 쓰는 비법 몇 가지를 알고 있습니다. 어떤 커피를 내느냐에 따라 동네의 분위기가 달라집니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003302</GUID>
-      <!-- Recipe | Black Coffee | Black Coffee -->
-      <Text>블랙 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003303</GUID>
-      <!-- Recipe | Milk Coffee | Milk Coffee -->
-      <Text>밀크 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003304</GUID>
-      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
-      <Text>카다멈 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003305</GUID>
-      <!-- Recipe | Date Coffee | Date Coffee -->
-      <Text>대추야자 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003306</GUID>
-      <!-- Recipe | Rose Coffee | Rose Coffee -->
-      <Text>장미 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003307</GUID>
-      <!-- Recipe | Honey Coffee | Honey Coffee -->
-      <Text>꿀 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003310</GUID>
-      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
-      <Text>볶아서 가루처럼 곱게 갈고 제즈베에 세 번 끓여낸 것, 그게 전부입니다. 순수주의자들은 이것만이 진짜 커피라고 맹세하지만, 다른 사람들은 그저 진하다고 말합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003311</GUID>
-      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
-      <Text>따뜻한 염소젖으로 부드럽게 만든 진한 블랙 커피. 주스 생각을 잊게 하고 모두를 온화한 기분으로 만들어 줍니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003312</GUID>
-      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
-      <Text>달라에서 작은 잔에 따라 내며, 곱게 간 카다멈 향이 납니다. 여기서 향신료를 맛보는 사람은 집에서 아끼고, 아낀 돈을 바자르에서 씁니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003313</GUID>
-      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
-      <Text>쓴 커피에 단 대추야자 한 그릇을 곁들여 맛의 균형을 맞춥니다. 다방에서 대추야자를 집어 먹는 사람은 집에서 덜 찾게 되고, 목마름도 덜 느낍니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003314</GUID>
-      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
-      <Text>장미수 몇 방울과 떠 있는 꽃잎 몇 장이 평범한 한 잔을 작은 축제로 바꿉니다. 다방에서 이미 정원 향기가 나는데 굳이 집에 향을 낼 필요가 있을까요? 아낀 돈은 기꺼이 쓰입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003315</GUID>
-      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
-      <Text>황금빛 꿀로 단맛을 내고 천천히 저어 더욱 천천히 음미합니다. 이렇게 가까이에 달콤함이 있으니 아무도 마지팬을 찾지 않고, 소문이 퍼져 동네로 이사 오는 사람도 늘어납니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404003320</GUID>
-      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
-      <Text>다방: 블랙 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003321</GUID>
-      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
-      <Text>다방: 밀크 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003322</GUID>
-      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
-      <Text>다방: 카다멈 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003323</GUID>
-      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
-      <Text>다방: 대추야자 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003324</GUID>
-      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
-      <Text>다방: 장미 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003325</GUID>
-      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
-      <Text>다방: 꿀 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003330</GUID>
-      <!-- TownhallBuff | Black Coffee | Black Coffee -->
-      <Text>블랙 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003331</GUID>
-      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
-      <Text>밀크 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003332</GUID>
-      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
-      <Text>카다멈 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003333</GUID>
-      <!-- TownhallBuff | Date Coffee | Date Coffee -->
-      <Text>대추야자 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003334</GUID>
-      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
-      <Text>장미 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003335</GUID>
-      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
-      <Text>꿀 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404003600</GUID>
-      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
-      <Text>곡예사의 야영지</Text>
-    </Text>
-    <Text>
-      <GUID>1404003601</GUID>
-      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
-      <Text>불 쇼 공연자, 곡예사, 저글러들은 천막을 치는 곳마다 구경꾼을 끌어모읍니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004200</GUID>
-      <!-- OrnamentalBuilding | Oriental Place 2 | Oriental Place 2 -->
-      <Text>오리엔탈 플레이스 2</Text>
-    </Text>
-    <Text>
-      <GUID>1404004201</GUID>
-      <!-- OrnamentalBuilding | Oriental Place 3 | Oriental Place 3 -->
-      <Text>오리엔탈 플레이스 3</Text>
-    </Text>
-    <Text>
-      <GUID>1404004202</GUID>
-      <!-- OrnamentalBuilding | Oriental Place 4 | Oriental Place 4 -->
-      <Text>오리엔탈 플레이스 4</Text>
-    </Text>
-    <Text>
-      <GUID>1404004204</GUID>
-      <!-- OrnamentalBuilding | Obelisk | Obelisk -->
-      <Text>오벨리스크</Text>
-    </Text>
-    <Text>
-      <GUID>1404004203</GUID>
-      <!-- OrnamentalBuilding | Prayer Ground | Prayer Ground -->
-      <Text>기도 장소</Text>
-    </Text>
-    <Text>
-      <GUID>1404004206</GUID>
-      <!-- OrnamentalBuilding | Small Oriental Fountain | Small Oriental Fountain -->
-      <Text>작은 동양식 분수</Text>
-    </Text>
-    <Text>
-      <GUID>1404004205</GUID>
-      <!-- OrnamentalBuilding | Oriental Fence | Oriental Fence -->
-      <Text>동양식 울타리</Text>
-    </Text>
-    <Text>
-      <GUID>1404004208</GUID>
-      <!-- OrnamentalBuilding | Oriental City Gate | Oriental City Gate -->
-      <Text>동양식 성문</Text>
-    </Text>
-    <Text>
-      <GUID>1404004207</GUID>
-      <!-- OrnamentalBuilding | Oriental City Wall | Oriental City Wall -->
-      <Text>동양식 성벽</Text>
-    </Text>
-    <Text>
-      <GUID>1404004210</GUID>
-      <!-- OrnamentalBuilding | Oriental Watchtower | Oriental Watchtower -->
-      <Text>동양식 감시탑</Text>
-    </Text>
-    <Text>
-      <GUID>1404004211</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace | Sultan's Palace -->
-      <Text>술탄의 궁전</Text>
-    </Text>
-    <Text>
-      <GUID>1404004212</GUID>
-      <!-- ResidenceBuilding7_Colony | Palace Envoy Quarters | Palace Envoy Quarters -->
-      <Text>궁전 특사 숙소</Text>
-    </Text>
-    <Text>
-      <GUID>1404004241</GUID>
-      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing | Sultan's Palace Wing -->
-      <Text>술탄의 궁전 별관</Text>
-    </Text>
-    <Text>
-      <GUID>1404004242</GUID>
-      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
-      <Text>술탄의 궁전 별관 - 다리</Text>
-    </Text>
-    <Text>
-      <GUID>1404004214</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
-      <Text>술탄의 궁전 별관 - 문</Text>
-    </Text>
-    <Text>
-      <GUID>1404004244</GUID>
-      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
-      <Text>술탄의 궁전 별관 - 교차</Text>
-    </Text>
-    <Text>
-      <GUID>1404004215</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
-      <Text>술탄의 궁전 별관 - 교차</Text>
-    </Text>
-    <Text>
-      <GUID>1404004216</GUID>
-      <!-- ConstructionCategory | Sultan's Palace | Sultan's Palace -->
-      <Text>술탄의 궁전</Text>
-    </Text>
-    <Text>
-      <GUID>1404004245</GUID>
-      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
-      <Text>술탄의 궁전 별관 - 모서리</Text>
-    </Text>
-    <Text>
-      <GUID>1404004218</GUID>
-      <!-- OrnamentalBuilding | Silo | Silo -->
-      <Text>사일로</Text>
-    </Text>
-    <Text>
-      <GUID>1404004219</GUID>
-      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
-      <Text>IAAM Test</Text>
-    </Text>
-    <Text>
-      <GUID>1404004300</GUID>
-      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
-      <Text>특사의 집：레벨 2</Text>
-    </Text>
-    <Text>
-      <GUID>1404004301</GUID>
-      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
-      <Text>특사의 집：레벨 3</Text>
-    </Text>
-    <Text>
-      <GUID>1404004400</GUID>
-      <!-- OrnamentalBuildingRuin | Ornamental Grand Mosque | Ornamental Grand Mosque -->
-      <Text>장식용 그랜드 모스크</Text>
-    </Text>
-    <Text>
-      <GUID>1404004800</GUID>
-      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
-      <Text>동양 등대: 기초</Text>
-    </Text>
-    <Text>
-      <GUID>1404004801</GUID>
-      <!-- OrnamentalBuilding | Oriental Harbour Tower | Oriental Harbour Tower -->
-      <Text>동양 항구 탑</Text>
-    </Text>
-    <Text>
-      <GUID>1404004850</GUID>
-      <!-- OrnamentalBuilding | Small Oriental Wall | Small Oriental Wall -->
-      <Text>동양식 작은 담장</Text>
-    </Text>
-    <Text>
-      <GUID>1404004851</GUID>
-      <!-- OrnamentalBuilding | Large Oriental Wall | Large Oriental Wall -->
-      <Text>동양식 큰 담장</Text>
-    </Text>
-    <Text>
-      <GUID>1404004852</GUID>
-      <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
-      <Text>동양식 벽 연결부</Text>
-    </Text>
-    <Text>
-      <GUID>1404004884</GUID>
-      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
-      <Text>잘게 부순 광석을 기름에 띄워 걷어 낸 것으로, 제련소로 보내집니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004885</GUID>
-      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
-      <Text>동양 등대는 여러 단계에 걸쳐 건설됩니다. 완공되면 등불을 장착할 수 있으며, 각 등불은 모든 지역에 있는 한 종류의 모든 선박을 강화합니다. 등대는 섬마다 하나만 건설할 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004886</GUID>
-      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
-      <Text>병아리콩을 낙타 사료로 저장하여 농장의 생산성을 높입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004887</GUID>
-      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
-      <Text>옛 대상들이 쉬어 가던 Wadi Al Zahir의 모래 속에서 발견되었습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004888</GUID>
-      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
-      <Text>Wadi Al Zahir의 모래 속에서 발견된 예언자와 학자, 순교자들의 유물입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004889</GUID>
-      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
-      <Text>성스러운 달 동안 신자들은 새벽부터 해 질 녘까지 금식하고, 온 도시가 해 질 무렵의 기도 시간을 알리는 소리를 기다립니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004890</GUID>
-      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
-      <Text>그랜드 모스크는 여러 단계에 걸쳐 건설됩니다. 완공되면 술탄국 곳곳에서 순례자들이 찾아옵니다. 성대한 순례 여행을 개최하면 신도들이 술탄의 궁정에서 영향력을 얻게 해 줄 것입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004891</GUID>
-      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
-      <Text>금식이 끝나면 가족들이 단 과자를 들고 서로를 방문하고, 선물을 받지 못하는 이웃은 아무도 없습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004892</GUID>
-      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
-      <Text>운하에서 끌어온 신선한 물입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004900</GUID>
-      <!-- Fertility | Olive Fertility | Olive Fertility -->
-      <Text>올리브 토착 자원</Text>
-    </Text>
-    <Text>
-      <GUID>1404004901</GUID>
-      <!-- Fertility | Chickpea Fertility | Chickpea Fertility -->
-      <Text>병아리콩 토착 자원</Text>
-    </Text>
-    <Text>
-      <GUID>1404004902</GUID>
-      <!-- Fertility | Aniseed Fertility | Aniseed Fertility -->
-      <Text>아니스 토착 자원</Text>
-    </Text>
-    <Text>
-      <GUID>1404004910</GUID>
-      <!-- GuildhouseItem | Olive Seeds | Olive Seeds -->
-      <Text>올리브 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004911</GUID>
-      <!-- GuildhouseItem | Quality Olive Seeds | Quality Olive Seeds -->
-      <Text>고품질 올리브 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004912</GUID>
-      <!-- GuildhouseItem | Hybrid Olive Seeds | Hybrid Olive Seeds -->
-      <Text>하이브리드 올리브 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004913</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Olives in alien soil. | These saplings can help you grow a few groves of Olives in alien soil. -->
-      <Text>이 묘목은 낯선 토양에서 올리브 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004914</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Olives in alien soil. | These saplings can help you grow plentiful groves of Olives in alien soil. -->
-      <Text>이 묘목은 낯선 토양에서 풍성한 올리브 숲을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004915</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! -->
-      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 올리브 수확량도 증가했습니다!</Text>
-    </Text>
-    <Text>
-      <GUID>1404004920</GUID>
-      <!-- GuildhouseItem | Chickpea Seeds | Chickpea Seeds -->
-      <Text>병아리콩 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004921</GUID>
-      <!-- GuildhouseItem | Quality Chickpea Seeds | Quality Chickpea Seeds -->
-      <Text>고품질 병아리콩 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004922</GUID>
-      <!-- GuildhouseItem | Hybrid Chickpea Seeds | Hybrid Chickpea Seeds -->
-      <Text>하이브리드 병아리콩 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004923</GUID>
-      <!-- Text | These seeds can help you grow a few fields of Chickpeas in alien soil. | These seeds can help you grow a few fields of Chickpeas in alien soil. -->
-      <Text>이 씨앗은 낯선 토양에서 병아리콩 밭 몇 곳을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004924</GUID>
-      <!-- Text | These seeds can help you grow plentiful fields of Chickpeas in alien soil. | These seeds can help you grow plentiful fields of Chickpeas in alien soil. -->
-      <Text>이 씨앗은 낯선 토양에서 풍성한 병아리콩 밭을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004925</GUID>
-      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! -->
-      <Text>이 씨앗은 매우 다양한 토양에서 자라도록 개량되었으며 병아리콩 수확량도 증가했습니다!</Text>
-    </Text>
-    <Text>
-      <GUID>1404004930</GUID>
-      <!-- GuildhouseItem | Aniseed Seeds | Aniseed Seeds -->
-      <Text>아니스 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004931</GUID>
-      <!-- GuildhouseItem | Quality Aniseed Seeds | Quality Aniseed Seeds -->
-      <Text>고품질 아니스 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004932</GUID>
-      <!-- GuildhouseItem | Hybrid Aniseed Seeds | Hybrid Aniseed Seeds -->
-      <Text>하이브리드 아니스 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404004933</GUID>
-      <!-- Text | These seeds can help you grow a few fields of Aniseed in alien soil. | These seeds can help you grow a few fields of Aniseed in alien soil. -->
-      <Text>이 씨앗은 낯선 토양에서 아니스 밭 몇 곳을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004934</GUID>
-      <!-- Text | These seeds can help you grow plentiful fields of Aniseed in alien soil. | These seeds can help you grow plentiful fields of Aniseed in alien soil. -->
-      <Text>이 씨앗은 낯선 토양에서 풍성한 아니스 밭을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404004935</GUID>
-      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! -->
-      <Text>이 씨앗은 매우 다양한 토양에서 자라도록 개량되었으며 아니스 수확량도 증가했습니다!</Text>
-    </Text>
-    <Text>
-      <GUID>1404004209</GUID>
-      <!-- OrnamentalBuilding | Oriental Wall Tower | Oriental Wall Tower -->
-      <Text>동양식 성벽 망루</Text>
-    </Text>
-    <Text>
-      <GUID>1404005002</GUID>
-      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
-      <Text>광석 드럼이 비어 있으므로 다시 채워야 합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005003</GUID>
-      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
-      <Text>완성된 부양 농축액이 준비되고 드럼이 가득 찼습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005004</GUID>
-      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>광석 드럼 모듈</Text>
-    </Text>
-    <Text>
-      <GUID>1404005005</GUID>
-      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
-      <Text>광석 드럼</Text>
-    </Text>
-    <Text>
-      <GUID>1404005006</GUID>
-      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
-      <Text>이 모듈은 오일 부유 공정을 사용하여 광석 드럼에서 특수 정제를 통해 광석 생산량을 두 배로 늘립니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005012</GUID>
-      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
-      <Text>벌 정원</Text>
-    </Text>
-    <Text>
-      <GUID>1404005013</GUID>
-      <!-- GuildhouseBuff | Honey Production | Honey Production -->
-      <Text>꿀 생산</Text>
-    </Text>
-    <Text>
-      <GUID>1404005014</GUID>
-      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
-      <Text>몇 개의 벌통이 꿀을 생산하고 농장을 더 효율적으로 만듭니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005015</GUID>
-      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
-      <Text>대추야자에서 얻은 벌꿀은 매우 인기 있는 상품입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005017</GUID>
-      <!-- GuildhouseBuff | Pollination | Pollination -->
-      <Text>수분</Text>
-    </Text>
-    <Text>
-      <GUID>1404005018</GUID>
-      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
-      <Text>동양의 모든 작물 농장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005019</GUID>
-      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
-      <Text>벌들의 수분 덕분에 우리 농장은 더욱 효율적이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005020</GUID>
-      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
-      <Text>차 양조장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005023</GUID>
-      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
-      <Text>로쿰 제과점</Text>
-    </Text>
-    <Text>
-      <GUID>1404005025</GUID>
-      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
-      <Text>피스타치오 농장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005026</GUID>
-      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
-      <Text>피스타치오 과수원</Text>
-    </Text>
-    <Text>
-      <GUID>1404005027</GUID>
-      <!-- Multifactory | Roastery: Pistachios | Roastery: Pistachios -->
-      <Text>로스터리: 피스타치오</Text>
-    </Text>
-    <Text>
-      <GUID>1404005028</GUID>
-      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
-      <Text>피스타치오 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404005029</GUID>
-      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
-      <Text>고품질 피스타치오 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404005030</GUID>
-      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
-      <Text>하이브리드 피스타치오 씨앗</Text>
-    </Text>
-    <Text>
-      <GUID>1404005031</GUID>
-      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
-      <Text>피스타치오 토착 자원</Text>
-    </Text>
-    <Text>
-      <GUID>1404005032</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
-      <Text>이 묘목은 낯선 토양에서 피스타치오 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005033</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
-      <Text>이 묘목은 낯선 토양에서 풍성한 피스타치오 숲을 키우는 데 도움이 됩니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005034</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
-      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 피스타치오 수확량도 증가했습니다!</Text>
-    </Text>
-    <Text>
-      <GUID>1404005035</GUID>
-      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
-      <Text>과일 공방</Text>
-    </Text>
-    <Text>
-      <GUID>1404005038</GUID>
-      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
-      <Text>Wadi Al Zahir에서만 건설 가능</Text>
-    </Text>
-    <Text>
-      <GUID>1404005039</GUID>
-      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
-      <Text>황산</Text>
-    </Text>
-    <Text>
-      <GUID>1404005040</GUID>
-      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
-      <Text>맨손으로 만지지 않는 것이 좋을 것이다. 녹반유라고도 불린다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005041</GUID>
-      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
-      <Text>코끼리 사냥 오두막</Text>
-    </Text>
-    <Text>
-      <GUID>1404005043</GUID>
-      <!-- Text | Module | Module -->
-      <Text>모듈</Text>
-    </Text>
-    <Text>
-      <GUID>1404005044</GUID>
-      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
-      <Text>향 공방</Text>
-    </Text>
-    <Text>
-      <GUID>1404005045</GUID>
-      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
-      <Text>야자잎 채집꾼</Text>
-    </Text>
-    <Text>
-      <GUID>1404005048</GUID>
-      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
-      <Text>잎 채집꾼</Text>
-    </Text>
-    <Text>
-      <GUID>1404005049</GUID>
-      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
-      <Text>채집꾼들이 향긋한 야자잎을 수확하지만, 그 때문에 생산이 조금 느려집니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005052</GUID>
-      <!-- FreeAreaBuilding | Agarwood Plantation | Agarwood Plantation -->
-      <Text>침향나무 농장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005053</GUID>
-      <!-- Multifactory | Mycological Laboratory: P. parasiticum | Mycological Laboratory: P. parasiticum -->
-      <Text>균류 연구소: P. parasiticum</Text>
-    </Text>
-    <Text>
-      <GUID>1404005054</GUID>
-      <!-- Product | P. parasiticum | P. parasiticum -->
-      <Text>P. parasiticum</Text>
-    </Text>
-    <Text>
-      <GUID>1404005055</GUID>
-      <!-- FactoryBuilding7 | Infestation Cellar | Infestation Cellar -->
-      <Text>감염 저장고</Text>
-    </Text>
-    <Text>
-      <GUID>1404005057</GUID>
-      <!-- FactoryBuilding7 | Oudh Distillery | Oudh Distillery -->
-      <Text>우드 증류소</Text>
-    </Text>
-    <Text>
-      <GUID>1404005058</GUID>
-      <!-- Product | Oudh | Oudh -->
-      <Text>우드</Text>
-    </Text>
-    <Text>
-      <GUID>1404005059</GUID>
-      <!-- Product | Oudh Perfume | Oudh Perfume -->
-      <Text>우드 향수</Text>
-    </Text>
-    <Text>
-      <GUID>1404005063</GUID>
-      <!-- Text | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. -->
-      <Text>침향나무가 곰팡이 감염에 반응하여 만들어 내는, 매우 귀하고 향이 진한 수지입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005064</GUID>
-      <!-- Text | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. -->
-      <Text>'액체 황금'이라 불리는 우드 향수는 세상에서 가장 비싸고 고귀한 향수로, 거물들이 몹시 탐냅니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005065</GUID>
-      <!-- Text | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. -->
-      <Text>Phaeoacremonium parasiticum - 침향나무에서 특별한 수지가 생성되도록 하는 특수한 곰팡이입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005066</GUID>
-      <!-- Multifactory | Mycological Laboratory: Noble Mushrooms | Mycological Laboratory: Noble Mushrooms -->
-      <Text>균류 연구소: 고귀한 버섯</Text>
-    </Text>
-    <Text>
-      <GUID>1404005067</GUID>
-      <!-- RecipeList | Mycological Laboratory Patent List | Mycological Laboratory Patent List -->
-      <Text>균류 연구소 특허 목록</Text>
-    </Text>
-    <Text>
-      <GUID>1404005070</GUID>
-      <!-- Text | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. -->
-      <Text>버섯 재배의 큰 발전 덕분에 이제 모두가 탐내는 고귀한 버섯을 산업적으로 생산할 수 있게 되어, 값비싼 수입이 필요 없어졌습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005071</GUID>
-      <!-- Text | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. -->
-      <Text>우드 생산에 필요한 곰팡이 Phaeoacremonium parasiticum은 알맞은 생장 조건을 갖추기 위해 연구소에서 배양해야 합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005075</GUID>
-      <!-- Text | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. -->
-      <Text>획기적인 배양과 통제 불능의 포자 침공 사이의 경계는 아슬아슬할 만큼 얇습니다. 그래도 이것은 균류학의 혁명이며, 숲속의 미친 마녀도 드디어 일자리를 얻었습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005076</GUID>
-      <!-- FarmBuilding | Olive Plantation | Olive Plantation -->
-      <Text>올리브 농장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005077</GUID>
-      <!-- Farmfield | Olive Grove | Olive Grove -->
-      <Text>올리브 과수원</Text>
-    </Text>
-    <Text>
-      <GUID>1404005082</GUID>
-      <!-- FarmBuilding | Chickpea Farm | Chickpea Farm -->
-      <Text>병아리콩 농장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005083</GUID>
-      <!-- Farmfield | Chickpea Field | Chickpea Field -->
-      <Text>병아리콩 밭</Text>
-    </Text>
-    <Text>
-      <GUID>1404005084</GUID>
-      <!-- FactoryBuilding7 | Hummus Kitchen | Hummus Kitchen -->
-      <Text>후무스 주방</Text>
-    </Text>
-    <Text>
-      <GUID>1404005086</GUID>
-      <!-- FactoryBuilding7 | Cold Press | Cold Press -->
-      <Text>냉압착소</Text>
-    </Text>
-    <Text>
-      <GUID>1404005090</GUID>
-      <!-- FarmBuilding | Aniseed Farm | Aniseed Farm -->
-      <Text>아니스 농장</Text>
-    </Text>
-    <Text>
-      <GUID>1404005091</GUID>
-      <!-- Farmfield | Aniseed Field | Aniseed Field -->
-      <Text>아니스 밭</Text>
-    </Text>
-    <Text>
-      <GUID>1404005095</GUID>
-      <!-- Product | Moldy Bread | Mouldy Bread -->
-      <Text>곰팡이 핀 빵</Text>
-    </Text>
-    <Text>
-      <GUID>1404005096</GUID>
-      <!-- GuildhouseBuff | Immature Production | Immature Production -->
-      <Text>미성숙한 생산</Text>
-    </Text>
-    <Text>
-      <GUID>1404005097</GUID>
-      <!-- Text | Good for nothing but compost, at best. | Good for nothing but compost, at best. -->
-      <Text>기껏해야 퇴비로나 쓸 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005099</GUID>
-      <!-- Text | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. -->
-      <Text>생산이 아직 걸음마 단계라... 원치 않는 부산물이 생깁니다. 하지만 가끔은 쓸모 있는 것도 나옵니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005100</GUID>
-      <!-- Multifactory | Roastery: Chickpeas | Roastery: Chickpeas -->
-      <Text>로스터리: 병아리콩</Text>
-    </Text>
-    <Text>
-      <GUID>1404005101</GUID>
-      <!-- RecipeList | Roastery Recipes | Roastery Recipes -->
-      <Text>로스터리 레시피</Text>
-    </Text>
-    <Text>
-      <GUID>1404005106</GUID>
-      <!-- Text | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. -->
-      <Text>온갖 것을 구울 수 있는 뜨거운 그릴입니다. 구우면 무엇이든 더 맛있어지죠.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005107</GUID>
-      <!-- Text | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. -->
-      <Text>갓 양념한 이 병아리콩은 수백 년 전통의 산물이자 노동자 계층의 간식입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005108</GUID>
-      <!-- Text | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. -->
-      <Text>뜨겁고 짭짤한 피스타치오는 누구에게나 별미입니다. 그릴에서 갓 나온 것이라면 더욱 그렇죠.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005112</GUID>
-      <!-- FactoryBuildingWithModules | Copper Smelter | Copper Smelter -->
-      <Text>구리 제련소</Text>
-    </Text>
-    <Text>
-      <GUID>1404005113</GUID>
-      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
-      <Text>동양 대장간: 알렘빅</Text>
-    </Text>
-    <Text>
-      <GUID>1404005115</GUID>
-      <!-- Product | alembics | Alembics -->
-      <Text>알렘빅</Text>
-    </Text>
-    <Text>
-      <GUID>1404005116</GUID>
-      <!-- Text | Alembics are oriental stills used for brewing all kinds of drinks and liquids. | Alembics are oriental stills used for brewing all kinds of drinks and liquids. -->
-      <Text>알렘빅은 온갖 음료와 액체를 빚는 데 쓰이는 동양의 솥입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005118</GUID>
-      <!-- Text | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. -->
-      <Text>알렘빅은 동양 양조의 표준입니다. 온갖 액체와 음료를 빚을 수 있죠. 구리로 만들어져 열이 이상적으로, 최대한 고르게 퍼집니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005120</GUID>
-      <!-- Product | arak | Arak -->
-      <Text>아락</Text>
-    </Text>
-    <Text>
-      <GUID>1404005121</GUID>
-      <!-- FactoryBuilding7 | Arak Distillery | Arak Distillery -->
-      <Text>아락 증류소</Text>
-    </Text>
-    <Text>
-      <GUID>1404005123</GUID>
-      <!-- Text | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. -->
-      <Text>포도와 아니스로 만든 독한 술. 영혼을 속부터 데워 줍니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005124</GUID>
-      <!-- Multifactory | Roastery: Coffee | Roastery: Coffee -->
-      <Text>로스터리: 커피</Text>
-    </Text>
-    <Text>
-      <GUID>1404005125</GUID>
-      <!-- Product | Roasted Coffee | Roasted Coffee Beans -->
-      <Text>볶은 커피콩</Text>
-    </Text>
-    <Text>
-      <GUID>1404005126</GUID>
-      <!-- Text | Simple roasted coffee. | Simple roasted coffee. -->
-      <Text>평범하게 볶은 커피.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005129</GUID>
-      <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
-      <Text>뜨겁게 볶은 평범한 커피. 특별할 건 없지만 그래도 동양의 별미입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005130</GUID>
-      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
-      <Text>동양 워크숍: 아스트롤라베</Text>
-    </Text>
-    <Text>
-      <GUID>1404005131</GUID>
-      <!-- Product | astrolabes | Astrolabes -->
-      <Text>아스트롤라베</Text>
-    </Text>
-    <Text>
-      <GUID>1404005133</GUID>
-      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
-      <Text>별을 추적하는 데 쓰이는 정밀한 동양의 측정 도구입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005135</GUID>
-      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
-      <Text>아스트롤라베는 동양 공예의 걸작입니다. 별을 추적하고, 시간을 정확하게 재며, 낮에도 천문학적 위치를 정밀하게 파악할 수 있죠.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007000</GUID>
-      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
-      <Text>동양 등대: 탑</Text>
-    </Text>
-    <Text>
-      <GUID>1404007001</GUID>
-      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
-      <Text>동양 등대: 등롱실</Text>
-    </Text>
-    <Text>
-      <GUID>1404007002</GUID>
-      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
-      <Text>동양 등대</Text>
-    </Text>
-    <Text>
-      <GUID>1404007003</GUID>
-      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
-      <Text>장식용 등대</Text>
-    </Text>
-    <Text>
-      <GUID>1404007010</GUID>
-      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
-      <Text>모래언덕이 바다와 만나는 곳에서 석공들이 흙벽돌과 야자나무 목재로 넓은 기초를 놓습니다. 언젠가 이곳에 불이 밝혀져 모든 돛을 무사히 집으로 이끌 것입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007011</GUID>
-      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
-      <Text>탑은 한 단 한 단 항구 위로 솟아오르고, 아침 햇살을 머금은 모자이크로 덮여 갑니다. 회랑에 선 파수꾼들은 벌써 수평선의 돛을 헤아릴 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007012</GUID>
-      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
-      <Text>유리공들이 등롱실에 유리창을 끼우고, 커다란 샹들리에가 꼭대기로 끌어올려집니다. 머지않아 그 빛이 바다 멀리까지 닿을 것입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007013</GUID>
-      <!-- Text | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. -->
-      <Text>등대에 등불을 하나 장착하십시오. 각 등불은 모든 지역에 있는 한 종류의 모든 선박을 강화합니다. 마담 카히나가 동양에서 가끔 등불을 판매합니다. 등대는 섬마다 하나만 건설할 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007200</GUID>
-      <!-- Text | Beacon of the Harbour | Beacon of the Harbour -->
-      <Text>항구의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007201</GUID>
-      <!-- Text | Thrifty Beacon of the Shipwrights | Thrifty Beacon of the Shipwrights -->
-      <Text>알뜰한 조선공의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007202</GUID>
-      <!-- Text | Steadfast Beacon of the Fleet | Steadfast Beacon of the Fleet -->
-      <Text>굳건한 함대의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007203</GUID>
-      <!-- Text | Eternal Beacon of the Seven Seas | Eternal Beacon of the Seven Seas -->
-      <Text>영원한 일곱 바다의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007204</GUID>
-      <!-- Text | Beacon of the Dhows | Beacon of the Dhows -->
-      <Text>다우선의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007205</GUID>
-      <!-- Text | Swift Beacon of the Trade Winds | Swift Beacon of the Trade Winds -->
-      <Text>날쌘 무역풍의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007206</GUID>
-      <!-- Text | Vigilant Beacon of the Frigates | Vigilant Beacon of the Frigates -->
-      <Text>경계하는 프리깃의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007207</GUID>
-      <!-- Text | Radiant Beacon of the Monsoon | Radiant Beacon of the Monsoon -->
-      <Text>찬란한 계절풍의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007208</GUID>
-      <!-- Text | Beacon of the Stokers | Beacon of the Stokers -->
-      <Text>화부의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007209</GUID>
-      <!-- Text | Tireless Beacon of the Boilers | Tireless Beacon of the Boilers -->
-      <Text>지칠 줄 모르는 보일러의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007210</GUID>
-      <!-- Text | Relentless Beacon of the Steamers | Relentless Beacon of the Steamers -->
-      <Text>거침없는 증기선의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007211</GUID>
-      <!-- Text | Golden Beacon of the Merchants | Golden Beacon of the Merchants -->
-      <Text>황금빛 상인의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007212</GUID>
-      <!-- Text | Beacon of the Gunners | Beacon of the Gunners -->
-      <Text>포수의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007213</GUID>
-      <!-- Text | Fierce Beacon of the Broadside | Fierce Beacon of the Broadside -->
-      <Text>맹렬한 일제 사격의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007214</GUID>
-      <!-- Text | Thundering Beacon of the Admiralty | Thundering Beacon of the Admiralty -->
-      <Text>우레 같은 해군본부의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007215</GUID>
-      <!-- Text | Unbreakable Beacon of the Navy | Unbreakable Beacon of the Navy -->
-      <Text>부서지지 않는 해군의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007216</GUID>
-      <!-- Text | Beacon of the Skies | Beacon of the Skies -->
-      <Text>하늘의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007217</GUID>
-      <!-- Text | Buoyant Beacon of the Clouds | Buoyant Beacon of the Clouds -->
-      <Text>떠오르는 구름의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007218</GUID>
-      <!-- Text | Steady Beacon of the Airmen | Steady Beacon of the Airmen -->
-      <Text>흔들림 없는 비행사의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007219</GUID>
-      <!-- Text | Soaring Beacon of the Djinn | Soaring Beacon of the Djinn -->
-      <Text>치솟는 지니의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007220</GUID>
-      <!-- Text | Beacon of the Pearl Divers | Beacon of the Pearl Divers -->
-      <Text>진주잡이의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007221</GUID>
-      <!-- Text | Glimmering Beacon of the Deep | Glimmering Beacon of the Deep -->
-      <Text>반짝이는 심해의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007222</GUID>
-      <!-- Text | Mysterious Beacon of the Sunken Hoards | Mysterious Beacon of the Sunken Hoards -->
-      <Text>신비로운 가라앉은 보물의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007223</GUID>
-      <!-- Text | Fabled Beacon of the Drowned Kingdom | Fabled Beacon of the Drowned Kingdom -->
-      <Text>전설적인 가라앉은 왕국의 등불</Text>
-    </Text>
-    <Text>
-      <GUID>1404007230</GUID>
-      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
-      <Text>항구 관리인이라면 누구나 압니다. 빛을 본 배는 무사히 돌아온다는 것을.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007231</GUID>
-      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
-      <Text>조선공 길드가 불을 지킵니다. 내일 선체를 고치느니 오늘 판자 하나를 고치는 편이 낫기 때문입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007232</GUID>
-      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
-      <Text>그 불꽃은 한 번도 흔들린 적이 없으며, 그 빛을 따르는 배들도 흔들리지 않습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007233</GUID>
-      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
-      <Text>전설에 따르면 그 빛은 세상의 모든 해안에서 동시에 보인다고 합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007234</GUID>
-      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
-      <Text>늙은 다우선 선장들은 맹세합니다. 빛을 따르면 바람이 당신을 따른다고.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007235</GUID>
-      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
-      <Text>무역풍이 바뀔 때 불을 밝혀, 어떤 상인도 한 줄기 바람조차 놓치지 않게 합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007236</GUID>
-      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
-      <Text>그 회랑에서 파수꾼들은 첫 포성이 울리기 훨씬 전에 적의 돛을 찾아냅니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007237</GUID>
-      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
-      <Text>계절풍이 몰아치면 그 푸른 불꽃이 이곳에서 향신료 해안까지 모든 돛을 채웁니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007238</GUID>
-      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
-      <Text>부두의 화부들을 위한 불빛. 석탄을 빨리 실을수록 배는 더 일찍 떠납니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007239</GUID>
-      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
-      <Text>지켜보는 보일러와 같은 석탄으로 타오르며, 조금도 낭비하지 않습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007240</GUID>
-      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
-      <Text>무엇이 선체를 때리든 외륜은 계속 돌아갑니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007241</GUID>
-      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
-      <Text>그 황금빛이 비추는 곳에서는 시장이 문과 지갑을 엽니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007242</GUID>
-      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
-      <Text>포수들을 위한 붉은 빛. 정확히 겨누고 빠르게 쏘십시오.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007243</GUID>
-      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
-      <Text>그 붉은 빛 아래 퍼붓는 일제 사격을 피할 수 있는 돛도 굴뚝도 없습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007244</GUID>
-      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
-      <Text>술탄 함대의 제독들은 그 강렬한 빛으로 명령서를 읽습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007245</GUID>
-      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
-      <Text>어떤 폭풍에도 굽히지 않고 어떤 대포에도 부서지지 않는 함대를 위해 벼려졌습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007246</GUID>
-      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
-      <Text>첨탑 높이 빛나는 초록 불빛이 비행선을 집으로 이끕니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007247</GUID>
-      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
-      <Text>그 따뜻한 빛은 한낮의 사막 공기처럼 비행선을 들어 올립니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007248</GUID>
-      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
-      <Text>비행사들은 어떤 나침반보다 이것을 믿습니다. 초록빛이 빛나는 한 엔진은 버팁니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007249</GUID>
-      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
-      <Text>렌즈 속에 지니가 살며 모든 비행선을 날개에 태워 나른다고들 합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007250</GUID>
-      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
-      <Text>만의 진주잡이들은 잠수하기 전마다 행운을 빌며 이것을 밝힙니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007251</GUID>
-      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
-      <Text>그 보랏빛은 모래가 조개껍데기보다 많은 것을 숨긴 깊은 곳까지 닿습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007252</GUID>
-      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
-      <Text>누가 처음 불을 밝혔는지는 아무도 모릅니다. 다만 그 빛이 비추는 난파선은 결코 비어 있지 않습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007253</GUID>
-      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
-      <Text>바다가 통째로 삼킨 왕국의 마지막 수호자가 밝혔다고 전해집니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007260</GUID>
-      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>항구 관리인이라면 누구나 압니다. 빛을 본 배는 무사히 돌아온다는 것을.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 선박이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007261</GUID>
-      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>조선공 길드가 불을 지킵니다. 내일 선체를 고치느니 오늘 판자 하나를 고치는 편이 낫기 때문입니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 선박이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007262</GUID>
-      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>그 불꽃은 한 번도 흔들린 적이 없으며, 그 빛을 따르는 배들도 흔들리지 않습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 선박이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007263</GUID>
-      <!-- Text | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>전설에 따르면 그 빛은 세상의 모든 해안에서 동시에 보인다고 합니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 선박이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007264</GUID>
-      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>늙은 다우선 선장들은 맹세합니다. 빛을 따르면 바람이 당신을 따른다고.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 범선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007265</GUID>
-      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>무역풍이 바뀔 때 불을 밝혀, 어떤 상인도 한 줄기 바람조차 놓치지 않게 합니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 범선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007266</GUID>
-      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>그 회랑에서 파수꾼들은 첫 포성이 울리기 훨씬 전에 적의 돛을 찾아냅니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 범선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007267</GUID>
-      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>계절풍이 몰아치면 그 푸른 불꽃이 이곳에서 향신료 해안까지 모든 돛을 채웁니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 범선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007268</GUID>
-      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>부두의 화부들을 위한 불빛. 석탄을 빨리 실을수록 배는 더 일찍 떠납니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 증기선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007269</GUID>
-      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>지켜보는 보일러와 같은 석탄으로 타오르며, 조금도 낭비하지 않습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 증기선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007270</GUID>
-      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>무엇이 선체를 때리든 외륜은 계속 돌아갑니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 증기선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007271</GUID>
-      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>그 황금빛이 비추는 곳에서는 시장이 문과 지갑을 엽니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 증기선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007272</GUID>
-      <!-- Text | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>포수들을 위한 붉은 빛. 정확히 겨누고 빠르게 쏘십시오.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 군함이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007273</GUID>
-      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>그 붉은 빛 아래 퍼붓는 일제 사격을 피할 수 있는 돛도 굴뚝도 없습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 군함이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007274</GUID>
-      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>술탄 함대의 제독들은 그 강렬한 빛으로 명령서를 읽습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 군함이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007275</GUID>
-      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>어떤 폭풍에도 굽히지 않고 어떤 대포에도 부서지지 않는 함대를 위해 벼려졌습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 군함이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007276</GUID>
-      <!-- Text | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>첨탑 높이 빛나는 초록 불빛이 비행선을 집으로 이끕니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 비행선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007277</GUID>
-      <!-- Text | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>그 따뜻한 빛은 한낮의 사막 공기처럼 비행선을 들어 올립니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 비행선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007278</GUID>
-      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>비행사들은 어떤 나침반보다 이것을 믿습니다. 초록빛이 빛나는 한 엔진은 버팁니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 비행선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007279</GUID>
-      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>렌즈 속에 지니가 살며 모든 비행선을 날개에 태워 나른다고들 합니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 비행선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007280</GUID>
-      <!-- Text | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>만의 진주잡이들은 잠수하기 전마다 행운을 빌며 이것을 밝힙니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 인양선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007281</GUID>
-      <!-- Text | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>그 보랏빛은 모래가 조개껍데기보다 많은 것을 숨긴 깊은 곳까지 닿습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 인양선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007282</GUID>
-      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>누가 처음 불을 밝혔는지는 아무도 모릅니다. 다만 그 빛이 비추는 난파선은 결코 비어 있지 않습니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 인양선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007283</GUID>
-      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>바다가 통째로 삼킨 왕국의 마지막 수호자가 밝혔다고 전해집니다.&lt;br/&gt;동양 등대에 장착하면 모든 지역에 있는 모든 인양선이 이 효과를 받습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404007041</GUID>
-      <!-- Text | Lighthouse | Lighthouse -->
-      <Text>등대</Text>
-    </Text>
-    <Text>
-      <GUID>1404008000</GUID>
-      <!-- Multifactory | Oriental Smith | Oriental Smith -->
-      <Text>동양 대장간</Text>
-    </Text>
-    <Text>
-      <GUID>1404008001</GUID>
-      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
-      <Text>동양 대장간 특허 목록</Text>
-    </Text>
-    <Text>
-      <GUID>1404008100</GUID>
-      <!-- Hacienda | Bedouin Camp | Bedouin Camp -->
-      <Text>베두인 야영지</Text>
-    </Text>
-    <Text>
-      <GUID>1404008101</GUID>
-      <!-- ResidenceBuilding7_Colony | Bedouin Nomad Quarters | Bedouin Nomad Quarters -->
-      <Text>베두인 유목민 숙소</Text>
-    </Text>
-    <Text>
-      <GUID>1404008103</GUID>
-      <!-- EffectContainer | Desert Frugality | Desert Frugality -->
-      <Text>사막의 검소함</Text>
-    </Text>
-    <Text>
-      <GUID>1404008104</GUID>
-      <!-- Text | Those who cross the desert learn to make a little go a long way. | Those who cross the desert learn to make a little go a long way. -->
-      <Text>사막을 건너는 자는 적은 것으로 오래 버티는 법을 배운다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008106</GUID>
-      <!-- Text | Reduces the consumption of local wares for Bedouins | Reduces the consumption of local wares for Bedouins -->
-      <Text>베두인의 지역 상품 소비를 줄입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008107</GUID>
-      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
-      <Text>장식용 베두인 야영지</Text>
-    </Text>
-    <Text>
-      <GUID>1404008110</GUID>
-      <!-- EffectContainer | Camel Breeding | Camel Breeding -->
-      <Text>낙타 번식</Text>
-    </Text>
-    <Text>
-      <GUID>1404008111</GUID>
-      <!-- Text | A Bedouin knows every camel by name, and its forebears seven generations back. | A Bedouin knows every camel by name, and its forebears seven generations back. -->
-      <Text>베두인은 모든 낙타의 이름을 알고, 7대 위의 조상까지 기억한다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008113</GUID>
-      <!-- Text | Increases the productivity of camel farms | Increases the productivity of camel farms -->
-      <Text>낙타 농장의 생산성을 높입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008120</GUID>
-      <!-- EffectContainer | Oasis Gardens | Oasis Gardens -->
-      <Text>오아시스 정원</Text>
-    </Text>
-    <Text>
-      <GUID>1404008121</GUID>
-      <!-- Text | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. -->
-      <Text>모래에서 물이 솟는 곳이면, 부족은 그늘을 위해 대추야자를 심고 그 아래에 석류를 심는다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008123</GUID>
-      <!-- Text | Increases the productivity of date and pomegranate farms | Increases the productivity of date and pomegranate farms -->
-      <Text>대추야자 농장과 석류 농장의 생산성을 높입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008130</GUID>
-      <!-- EffectContainer | Desert Hospitality | Desert Hospitality -->
-      <Text>사막의 환대</Text>
-    </Text>
-    <Text>
-      <GUID>1404008131</GUID>
-      <!-- Text | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. -->
-      <Text>베두인 천막은 어떤 나그네도 내치지 않는다. 사흘 동안의 잠자리와 커피와 빵을, 아무것도 묻지 않고 내준다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008133</GUID>
-      <!-- Text | Increases the happiness of Nomads | Increases the happiness of Nomads -->
-      <Text>유목민의 행복도를 높입니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008140</GUID>
-      <!-- EffectContainer | Bonds of the Tribe | Bonds of the Tribe -->
-      <Text>부족의 유대</Text>
-    </Text>
-    <Text>
-      <GUID>1404008141</GUID>
-      <!-- Text | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. -->
-      <Text>족장이 부르면 모든 천막이 일손을 보낸다. 부족은 함께 서고 함께 쓰러지기 때문이다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404008143</GUID>
-      <!-- Text | Increases the workforce of Nomads | Increases the workforce of Nomads -->
-      <Text>유목민의 노동력을 늘립니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009000</GUID>
-      <!-- Product | Rammed Earth | Rammed Earth -->
-      <Text>다짐흙</Text>
-    </Text>
-    <Text>
-      <GUID>1404009001</GUID>
-      <!-- Text | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. -->
-      <Text>축축한 점토를 나무판 사이에 한 겹씩 채워 단단히 다진 것입니다. 다짐흙 벽은 사막의 한낮에도 시원하며 수백 년을 버팁니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009002</GUID>
-      <!-- FactoryBuilding7 | Rammed Earth Works | Rammed Earth Works -->
-      <Text>다짐흙 작업장</Text>
-    </Text>
-    <Text>
-      <GUID>1404009100</GUID>
-      <!-- GuildhouseItem | Nadira al-Lawz, The Lady of the Almond Grove | Nadira al-Lawz, The Lady of the Almond Grove -->
-      <Text>나디라 알라우즈, 아몬드 숲의 여주인</Text>
-    </Text>
-    <Text>
-      <GUID>1404009101</GUID>
-      <!-- Text | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. -->
-      <Text>아몬드 나무들 사이에서 태어난 나디라는 어려서부터 접목과 가지치기의 비결을 익혔습니다. 끈기 있게 돌본 끝에 다른 이들이 포기한 나무들까지 되살려 냈습니다. 그녀의 수확은 곧 이웃 농부들의 본보기가 되었습니다. 오늘날 그녀의 지식은 그녀에게 맡겨진 모든 과수원에서 꽃피고 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009102</GUID>
-      <!-- GuildhouseItem | Decree on the Grafting and Pruning of Fruit Trees | Decree on the Grafting and Pruning of Fruit Trees -->
-      <Text>과수 접목 및 가지치기에 관한 칙령</Text>
-    </Text>
-    <Text>
-      <GUID>1404009103</GUID>
-      <!-- Text | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. -->
-      <Text>많은 농장의 낮은 수확량을 보고 농업 당국은 과수 관리를 개선하기 위한 새로운 조치를 도입했습니다. 가지 선별, 내성 품종의 접목, 정기적인 가지치기가 농사일의 중심이 되었습니다. 일부 지주들은 처음에 새로운 요구를 미심쩍어했지만, 결국 결과가 그들을 설득했습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009104</GUID>
-      <!-- GuildhouseItem | Leyla al-Harir, the Mistress of the Cocoon | Leyla al-Harir, the Mistress of the Cocoon -->
-      <Text>레일라 알하리르, 누에고치의 여주인</Text>
-    </Text>
-    <Text>
-      <GUID>1404009105</GUID>
-      <!-- Text | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. -->
-      <Text>비단 생산자 집안에서 자란 레일라는 일찍이 누에 치는 일에 특별한 재능이 있음을 깨달았습니다. 다른 이들이 부주의로 수확을 통째로 잃는 동안, 그녀는 언제나 품질 좋은 누에고치를 풍성하게 얻었습니다. 뽕나무를 보는 것만으로 수확의 성패를 가늠할 수 있었다고 전해집니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009106</GUID>
-      <!-- GuildhouseItem | Steam boilers for silk reeling | Steam boilers for silk reeling -->
-      <Text>생사 제조용 증기 보일러</Text>
-    </Text>
-    <Text>
-      <GUID>1404009107</GUID>
-      <!-- Text | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. -->
-      <Text>뜨거운 물은 누에고치의 천연 고무질을 부드럽게 하여 아주 가는 실을 풀어낼 수 있게 합니다. 증기는 온도를 일정하게 유지하는 데 도움을 줍니다. 성공한 생산자들은 더 고른 실을 얻기 위해 이 방식을 받아들였습니다. 그렇게 만들어진 비단은 섬세한 광택을 잃지 않은 채 새로운 시장을 사로잡았습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009108</GUID>
-      <!-- GuildhouseItem | Khalil al-Najjar, the Woodcutter of the Oases | Khalil al-Najjar, The Woodcutter of the Oases -->
-      <Text>칼릴 알나자르, 오아시스의 나무꾼</Text>
-    </Text>
-    <Text>
-      <GUID>1404009109</GUID>
-      <!-- Text | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. -->
-      <Text>칼릴은 나무가 귀해 통나무 하나도 남김없이 써야 했던 마을에서 나무꾼들과 함께 기술을 배웠습니다. 그는 야자나무의 약점을 알고 있으며, 재료를 조금도 낭비하지 않고 베어 내는 법을 압니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009110</GUID>
-      <!-- GuildhouseItem | Frame Saw | Frame Saw -->
-      <Text>틀톱</Text>
-    </Text>
-    <Text>
-      <GUID>1404009111</GUID>
-      <!-- Text | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. -->
-      <Text>틀 안에 팽팽히 당겨진 톱날 덕분에 비교적 적은 힘으로 나무를 정확하게 자를 수 있습니다. 일꾼들은 이것으로 통나무를 나누고 건축용 부재를 준비합니다. 구조가 단순해 관리와 톱날 교체가 쉽습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009112</GUID>
-      <!-- GuildhouseItem | Samir al-Fustuq, the Pistachio Expert | Samir al-Fustuq, The Pistachio Expert -->
-      <Text>사미르 알푸스투크, 피스타치오 전문가</Text>
-    </Text>
-    <Text>
-      <GUID>1404009113</GUID>
-      <!-- Text | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. -->
-      <Text>사미르는 오래된 피스타치오 숲을 누비며 가장 귀한 열매를 맺는 나무를 찾아냅니다. 땅을 메마르게 하지 않고 수확을 늘리려는 농부들이 그의 조언을 찾아옵니다. 시장에서 그의 이름은 뛰어난 품질의 피스타치오와 같은 뜻으로 통합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009114</GUID>
-      <!-- GuildhouseItem | Spice Supply Decree | Spice Supply Decree -->
-      <Text>향신료 공급 칙령</Text>
-    </Text>
-    <Text>
-      <GUID>1404009115</GUID>
-      <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
-      <Text>이 협약은 가축을 위한 방목로와 물웅덩이의 공동 사용을 규정합니다. 부족과 목축민 사이의 조율로 가축 손실이 줄고 번식이 개선됩니다. 이 조치 덕분에 더 크고 안정적인 가축 떼를 유지할 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009116</GUID>
-      <!-- GuildhouseItem | Jalaluddin al-Qahwa, The Master of Spices | Jalaluddin al-Qahwa, The Master of Spices -->
-      <Text>잘랄루딘 알카흐와, 향신료의 명인</Text>
-    </Text>
-    <Text>
-      <GUID>1404009117</GUID>
-      <!-- Text | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. -->
-      <Text>잘랄루딘은 희귀한 향신료와 믿을 만한 공급자를 찾아 시장을 누빕니다. 그의 후각은 가장 신선한 카다멈과 몇 달 동안 창고에 묵은 물건을 구별해 낼 정도입니다. 그의 까다로운 기준을 잘 아는 상인들은 최고의 상품을 내놓으려 앞다투어 경쟁합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009118</GUID>
-      <!-- GuildhouseItem | Şehrazat Hanım, the Lady of Sugar | Şehrazat Hanım, the Lady of Sugar -->
-      <Text>셰흐라자트 하늠, 설탕의 여주인</Text>
-    </Text>
-    <Text>
-      <GUID>1404009119</GUID>
-      <!-- Text | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. -->
-      <Text>과자 장인들의 시장에서 셰흐라자트는 설탕과 전분을 섬세한 과자로 바꾸는 기술을 갈고닦습니다. 그녀의 특기는 굳지 않으면서도 모양을 유지하는 부드러운 식감입니다. 그녀는 장미수, 감귤류, 피스타치오로 실험하며 가장 까다로운 입맛까지 사로잡습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009120</GUID>
-      <!-- GuildhouseItem | Mercury Thermometer | Mercury Thermometer -->
-      <Text>수은 온도계</Text>
-    </Text>
-    <Text>
-      <GUID>1404009121</GUID>
-      <!-- Text | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. -->
-      <Text>로쿰을 만들려면 고른 질감을 얻기 위해 설탕 졸이는 과정을 조절해야 합니다. 수은 온도계를 쓰면 눈대중보다 훨씬 정확하게 시럽의 온도를 잴 수 있습니다. 과자 장인들은 조리법을 꾸준히 재현할 수 있고, 너무 무르거나 너무 딱딱하게 된 묶음을 줄일 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009122</GUID>
-      <!-- GuildhouseItem | Baha al-Din al-Fustuq, The Roasting Alchemist | Baha al-Din al-Fustuq, The Roasting Alchemist -->
-      <Text>바하 알딘 알푸스투크, 로스팅의 연금술사</Text>
-    </Text>
-    <Text>
-      <GUID>1404009123</GUID>
-      <!-- Text | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. -->
-      <Text>바하는 섬세한 풍미도, 특유의 색도 해치지 않고 피스타치오를 볶는 기술을 터득했습니다. 그는 불의 세기를 신중하게 조절하고 열매를 쉼 없이 저어 고르게 볶아 냅니다. 상인들은 가장 까다로운 손님을 위한 물건을 준비하려고 그의 솜씨를 찾습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009124</GUID>
-      <!-- GuildhouseItem | Iron Roasting Drum | Iron Roasting Drum -->
-      <Text>철제 로스팅 드럼</Text>
-    </Text>
-    <Text>
-      <GUID>1404009125</GUID>
-      <!-- Text | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. -->
-      <Text>장인들은 회전하는 금속 용기를 사용해 열을 고루 퍼뜨리고 피스타치오의 한쪽이 타는 것을 막습니다. 끊임없는 움직임 덕분에 더 고르게 볶이며, 보통 팬보다 많은 양을 처리할 수 있습니다. 튼튼한 구조는 작업장과 작은 가게에서 매일 쓰는 데에도 견딥니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009126</GUID>
-      <!-- GuildhouseItem | Mahinbanu Khatun, the Shah’s Personal Confectioner | Mahinbanu Khatun, the Shah’s Personal Confectioner -->
-      <Text>마힌바누 하툰, 샤의 전속 과자 장인</Text>
-    </Text>
-    <Text>
-      <GUID>1404009127</GUID>
-      <!-- Text | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. -->
-      <Text>그녀는 대추야자를 가장 고귀한 식탁을 위한 섬세한 과자로 탈바꿈시키는 유명한 공방을 운영합니다. 통통하고 과육이 풍부한 열매를 골라 향긋한 시럽에 졸이는 과정을 세심하게 지켜봅니다. 세부를 놓치지 않는 그녀의 눈은 하나하나를 의례용 선물로 손색없는 작은 별미로 만들어 냅니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009128</GUID>
-      <!-- GuildhouseItem | Tin-Lined Copper Cauldron | Tin-Lined Copper Cauldron -->
-      <Text>주석 도금 구리 가마솥</Text>
-    </Text>
-    <Text>
-      <GUID>1404009129</GUID>
-      <!-- Text | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. -->
-      <Text>구리 가마솥은 열을 빠르게 전달하므로 많은 양의 대추야자를 시럽에 졸이기에 안성맞춤입니다. 주석을 입힌 안쪽 면은 음식이 구리에 직접 닿지 않게 해 줍니다. 과자 장인들은 열매가 천천히 단맛을 머금는 동안 시럽의 농도를 지켜봅니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009130</GUID>
-      <!-- GuildhouseItem | Iskandar ibn Faraj, Chemistry Expert | Iskandar ibn Faraj, Chemistry Expert -->
-      <Text>이스칸다르 이븐 파라지, 화학 전문가</Text>
-    </Text>
-    <Text>
-      <GUID>1404009131</GUID>
-      <!-- Text | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. -->
-      <Text>이스칸다르는 탄화수소와 그 산업용 파생물의 활용에 실험을 집중하고 있습니다. 석유 저장고와 반응 용기 사이에서 더 안정적인 혼합물을 얻는 방법을 연구합니다. 꼼꼼한 성격 덕분에 원료를 낭비하지 않고 복잡한 화학 공정을 조율할 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009132</GUID>
-      <!-- GuildhouseItem | Daryush Mehrzad, Tireless Foreman | Daryush Mehrzad, Tireless Foreman -->
-      <Text>다리유시 메흐르자드, 지칠 줄 모르는 감독관</Text>
-    </Text>
-    <Text>
-      <GUID>1404009133</GUID>
-      <!-- Text | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. -->
-      <Text>다리유시는 황 성분의 기체를 산업적 가치가 높은 화학 제품으로 바꾸는 반응을 감독합니다. 설비를 점검하고 공정이 쉬지 않고 돌아가도록 유지합니다. 그의 전문성은 이 부식성 물질에 의존하는 제조 현장에 없어서는 안 될 존재로 만들어 줍니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009134</GUID>
-      <!-- GuildhouseItem | Lead Chamber | Lead Chamber -->
-      <Text>납실</Text>
-    </Text>
-    <Text>
-      <GUID>1404009135</GUID>
-      <!-- Text | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. -->
-      <Text>납으로 안을 댄 커다란 방은 18세기부터 산업 규모로 사용된 납실법으로 황산을 만드는 데 쓰입니다. 이 방 안에서 기체들은 수증기와 질소 화합물이 있는 가운데 반응합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009136</GUID>
-      <!-- GuildhouseItem | Bahram ibn Kaveh, Obsessive Smelter | Bahram ibn Kaveh, Obsessive Smelter -->
-      <Text>바흐람 이븐 카베, 집착하는 제련공</Text>
-    </Text>
-    <Text>
-      <GUID>1404009137</GUID>
-      <!-- Text | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. -->
-      <Text>바흐람은 모든 용광로의 기질을 알고 있으며, 불꽃의 색만 보고도 광석이 제련될 준비가 되었는지 알아봅니다. 그는 온도를 조절하고 광석의 불순물에서 은을 분리하는 과정을 감독합니다. 상인들은 그의 꼼꼼한 작업과 한결같은 주괴 품질을 높이 평가합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009138</GUID>
-      <!-- GuildhouseItem | Zubayda al-Durra, the Deep-Sea Diver | Zubayda al-Durra, the Deep-Sea Diver -->
-      <Text>주바이다 알두라, 심해 잠수부</Text>
-    </Text>
-    <Text>
-      <GUID>1404009139</GUID>
-      <!-- Text | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. -->
-      <Text>주바이다는 중동의 굴 밭을 훤히 알고 있으며, 어느 바다에 가장 귀한 진주가 숨어 있는지 가려낼 수 있습니다. 작은 바구니를 들고 내려가 경험에 의지해 매번의 잠수를 최대한 활용합니다. 상인들은 그녀가 찾아낸 물건의 희소성과 광채에 이끌려 그녀의 수확을 기다립니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009140</GUID>
-      <!-- GuildhouseItem | Diving Ballast Stone | Diving Ballast Stone -->
-      <Text>잠수용 바닥짐 돌</Text>
-    </Text>
-    <Text>
-      <GUID>1404009141</GUID>
-      <!-- Text | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. -->
-      <Text>진주 잠수부들은 몸에 묶거나 내려가는 동안 붙잡은 바닥짐 돌을 이용해 빠르게 바다 밑에 닿습니다. 동료들은 밧줄로 잠수를 조절하고 잠수부가 수면으로 돌아오도록 돕습니다. 이 기술에는 지구력과 협동, 그리고 해류에 대한 정확한 이해가 필요합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009142</GUID>
-      <!-- GuildhouseItem | Gallery Foreman | Gallery Foreman -->
-      <Text>갱도 감독관</Text>
-    </Text>
-    <Text>
-      <GUID>1404009143</GUID>
-      <!-- Text | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. -->
-      <Text>광부 조를 편성하고 작업을 배분해 모든 갱도가 쉼 없이 돌아가도록 하는 책임을 맡고 있습니다. 그의 경험 덕분에 멈추는 시간을 최소화하고 채굴 교대 시간마다 최대한 활용할 수 있습니다. 그의 감독 아래 도구와 일꾼, 캐낸 광석의 흐름은 끊이지 않습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009144</GUID>
-      <!-- GuildhouseItem | Nasrin Khatun, The Master of Clay | Nasrin Khatun, The Master of Clay -->
-      <Text>나스린 하툰, 점토의 명인</Text>
-    </Text>
-    <Text>
-      <GUID>1404009145</GUID>
-      <!-- Text | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. -->
-      <Text>나스린은 이 지역의 점토가 풍부한 땅을 잘 알고 있습니다. 그녀는 땅의 습기와 굳기에 따라 채굴을 계획합니다. 그녀의 전문성 덕분에 다루기 가장 어려운 매장지까지 활용할 수 있습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404009146</GUID>
-      <!-- GuildhouseItem | Mining Dewatering Pump | Mining Dewatering Pump -->
-      <Text>광산 배수 펌프</Text>
-    </Text>
-    <Text>
-      <GUID>1404009147</GUID>
-      <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
-      <Text>고인 물은 광산 갱도를 위협하고 많은 현장에서 채굴 작업을 멈추게 합니다. 배수 펌프는 수갱의 물을 빼내고 작업 구역에 계속 드나들 수 있게 해 줍니다. 이를 사용하면 더 깊이 채굴하고, 그렇지 않았다면 물에 잠겨 있었을 땅을 되찾기가 쉬워집니다.</Text>
-    </Text>
-    <Text>
       <GUID>1404001275</GUID>
       <!-- A7_QuestDecision | RQ_Envoy_TraditionKeeper1_Invitation_Decision | Honoured Guests — Matters of Protocol -->
       <Text>귀빈 접대 - 예법의 문제</Text>
@@ -7026,6 +5382,11 @@
       <Text>훌륭하네! 낙타 농장에서 아이들 표정 봤나? 한 녀석은 낙타를 공방에서 만드느냐고 묻더군. 갈 길이 멀어.</Text>
     </Text>
     <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>사원</Text>
+    </Text>
+    <Text>
       <GUID>1404001664</GUID>
       <!-- LandSpy | RQ_Envoy_Select_RuinAReputation_TariqBey | Envoy Tariq Bey -->
       <Text>타리크 베이 특사</Text>
@@ -7074,6 +5435,1646 @@
       <GUID>1404001676</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A desert poem by a young Nomad, lamenting the wells that run dry as the city grows. -->
       <Text>도시가 커지면서 말라 가는 우물을 애도하는 젊은 유목민의 사막 시.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003206</GUID>
+      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
+      <Text>수출 도크: 모자이크</Text>
+    </Text>
+    <Text>
+      <GUID>1404003207</GUID>
+      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
+      <Text>수출 도크: 장미수</Text>
+    </Text>
+    <Text>
+      <GUID>1404003208</GUID>
+      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
+      <Text>수출 도크: 의식용 세이버</Text>
+    </Text>
+    <Text>
+      <GUID>1404003209</GUID>
+      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
+      <Text>수출 도크: 부양 농축액</Text>
+    </Text>
+    <Text>
+      <GUID>1404003210</GUID>
+      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
+      <Text>수출 도크: 진주 목걸이</Text>
+    </Text>
+    <Text>
+      <GUID>1404003211</GUID>
+      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
+      <Text>수출 도크: 샹들리에</Text>
+    </Text>
+    <Text>
+      <GUID>1404003300</GUID>
+      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
+      <Text>다방 메뉴</Text>
+    </Text>
+    <Text>
+      <GUID>1404003301</GUID>
+      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
+      <Text>평범한 커피만으로도 의자는 가득 차지만, 영리한 주인은 우유, 향신료, 대추야자, 장미, 꿀을 쓰는 비법 몇 가지를 알고 있습니다. 어떤 커피를 내느냐에 따라 동네의 분위기가 달라집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003302</GUID>
+      <!-- Recipe | Black Coffee | Black Coffee -->
+      <Text>블랙 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003303</GUID>
+      <!-- Recipe | Milk Coffee | Milk Coffee -->
+      <Text>밀크 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003304</GUID>
+      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
+      <Text>카다멈 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003305</GUID>
+      <!-- Recipe | Date Coffee | Date Coffee -->
+      <Text>대추야자 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003306</GUID>
+      <!-- Recipe | Rose Coffee | Rose Coffee -->
+      <Text>장미 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003307</GUID>
+      <!-- Recipe | Honey Coffee | Honey Coffee -->
+      <Text>꿀 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003310</GUID>
+      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
+      <Text>볶아서 가루처럼 곱게 갈고 제즈베에 세 번 끓여낸 것, 그게 전부입니다. 순수주의자들은 이것만이 진짜 커피라고 맹세하지만, 다른 사람들은 그저 진하다고 말합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003311</GUID>
+      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
+      <Text>따뜻한 염소젖으로 부드럽게 만든 진한 블랙 커피. 주스 생각을 잊게 하고 모두를 온화한 기분으로 만들어 줍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003312</GUID>
+      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
+      <Text>달라에서 작은 잔에 따라 내며, 곱게 간 카다멈 향이 납니다. 여기서 향신료를 맛보는 사람은 집에서 아끼고, 아낀 돈을 바자르에서 씁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003313</GUID>
+      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
+      <Text>쓴 커피에 단 대추야자 한 그릇을 곁들여 맛의 균형을 맞춥니다. 다방에서 대추야자를 집어 먹는 사람은 집에서 덜 찾게 되고, 목마름도 덜 느낍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003314</GUID>
+      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
+      <Text>장미수 몇 방울과 떠 있는 꽃잎 몇 장이 평범한 한 잔을 작은 축제로 바꿉니다. 다방에서 이미 정원 향기가 나는데 굳이 집에 향을 낼 필요가 있을까요? 아낀 돈은 기꺼이 쓰입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003315</GUID>
+      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
+      <Text>황금빛 꿀로 단맛을 내고 천천히 저어 더욱 천천히 음미합니다. 이렇게 가까이에 달콤함이 있으니 아무도 마지팬을 찾지 않고, 소문이 퍼져 동네로 이사 오는 사람도 늘어납니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003320</GUID>
+      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
+      <Text>다방: 블랙 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003321</GUID>
+      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
+      <Text>다방: 밀크 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003322</GUID>
+      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
+      <Text>다방: 카다멈 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003323</GUID>
+      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
+      <Text>다방: 대추야자 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003324</GUID>
+      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
+      <Text>다방: 장미 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003325</GUID>
+      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
+      <Text>다방: 꿀 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003330</GUID>
+      <!-- TownhallBuff | Black Coffee | Black Coffee -->
+      <Text>블랙 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003331</GUID>
+      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
+      <Text>밀크 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003332</GUID>
+      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
+      <Text>카다멈 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003333</GUID>
+      <!-- TownhallBuff | Date Coffee | Date Coffee -->
+      <Text>대추야자 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003334</GUID>
+      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
+      <Text>장미 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003335</GUID>
+      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
+      <Text>꿀 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003600</GUID>
+      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
+      <Text>곡예사의 야영지</Text>
+    </Text>
+    <Text>
+      <GUID>1404003601</GUID>
+      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
+      <Text>불 쇼 공연자, 곡예사, 저글러들은 천막을 치는 곳마다 구경꾼을 끌어모읍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004200</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 2 | Oriental Place 2 -->
+      <Text>오리엔탈 플레이스 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004201</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 3 | Oriental Place 3 -->
+      <Text>오리엔탈 플레이스 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004202</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 4 | Oriental Place 4 -->
+      <Text>오리엔탈 플레이스 4</Text>
+    </Text>
+    <Text>
+      <GUID>1404004203</GUID>
+      <!-- OrnamentalBuilding | Prayer Ground | Prayer Ground -->
+      <Text>기도 장소</Text>
+    </Text>
+    <Text>
+      <GUID>1404004205</GUID>
+      <!-- OrnamentalBuilding | Oriental Fence | Oriental Fence -->
+      <Text>동양식 울타리</Text>
+    </Text>
+    <Text>
+      <GUID>1404004204</GUID>
+      <!-- OrnamentalBuilding | Obelisk | Obelisk -->
+      <Text>오벨리스크</Text>
+    </Text>
+    <Text>
+      <GUID>1404004207</GUID>
+      <!-- OrnamentalBuilding | Oriental City Wall | Oriental City Wall -->
+      <Text>동양식 성벽</Text>
+    </Text>
+    <Text>
+      <GUID>1404004206</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Fountain | Small Oriental Fountain -->
+      <Text>작은 동양식 분수</Text>
+    </Text>
+    <Text>
+      <GUID>1404004209</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Tower | Oriental Wall Tower -->
+      <Text>동양식 성벽 망루</Text>
+    </Text>
+    <Text>
+      <GUID>1404004208</GUID>
+      <!-- OrnamentalBuilding | Oriental City Gate | Oriental City Gate -->
+      <Text>동양식 성문</Text>
+    </Text>
+    <Text>
+      <GUID>1404004210</GUID>
+      <!-- OrnamentalBuilding | Oriental Watchtower | Oriental Watchtower -->
+      <Text>동양식 감시탑</Text>
+    </Text>
+    <Text>
+      <GUID>1404004211</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace | Sultan's Palace -->
+      <Text>술탄의 궁전</Text>
+    </Text>
+    <Text>
+      <GUID>1404004212</GUID>
+      <!-- ResidenceBuilding7_Colony | Palace Envoy Quarters | Palace Envoy Quarters -->
+      <Text>궁전 특사 숙소</Text>
+    </Text>
+    <Text>
+      <GUID>1404004241</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <Text>술탄의 궁전 별관</Text>
+    </Text>
+    <Text>
+      <GUID>1404004242</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <Text>술탄의 궁전 별관 - 다리</Text>
+    </Text>
+    <Text>
+      <GUID>1404004214</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
+      <Text>술탄의 궁전 별관 - 문</Text>
+    </Text>
+    <Text>
+      <GUID>1404004244</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>술탄의 궁전 별관 - 교차</Text>
+    </Text>
+    <Text>
+      <GUID>1404004215</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>술탄의 궁전 별관 - 교차</Text>
+    </Text>
+    <Text>
+      <GUID>1404004216</GUID>
+      <!-- ConstructionCategory | Sultan's Palace | Sultan's Palace -->
+      <Text>술탄의 궁전</Text>
+    </Text>
+    <Text>
+      <GUID>1404004245</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <Text>술탄의 궁전 별관 - 모서리</Text>
+    </Text>
+    <Text>
+      <GUID>1404004218</GUID>
+      <!-- OrnamentalBuilding | Silo | Silo -->
+      <Text>사일로</Text>
+    </Text>
+    <Text>
+      <GUID>1404004219</GUID>
+      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
+      <Text>IAAM Test</Text>
+    </Text>
+    <Text>
+      <GUID>1404004300</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
+      <Text>특사의 집：레벨 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004301</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
+      <Text>특사의 집：레벨 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004400</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Grand Mosque | Ornamental Grand Mosque -->
+      <Text>장식용 그랜드 모스크</Text>
+    </Text>
+    <Text>
+      <GUID>1404004800</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
+      <Text>동양 등대: 기초</Text>
+    </Text>
+    <Text>
+      <GUID>1404004801</GUID>
+      <!-- OrnamentalBuilding | Oriental Harbour Tower | Oriental Harbour Tower -->
+      <Text>동양 항구 탑</Text>
+    </Text>
+    <Text>
+      <GUID>1404004850</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Wall | Small Oriental Wall -->
+      <Text>동양식 작은 담장</Text>
+    </Text>
+    <Text>
+      <GUID>1404004851</GUID>
+      <!-- OrnamentalBuilding | Large Oriental Wall | Large Oriental Wall -->
+      <Text>동양식 큰 담장</Text>
+    </Text>
+    <Text>
+      <GUID>1404004852</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
+      <Text>동양식 벽 연결부</Text>
+    </Text>
+    <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>잘게 부순 광석을 기름에 띄워 걷어 낸 것으로, 제련소로 보내집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>동양 등대는 여러 단계에 걸쳐 건설됩니다. 완공되면 등불을 장착할 수 있으며, 각 등불은 모든 지역에 있는 한 종류의 모든 선박을 강화합니다. 등대는 섬마다 하나만 건설할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>병아리콩을 낙타 사료로 저장하여 농장의 생산성을 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>옛 대상들이 쉬어 가던 Wadi Al Zahir의 모래 속에서 발견되었습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>Wadi Al Zahir의 모래 속에서 발견된 예언자와 학자, 순교자들의 유물입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>성스러운 달 동안 신자들은 새벽부터 해 질 녘까지 금식하고, 온 도시가 해 질 무렵의 기도 시간을 알리는 소리를 기다립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004890</GUID>
+      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
+      <Text>그랜드 모스크는 여러 단계에 걸쳐 건설됩니다. 완공되면 술탄국 곳곳에서 순례자들이 찾아옵니다. 성대한 순례 여행을 개최하면 신도들이 술탄의 궁정에서 영향력을 얻게 해 줄 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>금식이 끝나면 가족들이 단 과자를 들고 서로를 방문하고, 선물을 받지 못하는 이웃은 아무도 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>운하에서 끌어온 신선한 물입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004900</GUID>
+      <!-- Fertility | Olive Fertility | Olive Fertility -->
+      <Text>올리브 토착 자원</Text>
+    </Text>
+    <Text>
+      <GUID>1404004901</GUID>
+      <!-- Fertility | Chickpea Fertility | Chickpea Fertility -->
+      <Text>병아리콩 토착 자원</Text>
+    </Text>
+    <Text>
+      <GUID>1404004902</GUID>
+      <!-- Fertility | Aniseed Fertility | Aniseed Fertility -->
+      <Text>아니스 토착 자원</Text>
+    </Text>
+    <Text>
+      <GUID>1404004910</GUID>
+      <!-- GuildhouseItem | Olive Seeds | Olive Seeds -->
+      <Text>올리브 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004911</GUID>
+      <!-- GuildhouseItem | Quality Olive Seeds | Quality Olive Seeds -->
+      <Text>고품질 올리브 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004912</GUID>
+      <!-- GuildhouseItem | Hybrid Olive Seeds | Hybrid Olive Seeds -->
+      <Text>하이브리드 올리브 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004913</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Olives in alien soil. | These saplings can help you grow a few groves of Olives in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 올리브 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004914</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Olives in alien soil. | These saplings can help you grow plentiful groves of Olives in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 풍성한 올리브 숲을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004915</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! -->
+      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 올리브 수확량도 증가했습니다!</Text>
+    </Text>
+    <Text>
+      <GUID>1404004920</GUID>
+      <!-- GuildhouseItem | Chickpea Seeds | Chickpea Seeds -->
+      <Text>병아리콩 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004921</GUID>
+      <!-- GuildhouseItem | Quality Chickpea Seeds | Quality Chickpea Seeds -->
+      <Text>고품질 병아리콩 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004922</GUID>
+      <!-- GuildhouseItem | Hybrid Chickpea Seeds | Hybrid Chickpea Seeds -->
+      <Text>하이브리드 병아리콩 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004923</GUID>
+      <!-- Text | These seeds can help you grow a few fields of Chickpeas in alien soil. | These seeds can help you grow a few fields of Chickpeas in alien soil. -->
+      <Text>이 씨앗은 낯선 토양에서 병아리콩 밭 몇 곳을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004924</GUID>
+      <!-- Text | These seeds can help you grow plentiful fields of Chickpeas in alien soil. | These seeds can help you grow plentiful fields of Chickpeas in alien soil. -->
+      <Text>이 씨앗은 낯선 토양에서 풍성한 병아리콩 밭을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004925</GUID>
+      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! -->
+      <Text>이 씨앗은 매우 다양한 토양에서 자라도록 개량되었으며 병아리콩 수확량도 증가했습니다!</Text>
+    </Text>
+    <Text>
+      <GUID>1404004930</GUID>
+      <!-- GuildhouseItem | Aniseed Seeds | Aniseed Seeds -->
+      <Text>아니스 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004931</GUID>
+      <!-- GuildhouseItem | Quality Aniseed Seeds | Quality Aniseed Seeds -->
+      <Text>고품질 아니스 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004932</GUID>
+      <!-- GuildhouseItem | Hybrid Aniseed Seeds | Hybrid Aniseed Seeds -->
+      <Text>하이브리드 아니스 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404004933</GUID>
+      <!-- Text | These seeds can help you grow a few fields of Aniseed in alien soil. | These seeds can help you grow a few fields of Aniseed in alien soil. -->
+      <Text>이 씨앗은 낯선 토양에서 아니스 밭 몇 곳을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004934</GUID>
+      <!-- Text | These seeds can help you grow plentiful fields of Aniseed in alien soil. | These seeds can help you grow plentiful fields of Aniseed in alien soil. -->
+      <Text>이 씨앗은 낯선 토양에서 풍성한 아니스 밭을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004935</GUID>
+      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! -->
+      <Text>이 씨앗은 매우 다양한 토양에서 자라도록 개량되었으며 아니스 수확량도 증가했습니다!</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>광석 드럼이 비어 있으므로 다시 채워야 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>완성된 부양 농축액이 준비되고 드럼이 가득 찼습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>광석 드럼 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>광석 드럼</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>이 모듈은 오일 부유 공정을 사용하여 광석 드럼에서 특수 정제를 통해 광석 생산량을 두 배로 늘립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>벌 정원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>꿀 생산</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>몇 개의 벌통이 꿀을 생산하고 농장을 더 효율적으로 만듭니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>대추야자에서 얻은 벌꿀은 매우 인기 있는 상품입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>수분</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>동양의 모든 작물 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>벌들의 수분 덕분에 우리 농장은 더욱 효율적이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>차 양조장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>로쿰 제과점</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>피스타치오 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>피스타치오 과수원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- Multifactory | Roastery: Pistachios | Roastery: Pistachios -->
+      <Text>로스터리: 피스타치오</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>피스타치오 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>고품질 피스타치오 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>하이브리드 피스타치오 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>피스타치오 토착 자원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 피스타치오 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 풍성한 피스타치오 숲을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 피스타치오 수확량도 증가했습니다!</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>과일 공방</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>Wadi Al Zahir에서만 건설 가능</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>황산</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>맨손으로 만지지 않는 것이 좋을 것이다. 녹반유라고도 불린다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>코끼리 사냥 오두막</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>향 공방</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>야자잎 채집꾼</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>잎 채집꾼</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>채집꾼들이 향긋한 야자잎을 수확하지만, 그 때문에 생산이 조금 느려집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005052</GUID>
+      <!-- FreeAreaBuilding | Agarwood Plantation | Agarwood Plantation -->
+      <Text>침향나무 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005053</GUID>
+      <!-- Multifactory | Mycological Laboratory: P. parasiticum | Mycological Laboratory: P. parasiticum -->
+      <Text>균류 연구소: P. parasiticum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005054</GUID>
+      <!-- Product | P. parasiticum | P. parasiticum -->
+      <Text>P. parasiticum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005055</GUID>
+      <!-- FactoryBuilding7 | Infestation Cellar | Infestation Cellar -->
+      <Text>감염 저장고</Text>
+    </Text>
+    <Text>
+      <GUID>1404005057</GUID>
+      <!-- FactoryBuilding7 | Oudh Distillery | Oudh Distillery -->
+      <Text>우드 증류소</Text>
+    </Text>
+    <Text>
+      <GUID>1404005058</GUID>
+      <!-- Product | Oudh | Oudh -->
+      <Text>우드</Text>
+    </Text>
+    <Text>
+      <GUID>1404005059</GUID>
+      <!-- Product | Oudh Perfume | Oudh Perfume -->
+      <Text>우드 향수</Text>
+    </Text>
+    <Text>
+      <GUID>1404005063</GUID>
+      <!-- Text | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. -->
+      <Text>침향나무가 곰팡이 감염에 반응하여 만들어 내는, 매우 귀하고 향이 진한 수지입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005064</GUID>
+      <!-- Text | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. -->
+      <Text>'액체 황금'이라 불리는 우드 향수는 세상에서 가장 비싸고 고귀한 향수로, 거물들이 몹시 탐냅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005065</GUID>
+      <!-- Text | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. -->
+      <Text>Phaeoacremonium parasiticum - 침향나무에서 특별한 수지가 생성되도록 하는 특수한 곰팡이입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005066</GUID>
+      <!-- Multifactory | Mycological Laboratory: Noble Mushrooms | Mycological Laboratory: Noble Mushrooms -->
+      <Text>균류 연구소: 고귀한 버섯</Text>
+    </Text>
+    <Text>
+      <GUID>1404005067</GUID>
+      <!-- RecipeList | Mycological Laboratory Patent List | Mycological Laboratory Patent List -->
+      <Text>균류 연구소 특허 목록</Text>
+    </Text>
+    <Text>
+      <GUID>1404005070</GUID>
+      <!-- Text | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. -->
+      <Text>버섯 재배의 큰 발전 덕분에 이제 모두가 탐내는 고귀한 버섯을 산업적으로 생산할 수 있게 되어, 값비싼 수입이 필요 없어졌습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005071</GUID>
+      <!-- Text | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. -->
+      <Text>우드 생산에 필요한 곰팡이 Phaeoacremonium parasiticum은 알맞은 생장 조건을 갖추기 위해 연구소에서 배양해야 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005075</GUID>
+      <!-- Text | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. -->
+      <Text>획기적인 배양과 통제 불능의 포자 침공 사이의 경계는 아슬아슬할 만큼 얇습니다. 그래도 이것은 균류학의 혁명이며, 숲속의 미친 마녀도 드디어 일자리를 얻었습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005076</GUID>
+      <!-- FarmBuilding | Olive Plantation | Olive Plantation -->
+      <Text>올리브 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005077</GUID>
+      <!-- Farmfield | Olive Grove | Olive Grove -->
+      <Text>올리브 과수원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005082</GUID>
+      <!-- FarmBuilding | Chickpea Farm | Chickpea Farm -->
+      <Text>병아리콩 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005083</GUID>
+      <!-- Farmfield | Chickpea Field | Chickpea Field -->
+      <Text>병아리콩 밭</Text>
+    </Text>
+    <Text>
+      <GUID>1404005084</GUID>
+      <!-- FactoryBuilding7 | Hummus Kitchen | Hummus Kitchen -->
+      <Text>후무스 주방</Text>
+    </Text>
+    <Text>
+      <GUID>1404005086</GUID>
+      <!-- FactoryBuilding7 | Cold Press | Cold Press -->
+      <Text>냉압착소</Text>
+    </Text>
+    <Text>
+      <GUID>1404005090</GUID>
+      <!-- FarmBuilding | Aniseed Farm | Aniseed Farm -->
+      <Text>아니스 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005091</GUID>
+      <!-- Farmfield | Aniseed Field | Aniseed Field -->
+      <Text>아니스 밭</Text>
+    </Text>
+    <Text>
+      <GUID>1404005095</GUID>
+      <!-- Product | Moldy Bread | Mouldy Bread -->
+      <Text>곰팡이 핀 빵</Text>
+    </Text>
+    <Text>
+      <GUID>1404005096</GUID>
+      <!-- GuildhouseBuff | Immature Production | Immature Production -->
+      <Text>미성숙한 생산</Text>
+    </Text>
+    <Text>
+      <GUID>1404005097</GUID>
+      <!-- Text | Good for nothing but compost, at best. | Good for nothing but compost, at best. -->
+      <Text>기껏해야 퇴비로나 쓸 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005099</GUID>
+      <!-- Text | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. -->
+      <Text>생산이 아직 걸음마 단계라... 원치 않는 부산물이 생깁니다. 하지만 가끔은 쓸모 있는 것도 나옵니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005100</GUID>
+      <!-- Multifactory | Roastery: Chickpeas | Roastery: Chickpeas -->
+      <Text>로스터리: 병아리콩</Text>
+    </Text>
+    <Text>
+      <GUID>1404005101</GUID>
+      <!-- RecipeList | Roastery Recipes | Roastery Recipes -->
+      <Text>로스터리 레시피</Text>
+    </Text>
+    <Text>
+      <GUID>1404005106</GUID>
+      <!-- Text | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. -->
+      <Text>온갖 것을 구울 수 있는 뜨거운 그릴입니다. 구우면 무엇이든 더 맛있어지죠.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005107</GUID>
+      <!-- Text | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. -->
+      <Text>갓 양념한 이 병아리콩은 수백 년 전통의 산물이자 노동자 계층의 간식입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005108</GUID>
+      <!-- Text | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. -->
+      <Text>뜨겁고 짭짤한 피스타치오는 누구에게나 별미입니다. 그릴에서 갓 나온 것이라면 더욱 그렇죠.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005112</GUID>
+      <!-- FactoryBuildingWithModules | Copper Smelter | Copper Smelter -->
+      <Text>구리 제련소</Text>
+    </Text>
+    <Text>
+      <GUID>1404005113</GUID>
+      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
+      <Text>동양 대장간: 알렘빅</Text>
+    </Text>
+    <Text>
+      <GUID>1404005115</GUID>
+      <!-- Product | alembics | Alembics -->
+      <Text>알렘빅</Text>
+    </Text>
+    <Text>
+      <GUID>1404005116</GUID>
+      <!-- Text | Alembics are oriental stills used for brewing all kinds of drinks and liquids. | Alembics are oriental stills used for brewing all kinds of drinks and liquids. -->
+      <Text>알렘빅은 온갖 음료와 액체를 빚는 데 쓰이는 동양의 솥입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005118</GUID>
+      <!-- Text | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. -->
+      <Text>알렘빅은 동양 양조의 표준입니다. 온갖 액체와 음료를 빚을 수 있죠. 구리로 만들어져 열이 이상적으로, 최대한 고르게 퍼집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005120</GUID>
+      <!-- Product | arak | Arak -->
+      <Text>아락</Text>
+    </Text>
+    <Text>
+      <GUID>1404005121</GUID>
+      <!-- FactoryBuilding7 | Arak Distillery | Arak Distillery -->
+      <Text>아락 증류소</Text>
+    </Text>
+    <Text>
+      <GUID>1404005123</GUID>
+      <!-- Text | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. -->
+      <Text>포도와 아니스로 만든 독한 술. 영혼을 속부터 데워 줍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005124</GUID>
+      <!-- Multifactory | Roastery: Coffee | Roastery: Coffee -->
+      <Text>로스터리: 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404005125</GUID>
+      <!-- Product | Roasted Coffee | Roasted Coffee Beans -->
+      <Text>볶은 커피콩</Text>
+    </Text>
+    <Text>
+      <GUID>1404005126</GUID>
+      <!-- Text | Simple roasted coffee. | Simple roasted coffee. -->
+      <Text>평범하게 볶은 커피.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005129</GUID>
+      <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
+      <Text>뜨겁게 볶은 평범한 커피. 특별할 건 없지만 그래도 동양의 별미입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005130</GUID>
+      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
+      <Text>동양 워크숍: 아스트롤라베</Text>
+    </Text>
+    <Text>
+      <GUID>1404005131</GUID>
+      <!-- Product | astrolabes | Astrolabes -->
+      <Text>아스트롤라베</Text>
+    </Text>
+    <Text>
+      <GUID>1404005133</GUID>
+      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
+      <Text>별을 추적하는 데 쓰이는 정밀한 동양의 측정 도구입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005135</GUID>
+      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
+      <Text>아스트롤라베는 동양 공예의 걸작입니다. 별을 추적하고, 시간을 정확하게 재며, 낮에도 천문학적 위치를 정밀하게 파악할 수 있죠.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007000</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
+      <Text>동양 등대: 탑</Text>
+    </Text>
+    <Text>
+      <GUID>1404007001</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
+      <Text>동양 등대: 등롱실</Text>
+    </Text>
+    <Text>
+      <GUID>1404007002</GUID>
+      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
+      <Text>동양 등대</Text>
+    </Text>
+    <Text>
+      <GUID>1404007003</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
+      <Text>장식용 등대</Text>
+    </Text>
+    <Text>
+      <GUID>1404007010</GUID>
+      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
+      <Text>모래언덕이 바다와 만나는 곳에서 석공들이 흙벽돌과 야자나무 목재로 넓은 기초를 놓습니다. 언젠가 이곳에 불이 밝혀져 모든 돛을 무사히 집으로 이끌 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007011</GUID>
+      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
+      <Text>탑은 한 단 한 단 항구 위로 솟아오르고, 아침 햇살을 머금은 모자이크로 덮여 갑니다. 회랑에 선 파수꾼들은 벌써 수평선의 돛을 헤아릴 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007012</GUID>
+      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
+      <Text>유리공들이 등롱실에 유리창을 끼우고, 커다란 샹들리에가 꼭대기로 끌어올려집니다. 머지않아 그 빛이 바다 멀리까지 닿을 것입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007013</GUID>
+      <!-- Text | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. -->
+      <Text>등대에 등불을 하나 장착하십시오. 각 등불은 모든 지역에 있는 한 종류의 모든 선박을 강화합니다. 마담 카히나가 동양에서 가끔 등불을 판매합니다. 등대는 섬마다 하나만 건설할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007200</GUID>
+      <!-- Text | Beacon of the Harbour | Beacon of the Harbour -->
+      <Text>항구의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007201</GUID>
+      <!-- Text | Thrifty Beacon of the Shipwrights | Thrifty Beacon of the Shipwrights -->
+      <Text>알뜰한 조선공의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007202</GUID>
+      <!-- Text | Steadfast Beacon of the Fleet | Steadfast Beacon of the Fleet -->
+      <Text>굳건한 함대의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007203</GUID>
+      <!-- Text | Eternal Beacon of the Seven Seas | Eternal Beacon of the Seven Seas -->
+      <Text>영원한 일곱 바다의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007204</GUID>
+      <!-- Text | Beacon of the Dhows | Beacon of the Dhows -->
+      <Text>다우선의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007205</GUID>
+      <!-- Text | Swift Beacon of the Trade Winds | Swift Beacon of the Trade Winds -->
+      <Text>날쌘 무역풍의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007206</GUID>
+      <!-- Text | Vigilant Beacon of the Frigates | Vigilant Beacon of the Frigates -->
+      <Text>경계하는 프리깃의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007207</GUID>
+      <!-- Text | Radiant Beacon of the Monsoon | Radiant Beacon of the Monsoon -->
+      <Text>찬란한 계절풍의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007208</GUID>
+      <!-- Text | Beacon of the Stokers | Beacon of the Stokers -->
+      <Text>화부의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007209</GUID>
+      <!-- Text | Tireless Beacon of the Boilers | Tireless Beacon of the Boilers -->
+      <Text>지칠 줄 모르는 보일러의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007210</GUID>
+      <!-- Text | Relentless Beacon of the Steamers | Relentless Beacon of the Steamers -->
+      <Text>거침없는 증기선의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007211</GUID>
+      <!-- Text | Golden Beacon of the Merchants | Golden Beacon of the Merchants -->
+      <Text>황금빛 상인의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007212</GUID>
+      <!-- Text | Beacon of the Gunners | Beacon of the Gunners -->
+      <Text>포수의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007213</GUID>
+      <!-- Text | Fierce Beacon of the Broadside | Fierce Beacon of the Broadside -->
+      <Text>맹렬한 일제 사격의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007214</GUID>
+      <!-- Text | Thundering Beacon of the Admiralty | Thundering Beacon of the Admiralty -->
+      <Text>우레 같은 해군본부의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007215</GUID>
+      <!-- Text | Unbreakable Beacon of the Navy | Unbreakable Beacon of the Navy -->
+      <Text>부서지지 않는 해군의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007216</GUID>
+      <!-- Text | Beacon of the Skies | Beacon of the Skies -->
+      <Text>하늘의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007217</GUID>
+      <!-- Text | Buoyant Beacon of the Clouds | Buoyant Beacon of the Clouds -->
+      <Text>떠오르는 구름의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007218</GUID>
+      <!-- Text | Steady Beacon of the Airmen | Steady Beacon of the Airmen -->
+      <Text>흔들림 없는 비행사의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007219</GUID>
+      <!-- Text | Soaring Beacon of the Djinn | Soaring Beacon of the Djinn -->
+      <Text>치솟는 지니의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007220</GUID>
+      <!-- Text | Beacon of the Pearl Divers | Beacon of the Pearl Divers -->
+      <Text>진주잡이의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007221</GUID>
+      <!-- Text | Glimmering Beacon of the Deep | Glimmering Beacon of the Deep -->
+      <Text>반짝이는 심해의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007222</GUID>
+      <!-- Text | Mysterious Beacon of the Sunken Hoards | Mysterious Beacon of the Sunken Hoards -->
+      <Text>신비로운 가라앉은 보물의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007223</GUID>
+      <!-- Text | Fabled Beacon of the Drowned Kingdom | Fabled Beacon of the Drowned Kingdom -->
+      <Text>전설적인 가라앉은 왕국의 등불</Text>
+    </Text>
+    <Text>
+      <GUID>1404007230</GUID>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>항구 관리인이라면 누구나 압니다. 빛을 본 배는 무사히 돌아온다는 것을.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007231</GUID>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>조선공 길드가 불을 지킵니다. 내일 선체를 고치느니 오늘 판자 하나를 고치는 편이 낫기 때문입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007232</GUID>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>그 불꽃은 한 번도 흔들린 적이 없으며, 그 빛을 따르는 배들도 흔들리지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007233</GUID>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>전설에 따르면 그 빛은 세상의 모든 해안에서 동시에 보인다고 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007234</GUID>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>늙은 다우선 선장들은 맹세합니다. 빛을 따르면 바람이 당신을 따른다고.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007235</GUID>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>무역풍이 바뀔 때 불을 밝혀, 어떤 상인도 한 줄기 바람조차 놓치지 않게 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007236</GUID>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>그 회랑에서 파수꾼들은 첫 포성이 울리기 훨씬 전에 적의 돛을 찾아냅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007237</GUID>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>계절풍이 몰아치면 그 푸른 불꽃이 이곳에서 향신료 해안까지 모든 돛을 채웁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007238</GUID>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>부두의 화부들을 위한 불빛. 석탄을 빨리 실을수록 배는 더 일찍 떠납니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007239</GUID>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>지켜보는 보일러와 같은 석탄으로 타오르며, 조금도 낭비하지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007240</GUID>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>무엇이 선체를 때리든 외륜은 계속 돌아갑니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007241</GUID>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>그 황금빛이 비추는 곳에서는 시장이 문과 지갑을 엽니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007242</GUID>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>포수들을 위한 붉은 빛. 정확히 겨누고 빠르게 쏘십시오.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007243</GUID>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>그 붉은 빛 아래 퍼붓는 일제 사격을 피할 수 있는 돛도 굴뚝도 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007244</GUID>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>술탄 함대의 제독들은 그 강렬한 빛으로 명령서를 읽습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007245</GUID>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>어떤 폭풍에도 굽히지 않고 어떤 대포에도 부서지지 않는 함대를 위해 벼려졌습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007246</GUID>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>첨탑 높이 빛나는 초록 불빛이 비행선을 집으로 이끕니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007247</GUID>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>그 따뜻한 빛은 한낮의 사막 공기처럼 비행선을 들어 올립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007248</GUID>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>비행사들은 어떤 나침반보다 이것을 믿습니다. 초록빛이 빛나는 한 엔진은 버팁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007249</GUID>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>렌즈 속에 지니가 살며 모든 비행선을 날개에 태워 나른다고들 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007250</GUID>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>만의 진주잡이들은 잠수하기 전마다 행운을 빌며 이것을 밝힙니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007251</GUID>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>그 보랏빛은 모래가 조개껍데기보다 많은 것을 숨긴 깊은 곳까지 닿습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007252</GUID>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>누가 처음 불을 밝혔는지는 아무도 모릅니다. 다만 그 빛이 비추는 난파선은 결코 비어 있지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007253</GUID>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>바다가 통째로 삼킨 왕국의 마지막 수호자가 밝혔다고 전해집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007260</GUID>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>항구 관리인이라면 누구나 압니다. 빛을 본 배는 무사히 돌아온다는 것을.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007261</GUID>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>조선공 길드가 불을 지킵니다. 내일 선체를 고치느니 오늘 판자 하나를 고치는 편이 낫기 때문입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007262</GUID>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>그 불꽃은 한 번도 흔들린 적이 없으며, 그 빛을 따르는 배들도 흔들리지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007263</GUID>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>전설에 따르면 그 빛은 세상의 모든 해안에서 동시에 보인다고 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007264</GUID>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>늙은 다우선 선장들은 맹세합니다. 빛을 따르면 바람이 당신을 따른다고.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007265</GUID>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>무역풍이 바뀔 때 불을 밝혀, 어떤 상인도 한 줄기 바람조차 놓치지 않게 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007266</GUID>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>그 회랑에서 파수꾼들은 첫 포성이 울리기 훨씬 전에 적의 돛을 찾아냅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007267</GUID>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>계절풍이 몰아치면 그 푸른 불꽃이 이곳에서 향신료 해안까지 모든 돛을 채웁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007268</GUID>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>부두의 화부들을 위한 불빛. 석탄을 빨리 실을수록 배는 더 일찍 떠납니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007269</GUID>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>지켜보는 보일러와 같은 석탄으로 타오르며, 조금도 낭비하지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007270</GUID>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>무엇이 선체를 때리든 외륜은 계속 돌아갑니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007271</GUID>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>그 황금빛이 비추는 곳에서는 시장이 문과 지갑을 엽니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007272</GUID>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>포수들을 위한 붉은 빛. 정확히 겨누고 빠르게 쏘십시오.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007273</GUID>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>그 붉은 빛 아래 퍼붓는 일제 사격을 피할 수 있는 돛도 굴뚝도 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007274</GUID>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>술탄 함대의 제독들은 그 강렬한 빛으로 명령서를 읽습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007275</GUID>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>어떤 폭풍에도 굽히지 않고 어떤 대포에도 부서지지 않는 함대를 위해 벼려졌습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007276</GUID>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>첨탑 높이 빛나는 초록 불빛이 비행선을 집으로 이끕니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007277</GUID>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>그 따뜻한 빛은 한낮의 사막 공기처럼 비행선을 들어 올립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007278</GUID>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>비행사들은 어떤 나침반보다 이것을 믿습니다. 초록빛이 빛나는 한 엔진은 버팁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007279</GUID>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>렌즈 속에 지니가 살며 모든 비행선을 날개에 태워 나른다고들 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007280</GUID>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>만의 진주잡이들은 잠수하기 전마다 행운을 빌며 이것을 밝힙니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007281</GUID>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>그 보랏빛은 모래가 조개껍데기보다 많은 것을 숨긴 깊은 곳까지 닿습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007282</GUID>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>누가 처음 불을 밝혔는지는 아무도 모릅니다. 다만 그 빛이 비추는 난파선은 결코 비어 있지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007283</GUID>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>바다가 통째로 삼킨 왕국의 마지막 수호자가 밝혔다고 전해집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007041</GUID>
+      <!-- Text | Lighthouse | Lighthouse -->
+      <Text>등대</Text>
+    </Text>
+    <Text>
+      <GUID>1404008000</GUID>
+      <!-- Multifactory | Oriental Smith | Oriental Smith -->
+      <Text>동양 대장간</Text>
+    </Text>
+    <Text>
+      <GUID>1404008001</GUID>
+      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
+      <Text>동양 대장간 특허 목록</Text>
+    </Text>
+    <Text>
+      <GUID>1404008100</GUID>
+      <!-- Hacienda | Bedouin Camp | Bedouin Camp -->
+      <Text>베두인 야영지</Text>
+    </Text>
+    <Text>
+      <GUID>1404008101</GUID>
+      <!-- ResidenceBuilding7_Colony | Bedouin Nomad Quarters | Bedouin Nomad Quarters -->
+      <Text>베두인 유목민 숙소</Text>
+    </Text>
+    <Text>
+      <GUID>1404008103</GUID>
+      <!-- EffectContainer | Desert Frugality | Desert Frugality -->
+      <Text>사막의 검소함</Text>
+    </Text>
+    <Text>
+      <GUID>1404008104</GUID>
+      <!-- Text | Those who cross the desert learn to make a little go a long way. | Those who cross the desert learn to make a little go a long way. -->
+      <Text>사막을 건너는 자는 적은 것으로 오래 버티는 법을 배운다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008106</GUID>
+      <!-- Text | Reduces the consumption of local wares for Bedouins | Reduces the consumption of local wares for Bedouins -->
+      <Text>베두인의 지역 상품 소비를 줄입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>장식용 베두인 야영지</Text>
+    </Text>
+    <Text>
+      <GUID>1404008110</GUID>
+      <!-- EffectContainer | Camel Breeding | Camel Breeding -->
+      <Text>낙타 번식</Text>
+    </Text>
+    <Text>
+      <GUID>1404008111</GUID>
+      <!-- Text | A Bedouin knows every camel by name, and its forebears seven generations back. | A Bedouin knows every camel by name, and its forebears seven generations back. -->
+      <Text>베두인은 모든 낙타의 이름을 알고, 7대 위의 조상까지 기억한다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008113</GUID>
+      <!-- Text | Increases the productivity of camel farms | Increases the productivity of camel farms -->
+      <Text>낙타 농장의 생산성을 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008120</GUID>
+      <!-- EffectContainer | Oasis Gardens | Oasis Gardens -->
+      <Text>오아시스 정원</Text>
+    </Text>
+    <Text>
+      <GUID>1404008121</GUID>
+      <!-- Text | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. -->
+      <Text>모래에서 물이 솟는 곳이면, 부족은 그늘을 위해 대추야자를 심고 그 아래에 석류를 심는다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008123</GUID>
+      <!-- Text | Increases the productivity of date and pomegranate farms | Increases the productivity of date and pomegranate farms -->
+      <Text>대추야자 농장과 석류 농장의 생산성을 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008130</GUID>
+      <!-- EffectContainer | Desert Hospitality | Desert Hospitality -->
+      <Text>사막의 환대</Text>
+    </Text>
+    <Text>
+      <GUID>1404008131</GUID>
+      <!-- Text | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. -->
+      <Text>베두인 천막은 어떤 나그네도 내치지 않는다. 사흘 동안의 잠자리와 커피와 빵을, 아무것도 묻지 않고 내준다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008133</GUID>
+      <!-- Text | Increases the happiness of Nomads | Increases the happiness of Nomads -->
+      <Text>유목민의 행복도를 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008140</GUID>
+      <!-- EffectContainer | Bonds of the Tribe | Bonds of the Tribe -->
+      <Text>부족의 유대</Text>
+    </Text>
+    <Text>
+      <GUID>1404008141</GUID>
+      <!-- Text | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. -->
+      <Text>족장이 부르면 모든 천막이 일손을 보낸다. 부족은 함께 서고 함께 쓰러지기 때문이다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008143</GUID>
+      <!-- Text | Increases the workforce of Nomads | Increases the workforce of Nomads -->
+      <Text>유목민의 노동력을 늘립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009000</GUID>
+      <!-- Product | Rammed Earth | Rammed Earth -->
+      <Text>다짐흙</Text>
+    </Text>
+    <Text>
+      <GUID>1404009001</GUID>
+      <!-- Text | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. -->
+      <Text>축축한 점토를 나무판 사이에 한 겹씩 채워 단단히 다진 것입니다. 다짐흙 벽은 사막의 한낮에도 시원하며 수백 년을 버팁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009002</GUID>
+      <!-- FactoryBuilding7 | Rammed Earth Works | Rammed Earth Works -->
+      <Text>다짐흙 작업장</Text>
+    </Text>
+    <Text>
+      <GUID>1404009100</GUID>
+      <!-- GuildhouseItem | Nadira al-Lawz, The Lady of the Almond Grove | Nadira al-Lawz, The Lady of the Almond Grove -->
+      <Text>나디라 알라우즈, 아몬드 숲의 여주인</Text>
+    </Text>
+    <Text>
+      <GUID>1404009101</GUID>
+      <!-- Text | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. -->
+      <Text>아몬드 나무들 사이에서 태어난 나디라는 어려서부터 접목과 가지치기의 비결을 익혔습니다. 끈기 있게 돌본 끝에 다른 이들이 포기한 나무들까지 되살려 냈습니다. 그녀의 수확은 곧 이웃 농부들의 본보기가 되었습니다. 오늘날 그녀의 지식은 그녀에게 맡겨진 모든 과수원에서 꽃피고 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009102</GUID>
+      <!-- GuildhouseItem | Decree on the Grafting and Pruning of Fruit Trees | Decree on the Grafting and Pruning of Fruit Trees -->
+      <Text>과수 접목 및 가지치기에 관한 칙령</Text>
+    </Text>
+    <Text>
+      <GUID>1404009103</GUID>
+      <!-- Text | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. -->
+      <Text>많은 농장의 낮은 수확량을 보고 농업 당국은 과수 관리를 개선하기 위한 새로운 조치를 도입했습니다. 가지 선별, 내성 품종의 접목, 정기적인 가지치기가 농사일의 중심이 되었습니다. 일부 지주들은 처음에 새로운 요구를 미심쩍어했지만, 결국 결과가 그들을 설득했습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009104</GUID>
+      <!-- GuildhouseItem | Leyla al-Harir, the Mistress of the Cocoon | Leyla al-Harir, the Mistress of the Cocoon -->
+      <Text>레일라 알하리르, 누에고치의 여주인</Text>
+    </Text>
+    <Text>
+      <GUID>1404009105</GUID>
+      <!-- Text | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. -->
+      <Text>비단 생산자 집안에서 자란 레일라는 일찍이 누에 치는 일에 특별한 재능이 있음을 깨달았습니다. 다른 이들이 부주의로 수확을 통째로 잃는 동안, 그녀는 언제나 품질 좋은 누에고치를 풍성하게 얻었습니다. 뽕나무를 보는 것만으로 수확의 성패를 가늠할 수 있었다고 전해집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009106</GUID>
+      <!-- GuildhouseItem | Steam boilers for silk reeling | Steam boilers for silk reeling -->
+      <Text>생사 제조용 증기 보일러</Text>
+    </Text>
+    <Text>
+      <GUID>1404009107</GUID>
+      <!-- Text | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. -->
+      <Text>뜨거운 물은 누에고치의 천연 고무질을 부드럽게 하여 아주 가는 실을 풀어낼 수 있게 합니다. 증기는 온도를 일정하게 유지하는 데 도움을 줍니다. 성공한 생산자들은 더 고른 실을 얻기 위해 이 방식을 받아들였습니다. 그렇게 만들어진 비단은 섬세한 광택을 잃지 않은 채 새로운 시장을 사로잡았습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009108</GUID>
+      <!-- GuildhouseItem | Khalil al-Najjar, the Woodcutter of the Oases | Khalil al-Najjar, The Woodcutter of the Oases -->
+      <Text>칼릴 알나자르, 오아시스의 나무꾼</Text>
+    </Text>
+    <Text>
+      <GUID>1404009109</GUID>
+      <!-- Text | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. -->
+      <Text>칼릴은 나무가 귀해 통나무 하나도 남김없이 써야 했던 마을에서 나무꾼들과 함께 기술을 배웠습니다. 그는 야자나무의 약점을 알고 있으며, 재료를 조금도 낭비하지 않고 베어 내는 법을 압니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009110</GUID>
+      <!-- GuildhouseItem | Frame Saw | Frame Saw -->
+      <Text>틀톱</Text>
+    </Text>
+    <Text>
+      <GUID>1404009111</GUID>
+      <!-- Text | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. -->
+      <Text>틀 안에 팽팽히 당겨진 톱날 덕분에 비교적 적은 힘으로 나무를 정확하게 자를 수 있습니다. 일꾼들은 이것으로 통나무를 나누고 건축용 부재를 준비합니다. 구조가 단순해 관리와 톱날 교체가 쉽습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009112</GUID>
+      <!-- GuildhouseItem | Samir al-Fustuq, the Pistachio Expert | Samir al-Fustuq, The Pistachio Expert -->
+      <Text>사미르 알푸스투크, 피스타치오 전문가</Text>
+    </Text>
+    <Text>
+      <GUID>1404009113</GUID>
+      <!-- Text | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. -->
+      <Text>사미르는 오래된 피스타치오 숲을 누비며 가장 귀한 열매를 맺는 나무를 찾아냅니다. 땅을 메마르게 하지 않고 수확을 늘리려는 농부들이 그의 조언을 찾아옵니다. 시장에서 그의 이름은 뛰어난 품질의 피스타치오와 같은 뜻으로 통합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009114</GUID>
+      <!-- GuildhouseItem | Spice Supply Decree | Spice Supply Decree -->
+      <Text>향신료 공급 칙령</Text>
+    </Text>
+    <Text>
+      <GUID>1404009115</GUID>
+      <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
+      <Text>이 협약은 가축을 위한 방목로와 물웅덩이의 공동 사용을 규정합니다. 부족과 목축민 사이의 조율로 가축 손실이 줄고 번식이 개선됩니다. 이 조치 덕분에 더 크고 안정적인 가축 떼를 유지할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009116</GUID>
+      <!-- GuildhouseItem | Jalaluddin al-Qahwa, The Master of Spices | Jalaluddin al-Qahwa, The Master of Spices -->
+      <Text>잘랄루딘 알카흐와, 향신료의 명인</Text>
+    </Text>
+    <Text>
+      <GUID>1404009117</GUID>
+      <!-- Text | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. -->
+      <Text>잘랄루딘은 희귀한 향신료와 믿을 만한 공급자를 찾아 시장을 누빕니다. 그의 후각은 가장 신선한 카다멈과 몇 달 동안 창고에 묵은 물건을 구별해 낼 정도입니다. 그의 까다로운 기준을 잘 아는 상인들은 최고의 상품을 내놓으려 앞다투어 경쟁합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009118</GUID>
+      <!-- GuildhouseItem | Şehrazat Hanım, the Lady of Sugar | Şehrazat Hanım, the Lady of Sugar -->
+      <Text>셰흐라자트 하늠, 설탕의 여주인</Text>
+    </Text>
+    <Text>
+      <GUID>1404009119</GUID>
+      <!-- Text | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. -->
+      <Text>과자 장인들의 시장에서 셰흐라자트는 설탕과 전분을 섬세한 과자로 바꾸는 기술을 갈고닦습니다. 그녀의 특기는 굳지 않으면서도 모양을 유지하는 부드러운 식감입니다. 그녀는 장미수, 감귤류, 피스타치오로 실험하며 가장 까다로운 입맛까지 사로잡습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009120</GUID>
+      <!-- GuildhouseItem | Mercury Thermometer | Mercury Thermometer -->
+      <Text>수은 온도계</Text>
+    </Text>
+    <Text>
+      <GUID>1404009121</GUID>
+      <!-- Text | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. -->
+      <Text>로쿰을 만들려면 고른 질감을 얻기 위해 설탕 졸이는 과정을 조절해야 합니다. 수은 온도계를 쓰면 눈대중보다 훨씬 정확하게 시럽의 온도를 잴 수 있습니다. 과자 장인들은 조리법을 꾸준히 재현할 수 있고, 너무 무르거나 너무 딱딱하게 된 묶음을 줄일 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009122</GUID>
+      <!-- GuildhouseItem | Baha al-Din al-Fustuq, The Roasting Alchemist | Baha al-Din al-Fustuq, The Roasting Alchemist -->
+      <Text>바하 알딘 알푸스투크, 로스팅의 연금술사</Text>
+    </Text>
+    <Text>
+      <GUID>1404009123</GUID>
+      <!-- Text | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. -->
+      <Text>바하는 섬세한 풍미도, 특유의 색도 해치지 않고 피스타치오를 볶는 기술을 터득했습니다. 그는 불의 세기를 신중하게 조절하고 열매를 쉼 없이 저어 고르게 볶아 냅니다. 상인들은 가장 까다로운 손님을 위한 물건을 준비하려고 그의 솜씨를 찾습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009124</GUID>
+      <!-- GuildhouseItem | Iron Roasting Drum | Iron Roasting Drum -->
+      <Text>철제 로스팅 드럼</Text>
+    </Text>
+    <Text>
+      <GUID>1404009125</GUID>
+      <!-- Text | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. -->
+      <Text>장인들은 회전하는 금속 용기를 사용해 열을 고루 퍼뜨리고 피스타치오의 한쪽이 타는 것을 막습니다. 끊임없는 움직임 덕분에 더 고르게 볶이며, 보통 팬보다 많은 양을 처리할 수 있습니다. 튼튼한 구조는 작업장과 작은 가게에서 매일 쓰는 데에도 견딥니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009126</GUID>
+      <!-- GuildhouseItem | Mahinbanu Khatun, the Shah’s Personal Confectioner | Mahinbanu Khatun, the Shah’s Personal Confectioner -->
+      <Text>마힌바누 하툰, 샤의 전속 과자 장인</Text>
+    </Text>
+    <Text>
+      <GUID>1404009127</GUID>
+      <!-- Text | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. -->
+      <Text>그녀는 대추야자를 가장 고귀한 식탁을 위한 섬세한 과자로 탈바꿈시키는 유명한 공방을 운영합니다. 통통하고 과육이 풍부한 열매를 골라 향긋한 시럽에 졸이는 과정을 세심하게 지켜봅니다. 세부를 놓치지 않는 그녀의 눈은 하나하나를 의례용 선물로 손색없는 작은 별미로 만들어 냅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009128</GUID>
+      <!-- GuildhouseItem | Tin-Lined Copper Cauldron | Tin-Lined Copper Cauldron -->
+      <Text>주석 도금 구리 가마솥</Text>
+    </Text>
+    <Text>
+      <GUID>1404009129</GUID>
+      <!-- Text | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. -->
+      <Text>구리 가마솥은 열을 빠르게 전달하므로 많은 양의 대추야자를 시럽에 졸이기에 안성맞춤입니다. 주석을 입힌 안쪽 면은 음식이 구리에 직접 닿지 않게 해 줍니다. 과자 장인들은 열매가 천천히 단맛을 머금는 동안 시럽의 농도를 지켜봅니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009130</GUID>
+      <!-- GuildhouseItem | Iskandar ibn Faraj, Chemistry Expert | Iskandar ibn Faraj, Chemistry Expert -->
+      <Text>이스칸다르 이븐 파라지, 화학 전문가</Text>
+    </Text>
+    <Text>
+      <GUID>1404009131</GUID>
+      <!-- Text | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. -->
+      <Text>이스칸다르는 탄화수소와 그 산업용 파생물의 활용에 실험을 집중하고 있습니다. 석유 저장고와 반응 용기 사이에서 더 안정적인 혼합물을 얻는 방법을 연구합니다. 꼼꼼한 성격 덕분에 원료를 낭비하지 않고 복잡한 화학 공정을 조율할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009132</GUID>
+      <!-- GuildhouseItem | Daryush Mehrzad, Tireless Foreman | Daryush Mehrzad, Tireless Foreman -->
+      <Text>다리유시 메흐르자드, 지칠 줄 모르는 감독관</Text>
+    </Text>
+    <Text>
+      <GUID>1404009133</GUID>
+      <!-- Text | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. -->
+      <Text>다리유시는 황 성분의 기체를 산업적 가치가 높은 화학 제품으로 바꾸는 반응을 감독합니다. 설비를 점검하고 공정이 쉬지 않고 돌아가도록 유지합니다. 그의 전문성은 이 부식성 물질에 의존하는 제조 현장에 없어서는 안 될 존재로 만들어 줍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009134</GUID>
+      <!-- GuildhouseItem | Lead Chamber | Lead Chamber -->
+      <Text>납실</Text>
+    </Text>
+    <Text>
+      <GUID>1404009135</GUID>
+      <!-- Text | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. -->
+      <Text>납으로 안을 댄 커다란 방은 18세기부터 산업 규모로 사용된 납실법으로 황산을 만드는 데 쓰입니다. 이 방 안에서 기체들은 수증기와 질소 화합물이 있는 가운데 반응합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009136</GUID>
+      <!-- GuildhouseItem | Bahram ibn Kaveh, Obsessive Smelter | Bahram ibn Kaveh, Obsessive Smelter -->
+      <Text>바흐람 이븐 카베, 집착하는 제련공</Text>
+    </Text>
+    <Text>
+      <GUID>1404009137</GUID>
+      <!-- Text | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. -->
+      <Text>바흐람은 모든 용광로의 기질을 알고 있으며, 불꽃의 색만 보고도 광석이 제련될 준비가 되었는지 알아봅니다. 그는 온도를 조절하고 광석의 불순물에서 은을 분리하는 과정을 감독합니다. 상인들은 그의 꼼꼼한 작업과 한결같은 주괴 품질을 높이 평가합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009138</GUID>
+      <!-- GuildhouseItem | Zubayda al-Durra, the Deep-Sea Diver | Zubayda al-Durra, the Deep-Sea Diver -->
+      <Text>주바이다 알두라, 심해 잠수부</Text>
+    </Text>
+    <Text>
+      <GUID>1404009139</GUID>
+      <!-- Text | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. -->
+      <Text>주바이다는 중동의 굴 밭을 훤히 알고 있으며, 어느 바다에 가장 귀한 진주가 숨어 있는지 가려낼 수 있습니다. 작은 바구니를 들고 내려가 경험에 의지해 매번의 잠수를 최대한 활용합니다. 상인들은 그녀가 찾아낸 물건의 희소성과 광채에 이끌려 그녀의 수확을 기다립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009140</GUID>
+      <!-- GuildhouseItem | Diving Ballast Stone | Diving Ballast Stone -->
+      <Text>잠수용 바닥짐 돌</Text>
+    </Text>
+    <Text>
+      <GUID>1404009141</GUID>
+      <!-- Text | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. -->
+      <Text>진주 잠수부들은 몸에 묶거나 내려가는 동안 붙잡은 바닥짐 돌을 이용해 빠르게 바다 밑에 닿습니다. 동료들은 밧줄로 잠수를 조절하고 잠수부가 수면으로 돌아오도록 돕습니다. 이 기술에는 지구력과 협동, 그리고 해류에 대한 정확한 이해가 필요합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009142</GUID>
+      <!-- GuildhouseItem | Gallery Foreman | Gallery Foreman -->
+      <Text>갱도 감독관</Text>
+    </Text>
+    <Text>
+      <GUID>1404009143</GUID>
+      <!-- Text | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. -->
+      <Text>광부 조를 편성하고 작업을 배분해 모든 갱도가 쉼 없이 돌아가도록 하는 책임을 맡고 있습니다. 그의 경험 덕분에 멈추는 시간을 최소화하고 채굴 교대 시간마다 최대한 활용할 수 있습니다. 그의 감독 아래 도구와 일꾼, 캐낸 광석의 흐름은 끊이지 않습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009144</GUID>
+      <!-- GuildhouseItem | Nasrin Khatun, The Master of Clay | Nasrin Khatun, The Master of Clay -->
+      <Text>나스린 하툰, 점토의 명인</Text>
+    </Text>
+    <Text>
+      <GUID>1404009145</GUID>
+      <!-- Text | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. -->
+      <Text>나스린은 이 지역의 점토가 풍부한 땅을 잘 알고 있습니다. 그녀는 땅의 습기와 굳기에 따라 채굴을 계획합니다. 그녀의 전문성 덕분에 다루기 가장 어려운 매장지까지 활용할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009146</GUID>
+      <!-- GuildhouseItem | Mining Dewatering Pump | Mining Dewatering Pump -->
+      <Text>광산 배수 펌프</Text>
+    </Text>
+    <Text>
+      <GUID>1404009147</GUID>
+      <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
+      <Text>고인 물은 광산 갱도를 위협하고 많은 현장에서 채굴 작업을 멈추게 합니다. 배수 펌프는 수갱의 물을 빼내고 작업 구역에 계속 드나들 수 있게 해 줍니다. 이를 사용하면 더 깊이 채굴하고, 그렇지 않았다면 물에 잠겨 있었을 땅을 되찾기가 쉬워집니다.</Text>
     </Text>
     <Text>
       <GUID>1404003903</GUID>
@@ -7259,6 +7260,51 @@
       <GUID>1404009244</GUID>
       <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
       <Text>술탄의 궁전은 궁전 특사 숙소로 확장할 수 있으며, 그 칙령은 당신의 도시에 강력한 보너스를 부여합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005139</GUID>
+      <!-- Text | <Key> | The Sultan must be able to recognize whether your city has reached the required size to house such a building. -->
+      <Text>술잔은 당신의 도시가 그런 구조에 필요한 크기를 도달 한 경우 볼 수 있어야합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005138</GUID>
+      <!-- Text | <Key> | Sultan licenses required -->
+      <Text>필요한 술탄의 면허</Text>
+    </Text>
+    <Text>
+      <GUID>1404005142</GUID>
+      <!-- Text | <Key> | There are no tourists in the Orient, as outsiders are not welcome. -->
+      <Text>오리엔트에는 관광이 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005141</GUID>
+      <!-- Text | <Key> | No Attractiveness in the Orient -->
+      <Text>오리엔트의 매력 없음</Text>
+    </Text>
+    <Text>
+      <GUID>1404005143</GUID>
+      <!-- Text | <Key> | Beacon -->
+      <Text>빛 비콘</Text>
+    </Text>
+    <Text>
+      <GUID>1404005144</GUID>
+      <!-- Text | <Key> | Effects -->
+      <Text>제품정보</Text>
+    </Text>
+    <Text>
+      <GUID>1404005145</GUID>
+      <!-- Text | <Key> | The effect of this beacon applies to all regions. -->
+      <Text>이 비콘의 효과는 모든 지구에 영향을줍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005146</GUID>
+      <!-- Text | <Key> | All ships of this ship type, as well as special ships belonging to this ship type, are affected. -->
+      <Text>이 유형의 선박에 속하는 배와 특별한 배의 모든 배는 영향을 받습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005147</GUID>
+      <!-- Text | <Key> | Must be provided through a channel. -->
+      <Text>채널을 통해 제공해야합니다.</Text>
     </Text>
   </ModOp>
 </ModOps>

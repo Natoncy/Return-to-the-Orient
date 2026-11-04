@@ -193,12 +193,8 @@ OTHER
 1404005127: Roasted Coffee ProductionChain
 1404005128: Roasted Coffee Recipe
 1404005129: Roasted Coffee Recipe Fluff
-1404005138: InfoTip Sultans Seals Header
-1404005139: InfoTip Sultans Seals Fluff
-1404005140: InfoTip No Attractiveness Orient
-1404005141: InfoTip No Attractiveness Orient Header
-1404005142: InfoTip No Attractiveness Orient Fluff
-1404005143-1404005146: InfoTip Fluff
+1404005138-1404005147: InfoTip Fluff
+1404005148: Fake Input Sand
 
 SUBMODS
 ----------
