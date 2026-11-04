@@ -42,6 +42,13 @@
         </Value>
         <BackgroundType />
       </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005147</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
     </InfoElement>
   </ModOp>
 </ModOps>

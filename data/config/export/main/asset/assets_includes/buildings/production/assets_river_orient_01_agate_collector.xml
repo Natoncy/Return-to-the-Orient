@@ -70,6 +70,12 @@
                 </Text>
                 <Locked/>
                 <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1404005148</Product>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
                     <FactoryOutputs>
                         <Item>
                             <Product>1404003900</Product>

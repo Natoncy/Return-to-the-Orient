@@ -52,6 +52,19 @@
 						</Item>
 					</Variations>
 				</Object>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>10</Amount>
+							<InactiveAmount>5</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>5</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
 			</Values>
 		</Asset>
 	</ModOp>
