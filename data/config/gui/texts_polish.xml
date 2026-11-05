@@ -7306,5 +7306,25 @@
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>Musi być dostarczany przez kanał.</Text>
     </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Aby źródła nie wyschły, musimy zachować dystans między naszymi Noriami.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Odległość do innych Norii</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>Latarnia wymaga soczewki, by wywołać jej efekt na całym świecie.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>Wymagany beacon</Text>
+    </Text>
   </ModOp>
 </ModOps>

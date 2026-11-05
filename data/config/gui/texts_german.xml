@@ -1,4 +1,5 @@
-﻿<ModOps>
+<?xml version='1.0' encoding='utf-8'?>
+<ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000000</GUID>
@@ -7304,6 +7305,26 @@
       <GUID>1404005147</GUID>
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>Muss durch einen Kanal bereitgestellt werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Damit die Quellen nicht versiegen, müssen wir Abstand zwischen unseren Norias halten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Abstand zu anderen Norias</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>Der Leuchtturm benötigt eine Linse, um seine Wirkung auf der ganzen Welt auszulösen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>Leuchtfeuer erforderlich</Text>
     </Text>
   </ModOp>
 </ModOps>

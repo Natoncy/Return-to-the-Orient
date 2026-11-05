@@ -7306,5 +7306,25 @@
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>Они должны быть предоставлены через канал.</Text>
     </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Чтобы источники не высохли, мы должны держать дистанцию между нашими нориями.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Расстояние до других нориев</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>Маяк требует линзы, чтобы вызвать его эффект во всем мире.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>Требуется маяк</Text>
+    </Text>
   </ModOp>
 </ModOps>

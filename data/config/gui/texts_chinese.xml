@@ -7306,5 +7306,25 @@
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>必须通过渠道提供。</Text>
     </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>为了不让源头干涸 我们必须在诺里亚之间保持距离</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>与其他诺里亚斯的距离</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>灯塔需要透镜来触发其在全世界的影响.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>需要灯塔</Text>
+    </Text>
   </ModOp>
 </ModOps>

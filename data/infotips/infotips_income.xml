@@ -1,0 +1,77 @@
+<ModOps>
+  <ModOp Path="//InfoTipData[Guid='25000057']//InfoElement[VisibilityElement/VisibilityElement/Condition='[Economy PopulationCount(114330)]']" Type="addNextSibling">
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>1</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <Condition>[Economy PopulationCount(1404000010)]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>1404000010</IconGUID>
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>1404000010</TextGUID>
+        <Style />
+      </Text>
+      <Value>
+        <Text>[Money PopulationIncome(1404000010) &gt;&gt; balance]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    <InfoElement>
+      <ElementType>4</ElementType>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator>
+            <CompareOperator>1</CompareOperator>
+          </CompareOperator>
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <Condition>[Economy PopulationCount(1404000011)]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <Icon>
+        <IconGUID>1404000011</IconGUID>
+        <Style />
+      </Icon>
+      <Text>
+        <TextGUID>1404000011</TextGUID>
+        <Style />
+      </Text>
+      <Value>
+        <Text>[Money PopulationIncome(1404000011) &gt;&gt; balance]</Text>
+        <Style />
+      </Value>
+      <WarningType />
+      <BackgroundType />
+    </InfoElement>
+    </ModOp>
+
+  </ModOps>

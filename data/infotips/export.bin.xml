@@ -1,9 +1,12 @@
 <ModOps>
   <Include File="infotips_region.xml" />
+  <Include File="infotips_range.xml" />
   <Include File="infotips_sultans_seals.xml" />
   <Include File="infotips_no_attractiveness.xml" />
   <Include File="infotips_festival.xml" />
   <Include File="infotips_fake_water.xml" />
   <Include File="infotips_fake_sand.xml" />
   <Include File="infotips_beacons.xml" />
+  <!-- <Include File="infotips_lighthouse.xml" /> -->
+  <Include File="infotips_income.xml" />
 </ModOps>

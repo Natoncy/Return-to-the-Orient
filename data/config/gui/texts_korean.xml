@@ -7306,5 +7306,25 @@
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>채널을 통해 제공해야합니다.</Text>
     </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>그래서 소스는 건조하지 않습니다, 우리는 우리의 Norias 사이에 거리를 유지해야합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>다른 Norias에 거리</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>Lighthouse는 전 세계의 효과를 트리거 할 렌즈가 필요합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>필수 입력</Text>
+    </Text>
   </ModOp>
 </ModOps>

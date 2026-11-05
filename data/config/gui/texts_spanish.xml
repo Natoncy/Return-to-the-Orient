@@ -7306,5 +7306,25 @@
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>Debe ser proporcionado a través de un canal.</Text>
     </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Para que las fuentes no se sequen, debemos mantener una distancia entre nuestros Norias.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Distancia a otros Norias</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>El faro requiere una lente para desencadenar su efecto en todo el mundo.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>Beacon required</Text>
+    </Text>
   </ModOp>
 </ModOps>
