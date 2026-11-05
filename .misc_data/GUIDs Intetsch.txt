@@ -195,6 +195,7 @@ OTHER
 1404005129: Roasted Coffee Recipe Fluff
 1404005138-1404005147: InfoTip Fluff
 1404005148: Fake Input Sand
+1404005149-1404005152: InfoTip Fluff
 
 SUBMODS
 ----------

@@ -7284,7 +7284,7 @@
     <Text>
       <GUID>1404005143</GUID>
       <!-- Text | <Key> | Beacon -->
-      <Text>Light beacons</Text>
+      <Text>Beacons</Text>
     </Text>
     <Text>
       <GUID>1404005144</GUID>
@@ -7305,6 +7305,26 @@
       <GUID>1404005147</GUID>
       <!-- Text | <Key> | Must be provided through a channel. -->
       <Text>Must be provided through a channel.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>So that the sources do not dry up, we must keep a distance between our Norias.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Distance to other Norias</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>The lighthouse requires a lens to trigger its effect all over the world.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>Beacon required</Text>
     </Text>
   </ModOp>
 </ModOps>

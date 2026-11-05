@@ -11,7 +11,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>Sultan's licenses required</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -27,7 +27,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>The Sultan must be able to see if your city has reached the necessary size to house such a structure.</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -43,7 +43,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>No attractiveness in the Orient</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -59,7 +59,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>There are no tourists in the Orient, as outsiders are not welcome.</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -75,7 +75,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>Beacons</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -91,7 +91,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>Effects</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -107,7 +107,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>The effect of this beacon affects all regions.</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -123,7 +123,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>All ships of this type of ship and special vessels belonging to this type of ship are affected.</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -134,12 +134,77 @@
             <Values>
                 <Standard>
                     <GUID>1404005147</GUID>
-                    <Name>InfoTip Beacons Fluff 2</Name>
+                    <Name>InfoTip Water Fluff</Name>
                 </Standard>
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research.</Text>
+                            <Text>Must be provided through a channel.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005149</GUID>
+                    <Name>InfoTip Range Header</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_marker_coop.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Distance to other Norias</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005150</GUID>
+                    <Name>InfoTip Range Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>So that the sources do not dry up, we must keep a distance between our Norias.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005151</GUID>
+                    <Name>InfoTip Lighthouse Header</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Beacon required</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005152</GUID>
+                    <Name>InfoTip Lighthouse Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The lighthouse requires a lens to trigger its effect all over the world.</Text>
                         </English>
                     </LocaText>
                 </Text>
