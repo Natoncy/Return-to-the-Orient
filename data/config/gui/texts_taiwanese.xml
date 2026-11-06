@@ -3588,8 +3588,8 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
-      <Text>諾裡亞斯需要彼此保持一定距離。他們從地下含水層抽水，否則這些水最終會枯竭。</Text>
+      <!-- Text | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. -->
+      <Text>諾裡亞從地下深處汲水灌溉你的田地。請將它們彼此間隔建造，否則它們會抽乾地下水層。</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
@@ -3605,6 +3605,21 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>使節們對工業時代的新商品和發明感到好奇。市場攤位是展示它們並讓使節嘗試的好方法。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001228</GUID>
+      <!-- Text | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. -->
+      <Text>貝都因營地、研究前哨和蘇丹宮殿各自會吸引有不同需求的居民，並提供不同的法令來改善你的城市和生產。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001229</GUID>
+      <!-- Text | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. -->
+      <Text>浮選精礦讓你能在東方從礦石中提煉白銀，也能增強你在其他地區的冶煉廠。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001239</GUID>
+      <!-- Text | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. -->
+      <Text>東方燈塔有一個用於信標的物品槽。每個信標都能增強你在所有地區中某一類型的全部船隻。</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

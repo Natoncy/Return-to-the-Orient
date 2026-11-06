@@ -3588,8 +3588,8 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
-      <Text>Le norie devono essere costruite a distanza l'una dall'altra. Pompano acqua da falde sotterranee che altrimenti finirebbero per prosciugarsi.</Text>
+      <!-- Text | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. -->
+      <Text>Le norie sollevano l'acqua dal sottosuolo per irrigare i campi. Costruiscile a distanza l'una dall'altra, altrimenti prosciugheranno le falde acquifere.</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
@@ -3605,6 +3605,21 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>Gli inviati sono curiosi delle nuove merci e invenzioni dell'era industriale. Le bancarelle sono un ottimo modo per metterle in mostra e lasciare che gli inviati le provino.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001228</GUID>
+      <!-- Text | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. -->
+      <Text>Accampamenti beduini, avamposti di ricerca e il palazzo del sultano attirano ciascuno abitanti con bisogni propri e offrono decreti diversi per migliorare la tua città e la produzione.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001229</GUID>
+      <!-- Text | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. -->
+      <Text>Il concentrato di flottazione ti permette di estrarre l'argento dal minerale in Oriente e può anche potenziare le tue fonderie nelle altre regioni.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001239</GUID>
+      <!-- Text | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. -->
+      <Text>Il faro orientale ha uno slot oggetto per i fuochi. Ogni fuoco potenzia tutte le tue navi di un certo tipo in tutte le regioni.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

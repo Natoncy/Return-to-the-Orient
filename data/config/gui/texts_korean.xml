@@ -3588,8 +3588,8 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
-      <Text>노리아는 서로 거리를 두고 지어야 합니다. 노리아는 지하 대수층에서 물을 퍼 올리는데, 그렇지 않으면 대수층이 결국 말라 버릴 것입니다.</Text>
+      <!-- Text | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. -->
+      <Text>노리아는 깊은 지하에서 물을 끌어올려 밭에 물을 댑니다. 서로 거리를 두고 건설하지 않으면 대수층이 말라 버립니다.</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
@@ -3605,6 +3605,21 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>사절들은 산업 시대의 새로운 상품과 발명품에 호기심이 많습니다. 시장 노점은 이를 선보이고 사절들이 직접 써 볼 수 있게 하는 좋은 방법입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001228</GUID>
+      <!-- Text | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. -->
+      <Text>베두인 야영지, 연구 전초기지, 술탄의 궁전은 각각 고유한 욕구를 가진 주민을 끌어들이고, 도시와 생산을 개선하는 다양한 칙령을 제공합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001229</GUID>
+      <!-- Text | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. -->
+      <Text>부양 농축액으로 동양에서 광석으로부터 은을 추출할 수 있으며, 다른 지역의 제련소도 강화할 수 있습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001239</GUID>
+      <!-- Text | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. -->
+      <Text>동양 등대에는 등불용 아이템 슬롯이 있습니다. 각 등불은 모든 지역에서 특정 유형의 선박 전체를 강화합니다.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

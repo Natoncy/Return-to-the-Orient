@@ -17,6 +17,18 @@
             <Text>1404001227</Text>
             <RelevantGameMode>Regular</RelevantGameMode>
         </Item>
+        <Item>
+            <Text>1404001228</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
+        <Item>
+            <Text>1404001229</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
+        <Item>
+            <Text>1404001239</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="118750">
@@ -30,7 +42,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry.</Text>
+                            <Text>Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry.</Text>
                         </English>
                     </LocaText>
                 </Text>
@@ -79,6 +91,54 @@
                     <LocaText>
                         <English>
                             <Text>Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+<Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001228</GUID>
+                    <Name>LoadingTip Orient Hacienda Types</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001229</GUID>
+                    <Name>LoadingTip Orient Flotation Concentrate</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001239</GUID>
+                    <Name>LoadingTip Orient Lighthouse</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions.</Text>
                         </English>
                     </LocaText>
                 </Text>

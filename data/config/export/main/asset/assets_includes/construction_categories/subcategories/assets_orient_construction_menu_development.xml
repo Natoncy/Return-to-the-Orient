@@ -1,6 +1,6 @@
 <ModOps>
 
-    <!-- debug only - remove before release: unfinished buildings, listed in the creative menu 1404000614 so normal games never show them (IAAM Test, completed lighthouse and Grand Mosque
+    <!-- debug only - remove before release: unfinished buildings, listed in the creative menu 1404000614 so normal games never show them (completed lighthouse and Grand Mosque
          monuments placed directly without construction, lighthouse foundation, Sultan's palace) -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
@@ -13,10 +13,6 @@
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <Item>
-                            <Building>1404004219</Building>
-                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
-                        </Item>
                         <Item>
                             <Building>1404007002</Building>
                         </Item>
