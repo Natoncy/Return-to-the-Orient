@@ -17,10 +17,8 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Add Silver Ore Mine workspace model
-- Add light emitting surfaces for windows at night
-- Check IntersectBox for clicking for all buildings
 - Update loading screen hints
+- Add Silver Ore Mine workspace model
 - Sulatate Embassy in Old World
 
 - Light house monument 
