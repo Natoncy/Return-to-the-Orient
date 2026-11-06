@@ -17,14 +17,15 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Cover the 2 visible water cutout edges at the end of the riverbed
 - Add Silver Ore Mine workspace model
-- Light house monument 
-    construction scaffolding stage 2 & 3
-    construction feedback units
 - Add light emitting surfaces for windows at night
 - Check IntersectBox for clicking for all buildings
 - Update loading screen hints
+- Sulatate Embassy in Old World
+
+- Light house monument 
+    construction scaffolding stage 2 & 3
+    construction feedback units
 - Letting AI settle the region
 - add compost for moldy bread
 

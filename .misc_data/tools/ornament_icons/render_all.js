@@ -8,7 +8,7 @@ const ASSETS = path.join(MOD, 'data/config/export/main/asset/assets_includes/bui
 const ICONS = 'data/graphics/icons/ornaments/';
 const OUT = path.join(__dirname, 'out');
 
-const SKIP = ['IAAM Test'];                       // test asset, borrows palm.png
+const SKIP = [];
 const PICK = { lighthouse: 3, ruin_large: 1 };   // variation index shown on the icon (default 0)
 // Facing (user's rule, like the vanilla Enbesa fences): fronts point to the bottom left (model -z), walls run from the
 // bottom left to the top right (model z), T branches and corner arms point to the bottom right (model +x).

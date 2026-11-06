@@ -4,8 +4,8 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>-0.207275390625</xf>
-			<yf>2.027099609375</yf>
+			<xf>-0.2073</xf>
+			<yf>2.0271</yf>
 			<zf>0</zf>
 		</Position>
 		<Rotation>
@@ -15,8 +15,8 @@
 			<wf>1</wf>
 		</Rotation>
 		<Extents>
-			<xf>4.160400390625</xf>
-			<yf>4.969970703125</yf>
+			<xf>4.1604</xf>
+			<yf>4.97</yf>
 			<zf>6.2</zf>
 		</Extents>
 	</BoundingBox>
@@ -222,6 +222,106 @@
 			<xf>0.6</xf>
 			<yf>0.25</yf>
 			<zf>0.6</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_4</Name>
+		<Position>
+			<xf>-0.0375</xf>
+			<yf>0.125</yf>
+			<zf>0.1218</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1.6609</xf>
+			<yf>0.125</yf>
+			<zf>2.8344</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_5</Name>
+		<Position>
+			<xf>-0.0998</xf>
+			<yf>0.625</yf>
+			<zf>1.594</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1.393</xf>
+			<yf>0.375</yf>
+			<zf>1.3617</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_6</Name>
+		<Position>
+			<xf>-0.9185</xf>
+			<yf>0.375</yf>
+			<zf>-2.0525</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.7778</xf>
+			<yf>0.125</yf>
+			<zf>0.6567</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_7</Name>
+		<Position>
+			<xf>0.2331</xf>
+			<yf>1.25</yf>
+			<zf>2.1861</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.9762</xf>
+			<yf>0.25</yf>
+			<zf>0.7714</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_8</Name>
+		<Position>
+			<xf>-0.0609</xf>
+			<yf>1.5495</yf>
+			<zf>2.2135</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.2723</xf>
+			<yf>0.0495</yf>
+			<zf>0.2848</zf>
 		</Extents>
 	</IntersectBox>
 

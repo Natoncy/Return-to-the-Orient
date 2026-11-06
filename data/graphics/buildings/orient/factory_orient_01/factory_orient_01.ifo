@@ -1,23 +1,23 @@
 <Info>
-  <BoundingBox>
-    <Name>BoundingBox</Name>
-    <Position>
-      <xf>0</xf>
-      <yf>0.5628275</yf>
-      <zf>-0.1431125</zf>
-    </Position>
-    <Rotation>
-      <xf>0</xf>
-      <yf>0</yf>
-      <zf>0</zf>
-      <wf>1</wf>
-    </Rotation>
-    <Extents>
-      <xf>2.7</xf>
-      <yf>2.956872</yf>
-      <zf>2.843112</zf>
-    </Extents>
-  </BoundingBox>
+  	<BoundingBox>
+		<Name>BoundingBox</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>0.5628</yf>
+			<zf>-0.1431</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2.7</xf>
+			<yf>2.9569</yf>
+			<zf>2.8431</zf>
+		</Extents>
+	</BoundingBox>
   <MeshBoundingBox>
     <Name>MeshBoundingBox</Name>
     <Position>
@@ -57,6 +57,26 @@
       <zf>0.3341425</zf>
     </Extents>
   </IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_1</Name>
+		<Position>
+			<xf>-0.0121</xf>
+			<yf>0.375</yf>
+			<zf>-0.0396</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2.3852</xf>
+			<yf>0.375</yf>
+			<zf>2.4604</zf>
+		</Extents>
+	</IntersectBox>
   <Dummy>
     <Name>infolayer</Name>
     <Position>
