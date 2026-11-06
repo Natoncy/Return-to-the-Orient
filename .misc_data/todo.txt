@@ -17,7 +17,6 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Add Silver Ore Mine workspace model
 - Sulatate Embassy in Old World
 - Rammed earth building model with module
 

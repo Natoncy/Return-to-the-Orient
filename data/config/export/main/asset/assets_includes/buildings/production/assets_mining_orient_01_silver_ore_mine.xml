@@ -117,10 +117,11 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="1010549">
+    <ModOp Type="addNextSibling" GUID="1010547">
         <Asset>
-            <BaseAssetGUID>1010549</BaseAssetGUID>
-            <!--mining_08_workarea (Gold Ore)-->
+            <BaseAssetGUID>1010547</BaseAssetGUID>
+            <!--mining_06_workarea (Cement): cave workarea (WorkAreaCave, no rail path) like the clay pit model it now uses-->
+            <!--model = vanilla clay workarea mining_03_slot_01 (100418), reskinned to silver-->
             <Values>
                 <Standard>
                     <GUID>1404001301</GUID>
