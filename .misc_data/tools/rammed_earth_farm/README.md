@@ -102,3 +102,9 @@ Chain `1404009004` is gone; the menus list the building.
   `pool_variants_cfg.js <rammed_earth_farm folder>` writes 01/02 from 03 with the vanilla slot lists:
   01 = aqua_farm_diff, aqua_farm_diff_dark (vanilla points at a test_data texture; here aqua_farm_diff), aqua_field_diff, cloth_wet,
   LODs [0..3]×4 + [1,2,3]; 02 = aqua_farm_diff, aqua_field_diff, cloth_wet, LODs [0..2]×4 + [1,2].
+
+## Fake rammed earth output (2026-11-09)
+
+Back on the Leacher pattern (the silo-style Clay Tank was dropped). The hub 1404009002 now outputs `1404009005`, an abstract,
+delta-only product with the rammed earth icon and name (TextOverride 1404009000), in place of FakeProductWaste 25073, so its
+window shows rammed earth. The real rammed earth still comes from the pools 1404009003 (clay → rammed earth, 180 s).

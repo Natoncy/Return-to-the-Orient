@@ -59,6 +59,32 @@
         </Asset>
     </ModOp>
 
+    <!-- Fake rammed earth: the Rammed Earth Works hub's only output, like FakeProductWaste 25073 of the Cyanide Leacher.
+         Abstract and delta-only, so it is never stored or traded; the real rammed earth comes from the oxidation pools 1404009003. -->
+    <ModOp Type="addNextSibling" GUID="25073">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009005</GUID>
+                    <Name>FakeProductRammedEarth</Name>
+                    <IconFilename>data/graphics/icons/products/icon_rammed_earth.png</IconFilename>
+                    <InfoDescription>1404009001</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1404009000</TextOverride>
+                </Text>
+                <Locked />
+                <Product>
+                    <DeltaOnly>1</DeltaOnly>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Mod3</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+    </ModOp>
+
     <!-- StandardProductStorageList -->
     <ModOp Type="add" GUID="120055" Path="Values/ProductStorageList/ProductList">
         <Item>

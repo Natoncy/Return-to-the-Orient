@@ -1,9 +1,11 @@
 <ModOps>
 
-	<!-- Rammed Earth Works: plain factory, clay -> rammed earth. Model = silk plantation with the dome recoloured to clay brown / sandstone. -->
+	<!-- Rammed Earth Works: hub like the Cyanide Leacher (vanilla 24844 / White and Cold 1957006132). It only makes the fake rammed earth 1404009005 (abstract, like FakeProductWaste 25073);
+	     the oxidation pool modules 1404009003 (4x3) take the clay and produce the rammed earth.
+	     Model = silk plantation (3x3) with the dome and silk recoloured to clay browns. -->
 	<ModOp Type="addNextSibling" GUID='1404000169'>
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>FarmBuilding</Template>
 			<Values>
 				<Standard>
 					<GUID>1404009002</GUID>
@@ -22,7 +24,7 @@
 								<InheritedIndex>0</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>FarmBuilding</TemplateName>
 										<Index>0</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -34,7 +36,7 @@
 								<InheritedIndex>1</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>FarmBuilding</TemplateName>
 										<Index>1</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -47,7 +49,7 @@
 								<InheritedIndex>2</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>FarmBuilding</TemplateName>
 										<Index>2</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -60,7 +62,7 @@
 								<InheritedIndex>3</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>FarmBuilding</TemplateName>
 										<Index>3</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -73,7 +75,7 @@
 								<InheritedIndex>4</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>FarmBuilding</TemplateName>
 										<Index>4</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -84,7 +86,7 @@
 								<InheritedIndex>5</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>FarmBuilding</TemplateName>
 										<Index>5</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -139,24 +141,32 @@
 				<UpgradeList/>
 				<Factory7/>
 				<FactoryBase>
-					<FactoryInputs>
-						<Item>
-							<Product>1010201</Product>
-							<Amount>1</Amount>
-							<StorageAmount>4</StorageAmount>
-						</Item>
-					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
-							<Product>1404009000</Product>
-							<Amount>1</Amount>
-							<StorageAmount>4</StorageAmount>
+							<Product>1404009005</Product>
+							<StorageAmount>1</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>30</CycleTime>
+					<CycleTime>180</CycleTime>
+					<MissingConnectionInfolayer>0</MissingConnectionInfolayer>
+					<ProductionOutputInfotip>0</ProductionOutputInfotip>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
+				<ModuleOwner>
+					<ModuleLimits>
+						<Main>
+							<Limit>6</Limit>
+						</Main>
+					</ModuleLimits>
+					<ModulesRequiredForFullProductivity>6</ModulesRequiredForFullProductivity>
+					<ConstructionOptions>
+						<Item>
+							<ModuleGUID>1404009003</ModuleGUID>
+						</Item>
+					</ConstructionOptions>
+					<ModuleBuildRadius>12</ModuleBuildRadius>
+				</ModuleOwner>
 				<AmbientMoodProvider>
 					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
@@ -164,12 +174,12 @@
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>60</Amount>
-							<InactiveAmount>30</InactiveAmount>
+							<Amount>30</Amount>
+							<InactiveAmount>15</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1404000012</Product>
-							<Amount>30</Amount>
+							<Amount>10</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
