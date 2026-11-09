@@ -357,9 +357,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>1.034862</x>
+							<x>0.895657</x>
 							<y>5.632813</y>
-							<z>0.481260</z>
+							<z>0.540841</z>
 						</Position>
 						<RotationY>3.141593</RotationY>
 						<Extents>
@@ -479,9 +479,9 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-2.105999</x>
-							<y>0.837928</y>
-							<z>3.214284</z>
+							<x>-1.853547</x>
+							<y>0.523520</y>
+							<z>3.159025</z>
 						</Position>
 						<RotationY>1.452787</RotationY>
 						<Extents>

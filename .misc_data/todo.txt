@@ -17,7 +17,6 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Light house monument construction feedback units
 - Rammed earth building model with module
 - Sulatate Embassy in Old World
 - Letting AI settle the region
