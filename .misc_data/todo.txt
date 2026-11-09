@@ -17,12 +17,9 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Sulatate Embassy in Old World
+- Light house monument construction feedback units
 - Rammed earth building model with module
-
-- Light house monument 
-    construction scaffolding stage 2 & 3
-    construction feedback units
+- Sulatate Embassy in Old World
 - Letting AI settle the region
 - add compost for moldy bread
 
@@ -38,7 +35,7 @@ Before v1.0.0
 
 
 Bugs:
-
+- honey coffee does not add +2 residents?
 
 
 Backlog:

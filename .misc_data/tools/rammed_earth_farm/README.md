@@ -83,3 +83,22 @@ Hitbox_2 extents (1.8, 0.1, 1.3), Hitbox_3 (tank) at (−0.91, 0.25, −2.22). t
   dome decal's ragged edge and no terrain shows between them.
 - `pool_preview.js` (run in a folder with the pool textures, `after_trim.png` and a `p3/` export dir) renders 3 views and a top view
   on a green 4x6 footprint; `pool_preview.png` is the result.
+
+## Leacher hub + three pool variants (2026-11-06)
+
+The Rammed Earth Works `1404009002` is a hub like the Cyanide Leacher (vanilla 24844 / White and Cold 1957006132): it only makes
+FakeProductWaste 25073 and owns 6 oxidation pools `1404009003` (BuffFactoryModule, clay → rammed earth, 180 s, radius 12).
+Chain `1404009004` is gone; the menus list the building.
+
+- The building is back to the 7778a397 cfg/ifo (3x3, no pool), then mirrored x → −x again: `rdm/rammed_earth_farm_lod0.rdm` =
+  `mirror_rdm.js` of 1404 `s_silk_plantation_lod0`, ground `maps/rammed_earth_farm_ground_diff_0_0_384_384.png` = `flip.js` of the
+  1404 silk ground (PNG only, like the original; identical to `ground_source_384.png`), Center/MeshCenter x and every ifo Position x
+  negated, symmetric BuildBlocker kept. The recoloured `rammed_earth_farm_diff` (dark trim, brown silk) applies unchanged.
+  The widened 4 m ground `maps/rammed_earth_farm_ground_diff_0..2.dds` was deleted. `dome_mirror_preview.js <work dir>`
+  renders silk plantation (left) vs this building (right); `dome_mirror_preview.png` is the result.
+- Pool variations `rammed_earth_pool_field_01..03.cfg/.ifo` (4x3, pool turned 270°, pool decal centred, `HasDetails 0`).
+  03 = the old farm pool with the tank, recentred. 01/02: `rdm/rammed_earth_pool_0N_*` = `mirror_rdm.js` copies of eoy21
+  `field_0N_lod0..4`, `_lod0_cutout`, `field_0N_water_lod0` (→ `_sand_lod0`, pool_sand material; 01 sand at y −0.058871).
+  `pool_variants_cfg.js <rammed_earth_farm folder>` writes 01/02 from 03 with the vanilla slot lists:
+  01 = aqua_farm_diff, aqua_farm_diff_dark (vanilla points at a test_data texture; here aqua_farm_diff), aqua_field_diff, cloth_wet,
+  LODs [0..3]×4 + [1,2,3]; 02 = aqua_farm_diff, aqua_field_diff, cloth_wet, LODs [0..2]×4 + [1,2].
