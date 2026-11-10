@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>Beacon richiesto</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Ambasciata orientale -->
+      <Text>Ambasciata orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Ambasciata orientale -->
+      <Text>Ambasciata orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Solo una per isola. Consuma I sigilli del sultano. Tutte le residenze dell'isola pagano il 10% di tasse in più e le merci dell'Oriente valgono anche come alcune merci locali. -->
+      <Text>Solo una per isola. Consuma I sigilli del sultano. Tutte le residenze dell'isola pagano il 10% di tasse in più e le merci dell'Oriente valgono anche come alcune merci locali.</Text>
+    </Text>
   </ModOp>
 </ModOps>

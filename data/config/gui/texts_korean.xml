@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>필수 입력</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | 동방 대사관 -->
+      <Text>동방 대사관</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | 동방 대사관 -->
+      <Text>동방 대사관</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | 섬당 하나만 건설 가능. 술탄의 인장을 소비합니다. 섬의 모든 주거지는 세금을 10% 더 내며, 동방 상품이 일부 현지 상품으로도 인정됩니다. -->
+      <Text>섬당 하나만 건설 가능. 술탄의 인장을 소비합니다. 섬의 모든 주거지는 세금을 10% 더 내며, 동방 상품이 일부 현지 상품으로도 인정됩니다.</Text>
+    </Text>
   </ModOp>
 </ModOps>

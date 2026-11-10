@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>Beaconが必要</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | 東洋大使館 -->
+      <Text>東洋大使館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | 東洋大使館 -->
+      <Text>東洋大使館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | 島ごとに1つまで。スルタンの印章を消費します。島内のすべての住宅の税収が10%増加し、東洋の商品が一部の地元商品としても扱われます。 -->
+      <Text>島ごとに1つまで。スルタンの印章を消費します。島内のすべての住宅の税収が10%増加し、東洋の商品が一部の地元商品としても扱われます。</Text>
+    </Text>
   </ModOp>
 </ModOps>

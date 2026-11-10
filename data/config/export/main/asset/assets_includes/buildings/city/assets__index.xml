@@ -25,5 +25,7 @@
     <Include File="assets_service_orient_12_marketstall_fans.xml" />
     <Include File="assets_service_orient_13_marketstall_ice_cream.xml" />
     <Include File="assets_service_orient_14_marketstall_scooter.xml" />
+
+    <Include File="assets_service_orient_15_embassy.xml" />
     
 </ModOps>

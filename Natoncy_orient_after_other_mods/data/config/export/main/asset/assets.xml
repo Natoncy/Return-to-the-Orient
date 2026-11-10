@@ -105,6 +105,14 @@
         </Item>
     </ModOp>
     
+    <!-- Oriental Embassy buff (main mod buffs/assets_embassy_buff.xml): Magnates' Oudh Perfume also counts as Blue Cheese -->
+    <ModOp Type="add" GUID="1404009401" Path="Values/ResidenceUpgrade/NeedProvideNeedUpgrade" Condition="#new_horizons_session">
+        <Item>
+            <ProvidedNeed>1440014</ProvidedNeed>
+            <SubstituteNeed>1404005059</SubstituteNeed>
+        </Item>
+    </ModOp>
+
     <ModOp Type="addNextSibling" GUID="1445600" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445041']" Condition="#new_horizons_session">
         <Item>
             <Building>1404005050</Building>

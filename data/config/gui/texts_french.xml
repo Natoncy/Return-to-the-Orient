@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>Beacon requis</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Ambassade orientale -->
+      <Text>Ambassade orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Ambassade orientale -->
+      <Text>Ambassade orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Une seule par île. Consomme des Sceaux du Sultan. Toutes les habitations de l'île paient 10 % d'impôts en plus, et les marchandises d'Orient comptent aussi pour certaines marchandises locales. -->
+      <Text>Une seule par île. Consomme des Sceaux du Sultan. Toutes les habitations de l'île paient 10 % d'impôts en plus, et les marchandises d'Orient comptent aussi pour certaines marchandises locales.</Text>
+    </Text>
   </ModOp>
 </ModOps>

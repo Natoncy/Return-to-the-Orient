@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>Leuchtfeuer erforderlich</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Orientalische Botschaft -->
+      <Text>Orientalische Botschaft</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Orientalische Botschaft -->
+      <Text>Orientalische Botschaft</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Nur eine pro Insel. Verbraucht Sultanssiegel. Alle Wohnhäuser der Insel zahlen 10 % mehr Steuern, und Waren aus dem Orient zählen auch als einige lokale Waren. -->
+      <Text>Nur eine pro Insel. Verbraucht Sultanssiegel. Alle Wohnhäuser der Insel zahlen 10 % mehr Steuern, und Waren aus dem Orient zählen auch als einige lokale Waren.</Text>
+    </Text>
   </ModOp>
 </ModOps>

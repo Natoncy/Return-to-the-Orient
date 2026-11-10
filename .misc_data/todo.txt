@@ -18,12 +18,17 @@ TODO:
 
 v0.7.0
 - Sulatate Embassy in Old World
+- Swap palace and light house unlock population count
+
+- Check low res textures before zooming in all the way for IAAM buildings
+
 - Letting AI settle the region
 - add compost for moldy bread
 
 Before v1.0.0
 - Check shared mods
 - Check all guid used exist (1404000205)
+- Check localizations
 - remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
@@ -34,10 +39,13 @@ Before v1.0.0
 
 Bugs:
 - honey coffee does not add +2 residents?
+- Check the savegame without mines
+
 
 
 Backlog:
 - Camera sequence when entering region for the first time
+
 
 
 Not fixable/doable:

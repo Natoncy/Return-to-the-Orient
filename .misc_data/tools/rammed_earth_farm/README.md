@@ -14,6 +14,8 @@ Scripts (run from a working folder; they expect their inputs next to themselves)
 - `probe.js [diff png] [out png] [w h scale]`: software render preview + uv height map.
 - `icon.js <out png>`: keys the baked checkerboard out of the placeholder art (`src.png`), crops and area-scales to 128 px.
   Then `annotex -f=diff -l=4` in the icon folder.
+  **Replaced 2026-11-10** by `icon2/recolor.py <out 128 png> [<out 512 png>]`: the two-block art (`icon2/src_blocks.png`)
+  recoloured into horizontal earth/clay layers. Face quads are hand-measured on the 512 source; layer colours are the `LAYERS` table.
 - `costcheck.js <patched assets.xml> [product]`: Mod3 assets whose resolved cost (through BaseAssetGUID) still uses a product.
 
 `rammed_earth_preview.png`: silk plantation (left), rammed earth farm (right), icon.
