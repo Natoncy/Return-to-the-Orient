@@ -1,0 +1,17 @@
+<ModOps>
+  <ModOp Path = "//InfoTipData[Guid='25000208']//VisibilityElement[ExpectedValueInt = '119028']" Type = "addNextSibling">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404005011</ExpectedValueInt>
+      <Condition>[Selection Object GUID]</Condition>
+    </VisibilityElement>
+  </ModOp>
+</ModOps>

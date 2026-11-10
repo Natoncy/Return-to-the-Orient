@@ -9,4 +9,5 @@
   <Include File="infotips_beacons.xml" />
   <!-- <Include File="infotips_lighthouse.xml" /> -->
   <Include File="infotips_income.xml" />
+  <Include File="infotips_fuel_station.xml" />
 </ModOps>
