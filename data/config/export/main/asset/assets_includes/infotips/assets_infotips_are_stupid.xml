@@ -1,0 +1,61 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID='1010343'>
+		<Asset>
+			<Template>FactoryBuilding7</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005158</GUID>
+					<Name>InfoTip Support 01</Name>
+				</Standard>
+				<FactoryBase>
+					<FactoryOutputs>
+						<Item>
+							<Product>1404005087</Product>
+						</Item>
+                        <Item>
+							<Product>1404005131</Product>
+						</Item>
+                        <Item>
+							<Product>1400201053</Product>
+						</Item>
+					</FactoryOutputs>
+				</FactoryBase>
+			</Values>
+		</Asset>
+        <Asset>
+			<Template>FactoryBuilding7</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005159</GUID>
+					<Name>InfoTip Support 02</Name>
+				</Standard>
+				<FactoryBase>
+					<FactoryOutputs>
+						<Item>
+							<Product>1010217</Product>
+						</Item>
+                        <Item>
+							<Product>1010206</Product>
+						</Item>
+                        <Item>
+							<Product>1010258</Product>
+						</Item>
+					</FactoryOutputs>
+				</FactoryBase>
+			</Values>
+		</Asset>
+	</ModOp>
+
+    <ModOp GUID="1404005158" Type="add" Path="/Values/FactoryBase/FactoryOutputs/" Condition="#new_horizons_session">
+        <Item>
+            <Product>1404005059</Product>
+        </Item>
+    </ModOp>
+    <ModOp GUID="1404005159" Type="add" Path="/Values/FactoryBase/FactoryOutputs/" Condition="#new_horizons_session">
+        <Item>
+            <Product>1404005059</Product>
+        </Item>
+    </ModOp>
+
+</ModOps>

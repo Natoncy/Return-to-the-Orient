@@ -198,6 +198,8 @@ OTHER
 1404005149-1404005152: InfoTip Fluff
 1404005153: InfoTip Fake Rammed Earth
 1404005154-1404005157: InfoTip Fluff
+1404005158: InfoTip Support 01
+1404005159: InfoTip Support 02
 
 SUBMODS
 ----------
