@@ -184,12 +184,10 @@
                     <ProvidesPublicServiceNeed>0</ProvidesPublicServiceNeed>
                 </BuffFactory>
                 <RecipeBuilding />
-                <!-- once per island; the Mall template gets BuildingUnique in templates.xml.
-                     Mod3 is taken by Taludas' trading company, Mod4 is ours -->
                 <BuildingUnique>
                     <Uniques>
                         <Item>
-                            <UniqueType>Mod4</UniqueType>
+                            <UniqueType>Mod16</UniqueType>
                             <UniqueScope>Area</UniqueScope>
                         </Item>
                     </Uniques>

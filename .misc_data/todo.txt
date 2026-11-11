@@ -3,7 +3,8 @@ Enums:
     ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
     SocketExclusiveGroup: Mod14 (Light house)
-    InternalID: 28, 64, 65, 66, 69
+    UniqueType: Mod16 (Embassy)
+    InternalID: 28 (where?), 64 (where?), 65, 66, (67?), 69
 Required Pop.: 3000 Investors, 1500 Obreros, 1000 Elders
 Required DLCs: Land of Lions, New World Rising
 Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies
@@ -24,6 +25,8 @@ v0.7.0
 
 - Letting AI settle the region
 - add compost for moldy bread
+
+- Check used InternalIDs (see above)
 
 Before v1.0.0
 - Check shared mods
