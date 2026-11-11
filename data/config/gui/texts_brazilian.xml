@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | Embaixada Oriental -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>Embaixada Oriental</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | Embaixada Oriental -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>Embaixada Oriental</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Apenas uma por ilha. Consome Selos do Sultão. Todas as residências da ilha pagam 10% mais impostos, e os bens do Oriente também contam como alguns bens locais. -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>Apenas uma por ilha. Consome Selos do Sultão. Todas as residências da ilha pagam 10% mais impostos, e os bens do Oriente também contam como alguns bens locais.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Produção de Módulos</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] tem que ser produzido em [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>Módulos de execução</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>Através do trabalho árduo, os trabalhadores absorvem a argila macia em um material de construção duro.</Text>
     </Text>
   </ModOp>
 </ModOps>

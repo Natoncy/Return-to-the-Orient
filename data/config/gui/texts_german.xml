@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | Orientalische Botschaft -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>Orientalische Botschaft</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | Orientalische Botschaft -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>Orientalische Botschaft</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Nur eine pro Insel. Verbraucht Sultanssiegel. Alle Wohnhäuser der Insel zahlen 10 % mehr Steuern, und Waren aus dem Orient zählen auch als einige lokale Waren. -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>Nur eine pro Insel. Verbraucht Sultanssiegel. Alle Wohnhäuser der Insel zahlen 10 % mehr Steuern, und Waren aus dem Orient zählen auch als einige lokale Waren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Modulproduktion</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] muss hergestellt werden in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>Laufende Module</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>Durch anstrengende Arbeit stampfen die Arbeiter den weichen Ton in ein hartes Baumaterial.</Text>
     </Text>
   </ModOp>
 </ModOps>

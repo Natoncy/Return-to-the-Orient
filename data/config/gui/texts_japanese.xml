@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | 東洋大使館 -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>東洋大使館</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | 東洋大使館 -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>東洋大使館</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | 島ごとに1つまで。スルタンの印章を消費します。島内のすべての住宅の税収が10%増加し、東洋の商品が一部の地元商品としても扱われます。 -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>島ごとに1つまで。スルタンの印章を消費します。島内のすべての住宅の税収が10%増加し、東洋の商品が一部の地元商品としても扱われます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>モジュールの生産</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] 作り出すために [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>モジュールの実行</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>強烈な労力によって、労働者は堅い建築材料に柔らかい粘土を叩きます。</Text>
     </Text>
   </ModOp>
 </ModOps>

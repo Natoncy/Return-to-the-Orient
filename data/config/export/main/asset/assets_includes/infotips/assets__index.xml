@@ -1,3 +1,4 @@
 <ModOps>
     <Include File="assets_infotip_no_attractiveness.xml" />
+    <Include File="assets_infotip_fake_rammed_earth.xml" />
 </ModOps>

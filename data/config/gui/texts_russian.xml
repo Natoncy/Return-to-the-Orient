@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | Восточное посольство -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>Восточное посольство</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | Восточное посольство -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>Восточное посольство</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Только одно на остров. Потребляет Печати Султана. Все жилые дома острова платят на 10% больше налогов, а восточные товары также засчитываются как некоторые местные товары. -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>Только одно на остров. Потребляет Печати Султана. Все жилые дома острова платят на 10% больше налогов, а восточные товары также засчитываются как некоторые местные товары.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Модульное производство</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] должны быть произведены в [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>Бегущие модули</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>Благодаря напряженному труду рабочие уплотняют мягкую глину в твердый строительный материал.</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | Ambasciata orientale -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>Ambasciata orientale</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | Ambasciata orientale -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>Ambasciata orientale</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Solo una per isola. Consuma I sigilli del sultano. Tutte le residenze dell'isola pagano il 10% di tasse in più e le merci dell'Oriente valgono anche come alcune merci locali. -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>Solo una per isola. Consuma I sigilli del sultano. Tutte le residenze dell'isola pagano il 10% di tasse in più e le merci dell'Oriente valgono anche come alcune merci locali.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Produzione del modulo</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] deve essere prodotto in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>Moduli in esecuzione</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>Attraverso il lavoro faticoso, i lavoratori tamp l'argilla morbida in un materiale di costruzione difficile.</Text>
     </Text>
   </ModOp>
 </ModOps>
