@@ -210,6 +210,70 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005154</GUID>
+                    <Name>InfoTip FakeRammedEarth Header</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Module Production</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005155</GUID>
+                    <Name>InfoTip FakeRammedEarth Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005156</GUID>
+                    <Name>InfoTip FakeRammedEarth Header 2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Running Modules</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005157</GUID>
+                    <Name>InfoTip FakeRammedEarth Fluff 2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Through strenuous labor, workers stomp the soft clay into a hard building material.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

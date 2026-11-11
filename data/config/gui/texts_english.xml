@@ -7366,5 +7366,25 @@
       <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods.</Text>
     </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Module Production</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>Running Modules</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>Through strenuous labor, workers stomp the soft clay into a hard building material.</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | 東方大使館 -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>東方大使館</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | 東方大使館 -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>東方大使館</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | 每座島嶼僅限一座。消耗蘇丹的印章。島上所有住宅多繳納10%的稅，東方商品也可算作部分本地商品。 -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>每座島嶼僅限一座。消耗蘇丹的印章。島上所有住宅多繳納10%的稅，東方商品也可算作部分本地商品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>模組製作</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] 必須用 [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>正在執行的模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>工人們用苦力 把軟黏土打成硬建築物</Text>
     </Text>
   </ModOp>
 </ModOps>

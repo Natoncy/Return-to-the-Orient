@@ -7353,18 +7353,38 @@
     </Text>
     <Text>
       <GUID>1404009400</GUID>
-      <!-- Mall | Oriental Embassy | 동방 대사관 -->
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
       <Text>동방 대사관</Text>
     </Text>
     <Text>
       <GUID>1404009401</GUID>
-      <!-- TownhallBuff | Oriental Embassy | 동방 대사관 -->
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
       <Text>동방 대사관</Text>
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | 섬당 하나만 건설 가능. 술탄의 인장을 소비합니다. 섬의 모든 주거지는 세금을 10% 더 내며, 동방 상품이 일부 현지 상품으로도 인정됩니다. -->
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
       <Text>섬당 하나만 건설 가능. 술탄의 인장을 소비합니다. 섬의 모든 주거지는 세금을 10% 더 내며, 동방 상품이 일부 현지 상품으로도 인정됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Module 생산</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] 에서 생산 [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>실행 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>strenuous 노동을 통해, 노동자는 단단한 건물 물자로 연약한 찰흙을 감금합니다.</Text>
     </Text>
   </ModOp>
 </ModOps>
