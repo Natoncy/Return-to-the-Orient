@@ -18,9 +18,6 @@
                             <Building>1404000158</Building>
                         </Item>
                         <Item>
-                            <Building>1404004211</Building>
-                        </Item>
-                        <Item>
                             <Building>1404000204</Building>
                         </Item>
                         <Item>
@@ -76,6 +73,9 @@
                         </Item>
                         <Item>
                             <Building>1404000298</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004211</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

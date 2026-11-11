@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>Beacon necessário.</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Embaixada Oriental -->
+      <Text>Embaixada Oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Embaixada Oriental -->
+      <Text>Embaixada Oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Apenas uma por ilha. Consome Selos do Sultão. Todas as residências da ilha pagam 10% mais impostos, e os bens do Oriente também contam como alguns bens locais. -->
+      <Text>Apenas uma por ilha. Consome Selos do Sultão. Todas as residências da ilha pagam 10% mais impostos, e os bens do Oriente também contam como alguns bens locais.</Text>
+    </Text>
   </ModOp>
 </ModOps>

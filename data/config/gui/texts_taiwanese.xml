@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>需要燈塔</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | 東方大使館 -->
+      <Text>東方大使館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | 東方大使館 -->
+      <Text>東方大使館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | 每座島嶼僅限一座。消耗蘇丹的印章。島上所有住宅多繳納10%的稅，東方商品也可算作部分本地商品。 -->
+      <Text>每座島嶼僅限一座。消耗蘇丹的印章。島上所有住宅多繳納10%的稅，東方商品也可算作部分本地商品。</Text>
+    </Text>
   </ModOp>
 </ModOps>

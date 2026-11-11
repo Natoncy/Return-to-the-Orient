@@ -2,13 +2,13 @@
   "// reuse": "same UV layout as a texture that already has a mask (mod or vanilla)",
   "data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/erzschmelze/maps/s_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
   "data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/erzschmelze/maps/s_ambassador_house03_blue_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
-  "data/graphics/buildings/orient/sbm/iaam/orient/005kustengebaude/speicherstadt/maps/s_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
+  "data/graphics/buildings/orient/oriental_embassy/maps/s_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/eckflugel/maps/s_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/maps/s_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/eckturm/maps/ss_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/torhaus/maps/ss_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/wohnflugel/maps/ss_ambassador_house03_diff.png": { "reuse": "data/graphics/1404_import/buildings/residence/south/ambassador/maps/s_ambassador_house03_mask.png" },
-  "data/graphics/buildings/orient/sbm/iaam/orient/005kustengebaude/speicherstadt/maps/s_sultan_residence_diff.png": { "reuse": "data/graphics/1404_import/buildings/native/south/sultan_residence/maps/s_sultan_residence_mask.png" },
+  "data/graphics/buildings/orient/oriental_embassy/maps/s_sultan_residence_diff.png": { "reuse": "data/graphics/1404_import/buildings/native/south/sultan_residence/maps/s_sultan_residence_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/eckturm/maps/s_sultan_residence_diff.png": { "reuse": "data/graphics/1404_import/buildings/native/south/sultan_residence/maps/s_sultan_residence_mask.png" },
   "data/graphics/buildings/orient/sultanspalace/torhaus/maps/ss_sultan_residence_diff.png": { "reuse": "data/graphics/1404_import/buildings/native/south/sultan_residence/maps/s_sultan_residence_mask.png" },
   "data/graphics/buildings/orient/airship_platform/airship_landing_platform_modules/maps/platform_module_diff.psd": { "reuse": "data/graphics/buildings/orient/airship_platform/airship_landing_platform_modules/maps/platform_module_mask.psd" },
@@ -45,6 +45,6 @@
   "data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/toepfer/maps/s_toepfer_pistachios_diff.png": { "same": "data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/toepfer/maps/s_toepfer_chickpeas_diff.png" },
   "data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/toepfer/maps/s_toepfer_part01_diff.png": { "keep": [[0.14, 0.42, 0.34, 0.55], [0.05, 0.66, 0.13, 0.73], [0.27, 0.66, 0.35, 0.73], [0.5, 0.66, 0.59, 0.73], [0.04, 0.86, 0.12, 0.94], [0.6, 0.80, 0.74, 0.94]] },
   "data/graphics/buildings/orient/sbm/iaam/orient/005kustengebaude/hafenturm/maps/hafenturm_diff.png": { "keep": [[0, 0.24, 0.49, 0.47], [0.58, 0.24, 0.66, 0.47], [0.50, 0.18, 0.58, 0.33]] },
-  "data/graphics/buildings/orient/sbm/iaam/orient/005kustengebaude/speicherstadt/maps/indian_warehouse_diff_512.png": { "keep": [[0.03, 0.38, 0.38, 0.50], [0.02, 0.75, 0.35, 0.88], [0.86, 0, 0.95, 0.40]] },
+  "data/graphics/buildings/orient/oriental_embassy/maps/indian_warehouse_diff_512.png": { "keep": [[0.03, 0.38, 0.38, 0.50], [0.02, 0.75, 0.35, 0.88], [0.86, 0, 0.95, 0.40]] },
   "data/graphics/buildings/orient/sultanspalace/bogengang/maps/palace_connector_02_diff_512.png": { "keep": [[0.6, 0.36, 0.82, 0.52]] }
 }

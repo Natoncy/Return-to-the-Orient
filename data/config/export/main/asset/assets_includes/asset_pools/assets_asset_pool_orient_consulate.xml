@@ -28,6 +28,10 @@
 						<Item>
 							<Asset>1404000928</Asset>
 						</Item>
+						<!-- Oriental Embassy (Old World, Investors menu): consumes Sultan's Seals -->
+						<Item>
+							<Asset>1404009400</Asset>
+						</Item>
 					</AssetList>
 				</AssetPool>
 			</Values>

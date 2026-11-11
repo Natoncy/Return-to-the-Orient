@@ -279,4 +279,10 @@
         </Template>
     </ModOp>
 
+    <!-- Mall gets BuildingUnique (empty = no limit, vanilla malls unchanged) so the Oriental Embassy 1404009400
+         can be once per island (UniqueType Mod4, scope Area). Skipped if another mod already added it. -->
+    <ModOp Template="Mall" Type="addPrevSibling" Path="/Properties[not(BuildingUnique)]/Culture" AllowNoMatch="1">
+        <BuildingUnique />
+    </ModOp>
+
 </ModOps>

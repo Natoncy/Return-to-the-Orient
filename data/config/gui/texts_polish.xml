@@ -7351,5 +7351,20 @@
       <!-- Text | <Key> | Beacon required -->
       <Text>Wymagany beacon</Text>
     </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Ambasada Orientu -->
+      <Text>Ambasada Orientu</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Ambasada Orientu -->
+      <Text>Ambasada Orientu</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Tylko jedna na wyspę. Zużywa Pieczęcie sułtana. Wszystkie domy na wyspie płacą 10% więcej podatków, a towary z Orientu liczą się też jako niektóre towary lokalne. -->
+      <Text>Tylko jedna na wyspę. Zużywa Pieczęcie sułtana. Wszystkie domy na wyspie płacą 10% więcej podatków, a towary z Orientu liczą się też jako niektóre towary lokalne.</Text>
+    </Text>
   </ModOp>
 </ModOps>
