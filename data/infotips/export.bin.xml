@@ -1,5 +1,6 @@
 <ModOps>
   <Include File="infotips_region.xml" />
+  <Include File="infotips_embassy.xml" />
   <Include File="infotips_range.xml" />
   <Include File="infotips_sultans_seals.xml" />
   <Include File="infotips_no_attractiveness.xml" />

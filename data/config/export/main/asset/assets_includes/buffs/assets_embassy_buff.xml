@@ -69,4 +69,11 @@
         </Asset>
     </ModOp>
 
+    <ModOp Type="add" GUID="1404009401" Path="/Values/ResidenceUpgrade/NeedProvideNeedUpgrade/" Condition="#new_horizons_session">
+        <Item>
+            <ProvidedNeed>1404005059</ProvidedNeed>
+            <SubstituteNeed>1404005059</SubstituteNeed>
+        </Item>
+    </ModOp>
+
 </ModOps>
