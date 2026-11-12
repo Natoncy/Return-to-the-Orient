@@ -105,14 +105,6 @@
         </Item>
     </ModOp>
     
-    <!-- Oriental Embassy buff (main mod buffs/assets_embassy_buff.xml): Magnates' Oudh Perfume also counts as Blue Cheese -->
-    <ModOp Type="add" GUID="1404009401" Path="Values/ResidenceUpgrade/NeedProvideNeedUpgrade" Condition="#new_horizons_session">
-        <Item>
-            <ProvidedNeed>1440014</ProvidedNeed>
-            <SubstituteNeed>1404005059</SubstituteNeed>
-        </Item>
-    </ModOp>
-
     <ModOp Type="addNextSibling" GUID="1445600" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445041']" Condition="#new_horizons_session">
         <Item>
             <Building>1404005050</Building>
@@ -136,6 +128,52 @@
                 </Tier2>
         </Item>
     </ModOp>
+
+    <!-- Add silver to gramophone chain -->
+    <ModOp Type="addNextSibling" GUID="1445085" Path="Values/ProductionChain/Tier1/Item[Building='1441358']" Condition="#new_horizons_buildmenu">
+        <Item>
+            <Building>1404001302</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1404001300</Building>
+                    </Item>
+                </Tier2>
+        </Item>
+    </ModOp>
+
+    <!-- Add orient products to Horai kontor sort list -->
+    <ModOp Type="addNextSibling" GUID="15504020,15504021" Path="Values/ProductList/List/Item[Product='15504019']" Condition="#new_horizons_buildmenu">
+        <Item>
+            <Product>1404000029</Product>
+        </Item>
+        <Item>
+            <Product>1404000035</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504022" Path="Values/ProductList/List/Item[Product='502074']" Condition="#new_horizons_buildmenu">
+        <Item>
+					<Product>1404000032</Product>
+				</Item>
+				<Item>
+					<Product>1404000039</Product>
+				</Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504023" Path="Values/ProductList/List/Item[Product='502075']" Condition="#new_horizons_buildmenu">
+        <Item>
+          <Product>1404000041</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504024" Path="Values/ProductList/List/Item[Product='502076']" Condition="#new_horizons_buildmenu">
+        <Item>
+            <Product>1404000028</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504025" Path="Values/ProductList/List/Item[Product='502077']" Condition="#new_horizons_buildmenu">
+        <Item>
+          <Product>1404000042</Product>
+        </Item>
+    </ModOp>
+
 
     <!-- Set Algae and Rice as produced in Horai for recipe book -->
     <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod2</ModOp>

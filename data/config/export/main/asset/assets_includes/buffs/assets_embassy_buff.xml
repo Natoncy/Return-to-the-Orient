@@ -35,12 +35,6 @@
                 <ResidenceUpgrade>
                     <TaxModifierInPercent>10</TaxModifierInPercent>
                     <NeedProvideNeedUpgrade>
-                        <!-- TEST (2026-11-10): Farmers: Pub -> Fish, easy in-game check that the buff substitutes
-                             needs at all (a public-service need as SubstituteNeed). Remove after testing. -->
-                        <Item>
-                            <ProvidedNeed>1010200</ProvidedNeed>
-                            <SubstituteNeed>1010349</SubstituteNeed>
-                        </Item>
                         <!-- Artisans: Hummus -> Canned Food -->
                         <Item>
                             <ProvidedNeed>1010217</ProvidedNeed>
@@ -71,7 +65,7 @@
 
     <ModOp Type="add" GUID="1404009401" Path="/Values/ResidenceUpgrade/NeedProvideNeedUpgrade/" Condition="#new_horizons_session">
         <Item>
-            <ProvidedNeed>1404005059</ProvidedNeed>
+            <ProvidedNeed>1440004</ProvidedNeed>
             <SubstituteNeed>1404005059</SubstituteNeed>
         </Item>
     </ModOp>
