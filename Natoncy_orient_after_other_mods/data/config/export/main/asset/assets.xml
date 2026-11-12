@@ -71,8 +71,13 @@
 		</Item>
 	</ModOp>
 
-    <!-- Set Agarwood as produced in Horai-->
-    <ModOp Type="add" GUID="15504013" Path="Values/ProductList/List" Condition="#new_horizons_products">
+    <!-- Show Agarwood under Horai kontor list-->
+    <ModOp Type="addNextSibling" GUID="15504013" Path="Values/ProductList/List/Item[Product='1440202']" Condition="#new_horizons_products">
+        <Item>
+            <Product>1900100180</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504011" Path="Values/ProductList/List/Item[Product='1500010847']" Condition="#new_horizons_products">
         <Item>
             <Product>1900100180</Product>
         </Item>
@@ -142,7 +147,7 @@
     </ModOp>
 
     <!-- Add orient products to Horai kontor sort list -->
-    <ModOp Type="addNextSibling" GUID="15504020,15504021" Path="Values/ProductList/List/Item[Product='15504019']" Condition="#new_horizons_buildmenu">
+    <ModOp Type="addNextSibling" GUID="15504020,15504021" Path="Values/ProductList/List/Item[Product='15504019']" Condition="#new_horizons_products">
         <Item>
             <Product>1404000029</Product>
         </Item>
@@ -150,7 +155,7 @@
             <Product>1404000035</Product>
         </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="15504022" Path="Values/ProductList/List/Item[Product='502074']" Condition="#new_horizons_buildmenu">
+    <ModOp Type="addNextSibling" GUID="15504022" Path="Values/ProductList/List/Item[Product='502074']" Condition="#new_horizons_products">
         <Item>
 					<Product>1404000032</Product>
 				</Item>
@@ -158,17 +163,17 @@
 					<Product>1404000039</Product>
 				</Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="15504023" Path="Values/ProductList/List/Item[Product='502075']" Condition="#new_horizons_buildmenu">
+    <ModOp Type="addNextSibling" GUID="15504023" Path="Values/ProductList/List/Item[Product='502075']" Condition="#new_horizons_products">
         <Item>
           <Product>1404000041</Product>
         </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="15504024" Path="Values/ProductList/List/Item[Product='502076']" Condition="#new_horizons_buildmenu">
+    <ModOp Type="addNextSibling" GUID="15504024" Path="Values/ProductList/List/Item[Product='502076']" Condition="#new_horizons_products">
         <Item>
             <Product>1404000028</Product>
         </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="15504025" Path="Values/ProductList/List/Item[Product='502077']" Condition="#new_horizons_buildmenu">
+    <ModOp Type="addNextSibling" GUID="15504025" Path="Values/ProductList/List/Item[Product='502077']" Condition="#new_horizons_products">
         <Item>
           <Product>1404000042</Product>
         </Item>
