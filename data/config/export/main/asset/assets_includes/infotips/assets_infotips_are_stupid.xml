@@ -54,7 +54,7 @@
     </ModOp>
     <ModOp GUID="1404005159" Type="add" Path="/Values/FactoryBase/FactoryOutputs/" Condition="#new_horizons_session">
         <Item>
-            <Product>1404005059</Product>
+            <Product>1440004</Product>
         </Item>
     </ModOp>
 
