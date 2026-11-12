@@ -45,7 +45,7 @@
           <Style />
         </Icon>
         <Text>
-          <Text>[StaticData UniqueBuildings DuplicateObjectText([RefGuid], [Area Current ID], [Participants GetCurrentParticipantID]) Text]</Text>
+          <TextGUID>1404005164</TextGUID>
           <Style />
         </Text>
         <Value>
@@ -61,7 +61,7 @@
       <InfoElement>
         <ElementType>5</ElementType>
         <Text>
-          <Text>Verbrauch:</Text>
+          <TextGUID>1404005160</TextGUID>
           <Style />
         </Text>
       </InfoElement>
@@ -91,7 +91,7 @@
       <InfoElement>
         <ElementType>5</ElementType>
         <Text>
-          <Text>Effekte:</Text>
+          <TextGUID>1404005161</TextGUID>
           <Style />
         </Text>
       </InfoElement>
@@ -121,7 +121,7 @@
       <InfoElement>
         <ElementType>5</ElementType>
         <Text>
-          <Text>Wohngebäude, deren Bedürfnis nach</Text>
+          <TextGUID>1404005162</TextGUID>
           <Style />
         </Text>
       </InfoElement>
@@ -158,7 +158,7 @@
       <InfoElement>
         <ElementType>5</ElementType>
         <Text>
-          <Text>erfüllt ist, erhalten</Text>
+          <TextGUID>1404005163</TextGUID>
           <Style />
         </Text>
       </InfoElement>
