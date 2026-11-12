@@ -18,13 +18,10 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- Sulatate Embassy in Old World
-- Swap palace and light house unlock population count
 
-- Check low res textures before zooming in all the way for IAAM buildings
-
-- Letting AI settle the region
 - add compost for moldy bread
+- backwards compatibility mod
+- Letting AI settle the region
 
 - Check used InternalIDs (see above)
 
