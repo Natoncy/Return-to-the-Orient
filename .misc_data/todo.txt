@@ -1,10 +1,21 @@
 Enums:
-    RegionID: Mod3 (Orient)
-    ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
-    SocketScopeRadiusOverlapCategory: Mod1 (Noria)
-    SocketExclusiveGroup: Mod14 (Light house)
-    UniqueType: Mod16 (Embassy)
-    InternalID: 28 (where?), 64 (where?), 65, 66, (67?), 69
+    RegionID:
+        Mod3 (1404000006 Region Orient)
+    ParticipantID:
+        Mod8 (1404000018 OrientNomads)
+        Mod9 (1404000019 OrientEnvoys)
+        Mod12 (1404000975 Third_party_08 (Madame Kahina Orient))
+    SocketScopeRadiusOverlapCategory
+        Mod1 (1404000212 Noria)
+    ItemAllocation:
+        Mod14 (1404007002 orient_lighthouse_3_complete)
+    UniqueType:
+        Mod16 (1404009400 Oriental Embassy)
+    InternalID:
+        65 (1404004229 Canal Orient)
+        66 (1404004230 Crossing Canal-Street Orient)
+        67 (1404004231 Crossing Canal-FastStreet Orient)
+        69 (1404000845 Simple Street Orient)
 Required Pop.: 3000 Investors, 1500 Obreros, 1000 Elders
 Required DLCs: Land of Lions, New World Rising
 Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies
@@ -18,8 +29,8 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-- backwards compatibility mod
 - Letting AI settle the region
+- release beta compatibility mod
 
 Before v1.0.0
 - Check shared mods

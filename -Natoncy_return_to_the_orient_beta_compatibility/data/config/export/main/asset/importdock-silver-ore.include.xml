@@ -1,0 +1,222 @@
+<ModOps>
+
+	<!-- Compatibility for saves from before the Orient silver ore slots: an Orient import dock that turns trade licenses into silver ore.
+	     Copy of the Orient honey dock 1404003203, but based on the shared honey dock 1404000382 so it does not inherit the honey TextOverride. -->
+	<ModOp Type="addNextSibling" GUID="1404003203">
+		<Asset>
+			<BaseAssetGUID>1404000382</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003212</GUID>
+					<Name>trading_company_orient (Silver Ore Import Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_import_dock_silver_ore.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/import_pier_orient.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003212</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Import Dock: Silver Ore</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404009000</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1957006101</Product>
+							<Amount>4</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>90</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Module of the Orient trading company, after the honey dock -->
+	<ModOp Type="addNextSibling" GUID="1404003200" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='1404003203']">
+		<Item>
+			<ModuleGUID>1404003212</ModuleGUID>
+		</Item>
+	</ModOp>
+
+	<!-- Buff targets, like the other Orient import docks -->
+	<ModOp Type="add" GUID="193897,193480" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404003212</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404003212</GUID>
+		</Item>
+	</ModOp>
+
+	<!-- New games: unlocks with the trading company through the ceremonial sabers pool -->
+	<ModOp Type="add" GUID="1404000765" Path="/Values/AssetPool/AssetList">
+		<Item>
+			<Asset>1404003212</Asset>
+		</Item>
+	</ModOp>
+
+	<!-- Existing saves: the progression and creative triggers have already fired there, so two own triggers with the same
+	     conditions (2.1 = 300 Envoys, creative mode) unlock the dock. A trigger new to a save registers when it is loaded. -->
+	<ModOp Type="addNextSibling" GUID="10138">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404003213</GUID>
+					<Name>Orient Silver Ore Import Dock unlock (300 Envoys)</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition/>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>1404000011</Context>
+								<CounterAmount>300</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1404003212</Asset>
+											</Item>
+										</UnlockAssets>
+										<UnhideAssets/>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+					<ResetTrigger>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<EmptyAutoCreateValue/>
+						</Values>
+					</ResetTrigger>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404003214</GUID>
+					<Name>Orient Silver Ore Import Dock unlock (creative mode)</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Values>
+							<ConditionPropsNegatable/>
+							<Condition/>
+							<ConditionIsCreativeMode/>
+						</Values>
+						<Template>ConditionIsCreativeMode</Template>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1404003212</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+					<SubTriggers />
+					<ResetTrigger>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<EmptyAutoCreateValue/>
+						</Values>
+					</ResetTrigger>
+				</Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
