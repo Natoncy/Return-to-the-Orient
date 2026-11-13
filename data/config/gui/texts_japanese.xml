@@ -2239,7 +2239,7 @@
     <Text>
       <GUID>1404000837</GUID>
       <!-- Text | To start the expedition, go to the World Map and select the Orient Expedition. | To start the expedition, go to the World Map and select the Orient Expedition. -->
-      <Text>遠征を開始するには、世界地図に移動し、Orient Expedition を選択します。</Text>
+      <Text>遠征を開始するには、世界地図に移動し、東方遠征を選択します。</Text>
     </Text>
     <Text>
       <GUID>1404000838</GUID>
@@ -5482,6 +5482,11 @@
       <Text>輸出ドック:シャンデリア</Text>
     </Text>
     <Text>
+      <GUID>1404003215</GUID>
+      <!--  | Export Dock: Mouldy Bread | Export Dock: Mouldy Bread -->
+      <Text>輸出ドック:カビたパン</Text>
+    </Text>
+    <Text>
       <GUID>1404003300</GUID>
       <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
       <Text>コーヒーハウスのメニュー</Text>
@@ -7334,7 +7339,7 @@
     <Text>
       <GUID>1404005150</GUID>
       <!-- Text | <Key> | <Translation> -->
-      <Text>ソースが乾燥していないため、ノリアス間の距離を保ちなければなりません。</Text>
+      <Text>水源が枯れないよう、ノリア同士の距離を保たなければなりません。</Text>
     </Text>
     <Text>
       <GUID>1404005149</GUID>
@@ -7344,12 +7349,12 @@
     <Text>
       <GUID>1404005152</GUID>
       <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
-      <Text>ライトハウスは、世界中の効果をトリガーするためにレンズが必要です。</Text>
+      <Text>灯台が世界中で効果を発揮するにはレンズが必要です。</Text>
     </Text>
     <Text>
       <GUID>1404005151</GUID>
       <!-- Text | <Key> | Beacon required -->
-      <Text>Beaconが必要</Text>
+      <Text>灯火が必要</Text>
     </Text>
     <Text>
       <GUID>1404009400</GUID>
@@ -7384,7 +7389,32 @@
     <Text>
       <GUID>1404005157</GUID>
       <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
-      <Text>強烈な労力によって、労働者は堅い建築材料に柔らかい粘土を叩きます。</Text>
+      <Text>重労働によって、労働者は柔らかい粘土を踏み固め、硬い建材に変えます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005160</GUID>
+      <!-- Text | Consumption | Consumption -->
+      <Text>消費</Text>
+    </Text>
+    <Text>
+      <GUID>1404005161</GUID>
+      <!-- Text | Effects | Effects -->
+      <Text>効果</Text>
+    </Text>
+    <Text>
+      <GUID>1404005162</GUID>
+      <!-- Text | Residences, whose need for | Residences, whose need for -->
+      <Text>以下の需要が満たされた住居は</Text>
+    </Text>
+    <Text>
+      <GUID>1404005163</GUID>
+      <!-- Text | is fulfilled, receive | is fulfilled, receive -->
+      <Text>以下を受け取る</Text>
+    </Text>
+    <Text>
+      <GUID>1404005164</GUID>
+      <!-- Text | Limited to one per island | Limited to one per island -->
+      <Text>1つの島で1つに限られている</Text>
     </Text>
   </ModOp>
 </ModOps>

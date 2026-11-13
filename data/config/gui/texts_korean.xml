@@ -2249,7 +2249,7 @@
     <Text>
       <GUID>1404000839</GUID>
       <!-- Text | Fulfil all your Nomads' needs, and then upgrade any fully-occupied residence to Envoys. | Fulfil all your Nomads' needs, and then upgrade any fully-occupied residence to Envoys. -->
-      <Text>Nomads의 요구 사항을 모두 충족한 다음, 완전히 채워진 거주지를 Envoys로 업그레이드하세요.</Text>
+      <Text>유목민의 요구 사항을 모두 충족한 다음, 완전히 채워진 거주지를 특사로 업그레이드하세요.</Text>
     </Text>
     <Text>
       <GUID>1404000840</GUID>
@@ -5482,6 +5482,11 @@
       <Text>수출 도크: 샹들리에</Text>
     </Text>
     <Text>
+      <GUID>1404003215</GUID>
+      <!--  | Export Dock: Mouldy Bread | Export Dock: Mouldy Bread -->
+      <Text>수출 도크: 곰팡이 핀 빵</Text>
+    </Text>
+    <Text>
       <GUID>1404003300</GUID>
       <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
       <Text>다방 메뉴</Text>
@@ -7334,22 +7339,22 @@
     <Text>
       <GUID>1404005150</GUID>
       <!-- Text | <Key> | <Translation> -->
-      <Text>그래서 소스는 건조하지 않습니다, 우리는 우리의 Norias 사이에 거리를 유지해야합니다.</Text>
+      <Text>수원이 마르지 않도록 노리아 사이에 거리를 두어야 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404005149</GUID>
       <!-- Text | <Key> | <Translation> -->
-      <Text>다른 Norias에 거리</Text>
+      <Text>다른 노리아와의 거리</Text>
     </Text>
     <Text>
       <GUID>1404005152</GUID>
       <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
-      <Text>Lighthouse는 전 세계의 효과를 트리거 할 렌즈가 필요합니다.</Text>
+      <Text>등대가 전 세계에 효과를 발휘하려면 렌즈가 필요합니다.</Text>
     </Text>
     <Text>
       <GUID>1404005151</GUID>
       <!-- Text | <Key> | Beacon required -->
-      <Text>필수 입력</Text>
+      <Text>등불 필요</Text>
     </Text>
     <Text>
       <GUID>1404009400</GUID>
@@ -7369,7 +7374,7 @@
     <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
-      <Text>Module 생산</Text>
+      <Text>모듈 생산</Text>
     </Text>
     <Text>
       <GUID>1404005155</GUID>
@@ -7384,7 +7389,32 @@
     <Text>
       <GUID>1404005157</GUID>
       <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
-      <Text>strenuous 노동을 통해, 노동자는 단단한 건물 물자로 연약한 찰흙을 감금합니다.</Text>
+      <Text>고된 노동으로 일꾼들이 부드러운 점토를 다져 단단한 건축 자재로 만듭니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005160</GUID>
+      <!-- Text | Consumption | Consumption -->
+      <Text>소비량</Text>
+    </Text>
+    <Text>
+      <GUID>1404005161</GUID>
+      <!-- Text | Effects | Effects -->
+      <Text>영향</Text>
+    </Text>
+    <Text>
+      <GUID>1404005162</GUID>
+      <!-- Text | Residences, whose need for | Residences, whose need for -->
+      <Text>다음 수요가 충족된 주거지는</Text>
+    </Text>
+    <Text>
+      <GUID>1404005163</GUID>
+      <!-- Text | is fulfilled, receive | is fulfilled, receive -->
+      <Text>다음을 받습니다</Text>
+    </Text>
+    <Text>
+      <GUID>1404005164</GUID>
+      <!-- Text | Limited to one per island | Limited to one per island -->
+      <Text>섬당 하나 이상 건설 불가</Text>
     </Text>
   </ModOp>
 </ModOps>

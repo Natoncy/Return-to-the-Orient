@@ -446,7 +446,6 @@
 				</Selection>
 				<Constructable>
 					<DestructionCategory>Residents</DestructionCategory>
-					<ConstructionMenuIcon>1404000011</ConstructionMenuIcon>
 				</Constructable>
 				<Locked/>
 				<Upgradable/>

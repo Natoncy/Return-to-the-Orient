@@ -1,0 +1,76 @@
+<ModOps>
+
+    <!-- Hacienda folders like vanilla's "Hacienda Menu Set NEW" 7281: the main building plus every module of its ConstructionOptions.
+         Modules don't open the folder (IgnoreUnlockStateForCategoryVisibility, as in 7281). The Sultan's Palace folder is 1404004216 (assets_orient_sultanspalace.xml). -->
+
+    <!-- Bedouin Camp 1404008100 + Bedouin Nomad Quarters 1404008101; replaces the camp in the Nomads tier menu 1404000014 and the City tab 1404000616 -->
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008108</GUID>
+                    <Name>orient construction menu bedouin camp</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_orient_bedouin_camp_emblem.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404008100</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404008101</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Bedouin Camp</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>1404008100</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Research Outpost 1404001115 + its Scholar residence module 1404001113; replaces the outpost in the Scholars tier menu and the Culture tab 1404000617 -->
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008109</GUID>
+                    <Name>orient construction menu research outpost</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_orient_research_station.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404001115</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404001113</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Research Outpost</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>1404001115</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

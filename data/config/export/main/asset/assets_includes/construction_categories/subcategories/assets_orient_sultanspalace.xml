@@ -1,7 +1,9 @@
 <ModOps>
 
-    <!-- Not in any menu: the palace itself sits in the Envoys tier menu 1404000015.
-         The Palace Envoy Quarters are the palace's Hacienda module, placed from its module panel; so are the gate 1404004214 and the cross wing 1404004215 (ornaments). -->
+    <!-- Hacienda folder like vanilla's "Hacienda Menu Set NEW" 7281: the palace plus all its panel modules in panel order,
+         Palace Envoy Quarters 1404004212, gate 1404004214, cross wing 1404004215 (user, 2026-11-13: gate added back).
+         Folder icon = the palace emblem. Listed instead of the palace in the
+         Envoys tier menu 1404000015 and the Culture tab 1404000617. Modules don't open the folder (IgnoreUnlockState...). -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -9,12 +11,24 @@
                 <Standard>
                     <GUID>1404004216</GUID>
                     <Name>orient construction menu sultan's palace</Name>
-                    <IconFilename>data/graphics/icons/ornaments/sultanspalace_palace.png</IconFilename>
+                    <IconFilename>data/graphics/icons/public_services/icon_orient_sultanspalace_emblem.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
                             <Building>1404004211</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004212</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                        <Item>
+                            <Building>1404004214</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                        <Item>
+                            <Building>1404004215</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

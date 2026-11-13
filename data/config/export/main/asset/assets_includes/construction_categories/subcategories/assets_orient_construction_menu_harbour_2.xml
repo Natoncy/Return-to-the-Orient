@@ -12,25 +12,16 @@
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
-                            <Building>1404000861</Building>
-                        </Item>
-                        <Item>
                             <Building>1404001230</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000867</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000873</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004111</Building>
                         </Item>
                         <Item>
                             <Building>1404004112</Building>
                         </Item>
                         <Item>
                             <Building>1404004113</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004115</Building>
                         </Item>
                     </BuildingList>
                     <CategoryDescription>19173</CategoryDescription>

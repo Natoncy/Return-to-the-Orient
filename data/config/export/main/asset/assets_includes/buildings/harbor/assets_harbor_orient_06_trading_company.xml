@@ -935,6 +935,125 @@
 
 	</ModOp>
 
+	<!-- New World export dock for Taludas' New World trading company 1500040200: mouldy bread (New Horizons product 1404005095,
+	     by-product of the mold lab 1404005066), so everything below needs New Horizons. Same base and setup as the Orient
+	     export docks above, with the New World models, costs and Obreros workforce. -->
+	<ModOp Type="addNextSibling" GUID="1404003211" Condition="#new_horizons_session">
+
+		<!-- Module: mouldy bread export dock (mouldy bread -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003215</GUID>
+					<Name>trading_company_nw (Mouldy Bread Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_moldy_bread.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/drakkam/buildings/production/trading_company_nw/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/drakkam/buildings/production/trading_company_nw/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003215</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Mouldy Bread</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404005095</Product>
+							<Amount>10</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1010367</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+	</ModOp>
+
+	<!-- New World trading company: build option, Taludas' New World menu 1500040202 and the export dock buff pool -->
+	<ModOp Type="add" GUID="1500040200" Path="/Values/ModuleOwner/ConstructionOptions" Condition="#new_horizons_session">
+		<Item>
+			<ModuleGUID>1404003215</ModuleGUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="1500040202" Path="/Values/ConstructionCategory/BuildingList" Condition="#new_horizons_session">
+		<Item>
+			<Building>1404003215</Building>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="#new_horizons_session">
+		<Item>
+			<GUID>1404003215</GUID>
+		</Item>
+	</ModOp>
+
 	<!-- Buff targets, same pools as the Taludas originals -->
 	<ModOp Type="add" GUID="193897,193480" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>

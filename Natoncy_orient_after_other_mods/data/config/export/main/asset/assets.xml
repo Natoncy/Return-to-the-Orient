@@ -64,6 +64,24 @@
         </Item>
     </ModOp>
 
+    <!-- Taludas' New World trading company menu 1500040202: same gap as the Old World one, never placed by the shared submod.
+         Needed for the Mouldy Bread export dock 1404003215 (New Horizons), so only with New Horizons; the company itself
+         unlocks with the NH mold pool 1404005098 (holds Taludas' NW pool 1500040203).
+         After the harbour 2 folder in the Obreros tier menu 25000194 and at the end of the NW harbour tab 500149;
+         the Conditions skip it when another mod already placed it. -->
+    <Group Condition="#new_horizons_session">
+        <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='501008']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1500040202']">
+            <Item>
+                <Building>1500040202</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="500149" Path="/Values/ConstructionCategory/BuildingList" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1500040202']">
+            <Item>
+                <Building>1500040202</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
     <!-- Add Agarwood Orchard to NH build menu -->
     <ModOp GUID="1445602" Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445028']" Condition="#new_horizons_buildmenu">
 		<Item>

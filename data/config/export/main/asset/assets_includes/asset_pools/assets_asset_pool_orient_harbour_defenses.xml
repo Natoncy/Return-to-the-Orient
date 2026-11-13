@@ -1,6 +1,7 @@
 <ModOps>
 
-    <!-- Same split as vanilla Enbesa (117918 at 1.1/1.2, 117921 + fire tower at 2.2/2.3) -->
+    <!-- 1404004120: nomad guns (Puckle Gun, Cannon, Flak), unlocked at 1.3; 1404004121: Fire Tower, unlocked at 2.1.
+         Armour Piercing (1404004113) and Big Betty (1404004115) are unlocked directly at 2.4. -->
     <ModOp Type="addNextSibling" GUID="118226">
         <Asset>
             <Template>AssetPool</Template>
@@ -13,6 +14,9 @@
                     <AssetList>
                         <Item>
                             <Asset>1404004110</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404004111</Asset>
                         </Item>
                         <Item>
                             <Asset>1404004114</Asset>
@@ -30,9 +34,6 @@
                 </Standard>
                 <AssetPool>
                     <AssetList>
-                        <Item>
-                            <Asset>1404004111</Asset>
-                        </Item>
                         <Item>
                             <Asset>1404004112</Asset>
                         </Item>

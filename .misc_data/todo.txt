@@ -18,12 +18,8 @@ Optional Mods: New Horizons
 TODO:
 
 v0.7.0
-
-- add compost for moldy bread
 - backwards compatibility mod
 - Letting AI settle the region
-
-- Check used InternalIDs (see above)
 
 Before v1.0.0
 - Check shared mods
