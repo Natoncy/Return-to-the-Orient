@@ -1,5 +1,35 @@
 <ModOps>
 
-    
+    <ModOp GUID="1010517" Type="addNextSibling">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                <GUID>1404005137</GUID>
+                <Name>Additional session AI Settle Unlock MAIN</Name>
+                </Standard>
+                <Locked/>
+                <Trigger>
+                <TriggerCondition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                        <PlayerCounter>IslandSettled</PlayerCounter>
+                        <CounterAmount>1</CounterAmount>
+                        <CounterScope>Session</CounterScope>
+                        <CounterScopeContext>1404000000</CounterScopeContext>
+                        <CheckSpecificParticipant>1</CheckSpecificParticipant>
+                        <CheckedParticipant>Human0</CheckedParticipant>
+                    </ConditionPlayerCounter>
+                    </Values>
+                </TriggerCondition>
+                </Trigger>
+                <TriggerSetup>
+                <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
 
 </ModOps>

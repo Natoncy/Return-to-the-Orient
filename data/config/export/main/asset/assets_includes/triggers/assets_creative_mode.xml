@@ -599,7 +599,7 @@
                     </ResetTrigger>
                 </Trigger>
                 <TriggerSetup>
-                    <UsedBySecondParties>0</UsedBySecondParties>
+                    <UsedBySecondParties>1</UsedBySecondParties>
                 </TriggerSetup>
             </Values>
         </Asset>
