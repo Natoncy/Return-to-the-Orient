@@ -15,8 +15,8 @@
                         <Values>
                             <Condition/>
                             <ConditionUnlocked>
-                                <UnlockNeeded>119892</UnlockNeeded>
-                                <!--institution_colony02_01 (Fire Station)-->
+                                <!-- Fire Department (1.3): fires start with it, as vanilla's start with the Fire Station stage -->
+                                <UnlockNeeded>1404000376</UnlockNeeded>
                             </ConditionUnlocked>
                             <ConditionPropsNegatable/>
                         </Values>

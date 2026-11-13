@@ -1,23 +1,23 @@
 <Info>
-  <BoundingBox>
-    <Name>BoundingBox</Name>
-    <Position>
-      <xf>-0.536551</xf>
-      <yf>2.665665</yf>
-      <zf>0.1847539</zf>
-    </Position>
-    <Rotation>
-      <xf>0</xf>
-      <yf>0</yf>
-      <zf>0</zf>
-      <wf>1</wf>
-    </Rotation>
-    <Extents>
-      <xf>2.536551</xf>
-      <yf>3.571919</yf>
-      <zf>2.97433</zf>
-    </Extents>
-  </BoundingBox>
+  	<BoundingBox>
+		<Name>BoundingBox</Name>
+		<Position>
+			<xf>-0.5366</xf>
+			<yf>2.6657</yf>
+			<zf>0.1848</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2.5366</xf>
+			<yf>3.5719</yf>
+			<zf>2.9743</zf>
+		</Extents>
+	</BoundingBox>
   <MeshBoundingBox>
     <Name>MeshBoundingBox</Name>
     <Position>
@@ -76,6 +76,86 @@
       <zf>0.6745667</zf>
     </Extents>
   </IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_2</Name>
+		<Position>
+			<xf>-0.1519</xf>
+			<yf>0.25</yf>
+			<zf>-0.0315</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1.6918</xf>
+			<yf>0.25</yf>
+			<zf>1.8442</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_3</Name>
+		<Position>
+			<xf>-0.2173</xf>
+			<yf>2.125</yf>
+			<zf>0.1987</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1.7827</xf>
+			<yf>0.625</yf>
+			<zf>1.556</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_4</Name>
+		<Position>
+			<xf>0.1057</xf>
+			<yf>2.875</yf>
+			<zf>0.6026</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.964</xf>
+			<yf>0.125</yf>
+			<zf>0.303</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_5</Name>
+		<Position>
+			<xf>0.1853</xf>
+			<yf>3.0315</yf>
+			<zf>0.7835</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.1949</xf>
+			<yf>0.0315</yf>
+			<zf>0.1</zf>
+		</Extents>
+	</IntersectBox>
   <Dummy>
     <Name>infolayer</Name>
     <Position>

@@ -11,12 +11,14 @@
     <Include File="assets_kontor_02.xml" />
     <Include File="assets_kontor_03.xml" />
     <Include File="assets_kontor_trader.xml" />
+    <Include File="assets_kahina_orient.xml" />
     <Include File="assets_logistic_orient_01.xml" />
     <Include File="assets_logistic_orient_02.xml" />
     <Include File="assets_logistic_orient_03.xml" />
     
     <Include File="assets_noria.xml" />
     <Include File="assets_orient_hacienda.xml" />
+    <Include File="assets_orient_bedouin_camp.xml" />
 
     <Include File="assets_residence_orient_scholars.xml" />
     <Include File="assets_residence_orient_tier01.xml" />

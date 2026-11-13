@@ -1,0 +1,112 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008110</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree1</Name>
+                    <IconFilename>data/graphics/icons/items/decrees/icon_orient_bedouin_camp_decree1.png</IconFilename>
+                    <InfoDescription>1404008111</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Camel Breeding</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404008112</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008111</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree1_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A Bedouin knows every camel by name, and its forebears seven generations back.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008112</GUID>
+                    <Name>Orient_Bedouin_Camp - Decree1 Buff</Name>
+                    <IconFilename>data/graphics/icons/items/decrees/icon_orient_bedouin_camp_decree1.png</IconFilename>
+                    <InfoDescription>1404008111</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000303</GUID>
+                            <!--camel farm-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404008110</TextOverride>
+                </Text>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade />
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008113</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree1_Info</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Increases the productivity of camel farms</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

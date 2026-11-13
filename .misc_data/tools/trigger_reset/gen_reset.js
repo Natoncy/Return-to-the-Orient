@@ -8,27 +8,29 @@ const STEP = 1000; // ms between two re-registrations
 const tiers = [
   ['1404000792', '1.0'],
   ['1404000814', '1.1'], ['1404000815', '1.2'], ['1404000816', '1.3'], ['1404000817', '1.4'],
-  ['1404000818', '2.0'], ['1404004010', '2.0 Roasted Chickpeas'], ['1404004012', '2.0 Hummus'], ['1404004025', '2.0 Astrolabes'],
-  ['1404000819', '2.1'], ['1404004011', '2.1 Roasted Chickpeas'], ['1404004013', '2.1 Hummus'], ['1404004014', '2.1 Candied Dates'],
-  ['1404004026', '2.1 Astrolabes'],
-  ['1404001016', '2.2'], ['1404001260', '2.2 Biscuits'], ['1404001269', '2.2 Ice Cream'],
-  ['1404004015', '2.2 Candied Dates'], ['1404004016', '2.2 Spiced Tea'], ['1404004018', '2.2 Arak'],
+  ['1404000818', '2.0'], ['1404004876', '2.0 Palm Trees'],
+  ['1404000819', '2.1'], ['1404001260', '2.1 Biscuits'],
+  ['1404001016', '2.2'],
   ['1404007020', '2.2 Lighthouse'],
-  ['1404000820', '2.3'], ['1404001270', '2.3 Ice Cream'], ['1404001261', '2.3 Typewriters'], ['1404001262', '2.3 Fans'],
-  ['1404004017', '2.3 Spiced Tea'], ['1404004019', '2.3 Arak'], ['1404004020', '2.3 Lokum'],
-  ['1404000821', '2.4'], ['1404001263', '2.4 Typewriters'], ['1404004024', '2.4 Typewriters Engineers'],['1404001264', '2.4 Fans'], ['1404001265', '2.4 Steam Carriages'], ['1404001266', '2.4 Scooters'],
-  ['1404004021', '2.4 Lokum'], ['1404004022', '2.4 Incense'],
-  ['1404000822', '2.5'], ['1404001267', '2.5 Steam Carriages'], ['1404001268', '2.5 Scooters'], ['1404004023', '2.5 Incense'],
-  ['1404000823', '2.6'], ['1404000824', '2.7'], ['1404000825', '2.8'],
+  ['1404000820', '2.3'], ['1404001270', '2.3 Ice Cream'],
+  ['1404000821', '2.4'],
+  ['1404004022', '2.4 Incense'],
+  ['1404000822', '2.5'], ['1404001263', '2.5 Typewriters'], ['1404004024', '2.5 Typewriters Engineers'], ['1404001264', '2.5 Fans'],
+  ['1404004023', '2.5 Incense'],
+  ['1404000823', '2.6'],
+  ['1404000824', '2.7'], ['1404001267', '2.7 Steam Carriages'], ['1404001268', '2.7 Scooters'],
+  ['1404000825', '2.8'],
+  ['1404004027', 'Skyscraper 1.1'], ['1404004028', 'Skyscraper 1.2'], ['1404004029', 'Skyscraper 2.1'], ['1404004030', 'Skyscraper 2.2'],
   ['1404001156', '3.0'], ['1404001157', '3.1'], ['1404001158', '3.2'], ['1404001159', '3.3'], ['1404001160', '3.4'], ['1404001161', '3.5'],
   ['1404005072', 'New Horizons Lab Unhide'], ['1404005073', 'New Horizons Lab Unlock'],
-  ['1404005060', 'New Horizons Unhide'], ['1404005062', 'New Horizons Unlock'],
+  ['1404004031', '2.7 Oudh Perfume (New Horizons)'], ['1404004032', '2.8 Oudh Perfume (New Horizons)'],
 ];
 // Creative games: these unlock everything there. They stay pending in normal games anyway.
 const creative = [
   ['1404000791', 'InitCreativeMode-Orient'],
   ['1404005061', 'Orient New Horizons Creative Mode'],
   ['1404007026', 'Orient lighthouse creative unlock'],
+  ['1404004877', 'InitCreativeMode-Orient Palm Trees'],
 ];
 
 const pad = (n) => ' '.repeat(n);

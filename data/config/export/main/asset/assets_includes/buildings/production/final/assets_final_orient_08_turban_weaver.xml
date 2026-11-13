@@ -51,7 +51,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>5</Amount>
 						</Item>
 						<Item>
@@ -155,6 +155,11 @@
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
+						<Item>
+							<Product>1404003900</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
@@ -209,7 +214,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

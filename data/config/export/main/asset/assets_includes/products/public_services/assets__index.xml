@@ -15,5 +15,7 @@
     
     <Include File="assets_mosque.xml" />
     <Include File="assets_orient_hacienda_product.xml" />
+    <Include File="assets_orient_bedouin_camp_product.xml" />
+    <Include File="assets_orient_sultanspalace_product.xml" />
 
 </ModOps>

@@ -4,9 +4,9 @@ const MOD = process.argv[2];
 const YMIN = -6.6;
 const fx = v => v.toFixed(6);
 for (const t of ['01', '02']) {
-  // each portrait is a submod, Natoncy_player_portrait_1404_<nn>_<name> (../portrait_1404/picker.json)
-  const sub = fs.readdirSync(MOD).find(d => d.startsWith('Natoncy_player_portrait_1404_') && d.endsWith(t === '01' ? '_nomad' : '_envoy'));
-  const dir = `${MOD}/${sub}/data/graphics/portraits/orient/resident_orient_tier${t}`;
+  // each portrait is a submod, shared_portraits/Natoncy_portrait_1404_<nn>_<name> (../portrait_1404/picker.json)
+  const sub = fs.readdirSync(`${MOD}/shared_portraits`).find(d => d.startsWith('Natoncy_portrait_1404_') && d.endsWith(t === '01' ? '_nomad' : '_envoy'));
+  const dir = `${MOD}/shared_portraits/${sub}/data/graphics/portraits/orient/resident_orient_tier${t}`;
   const name = `resident_orient_tier${t}`;
   // ---- cfg
   let s = fs.readFileSync(`${dir}/${name}.cfg`, 'latin1');

@@ -1,0 +1,58 @@
+<ModOps>
+  <ModOp Path = "//InfoTipData[Guid = '25000206']" Type = "add">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>1404005148</ExpectedValueInt>
+          <Condition>[RefGuid]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>7</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[FactoryAssetData([Selection Object Static Guid]) Production AT(#index0#) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[FactoryAssetData([Selection Object Static Guid]) Production AT(#index0#) Text]</Text>
+            <Style />
+          </Text>
+          <Value>
+            <Style />
+          </Value>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <Source>[FactoryAssetData([Selection Object Static Guid]) Production COUNT]</Source>
+      </InfoElement>
+    </ModOp>
+  </ModOps>

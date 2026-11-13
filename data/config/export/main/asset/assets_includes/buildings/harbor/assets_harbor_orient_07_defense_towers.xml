@@ -1,12 +1,17 @@
 <ModOps>
 
-    <!-- Orient harbour defenses: the Enbesa towers with Palm Planks (1400201040) instead of Wanza Wood (114356).
-         Models: local Orient reskins of the Enbesa towers in buildings/orient/harbor_defense_orient (cream plaster,
-         sandstone courses, green pennant); quay: the New World one like every Orient harbour building (2026-10-13).
-         They sit in the harbour menus (on the ai_settlement branch they are also the AI's DefenseStructures for Mod3).
-         Pools: 1404004120 (Puckle Gun, Flak; 1.1/1.2) and 1404004121 (Cannon, Fire, Armour Piercing; 2.2/2.3).
-         The flak keeps the Empire of the Skies DLCDependency of 743. -->
-    <ModOp Type="addNextSibling" GUID="117863">
+    <!-- Orient harbour defenses: the six Old World guns, built from the Enbesa towers where Enbesa has one.
+         Palm Planks (1400201040) replace Wanza Wood (114356), Rammed Earth (1404009000) replaces Mud Bricks (114402)
+         and Bricks (1010205). Models: local Orient reskins of the Enbesa towers in buildings/orient/harbor_defense_orient
+         (cream plaster, sandstone courses, green pennant); Big Betty keeps the vanilla Old World model.
+         Quay: the New World one like every Orient harbour building (2026-10-13).
+         Every clone is anchored on its own base: a clone placed before its base in assets.xml is a name-only,
+         unbuildable asset (823, 4799 and 743 sit after 117863, so Fire, AP and Flak never showed; fixed 2026-11-13).
+         Menus: nomads (1404000215) Puckle Gun, Cannon, Flak; envoys (1404000615) Fire, Armour Piercing, Big Betty.
+         Pools: 1404004120 (Puckle Gun, Cannon, Flak; 1.3) and 1404004121 (Fire; 2.1); AP and Big Betty at 2.4.
+         The flak keeps the Empire of the Skies DLCDependency of 743.
+         On the ai_settlement branch they are also the AI's DefenseStructures for Mod3. -->
+    <ModOp Type="addNextSibling" GUID="117861">
         <Asset>
             <BaseAssetGUID>117861</BaseAssetGUID>
             <Values>
@@ -49,6 +54,7 @@
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -74,6 +80,9 @@
                 </Cost>
             </Values>
         </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="117863">
         <Asset>
             <BaseAssetGUID>117863</BaseAssetGUID>
             <Values>
@@ -116,6 +125,7 @@
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -141,6 +151,9 @@
                 </Cost>
             </Values>
         </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="823">
         <Asset>
             <BaseAssetGUID>823</BaseAssetGUID>
             <Values>
@@ -183,6 +196,7 @@
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -208,7 +222,10 @@
                 </Cost>
             </Values>
         </Asset>
-        <!-- 4799 already costs only Mud Bricks and Old World goods -->
+    </ModOp>
+
+    <!-- 4799 costs timber + Enbesa mud bricks; index 2 becomes Rammed Earth -->
+    <ModOp Type="addNextSibling" GUID="4799">
         <Asset>
             <BaseAssetGUID>4799</BaseAssetGUID>
             <Values>
@@ -234,8 +251,51 @@
                     </Variations>
                 </Object>
                 <Mesh/>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                            </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>6</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
             </Values>
         </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="743">
         <Asset>
             <BaseAssetGUID>743</BaseAssetGUID>
             <Values>
@@ -278,6 +338,78 @@
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>6</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Big Betty: Old World timber + bricks; bricks (index 2) become Rammed Earth. Coast terrain + SnapRadius inherited -->
+    <ModOp Type="addNextSibling" GUID="1010524">
+        <Asset>
+            <BaseAssetGUID>1010524</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404004115</GUID>
+                    <Name>harbor_orient_06 (Tower 03, Monster Gun)</Name>
+                </Standard>
+                <Text>
+                    <TextOverride>1010524</TextOverride>
+                </Text>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/special/harbor_06/harbor_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh/>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                            </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>

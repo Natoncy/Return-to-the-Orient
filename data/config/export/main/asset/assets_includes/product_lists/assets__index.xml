@@ -16,8 +16,14 @@
 
 
 
-    <!-- ScholarConsumerGoods -->
+    <!-- ScholarConsumerGoods: the Orient residence's replacement needs, in the order they unlock (3.0 - 3.5) -->
     <ModOp Type="add" GUID="502133" Path="Values/ProductList/List">
+        <Item>
+            <Product>1404005087</Product>
+        </Item>
+        <Item>
+            <Product>1404005120</Product>
+        </Item>
         <Item>
             <Product>1404000253</Product>
         </Item>
@@ -25,20 +31,30 @@
             <Product>1404000283</Product>
         </Item>
         <Item>
-            <Product>1404000262</Product>
+            <Product>1400201044</Product>
+        </Item>
+        <Item>
+            <Product>1404000265</Product>
+        </Item>
+        <Item>
+            <Product>1404005131</Product>
+        </Item>
+        <Item>
+            <Product>1404000250</Product>
+        </Item>
+        <Item>
+            <Product>1404000241</Product>
         </Item>
     </ModOp>
 
-    <!-- ScholarUnlockGoods  -->
+    <!-- ScholarUnlockGoods: goods of the chains the Scholar stages unlock (arak, turbans, astrolabes, coffee house)
+         that no Nomad or Envoy list has yet -->
     <ModOp Type="add" GUID="502134" Path="Values/ProductList/List">
         <Item>
-            <Product>1440209</Product>
+            <Product>120014</Product>
         </Item>
         <Item>
-            <Product>1010197</Product>
-        </Item>
-        <Item>
-            <Product>1404000253</Product>
+            <Product>1404005120</Product>
         </Item>
         <Item>
             <Product>5401</Product>
@@ -47,10 +63,81 @@
             <Product>1404000283</Product>
         </Item>
         <Item>
-            <Product>1010256</Product>
+            <Product>1010227</Product>
         </Item>
         <Item>
-            <Product>1404000262</Product>
+            <Product>1010219</Product>
+        </Item>
+        <Item>
+            <Product>1500010153</Product>
+        </Item>
+        <Item>
+            <Product>1010233</Product>
+        </Item>
+        <Item>
+            <Product>1010249</Product>
+        </Item>
+        <Item>
+            <Product>1404005131</Product>
+        </Item>
+        <Item>
+            <Product>120031</Product>
+        </Item>
+        <Item>
+            <Product>1404005125</Product>
+        </Item>
+        <Item>
+            <Product>114371</Product>
+        </Item>
+    </ModOp>
+
+    <!-- Orient goods that other regions' residents need (export needs, see .misc_data/needs.md) -->
+    <!-- ArtisansConsumerGoods -->
+    <ModOp Type="add" GUID="501997" Path="Values/ProductList/List">
+        <Item>
+            <Product>1404005087</Product>
+        </Item>
+    </ModOp>
+
+    <!-- EngineerConsumerGoods -->
+    <ModOp Type="add" GUID="501998" Path="Values/ProductList/List">
+        <Item>
+            <Product>1404005131</Product>
+        </Item>
+    </ModOp>
+
+    <!-- InvestorConsumerGoods -->
+    <ModOp Type="add" GUID="501999" Path="Values/ProductList/List">
+        <Item>
+            <Product>1400201053</Product>
+        </Item>
+    </ModOp>
+
+    <!-- ObreroConsumerGoods -->
+    <ModOp Type="add" GUID="502001" Path="Values/ProductList/List">
+        <Item>
+            <Product>1400201056</Product>
+        </Item>
+    </ModOp>
+
+    <!-- TechnicianConsumerGoods -->
+    <ModOp Type="add" GUID="502003" Path="Values/ProductList/List">
+        <Item>
+            <Product>1404005120</Product>
+        </Item>
+    </ModOp>
+
+    <!-- ShepherdConsumerGoods -->
+    <ModOp Type="add" GUID="502073" Path="Values/ProductList/List">
+        <Item>
+            <Product>1400201065</Product>
+        </Item>
+    </ModOp>
+
+    <!-- ElderConsumerGoods -->
+    <ModOp Type="add" GUID="502074" Path="Values/ProductList/List">
+        <Item>
+            <Product>1400201044</Product>
         </Item>
     </ModOp>
 

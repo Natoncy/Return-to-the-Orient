@@ -435,7 +435,8 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>118722</ClassAsset>
+                                            <ClassAsset>1404002109</ClassAsset>
+                                            <!--Orient | Stray Animals-->
                                         </Item>
                                     </SpawnClasses>
                                 </Item>
@@ -594,8 +595,8 @@
                                                     </Entry>
                                                 </InheritanceMapV2>
                                             </VectorElement>
-                                            <ClassAsset>118722</ClassAsset>
-                                            <!--AF | Stray Animals-->
+                                            <ClassAsset>1404002109</ClassAsset>
+                                            <!--Orient | Stray Animals-->
                                         </Item>
                                     </SpawnClasses>
                                 </Item>

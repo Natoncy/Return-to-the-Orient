@@ -40,6 +40,12 @@
     <Include File="assets_unit_tier_02_normal_male_02.xml" />
     <Include File="assets_unit_tier_02_traveling_vendor.xml" />
 
+    <!-- building feedback units (.fc actors) -->
+    <Include File="assets_inhabitant_building_feedback.xml" />
+
+    <!-- animal units -->
+    <Include File="assets_unit_camel.xml" />
+
     <!-- person unit classes -->
     <Include File="assets_unitclass_base_harbour_workers.xml" />
     <Include File="assets_unitclass_farmworker.xml" />
@@ -49,6 +55,7 @@
     <Include File="assets_unitclass_residence2children.xml" />
     <Include File="assets_unitclass_residence2persons.xml" />
     <Include File="assets_unitclass_residence2special.xml" />
+    <Include File="assets_unitclass_stray_animals.xml" />
 
     <!-- vehicle / boat units (Orient driver, vanilla vehicle) -->
     <Include File="assets_vehicle_goat_chain.xml" />

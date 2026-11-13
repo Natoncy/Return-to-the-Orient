@@ -461,7 +461,7 @@
 <IdCounter>46</IdCounter>
 <SplineData></SplineData>
 <FeedbackDefinition><FeedbackConfigs><i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   mB яяяя§Ќ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   ОB яяяяОB яяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -572,7 +572,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[    чЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[    ш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -803,7 +803,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   ’Џ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   ІН яяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>

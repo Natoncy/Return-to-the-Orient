@@ -1,0 +1,14 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="125183">
+        <Asset>
+            <Template>InfoTip</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005140</GUID>
+                    <Name>Orient NoAttractiveness Infotip</Name>
+                </Standard>
+                <InfoTip/>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

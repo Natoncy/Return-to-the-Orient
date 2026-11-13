@@ -33,7 +33,7 @@
     <Include File="assets_asset_pool_orient_marzipan.xml" />
     <Include File="assets_asset_pool_orient_mosiac.xml" />
     <Include File="assets_asset_pool_orient_mosque.xml" />
-    <Include File="assets_asset_pool_orient_mud_bricks.xml" />
+    <Include File="assets_asset_pool_orient_rammed_earth.xml" />
     <Include File="assets_asset_pool_orient_museum.xml" />
     <Include File="assets_asset_pool_orient_NH_mushrooms.xml" />
     <Include File="assets_asset_pool_orient_oil.xml" />

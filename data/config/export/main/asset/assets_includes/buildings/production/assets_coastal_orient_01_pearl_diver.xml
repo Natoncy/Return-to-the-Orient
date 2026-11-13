@@ -29,7 +29,7 @@
 							<Amount>10</Amount>
 						</Item>
 						<Item>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>5</Amount>
 						</Item>
 					</Costs>
@@ -190,7 +190,11 @@
 					<CultureType>Culture</CultureType>
 				</Culture>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

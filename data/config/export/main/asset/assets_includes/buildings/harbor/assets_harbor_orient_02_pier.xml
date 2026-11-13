@@ -54,8 +54,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
-                            <!--Mud Bricks-->
+                            <Ingredient>1404009000</Ingredient>
+                            <!--Rammed Earth-->
                             <Amount>30</Amount>
                         </Item>
                         <Item>
@@ -185,8 +185,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
-                            <!--Mud Bricks-->
+                            <Ingredient>1404009000</Ingredient>
+                            <!--Rammed Earth-->
                         </Item>
                         <Item>
                             <VectorElement>
@@ -234,6 +234,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>30</Amount>
                         </Item>
                     </UpgradeCost>
                 </Upgradable>

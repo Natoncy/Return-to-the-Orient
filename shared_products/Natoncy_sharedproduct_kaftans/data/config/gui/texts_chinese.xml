@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000253</GUID>
+      <!-- Product | kaftans | Kaftans -->
+      <Text>长袍</Text>
+    </Text>
+    <Text>
+      <GUID>1404000254</GUID>
+      <!-- Text | kaftans fluff text | Flowing garments suited to both comfort and status. -->
+      <Text>飘逸的服装既舒适又具有地位。</Text>
+    </Text>
+    <Text>
+      <GUID>1404000255</GUID>
+      <!-- Text | Keeps out the sun by day and the cold by night. | Keeps out the sun by day and the cold by night. -->
+      <Text>白天遮阳，夜里御寒。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

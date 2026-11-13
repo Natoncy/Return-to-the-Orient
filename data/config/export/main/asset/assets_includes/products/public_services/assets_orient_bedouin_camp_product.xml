@@ -1,0 +1,28 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="25546">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008102</GUID>
+                    <Name>Bedouin Camp</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_orient_bedouin_camp_emblem.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1404008100</TextOverride>
+                </Text>
+                <Locked/>
+                <Product>
+                    <ProductColor>-11415604</ProductColor>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11708</ProductCategory>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Mod3</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

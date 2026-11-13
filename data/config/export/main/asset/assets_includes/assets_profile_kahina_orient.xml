@@ -784,7 +784,7 @@
                                     <ProductionPerMinute>4</ProductionPerMinute>
                                 </Item>
                                 <Item>
-                                    <Good>114402</Good>
+                                    <Good>1404009000</Good>
                                     <ProductionPerMinute>4</ProductionPerMinute>
                                 </Item>
                             </GoodsProduction>
@@ -795,7 +795,7 @@
                                             <Good>1400201040</Good>
                                         </Item>
                                         <Item>
-                                            <Good>114402</Good>
+                                            <Good>1404009000</Good>
                                         </Item>
                                     </GoodSets>
                                 </Item>
@@ -819,7 +819,7 @@
                                     <ProductionPerMinute>5</ProductionPerMinute>
                                 </Item>
                                 <Item>
-                                    <Good>114402</Good>
+                                    <Good>1404009000</Good>
                                     <ProductionPerMinute>5</ProductionPerMinute>
                                 </Item>
                                 <Item>
@@ -834,7 +834,7 @@
                                             <Good>1400201040</Good>
                                         </Item>
                                         <Item>
-                                            <Good>114402</Good>
+                                            <Good>1404009000</Good>
                                         </Item>
                                         <Item>
                                             <Good>1404000265</Good>
@@ -861,7 +861,7 @@
                                     <ProductionPerMinute>6</ProductionPerMinute>
                                 </Item>
                                 <Item>
-                                    <Good>114402</Good>
+                                    <Good>1404009000</Good>
                                     <ProductionPerMinute>6</ProductionPerMinute>
                                 </Item>
                                 <Item>
@@ -884,7 +884,7 @@
                                             <Good>1400201040</Good>
                                         </Item>
                                         <Item>
-                                            <Good>114402</Good>
+                                            <Good>1404009000</Good>
                                         </Item>
                                         <Item>
                                             <Good>1404000265</Good>
@@ -917,7 +917,7 @@
                                     <ProductionPerMinute>7</ProductionPerMinute>
                                 </Item>
                                 <Item>
-                                    <Good>114402</Good>
+                                    <Good>1404009000</Good>
                                     <ProductionPerMinute>7</ProductionPerMinute>
                                 </Item>
                                 <Item>

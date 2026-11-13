@@ -35,7 +35,7 @@
                             <Amount>10</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>15</Amount>
                         </Item>
                         <Item>
@@ -233,6 +233,13 @@
 
     <!-- all residences EU & SA + Africa & Scholar -->
     <ModOp Type="add" GUID="190762" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- all residences EU + Scholars (Actor, Acclaimed Tragedian, Maxime Chabroud, Edward Bernays, Jukebox) -->
+    <ModOp Type="add" GUID="190041" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>1404001113</GUID>
         </Item>

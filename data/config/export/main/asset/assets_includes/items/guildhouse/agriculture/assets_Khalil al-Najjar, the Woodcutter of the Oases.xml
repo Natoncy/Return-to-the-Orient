@@ -1,0 +1,61 @@
+<ModOps>
+    
+    <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009108</GUID>
+                    <Name>Khalil al-Najjar, the Woodcutter of the Oases</Name>
+                    <IconFilename>data/graphics/icons/items/Khalil_Al_N.png</IconFilename>
+                    <InfoDescription>1404009109</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Khalil al-Najjar, the Woodcutter of the Oases</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>190000</TradePrice>
+                    <TradePriceOnlineCurrency>1030</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <NeededAreaPercentUpgrade>
+                        <Value>-16</Value>
+                    </NeededAreaPercentUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1400201040</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000865</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-4</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

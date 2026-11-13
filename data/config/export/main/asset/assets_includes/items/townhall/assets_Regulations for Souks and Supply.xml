@@ -42,6 +42,9 @@
                         <Item>
                             <GUID>1404000016</GUID>                            <!-- nomads-->
                         </Item>
+                        <Item>
+                            <GUID>1404008101</GUID>                            <!-- bedouins-->
+                        </Item>
                     </EffectTargets>
                 </ItemEffect>
                 <BuildingUpgrade>

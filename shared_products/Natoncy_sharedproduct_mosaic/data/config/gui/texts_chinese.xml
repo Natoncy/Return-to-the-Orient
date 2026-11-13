@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000256</GUID>
+      <!-- Product | mosaic | Mosaic -->
+      <Text>马赛克</Text>
+    </Text>
+    <Text>
+      <GUID>1404000257</GUID>
+      <!-- Text | mosaic fluff text | More than the sum of its pieces. -->
+      <Text>超过其各个部分的总和。</Text>
+    </Text>
+    <Text>
+      <GUID>1404000258</GUID>
+      <!-- Text | Pieced together, just like a broken bone. | Pieced together, just like a broken bone. -->
+      <Text>一片一片拼合而成，就像接好的断骨。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

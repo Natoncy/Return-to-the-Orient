@@ -26,7 +26,7 @@
                             <Amount>20</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>25</Amount>
                         </Item>
                     </Costs>
@@ -110,15 +110,18 @@
                 </Industrializable>
                 <Electrifiable>
                     <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
                 </Electrifiable>
             </Values>
         </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="1010549">
+    <ModOp Type="addNextSibling" GUID="1010547">
         <Asset>
-            <BaseAssetGUID>1010549</BaseAssetGUID>
-            <!--mining_08_workarea (Gold Ore)-->
+            <BaseAssetGUID>1010547</BaseAssetGUID>
+            <!--mining_06_workarea (Cement): cave workarea (WorkAreaCave, no rail path) like the clay pit model it now uses-->
+            <!--model = vanilla clay workarea mining_03_slot_01 (100418), reskinned to silver-->
             <Values>
                 <Standard>
                     <GUID>1404001301</GUID>
@@ -127,7 +130,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/production/mining_colony01_silver_slot_01/mining_colony01_silver_slot_01.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/mining_orient_01/mining_orient_01_workarea.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>

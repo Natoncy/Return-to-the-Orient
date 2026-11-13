@@ -71,5 +71,24 @@
       </Asset>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000287</GUID>
+            <Name>sultans seals expedition fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>No harbour master dares to question the Sultan's seal.</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
 </ModOps>
 

@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000265</GUID>
+      <!-- Product | pomegranate juice | Pomegranate Juice -->
+      <Text>Suco de romã</Text>
+    </Text>
+    <Text>
+      <GUID>1404000266</GUID>
+      <!-- Text | pomegranate juice fluff text | A perfect, refreshing drink for the hot desert. -->
+      <Text>Uma bebida perfeita e refrescante para o deserto quente.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000267</GUID>
+      <!-- Text | Keeps scurvy at bay, and tastes far better than lime juice. | Keeps scurvy at bay, and tastes far better than lime juice. -->
+      <Text>Mantém o escorbuto longe e é muito mais gostoso que suco de limão.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

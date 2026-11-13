@@ -3,20 +3,20 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>-0.337199</xf>
-			<yf>2.687403</yf>
-			<zf>-0.182126</zf>
+			<xf>-0.2296</xf>
+			<yf>2.6874</yf>
+			<zf>-0.1821</zf>
 		</Position>
 		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.707107</yf>
-			<zf>0.000000</zf>
-			<wf>0.707107</wf>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
 		</Rotation>
 		<Extents>
-			<xf>2.622086</xf>
-			<yf>3.458881</yf>
-			<zf>2.653152</zf>
+			<xf>2.7296</xf>
+			<yf>3.4589</yf>
+			<zf>2.6532</zf>
 		</Extents>
 	</BoundingBox>
 	<Dummy>
@@ -301,6 +301,66 @@
 			<xf>0.314283</xf>
 			<yf>1.707129</yf>
 			<zf>0.328569</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_4</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>0.125</yf>
+			<zf>1.279</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2.5</xf>
+			<yf>0.125</yf>
+			<zf>1.1438</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_5</Name>
+		<Position>
+			<xf>1.8404</xf>
+			<yf>0.375</yf>
+			<zf>1.9996</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.1</xf>
+			<yf>0.125</yf>
+			<zf>0.1</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_6</Name>
+		<Position>
+			<xf>-1.8281</xf>
+			<yf>0.375</yf>
+			<zf>2.0001</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.1</xf>
+			<yf>0.125</yf>
+			<zf>0.1</zf>
 		</Extents>
 	</IntersectBox>
 	<InvisibleQuayArea>

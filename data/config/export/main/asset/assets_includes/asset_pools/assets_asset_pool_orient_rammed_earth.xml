@@ -1,0 +1,41 @@
+<ModOps>
+
+	<!-- Was the mud bricks pool; the GUID stays because the 1.2/1.3 and creative triggers name it -->
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001299</GUID>
+					<Name>asset pool orient Rammed Earth</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404009000</Asset>
+						</Item>
+						<Item>
+							<Asset>1404009002</Asset>
+						</Item>
+						<Item>
+							<Asset>1404009003</Asset>
+						</Item>
+						<Item>
+							<Asset>1404009005</Asset>
+						</Item>
+						<Item>
+							<Asset>1404001285</Asset>
+						</Item>
+						<Item>
+							<Asset>1404009144</Asset>
+						</Item>
+						<Item>
+							<Asset>1404009146</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

@@ -1,0 +1,35 @@
+{
+  "Version": "1.0.0",
+  "ModID": "natoncy_return_to_the_orient_shared_importdock",
+  "Category": {
+    "English": "SharedGroup",
+    "French": "SharedGroup",
+    "German": "SharedGroup",
+    "Italian": "SharedGroup",
+    "Japanese": "SharedGroup",
+    "Korean": "SharedGroup",
+    "Polish": "SharedGroup",
+    "Russian": "SharedGroup",
+    "Chinese": "SharedGroup",
+    "Spanish": "SharedGroup",
+    "Taiwanese": "SharedGroup"
+  },
+  "ModName": {
+    "English": "Return to the Orient - Shared Importdock",
+    "French": "Return to the Orient - Shared Importdock",
+    "German": "Return to the Orient - Shared Importdock",
+    "Italian": "Return to the Orient - Shared Importdock",
+    "Japanese": "Return to the Orient - Shared Importdock",
+    "Korean": "Return to the Orient - Shared Importdock",
+    "Polish": "Return to the Orient - Shared Importdock",
+    "Russian": "Return to the Orient - Shared Importdock",
+    "Chinese": "Return to the Orient - Shared Importdock",
+    "Spanish": "Return to the Orient - Shared Importdock",
+    "Taiwanese": "Return to the Orient - Shared Importdock"
+  },
+  "ModDependencies": [
+    "Natoncy_shared_importdock_honey",
+    "Taludas_shared_importdock_ebony"
+  ],
+  "CreatorName": "Natoncy"
+}

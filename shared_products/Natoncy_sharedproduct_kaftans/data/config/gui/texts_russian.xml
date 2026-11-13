@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000253</GUID>
+      <!-- Product | kaftans | Kaftans -->
+      <Text>Кафтаны</Text>
+    </Text>
+    <Text>
+      <GUID>1404000254</GUID>
+      <!-- Text | kaftans fluff text | Flowing garments suited to both comfort and status. -->
+      <Text>Струящаяся одежда сочетает в себе комфорт и статус.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000255</GUID>
+      <!-- Text | Keeps out the sun by day and the cold by night. | Keeps out the sun by day and the cold by night. -->
+      <Text>Защищает от солнца днём и от холода ночью.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

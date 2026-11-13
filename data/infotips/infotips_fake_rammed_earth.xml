@@ -1,0 +1,139 @@
+<ModOps>
+  <ModOp Path = "//InfoTipData[Guid = '500683']//InfoElement[Text/TextGUID='1030']" Type = "remove"/>
+  <ModOp Path = "//InfoTipData[Guid = '25000208']" Type = "addNextSibling">
+    <InfoTipData>
+      <Guid>1404005153</Guid>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>1</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>1404005154</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <Style />
+          </Value>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>5</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <TextGUID>1404005155</TextGUID>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>1404005156</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <Text>[Selection Object ModuleOwner ModuleCountIncludeNonWorking] / [Selection Object ModuleOwner MainModuleLimit]</Text>
+            <Style />
+          </Value>
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>501703</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>100375</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <Text>[Selection Object Area Economy StorageAmount([FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Guid]) &gt;&gt; storagegood]/[Selection Object Area Economy StorageCapacity([FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Guid]) &gt;&gt; storagegood]</Text>
+            <Style />
+          </Value>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>18</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Text>
+          <Text>[ToolOneHelper InfoDescription([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+    </InfoTipData>
+  </ModOp>
+</ModOps>
+
+
+
+
+
+
+
+
+

@@ -15,7 +15,7 @@
                 <Recipe>
                     <RecipeBuilding>1404005027</RecipeBuilding>
                     <RecipeDescriptionText>1404005108</RecipeDescriptionText>
-                    <RecipeImage>data/ui/modgraphics/pistachio_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/pistachio_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>400</PosX>

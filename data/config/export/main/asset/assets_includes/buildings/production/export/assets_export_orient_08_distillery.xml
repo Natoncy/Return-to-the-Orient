@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404005057</GUID>
 					<Name>export_orient_08 (Oudh Distillery)</Name>
-					<IconFilename>data\ui\modgraphics\icon_oud_perfume.png</IconFilename>
+					<IconFilename>data/graphics/icons/products/icon_oud_perfume.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -51,7 +51,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>16</Amount>
 						</Item>
 						<Item>
@@ -141,8 +141,8 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1957006151</Product>
-							<Amount>2</Amount>
+							<Product>1404005058</Product>
+							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
@@ -156,8 +156,8 @@
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
-							<Product>1404005058</Product>
-							<Amount>1</Amount>
+							<Product>1957006151</Product>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryInputs>

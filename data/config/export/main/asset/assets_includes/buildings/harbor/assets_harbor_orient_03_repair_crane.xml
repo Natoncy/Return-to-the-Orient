@@ -73,8 +73,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
-                            <!--Mud Bricks-->
+                            <Ingredient>1404009000</Ingredient>
+                            <!--Rammed Earth-->
                             <Amount>40</Amount>
                         </Item>
                         <Item>

@@ -1,5 +1,6 @@
 <ModOps>
-    
+
+    <!-- University -> Research Outpost -->
     <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
             <Product>1404001116</Product>
@@ -14,9 +15,26 @@
         </Item>
     </ModOp>
 
+    <!-- Canned Food -> Hummus -->
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010217']">
+        <Item>
+            <Product>1404005087</Product>
+            <Amount>0.001</Amount>
+            <SupplyWeight>19</SupplyWeight>
+            <ResearchValue>1</ResearchValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <!-- Rum -> Arak -->
     <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010257']">
         <Item>
-            <Product>1404000265</Product>
+            <Product>1404005120</Product>
             <Amount>0.0008</Amount>
             <HappinessValue>2</HappinessValue>
             <ResearchValue>2</ResearchValue>
@@ -29,14 +47,15 @@
         </Item>
     </ModOp>
 
+    <!-- Tailored Suits -> Kaftans -->
     <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114430']">
         <Item>
             <Product>1404000253</Product>
             <Amount>0.00275</Amount>
             <SupplyWeight>23</SupplyWeight>
             <ResearchValue>4</ResearchValue>
-            <FullWeightPopulationCount>300</FullWeightPopulationCount>
-            <NoWeightPopulationCount>0</NoWeightPopulationCount>
+            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>299</NoWeightPopulationCount>
             <IsConsideredByAI>1</IsConsideredByAI>
             <RequiredBuildings>
                 <Item>
@@ -46,14 +65,15 @@
         </Item>
     </ModOp>
 
+    <!-- Bowler Hats -> Turbans -->
     <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='120037']">
         <Item>
             <Product>1404000283</Product>
             <Amount>0.0008</Amount>
             <HappinessValue>3</HappinessValue>
             <ResearchValue>2</ResearchValue>
-            <FullWeightPopulationCount>300</FullWeightPopulationCount>
-            <NoWeightPopulationCount>0</NoWeightPopulationCount>
+            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>299</NoWeightPopulationCount>
             <IsConsideredByAI>1</IsConsideredByAI>
             <RequiredBuildings>
                 <Item>
@@ -63,9 +83,28 @@
         </Item>
     </ModOp>
 
+    <!-- Hibiscus Tea -> Pomegranate Juice -->
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114390']">
+        <Item>
+            <Product>1404000265</Product>
+            <Amount>0.00175</Amount>
+            <HappinessValue>3</HappinessValue>
+            <ResearchValue>3</ResearchValue>
+            <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <!-- Electricity -> Spiced Tea -->
     <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
         <Item>
-            <Product>1404000262</Product>
+            <Product>1400201044</Product>
             <Amount>0.0008</Amount>
             <SupplyWeight>12</SupplyWeight>
             <ResearchValue>1</ResearchValue>
@@ -80,6 +119,43 @@
         </Item>
     </ModOp>
 
+    <!-- Telephones -> Astrolabes -->
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114431']">
+        <Item>
+            <Product>1404005131</Product>
+            <Amount>0.0015</Amount>
+            <SupplyWeight>20</SupplyWeight>
+            <ResearchValue>2</ResearchValue>
+            <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <!-- Clay Pipes -> Hookahs -->
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114414']">
+        <Item>
+            <Product>1404000250</Product>
+            <Amount>0.00075</Amount>
+            <HappinessValue>3</HappinessValue>
+            <ResearchValue>4</ResearchValue>
+            <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+    <!-- Radio Tower -> Coffee House -->
     <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114425']">
         <Item>
             <Product>1404000288</Product>
@@ -95,5 +171,27 @@
             </RequiredBuildings>
         </Item>
     </ModOp>
-    
+
+    <!-- Gramophones -> Chandeliers -->
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010248']">
+        <Item>
+            <Product>1404000241</Product>
+            <Amount>0.0007</Amount>
+            <HappinessValue>3</HappinessValue>
+            <ResearchValue>2</ResearchValue>
+            <FullWeightPopulationCount>9000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>15000004</Population>
+                <MinPopulationAmount>3000</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
 </ModOps>

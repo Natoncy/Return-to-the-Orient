@@ -34,7 +34,7 @@
                                             <ConditionPlayerCounter>
                                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                                 <Context>1404000011</Context>
-                                                <CounterAmount>3600</CounterAmount>
+                                                <CounterAmount>3250</CounterAmount>
                                             </ConditionPlayerCounter>
                                         </Values>
                                     </TriggerCondition>
@@ -52,15 +52,167 @@
 									<ActionUnlockAsset>
 										<UnlockAssets>
 											<Item>
-												<Asset>1404001145</Asset>
+												<Asset>1404005132</Asset>
 											</Item>
 											<Item>
-												<Asset>1404001144</Asset>
+												<Asset>1404004881</Asset>
 											</Item>
 										</UnlockAssets>
 										<UnhideAssets>
+											<!-- asset pool orient Coffee House (1404000767) without its build-menu sub-folder entries -->
 											<Item>
-												<Asset>1404000767</Asset>
+											    <Asset>1404000291</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000288</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000290</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000930</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000925</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003302</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003303</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003304</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003305</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003306</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003307</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003320</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003321</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003322</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003323</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003324</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404003325</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005127</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005125</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005101</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005128</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005124</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000294</Asset>
+											</Item>
+											<Item>
+											    <Asset>1900100125</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000292</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000588</Asset>
+											</Item>
+											<Item>
+											    <Asset>1900100099</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000297</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000893</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000894</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000910</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000909</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404001180</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404001182</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404001184</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404009102</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005109</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005112</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005113</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005115</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404005117</Asset>
+											</Item>
+											<!-- asset pool orient Chandeliers (1404000766) without its build-menu sub-folder entries -->
+											<Item>
+											    <Asset>1404000321</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000315</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000241</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000318</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000298</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000914</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000913</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000912</Asset>
+											</Item>
+											<Item>
+											    <Asset>1404000924</Asset>
+											</Item>
+											<Item>
+												<Asset>1404004882</Asset>
 											</Item>
 										</UnhideAssets>
 									</ActionUnlockAsset>

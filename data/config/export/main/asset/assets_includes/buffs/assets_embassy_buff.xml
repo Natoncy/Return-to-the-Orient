@@ -1,0 +1,73 @@
+<ModOps>
+
+    <!-- Oriental Embassy (1404009400) radius buff on Old World residences.
+         NeedProvideNeedUpgrade like Franck von Lewenstein 190674: a residence that has the SubstituteNeed
+         (Orient good) fulfilled also counts the ProvidedNeed (vanilla good) as fulfilled.
+         New Horizon pair (oudh perfume -> blue cheese, Magnates) is added in Natoncy_orient_after_other_mods. -->
+    <ModOp Type="addNextSibling" GUID="132759">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009401</GUID>
+                    <Name>Buff_OrientalEmbassy</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_oriental_embassy.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>194015</GUID>                            <!-- all residences Old World -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oriental Embassy</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                    <TaxModifierInPercent>10</TaxModifierInPercent>
+                    <NeedProvideNeedUpgrade>
+                        <!-- Artisans: Hummus -> Canned Food -->
+                        <Item>
+                            <ProvidedNeed>1010217</ProvidedNeed>
+                            <SubstituteNeed>1404005087</SubstituteNeed>
+                        </Item>
+                        <!-- Engineers: Astrolabes -> Sewing Machines -->
+                        <Item>
+                            <ProvidedNeed>1010206</ProvidedNeed>
+                            <SubstituteNeed>1404005131</SubstituteNeed>
+                        </Item>
+                        <!-- Investors: Lokum -> Chocolate -->
+                        <Item>
+                            <ProvidedNeed>1010258</ProvidedNeed>
+                            <SubstituteNeed>1400201053</SubstituteNeed>
+                        </Item>
+                    </NeedProvideNeedUpgrade>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1404009401" Path="/Values/ResidenceUpgrade/NeedProvideNeedUpgrade/" Condition="#new_horizons_session">
+        <Item>
+            <ProvidedNeed>1440004</ProvidedNeed>
+            <SubstituteNeed>1404005059</SubstituteNeed>
+        </Item>
+    </ModOp>
+
+</ModOps>

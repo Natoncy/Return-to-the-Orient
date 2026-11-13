@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404005053</GUID>
 					<Name>lab_orient_01 (Oud Mushrooms)</Name>
-					<IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
+					<IconFilename>data/graphics/icons/products/icon_mushrooms.png</IconFilename>
 					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>

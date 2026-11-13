@@ -1,0 +1,116 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008120</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree2</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_agricultural_subsidy.png</IconFilename>
+                    <InfoDescription>1404008121</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oasis Gardens</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404008122</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008121</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree2_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008122</GUID>
+                    <Name>Orient_Bedouin_Camp - Decree2 Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_agricultural_subsidy.png</IconFilename>
+                    <InfoDescription>1404008121</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000159</GUID>
+                            <!--date plantation-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000300</GUID>
+                            <!--pomegranate farm-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404008120</TextOverride>
+                </Text>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade />
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008123</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree2_Info</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Increases the productivity of date and pomegranate farms</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

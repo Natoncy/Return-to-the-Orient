@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000241</GUID>
+      <!-- Product | chandeliers | Chandeliers -->
+      <Text>Kronleuchter</Text>
+    </Text>
+    <Text>
+      <GUID>1404000242</GUID>
+      <!-- Text | chandeliers fluff text | Lights that turn any hall into a palace. -->
+      <Text>Lichter, die jeden Saal in einen Palast verwandeln.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000243</GUID>
+      <!-- Text | Enough light to stitch a wound in the darkest night. | Enough light to stitch a wound in the darkest night. -->
+      <Text>Genug Licht, um selbst in finsterster Nacht eine Wunde zu nähen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

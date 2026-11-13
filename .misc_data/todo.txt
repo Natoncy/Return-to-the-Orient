@@ -1,11 +1,24 @@
 Enums:
-    RegionID: Mod3 (Orient)
-    ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
-    SocketScopeRadiusOverlapCategory: Mod1 (Noria)
-    InternalID: 28, 64, 65, 66, 69
-Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
-Required DLCs: Land of Lions
-Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
+    RegionID:
+        Mod3 (1404000006 Region Orient)
+    ParticipantID:
+        Mod8 (1404000018 OrientNomads)
+        Mod9 (1404000019 OrientEnvoys)
+        Mod12 (1404000975 Third_party_08 (Madame Kahina Orient))
+    SocketScopeRadiusOverlapCategory
+        Mod1 (1404000212 Noria)
+    ItemAllocation:
+        Mod14 (1404007002 orient_lighthouse_3_complete)
+    UniqueType:
+        Mod16 (1404009400 Oriental Embassy)
+    InternalID:
+        65 (1404004229 Canal Orient)
+        66 (1404004230 Crossing Canal-Street Orient)
+        67 (1404004231 Crossing Canal-FastStreet Orient)
+        69 (1404000845 Simple Street Orient)
+Required Pop.: 3000 Investors, 1500 Obreros, 1000 Elders
+Required DLCs: Land of Lions, New World Rising
+Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies
 Optional Mods: New Horizons
 
 
@@ -15,42 +28,36 @@ Optional Mods: New Horizons
 
 TODO:
 
-v0.6.1
-- Reorder needs based on skyscraper levels and rebalance
-- add compost for moldy bread
-
 v0.7.0
-- Palace with needs replacement
-- Light house monument
-- Construction material rework
-    Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
-    Palm lumber jack needs irrigation
-- Letting AI settle the region (Adding Harbour Defenses + Logic)
+- Letting AI settle the region
+- release beta compatibility mod
 
 Before v1.0.0
-- Check quests
-- Check loading screen hints
+- Check shared mods
+- Check all guid used exist (1404000205)
+- Check localizations
 - remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
+- Revise which products are shared (can be produced and used by other mods independently), and which are specific to the orient/the mod
 - Update Readme/Mod.io Description (add useable but not shared products)
 
 
 
 Bugs:
+- honey coffee does not add +2 residents?
+- Check the savegame without mines
 
 
 
 Backlog:
-- Rewrite some quest texts maybe
 - Camera sequence when entering region for the first time
-- Update scholar residences (final)
+
 
 
 Not fixable/doable:
 - Watered fields not shown as green fields when placing canals or farm fields: Setting RegionID in the Region asset to Africa makes it visible, seems to be hardcoded to Africa region enum
 - Fix music colliding with voice lines/other special music (monument completed): Would require changing vanilla soundbanks
-- Festival icon not showing: Not working in New Horizon either, no idea why
 - Second Noria pipe not possible, would need a work area from a river or mine slot
 
 

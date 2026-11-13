@@ -1,0 +1,9 @@
+<!-- Originally translated by Tisogno -->
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>Schwefelsäure</Text>
+    </Text>
+  </ModOp>
+</ModOps>

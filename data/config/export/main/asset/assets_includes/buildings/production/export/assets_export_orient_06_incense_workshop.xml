@@ -51,7 +51,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>15</Amount>
 						</Item>
 						<Item>
@@ -141,11 +141,6 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1010204</Product>
-							<Amount>1</Amount>
-							<StorageAmount>4</StorageAmount>
-						</Item>
-                        <Item>
 							<Product>1888999915</Product>
 							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
@@ -153,6 +148,11 @@
                         <Item>
 							<Product>134616</Product>
 							<Amount>2</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+                        <Item>
+							<Product>1010204</Product>
+							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryInputs>
@@ -209,7 +209,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

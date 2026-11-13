@@ -1,4 +1,5 @@
-﻿<ModOps>
+<?xml version='1.0' encoding='utf-8'?>
+<ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000000</GUID>
@@ -63,7 +64,7 @@
     <Text>
       <GUID>1404000017</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence | Envoy house -->
-      <Text>Gesandtenhaus</Text>
+      <Text>Gesandten-Haus</Text>
     </Text>
     <Text>
       <GUID>1404000018</GUID>
@@ -784,6 +785,11 @@
       <GUID>1404000286</GUID>
       <!-- Text | The seal of the Sultan on paperwork carries a lot of weight in the sultanate. | The seal of the Sultan on paperwork carries a lot of weight in the sultanate. -->
       <Text>Das Siegel des Sultans auf offiziellen Dokumenten hat im Sultanat großes Gewicht.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000287</GUID>
+      <!-- Text | No harbour master dares to question the Sultan's seal. | No harbour master dares to question the Sultan's seal. -->
+      <Text>Kein Hafenmeister wagt es, das Siegel des Sultans anzuzweifeln.</Text>
     </Text>
     <Text>
       <GUID>1404000288</GUID>
@@ -3182,13 +3188,13 @@
     </Text>
     <Text>
       <GUID>1404001115</GUID>
-      <!-- Hacienda | Research Station | Research Station -->
-      <Text>Forschungsstation</Text>
+      <!-- Hacienda | Research Outpost | Research Outpost -->
+      <Text>Forschungsaußenposten</Text>
     </Text>
     <Text>
       <GUID>1404001116</GUID>
-      <!-- Product | Hacienda | Research Station -->
-      <Text>Forschungsstation</Text>
+      <!-- Product | Hacienda | Research Outpost -->
+      <Text>Forschungsaußenposten</Text>
     </Text>
     <Text>
       <GUID>1404001117</GUID>
@@ -3432,13 +3438,13 @@
     </Text>
     <Text>
       <GUID>1404001195</GUID>
-      <!-- Text | Nibbles and canapés | Nibbles and canapés -->
-      <Text>Häppchen und Canapés</Text>
+      <!-- Text | Nibbles and canapés | Provisions for the road -->
+      <Text>Proviant für den Weg</Text>
     </Text>
     <Text>
       <GUID>1404001196</GUID>
-      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. -->
-      <Text>Besucher kleinerer Ausstellungen genießen in der Regel ein paar Häppchen und Canapés, während sie durch die Ausstellung schlendern.</Text>
+      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Pilgrims on the road are grateful for a handful of dates and roasted chickpeas to keep them going. -->
+      <Text>Pilger auf der Reise sind dankbar für eine Handvoll Datteln und geröstete Kichererbsen, die sie bei Kräften halten.</Text>
     </Text>
     <Text>
       <GUID>1404001197</GUID>
@@ -3447,8 +3453,8 @@
     </Text>
     <Text>
       <GUID>1404001198</GUID>
-      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Large displays of savoury meals are essential to welcoming many visitors. -->
-      <Text>Ein reichhaltiges Angebot an herzhaften Speisen ist unerlässlich, um viele Besucher willkommen zu heißen.</Text>
+      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Generous platters of hummus and marzipan are essential to welcoming many pilgrims. -->
+      <Text>Reich gedeckte Platten mit Hummus und Marzipan sind unerlässlich, um viele Pilger willkommen zu heißen.</Text>
     </Text>
     <Text>
       <GUID>1404001199</GUID>
@@ -3477,8 +3483,8 @@
     </Text>
     <Text>
       <GUID>1404001204</GUID>
-      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. -->
-      <Text>Es gibt keine bessere Möglichkeit, anspruchsvolle Gäste zu begeistern, als ihnen eine Auswahl an hochwertigen alkoholischen Getränken anzubieten.</Text>
+      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | Nothing refreshes weary pilgrims like cool pomegranate juice and fragrant spiced tea. -->
+      <Text>Nichts erfrischt müde Pilger so wie kühler Granatapfelsaft und duftender Gewürztee.</Text>
     </Text>
     <Text>
       <GUID>1404001205</GUID>
@@ -3497,8 +3503,8 @@
     </Text>
     <Text>
       <GUID>1404001208</GUID>
-      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. -->
-      <Text>Ein Hauch von Farbe kann die Welt verändern, und ein hüpfender Ball hat etwas an sich, das es unmöglich macht, ihm nicht einen kräftigen Tritt zu versetzen.</Text>
+      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | Sturdy camels for the caravan and a prayer rug for every halt: simple things that mean a great deal to a pilgrim. -->
+      <Text>Kräftige Kamele für die Karawane und ein Gebetsteppich für jede Rast: einfache Dinge, die einem Pilger viel bedeuten.</Text>
     </Text>
     <Text>
       <GUID>1404001209</GUID>
@@ -3507,8 +3513,8 @@
     </Text>
     <Text>
       <GUID>1404001210</GUID>
-      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>Schaut euch nur diese fantastischen, federleichten Kostüme an – Karneval und Chaos vermischen sich auf den Straßen, unterbrochen vom gelegentlichen „Thwack!“ eines Balls, der auf den Boden aufschlägt.</Text>
+      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Fine kaftans for the feast days and a hookah to share in the evening turn the long road into a celebration. -->
+      <Text>Feine Kaftane für die Festtage und eine Shisha am Abend machen den langen Weg zu einem Fest.</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3517,8 +3523,8 @@
     </Text>
     <Text>
       <GUID>1404001212</GUID>
-      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. -->
-      <Text>All die neuesten, von geschickten Händen geschaffenen Kostbarkeiten – süße Düfte, die in der Luft verweilen, der Klang von Musik, kunstvolle Masken, all dies begleitet das Meer aus Gesichtern, das sich dieser Maskerade anschließt.</Text>
+      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | Precious oudh perfume, fine turbans and ornate hookahs, crafted by skilled hands, fill the courtyards with splendour and sweet scents. -->
+      <Text>Kostbares Oudh-Parfum, feine Turbane und kunstvolle Shishas aus geschickten Händen erfüllen die Höfe mit Pracht und süßen Düften.</Text>
     </Text>
     <Text>
       <GUID>1404001213</GUID>
@@ -3544,6 +3550,11 @@
       <GUID>1404001217</GUID>
       <!-- RewardPool | Luxury Orient Decoration | Luxury Orient Decoration -->
       <Text>Luxuriöse orientalische Dekoration</Text>
+    </Text>
+    <Text>
+      <GUID>1404004893</GUID>
+      <!-- RewardPool | Correct Orient Decoration | Orient Decoration -->
+      <Text>Orientalische Dekoration</Text>
     </Text>
     <Text>
       <GUID>1404001218</GUID>
@@ -3577,8 +3588,8 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
-      <Text>Norias müssen in einem gewissen Abstand zueinander errichtet werden. Sie pumpen Wasser aus unterirdischen Grundwasserleitern, die andernfalls irgendwann versiegen würden.</Text>
+      <!-- Text | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. -->
+      <Text>Norias fördern Wasser aus der Tiefe, um Ihre Felder zu bewässern. Bauen Sie sie mit Abstand zueinander, sonst trocknen sie die Grundwasserquellen aus.</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
@@ -3594,6 +3605,21 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>Gesandte sind neugierig auf neue Waren und Erfindungen des Industriezeitalters. Marktstände sind eine hervorragende Möglichkeit, diese zu präsentieren und den Gesandten die Gelegenheit zu geben, sie auszuprobieren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001228</GUID>
+      <!-- Text | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. -->
+      <Text>Beduinenlager, Forschungsaußenposten und der Sultanspalast ziehen jeweils Bewohner mit eigenen Bedürfnissen an und bieten unterschiedliche Erlasse, um Ihre Stadt und Produktion zu verbessern.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001229</GUID>
+      <!-- Text | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. -->
+      <Text>Mit Flotationskonzentrat können Sie im Orient Silber aus Erz gewinnen und Ihre Schmelzen in anderen Regionen verstärken.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001239</GUID>
+      <!-- Text | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. -->
+      <Text>Der Orientalische Leuchtturm hat einen Item-Sockel für Leuchtfeuer. Jedes Leuchtfeuer verstärkt alle Ihre Schiffe eines bestimmten Typs in allen Regionen.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>
@@ -4298,7 +4324,7 @@
     <Text>
       <GUID>1404001435</GUID>
       <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
-      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+      <Text>Halten Sie in der Region:&lt;br/&gt;weniger als [Conditions QuestCondition Amount] % der [AssetData([Conditions QuestCondition Context]) Text]-Versorgung für [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
     </Text>
     <Text>
       <GUID>1404001436</GUID>
@@ -4568,7 +4594,7 @@
     <Text>
       <GUID>1404001493</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] fragt, ob sie bereit sind, von Bord zu gehen.</Text>
     </Text>
     <Text>
       <GUID>1404001494</GUID>
@@ -5073,17 +5099,17 @@
     <Text>
       <GUID>1404001602</GUID>
       <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
-      <Text>Pick up the gift offered by your resident</Text>
+      <Text>Holen Sie sich das Geschenk Ihres Einwohners ab.</Text>
     </Text>
     <Text>
       <GUID>1404001603</GUID>
-      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
-      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+      <!-- Text | RQ_Farmers_DigField_HintText | My climbing harness is finished! Take one from the box beside me, and even the highest dates will be within your reach. -->
+      <Text>Mein Klettergurt ist fertig! Nehmen Sie einen aus der Kiste neben mir, und selbst die höchsten Datteln sind in Ihrer Reichweite.</Text>
     </Text>
     <Text>
       <GUID>1404001604</GUID>
       <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
-      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+      <Text>Nehmen Sie das Geschenk auf, indem Sie auf die Kiste neben dem Einwohner mit der Aufgabe klicken.</Text>
     </Text>
     <Text>
       <GUID>1404001605</GUID>
@@ -5182,8 +5208,8 @@
     </Text>
     <Text>
       <GUID>1404001624</GUID>
-      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
-      <Text>Bitte, ein Foto von uns im Zoo! Wir haben vielleicht nie wieder Gelegenheit dazu, wo unser kleiner Timothy doch so krank ist.</Text>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Lions, parrots and elephants, all in one garden? Bring me a picture of this marvel, so that I may believe it! -->
+      <Text>Löwen, Papageien und Elefanten, alle in einem Garten? Bringen Sie mir ein Bild von diesem Wunder, damit ich es glauben kann!</Text>
     </Text>
     <Text>
       <GUID>1404001625</GUID>
@@ -5238,7 +5264,7 @@
     <Text>
       <GUID>1404001635</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] fragt, ob Sie bereit sind, die Ladung aufzunehmen.</Text>
     </Text>
     <Text>
       <GUID>1404001636</GUID>
@@ -5248,12 +5274,12 @@
     <Text>
       <GUID>1404001637</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
-      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+      <Text>Bringen Sie ein Schiff an die angeforderte Position. Sie finden es, indem Sie auf die Aufgabe in der Spielwelt klicken.</Text>
     </Text>
     <Text>
       <GUID>1404001638</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
-      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+      <Text>Vermeiden Sie es, in den Sichtbereich der Patrouille zu gelangen, sonst wird sie Sie angreifen. Je kleiner und schneller das Schiff ist, das Sie für diese Aufgabe wählen, desto höher ist Ihre Chance auf Erfolg.</Text>
     </Text>
     <Text>
       <GUID>1404001639</GUID>
@@ -5263,7 +5289,7 @@
     <Text>
       <GUID>1404001640</GUID>
       <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] bietet Ihnen eine Schmuggelaufgabe an.</Text>
     </Text>
     <Text>
       <GUID>1404001641</GUID>
@@ -5454,6 +5480,11 @@
       <GUID>1404003211</GUID>
       <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
       <Text>Exportdock: Kronleuchter</Text>
+    </Text>
+    <Text>
+      <GUID>1404003215</GUID>
+      <!--  | Export Dock: Mouldy Bread | Export Dock: Mouldy Bread -->
+      <Text>Exportdock: Verschimmeltes Brot</Text>
     </Text>
     <Text>
       <GUID>1404003300</GUID>
@@ -5657,18 +5688,28 @@
     </Text>
     <Text>
       <GUID>1404004212</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <!-- ResidenceBuilding7_Colony | Palace Envoy Quarters | Palace Envoy Quarters -->
+      <Text>Palast-Unterkünfte für Gesandte</Text>
+    </Text>
+    <Text>
+      <GUID>1404004241</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing | Sultan's Palace Wing -->
       <Text>Sultanspalast-Flügel</Text>
     </Text>
     <Text>
-      <GUID>1404004213</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <GUID>1404004242</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
       <Text>Sultanspalast-Flügel - Brücke</Text>
     </Text>
     <Text>
       <GUID>1404004214</GUID>
       <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
       <Text>Sultanspalast-Flügel - Tor</Text>
+    </Text>
+    <Text>
+      <GUID>1404004244</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>Sultanspalast-Flügel - Kreuzung</Text>
     </Text>
     <Text>
       <GUID>1404004215</GUID>
@@ -5681,14 +5722,19 @@
       <Text>Sultanspalast</Text>
     </Text>
     <Text>
-      <GUID>1404004217</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <GUID>1404004245</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
       <Text>Sultanspalast-Flügel - Ecke</Text>
     </Text>
     <Text>
       <GUID>1404004218</GUID>
       <!-- OrnamentalBuilding | Silo | Silo -->
       <Text>Silo</Text>
+    </Text>
+    <Text>
+      <GUID>1404004248</GUID>
+      <!-- OrnamentalBuilding | Oriental Storage Tower | Oriental Storage Tower -->
+      <Text>Orientalischer Speicherturm</Text>
     </Text>
     <Text>
       <GUID>1404004219</GUID>
@@ -5698,12 +5744,12 @@
     <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
-      <Text>Gesandtenhaus: Stufe 2</Text>
+      <Text>Gesandten-Haus: Stufe 2</Text>
     </Text>
     <Text>
       <GUID>1404004301</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
-      <Text>Gesandtenhaus: Stufe 3</Text>
+      <Text>Gesandten-Haus: Stufe 3</Text>
     </Text>
     <Text>
       <GUID>1404004400</GUID>
@@ -5736,9 +5782,49 @@
       <Text>Orientalische Mauerverbindung</Text>
     </Text>
     <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>Zerkleinertes Erz, in Öl aufgeschwemmt und für die Schmelze abgeschöpft.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>Der Orientalische Leuchtturm wird in mehreren Phasen errichtet. Nach seiner Vollendung können Leuchtfeuer eingesetzt werden, die jeweils alle Ihre Schiffe eines Typs in allen Regionen stärken. Pro Insel kann nur ein Leuchtturm gebaut werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>Lagert Kichererbsen als Futter für Ihre Kamele und steigert die Produktivität der Farm.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>Geborgen aus dem Sand von Wadi Al Zahir, wo einst die Karawanen vergangener Zeiten rasteten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>Reliquien von Propheten, Gelehrten und Märtyrern, geborgen aus dem Sand von Wadi Al Zahir.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>Im heiligen Monat fasten die Gläubigen von der Morgendämmerung bis zur Abenddämmerung, und die ganze Stadt wartet auf den Gebetsruf bei Sonnenuntergang.</Text>
+    </Text>
+    <Text>
       <GUID>1404004890</GUID>
       <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
       <Text>Die Große Moschee wird in mehreren Phasen errichtet. Nach ihrer Vollendung empfängt sie Pilger aus allen Winkeln des Sultanats. Richten Sie prächtige Pilgerfahrten aus, und die Gläubigen verschaffen Ihnen Einfluss am Hof des Sultans.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>Wenn das Fasten gebrochen wird, besuchen sich die Familien mit Süßigkeiten, und kein Nachbar bleibt ohne Geschenk.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>Frisches Wasser aus den Kanälen.</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -6537,123 +6623,123 @@
     </Text>
     <Text>
       <GUID>1404007260</GUID>
-      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>Jeder Hafenmeister weiß: Ein Schiff, das das Licht sieht, kommt heil nach Hause.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Schiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>Jeder Hafenmeister weiß: Ein Schiff, das das Licht sieht, kommt heil nach Hause.</Text>
     </Text>
     <Text>
       <GUID>1404007261</GUID>
-      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>Die Gilde der Schiffbauer hält es am Brennen – lieber heute eine Planke flicken als morgen einen Rumpf.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Schiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>Die Gilde der Schiffbauer hält es am Brennen – lieber heute eine Planke flicken als morgen einen Rumpf.</Text>
     </Text>
     <Text>
       <GUID>1404007262</GUID>
-      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>Seine Flamme hat nie geflackert, und die Schiffe, die ihm folgen, wanken ebenso wenig.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Schiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>Seine Flamme hat nie geflackert, und die Schiffe, die ihm folgen, wanken ebenso wenig.</Text>
     </Text>
     <Text>
       <GUID>1404007263</GUID>
-      <!-- Text | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>Der Legende nach ist sein Licht von jeder Küste der Welt zugleich zu sehen.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Schiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>Der Legende nach ist sein Licht von jeder Küste der Welt zugleich zu sehen.</Text>
     </Text>
     <Text>
       <GUID>1404007264</GUID>
-      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>Die alten Daukapitäne schwören darauf: Folge dem Licht, und der Wind folgt dir.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Segelschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>Die alten Daukapitäne schwören darauf: Folge dem Licht, und der Wind folgt dir.</Text>
     </Text>
     <Text>
       <GUID>1404007265</GUID>
-      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>Entzündet, wenn die Passatwinde drehen, damit kein Händler auch nur eine Böe verpasst.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Segelschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>Entzündet, wenn die Passatwinde drehen, damit kein Händler auch nur eine Böe verpasst.</Text>
     </Text>
     <Text>
       <GUID>1404007266</GUID>
-      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>Von seiner Galerie aus erspähen die Wachen ein feindliches Segel lange vor dem ersten Schuss.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Segelschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>Von seiner Galerie aus erspähen die Wachen ein feindliches Segel lange vor dem ersten Schuss.</Text>
     </Text>
     <Text>
       <GUID>1404007267</GUID>
-      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>Wenn der Monsun losbricht, füllt sein blaues Feuer jedes Segel von hier bis zu den Gewürzküsten.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Segelschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>Wenn der Monsun losbricht, füllt sein blaues Feuer jedes Segel von hier bis zu den Gewürzküsten.</Text>
     </Text>
     <Text>
       <GUID>1404007268</GUID>
-      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>Ein Schein für die Heizer am Kai: Je schneller die Kohle hineingeht, desto früher läuft das Schiff aus.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Dampfschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>Ein Schein für die Heizer am Kai: Je schneller die Kohle hineingeht, desto früher läuft das Schiff aus.</Text>
     </Text>
     <Text>
       <GUID>1404007269</GUID>
-      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>Es brennt mit derselben Kohle wie die Kessel, über die es wacht, und verschwendet nichts davon.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Dampfschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>Es brennt mit derselben Kohle wie die Kessel, über die es wacht, und verschwendet nichts davon.</Text>
     </Text>
     <Text>
       <GUID>1404007270</GUID>
-      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>Was auch immer den Rumpf trifft, die Schaufelräder drehen sich weiter.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Dampfschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>Was auch immer den Rumpf trifft, die Schaufelräder drehen sich weiter.</Text>
     </Text>
     <Text>
       <GUID>1404007271</GUID>
-      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>Wo sein goldenes Licht scheint, öffnen die Basare ihre Tore und ihre Geldbeutel.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Dampfschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>Wo sein goldenes Licht scheint, öffnen die Basare ihre Tore und ihre Geldbeutel.</Text>
     </Text>
     <Text>
       <GUID>1404007272</GUID>
-      <!-- Text | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>Ein rotes Licht für die Kanoniere: genau zielen, schnell feuern.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Kriegsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>Ein rotes Licht für die Kanoniere: genau zielen, schnell feuern.</Text>
     </Text>
     <Text>
       <GUID>1404007273</GUID>
-      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>Weder Segel noch Schornstein entkommt einer Breitseite, die in seinem roten Licht abgefeuert wird.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Kriegsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>Weder Segel noch Schornstein entkommt einer Breitseite, die in seinem roten Licht abgefeuert wird.</Text>
     </Text>
     <Text>
       <GUID>1404007274</GUID>
-      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>Die Admirale der Flotte des Sultans lesen ihre Befehle in seinem grellen Schein.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Kriegsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>Die Admirale der Flotte des Sultans lesen ihre Befehle in seinem grellen Schein.</Text>
     </Text>
     <Text>
       <GUID>1404007275</GUID>
-      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>Geschmiedet für eine Flotte, die sich keinem Sturm beugt und unter keiner Kanone bricht.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Kriegsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>Geschmiedet für eine Flotte, die sich keinem Sturm beugt und unter keiner Kanone bricht.</Text>
     </Text>
     <Text>
       <GUID>1404007276</GUID>
-      <!-- Text | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>Ein grünes Licht hoch über den Minaretten, das die Luftschiffe nach Hause führt.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Luftschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>Ein grünes Licht hoch über den Minaretten, das die Luftschiffe nach Hause führt.</Text>
     </Text>
     <Text>
       <GUID>1404007277</GUID>
-      <!-- Text | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>Sein warmer Schein hebt die Luftschiffe wie die Wüstenluft zur Mittagszeit.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Luftschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>Sein warmer Schein hebt die Luftschiffe wie die Wüstenluft zur Mittagszeit.</Text>
     </Text>
     <Text>
       <GUID>1404007278</GUID>
-      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>Luftschiffer trauen ihm mehr als jedem Kompass: Solange es grün leuchtet, halten die Motoren.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Luftschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>Luftschiffer trauen ihm mehr als jedem Kompass: Solange es grün leuchtet, halten die Motoren.</Text>
     </Text>
     <Text>
       <GUID>1404007279</GUID>
-      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>Manche sagen, in der Linse wohne ein Dschinn, der jedes Luftschiff auf seinen Schwingen trägt.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Luftschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>Manche sagen, in der Linse wohne ein Dschinn, der jedes Luftschiff auf seinen Schwingen trägt.</Text>
     </Text>
     <Text>
       <GUID>1404007280</GUID>
-      <!-- Text | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>Die Perlentaucher des Golfs entzünden es vor jedem Tauchgang – für das Glück.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Bergungsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>Die Perlentaucher des Golfs entzünden es vor jedem Tauchgang – für das Glück.</Text>
     </Text>
     <Text>
       <GUID>1404007281</GUID>
-      <!-- Text | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>Sein violetter Schein reicht hinab bis dorthin, wo der Sand mehr als Muscheln verbirgt.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Bergungsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>Sein violetter Schein reicht hinab bis dorthin, wo der Sand mehr als Muscheln verbirgt.</Text>
     </Text>
     <Text>
       <GUID>1404007282</GUID>
-      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>Niemand weiß, wer es zuerst entzündet hat – nur, dass die Wracks, auf die es scheint, nie leer sind.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Bergungsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>Niemand weiß, wer es zuerst entzündet hat – nur, dass die Wracks, auf die es scheint, nie leer sind.</Text>
     </Text>
     <Text>
       <GUID>1404007283</GUID>
-      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>Entzündet, so heißt es, vom letzten Wächter eines Königreichs, das das Meer ganz verschlungen hat.&lt;br/&gt;In einen Orientalischen Leuchtturm einsetzen: Alle Ihre Bergungsschiffe in allen Regionen erhalten diese Effekte.</Text>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>Entzündet, so heißt es, vom letzten Wächter eines Königreichs, das das Meer ganz verschlungen hat.</Text>
     </Text>
     <Text>
       <GUID>1404007041</GUID>
@@ -6669,6 +6755,666 @@
       <GUID>1404008001</GUID>
       <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
       <Text>Patentliste der orientalischen Schmiede</Text>
+    </Text>
+    <Text>
+      <GUID>1404008100</GUID>
+      <!-- Hacienda | Bedouin Camp | Bedouin Camp -->
+      <Text>Beduinenlager</Text>
+    </Text>
+    <Text>
+      <GUID>1404008101</GUID>
+      <!-- ResidenceBuilding7_Colony | Bedouin Nomad Quarters | Bedouin Nomad Quarters -->
+      <Text>Beduinen-Unterkünfte für Nomaden</Text>
+    </Text>
+    <Text>
+      <GUID>1404008103</GUID>
+      <!-- EffectContainer | Desert Frugality | Desert Frugality -->
+      <Text>Genügsamkeit der Wüste</Text>
+    </Text>
+    <Text>
+      <GUID>1404008104</GUID>
+      <!-- Text | Those who cross the desert learn to make a little go a long way. | Those who cross the desert learn to make a little go a long way. -->
+      <Text>Wer die Wüste durchquert, lernt, mit wenig lange auszukommen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008106</GUID>
+      <!-- Text | Reduces the consumption of local wares for Bedouins | Reduces the consumption of local wares for Bedouins -->
+      <Text>Verringert den Verbrauch an lokalen Waren für Beduinen</Text>
+    </Text>
+    <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>Dekoratives Beduinenlager</Text>
+    </Text>
+    <Text>
+      <GUID>1404008110</GUID>
+      <!-- EffectContainer | Camel Breeding | Camel Breeding -->
+      <Text>Kamelzucht</Text>
+    </Text>
+    <Text>
+      <GUID>1404008111</GUID>
+      <!-- Text | A Bedouin knows every camel by name, and its forebears seven generations back. | A Bedouin knows every camel by name, and its forebears seven generations back. -->
+      <Text>Ein Beduine kennt jedes Kamel beim Namen – und seine Vorfahren sieben Generationen zurück.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008113</GUID>
+      <!-- Text | Increases the productivity of camel farms | Increases the productivity of camel farms -->
+      <Text>Erhöht die Produktivität von Kamelfarmen</Text>
+    </Text>
+    <Text>
+      <GUID>1404008120</GUID>
+      <!-- EffectContainer | Oasis Gardens | Oasis Gardens -->
+      <Text>Oasengärten</Text>
+    </Text>
+    <Text>
+      <GUID>1404008121</GUID>
+      <!-- Text | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. -->
+      <Text>Wo Wasser aus dem Sand steigt, pflanzen die Stämme Dattelpalmen als Schattenspender und Granatäpfel darunter.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008123</GUID>
+      <!-- Text | Increases the productivity of date and pomegranate farms | Increases the productivity of date and pomegranate farms -->
+      <Text>Erhöht die Produktivität von Dattel- und Granatapfelplantagen</Text>
+    </Text>
+    <Text>
+      <GUID>1404008130</GUID>
+      <!-- EffectContainer | Desert Hospitality | Desert Hospitality -->
+      <Text>Gastfreundschaft der Wüste</Text>
+    </Text>
+    <Text>
+      <GUID>1404008131</GUID>
+      <!-- Text | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. -->
+      <Text>Kein Reisender wird von einem Beduinenzelt abgewiesen: drei Tage Obdach, Kaffee und Brot, ohne Fragen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008133</GUID>
+      <!-- Text | Increases the happiness of Nomads | Increases the happiness of Nomads -->
+      <Text>Erhöht die Zufriedenheit der Nomaden</Text>
+    </Text>
+    <Text>
+      <GUID>1404008140</GUID>
+      <!-- EffectContainer | Bonds of the Tribe | Bonds of the Tribe -->
+      <Text>Bande des Stammes</Text>
+    </Text>
+    <Text>
+      <GUID>1404008141</GUID>
+      <!-- Text | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. -->
+      <Text>Ruft der Scheich, schickt jedes Zelt seine Hände, denn der Stamm besteht oder fällt gemeinsam.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008143</GUID>
+      <!-- Text | Increases the workforce of Nomads | Increases the workforce of Nomads -->
+      <Text>Erhöht die Arbeitskraft der Nomaden</Text>
+    </Text>
+    <Text>
+      <GUID>1404009000</GUID>
+      <!-- Product | Rammed Earth | Rammed Earth -->
+      <Text>Stampflehm</Text>
+    </Text>
+    <Text>
+      <GUID>1404009001</GUID>
+      <!-- Text | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. -->
+      <Text>Feuchter Lehm, Schicht für Schicht in eine Schalung aus Holzbrettern gefüllt und festgestampft. Mauern aus Stampflehm bleiben selbst in der Mittagshitze der Wüste kühl und stehen jahrhundertelang.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009002</GUID>
+      <!-- FactoryBuilding7 | Rammed Earth Works | Rammed Earth Works -->
+      <Text>Stampflehmwerkstatt</Text>
+    </Text>
+    <Text>
+      <GUID>1404009003</GUID>
+      <!-- BuffFactoryModule | Sand Pit | Sand Pit -->
+      <Text>Sandgrube</Text>
+    </Text>
+    <Text>
+      <GUID>1404009100</GUID>
+      <!-- GuildhouseItem | Nadira al-Lawz, The Lady of the Almond Grove | Nadira al-Lawz, The Lady of the Almond Grove -->
+      <Text>Nadira al-Lawz, Herrin des Mandelhains</Text>
+    </Text>
+    <Text>
+      <GUID>1404009101</GUID>
+      <!-- Text | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. -->
+      <Text>Zwischen Mandelbäumen geboren, lernte Nadira schon als Kind die Geheimnisse des Veredelns und Beschneidens. Mit Geduld gelang es ihr, Bäume wiederzubeleben, die andere längst aufgegeben hatten. Ihre Ernten wurden bald zum Vorbild für die benachbarten Bauern. Heute blüht ihr Wissen in jedem Obstgarten, der ihrer Obhut anvertraut wird.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009102</GUID>
+      <!-- GuildhouseItem | Decree on the Grafting and Pruning of Fruit Trees | Decree on the Grafting and Pruning of Fruit Trees -->
+      <Text>Erlass über das Veredeln und Beschneiden von Obstbäumen</Text>
+    </Text>
+    <Text>
+      <GUID>1404009103</GUID>
+      <!-- Text | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. -->
+      <Text>Angesichts der geringen Erträge vieler Landgüter führten die Landwirtschaftsbehörden neue Maßnahmen zur besseren Pflege der Obstbäume ein. Die Auswahl der Äste, das Aufpfropfen widerstandsfähiger Sorten und der regelmäßige Schnitt rückten in den Mittelpunkt der Feldarbeit. Obwohl manche Besitzer den neuen Vorschriften zunächst misstrauten, überzeugten sie am Ende die Ergebnisse.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009104</GUID>
+      <!-- GuildhouseItem | Leyla al-Harir, the Mistress of the Cocoon | Leyla al-Harir, the Mistress of the Cocoon -->
+      <Text>Leyla al-Harir, Herrin der Kokons</Text>
+    </Text>
+    <Text>
+      <GUID>1404009105</GUID>
+      <!-- Text | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. -->
+      <Text>Leyla wuchs in einer Familie von Seidenerzeugern auf und entdeckte bald ihr besonderes Talent für die Zucht von Seidenraupen. Während andere durch Nachlässigkeit ganze Ernten verloren, brachte sie stets eine Fülle hochwertiger Kokons hervor. Man sagt, sie könne den Erfolg einer Ernte allein am Anblick der Maulbeerbäume ablesen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009106</GUID>
+      <!-- GuildhouseItem | Steam boilers for silk reeling | Steam boilers for silk reeling -->
+      <Text>Dampfkessel zum Abhaspeln von Seide</Text>
+    </Text>
+    <Text>
+      <GUID>1404009107</GUID>
+      <!-- Text | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. -->
+      <Text>Heißes Wasser löst den natürlichen Seidenleim der Kokons, sodass sich ihre hauchfeinen Fäden abwickeln lassen. Dampf hilft, die Temperatur gleichmäßig zu halten. Die erfolgreicheren Erzeuger übernahmen dieses Verfahren, um gleichmäßigere Fäden zu gewinnen. Die so entstandene Seide eroberte neue Märkte, ohne ihren zarten Glanz zu verlieren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009108</GUID>
+      <!-- GuildhouseItem | Khalil al-Najjar, the Woodcutter of the Oases | Khalil al-Najjar, The Woodcutter of the Oases -->
+      <Text>Khalil al-Najjar, Holzfäller der Oasen</Text>
+    </Text>
+    <Text>
+      <GUID>1404009109</GUID>
+      <!-- Text | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. -->
+      <Text>Khalil erlernte sein Handwerk bei den Holzfällern seines Dorfes, wo Holz knapp war und jeder Stamm bis zum Letzten genutzt werden musste. Er kennt die Schwachstellen der Palmen und weiß, wie man sie fällt, ohne Material zu verschwenden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009110</GUID>
+      <!-- GuildhouseItem | Frame Saw | Frame Saw -->
+      <Text>Rahmensäge</Text>
+    </Text>
+    <Text>
+      <GUID>1404009111</GUID>
+      <!-- Text | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. -->
+      <Text>Ihr in einen Rahmen gespanntes Blatt ermöglicht präzise Holzschnitte mit vergleichsweise wenig Kraftaufwand. Die Arbeiter teilen damit Stämme und bereiten Bauteile für den Bau vor. Ihre einfache Bauweise macht Wartung und Blattwechsel leicht.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009112</GUID>
+      <!-- GuildhouseItem | Samir al-Fustuq, the Pistachio Expert | Samir al-Fustuq, The Pistachio Expert -->
+      <Text>Samir al-Fustuq, Pistazienexperte</Text>
+    </Text>
+    <Text>
+      <GUID>1404009113</GUID>
+      <!-- Text | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. -->
+      <Text>Samir durchstreift die alten Pistazienhaine und erkennt die Bäume, die die begehrtesten Nüsse tragen. Sein Rat lockt Bauern an, die ihre Ernten verbessern wollen, ohne den Boden auszulaugen. Auf den Märkten steht sein Name für Pistazien von außergewöhnlicher Qualität.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009114</GUID>
+      <!-- GuildhouseItem | Spice Supply Decree | Spice Supply Decree -->
+      <Text>Erlass über die Gewürzversorgung</Text>
+    </Text>
+    <Text>
+      <GUID>1404009115</GUID>
+      <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
+      <Text>Diese Vereinbarung regelt die gemeinsame Nutzung von Weidewegen und Wasserstellen für das Vieh. Durch die Abstimmung zwischen Clans und Züchtern werden Tierverluste verringert und die Vermehrung verbessert. Diese Maßnahme ermöglicht größere und stabilere Herden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009116</GUID>
+      <!-- GuildhouseItem | Jalaluddin al-Qahwa, The Master of Spices | Jalaluddin al-Qahwa, The Master of Spices -->
+      <Text>Jalaluddin al-Qahwa, Meister der Gewürze</Text>
+    </Text>
+    <Text>
+      <GUID>1404009117</GUID>
+      <!-- Text | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. -->
+      <Text>Jalaluddin durchstreift die Basare auf der Suche nach seltenen Gewürzen und verlässlichen Lieferanten. Sein Geruchssinn erlaubt ihm, frischesten Kardamom von Ware zu unterscheiden, die seit Monaten im Lager liegt. Die Händler kennen seine hohen Ansprüche und wetteifern darum, ihm ihre besten Waren anzubieten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009118</GUID>
+      <!-- GuildhouseItem | Şehrazat Hanım, the Lady of Sugar | Şehrazat Hanım, the Lady of Sugar -->
+      <Text>Şehrazat Hanım, Herrin des Zuckers</Text>
+    </Text>
+    <Text>
+      <GUID>1404009119</GUID>
+      <!-- Text | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. -->
+      <Text>In den Basaren der Zuckerbäcker vervollkommnet Şehrazat die Kunst, Zucker und Stärke in zarte Leckereien zu verwandeln. Ihre Spezialität ist eine geschmeidige Konsistenz, die ihre Form behält, ohne hart zu werden. Sie experimentiert mit Rosenwasser, Zitrusfrüchten und Pistazien, um selbst die anspruchsvollsten Gaumen zu gewinnen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009120</GUID>
+      <!-- GuildhouseItem | Mercury Thermometer | Mercury Thermometer -->
+      <Text>Quecksilberthermometer</Text>
+    </Text>
+    <Text>
+      <GUID>1404009121</GUID>
+      <!-- Text | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. -->
+      <Text>Für die Herstellung von Lokum muss das Kochen des Zuckers genau überwacht werden, damit eine gleichmäßige Konsistenz entsteht. Ein Quecksilberthermometer misst die Temperatur des Sirups weit genauer als bloßes Augenmaß. So können die Zuckerbäcker ihre Rezepte zuverlässig wiederholen, und es geraten weniger Chargen zu weich oder zu hart.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009122</GUID>
+      <!-- GuildhouseItem | Baha al-Din al-Fustuq, The Roasting Alchemist | Baha al-Din al-Fustuq, The Roasting Alchemist -->
+      <Text>Baha al-Din al-Fustuq, Alchemist des Röstens</Text>
+    </Text>
+    <Text>
+      <GUID>1404009123</GUID>
+      <!-- Text | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. -->
+      <Text>Baha beherrscht die Kunst, Pistazien zu rösten, ohne ihren feinen Geschmack oder ihre typische Farbe zu beeinträchtigen. Er regelt die Hitze mit Bedacht und rührt die Nüsse ständig, damit sie gleichmäßig rösten. Händler suchen seine Dienste, um Chargen für ihre anspruchsvollsten Kunden vorzubereiten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009124</GUID>
+      <!-- GuildhouseItem | Iron Roasting Drum | Iron Roasting Drum -->
+      <Text>Eiserne Rösttrommel</Text>
+    </Text>
+    <Text>
+      <GUID>1404009125</GUID>
+      <!-- Text | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. -->
+      <Text>Handwerker nutzen drehende Metallbehälter, um die Hitze zu verteilen und zu verhindern, dass Pistazien auf einer Seite verbrennen. Die ständige Bewegung sorgt für eine gleichmäßigere Röstung und erlaubt größere Mengen als in einer gewöhnlichen Pfanne. Ihre robuste Bauweise hält dem täglichen Einsatz in Werkstätten und kleinen Betrieben stand.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009126</GUID>
+      <!-- GuildhouseItem | Mahinbanu Khatun, the Shah’s Personal Confectioner | Mahinbanu Khatun, the Shah’s Personal Confectioner -->
+      <Text>Mahinbanu Khatun, Leibkonditorin des Schahs</Text>
+    </Text>
+    <Text>
+      <GUID>1404009127</GUID>
+      <!-- Text | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. -->
+      <Text>Sie führt eine berühmte Werkstatt, in der Datteln zu feinen Süßigkeiten für die vornehmsten Tafeln verarbeitet werden. Sie wählt pralle, fleischige Früchte aus und überwacht sorgfältig ihr Einkochen in duftenden Sirupen. Ihr scharfes Auge für Details macht aus jedem Stück eine kleine Köstlichkeit, würdig, als feierliches Geschenk überreicht zu werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009128</GUID>
+      <!-- GuildhouseItem | Tin-Lined Copper Cauldron | Tin-Lined Copper Cauldron -->
+      <Text>Verzinnter Kupferkessel</Text>
+    </Text>
+    <Text>
+      <GUID>1404009129</GUID>
+      <!-- Text | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. -->
+      <Text>Der Kupferkessel verteilt die Hitze schnell und eignet sich daher ideal, um große Mengen Datteln in Sirup zu kochen. Sein verzinntes Inneres verhindert, dass die Speisen direkt mit dem Kupfer in Berührung kommen. Die Zuckerbäcker überwachen die Dichte des Sirups, während die Früchte langsam seine Süße aufnehmen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009130</GUID>
+      <!-- GuildhouseItem | Iskandar ibn Faraj, Chemistry Expert | Iskandar ibn Faraj, Chemistry Expert -->
+      <Text>Iskandar ibn Faraj, Chemieexperte</Text>
+    </Text>
+    <Text>
+      <GUID>1404009131</GUID>
+      <!-- Text | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. -->
+      <Text>Iskandar widmet seine Versuche der Nutzung von Kohlenwasserstoffen und ihren industriellen Derivaten. Zwischen Öltanks und Reaktionsgefäßen erforscht er, wie sich beständigere Mischungen gewinnen lassen. Seine Gründlichkeit erlaubt es ihm, komplexe chemische Prozesse zu steuern, ohne Rohstoffe zu verschwenden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009132</GUID>
+      <!-- GuildhouseItem | Daryush Mehrzad, Tireless Foreman | Daryush Mehrzad, Tireless Foreman -->
+      <Text>Daryush Mehrzad, unermüdlicher Vorarbeiter</Text>
+    </Text>
+    <Text>
+      <GUID>1404009133</GUID>
+      <!-- Text | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. -->
+      <Text>Daryush überwacht die Reaktionen, die schwefelhaltige Gase in chemische Erzeugnisse von hohem industriellem Wert verwandeln; er kontrolliert die Anlagen und hält die Prozesse ununterbrochen in Gang. Sein Fachwissen macht ihn unentbehrlich für Betriebe, die auf diesen ätzenden Stoff angewiesen sind.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009134</GUID>
+      <!-- GuildhouseItem | Lead Chamber | Lead Chamber -->
+      <Text>Bleikammer</Text>
+    </Text>
+    <Text>
+      <GUID>1404009135</GUID>
+      <!-- Text | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. -->
+      <Text>Große, mit Blei ausgekleidete Kammern dienen der Herstellung von Schwefelsäure im Bleikammerverfahren, das seit dem 18. Jahrhundert im industriellen Maßstab angewandt wird. In diesen Kammern reagieren Gase in Gegenwart von Wasserdampf und Stickstoffverbindungen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009136</GUID>
+      <!-- GuildhouseItem | Bahram ibn Kaveh, Obsessive Smelter | Bahram ibn Kaveh, Obsessive Smelter -->
+      <Text>Bahram ibn Kaveh, besessener Schmelzer</Text>
+    </Text>
+    <Text>
+      <GUID>1404009137</GUID>
+      <!-- Text | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. -->
+      <Text>Bahram kennt das Temperament jedes Ofens und erkennt an der Farbe der Flammen, wann das Erz schmelzbereit ist. Er regelt die Temperaturen und überwacht die Trennung des Silbers von den Verunreinigungen im Erz. Händler schätzen seine gewissenhafte Arbeit und die gleichbleibende Güte seiner Barren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009138</GUID>
+      <!-- GuildhouseItem | Zubayda al-Durra, the Deep-Sea Diver | Zubayda al-Durra, the Deep-Sea Diver -->
+      <Text>Zubayda al-Durra, Tiefseetaucherin</Text>
+    </Text>
+    <Text>
+      <GUID>1404009139</GUID>
+      <!-- Text | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. -->
+      <Text>Zubayda kennt die Austernbänke des Nahen Ostens und weiß, welche Gewässer die begehrtesten Perlen verbergen. Mit einem kleinen Korb taucht sie hinab und verlässt sich auf ihre Erfahrung, um jeden Tauchgang bestmöglich zu nutzen. Händler erwarten ihren Fang, angelockt von der Seltenheit und dem Glanz ihrer Funde.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009140</GUID>
+      <!-- GuildhouseItem | Diving Ballast Stone | Diving Ballast Stone -->
+      <Text>Tauchballaststein</Text>
+    </Text>
+    <Text>
+      <GUID>1404009141</GUID>
+      <!-- Text | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. -->
+      <Text>Perlentaucher benutzen Ballaststeine, die sie am Körper befestigen oder beim Abstieg festhalten, um schnell den Meeresgrund zu erreichen. Ein Seil erlaubt ihren Gefährten, den Tauchgang zu kontrollieren und dem Taucher beim Auftauchen zu helfen. Diese Technik erfordert Ausdauer, Abstimmung und ein genaues Verständnis der Strömungen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009142</GUID>
+      <!-- GuildhouseItem | Gallery Foreman | Gallery Foreman -->
+      <Text>Stollenvorarbeiter</Text>
+    </Text>
+    <Text>
+      <GUID>1404009143</GUID>
+      <!-- Text | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. -->
+      <Text>Er ist dafür zuständig, die Bergmannstrupps zu organisieren und die Aufgaben so zu verteilen, dass jeder Stollen voll in Betrieb bleibt. Seine Erfahrung erlaubt es ihm, Stillstände gering zu halten und jede Abbauschicht bestmöglich zu nutzen. Unter seiner Aufsicht bleibt der Fluss von Werkzeug, Arbeitern und gefördertem Erz stetig.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009144</GUID>
+      <!-- GuildhouseItem | Nasrin Khatun, The Master of Clay | Nasrin Khatun, The Master of Clay -->
+      <Text>Nasrin Khatun, Meisterin des Lehms</Text>
+    </Text>
+    <Text>
+      <GUID>1404009145</GUID>
+      <!-- Text | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. -->
+      <Text>Nasrin kennt die lehmreichen Böden der Region. Sie richtet den Abbau nach der Feuchtigkeit und Beschaffenheit des Bodens aus. Ihr Fachwissen macht es möglich, selbst die am schwersten zu bearbeitenden Vorkommen zu nutzen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009146</GUID>
+      <!-- GuildhouseItem | Mining Dewatering Pump | Mining Dewatering Pump -->
+      <Text>Grubenentwässerungspumpe</Text>
+    </Text>
+    <Text>
+      <GUID>1404009147</GUID>
+      <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
+      <Text>Sich ansammelndes Wasser bedroht die Stollen der Bergwerke und zwingt vielerorts zur Einstellung der Abbauarbeiten. Entwässerungspumpen machen es möglich, Schächte trockenzulegen und die Arbeitsbereiche zugänglich zu halten. Ihr Einsatz erleichtert den Abbau in größerer Tiefe und die Rückgewinnung von Boden, der sonst überflutet bliebe.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- SlotFactoryBuilding7 | Agate Collector | Agate Collector -->
+      <Text>Achatsammler</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Riverslot Orient | Riverbed Plot -->
+      <Text>Flussbettgrundstück</Text>
+    </Text>
+    <Text>
+      <GUID>1404003912</GUID>
+      <!-- InfoLayerIcon | RiverSlot Orient | Riverbed Plot -->
+      <Text>Flussbettgrundstück</Text>
+    </Text>
+    <Text>
+      <GUID>1404003913</GUID>
+      <!-- WorkAreaRiverSlot | Riverslot_workarea Orient | Riverbed Plot -->
+      <Text>Flussbettgrundstück</Text>
+    </Text>
+    <Text>
+      <GUID>1404003906</GUID>
+      <!-- Text | Riverslot Orient description | Build an Agate Collector to gather agates from the riverbed. -->
+      <Text>Baut einen Achatsammler, um Achate aus dem Flussbett zu sammeln.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004250</GUID>
+      <!-- EffectContainer | Royal Manufactories | Royal Manufactories -->
+      <Text>Königliche Manufakturen</Text>
+    </Text>
+    <Text>
+      <GUID>1404004251</GUID>
+      <!-- Text | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. -->
+      <Text>Werkstätten, die dem Hof des Sultans dienen, erhalten die feinsten Werkzeuge und die geschicktesten Meister.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004253</GUID>
+      <!-- Text | Increases the productivity of incense workshops and turban weavers | Increases the productivity of incense workshops and turban weavers -->
+      <Text>Erhöht die Produktivität von Räucherwerk-Werkstätten und Turbanwebern</Text>
+    </Text>
+    <Text>
+      <GUID>1404004254</GUID>
+      <!-- EffectContainer | Sultan's Treasury | Sultan's Treasury -->
+      <Text>Schatzkammer des Sultans</Text>
+    </Text>
+    <Text>
+      <GUID>1404004255</GUID>
+      <!-- Text | The court collects its dues in gold, and every envoy knows that tribute is expected. | The court collects its dues in gold, and every envoy knows that tribute is expected. -->
+      <Text>Der Hof treibt seine Abgaben in Gold ein, und jeder Gesandte weiß, dass Tribut erwartet wird.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004257</GUID>
+      <!-- Text | Increases the taxes of Envoys | Increases the taxes of Envoys -->
+      <Text>Erhöht die Steuern der Gesandten</Text>
+    </Text>
+    <Text>
+      <GUID>1404004258</GUID>
+      <!-- EffectContainer | Court Splendour | Court Splendour -->
+      <Text>Pracht des Hofes</Text>
+    </Text>
+    <Text>
+      <GUID>1404004259</GUID>
+      <!-- Text | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. -->
+      <Text>Brunnen, geflieste Höfe und vergoldete Kuppeln erinnern jeden Gast an die Nähe des Palastes.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004261</GUID>
+      <!-- Text | Increases the happiness of palace envoys | Increases the happiness of palace envoys -->
+      <Text>Erhöht die Zufriedenheit der Palastgesandten</Text>
+    </Text>
+    <Text>
+      <GUID>1404004262</GUID>
+      <!-- EffectContainer | Palace Service | Palace Service -->
+      <Text>Palastdienst</Text>
+    </Text>
+    <Text>
+      <GUID>1404004263</GUID>
+      <!-- Text | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. -->
+      <Text>Schreiber, Wachen und Verwalter: Ein Palast braucht viele Hände, und sie dienen mit Stolz.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004265</GUID>
+      <!-- Text | Increases the workforce of palace envoys | Increases the workforce of palace envoys -->
+      <Text>Erhöht die Arbeitskraft der Palastgesandten</Text>
+    </Text>
+    <Text>
+      <GUID>1404004266</GUID>
+      <!-- EffectContainer | Court Economy | Court Economy -->
+      <Text>Hofökonomie</Text>
+    </Text>
+    <Text>
+      <GUID>1404004267</GUID>
+      <!-- Text | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. -->
+      <Text>Selbst am Hof zählt der Großwesir jeden Ballen Stoff und jedes Körnchen Weihrauch.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004269</GUID>
+      <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
+      <Text>Senkt den Verbrauch von Räucherwerk und Turbanen der Palastgesandten</Text>
+    </Text>
+    <Text>
+      <GUID>1404009200</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q08_envoys_600 | A Beacon on the Horizon -->
+      <Text>Ein Leuchtfeuer am Horizont</Text>
+    </Text>
+    <Text>
+      <GUID>1404009201</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q09_lighthouse | Light over the Reefs -->
+      <Text>Licht über den Riffen</Text>
+    </Text>
+    <Text>
+      <GUID>1404009210</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q12_envoys_6000 | Seekers of Knowledge -->
+      <Text>Suchende des Wissens</Text>
+    </Text>
+    <Text>
+      <GUID>1404009211</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q13_research_outpost | A House of Knowledge -->
+      <Text>Ein Haus des Wissens</Text>
+    </Text>
+    <Text>
+      <GUID>1404009212</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q14_scholars_300 | Scholars in the Desert -->
+      <Text>Gelehrte in der Wüste</Text>
+    </Text>
+    <Text>
+      <GUID>1404009213</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q15_sultans_palace | A Palace for the Sultan -->
+      <Text>Ein Palast für den Sultan</Text>
+    </Text>
+    <Text>
+      <GUID>1404009220</GUID>
+      <!-- Text | Orient_Q08_envoys_600_Questbook | Word of your city has reached the ports of the sultanate, and more and more envoys are crossing the sea to see it with their own eyes. The captains, however, complain about the treacherous reefs and shifting sandbanks around your islands. The Diwan has promised the plans for a great lighthouse once enough envoys live in your city to justify such an expense. -->
+      <Text>Die Kunde von Ihrer Stadt hat die Häfen des Sultanats erreicht, und immer mehr Gesandte überqueren das Meer, um sie mit eigenen Augen zu sehen. Die Kapitäne klagen jedoch über die tückischen Riffe und wandernden Sandbänke rund um Ihre Inseln. Der Diwan hat die Pläne für einen großen Leuchtturm versprochen, sobald genug Gesandte in Ihrer Stadt leben, um eine solche Ausgabe zu rechtfertigen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009221</GUID>
+      <!-- Text | Orient_Q09_lighthouse_Questbook | The Diwan has kept its word: the plans for an Oriental Lighthouse have arrived, sealed with the Grand Vizier's own stamp. Its fire will guide merchant ships safely into your harbour by night, and its beacons can strengthen entire fleets. First lay the foundations on the coast, on solid rock and not on sand, as the master builders insist. -->
+      <Text>Der Diwan hat Wort gehalten: Die Pläne für einen Orientalischen Leuchtturm sind eingetroffen, versiegelt mit dem Stempel des Großwesirs persönlich. Sein Feuer wird Handelsschiffe nachts sicher in Ihren Hafen geleiten, und seine Leuchtfeuer können ganze Flotten stärken. Legen Sie zunächst das Fundament an der Küste, auf festem Fels und nicht auf Sand, wie die Baumeister betonen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009230</GUID>
+      <!-- Text | Orient_Q12_envoys_6000_Questbook | Your city has become the jewel of the sultanate, and its fame has travelled far beyond the desert. Scholars from distant lands have asked whether they may study the ancient libraries of the sultanate, the stars above the dunes and the secrets of the norias. The Diwan will only grant their request once your city is large enough to welcome envoys of every rank. -->
+      <Text>Ihre Stadt ist zum Juwel des Sultanats geworden, und ihr Ruhm reicht weit über die Wüste hinaus. Gelehrte aus fernen Ländern haben angefragt, ob sie die alten Bibliotheken des Sultanats, die Sterne über den Dünen und die Geheimnisse der Norias studieren dürfen. Der Diwan wird ihrer Bitte erst stattgeben, wenn Ihre Stadt groß genug ist, um Gesandte jeden Ranges zu empfangen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009231</GUID>
+      <!-- Text | Orient_Q13_research_outpost_Questbook | The scholars' request has been granted. Build a Research Outpost where they can live and work among the envoys and nomads, and where the knowledge of East and West can meet. -->
+      <Text>Der Bitte der Gelehrten wurde stattgegeben. Bauen Sie einen Forschungsaußenposten, in dem sie unter Gesandten und Nomaden leben und arbeiten können und in dem sich das Wissen von Ost und West begegnet.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009232</GUID>
+      <!-- Text | Orient_Q14_scholars_300_Questbook | The first scholars have arrived at the Research Outpost and are poring over star charts, old manuscripts and the secrets of the norias. Word has spread among the universities of the Old World. Give more scholars a home in Wadi Al Zahir, and the Sultan may soon take notice of a city that has become a meeting place of faith, trade and science. -->
+      <Text>Die ersten Gelehrten sind im Forschungsaußenposten eingetroffen und vertiefen sich in Sternkarten, alte Handschriften und die Geheimnisse der Norias. Die Kunde hat sich an den Universitäten der Alten Welt verbreitet. Geben Sie mehr Gelehrten ein Zuhause in Wadi Al Zahir, und bald könnte der Sultan auf eine Stadt aufmerksam werden, die zu einem Treffpunkt von Glaube, Handel und Wissenschaft geworden ist.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009233</GUID>
+      <!-- Text | Orient_Q15_sultans_palace_Questbook | The Sultan is so impressed by your city that he wishes to reside here himself for part of the year. The Grand Vizier has sent the plans for a Sultan's Palace, together with a long list of demands from the court. Build the palace, and your city will be second to none in the whole sultanate. -->
+      <Text>Der Sultan ist von Ihrer Stadt so beeindruckt, dass er einen Teil des Jahres selbst hier residieren möchte. Der Großwesir hat die Pläne für einen Sultanspalast geschickt, zusammen mit einer langen Liste von Forderungen des Hofes. Bauen Sie den Palast, und Ihre Stadt wird im ganzen Sultanat ihresgleichen suchen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009240</GUID>
+      <!-- Text | Orient_Quest_Hint_Bedouin_Camp | The Bedouin Camp can be expanded with Bedouin Nomad Quarters. Its decrees let you adapt the camp to the needs of your Nomads. -->
+      <Text>Das Beduinenlager kann um Beduinen-Unterkünfte für Nomaden erweitert werden. Mit seinen Erlassen passen Sie das Lager an die Bedürfnisse Ihrer Nomaden an.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009241</GUID>
+      <!-- Text | Orient_Quest_Hint_Lighthouse | The Oriental Lighthouse is built in several phases, each unlocked by a growing number of Envoys. Once complete, a beacon placed in it strengthens all of your ships. -->
+      <Text>Der Orientalische Leuchtturm wird in mehreren Bauphasen errichtet, die jeweils mit einer wachsenden Zahl an Gesandten freigeschaltet werden. Nach der Fertigstellung stärkt ein darin platziertes Leuchtfeuer all Ihre Schiffe.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009242</GUID>
+      <!-- Text | Orient_Quest_Hint_Research_Outpost | The Research Outpost can be expanded with residences for Scholars. -->
+      <Text>Der Forschungsaußenposten kann um Wohnhäuser für Gelehrte erweitert werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009243</GUID>
+      <!-- Text | Orient_Quest_Hint_Scholars | Scholars live in the residences of the Research Outpost. Fulfil their needs to attract more of them. -->
+      <Text>Gelehrte leben in den Wohnhäusern des Forschungsaußenpostens. Erfüllen Sie ihre Bedürfnisse, um mehr von ihnen anzulocken.</Text>
+    </Text>
+    <Text>
+      <GUID>1404009244</GUID>
+      <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
+      <Text>Der Sultanspalast kann um Palast-Unterkünfte für Gesandte erweitert werden, und seine Erlasse gewähren Ihrer Stadt mächtige Boni.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005139</GUID>
+      <!-- Text | <Key> | The Sultan must be able to recognize whether your city has reached the required size to house such a building. -->
+      <Text>Der Sultan muss erkennen können, ob Ihre Stadt die nötige Größe erreicht hat, um ein solches Bauwerk zu beherbergen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005138</GUID>
+      <!-- Text | <Key> | Sultan licenses required -->
+      <Text>Sultanslizenzen benötigt</Text>
+    </Text>
+    <Text>
+      <GUID>1404005142</GUID>
+      <!-- Text | <Key> | There are no tourists in the Orient, as outsiders are not welcome. -->
+      <Text>Im Orient gibt es keine Touristen, da außenweltliche Personen nicht erwünscht sind.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005141</GUID>
+      <!-- Text | <Key> | No Attractiveness in the Orient -->
+      <Text>Keine Attraktivität im Orient</Text>
+    </Text>
+    <Text>
+      <GUID>1404005143</GUID>
+      <!-- Text | <Key> | Beacon -->
+      <Text>Leuchtfeuer</Text>
+    </Text>
+    <Text>
+      <GUID>1404005144</GUID>
+      <!-- Text | <Key> | Effects -->
+      <Text>Effekte</Text>
+    </Text>
+    <Text>
+      <GUID>1404005145</GUID>
+      <!-- Text | <Key> | The effect of this beacon applies to all regions. -->
+      <Text>Der Effekt dieses Leuchtfeuers wirkt sich auf alle Regionen aus.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005146</GUID>
+      <!-- Text | <Key> | All ships of this ship type, as well as special ships belonging to this ship type, are affected. -->
+      <Text>Alle Schiffe dieses Schiffstyps sowie Spezialschiffe, die diesem Schiffstyp angehören, sind betroffen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005147</GUID>
+      <!-- Text | <Key> | Must be provided through a channel. -->
+      <Text>Muss durch einen Kanal bereitgestellt werden.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Damit die Quellen nicht versiegen, müssen wir Abstand zwischen unseren Norias halten.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>Abstand zu anderen Norias</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>Der Leuchtturm benötigt eine Linse, um seine Wirkung auf der ganzen Welt auszulösen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>Leuchtfeuer erforderlich</Text>
+    </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
+      <Text>Orientalische Botschaft</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
+      <Text>Orientalische Botschaft</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
+      <Text>Nur eine pro Insel. Verbraucht Sultanssiegel. Alle Wohnhäuser der Insel zahlen 10 % mehr Steuern, und Waren aus dem Orient zählen auch als einige lokale Waren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>Modulproduktion</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] muss hergestellt werden in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>Laufende Module</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>Durch anstrengende Arbeit stampfen die Arbeiter den weichen Ton in ein hartes Baumaterial.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005160</GUID>
+      <!-- Text | Consumption | Consumption -->
+      <Text>Verbrauch</Text>
+    </Text>
+    <Text>
+      <GUID>1404005161</GUID>
+      <!-- Text | Effects | Effects -->
+      <Text>Effekte</Text>
+    </Text>
+    <Text>
+      <GUID>1404005162</GUID>
+      <!-- Text | Residences, whose need for | Residences, whose need for -->
+      <Text>Wohngebäude, deren Bedürfnis nach</Text>
+    </Text>
+    <Text>
+      <GUID>1404005163</GUID>
+      <!-- Text | is fulfilled, receive | is fulfilled, receive -->
+      <Text>erfüllt ist, erhalten</Text>
+    </Text>
+    <Text>
+      <GUID>1404005164</GUID>
+      <!-- Text | Limited to one per island | Limited to one per island -->
+      <Text>Nur eins pro Insel erlaubt</Text>
     </Text>
   </ModOp>
 </ModOps>

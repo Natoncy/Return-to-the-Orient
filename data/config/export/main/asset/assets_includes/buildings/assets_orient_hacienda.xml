@@ -6,14 +6,14 @@
             <Values>
                 <Standard>
                     <GUID>1404001115</GUID>
-                    <Name>Research Station</Name>
+                    <Name>Research Outpost</Name>
                     <IconFilename>data/graphics/icons/public_services/icon_orient_research_station.png</IconFilename>
                     <InfoDescription>2975</InfoDescription>
                 </Standard>
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Research Station</Text>
+                            <Text>Research Outpost</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -41,7 +41,7 @@
                             <Amount>60</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>50</Amount>
                         </Item>
                         <Item>

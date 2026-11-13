@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Glow Painter</title>
+<style>
+  :root { --bg:#16181d; --panel:#1f232a; --line:#2e333c; --text:#e6e6e6; --dim:#9aa3ad; --acc:#f5c542; --ok:#5cc58a; --warn:#e7825c; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:13px/1.4 system-ui, sans-serif; height:100vh; display:grid; grid-template-columns:280px 1fr 300px; overflow:hidden; }
+  aside, #right { background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; min-height:0; }
+  #right { border-right:none; border-left:1px solid var(--line); padding:10px; overflow:auto; gap:10px; }
+  h2 { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--dim); margin:0 0 6px; }
+  input[type=search] { width:100%; padding:6px 8px; background:var(--bg); border:1px solid var(--line); color:var(--text); border-radius:4px; }
+  .filters { padding:10px; border-bottom:1px solid var(--line); display:grid; gap:6px; }
+  #list { overflow:auto; flex:1; }
+  .b { padding:6px 10px; border-bottom:1px solid var(--line); cursor:pointer; }
+  .b:hover { background:#262b33; } .b.sel { background:#2f3540; }
+  .b .n { font-weight:600; } .b .s { color:var(--dim); font-size:11px; }
+  .pill { display:inline-block; padding:0 6px; border-radius:8px; font-size:10px; margin-left:4px; vertical-align:1px; }
+  .pill.lit { background:#3c3418; color:var(--acc); } .pill.none { background:#3a2620; color:var(--warn); }
+  main { display:grid; grid-template-rows:auto auto 1fr; min-width:0; min-height:0; }
+  #strip { display:flex; gap:8px; padding:8px; overflow-x:auto; border-bottom:1px solid var(--line); min-height:112px; background:var(--panel); }
+  .t { flex:0 0 auto; width:120px; cursor:pointer; border:2px solid transparent; border-radius:4px; padding:2px; background:var(--bg); }
+  .t.sel { border-color:var(--acc); } .t img { width:112px; height:72px; object-fit:contain; display:block; background:#000; }
+  .t div { font-size:10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:var(--dim); }
+  .t.ro { opacity:.5; }
+  #tools { display:flex; flex-wrap:wrap; gap:6px; padding:6px 8px; align-items:center; border-bottom:1px solid var(--line); }
+  button, select { background:#2a2f38; color:var(--text); border:1px solid var(--line); border-radius:4px; padding:4px 9px; cursor:pointer; font:inherit; }
+  button.on { background:var(--acc); color:#000; border-color:var(--acc); }
+  button.primary { background:var(--ok); color:#000; border-color:var(--ok); font-weight:600; }
+  button:disabled { opacity:.4; cursor:default; }
+  .sep { width:1px; height:22px; background:var(--line); }
+  label { display:inline-flex; align-items:center; gap:4px; }
+  #stage { position:relative; overflow:hidden; background:#0b0c0e; min-height:0; }
+  #view { position:absolute; inset:0; width:100%; height:100%; cursor:crosshair; }
+  #empty { position:absolute; inset:0; display:grid; place-items:center; color:var(--dim); }
+  #status { position:absolute; left:8px; bottom:6px; color:var(--dim); font-size:11px; background:#0009; padding:2px 6px; border-radius:3px; pointer-events:none; }
+  .sw { width:18px; height:18px; border-radius:3px; border:2px solid transparent; cursor:pointer; padding:0; }
+  .sw.on { border-color:#fff; }
+  #right .box { background:var(--bg); border:1px solid var(--line); border-radius:4px; padding:8px; font-size:12px; word-break:break-all; }
+  #right ul { margin:4px 0 0; padding-left:16px; } #right li { margin:2px 0; }
+  #log { white-space:pre-wrap; font:11px ui-monospace, monospace; color:var(--dim); max-height:220px; overflow:auto; }
+  .muted { color:var(--dim); }
+  kbd { background:#2a2f38; border:1px solid var(--line); border-radius:3px; padding:0 4px; font-size:10px; }
+</style>
+</head>
+<body>
+<aside>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Gebäude suchen…">
+    <label><input id="onlyNone" type="checkbox"> nur ohne Lichtmaske</label>
+    <label><input id="onlyEdit" type="checkbox" checked> nur mit bemalbaren Texturen</label>
+  </div>
+  <div id="list"></div>
+</aside>
+<main>
+  <div id="strip"><span class="muted" style="padding:8px">Gebäude links auswählen.</span></div>
+  <div id="tools">
+    <button data-tool="brush" class="on" title="Pinsel (B)">Pinsel</button>
+    <button data-tool="erase" title="Radierer (E)">Radierer</button>
+    <button data-tool="rect" title="Rechteck füllen (R)">Rechteck</button>
+    <button data-tool="wand" title="Zauberstab: zusammenhängende ähnliche Farbe füllen (W)">Zauberstab</button>
+    <button data-tool="suggest" title="Rechteck ziehen: Vorschläge darin übernehmen (S)">Vorschläge ▭</button>
+    <span class="sep"></span>
+    <label>Größe <input id="size" type="range" min="1" max="80" value="6"> <span id="sizeV">6</span></label>
+    <label title="Toleranz des Zauberstabs">Tol <input id="tol" type="range" min="1" max="80" value="18"> <span id="tolV">18</span></label>
+    <label title="Lichtstärke">Stärke <input id="str" type="range" min="10" max="255" value="255"></label>
+    <span class="sep"></span>
+    <span title="Lichtgruppe: Weiß = immer an (wie die 1404-Masken), R/G/B = getrennt schaltende Gruppen (wie Vanilla-Wohnhäuser)">
+      <button class="sw on" data-col="w" style="background:#ffd23c"></button>
+      <button class="sw" data-col="r" style="background:#ff4040"></button>
+      <button class="sw" data-col="g" style="background:#40e060"></button>
+      <button class="sw" data-col="b" style="background:#4080ff"></button>
+    </span>
+    <span class="sep"></span>
+    <button id="undo" title="Rückgängig (Strg+Z)">↶</button>
+    <button id="redo" title="Wiederholen (Strg+Y)">↷</button>
+    <button id="clear">Leeren</button>
+    <span class="sep"></span>
+    <label><input id="showMask" type="checkbox" checked> Maske <kbd>H</kbd></label>
+    <label><input id="dimUnused" type="checkbox" checked> Ungenutztes abdunkeln</label>
+    <label><input id="showSug" type="checkbox"> Vorschläge</label>
+    <label>Deckkraft <input id="op" type="range" min="10" max="100" value="70"></label>
+    <span class="sep"></span>
+    <button id="save" class="primary" disabled title="Speichern (Strg+S)">Speichern</button>
+  </div>
+  <div id="stage">
+    <canvas id="view"></canvas>
+    <div id="empty">Keine Textur gewählt</div>
+    <div id="status"></div>
+  </div>
+</main>
+<div id="right">
+  <div><h2>Textur</h2><div id="info" class="box muted">—</div></div>
+  <div><h2>Auch speichern für Kopien</h2><div id="copies" class="box muted">—</div></div>
+  <div><h2>Hilfe</h2><div class="box muted">
+    Mausrad = Zoom, rechte/mittlere Maustaste oder Leertaste+Ziehen = Verschieben, <kbd>F</kbd> = einpassen.<br>
+    <kbd>B</kbd> Pinsel · <kbd>E</kbd> Radierer · <kbd>R</kbd> Rechteck · <kbd>W</kbd> Zauberstab · <kbd>S</kbd> Vorschläge · <kbd>[</kbd>/<kbd>]</kbd> Größe · <kbd>Alt</kbd> beim Rechteck/Zauberstab = entfernen.<br>
+    Malen nur auf Fenster-/Türöffnungen und Stoff in Türen. Abgedunkelt = von keinem Mesh benutzt.
+    Leere Maske speichern schaltet das Nachtlicht für diese Textur ab.
+  </div></div>
+  <div><h2>Protokoll</h2><div id="log" class="box">—</div></div>
+</div>
+<script>
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const COLS = { w: [255, 210, 60], r: [255, 64, 64], g: [64, 224, 96], b: [64, 128, 255] };
+let buildings = [], selB = null, selKey = null, info = null;
+let W = 0, H = 0, diff = null, diffData = null, mask = null, mctx = null, hint = null, hintData = null;
+let unusedOv = null, sugOv = null, dirty = false;
+let tool = 'brush', col = 'w', scale = 1, ox = 0, oy = 0;
+const undo = [], redo = [];
+const view = $('#view'), vctx = view.getContext('2d');
+
+// ---------- building list ----------
+async function loadBuildings() { buildings = await (await fetch('/api/buildings')).json(); renderList(); }
+function renderList() {
+  const q = $('#q').value.toLowerCase(), none = $('#onlyNone').checked, edit = $('#onlyEdit').checked;
+  $('#list').innerHTML = '';
+  for (const b of buildings) {
+    const lit = b.tex.filter(t => t.lit).length, ed = b.tex.filter(t => t.editable).length;
+    if (none && lit) continue; if (edit && !ed) continue;
+    const name = b.de || b.en || b.name;
+    if (q && !(name + ' ' + b.name + ' ' + b.guid).toLowerCase().includes(q)) continue;
+    const d = document.createElement('div'); d.className = 'b' + (selB === b ? ' sel' : '');
+    d.innerHTML = `<div class="n"></div><div class="s"></div>`;
+    d.querySelector('.n').textContent = name;
+    d.querySelector('.n').insertAdjacentHTML('beforeend', lit ? `<span class="pill lit">${lit}/${b.tex.length} Licht</span>` : `<span class="pill none">kein Licht</span>`);
+    d.querySelector('.s').textContent = `${b.name} · ${b.guid}`;
+    d.onclick = () => selectBuilding(b);
+    $('#list').appendChild(d);
+  }
+}
+function selectBuilding(b) {
+  if (!confirmLeave()) return;
+  selB = b; renderList();
+  const s = $('#strip'); s.innerHTML = '';
+  for (const t of b.tex) {
+    const d = document.createElement('div'); d.className = 't' + (t.editable ? '' : ' ro') + (t.key === selKey ? ' sel' : '');
+    d.innerHTML = `<img loading="lazy"><div></div>`;
+    d.querySelector('img').src = `/api/tex?key=${encodeURIComponent(t.key)}&lod=2`;
+    d.querySelector('div').textContent = (t.lit ? '💡 ' : '') + t.key.split('/').pop() + (t.editable ? '' : ' (nur lesen)');
+    d.title = t.key; d.onclick = () => selectTexture(t.key);
+    s.appendChild(d);
+  }
+  const first = b.tex.find(t => t.editable) || b.tex[0]; if (first) selectTexture(first.key, true);
+}
+function confirmLeave() { return !dirty || confirm('Ungespeicherte Änderungen verwerfen?'); }
+
+// ---------- texture ----------
+const loadImg = src => new Promise((ok, err) => { const i = new Image(); i.onload = () => ok(i); i.onerror = err; i.src = src; });
+async function selectTexture(key, skipConfirm) {
+  if (!skipConfirm && !confirmLeave()) return;
+  selKey = key; $$('.t').forEach(t => t.classList.toggle('sel', t.title === key));
+  status('lade…');
+  info = await (await fetch('/api/info?key=' + encodeURIComponent(key))).json();
+  diff = await loadImg('/api/tex?key=' + encodeURIComponent(key));
+  W = diff.naturalWidth; H = diff.naturalHeight;
+  const dc = Object.assign(document.createElement('canvas'), { width: W, height: H }), dctx = dc.getContext('2d');
+  dctx.drawImage(diff, 0, 0); diffData = dctx.getImageData(0, 0, W, H).data;
+  mask = Object.assign(document.createElement('canvas'), { width: W, height: H }); mctx = mask.getContext('2d', { willReadFrequently: true });
+  if (info.mask) { try { importMask(await loadImg('/api/mask?path=' + encodeURIComponent(info.mask))); } catch { } }
+  undo.length = redo.length = 0; dirty = false; unusedOv = sugOv = hint = hintData = null;
+  renderInfo(); fit(); draw();
+  $('#empty').style.display = 'none'; $('#save').disabled = !info.editable;
+  status(info.editable ? '' : 'nur lesen: Textur gibt es nur im Vanilla-Spiel');
+  loadHint(key);
+}
+async function loadHint(key) {
+  try {
+    const img = await loadImg('/api/hint?key=' + encodeURIComponent(key)); if (key !== selKey) return;
+    const c = Object.assign(document.createElement('canvas'), { width: W, height: H }), x = c.getContext('2d');
+    x.drawImage(img, 0, 0, W, H); hintData = x.getImageData(0, 0, W, H).data;
+    unusedOv = overlay((i) => hintData[i] ? null : [0, 0, 0, 170]);
+    sugOv = overlay((i) => hintData[i + 2] ? [0, 255, 255, 150] : null);
+    draw();
+  } catch { }
+}
+function overlay(f) {
+  const c = Object.assign(document.createElement('canvas'), { width: W, height: H }), x = c.getContext('2d'), d = x.createImageData(W, H);
+  for (let i = 0; i < W * H * 4; i += 4) { const v = f(i); if (v) d.data.set(v, i); }
+  x.putImageData(d, 0, 0); return c;
+}
+// stored mask: display colour per light group, alpha = intensity
+function importMask(img) {
+  const c = Object.assign(document.createElement('canvas'), { width: W, height: H }), x = c.getContext('2d');
+  x.drawImage(img, 0, 0, W, H); const s = x.getImageData(0, 0, W, H).data, d = mctx.createImageData(W, H);
+  for (let i = 0; i < s.length; i += 4) {
+    const r = s[i], g = s[i + 1], b = s[i + 2], m = Math.max(r, g, b); if (m < 8) continue;
+    const grp = Math.min(r, g, b) > m * 0.6 ? 'w' : r === m ? 'r' : g === m ? 'g' : 'b';
+    d.data.set([...COLS[grp], m], i);
+  }
+  mctx.putImageData(d, 0, 0);
+}
+function exportMask() {
+  const s = mctx.getImageData(0, 0, W, H).data, c = Object.assign(document.createElement('canvas'), { width: W, height: H }), x = c.getContext('2d'), d = x.createImageData(W, H);
+  for (let i = 0; i < s.length; i += 4) {
+    const a = s[i + 3]; d.data[i + 3] = 255; if (!a) continue;
+    const grp = groupOf(s[i], s[i + 1], s[i + 2]);
+    if (grp === 'w') d.data[i] = d.data[i + 1] = d.data[i + 2] = a; else d.data[i + 'rgb'.indexOf(grp)] = a;
+  }
+  x.putImageData(d, 0, 0); return c.toDataURL('image/png');
+}
+function groupOf(r, g, b) { let best = 'w', bd = 1e9; for (const [k, c] of Object.entries(COLS)) { const dd = (r - c[0]) ** 2 + (g - c[1]) ** 2 + (b - c[2]) ** 2; if (dd < bd) { bd = dd; best = k; } } return best; }
+function renderInfo() {
+  const esc = s => String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  $('#info').classList.remove('muted');
+  $('#info').innerHTML = `<b>${esc(info.path.split('/').pop())}</b> · ${W}×${H}<br><span class="muted">${esc(info.path)}</span><br>`
+    + `Maske: ${info.mask ? esc(info.mask) : '<i>keine</i>'}<br>`
+    + (info.editable ? `Speichert nach: <span class="muted">${esc(info.newMask.replace(/\.png$/, '_0…dds'))}</span><br>` : '')
+    + `Genutzt von:<ul>${info.users.map(u => `<li>${esc(u)}</li>`).join('')}</ul>`
+    + `<span class="muted">${info.cfgs.length} cfg(s) im Mod</span>`;
+  if (!info.copies.length) { $('#copies').innerHTML = '<span class="muted">keine Kopien gefunden</span>'; return; }
+  $('#copies').classList.remove('muted');
+  $('#copies').innerHTML = info.copies.map((c, i) => `<label style="display:flex;align-items:flex-start;margin-bottom:6px"><input type="checkbox" checked data-copy="${esc(c.key)}">`
+    + `<span>${esc(c.path)}<br><span class="muted">${c.users.map(esc).join(', ')}${c.mask ? ' · hat Maske' : ''}</span></span></label>`).join('');
+}
+
+// ---------- view ----------
+function resize() { const r = $('#stage').getBoundingClientRect(); view.width = r.width * devicePixelRatio; view.height = r.height * devicePixelRatio; draw(); }
+function fit() { if (!W) return; scale = Math.min(view.width / W, view.height / H) * 0.98; ox = (view.width - W * scale) / 2; oy = (view.height - H * scale) / 2; }
+function draw() {
+  vctx.setTransform(1, 0, 0, 1, 0, 0); vctx.fillStyle = '#0b0c0e'; vctx.fillRect(0, 0, view.width, view.height);
+  if (!diff) return;
+  vctx.setTransform(scale, 0, 0, scale, ox, oy); vctx.imageSmoothingEnabled = scale < 1;
+  vctx.drawImage(diff, 0, 0);
+  if ($('#dimUnused').checked && unusedOv) vctx.drawImage(unusedOv, 0, 0);
+  if ($('#showSug').checked && sugOv) vctx.drawImage(sugOv, 0, 0);
+  if ($('#showMask').checked) { vctx.globalAlpha = $('#op').value / 100; vctx.drawImage(mask, 0, 0); vctx.globalAlpha = 1; }
+  if (drag && (drag.tool === 'rect' || drag.tool === 'suggest')) {
+    vctx.strokeStyle = drag.tool === 'suggest' ? '#0ff' : '#fff'; vctx.lineWidth = 1.5 / scale; vctx.setLineDash([4 / scale, 4 / scale]);
+    vctx.strokeRect(Math.min(drag.x0, drag.x), Math.min(drag.y0, drag.y), Math.abs(drag.x - drag.x0), Math.abs(drag.y - drag.y0)); vctx.setLineDash([]);
+  }
+  if (cursor && (tool === 'brush' || tool === 'erase')) { vctx.strokeStyle = '#fff'; vctx.lineWidth = 1 / scale; vctx.beginPath(); vctx.arc(cursor.x, cursor.y, size() / 2, 0, 7); vctx.stroke(); }
+}
+const toTex = e => { const r = view.getBoundingClientRect(); return { x: ((e.clientX - r.left) * devicePixelRatio - ox) / scale, y: ((e.clientY - r.top) * devicePixelRatio - oy) / scale }; };
+const size = () => +$('#size').value, strength = () => +$('#str').value;
+const fillStyle = () => `rgba(${COLS[col].join(',')},${strength() / 255})`;
+function status(t) { $('#status').textContent = t; }
+
+// ---------- editing ----------
+function snapshot() { undo.push(mctx.getImageData(0, 0, W, H)); if (undo.length > 20) undo.shift(); redo.length = 0; dirty = true; }
+function restore(from, to) { if (!from.length) return; to.push(mctx.getImageData(0, 0, W, H)); mctx.putImageData(from.pop(), 0, 0); dirty = true; draw(); }
+function dab(x0, y0, x1, y1) {
+  mctx.save();
+  mctx.globalCompositeOperation = tool === 'erase' ? 'destination-out' : 'source-over';
+  mctx.strokeStyle = tool === 'erase' ? '#000' : fillStyle(); mctx.lineWidth = size(); mctx.lineCap = mctx.lineJoin = 'round';
+  // paint into a clean layer per stroke so overlapping dabs don't stack alpha
+  mctx.beginPath(); mctx.moveTo(x0, y0); mctx.lineTo(x1 + 0.01, y1); mctx.stroke(); mctx.restore();
+}
+function setPixels(pred, remove) { // pred(index) -> true for texels to set
+  const d = mctx.getImageData(0, 0, W, H), c = COLS[col], a = strength();
+  for (let p = 0; p < W * H; p++) if (pred(p)) { const i = p * 4; if (remove) d.data[i + 3] = 0; else { d.data[i] = c[0]; d.data[i + 1] = c[1]; d.data[i + 2] = c[2]; d.data[i + 3] = a; } }
+  mctx.putImageData(d, 0, 0);
+}
+function wand(x, y, remove) {
+  x = Math.floor(x); y = Math.floor(y); if (x < 0 || y < 0 || x >= W || y >= H) return;
+  const tol = +$('#tol').value, s = (y * W + x) * 4, sr = diffData[s], sg = diffData[s + 1], sb = diffData[s + 2];
+  const seen = new Uint8Array(W * H), st = [y * W + x]; seen[y * W + x] = 1; let n = 0;
+  while (st.length && n < 400000) {
+    const p = st.pop(); n++; const px = p % W, py = (p / W) | 0;
+    for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+      const qx = px + dx, qy = py + dy; if (qx < 0 || qy < 0 || qx >= W || qy >= H) continue;
+      const q = qy * W + qx; if (seen[q]) continue; const i = q * 4;
+      if (Math.abs(diffData[i] - sr) + Math.abs(diffData[i + 1] - sg) + Math.abs(diffData[i + 2] - sb) <= tol * 3) { seen[q] = 1; st.push(q); }
+    }
+  }
+  setPixels(p => seen[p], remove); status(`Zauberstab: ${n} Texel`);
+}
+function rectFill(r, remove, onlySug) {
+  const x0 = Math.max(0, Math.floor(Math.min(r.x0, r.x))), x1 = Math.min(W, Math.ceil(Math.max(r.x0, r.x)));
+  const y0 = Math.max(0, Math.floor(Math.min(r.y0, r.y))), y1 = Math.min(H, Math.ceil(Math.max(r.y0, r.y)));
+  if (onlySug && !hintData) { status('Vorschläge werden noch berechnet…'); return; }
+  setPixels(p => { const x = p % W, y = (p / W) | 0; return x >= x0 && x < x1 && y >= y0 && y < y1 && (!onlySug || hintData[p * 4 + 2] > 0); }, remove);
+}
+
+let drag = null, cursor = null, panning = null, space = false;
+view.addEventListener('contextmenu', e => e.preventDefault());
+view.addEventListener('mousedown', e => {
+  if (!diff) return;
+  if (e.button === 1 || e.button === 2 || space) { panning = { x: e.clientX, y: e.clientY, ox, oy }; return; }
+  if (!info.editable) return;
+  const p = toTex(e);
+  if (tool === 'wand') { snapshot(); wand(p.x, p.y, e.altKey); draw(); return; }
+  snapshot(); drag = { tool, x0: p.x, y0: p.y, x: p.x, y: p.y, alt: e.altKey };
+  if (tool === 'brush' || tool === 'erase') dab(p.x, p.y, p.x, p.y);
+  draw();
+});
+addEventListener('mousemove', e => {
+  if (panning) { ox = panning.ox + (e.clientX - panning.x) * devicePixelRatio; oy = panning.oy + (e.clientY - panning.y) * devicePixelRatio; draw(); return; }
+  if (!diff) return; const p = toTex(e); cursor = p;
+  if (drag) { if (drag.tool === 'brush' || drag.tool === 'erase') dab(drag.x, drag.y, p.x, p.y); drag.x = p.x; drag.y = p.y; }
+  status(`${Math.floor(p.x)}, ${Math.floor(p.y)}  ·  Zoom ${(scale * 100 / devicePixelRatio).toFixed(0)}%` + (dirty ? '  ·  ungespeichert' : ''));
+  draw();
+});
+addEventListener('mouseup', () => {
+  if (panning) { panning = null; return; }
+  if (!drag) return;
+  if (drag.tool === 'rect') rectFill(drag, drag.alt, false);
+  if (drag.tool === 'suggest') rectFill(drag, drag.alt, true);
+  drag = null; draw();
+});
+view.addEventListener('mouseleave', () => { cursor = null; draw(); });
+view.addEventListener('wheel', e => {
+  e.preventDefault(); const r = view.getBoundingClientRect(), mx = (e.clientX - r.left) * devicePixelRatio, my = (e.clientY - r.top) * devicePixelRatio;
+  const f = Math.exp(-e.deltaY * 0.0015), ns = Math.min(40, Math.max(0.05, scale * f));
+  ox = mx - (mx - ox) * ns / scale; oy = my - (my - oy) * ns / scale; scale = ns; draw();
+}, { passive: false });
+
+// ---------- controls ----------
+function setTool(t) { tool = t; $$('[data-tool]').forEach(b => b.classList.toggle('on', b.dataset.tool === t)); draw(); }
+$$('[data-tool]').forEach(b => b.onclick = () => setTool(b.dataset.tool));
+$$('[data-col]').forEach(b => b.onclick = () => { col = b.dataset.col; $$('[data-col]').forEach(x => x.classList.toggle('on', x === b)); });
+$('#size').oninput = () => { $('#sizeV').textContent = size(); draw(); };
+$('#tol').oninput = () => $('#tolV').textContent = $('#tol').value;
+['#showMask', '#dimUnused', '#showSug', '#op'].forEach(s => $(s).oninput = draw);
+$('#undo').onclick = () => restore(undo, redo); $('#redo').onclick = () => restore(redo, undo);
+$('#clear').onclick = () => { if (!mask) return; snapshot(); mctx.clearRect(0, 0, W, H); draw(); };
+['#q', '#onlyNone', '#onlyEdit'].forEach(s => $(s).oninput = renderList);
+$('#save').onclick = save;
+addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' && e.target.type !== 'range' && e.target.type !== 'checkbox') return;
+  const k = e.key.toLowerCase();
+  if (e.ctrlKey && k === 'z') { e.preventDefault(); restore(undo, redo); }
+  else if (e.ctrlKey && k === 'y') { e.preventDefault(); restore(redo, undo); }
+  else if (e.ctrlKey && k === 's') { e.preventDefault(); if (!$('#save').disabled) save(); }
+  else if (e.ctrlKey) return;
+  else if (k === ' ') { space = true; e.preventDefault(); }
+  else if (k === 'b') setTool('brush'); else if (k === 'e') setTool('erase'); else if (k === 'r') setTool('rect');
+  else if (k === 'w') setTool('wand'); else if (k === 's') setTool('suggest');
+  else if (k === 'h') { $('#showMask').checked = !$('#showMask').checked; draw(); }
+  else if (k === 'f') { fit(); draw(); }
+  else if (k === '[' || k === ']') { $('#size').value = size() + (k === ']' ? 2 : -2); $('#size').oninput(); }
+});
+addEventListener('keyup', e => { if (e.key === ' ') space = false; });
+addEventListener('beforeunload', e => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+addEventListener('resize', resize);
+
+async function save() {
+  $('#save').disabled = true; status('speichere…');
+  const copies = $$('[data-copy]').filter(c => c.checked).map(c => c.dataset.copy);
+  try {
+    const r = await (await fetch('/api/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key: selKey, png: exportMask(), copies }) })).json();
+    if (r.error) throw new Error(r.error);
+    $('#log').textContent = r.log.join('\n'); dirty = false; status('gespeichert');
+    const keep = selB && selB.guid; await loadBuildings();
+    selB = buildings.find(b => b.guid === keep) || selB; renderList();
+    info = await (await fetch('/api/info?key=' + encodeURIComponent(selKey))).json(); renderInfo();
+    $$('.t').forEach(t => { const tx = selB.tex.find(x => x.key === t.title); if (tx) t.querySelector('div').textContent = (tx.lit ? '💡 ' : '') + tx.key.split('/').pop() + (tx.editable ? '' : ' (nur lesen)'); });
+  } catch (err) { $('#log').textContent = 'Fehler: ' + err.message; status('Fehler beim Speichern'); }
+  $('#save').disabled = !info.editable;
+}
+resize(); loadBuildings();
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<ModOps>    
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2143505885</GUID>
+      <Text>Серная кислота</Text>
+    </Text>
+  </ModOp>
+</ModOps>

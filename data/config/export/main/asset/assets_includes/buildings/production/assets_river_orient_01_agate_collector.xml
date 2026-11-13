@@ -1,0 +1,244 @@
+<ModOps>
+
+    <!-- Agate Collector: Enbesa's Clay Collector 117743 on river slots (SlotType River, vanilla Riverslot 117741),
+         reskinned with agates in its dirt (river_orient_01). Takes over the GUID of the old quartz mine, which sat on
+         the Tin deposit 1404003905 (removed). 30 s cycle = one collector per Mosaic Workshop.
+         Sits right after its base: a BaseAssetGUID only resolves against assets earlier in the file. -->
+    <ModOp Type="addNextSibling" GUID="117743">
+        <Asset>
+            <BaseAssetGUID>117743</BaseAssetGUID>
+            <!--river_colony02_01 (Clay Harvester), Africa-->
+            <Values>
+                <Standard>
+                    <GUID>1404003903</GUID>
+                    <Name>river_orient_01 (Agate Collector)</Name>
+                    <IconFilename>data/modgraphics/ui/icon_agates.png</IconFilename>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>2500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1400201040</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1404009000</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/river_orient_01/river_orient_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/river_orient_01/river_orient_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1404003903</DefaultSkinName>
+                    </Skins>
+                </Object>
+                <Mesh/>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Agate Collector</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Locked/>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1404005148</Product>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1404003900</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>30</CycleTime>
+                </FactoryBase>
+                <Slot>
+                    <SlotType>River</SlotType>
+                    <WorkArea>1404003904</WorkArea>
+                    <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                    <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+                </Slot>
+                <AmbientMoodProvider/>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>60</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1404000012</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Electrifiable>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- the Clay Collector's digging station and channel up the river, on the agate textures -->
+    <ModOp Type="addNextSibling" GUID="120274">
+        <Asset>
+            <BaseAssetGUID>120274</BaseAssetGUID>
+            <!--river_colony02_01_workarea (Clay Harvester)-->
+            <Values>
+                <Standard>
+                    <GUID>1404003904</GUID>
+                    <Name>river_orient_01_workarea (Agate Collector)</Name>
+                    <IconFilename>data/modgraphics/ui/icon_agates.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/river_orient_01/river_orient_01_station_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1404003904</DefaultSkinName>
+                    </Skins>
+                </Object>
+                <WorkAreaPath>
+                    <AreaPathConfig>data/graphics/buildings/orient/river_orient_01/river_orient_01_channel_01.cfg</AreaPathConfig>
+                </WorkAreaPath>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Orient river slot: the vanilla Riverslot 117741 opens the RiverSlot panel, which lists every building in the
+         global RiverslotFeature (Enbesa's water pump, clay collector and paper mill too) with no region filter.
+         This copy uses the Generic slot panel instead, whose build button takes the region's SlotBuildings entry for
+         the slot type (River -> Agate Collector in Region Orient 1404000006). The Orient islands place this GUID. -->
+    <ModOp Type="addNextSibling" GUID="117741">
+        <Asset>
+            <BaseAssetGUID>117741</BaseAssetGUID>
+            <!--Riverslot, Africa-->
+            <Values>
+                <Standard>
+                    <GUID>1404003905</GUID>
+                    <Name>Riverslot Orient</Name>
+                    <IconFilename>data/modgraphics/ui/icon_agates.png</IconFilename>
+                    <InfoDescription>1404003906</InfoDescription>
+                </Standard>
+                <!-- vanilla mining_blocker_colony02 models without the grass props -->
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_orient/mining_blocker_orient_main_left.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_orient/mining_blocker_orient_main_right.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Infolayer>
+                    <DefaultInfoLayer>1404003912</DefaultInfoLayer>
+                </Infolayer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Orient river slot work area (the rocky station up the river), placed by the Orient islands instead of 117742 -->
+    <ModOp Type="addNextSibling" GUID="117742">
+        <Asset>
+            <BaseAssetGUID>117742</BaseAssetGUID>
+            <!--Riverslot_workarea, Africa-->
+            <Values>
+                <Standard>
+                    <GUID>1404003913</GUID>
+                    <Name>Riverslot_workarea Orient</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/landscape/terrain/mining_blockers/mining_blocker_orient/mining_blocker_orient_station.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- the floating icon over an unused Orient river slot, named like the slot (vanilla 117781 says "River Slot") -->
+    <ModOp Type="addNextSibling" GUID="117781">
+        <Asset>
+            <BaseAssetGUID>117781</BaseAssetGUID>
+            <!--RiverSlot infolayer icon-->
+            <Values>
+                <Standard>
+                    <GUID>1404003912</GUID>
+                    <Name>RiverSlot Orient</Name>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- the RiverSlot panel offers only the buildings listed in the RiverslotFeature (vanilla: 114544, 117743, 117744);
+         kept for any 117741 slot left in the Orient -->
+    <ModOp Type="add" GUID="131694" Path="/Values/RiverSlotFeature/RiverslotBuildings">
+        <Item>
+            <Building>1404003903</Building>
+        </Item>
+    </ModOp>
+
+    <!-- item effect target pools (all production) and workforce menu -->
+    <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404003903</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- WorkforceMenu/BoostableFactories -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1404003903</Factory>
+        </Item>
+    </ModOp>
+
+</ModOps>

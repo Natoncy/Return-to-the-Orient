@@ -41,21 +41,23 @@
                     <IconFilename>data/graphics/icons/ornaments/palm.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
+                    <!-- Orient copies of Palm Trees 133886, the two palms 102818/102817, bush 102863 and grass 102812
+                         (assets_orient_park_plants.xml): the New World unlocks the originals at 300 Jornaleros -->
                     <BuildingList>
                         <Item>
-                            <Building>133886</Building>
+                            <Building>1404004870</Building>
                         </Item>
                         <Item>
-                            <Building>102818</Building>
+                            <Building>1404004871</Building>
                         </Item>
                         <Item>
-                            <Building>102817</Building>
+                            <Building>1404004872</Building>
                         </Item>
                         <Item>
-                            <Building>102863</Building>
+                            <Building>1404004873</Building>
                         </Item>
                         <Item>
-                            <Building>102812</Building>
+                            <Building>1404004874</Building>
                         </Item>
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
@@ -84,10 +86,13 @@
                             <Building>1404000584</Building>
                         </Item>
                         <Item>
-                            <Building>1404000585</Building>
+                            <Building>1404004218</Building>
                         </Item>
                         <Item>
-                            <Building>1404004218</Building>
+                            <Building>1404004248</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000585</Building>
                         </Item>
                         <Item>
                             <Building>1404004204</Building>
@@ -112,25 +117,25 @@
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
+                            <Building>1404000381</Building>
+                        </Item>
+                        <Item>
                             <Building>1404000586</Building>
                         </Item>
                         <Item>
                             <Building>1404000587</Building>
                         </Item>
                         <Item>
-                            <Building>1404000381</Building>
-                        </Item>
-                        <Item>
                             <Building>1404000178</Building>
                         </Item>
                         <Item>
-                            <Building>1404000234</Building>
+                            <Building>1404003600</Building>
                         </Item>
                         <Item>
                             <Building>1404004206</Building>
                         </Item>
                         <Item>
-                            <Building>1404003600</Building>
+                            <Building>1404000234</Building>
                         </Item>
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
@@ -161,10 +166,10 @@
                             <Building>1404004201</Building>
                         </Item>
                         <Item>
-                            <Building>1404004202</Building>
+                            <Building>1404004203</Building>
                         </Item>
                         <Item>
-                            <Building>1404004203</Building>
+                            <Building>1404004202</Building>
                         </Item>
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
@@ -186,9 +191,6 @@
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
-                            <Building>1404004205</Building>
-                        </Item>
-                        <Item>
                             <Building>1404004850</Building>
                         </Item>
                         <Item>
@@ -198,6 +200,12 @@
                             <Building>1404004852</Building>
                         </Item>
                         <Item>
+                            <Building>1404004205</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004210</Building>
+                        </Item>
+                        <Item>
                             <Building>1404004207</Building>
                         </Item>
                         <Item>
@@ -205,9 +213,6 @@
                         </Item>
                         <Item>
                             <Building>1404004209</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004210</Building>
                         </Item>
                         <Item>
                             <Building>1404004801</Building>

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Orient Unlock Editor</title>
+<style>
+  :root{ --bg:#15151a; --panel:#1e1e24; --panel2:#24242c; --line:#2e2e38; --fg:#e8e8ee; --dim:#9a9aa8; --accent:#6aa9ff;
+    --unlock:#5fcf8a; --unhide:#e0b050; --pool:#b48cff; --warn:#ff7a6a; --chip:#2a2a33; --chipb:#3a3a46; }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font:13px/1.45 "Segoe UI",system-ui,sans-serif;overflow:hidden}
+  #app{display:flex;flex-direction:column;height:100%}
+  #bar{display:flex;gap:6px;align-items:center;padding:8px 10px;background:var(--panel);border-bottom:1px solid var(--line);flex-wrap:wrap}
+  #bar strong{font-size:13px;margin-right:6px}
+  button,select,input{background:var(--chip);color:var(--fg);border:1px solid var(--chipb);border-radius:5px;padding:5px 10px;font:inherit;font-size:12px}
+  button{cursor:pointer} button:hover{background:#343440} button:disabled{opacity:.4;cursor:default}
+  button.on{background:var(--accent);border-color:var(--accent);color:#08121f;font-weight:600}
+  button.save{background:#2f6b45;border-color:#3f8a5a} button.save:hover{background:#3a7f53}
+  input:focus{outline:1px solid var(--accent)}
+  .sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+  #filter{width:240px}
+  #main{flex:1;display:flex;min-height:0}
+  #view{flex:1;overflow:auto;padding:10px 14px 60px}
+  #side{width:clamp(280px,28vw,420px);border-left:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-height:0}
+  #side .tabs{display:flex;gap:4px;padding:8px;border-bottom:1px solid var(--line)}
+  #sidebody{flex:1;overflow:auto;padding:10px}
+  .dim{color:var(--dim)} .small{font-size:11px}
+  h2{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);margin:18px 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
+  h2:first-child{margin-top:4px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:7px;margin:6px 0;padding:7px 9px}
+  .card.creative{border-left:3px solid var(--pool)}
+  .card.flash{outline:2px solid var(--accent)}
+  .head{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+  .head .nm{font-weight:600}
+  .head a{color:var(--dim);font-size:11px;text-decoration:none} .head a:hover{color:var(--accent)}
+  .badge{font-size:10.5px;padding:0 6px;border-radius:9px;background:#33333f;color:var(--dim)}
+  .badge.warn{background:#4a2a26;color:var(--warn)}
+  .cond{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:4px 0 2px;font-size:12px}
+  .cond .and{color:var(--dim);font-size:11px}
+  .cpill{display:inline-flex;flex-wrap:wrap;max-width:100%;gap:5px;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+  .cpill .t{color:var(--dim);font-size:11px}
+  .cpill input{padding:1px 4px;font-size:12px;width:auto;min-width:40px;background:#1a1a20}
+  .cpill input.dirty{border-color:var(--accent)}
+  .cpill .neg{color:var(--warn);font-weight:600}
+  .rowz{display:grid;grid-template-columns:62px minmax(0,1fr);gap:3px 8px;margin-top:5px;align-items:start}
+  .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;padding-top:5px}
+  .lbl.unlock{color:var(--unlock)} .lbl.unhide{color:var(--unhide)} .lbl.pool{color:var(--pool)}
+  .zone{min-height:28px;border:1px dashed transparent;border-radius:5px;padding:2px;display:flex;flex-wrap:wrap;gap:4px;align-content:flex-start}
+  .zone:empty::after{content:"drop here";color:#55556a;font-size:11px;padding:4px 6px}
+  .zone.over{border-color:var(--accent);background:#6aa9ff14}
+  .zone.ro{opacity:.85}
+  .zone.dirty{border-color:#6aa9ff55;border-style:solid}
+  .chip{display:inline-flex;align-items:center;gap:5px;background:var(--chip);border:1px solid var(--chipb);border-radius:5px;padding:2px 6px;cursor:grab;max-width:100%;user-select:none}
+  .chip > span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+  td:nth-child(2){overflow:hidden;text-overflow:ellipsis}
+  .chip .g{color:var(--dim);font-size:10.5px;font-variant-numeric:tabular-nums}
+  .chip .x{color:var(--dim);cursor:pointer;padding:0 2px;margin-right:-3px;display:none}
+  .chip:hover .x{display:inline} .chip .x:hover{color:var(--warn)}
+  .chip.pool{border-color:#5c4a86;background:#2a2438}
+  .chip.pool .ic{color:var(--pool)}
+  .chip.sel{outline:2px solid var(--accent)}
+  .chip.match{background:#3d3a1c;border-color:#8d8a3c}
+  .chip.faded{opacity:.3}
+  .chip.added{box-shadow:inset 3px 0 0 var(--unlock)}
+  .chip.unknown{border-color:var(--warn)}
+  .chip.over{outline:2px dashed var(--pool)}
+  .chip .cm{color:var(--unhide);font-size:10px}
+  .caret{cursor:pointer;color:var(--pool);font-size:10px;width:10px;display:inline-block}
+  .poolbox{flex-basis:100%;margin:2px 0 4px 14px;padding:4px 6px;border-left:2px solid #5c4a86;background:#1b1823;border-radius:0 5px 5px 0}
+  .poolbox .zone{min-height:24px}
+  .poolhdr{font-size:11px;color:var(--dim);margin-bottom:2px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:8px}
+  table{border-collapse:collapse;width:100%;table-layout:fixed}
+  table col.a{width:34%} table col.t{width:14%}
+  td .tag{white-space:nowrap}
+  td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--dim);font-weight:500;font-size:11.5px;position:sticky;top:-10px;background:var(--bg)}
+  .tag{display:inline-block;font-size:11px;padding:0 5px;border-radius:4px;margin:1px 2px 1px 0;cursor:pointer}
+  .tag.unlock{background:#1f3a2a;color:var(--unlock)} .tag.unhide{background:#3a3220;color:var(--unhide)}
+  .issue{padding:6px 8px;border-left:3px solid var(--warn);background:var(--panel);margin:5px 0;border-radius:0 5px 5px 0}
+  .issue.info{border-left-color:var(--accent)}
+  .issue .zone{margin-top:4px}
+  .kv{display:grid;grid-template-columns:80px 1fr;gap:2px 8px;font-size:12px;margin-bottom:8px}
+  .kv span:nth-child(odd){color:var(--dim)}
+  .res{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+  .res .chip{justify-content:space-between}
+  .chg{margin:4px 0;font-size:12px}
+  .chg .p{color:var(--unlock)} .chg .m{color:var(--warn)}
+  #toast{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);background:#333340;border:1px solid var(--chipb);padding:8px 14px;border-radius:6px;display:none;max-width:70vw;z-index:9}
+  #toast.err{background:#4a2a26;border-color:var(--warn)}
+  #help{color:var(--dim);font-size:11px}
+  kbd{background:#2a2a33;border:1px solid #3a3a46;border-radius:3px;padding:0 4px;font-size:10.5px}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="bar">
+    <strong>Orient Unlock Editor</strong>
+    <button data-view="triggers" class="on">Triggers</button>
+    <button data-view="pools">Pools</button>
+    <button data-view="assets">By asset</button>
+    <button data-view="checks">Checks <span id="ncheck" class="badge"></span></button>
+    <span class="sep"></span>
+    <input id="filter" placeholder="Highlight: name, GUID or template…">
+    <label class="small dim"><input type="checkbox" id="onlyMatch"> only matching</label>
+    <span class="sep"></span>
+    <button id="undo" title="Ctrl+Z">Undo</button>
+    <button id="redo" title="Ctrl+Y">Redo</button>
+    <button id="revert">Discard</button>
+    <button id="save" class="save" title="Ctrl+S">Save</button>
+    <span id="dirty" class="small dim"></span>
+    <span class="sep"></span>
+    <button id="reload" title="Re-read the XML files from disk">Reload</button>
+    <span id="help">drag = move · <kbd>Ctrl</kbd>+drag = copy · drop on a pool chip = add to pool · <kbd>Del</kbd> removes selected</span>
+  </div>
+  <div id="main">
+    <div id="view"></div>
+    <div id="side">
+      <div class="tabs">
+        <button data-side="inspect" class="on">Inspector</button>
+        <button data-side="search">Add assets</button>
+        <button data-side="changes">Changes</button>
+      </div>
+      <div id="sidebody"></div>
+    </div>
+  </div>
+</div>
+<div id="toast"></div>
+<script>
+'use strict';
+let M = null;             // model from the server
+let S = null;             // editable state {lists:{id:[{guid,comments,from}]}, fields:{id:value}}
+let O = null;             // original state for diffing
+let undoStack = [], redoStack = [];
+let view = 'triggers', side = 'inspect';
+let selected = [];        // [{guid, list}]
+let inspected = null;     // guid
+const expanded = new Set(); // "listId|guid" of open pool chips
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const clone = o => JSON.parse(JSON.stringify(o));
+
+async function load(reload) {
+  const r = await fetch('/api/model' + (reload ? '?reload=1' : ''));
+  setModel(await r.json());
+}
+function setModel(m) {
+  M = m;
+  S = { lists: {}, fields: {} };
+  for (const [id, L] of Object.entries(M.lists)) S.lists[id] = L.items.map(i => ({ guid: i.guid, comments: i.comments, from: id }));
+  for (const [id, F] of Object.entries(M.fields)) S.fields[id] = F.value;
+  O = clone(S); undoStack = []; redoStack = []; selected = [];
+  if (M.errors.length) toast(M.errors.join('\n'), true);
+  render();
+}
+
+// ---------- naming ----------
+const nm = g => M.names[g] || { guid: g, name: '', text: '', template: '', origin: 'unknown' };
+const label = g => { const n = nm(g); const l = n.text || n.name || g; return M.pools[g] ? l.replace(/^asset ?pool (orient )?/i, '') : l; };
+const isPool = g => !!M.pools[g];
+const poolMembers = g => { const p = M.pools[g]; if (!p) return []; return p.editable ? S.lists[p.list].map(i => i.guid) : p.members; };
+const srcLabel = s => s.name || s.guid;
+const vscode = (file, line) => `vscode://file/${encodeURI((M.root || '') + file)}${line ? ':' + line : ''}`;
+
+// ---------- derived data ----------
+function isCreative(s) { return s.condition && s.condition.template === 'ConditionIsCreativeMode'; }
+function orderedSources() {
+  const order = M.fileOrder;
+  // story/quest sources first, then the triggers index order with the creative file last
+  const rank = f => { if (/creative_mode/.test(f)) return 2000; const i = order.indexOf(f); return i < 0 ? (/triggers\//.test(f) ? 1000 : -1) : i; };
+  return M.sources.map((s, i) => ({ s, i })).sort((a, b) => (rank(a.s.file) - rank(b.s.file)) || (a.i - b.i)).map(x => x.s);
+}
+function groupName(file) {
+  const b = file.split('/').pop().replace(/\.xml$/, '');
+  let m = /intermediate_orient_(\d)_(\d)/.exec(b);
+  if (m) return `Tier ${m[1]}.${m[2]}`;
+  return b.replace(/^assets_+/, '').replace(/_/g, ' ');
+}
+// guid -> [{src, kind, via:[pool…]}]
+function reverseIndex() {
+  const idx = {};
+  const add = (g, e) => (idx[g] = idx[g] || []).push(e);
+  const visit = (g, src, kind, via, seen) => {
+    add(g, { src, kind, via });
+    if (isPool(g) && !seen.has(g)) { seen.add(g); for (const m of poolMembers(g)) visit(m, src, kind, via.concat(g), seen); }
+  };
+  orderedSources().forEach((src, rank) => src.actions.forEach(a => {
+    for (const [kind, id] of [['unlock', a.unlock], ['unhide', a.unhide]]) for (const it of S.lists[id]) visit(it.guid, src, kind, [], new Set());
+  }));
+  return idx;
+}
+function poolUsers(g) {
+  const out = [];
+  for (const src of M.sources) for (const a of src.actions) for (const [kind, id] of [['unlock', a.unlock], ['unhide', a.unhide]]) if (S.lists[id].some(i => i.guid === g)) out.push({ src, kind });
+  for (const [pg, p] of Object.entries(M.pools)) if (p.editable && S.lists[p.list].some(i => i.guid === g)) out.push({ pool: pg });
+  return out;
+}
+
+// ---------- filter ----------
+function matches(g) {
+  const q = $('#filter').value.trim().toLowerCase();
+  if (!q) return null;
+  const n = nm(g);
+  const hay = (g + ' ' + n.name + ' ' + n.text + ' ' + n.template).toLowerCase();
+  return q.split(/\s+/).every(w => hay.includes(w));
+}
+function poolMatches(g, seen = new Set()) {
+  if (matches(g)) return true;
+  if (!isPool(g) || seen.has(g)) return false;
+  seen.add(g);
+  return poolMembers(g).some(m => poolMatches(m, seen));
+}
+
+// ---------- rendering ----------
+function chip(g, listId, it) {
+  const n = nm(g), pool = isPool(g);
+  const q = matches(g);
+  const cls = ['chip'];
+  if (pool) cls.push('pool');
+  if (selected.some(s => s.guid === g && s.list === listId)) cls.push('sel');
+  if (q === true) cls.push('match'); else if (q === false && !(pool && poolMatches(g))) cls.push('faded');
+  if (listId && O.lists[listId] && !O.lists[listId].some(i => i.guid === g)) cls.push('added');
+  if (n.origin === 'unknown' && !n.text) cls.push('unknown');
+  const title = [`${n.text || n.name} (${g})`, n.name && n.text ? 'Name: ' + n.name : '', n.template && 'Template: ' + n.template, 'from: ' + n.origin, ...(it?.comments || [])].filter(Boolean).join('\n');
+  const key = listId + '|' + g;
+  const open = expanded.has(key);
+  const ro = listId && M.lists[listId]?.readonly;
+  let h = `<span class="${cls.join(' ')}" draggable="true" data-guid="${g}" data-list="${listId || ''}" title="${esc(title)}">`;
+  if (pool) h += `<span class="caret" data-toggle="${esc(key)}">${open ? '▼' : '▶'}</span><span class="ic">◆</span>`;
+  h += `<span>${esc(label(g))}</span>`;
+  if (pool) h += `<span class="g">${poolMembers(g).length}</span>`;
+  h += `<span class="g">${g}</span>`;
+  if (it?.comments?.length) h += `<span class="cm">✎</span>`;
+  if (listId && !ro) h += `<span class="x" data-remove="1" title="remove">✕</span>`;
+  h += `</span>`;
+  if (pool && open) h += poolBox(g, new Set([g]));
+  return h;
+}
+function poolBox(g, seen) {
+  const p = M.pools[g];
+  const members = poolMembers(g);
+  let h = `<div class="poolbox"><div class="poolhdr">${p.editable ? 'pool members' : 'read-only pool (' + esc(p.origin) + ')'}</div>`;
+  if (p.editable) h += zone(p.list);
+  else h += `<div class="zone ro">${members.map(m => chip(m, null)).join('')}</div>`;
+  return h + `</div>`;
+}
+function zone(listId) {
+  const items = S.lists[listId];
+  const L = M.lists[listId];
+  const dirty = JSON.stringify(items.map(i => i.guid)) !== JSON.stringify(O.lists[listId].map(i => i.guid));
+  const only = $('#onlyMatch').checked && $('#filter').value.trim();
+  const shown = only ? items.filter(i => poolMatches(i.guid)) : items;
+  return `<div class="zone${dirty ? ' dirty' : ''}${L.readonly ? ' ro' : ''}" data-zone="${esc(listId)}">${shown.map(i => chip(i.guid, listId, i)).join('')}</div>`;
+}
+function condPill(C, sub) {
+  if (!C) return '<span class="cpill"><span class="t">no condition</span></span>';
+  const t = C.template.replace(/^Condition/, '');
+  let h = `<span class="cpill">`;
+  if (C.negated) h += `<span class="neg">NOT</span>`;
+  h += `<span class="t">${esc(t)}</span>`;
+  for (const fid of C.fields) {
+    const F = M.fields[fid], v = S.fields[fid];
+    const dirty = v !== O.fields[fid];
+    const ref = /^\d{3,}$/.test(v) && !/amount|count|timer|delay|percent|value/i.test(F.key) && M.names[v] ? `<span class="dim small" title="${esc(nm(v).template)}">${esc(label(v))}</span>` : '';
+    const showKey = !['PlayerCounter'].includes(F.key);
+    h += `${showKey ? `<span class="t">${esc(F.key)}</span>` : ''}<input class="${dirty ? 'dirty' : ''}" data-field="${esc(fid)}" value="${esc(v)}" size="${Math.max(3, String(v).length + 1)}">${ref}`;
+  }
+  return h + `</span>`;
+}
+function triggerCard(s) {
+  const only = $('#onlyMatch').checked && $('#filter').value.trim();
+  if (only && !s.actions.some(a => S.lists[a.unlock].concat(S.lists[a.unhide]).some(i => poolMatches(i.guid)))) return '';
+  let h = `<div class="card${isCreative(s) ? ' creative' : ''}" id="src-${s.guid}"><div class="head"><span class="nm">${esc(srcLabel(s))}</span><span class="dim small">${s.guid}</span>`;
+  if (s.template !== 'Trigger') h += `<span class="badge">${esc(s.template)}</span>`;
+  if (s.modopCondition) h += `<span class="badge" title="ModOp Condition">${esc(s.modopCondition)}</span>`;
+  for (const [k, v] of Object.entries(s.flags)) h += `<span class="badge">${esc(k)} ${esc(v)}</span>`;
+  if (s.otherActions.length) h += `<span class="badge" title="other actions">+ ${esc(s.otherActions.join(', '))}</span>`;
+  h += `<a href="${vscode(s.file, s.line)}" title="open in VS Code">${esc(s.file.split('/').pop())}:${s.line}</a></div>`;
+  h += `<div class="cond">${condPill(s.condition)}${s.subConditions.map(c => `<span class="and">AND</span>${condPill(c, true)}`).join('')}</div>`;
+  for (const a of s.actions) {
+    if (a.notes.length) h += `<div class="small dim">${esc(a.notes.join(', '))}</div>`;
+    h += `<div class="rowz"><span class="lbl unlock">Unlock</span>${zone(a.unlock)}<span class="lbl unhide">Unhide</span>${zone(a.unhide)}</div>`;
+  }
+  return h + `</div>`;
+}
+function renderTriggers() {
+  let h = '', last = '';
+  for (const s of orderedSources()) {
+    const g = groupName(s.file);
+    const card = triggerCard(s);
+    if (!card) continue;
+    if (g !== last) { h += `<h2>${esc(g)}</h2>`; last = g; }
+    h += card;
+  }
+  return h || '<p class="dim">Nothing matches.</p>';
+}
+function renderPools() {
+  const own = Object.values(M.pools).filter(p => p.editable).sort((a, b) => label(a.guid).localeCompare(label(b.guid)));
+  const only = $('#onlyMatch').checked && $('#filter').value.trim();
+  let h = `<h2>Mod pools (${own.length})</h2><div class="grid">`;
+  for (const p of own) {
+    if (only && !poolMatches(p.guid)) continue;
+    const users = poolUsers(p.guid);
+    h += `<div class="card"><div class="head"><span class="nm">${esc(label(p.guid))}</span><span class="dim small">${p.guid}</span>
+      <a href="${vscode(p.file, nm(p.guid).line)}">${esc(p.file.split('/').pop())}</a></div>
+      <div class="small">${users.length ? users.map(u => u.pool ? `<span class="tag">in pool ${esc(label(u.pool))}</span>` : `<span class="tag ${u.kind}" data-goto="${u.src.guid}">${u.kind} · ${esc(shortSrc(u.src))}</span>`).join('') : '<span class="badge warn">not used by any trigger</span>'}</div>
+      <div class="rowz"><span class="lbl pool">Members</span>${zone(p.list)}</div></div>`;
+  }
+  return h + `</div>`;
+}
+function shortSrc(s) { return (s.name || s.guid).replace(/^Intermediate Orient /, ''); }
+function renderAssets() {
+  const idx = reverseIndex();
+  const rows = Object.keys(idx).filter(g => !isPool(g)).map(g => ({ g, refs: idx[g] }));
+  // menu entries nothing reaches
+  for (const g of Object.keys(M.menuItems)) if (!idx[g] && nm(g).origin === 'main' && !/ConstructionCategory/.test(nm(g).template)) rows.push({ g, refs: [] });
+  const q = $('#filter').value.trim();
+  const unnamed = g => label(g) === g ? 1 : 0;
+  const shown = rows.filter(r => !q || matches(r.g)).sort((a, b) => (unnamed(a.g) - unnamed(b.g)) || label(a.g).localeCompare(label(b.g)));
+  let h = `<h2>${shown.length} assets reached by an unlock/unhide (expanded through pools)</h2><table><colgroup><col class="a"><col class="t"><col><col></colgroup><tr><th>Asset</th><th>Template</th><th>Unlocked by</th><th>Unhidden by</th></tr>`;
+  for (const r of shown) {
+    const n = nm(r.g);
+    const tags = kind => r.refs.filter(x => x.kind === kind).map(x => `<span class="tag ${kind}" data-goto="${x.src.guid}" title="${esc(x.via.map(label).join(' › ') || 'listed directly')}">${esc(shortSrc(x.src))}${x.via.length ? ' ◆' : ''}</span>`).join('');
+    const ul = tags('unlock'), uh = tags('unhide');
+    h += `<tr><td>${chip(r.g, null)}</td><td class="small dim">${esc(n.template)}</td><td>${ul || (M.menuItems[r.g] ? '<span class="badge warn">in build menu, never unlocked</span>' : '')}</td><td>${uh}</td></tr>`;
+  }
+  return h + `</table>`;
+}
+function checks() {
+  const out = [];
+  const creative = M.sources.filter(isCreative), prog = M.sources.filter(s => !isCreative(s));
+  const top = (srcs, kind) => { const set = new Set(); srcs.forEach(s => s.actions.forEach(a => S.lists[a[kind]].forEach(i => set.add(i.guid)))); return set; };
+  const cu = top(creative, 'unlock'), pu = top(prog, 'unlock');
+  const exceptCreative = new Set(['1404000000', '1404000614']);
+  const missC = [...pu].filter(g => !cu.has(g));
+  const missP = [...cu].filter(g => !pu.has(g) && !exceptCreative.has(g));
+  if (missC.length) out.push({ level: 'warn', title: `${missC.length} unlocked by the tiers but not by a creative trigger`, guids: missC });
+  if (missP.length) out.push({ level: 'warn', title: `${missP.length} unlocked in creative mode but by no tier trigger`, guids: missP });
+  const idx = reverseIndex();
+  // entries that only sit in creative menus (a menu named "creative", or one whose parents all are) are expected to be creative-only
+  const creativeMenu = {};
+  const isCreativeMenu = (g, seen = new Set()) => {
+    if (g in creativeMenu) return creativeMenu[g];
+    if (seen.has(g)) return false; seen.add(g);
+    const parents = M.menuItems[g] || [];
+    return creativeMenu[g] = /creative/i.test(nm(g).name + ' ' + nm(g).text) || (parents.length > 0 && parents.every(p => isCreativeMenu(p, seen)));
+  };
+  const neverUnlocked = Object.keys(M.menuItems).filter(g => nm(g).origin === 'main' && !/ConstructionCategory|ProductionChain/.test(nm(g).template)
+    && !M.menuItems[g].every(p => isCreativeMenu(p)) && !(idx[g] || []).some(r => r.kind === 'unlock' && !isCreative(r.src)));
+  if (neverUnlocked.length) out.push({ level: 'warn', title: `${neverUnlocked.length} mod build-menu entries no tier trigger unlocks`, guids: neverUnlocked });
+  const unused = Object.values(M.pools).filter(p => p.editable && !poolUsers(p.guid).length).map(p => p.guid);
+  if (unused.length) out.push({ level: 'warn', title: `${unused.length} mod pools no trigger or pool uses`, guids: unused });
+  const unknown = new Set();
+  Object.values(S.lists).forEach(l => l.forEach(i => { if (nm(i.guid).origin === 'unknown' && !nm(i.guid).text) unknown.add(i.guid); }));
+  if (unknown.size) out.push({ level: 'warn', title: `${unknown.size} GUIDs not found in the mod, other repo mods or vanilla`, guids: [...unknown] });
+  const dups = [];
+  for (const [id, l] of Object.entries(S.lists)) { const seen = new Set(); l.forEach(i => { if (seen.has(i.guid)) dups.push(i.guid); seen.add(i.guid); }); }
+  if (dups.length) out.push({ level: 'warn', title: `${dups.length} entries listed twice in the same list`, guids: dups });
+  const multi = Object.entries(idx).filter(([g, rs]) => !isPool(g) && new Set(rs.filter(r => r.kind === 'unlock' && !isCreative(r.src)).map(r => r.src.guid)).size > 1).map(([g]) => g);
+  if (multi.length) out.push({ level: 'info', title: `${multi.length} assets unlocked by more than one tier trigger (the earliest wins)`, guids: multi });
+  return out;
+}
+function renderChecks() {
+  const cs = checks();
+  if (!cs.length) return '<p>No problems found.</p>';
+  return cs.map(c => `<div class="issue ${c.level}"><div>${esc(c.title)}</div><div class="zone ro">${c.guids.map(g => chip(g, null)).join('')}</div></div>`).join('');
+}
+
+function renderSide() {
+  const b = $('#sidebody');
+  if (side === 'search') {
+    b.innerHTML = `<input id="q" placeholder="Search all assets (mod, other mods, vanilla)…" style="width:100%"><div class="small dim" style="margin-top:6px">Drag a result into an Unlock/Unhide list or onto a pool.</div><div class="res" id="results"></div>`;
+    const q = $('#q'); q.value = lastQuery; q.focus(); q.oninput = () => runSearch(q.value); if (lastQuery) runSearch(lastQuery);
+    return;
+  }
+  if (side === 'changes') { b.innerHTML = renderChanges(); return; }
+  if (!inspected) { b.innerHTML = '<p class="dim">Click a chip to see where it is unlocked, which pools hold it and its members.</p>'; return; }
+  const g = inspected, n = nm(g);
+  const idx = reverseIndex()[g] || [];
+  let h = `<div style="font-size:15px;font-weight:600">${esc(label(g))}</div><div class="kv" style="margin-top:6px">
+    <span>GUID</span><span>${g}</span><span>Name</span><span>${esc(n.name)}</span><span>Template</span><span>${esc(n.template)}</span>
+    <span>From</span><span>${esc(n.origin)}${n.file ? ` · <a style="color:var(--accent)" href="${vscode(n.file, n.line)}">${esc(n.file.split('/').pop())}:${n.line}</a>` : ''}</span></div>`;
+  h += `<h2>Reached by</h2>`;
+  h += idx.length ? idx.map(r => `<div><span class="tag ${r.kind}" data-goto="${r.src.guid}">${r.kind}</span> ${esc(srcLabel(r.src))}${r.via.length ? `<span class="dim small"> via ${r.via.map(v => esc(label(v))).join(' › ')}</span>` : ''}</div>`).join('') : '<div class="dim">nothing unlocks or unhides it</div>';
+  const inPools = Object.values(M.pools).filter(p => poolMembers(p.guid).includes(g));
+  if (inPools.length) h += `<h2>In pools</h2>` + inPools.map(p => chip(p.guid, null)).join(' ');
+  const menus = M.menuItems[g];
+  if (menus) h += `<h2>In build menus</h2>` + menus.map(m => `<div>${esc(label(m))} <span class="dim small">${m}</span></div>`).join('');
+  if (isPool(g)) { h += `<h2>Members</h2>`; h += M.pools[g].editable ? zone(M.pools[g].list) : `<div class="zone ro">${poolMembers(g).map(m => chip(m, null)).join('')}</div>`; }
+  b.innerHTML = h;
+}
+let lastQuery = '', searchSeq = 0;
+async function runSearch(q) {
+  lastQuery = q;
+  const my = ++searchSeq;
+  const r = await (await fetch('/api/search?q=' + encodeURIComponent(q))).json();
+  if (my !== searchSeq) return;
+  r.forEach(i => { if (!M.names[i.guid]) M.names[i.guid] = i; });
+  const el = $('#results'); if (!el) return;
+  el.innerHTML = r.map(i => chip(i.guid, null) + `<span class="small dim" style="margin-left:6px">${esc(i.template)} · ${esc(i.origin)}</span>`).map(x => `<div>${x}</div>`).join('') || (q ? '<span class="dim">no results</span>' : '');
+}
+function diff() {
+  const lists = [], fields = [];
+  for (const id of Object.keys(S.lists)) {
+    const a = O.lists[id].map(i => i.guid), b = S.lists[id].map(i => i.guid);
+    if (JSON.stringify(a) === JSON.stringify(b)) continue;
+    lists.push({ id, added: b.filter(g => !a.includes(g)), removed: a.filter(g => !b.includes(g)) });
+  }
+  for (const id of Object.keys(S.fields)) if (S.fields[id] !== O.fields[id]) fields.push({ id, from: O.fields[id], to: S.fields[id] });
+  return { lists, fields };
+}
+function listOwner(id) {
+  for (const s of M.sources) for (const a of s.actions) { if (a.unlock === id) return `${srcLabel(s)} · Unlock`; if (a.unhide === id) return `${srcLabel(s)} · Unhide`; }
+  for (const p of Object.values(M.pools)) if (p.list === id) return `pool ${label(p.guid)}`;
+  return id;
+}
+function fieldOwner(id) {
+  for (const s of M.sources) for (const c of [s.condition, ...s.subConditions]) if (c && (c.fields.includes(id) || c.negField === id)) return srcLabel(s);
+  return '';
+}
+function renderChanges() {
+  const d = diff();
+  if (!d.lists.length && !d.fields.length) return '<p class="dim">No unsaved changes.</p>';
+  let h = '';
+  for (const l of d.lists) h += `<div class="chg"><b>${esc(listOwner(l.id))}</b><br>${l.added.map(g => `<span class="p">+ ${esc(label(g))} <span class="dim small">${g}</span></span>`).join('<br>')}${l.added.length && l.removed.length ? '<br>' : ''}${l.removed.map(g => `<span class="m">− ${esc(label(g))} <span class="dim small">${g}</span></span>`).join('<br>')}${!l.added.length && !l.removed.length ? '<span class="dim">order changed</span>' : ''}<div class="dim small">${esc(M.lists[l.id].file.split('/').pop())}</div></div>`;
+  for (const f of d.fields) h += `<div class="chg"><b>${esc(fieldOwner(f.id))}</b> ${esc(M.fields[f.id].key)}: <span class="m">${esc(f.from)}</span> → <span class="p">${esc(f.to)}</span></div>`;
+  return h;
+}
+
+function render() {
+  const sc = $('#view').scrollTop;
+  $('#view').innerHTML = view === 'triggers' ? renderTriggers() : view === 'pools' ? renderPools() : view === 'assets' ? renderAssets() : renderChecks();
+  $('#view').scrollTop = sc;
+  const sideScroll = $('#sidebody').scrollTop;
+  if (side !== 'search') renderSide(); else { const el = $('#results'); if (el && lastQuery) runSearch(lastQuery); }
+  $('#sidebody').scrollTop = sideScroll;
+  const d = diff(), n = d.lists.length + d.fields.length;
+  $('#dirty').textContent = n ? `${n} unsaved change${n > 1 ? 's' : ''}` : '';
+  $('#save').disabled = $('#revert').disabled = !n;
+  $('#undo').disabled = !undoStack.length; $('#redo').disabled = !redoStack.length;
+  const cs = checks().filter(c => c.level === 'warn').length;
+  $('#ncheck').textContent = cs || ''; $('#ncheck').className = 'badge' + (cs ? ' warn' : '');
+}
+
+// ---------- editing ----------
+function commit(fn) {
+  const before = clone(S);
+  if (fn() === false) return;
+  undoStack.push(before); redoStack = [];
+  render();
+}
+function removeFrom(listId, guid) {
+  const l = S.lists[listId], i = l.findIndex(x => x.guid === guid);
+  return i >= 0 ? l.splice(i, 1)[0] : null;
+}
+function canEdit(listId) { return listId && M.lists[listId] && !M.lists[listId].readonly; }
+function dropInto(target, payload, copy) {
+  if (!canEdit(target)) return toast('That list is read-only', true);
+  let skipped = 0;
+  commit(() => {
+    for (const p of payload) {
+      if (p.list === target) continue;
+      if (S.lists[target].some(i => i.guid === p.guid)) { skipped++; if (!copy && canEdit(p.list)) removeFrom(p.list, p.guid); continue; }
+      let item = null;
+      if (!copy && canEdit(p.list)) item = removeFrom(p.list, p.guid);
+      else if (p.list) { const src = S.lists[p.list]?.find(i => i.guid === p.guid); if (src) item = { ...src, comments: [] }; }
+      S.lists[target].push(item || { guid: p.guid, comments: [], from: null });
+    }
+  });
+  if (skipped) toast(`${skipped} already in that list`);
+}
+
+let dragPayload = null;
+document.addEventListener('dragstart', e => {
+  const c = e.target.closest?.('.chip'); if (!c) return;
+  const g = c.dataset.guid, list = c.dataset.list || null;
+  const inSel = selected.some(s => s.guid === g && s.list === list);
+  dragPayload = inSel ? selected.slice() : [{ guid: g, list }];
+  e.dataTransfer.effectAllowed = 'copyMove';
+  e.dataTransfer.setData('text/plain', dragPayload.map(p => p.guid).join(' '));
+});
+document.addEventListener('dragend', () => { dragPayload = null; document.querySelectorAll('.over').forEach(x => x.classList.remove('over')); });
+function dropTarget(e) {
+  const pc = e.target.closest('.chip.pool');
+  if (pc && M.pools[pc.dataset.guid]?.editable) return { el: pc, list: M.pools[pc.dataset.guid].list };
+  const z = e.target.closest('[data-zone]');
+  if (z && canEdit(z.dataset.zone)) return { el: z, list: z.dataset.zone };
+  return null;
+}
+document.addEventListener('dragover', e => {
+  if (!dragPayload) return;
+  const t = dropTarget(e);
+  document.querySelectorAll('.over').forEach(x => x !== t?.el && x.classList.remove('over'));
+  if (!t) return;
+  e.preventDefault();
+  const copy = e.ctrlKey || e.altKey || dragPayload.every(p => !canEdit(p.list));
+  e.dataTransfer.dropEffect = copy ? 'copy' : 'move';
+  t.el.classList.add('over');
+});
+document.addEventListener('drop', e => {
+  if (!dragPayload) return;
+  const t = dropTarget(e); if (!t) return;
+  e.preventDefault();
+  const payload = dragPayload.filter(p => !(isPool(p.guid) && M.pools[p.guid].list === t.list));
+  dropInto(t.list, payload, e.ctrlKey || e.altKey);
+  dragPayload = null;
+});
+
+document.addEventListener('click', e => {
+  const tog = e.target.closest('[data-toggle]');
+  if (tog) { const k = tog.dataset.toggle; expanded.has(k) ? expanded.delete(k) : expanded.add(k); return render(); }
+  const rm = e.target.closest('[data-remove]');
+  if (rm) { const c = rm.closest('.chip'); return commit(() => { removeFrom(c.dataset.list, c.dataset.guid); }); }
+  const go = e.target.closest('[data-goto]');
+  if (go) return gotoSource(go.dataset.goto);
+  const vb = e.target.closest('[data-view]');
+  if (vb) { view = vb.dataset.view; document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('on', b === vb)); return render(); }
+  const sb = e.target.closest('[data-side]');
+  if (sb) { side = sb.dataset.side; document.querySelectorAll('[data-side]').forEach(b => b.classList.toggle('on', b === sb)); return renderSide(); }
+  const c = e.target.closest('.chip');
+  if (c) {
+    const s = { guid: c.dataset.guid, list: c.dataset.list || null };
+    if (e.ctrlKey || e.shiftKey) {
+      const i = selected.findIndex(x => x.guid === s.guid && x.list === s.list);
+      i >= 0 ? selected.splice(i, 1) : selected.push(s);
+    } else selected = [s];
+    inspected = s.guid;
+    if (side !== 'inspect') { side = 'inspect'; document.querySelectorAll('[data-side]').forEach(b => b.classList.toggle('on', b.dataset.side === 'inspect')); }
+    return render();
+  }
+  if (e.target.closest('#view') && !e.target.closest('input')) { if (selected.length) { selected = []; render(); } }
+});
+function gotoSource(g) {
+  if (view !== 'triggers') { view = 'triggers'; document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('on', b.dataset.view === 'triggers')); render(); }
+  const el = document.getElementById('src-' + g); if (!el) return;
+  el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1200);
+}
+document.addEventListener('change', e => {
+  const f = e.target.dataset?.field; if (!f) return;
+  const v = e.target.value.trim();
+  if (v === S.fields[f]) return;
+  if (/[<>&]/.test(v)) { toast('< > & are not allowed', true); e.target.value = S.fields[f]; return; }
+  commit(() => { S.fields[f] = v; });
+});
+$('#filter').addEventListener('input', () => render());
+$('#onlyMatch').addEventListener('change', () => render());
+$('#undo').onclick = () => { if (!undoStack.length) return; redoStack.push(clone(S)); S = undoStack.pop(); render(); };
+$('#redo').onclick = () => { if (!redoStack.length) return; undoStack.push(clone(S)); S = redoStack.pop(); render(); };
+$('#revert').onclick = () => { if (confirm('Discard all unsaved changes?')) { undoStack.push(clone(S)); S = clone(O); render(); } };
+$('#reload').onclick = () => { if (diff().lists.length + diff().fields.length && !confirm('Discard unsaved changes and re-read the files?')) return; load(true); };
+$('#save').onclick = save;
+document.addEventListener('keydown', e => {
+  if (e.target.matches('input')) { if (e.key === 'Enter') e.target.blur(); return; }
+  if ((e.ctrlKey || e.metaKey) && e.key === 'z') { e.preventDefault(); $('#undo').click(); }
+  else if ((e.ctrlKey || e.metaKey) && e.key === 'y') { e.preventDefault(); $('#redo').click(); }
+  else if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); save(); }
+  else if ((e.key === 'Delete' || e.key === 'Backspace') && selected.length) {
+    const del = selected.filter(s => canEdit(s.list));
+    if (del.length) commit(() => { del.forEach(s => removeFrom(s.list, s.guid)); selected = []; });
+  }
+  else if (e.key === 'Escape') { selected = []; render(); }
+});
+window.addEventListener('beforeunload', e => { if (diff().lists.length + diff().fields.length) { e.preventDefault(); e.returnValue = ''; } });
+
+async function save() {
+  const d = diff();
+  if (!d.lists.length && !d.fields.length) return;
+  const files = new Set([...d.lists.map(l => M.lists[l.id].file), ...d.fields.map(f => M.fields[f.id].file)]);
+  const body = {
+    lists: d.lists.map(l => ({ id: l.id, items: S.lists[l.id].map(i => ({ guid: i.guid, comments: i.comments, rawFrom: i.from })) })),
+    fields: d.fields.map(f => ({ id: f.id, value: f.to })),
+    hashes: Object.fromEntries([...files].map(f => [f, M.files[f].hash])),
+  };
+  const r = await fetch('/api/save', { method: 'POST', body: JSON.stringify(body) });
+  const j = await r.json();
+  if (!j.ok) return toast('Not saved: ' + j.error, true);
+  setModel(j.model);
+  toast('Saved ' + j.files.map(f => f.split('/').pop()).join(', '));
+}
+let toastT;
+function toast(msg, err) {
+  const t = $('#toast'); t.textContent = msg; t.className = err ? 'err' : ''; t.style.display = 'block';
+  clearTimeout(toastT); toastT = setTimeout(() => t.style.display = 'none', err ? 7000 : 3000);
+}
+load();
+</script>
+</body>
+</html>

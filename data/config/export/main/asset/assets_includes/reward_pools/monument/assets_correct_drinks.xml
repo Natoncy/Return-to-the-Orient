@@ -8,15 +8,15 @@
                     <GUID>1404000756</GUID>
                     <Name>Correct Orient Drinks</Name>
                     <IconFilename>data/graphics/icons/monument_products/medium_drinks.png</IconFilename>
-                    <InfoDescription>19635</InfoDescription>
+                    <InfoDescription>1404001204</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>1404000265</ItemLink>
+                            <ItemLink>1400201044</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>114390</ItemLink>
+                            <ItemLink>1404000265</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

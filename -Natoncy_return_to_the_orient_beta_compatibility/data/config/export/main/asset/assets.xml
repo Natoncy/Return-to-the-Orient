@@ -1,0 +1,6 @@
+<ModOps>
+	
+	<Include File="./importdock-silver-ore.include.xml" />
+	<Include File="./importdock-agates.include.xml" />
+	
+</ModOps>

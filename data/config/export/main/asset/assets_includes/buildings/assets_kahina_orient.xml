@@ -1,0 +1,486 @@
+<ModOps>
+
+    <!-- Orient copies of Madame Kahina's harbour pieces (3rd_party_08), placed on moderate_3rdparty08_01 instead of
+         the vanilla ones. Same meshes, Orient textures from .misc_data/tools/kahina_orient. The Old World keeps the vanilla assets.
+         1404008910-919 are the neighbours (platform, gates, quay, fountain, statue, pavilion, crane, water wheel); their
+         variation lists keep the vanilla order because the island stores variation indices. -->
+    <ModOp Type="addNextSibling" GUID="101604">
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008900</GUID>
+                    <Name>3rd_party_08_kontor_hall_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_hall.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008901</GUID>
+                    <Name>3rd_party_08_kontor_front_02_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_front_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008902</GUID>
+                    <Name>3rd_party_08_kontor_front_03_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_front_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008903</GUID>
+                    <Name>3rd_party_08_kontor_main_small_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_main_small.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008904</GUID>
+                    <Name>3rd_party_08_kontor_tower_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_tower.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008905</GUID>
+                    <Name>3rd_party_08_kontor_tower_small_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_tower_small.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008906</GUID>
+                    <Name>3rd_party_08_hall_01_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_hall_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008907</GUID>
+                    <Name>3rd_party_08_hall_02_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_hall_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008908</GUID>
+                    <Name>3rd_party_08_kontor_bridge_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_bridge.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008909</GUID>
+                    <Name>3rd_party_08_kontor_hall_endpiece_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_kontor_hall_endpiece.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008910</GUID>
+                    <Name>3rd_party_08_platform_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_platform.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_08_Kahina</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008911</GUID>
+                    <Name>3rd_party_03_gate_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_gate_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_gate_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_03_Pirate_Harlow</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008912</GUID>
+                    <Name>3rd_party_03_chimney_01_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_chimney_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_03_Pirate_Harlow</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008913</GUID>
+                    <Name>Quay_System_2_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_01_var_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_01_var_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_01_var_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_1x1_var_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_1x1_var_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_1x1_var_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_02_var_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_03_var_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_03_var_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_quay_element_04_var_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_ramp_big_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_quay_element_ramp_small_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_quay_element_rope_bridge_01_var_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_quay_element_rope_bridge_01_var_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_quay_element_rope_bridge_01_var_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_quay_element_rope_bridge_01_var_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_01_var_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_1x1_var_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_02_var_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/quay_system_02/quay_system_02_element_03_var_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008914</GUID>
+                    <Name>fountain_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_fountain.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008915</GUID>
+                    <Name>Statue_02_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_statue.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008916</GUID>
+                    <Name>Pavillon_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_pavilion.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008917</GUID>
+                    <Name>3rd_party_06_crane_01_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_crane.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_06_Nate</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008918</GUID>
+                    <Name>3rd_party_06_platform_03_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_crane_platform.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_06_Nate</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>VisualObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008919</GUID>
+                    <Name>3rd_party_05_millwheel_kahina_orient</Name>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kahina/kahina_wheel.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Third_party_05_Sarmento</DefaultParticipant>
+                </Object>
+                <QuestObject />
+                <SoundEmitter />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

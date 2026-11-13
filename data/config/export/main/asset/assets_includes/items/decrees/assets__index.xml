@@ -5,5 +5,15 @@
     <Include File="assets_orient_hacienda_decree3.xml" />
     <Include File="assets_orient_hacienda_decree4.xml" />
     <Include File="assets_orient_hacienda_decree5.xml" />
+    <Include File="assets_orient_bedouin_camp_decree1.xml" />
+    <Include File="assets_orient_bedouin_camp_decree2.xml" />
+    <Include File="assets_orient_bedouin_camp_decree3.xml" />
+    <Include File="assets_orient_bedouin_camp_decree4.xml" />
+    <Include File="assets_orient_bedouin_camp_decree5.xml" />
+    <Include File="assets_orient_sultanspalace_decree1.xml" />
+    <Include File="assets_orient_sultanspalace_decree2.xml" />
+    <Include File="assets_orient_sultanspalace_decree3.xml" />
+    <Include File="assets_orient_sultanspalace_decree4.xml" />
+    <Include File="assets_orient_sultanspalace_decree5.xml" />
     
 </ModOps>

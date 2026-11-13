@@ -1,6 +1,9 @@
 <ModOps>
 
-    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product!='1404001116' and Product!='1404000265' and Product!='1404000253' and Product!='1404000283' and Product!='1404000262' and Product!='1404000288' and Product!='1010217' and Product!='114410' and Product!='114431' and Product!='114428' and Product!='114390' and Product!='114404' and Product!='114414' and Product!='1010248' and Product!='1010232' and Product!='5392' and Product!='5395' and Product!='5391']">
+    <!-- every scholar need not listed here becomes vanilla-residence only (114445).
+         Listed: the Orient replacements (main mod population_levels/assets_scholars.xml) and the needs both
+         residences share: Seafood Stew, Leather Boots, Tapestries (= Rugs), bonus needs 1010232/5392/5395/5391 -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product!='1404001116' and Product!='1404005087' and Product!='1404005120' and Product!='1404000253' and Product!='1404000283' and Product!='1404000265' and Product!='1400201044' and Product!='1404005131' and Product!='1404000250' and Product!='1404000288' and Product!='1404000241' and Product!='114410' and Product!='114428' and Product!='114404' and Product!='1010232' and Product!='5392' and Product!='5395' and Product!='5391']">
         <RequiredBuildings>
             <Item>
                 <RequiredBuilding>114445</RequiredBuilding>
@@ -16,17 +19,30 @@
         </Item>
     </ModOp>
 
+    <!-- Orient scholars get the effects of other mods' items aimed at the scholar residence 114445,
+         directly or through a target pool. Vanilla ones: main mod items/assets_vanilla_scholar_items.xml -->
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='114445'][not(Item/GUID='1404001113')]" AllowNoMatch="1">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='114445'][not(Item/GUID='1404001113')]" AllowNoMatch="1">
+        <Item>
+            <GUID>1404001113</GUID>
+        </Item>
+    </ModOp>
+
     <!-- most of these products come from shared product submods that load after the main mod -->
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod3</ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044,2143505885" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod3</ModOp>
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044,2143505885" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
         <AssociatedRegion>Mod3</AssociatedRegion>
     </ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044,2143505885" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
         <Item>
             <RegionType>Mod3</RegionType>
         </Item>
     </ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404003900,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105,1404005109,1404005092,1400201056,1404005079,1404005087,1400201053,1400201047,1400201049,1400201044,2143505885" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
         <ProductionRegions>
             <Item>
                 <RegionType>Mod3</RegionType>
@@ -48,6 +64,24 @@
         </Item>
     </ModOp>
 
+    <!-- Taludas' New World trading company menu 1500040202: same gap as the Old World one, never placed by the shared submod.
+         Needed for the Mouldy Bread export dock 1404003215 (New Horizons), so only with New Horizons; the company itself
+         unlocks with the NH mold pool 1404005098 (holds Taludas' NW pool 1500040203).
+         After the harbour 2 folder in the Obreros tier menu 25000194 and at the end of the NW harbour tab 500149;
+         the Conditions skip it when another mod already placed it. -->
+    <Group Condition="#new_horizons_session">
+        <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='501008']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1500040202']">
+            <Item>
+                <Building>1500040202</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="500149" Path="/Values/ConstructionCategory/BuildingList" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1500040202']">
+            <Item>
+                <Building>1500040202</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
     <!-- Add Agarwood Orchard to NH build menu -->
     <ModOp GUID="1445602" Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445028']" Condition="#new_horizons_buildmenu">
 		<Item>
@@ -55,8 +89,13 @@
 		</Item>
 	</ModOp>
 
-    <!-- Set Agarwood as produced in Horai-->
-    <ModOp Type="add" GUID="15504013" Path="Values/ProductList/List" Condition="#new_horizons_products">
+    <!-- Show Agarwood under Horai kontor list-->
+    <ModOp Type="addNextSibling" GUID="15504013" Path="Values/ProductList/List/Item[Product='1440202']" Condition="#new_horizons_products">
+        <Item>
+            <Product>1900100180</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504011" Path="Values/ProductList/List/Item[Product='1500010847']" Condition="#new_horizons_products">
         <Item>
             <Product>1900100180</Product>
         </Item>
@@ -72,7 +111,7 @@
     </ModOp>
 
     <!-- Add need: Magnates: Oudh-Perfume
-         Unlock counts match trigger 1404005062 in triggers/assets_new_horizons_triggers.xml -->
+         The Envoy count is the Orient's own oud unlock, trigger 1404004032 in triggers/assets_new_horizons_triggers.xml -->
     <ModOp Type="addNextSibling" GUID="15100100" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1440216']" Condition="#new_horizons_session">
         <Item>
             <Product>1404005059</Product>
@@ -84,7 +123,7 @@
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>2400</MinPopulationAmount>
+                <MinPopulationAmount>6000</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
@@ -113,6 +152,52 @@
         </Item>
     </ModOp>
 
+    <!-- Add silver to gramophone chain -->
+    <ModOp Type="addNextSibling" GUID="1445085" Path="Values/ProductionChain/Tier1/Item[Building='1441358']" Condition="#new_horizons_buildmenu">
+        <Item>
+            <Building>1404001302</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1404001300</Building>
+                    </Item>
+                </Tier2>
+        </Item>
+    </ModOp>
+
+    <!-- Add orient products to Horai kontor sort list -->
+    <ModOp Type="addNextSibling" GUID="15504020,15504021" Path="Values/ProductList/List/Item[Product='15504019']" Condition="#new_horizons_products">
+        <Item>
+            <Product>1404000029</Product>
+        </Item>
+        <Item>
+            <Product>1404000035</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504022" Path="Values/ProductList/List/Item[Product='502074']" Condition="#new_horizons_products">
+        <Item>
+					<Product>1404000032</Product>
+				</Item>
+				<Item>
+					<Product>1404000039</Product>
+				</Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504023" Path="Values/ProductList/List/Item[Product='502075']" Condition="#new_horizons_products">
+        <Item>
+          <Product>1404000041</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504024" Path="Values/ProductList/List/Item[Product='502076']" Condition="#new_horizons_products">
+        <Item>
+            <Product>1404000028</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="15504025" Path="Values/ProductList/List/Item[Product='502077']" Condition="#new_horizons_products">
+        <Item>
+          <Product>1404000042</Product>
+        </Item>
+    </ModOp>
+
+
     <!-- Set Algae and Rice as produced in Horai for recipe book -->
     <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod2</ModOp>
     <ModOp Type="add" GUID="1440212,1440200" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
@@ -129,6 +214,168 @@
                 <RegionType>Mod2</RegionType>
             </Item>
         </ProductionRegions>
+    </ModOp>
+
+    <!-- Docklands import traders (131764) sell Orient wares, like New Horizon does for its goods.
+         Each ware joins the vanilla trade level it fits, and is skipped if another mod already lists it.
+         [1]: New Horizon's update mod gives its own added level the same Unlock as the last vanilla one. -->
+    <!-- Tattershire Farms: farm goods -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131850'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005079']">
+        <Item>
+          <Level>Common</Level>
+          <Good>1404005079</Good>  <!-- Chickpeas -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131850'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005092']">
+        <Item>
+          <Level>Common</Level>
+          <Good>1404005092</Good>  <!-- Aniseed -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131851'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201047']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1400201047</Good>  <!-- Pistachio Fruits -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131851'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1999005084']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1999005084</Good>  <!-- Almonds -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item[Unlock='131852'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000235']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404000235</Good>  <!-- Camels -->
+        </Item>
+    </ModOp>
+
+    <!-- FeedL: food and drink -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131830'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005087']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1404005087</Good>  <!-- Hummus -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131830'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201065']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1400201065</Good>  <!-- Roasted Chickpeas -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131831'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201053']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1400201053</Good>  <!-- Lokum -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131831'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000265']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404000265</Good>  <!-- Pomegranate Juice -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131831'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201056']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1400201056</Good>  <!-- Candied Dates -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item[Unlock='131832'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1999005057']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1999005057</Good>  <!-- Marzipan -->
+        </Item>
+    </ModOp>
+
+    <!-- colonial goods trader: tea and tobacco -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131767']/TradeLevels/Item[Unlock='131826'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1400201044']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1400201044</Good>  <!-- Spiced Tea -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131767']/TradeLevels/Item[Unlock='131828'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000250']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000250</Good>  <!-- Hookahs -->
+        </Item>
+    </ModOp>
+
+    <!-- Chanteuse: clothing -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131770'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000253']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1404000253</Good>  <!-- Kaftans -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131770'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000283']">
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1404000283</Good>  <!-- Turbans -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item[Unlock='131824'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000262']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000262</Good>  <!-- Pearl Necklaces -->
+        </Item>
+    </ModOp>
+
+    <!-- Qinsa Mining: metals and minerals -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item[Unlock='131843'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404005109']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404005109</Good>  <!-- Copper Bars -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131815']/TradeLevels/Item[Unlock='131844'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404003900']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404003900</Good>  <!-- Agates -->
+        </Item>
+    </ModOp>
+
+    <!-- Not-Ikea: craftsmanship -->
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Unlock='131835'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000256']">
+        <Item>
+          <Level>Rare</Level>
+          <Good>1404000256</Good>  <!-- Mosaic -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Unlock='131836'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000241']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000241</Good>  <!-- Chandeliers -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131811']/TradeLevels/Item[Unlock='131836'][1]/Trades"
+      Condition="!/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1404000238']">
+        <Item>
+          <Level>Epic</Level>
+          <Good>1404000238</Good>  <!-- Ceremonial Sabers -->
+        </Item>
     </ModOp>
 
     <!-- temporary NH region fix -->

@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000235</GUID>
+      <!-- Product | camels | Camels -->
+      <Text>Kamele</Text>
+    </Text>
+    <Text>
+      <GUID>1404000236</GUID>
+      <!-- Text | camels fluff text | Built for the desert. -->
+      <Text>Geschaffen für die Wüste.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000237</GUID>
+      <!-- Text | Always finds the way to the next well. | Always finds the way to the next well. -->
+      <Text>Findet immer den Weg zum nächsten Brunnen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

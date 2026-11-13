@@ -30,24 +30,19 @@
 							<Amount>30</Amount>
 						</Item>
 						<Item>
-							<Ingredient>114402</Ingredient>
-							<!--Mud Bricks-->
+							<Ingredient>1404009000</Ingredient>
+							<!--Rammed Earth-->
 							<Amount>50</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<!--mosaic-->
+							<Amount>20</Amount>
 						</Item>
 						<Item>
 							<Ingredient>1010218</Ingredient>
 							<!--beams-->
 							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<!--window-->
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<!--concrete-->
-							<Amount>10</Amount>
 						</Item>
 					</Costs>
 				</Cost>
@@ -175,7 +170,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

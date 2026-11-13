@@ -32,4 +32,10 @@
 		</Asset>
 	</ModOp>
 
+	<ModOp Type="add" GUID="1404000042" Path="Values/ProductList/List" Condition="#new_horizons_session">
+        <Item>
+			<Product>15504018</Product>
+		</Item>
+    </ModOp>
+
 </ModOps>

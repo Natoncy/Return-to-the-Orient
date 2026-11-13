@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000250</GUID>
+      <!-- Product | hookahs | Hookahs -->
+      <Text>水煙袋</Text>
+    </Text>
+    <Text>
+      <GUID>1404000251</GUID>
+      <!-- Text | hookahs fluff text | Like cigarettes but bulkier. -->
+      <Text>像香煙一樣，但體積更大。</Text>
+    </Text>
+    <Text>
+      <GUID>1404000252</GUID>
+      <!-- Text | Calms the nerves after a stormy night at sea. | Calms the nerves after a stormy night at sea. -->
+      <Text>在海上熬過風暴之夜後，能讓人平復心神。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

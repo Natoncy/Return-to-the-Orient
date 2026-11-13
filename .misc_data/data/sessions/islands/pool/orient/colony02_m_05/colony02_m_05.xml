@@ -16,12 +16,12 @@
       <None>
         <None>
           <ObjectId>0800000001003080</ObjectId>
-          <ObjectGuid>EECB0100</ObjectGuid>
+          <ObjectGuid>4966AF53</ObjectGuid>
           <Position>008007433A05044000801A43</Position>
         </None>
         <None>
           <ObjectId>0A00000001003080</ObjectId>
-          <ObjectGuid>EECB0100</ObjectGuid>
+          <ObjectGuid>4966AF53</ObjectGuid>
           <Position>00801F436FC4034000801443</Position>
         </None>
       </None>
@@ -33,12 +33,12 @@
       <None>
         <None>
           <ObjectId>0200000001003080</ObjectId>
-          <ObjectGuid>EDCB0100</ObjectGuid>
+          <ObjectGuid>4166AF53</ObjectGuid>
           <Position>008006436072074000802243</Position>
         </None>
         <None>
           <ObjectId>0300000001003080</ObjectId>
-          <ObjectGuid>EDCB0100</ObjectGuid>
+          <ObjectGuid>4166AF53</ObjectGuid>
           <Position>00802043E0DD104000800C43</Position>
         </None>
       </None>

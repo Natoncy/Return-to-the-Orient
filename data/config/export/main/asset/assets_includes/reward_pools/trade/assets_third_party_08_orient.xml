@@ -80,11 +80,10 @@
 							<ItemLink>1404000979</ItemLink>
 							<Weight>300</Weight>
 						</Item>
-						<!-- hidden for this release: Oriental Lighthouse beacons (buildings/monument/assets_lighthouse_beacons.xml)
 						<Item>
 							<ItemLink>1404007040</ItemLink>
 							<Weight>60</Weight>
-						</Item> -->
+						</Item>
 					</ItemsPool>
 				</RewardPool>
 				<Locked />

@@ -7,7 +7,7 @@
         <Standard>
           <GUID>1404000883</GUID>
           <Name>heavy_orient_04 (acid plant)</Name>
-          <IconFilename>data/graphics/icons/products/icon_sulfuric_acid.png</IconFilename>
+          <IconFilename>data/ui/icon_sulfuric_acid.png</IconFilename>
           <InfoDescription>11143</InfoDescription>
         </Standard>
         <Text>
@@ -38,7 +38,7 @@
           </FactoryInputs>
           <FactoryOutputs>
             <Item>
-              <Product>1404005039</Product>
+              <Product>2143505885</Product>
               <Amount>1</Amount>
               <StorageAmount>6</StorageAmount>
             </Item>
@@ -78,6 +78,14 @@
         <Constructable/>
         <Locked/>
         <IncidentInfectable/>
+        <Industrializable>
+          <BoostedByIndustrialization>0</BoostedByIndustrialization>
+        </Industrializable>
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ElectrifiedEffect>0</ElectrifiedEffect>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
         <Object>
           <Variations>
             <Item>
@@ -110,7 +118,7 @@
                 <Amount>10</Amount>
             </Item>
             <Item>
-                <Ingredient>114402</Ingredient>
+                <Ingredient>1404009000</Ingredient>
                 <!--bricks-->
                 <Amount>10</Amount>
             </Item>

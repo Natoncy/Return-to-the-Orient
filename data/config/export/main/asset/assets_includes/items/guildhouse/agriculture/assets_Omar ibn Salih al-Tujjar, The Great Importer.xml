@@ -31,6 +31,9 @@
                             <GUID>1404000016</GUID>                            <!-- nomads-->
                         </Item>
                         <Item>
+                            <GUID>1404008101</GUID>                            <!-- bedouins-->
+                        </Item>
+                        <Item>
                             <GUID>1404000017</GUID>                            <!-- envoys-->
                         </Item>
                         <Item>
@@ -38,6 +41,9 @@
                         </Item>
                         <Item>
                             <GUID>1404004301</GUID>                            <!-- envoys level 3-->
+                        </Item>
+                        <Item>
+                            <GUID>1404004212</GUID>                            <!-- palace envoy quarters-->
                         </Item>
                     </EffectTargets>
                 </ItemEffect>

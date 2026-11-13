@@ -12,10 +12,16 @@
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
-                            <Building>1404001115</Building>
+                            <Building>1404008109</Building>
                         </Item>
                         <Item>
                             <Building>1404001138</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004878</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005122</Building>
                         </Item>
                         <Item>
                             <Building>1404001139</Building>
@@ -24,10 +30,10 @@
                             <Building>1404001140</Building>
                         </Item>
                         <Item>
-                            <Building>1404001141</Building>
+                            <Building>1404004879</Building>
                         </Item>
                         <Item>
-                            <Building>1404000165</Building>
+                            <Building>1404004880</Building>
                         </Item>
                         <Item>
                             <Building>1404001142</Building>
@@ -36,13 +42,16 @@
                             <Building>1404001143</Building>
                         </Item>
                         <Item>
-                            <Building>1404001144</Building>
+                            <Building>1404005136</Building>
                         </Item>
                         <Item>
-                            <Building>1404001145</Building>
+                            <Building>1404004881</Building>
                         </Item>
                         <Item>
                             <Building>1404000290</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004882</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>
@@ -70,21 +79,6 @@
         </Asset>
     </ModOp>
     
-    <ModOp Type="addNextSibling" GUID="120286">
-        <Asset>
-            <BaseAssetGUID>120286</BaseAssetGUID>
-            <Values>
-                <Standard>
-                    <GUID>1404001141</GUID>
-                    <Name>orient scholars hibiscus tea chain</Name>
-                </Standard>
-                <Text>
-                    <TextOverride>120286</TextOverride>
-                </Text>
-            </Values>
-        </Asset>
-    </ModOp>
-
     <ModOp Type="addNextSibling" GUID="120287">
         <Asset>
             <BaseAssetGUID>120287</BaseAssetGUID>
@@ -106,40 +100,10 @@
             <Values>
                 <Standard>
                     <GUID>1404001143</GUID>
-                    <Name>orient scholars tapestries chain</Name>
+                    <Name>orient scholars rugs chain</Name>
                 </Standard>
                 <Text>
                     <TextOverride>1404000172</TextOverride>
-                </Text>
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="120289">
-        <Asset>
-            <BaseAssetGUID>120289</BaseAssetGUID>
-            <Values>
-                <Standard>
-                    <GUID>1404001144</GUID>
-                    <Name>orient scholars clay pipe chain</Name>
-                </Standard>
-                <Text>
-                    <TextOverride>120289</TextOverride>
-                </Text>
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="118739">
-        <Asset>
-            <BaseAssetGUID>118739</BaseAssetGUID>
-            <Values>
-                <Standard>
-                    <GUID>1404001145</GUID>
-                    <Name>orient scholars telephone chain</Name>
-                </Standard>
-                <Text>
-                    <TextOverride>118739</TextOverride>
                 </Text>
             </Values>
         </Asset>

@@ -1,0 +1,95 @@
+<ModOps>
+
+    <!-- Rammed Earth: the Orient's construction material in place of mud bricks 114402 -->
+    <ModOp Type="addNextSibling" GUID="114402">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009000</GUID>
+                    <Name>Rammed Earth</Name>
+                    <IconFilename>data/graphics/icons/products/icon_rammed_earth.png</IconFilename>
+                    <InfoDescription>1404009001</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Rammed Earth</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11707</ProductCategory>
+                    <BasePrice>65</BasePrice>
+                    <CivLevel>1</CivLevel>
+                    <AssociatedRegion>Mod3</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Mod3</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009001</GUID>
+                    <Name>Rammed Earth fluff text</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Fake rammed earth: the Rammed Earth Works hub's only output, like FakeProductWaste 25073 of the Cyanide Leacher.
+         Abstract and delta-only, so it is never stored or traded; the real rammed earth comes from the oxidation pools 1404009003. -->
+    <ModOp Type="addNextSibling" GUID="25073">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009005</GUID>
+                    <Name>FakeProductRammedEarth</Name>
+                    <IconFilename>data/graphics/icons/products/icon_rammed_earth.png</IconFilename>
+                    <InfoDescription>1404009001</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1404009000</TextOverride>
+                </Text>
+                <Locked />
+                <Product>
+                    <DeltaOnly>1</DeltaOnly>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Mod3</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- StandardProductStorageList -->
+    <ModOp Type="add" GUID="120055" Path="Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1404009000</Product>
+        </Item>
+    </ModOp>
+
+</ModOps>

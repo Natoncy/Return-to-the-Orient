@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404005121</GUID>
 					<Name>export_orient_11 (Arak Distillery)</Name>
-					<IconFilename>data\ui\modgraphics/icon_arak.png</IconFilename>
+					<IconFilename>data/graphics/icons/products/icon_arak.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -51,7 +51,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>12</Amount>
 						</Item>
 						<Item>
@@ -141,7 +141,7 @@
 				<FactoryBase>
 					<FactoryInputs>
                         <Item>
-							<Product>120014</Product>
+							<Product>1404005115</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -151,7 +151,7 @@
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
-							<Product>1404005115</Product>
+							<Product>120014</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -209,7 +209,11 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 			</Values>
 		</Asset>

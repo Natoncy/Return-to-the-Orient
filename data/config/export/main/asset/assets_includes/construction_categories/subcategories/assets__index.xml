@@ -5,6 +5,7 @@
     <Include File="assets_orient_construction_menu_harbour_1.xml" />
     <Include File="assets_orient_construction_menu_harbour_2.xml" />
     <Include File="assets_orient_construction_menu_trading_company.xml" />
+    <Include File="assets_orient_haciendas.xml" />
     <Include File="assets_orient_ornaments.xml" />
     <Include File="assets_orient_sultanspalace.xml" />
 

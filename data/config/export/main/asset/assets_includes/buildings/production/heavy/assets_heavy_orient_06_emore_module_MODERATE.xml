@@ -7,7 +7,7 @@
         <Standard>
           <GUID>1404005004</GUID>
           <Name>heavy_orient_06 (elmore module MODERATE)</Name>
-          <IconFilename>data/ui/modgraphics/icon_waschtrommel.png</IconFilename>
+          <IconFilename>data/graphics/icons/products/icon_waschtrommel.png</IconFilename>
           <InfoDescription>1404005006</InfoDescription>
         </Standard>
         <Text>
@@ -141,7 +141,7 @@
             <Standard>
                 <GUID>1404005005</GUID>
                 <Name>Elmore Module MODERATE Buff</Name>
-                <IconFilename>data/ui/modgraphics/icon_waschtrommel.png</IconFilename>
+                <IconFilename>data/graphics/icons/products/icon_waschtrommel.png</IconFilename>
                 <InfoDescription>1404005006</InfoDescription>
             </Standard>
             <ItemEffect>

@@ -1,0 +1,24 @@
+73 mods (2 disabled), 1560 XML files (1543 loaded), 3108 path refs, 7 unresolved
+
+## Unresolved in loaded XML: 4
+
+data/graphics/ui/icons/goods/icon_special_shroom.png
+  data/config/export/main/asset/assets_includes/buildings/production/lab/assets_lab_orient_02_mold.xml:10  [#new_horizons_session]
+  data/config/export/main/asset/assets_includes/production_chains/assets_orient_mushrooms_chain.xml:38  [#new_horizons_session]
+  data/config/export/main/asset/assets_includes/recipes/orient_lab/assets_noble_mushrooms.xml:10  [#new_horizons_session]
+
+data/graphics/ui/icons/icon_session_asia.png
+  Natoncy_orient_after_other_mods/data/config/export/main/asset/assets.xml:139  [#new_horizons_session]
+
+## Unresolved in XML the game never loads (disabled mod / not included): 3
+
+data/graphics/icons/trading_company/icon_import_dock_silver_ore.png
+  -Natoncy_return_to_the_orient_beta_compatibility/data/config/export/main/asset/assets.xml:12
+  similar  -Natoncy_return_to_the_orient_beta_compatibility: data/graphics/icons/trading_company/icon_import_dock_silver_ore.png
+
+data/modgraphics/ui/icon_ivory.png
+  data/config/export/main/asset/assets_includes/buildings/production/export/assets_export_orient_05_elephant_hunting_cabin_AFRICA.xml:10
+
+data/ui/modgraphics/icon_alembic.png
+  data/config/export/main/asset/assets_includes/production_chains/assets_orient_alembics_chain.xml:10
+  similar  <main>: data/graphics/icons/products/icon_alembic.png

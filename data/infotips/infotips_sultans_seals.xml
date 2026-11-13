@@ -1,0 +1,73 @@
+<ModOps>
+  <ModOp Path="//InfoTipData[Guid='25000020']" Type="add">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <OperatorType>
+          <OperatorType>0</OperatorType>
+        </OperatorType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>1404001113</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>1404000323</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+        </VisibilityElement>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <ChildCount>0</ChildCount>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <ChildCount>0</ChildCount>
+        <Text>
+          <Text>&lt;b&gt;[AssetData(1404005138) Text]&lt;/b&gt;</Text>
+          <Style />
+        </Text>
+        <Icon>
+          <IconGUID>1404000207</IconGUID>
+          <Style />
+        </Icon>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <ChildCount>0</ChildCount>
+        <Text>
+          <TextGUID>1404005139</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+</ModOps>

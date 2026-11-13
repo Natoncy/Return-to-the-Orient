@@ -422,120 +422,48 @@
       <None>data/graphics/props/orient/empty/empty.prp</None>
       <None>data/graphics/props/orient/empty/empty.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_02.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_03.prp</None>
-      <None>data/graphics/props/orient/rocks/rocks_decoration_08.prp</None>
     </FileNames>
     <Instances>
       <None>
-        <Index>49</Index>
-        <Position>260 -0.7 198</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
+        <Index>29</Index>
+        <Position>154.5 -1.17165 274.5</Position>
+        <Rotation>-0.026307223 -0.45788222 0.050971 0.88715989</Rotation>
+        <Scale>0.72173345 0.4353093 0.9815575</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>49</Index>
-        <Position>262 -0.7 190</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
+        <Index>29</Index>
+        <Position>150 -1.45008 274</Position>
+        <Rotation>0 -0.5836333 0 0.8120165</Rotation>
+        <Scale>0.78302455 0.53685695 1.0649134</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>49</Index>
-        <Position>262 -0.7 182</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
+        <Index>28</Index>
+        <Position>152.25 -1.71376 275</Position>
+        <Rotation>0 0.72373263 0 -0.69007935</Rotation>
+        <Scale>0.72173345 0.72173345 0.9815575</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>49</Index>
-        <Position>262 -0.7 174</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
+        <Index>29</Index>
+        <Position>164.6397 -1.49592 104.25</Position>
+        <Rotation>0 0.70710678 0 -0.70710678</Rotation>
+        <Scale>1 0.5319754 1</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>49</Index>
-        <Position>260 -0.7 166</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
+        <Index>29</Index>
+        <Position>165.3897 -1.49615 104.75</Position>
+        <Rotation>0 0.70710678 0 0.70710678</Rotation>
+        <Scale>1 0.5319754 1</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>49</Index>
-        <Position>255 -0.7 158</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>250 -0.6 153</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>242 -0.6 153</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>234 -0.6 150</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>230 -0.6 145</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>228 -0.6 137</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>224 -0.7 130</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>170 -0.6 105</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>178 -0.6 108</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>186 -0.6 110</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>49</Index>
-        <Position>194 -0.6 110</Position>
-        <Rotation>0 0 0 1</Rotation>
-        <Scale>5 2 5</Scale>
+        <Index>30</Index>
+        <Position>164.8897 -1.96472 106.25</Position>
+        <Rotation>0.18208575 0.2631758 -0.0630863 -0.9453056</Rotation>
+        <Scale>0.6309202 0.6309202 0.6309202</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>

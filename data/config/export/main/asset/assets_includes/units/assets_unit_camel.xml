@@ -1,0 +1,22 @@
+<ModOps>
+
+    <!-- walks next to vanilla 118719-118721 "Goat 01-03" in the Orient stray animals; local cfg = vanilla
+    dromedary plus the goat's extra sequence IDs (2100 run, 1010, 1060/1061 idles) -->
+    <ModOp Type="addNextSibling" GUID="118721">
+        <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002039</GUID>
+                    <Name>Orient | Camel</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_elephant.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackUnit>
+                    <CfgPath>data/graphics/units/orient/camel/camel.cfg</CfgPath>
+                </TrafficFeedbackUnit>
+                <Trailer />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

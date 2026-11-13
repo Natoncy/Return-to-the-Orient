@@ -1,0 +1,111 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008140</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree4</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/policies_hacienda/icon_local_assemblies.png</IconFilename>
+                    <InfoDescription>1404008141</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Bonds of the Tribe</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404008142</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008141</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree4_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>When the sheikh calls, every tent sends its hands, for the tribe stands or falls together.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008142</GUID>
+                    <Name>Orient_Bedouin_Camp - Decree4 Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/policies_hacienda/icon_local_assemblies.png</IconFilename>
+                    <InfoDescription>1404008141</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000016</GUID>
+                            <!--nomad residence-->
+                        </Item>
+                        <Item>
+                            <GUID>1404008101</GUID>
+                            <!--bedouin tent-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404008140</TextOverride>
+                </Text>
+                <BuildingUpgrade />
+                <Buff/>
+                <PopulationUpgrade/>
+                <ResidenceUpgrade>
+                    <WorkforceModifierInPercent>15</WorkforceModifierInPercent>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade/>
+                <CultureUpgrade/>
+                <InfluenceSourceUpgrade/>
+                <WarehouseUpgrade/>
+                <DistributionUpgrade/>
+                <ItemContainerUpgrade/>
+                <FactoryUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008143</GUID>
+                    <Name>Orient_Bedouin_Camp_Decree4_Info</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Increases the workforce of Nomads</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

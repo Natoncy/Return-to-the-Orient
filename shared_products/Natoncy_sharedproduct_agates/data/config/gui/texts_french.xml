@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404003900</GUID>
+      <!-- Product | agates | Agates -->
+      <Text>Agates</Text>
+    </Text>
+    <Text>
+      <GUID>1404003901</GUID>
+      <!-- Text | agates fluff text | Gathered from the riverbed, cut into shimmering tesserae. -->
+      <Text>Ramassées dans le lit de la rivière, taillées en tesselles chatoyantes.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

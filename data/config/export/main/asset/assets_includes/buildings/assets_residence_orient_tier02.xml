@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404000017</GUID>
                     <Name>residence_orient_tier02</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/icon_resident.png</IconFilename>
+                    <IconFilename>data/graphics/icons/residents/icon_residence_envoy.png</IconFilename>
                     <InfoDescription>163059</InfoDescription>
                 </Standard>
                 <Blocking />
@@ -41,7 +41,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>3</Amount>
                         </Item>
                         <Item>
@@ -170,7 +170,6 @@
                 <Pausable />
                 <Culture />
                 <StreetActivation />
-                <!-- hidden for this release: skyscraper upgrade to Envoy residence level 2
                 <FloorStackOwner>
                     <UpgradeTargetGUID>1404004300</UpgradeTargetGUID>
                     <AddFloorCost>
@@ -179,11 +178,11 @@
                             <Amount>1000</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>6</Amount>
                         </Item>
                     </AddFloorCost>
-                </FloorStackOwner> -->
+                </FloorStackOwner>
                 <InfluenceSource>
                     <InfluenceAmount>4</InfluenceAmount>
                     <InfluenceSource>Culture</InfluenceSource>
@@ -236,7 +235,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>3</Amount>
                         </Item>
                         <Item>
@@ -498,7 +497,7 @@
                             <Amount>2000</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>10</Amount>
                         </Item>
                     </AddFloorCost>
@@ -552,7 +551,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
+                            <Ingredient>1404009000</Ingredient>
                             <Amount>3</Amount>
                         </Item>
                         <Item>

@@ -3,20 +3,20 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>0.068571</xf>
-			<yf>0.653166</yf>
-			<zf>0.452689</zf>
+			<xf>0.0686</xf>
+			<yf>0.6532</yf>
+			<zf>0.4527</zf>
 		</Position>
 		<Rotation>
-			<xf>0.000000</xf>
-			<yf>0.000000</yf>
-			<zf>0.000000</zf>
-			<wf>1.000000</wf>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
 		</Rotation>
 		<Extents>
-			<xf>2.600000</xf>
-			<yf>2.600000</yf>
-			<zf>2.652689</zf>
+			<xf>2.6</xf>
+			<yf>2.6</yf>
+			<zf>2.6527</zf>
 		</Extents>
 	</BoundingBox>
 	<BuildBlocker>
@@ -143,6 +143,26 @@
 			<xf>1.470014</xf>
 			<yf>0.172240</yf>
 			<zf>2.009454</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_1</Name>
+		<Position>
+			<xf>0.0356</xf>
+			<yf>0.9668</yf>
+			<zf>-0.0062</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1.1912</xf>
+			<yf>0.7168</yf>
+			<zf>1.6825</zf>
 		</Extents>
 	</IntersectBox>
 	<MeshBoundingBox>

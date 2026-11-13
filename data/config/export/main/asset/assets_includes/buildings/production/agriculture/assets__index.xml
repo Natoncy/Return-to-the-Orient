@@ -10,6 +10,7 @@
     <Include File="assets_agriculture_orient_09_olive_plantation.xml" />
     <Include File="assets_agriculture_orient_10_chickpea_farm.xml" />
     <Include File="assets_agriculture_orient_11_aniseed_farm.xml" />
+    <Include File="assets_agriculture_orient_12_rammed_earth_farm.xml" />
     <Include File="assets_agriculture_orient_module_fertilizer.xml" />
     <Include File="assets_agriculture_orient_module_honey.xml" />
     <Include File="assets_agriculture_orient_module_palm_leaves.xml" />

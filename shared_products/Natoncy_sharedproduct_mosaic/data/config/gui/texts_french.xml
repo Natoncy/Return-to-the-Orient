@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000256</GUID>
+      <!-- Product | mosaic | Mosaic -->
+      <Text>Mosaïque</Text>
+    </Text>
+    <Text>
+      <GUID>1404000257</GUID>
+      <!-- Text | mosaic fluff text | More than the sum of its pieces. -->
+      <Text>Plus que la somme de ses morceaux.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000258</GUID>
+      <!-- Text | Pieced together, just like a broken bone. | Pieced together, just like a broken bone. -->
+      <Text>Assemblé pièce par pièce, comme un os brisé.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

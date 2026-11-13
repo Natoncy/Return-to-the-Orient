@@ -1,0 +1,52 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009112</GUID>
+                    <Name>Samir al-Fustuq, The Pistachio Expert</Name>
+                    <IconFilename>data/graphics/icons/items/Samir_al_Fu.png</IconFilename>
+                    <InfoDescription>1404009113</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Samir al-Fustuq, the Pistachio Expert</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>120000</TradePrice>
+                    <TradePriceOnlineCurrency>1200</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>30</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1400201047</Product>
+                            <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404005025</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

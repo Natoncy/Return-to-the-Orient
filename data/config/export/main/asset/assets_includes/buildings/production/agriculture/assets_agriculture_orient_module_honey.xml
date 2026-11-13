@@ -85,7 +85,7 @@
               <Amount>10</Amount>
             </Item>
             <Item>
-              <Ingredient>114402</Ingredient>
+              <Ingredient>1404009000</Ingredient>
               <Amount>3</Amount>
             </Item>
           </Costs>
@@ -166,7 +166,7 @@
             <Standard>
                 <GUID>1404005017</GUID>
                 <Name>Bee Buff</Name>
-                <IconFilename>data/ui/modgraphics/icon_biene.png</IconFilename>
+                <IconFilename>data/graphics/icons/products/icon_biene.png</IconFilename>
                 <InfoDescription>1404005019</InfoDescription>
             </Standard>
             <ItemEffect>

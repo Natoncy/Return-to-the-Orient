@@ -24,6 +24,9 @@
 							<GUID>1404000016</GUID>
 						</Item>
 						<Item>
+							<GUID>1404008101</GUID>
+						</Item>
+						<Item>
 							<GUID>1404000017</GUID>
 						</Item>
 						<Item>
@@ -31,6 +34,9 @@
 						</Item>
 						<Item>
 							<GUID>1404004301</GUID>
+						</Item>
+						<Item>
+							<GUID>1404004212</GUID>
 						</Item>
 						<Item>
 							<GUID>1404001113</GUID>
@@ -65,6 +71,9 @@
 							<GUID>1404000016</GUID>
 						</Item>
 						<Item>
+							<GUID>1404008101</GUID>
+						</Item>
+						<Item>
 							<GUID>1404000017</GUID>
 						</Item>
 						<Item>
@@ -72,6 +81,9 @@
 						</Item>
 						<Item>
 							<GUID>1404004301</GUID>
+						</Item>
+						<Item>
+							<GUID>1404004212</GUID>
 						</Item>
 					</EffectTargetGUIDs>
 				</ItemEffectTargetPool>

@@ -1,0 +1,36 @@
+<ModOps>
+
+    <!-- Scholars tab entry for Pomegranate Juice (shown 3.1, unlocked 3.2). The Nomads list the farm itself, which would open
+         the Scholars tab at 1.2; vanilla gives later tier tabs their own chains instead (Artista copies like 6623).
+         Farm with its irrigation, like the bath house chain 1404003500 -->
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004879</GUID>
+                    <Name>orient scholars pomegranate juice chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_pomegranate_juice.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000300</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404004229</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000212</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1404000300</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

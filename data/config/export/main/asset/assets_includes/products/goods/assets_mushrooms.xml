@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005054</GUID>
                     <Name>P. parasiticum</Name>
-                    <IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_mushrooms.png</IconFilename>
                     <InfoDescription>1404005065</InfoDescription>
                 </Standard>
                 <Locked />

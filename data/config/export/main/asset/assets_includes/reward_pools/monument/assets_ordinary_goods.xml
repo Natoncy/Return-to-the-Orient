@@ -8,15 +8,15 @@
                     <GUID>1404000755</GUID>
                     <Name>Ordinary Orient Carnival Goods</Name>
                     <IconFilename>data/graphics/icons/monument_products/small_carnival_goods.png</IconFilename>
-                    <InfoDescription>16525</InfoDescription>
+                    <InfoDescription>1404001208</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>1010237</ItemLink>
+                            <ItemLink>1404000235</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>117702</ItemLink>
+                            <ItemLink>114404</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

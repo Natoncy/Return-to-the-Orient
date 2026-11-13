@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404003900</GUID>
+      <!-- Product | agates | Agates -->
+      <Text>마노</Text>
+    </Text>
+    <Text>
+      <GUID>1404003901</GUID>
+      <!-- Text | agates fluff text | Gathered from the riverbed, cut into shimmering tesserae. -->
+      <Text>강바닥에서 모아 반짝이는 모자이크 조각으로 다듬어진다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

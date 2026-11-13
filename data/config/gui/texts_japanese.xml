@@ -1,4 +1,5 @@
-﻿<ModOps>
+<?xml version='1.0' encoding='utf-8'?>
+<ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000000</GUID>
@@ -786,6 +787,11 @@
       <Text>書類上のスルタンの印章は、スルタン国において非常に重要な意味を持っている。</Text>
     </Text>
     <Text>
+      <GUID>1404000287</GUID>
+      <!-- Text | No harbour master dares to question the Sultan's seal. | No harbour master dares to question the Sultan's seal. -->
+      <Text>スルタンの印章に異を唱える港湾長などいない。</Text>
+    </Text>
+    <Text>
       <GUID>1404000288</GUID>
       <!-- Product | Coffee House | Coffee House -->
       <Text>コーヒーハウス</Text>
@@ -1048,7 +1054,7 @@
     <Text>
       <GUID>1404000358</GUID>
       <!-- Product | Marketstall: Fans | Marketstall: Fans -->
-      <Text>露店: ファン</Text>
+      <Text>露店: 換気扇</Text>
     </Text>
     <Text>
       <GUID>1404000359</GUID>
@@ -1058,7 +1064,7 @@
     <Text>
       <GUID>1404000360</GUID>
       <!-- Product | Marketstall: Ice Cream | Marketstall: Ice Cream -->
-      <Text>マーケットの屋台: アイスクリーム</Text>
+      <Text>露店: アイスクリーム</Text>
     </Text>
     <Text>
       <GUID>1404000361</GUID>
@@ -1068,12 +1074,12 @@
     <Text>
       <GUID>1404000362</GUID>
       <!-- Product | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>出店: スクーター</Text>
+      <Text>露店: スクーター</Text>
     </Text>
     <Text>
       <GUID>1404000363</GUID>
       <!-- Product | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>露店: 蒸気機関車</Text>
+      <Text>露店: 蒸気自動車</Text>
     </Text>
     <Text>
       <GUID>1404000364</GUID>
@@ -1083,7 +1089,7 @@
     <Text>
       <GUID>1404000365</GUID>
       <!-- Mall | Marketstall: Fans | Marketstall: Fans -->
-      <Text>露店: ファン</Text>
+      <Text>露店: 換気扇</Text>
     </Text>
     <Text>
       <GUID>1404000366</GUID>
@@ -1093,17 +1099,17 @@
     <Text>
       <GUID>1404000367</GUID>
       <!-- Mall | Marketstall: Ice Cream | Marketstall: Ice Cream -->
-      <Text>マーケットの屋台: アイスクリーム</Text>
+      <Text>露店: アイスクリーム</Text>
     </Text>
     <Text>
       <GUID>1404000369</GUID>
       <!-- Mall | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>出店: スクーター</Text>
+      <Text>露店: スクーター</Text>
     </Text>
     <Text>
       <GUID>1404000370</GUID>
       <!-- Mall | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>露店: 蒸気機関車</Text>
+      <Text>露店: 蒸気自動車</Text>
     </Text>
     <Text>
       <GUID>1404000371</GUID>
@@ -2233,7 +2239,7 @@
     <Text>
       <GUID>1404000837</GUID>
       <!-- Text | To start the expedition, go to the World Map and select the Orient Expedition. | To start the expedition, go to the World Map and select the Orient Expedition. -->
-      <Text>遠征を開始するには、世界地図に移動し、Orient Expedition を選択します。</Text>
+      <Text>遠征を開始するには、世界地図に移動し、東方遠征を選択します。</Text>
     </Text>
     <Text>
       <GUID>1404000838</GUID>
@@ -2318,7 +2324,7 @@
     <Text>
       <GUID>1404000881</GUID>
       <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
-      <Text>供給される混合物</Text>
+      <Text>供給される濃縮物</Text>
     </Text>
     <Text>
       <GUID>1404000882</GUID>
@@ -3182,13 +3188,13 @@
     </Text>
     <Text>
       <GUID>1404001115</GUID>
-      <!-- Hacienda | Research Station | Research Station -->
-      <Text>研究ステーション</Text>
+      <!-- Hacienda | Research Outpost | Research Outpost -->
+      <Text>研究前哨基地</Text>
     </Text>
     <Text>
       <GUID>1404001116</GUID>
-      <!-- Product | Hacienda | Research Station -->
-      <Text>研究ステーション</Text>
+      <!-- Product | Hacienda | Research Outpost -->
+      <Text>研究前哨基地</Text>
     </Text>
     <Text>
       <GUID>1404001117</GUID>
@@ -3432,13 +3438,13 @@
     </Text>
     <Text>
       <GUID>1404001195</GUID>
-      <!-- Text | Nibbles and canapés | Nibbles and canapés -->
-      <Text>おつまみとカナッペ</Text>
+      <!-- Text | Nibbles and canapés | Provisions for the road -->
+      <Text>道中の食料</Text>
     </Text>
     <Text>
       <GUID>1404001196</GUID>
-      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. -->
-      <Text>ささやかな展示会の訪問者は通常、展示品の間を歩き回るときに軽食やカナッペを楽しみます。</Text>
+      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Pilgrims on the road are grateful for a handful of dates and roasted chickpeas to keep them going. -->
+      <Text>旅路の巡礼者にとって、力をつけてくれるひと握りのデーツとローストひよこ豆はありがたいものだ。</Text>
     </Text>
     <Text>
       <GUID>1404001197</GUID>
@@ -3447,8 +3453,8 @@
     </Text>
     <Text>
       <GUID>1404001198</GUID>
-      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Large displays of savoury meals are essential to welcoming many visitors. -->
-      <Text>多くの訪問者を歓迎するには、おいしい料理を大きく展示することが不可欠です。</Text>
+      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Generous platters of hummus and marzipan are essential to welcoming many pilgrims. -->
+      <Text>多くの巡礼者を迎えるには、フムスとマジパンをたっぷり盛った大皿が欠かせません。</Text>
     </Text>
     <Text>
       <GUID>1404001199</GUID>
@@ -3477,8 +3483,8 @@
     </Text>
     <Text>
       <GUID>1404001204</GUID>
-      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. -->
-      <Text>要求の厳しい訪問者を満足させるには、高品質のアルコール飲料を提供すること以上に優れた方法はありません。</Text>
+      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | Nothing refreshes weary pilgrims like cool pomegranate juice and fragrant spiced tea. -->
+      <Text>疲れた巡礼者を癒やすには、冷たいザクロジュースと香り高いスパイスティーが一番だ。</Text>
     </Text>
     <Text>
       <GUID>1404001205</GUID>
@@ -3497,8 +3503,8 @@
     </Text>
     <Text>
       <GUID>1404001208</GUID>
-      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. -->
-      <Text>色のタッチが世界を変える可能性があり、跳ねるボールには、良いキックを与えずにはいられない何かがあります。</Text>
+      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | Sturdy camels for the caravan and a prayer rug for every halt: simple things that mean a great deal to a pilgrim. -->
+      <Text>隊商のための丈夫なラクダと、休むたびに広げる礼拝用の敷物。巡礼者にとっては、そんな素朴なものが大きな意味を持つ。</Text>
     </Text>
     <Text>
       <GUID>1404001209</GUID>
@@ -3507,8 +3513,8 @@
     </Text>
     <Text>
       <GUID>1404001210</GUID>
-      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>素晴らしい羽のような衣装を見てください。カーニバルと混乱が通りで混ざり合い、時折スワックが中断します。</Text>
+      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Fine kaftans for the feast days and a hookah to share in the evening turn the long road into a celebration. -->
+      <Text>祝祭の日のための上質なカフタンと、夜に囲む水ギセルが、長い旅路を祝いのひとときに変える。</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3517,8 +3523,8 @@
     </Text>
     <Text>
       <GUID>1404001212</GUID>
-      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. -->
-      <Text>空気中に残る甘い香り、音楽の音、複雑なマスクなど、賢い手によって考案された最新の贅沢品のすべてが、この仮面舞踏会に参加する顔の海の後に続きます。</Text>
+      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | Precious oudh perfume, fine turbans and ornate hookahs, crafted by skilled hands, fill the courtyards with splendour and sweet scents. -->
+      <Text>熟練の手で作られた貴重なウード香水、上質なターバン、華麗な水ギセルが、中庭を華やかさと甘い香りで満たす。</Text>
     </Text>
     <Text>
       <GUID>1404001213</GUID>
@@ -3544,6 +3550,11 @@
       <GUID>1404001217</GUID>
       <!-- RewardPool | Luxury Orient Decoration | Luxury Orient Decoration -->
       <Text>豪華な東洋の装飾</Text>
+    </Text>
+    <Text>
+      <GUID>1404004893</GUID>
+      <!-- RewardPool | Correct Orient Decoration | Orient Decoration -->
+      <Text>東洋の装飾</Text>
     </Text>
     <Text>
       <GUID>1404001218</GUID>
@@ -3577,8 +3588,8 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
-      <Text>ノリアは互いに距離を置いて建てる必要があります。ノリアは地下の帯水層から水をくみ上げますが、そうしなければ帯水層はいずれ枯れてしまいます。</Text>
+      <!-- Text | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. | Norias lift water from deep underground to irrigate your fields. Build them at a distance from each other, or they will drain the aquifers dry. -->
+      <Text>ノリアは地下深くから水を汲み上げ、畑を灌漑します。互いに距離を置いて建設しないと、帯水層が枯れてしまいます。</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
@@ -3596,1249 +3607,19 @@
       <Text>使節たちは、産業時代の新しい品物や発明に興味津々です。露店は、それらを披露して使節たちに試してもらうのにうってつけです。</Text>
     </Text>
     <Text>
-      <GUID>1404001271</GUID>
-      <!-- PublicServiceBuilding | Mosque | Mosque -->
-      <Text>モスク</Text>
+      <GUID>1404001228</GUID>
+      <!-- Text | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. | Bedouin Camps, Research Outposts and the Sultan's Palace each attract residents with their own needs and offer different decrees to improve your city and production. -->
+      <Text>ベドウィンの野営地、研究前哨基地、スルタンの宮殿は、それぞれ独自のニーズを持つ住民を呼び寄せ、街と生産を改善するさまざまな勅令を提供します。</Text>
     </Text>
     <Text>
-      <GUID>1404003206</GUID>
-      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
-      <Text>輸出ドック:モザイク</Text>
+      <GUID>1404001229</GUID>
+      <!-- Text | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. | Flotation Concentrate lets you extract silver from ore in the Orient and can also boost your smelters in other regions. -->
+      <Text>浮選濃縮物があれば東洋で鉱石から銀を取り出せるほか、他の地域の精錬所を強化することもできます。</Text>
     </Text>
     <Text>
-      <GUID>1404003207</GUID>
-      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
-      <Text>輸出ドック:ローズウォーター</Text>
-    </Text>
-    <Text>
-      <GUID>1404003208</GUID>
-      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
-      <Text>輸出ドック:儀式用サーベル</Text>
-    </Text>
-    <Text>
-      <GUID>1404003209</GUID>
-      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
-      <Text>輸出ドック:浮選濃縮物</Text>
-    </Text>
-    <Text>
-      <GUID>1404003210</GUID>
-      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
-      <Text>輸出ドック:パールネックレス</Text>
-    </Text>
-    <Text>
-      <GUID>1404003211</GUID>
-      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
-      <Text>輸出ドック:シャンデリア</Text>
-    </Text>
-    <Text>
-      <GUID>1404003300</GUID>
-      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
-      <Text>コーヒーハウスのメニュー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003301</GUID>
-      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
-      <Text>素朴なコーヒーだけでも長椅子は埋まるが、気の利いた主人はミルクやスパイス、デーツ、バラ、蜂蜜を使った技を心得ている。淹れ方ひとつで、街の雰囲気はがらりと変わる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003302</GUID>
-      <!-- Recipe | Black Coffee | Black Coffee -->
-      <Text>ブラックコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003303</GUID>
-      <!-- Recipe | Milk Coffee | Milk Coffee -->
-      <Text>ミルクコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003304</GUID>
-      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
-      <Text>カルダモンコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003305</GUID>
-      <!-- Recipe | Date Coffee | Date Coffee -->
-      <Text>デーツコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003306</GUID>
-      <!-- Recipe | Rose Coffee | Rose Coffee -->
-      <Text>ローズコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003307</GUID>
-      <!-- Recipe | Honey Coffee | Honey Coffee -->
-      <Text>ハニーコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003310</GUID>
-      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
-      <Text>焙煎し、粉のように細かく挽き、ジェズヴェで三度煮立てる――それだけ。純粋主義者はこれこそ本物のコーヒーだと誓うが、ほかの人々はただ「濃い」と言う。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003311</GUID>
-      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
-      <Text>温かいヤギのミルクでまろやかにした濃いブラックコーヒー。ジュースが恋しくなくなり、誰もが穏やかな気分になる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003312</GUID>
-      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
-      <Text>ダッラから小さな杯に注がれ、挽いたカルダモンが香る。ここでスパイスを味わう者は家での分を節約し、浮いたお金をバザールで使う。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003313</GUID>
-      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
-      <Text>苦いコーヒーに、甘いデーツを一皿添えて味の釣り合いを取る。コーヒーハウスでデーツをつまむ者は家ではあまり欲しがらず、喉の渇きも感じにくくなる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003314</GUID>
-      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
-      <Text>ほんの少しのローズウォーターと浮かべた花びらで、ありふれた一杯がささやかなお祝いに変わる。コーヒーハウスが庭園のように香るのに、家まで香らせる必要があるだろうか？浮いたお金は喜んで使われる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003315</GUID>
-      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
-      <Text>黄金色の蜂蜜で甘くし、ゆっくりかき混ぜ、さらにゆっくりと味わう。これほど甘いものが身近にあれば、誰もマジパンを欲しがらない。評判が広まり、界隈に移り住む人も増えていく。</Text>
-    </Text>
-    <Text>
-      <GUID>1404003320</GUID>
-      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
-      <Text>コーヒーハウス：ブラックコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003321</GUID>
-      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
-      <Text>コーヒーハウス：ミルクコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003322</GUID>
-      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
-      <Text>コーヒーハウス：カルダモンコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003323</GUID>
-      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
-      <Text>コーヒーハウス：デーツコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003324</GUID>
-      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
-      <Text>コーヒーハウス：ローズコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003325</GUID>
-      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
-      <Text>コーヒーハウス：ハニーコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003330</GUID>
-      <!-- TownhallBuff | Black Coffee | Black Coffee -->
-      <Text>ブラックコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003331</GUID>
-      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
-      <Text>ミルクコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003332</GUID>
-      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
-      <Text>カルダモンコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003333</GUID>
-      <!-- TownhallBuff | Date Coffee | Date Coffee -->
-      <Text>デーツコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003334</GUID>
-      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
-      <Text>ローズコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003335</GUID>
-      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
-      <Text>ハニーコーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404003600</GUID>
-      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
-      <Text>大道芸人の野営地</Text>
-    </Text>
-    <Text>
-      <GUID>1404003601</GUID>
-      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
-      <Text>火吹き芸人、軽業師、大道芸人は、どこにテントを張っても人だかりを作ります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004200</GUID>
-      <!-- OrnamentalBuilding | Oriental Place 2 | Oriental Place 2 -->
-      <Text>オリエンタル プレイス 2</Text>
-    </Text>
-    <Text>
-      <GUID>1404004201</GUID>
-      <!-- OrnamentalBuilding | Oriental Place 3 | Oriental Place 3 -->
-      <Text>オリエンタル プレイス 3</Text>
-    </Text>
-    <Text>
-      <GUID>1404004202</GUID>
-      <!-- OrnamentalBuilding | Oriental Place 4 | Oriental Place 4 -->
-      <Text>オリエンタル プレイス 4</Text>
-    </Text>
-    <Text>
-      <GUID>1404004204</GUID>
-      <!-- OrnamentalBuilding | Obelisk | Obelisk -->
-      <Text>オベリスク</Text>
-    </Text>
-    <Text>
-      <GUID>1404004203</GUID>
-      <!-- OrnamentalBuilding | Prayer Ground | Prayer Ground -->
-      <Text>礼拝場</Text>
-    </Text>
-    <Text>
-      <GUID>1404004206</GUID>
-      <!-- OrnamentalBuilding | Small Oriental Fountain | Small Oriental Fountain -->
-      <Text>オリエントの小さな噴水</Text>
-    </Text>
-    <Text>
-      <GUID>1404004205</GUID>
-      <!-- OrnamentalBuilding | Oriental Fence | Oriental Fence -->
-      <Text>オリエントの柵</Text>
-    </Text>
-    <Text>
-      <GUID>1404004208</GUID>
-      <!-- OrnamentalBuilding | Oriental City Gate | Oriental City Gate -->
-      <Text>オリエントの城門</Text>
-    </Text>
-    <Text>
-      <GUID>1404004207</GUID>
-      <!-- OrnamentalBuilding | Oriental City Wall | Oriental City Wall -->
-      <Text>オリエントの城壁</Text>
-    </Text>
-    <Text>
-      <GUID>1404004210</GUID>
-      <!-- OrnamentalBuilding | Oriental Watchtower | Oriental Watchtower -->
-      <Text>オリエントの見張り塔</Text>
-    </Text>
-    <Text>
-      <GUID>1404004211</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace | Sultan's Palace -->
-      <Text>スルタンの宮殿</Text>
-    </Text>
-    <Text>
-      <GUID>1404004212</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing | Sultan's Palace Wing -->
-      <Text>スルタンの宮殿の翼棟</Text>
-    </Text>
-    <Text>
-      <GUID>1404004213</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
-      <Text>スルタンの宮殿の翼棟 - 橋</Text>
-    </Text>
-    <Text>
-      <GUID>1404004214</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
-      <Text>スルタンの宮殿の翼棟 - 門</Text>
-    </Text>
-    <Text>
-      <GUID>1404004215</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
-      <Text>スルタンの宮殿の翼棟 - 交差</Text>
-    </Text>
-    <Text>
-      <GUID>1404004216</GUID>
-      <!-- ConstructionCategory | Sultan's Palace | Sultan's Palace -->
-      <Text>スルタンの宮殿</Text>
-    </Text>
-    <Text>
-      <GUID>1404004217</GUID>
-      <!-- OrnamentalBuilding | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
-      <Text>スルタンの宮殿の翼棟 - 角</Text>
-    </Text>
-    <Text>
-      <GUID>1404004218</GUID>
-      <!-- OrnamentalBuilding | Silo | Silo -->
-      <Text>サイロ</Text>
-    </Text>
-    <Text>
-      <GUID>1404004300</GUID>
-      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
-      <Text>特使の家：レベル 2</Text>
-    </Text>
-    <Text>
-      <GUID>1404004301</GUID>
-      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
-      <Text>特使の家：レベル 3</Text>
-    </Text>
-    <Text>
-      <GUID>1404004400</GUID>
-      <!-- OrnamentalBuildingRuin | Ornamental Grand Mosque | Ornamental Grand Mosque -->
-      <Text>グランド モスク（装飾）</Text>
-    </Text>
-    <Text>
-      <GUID>1404004800</GUID>
-      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
-      <Text>東洋の灯台: 基礎</Text>
-    </Text>
-    <Text>
-      <GUID>1404004801</GUID>
-      <!-- OrnamentalBuilding | Oriental Harbour Tower | Oriental Harbour Tower -->
-      <Text>東洋の港湾塔</Text>
-    </Text>
-    <Text>
-      <GUID>1404004850</GUID>
-      <!-- OrnamentalBuilding | Small Oriental Wall | Small Oriental Wall -->
-      <Text>オリエントの小さな石塀</Text>
-    </Text>
-    <Text>
-      <GUID>1404004851</GUID>
-      <!-- OrnamentalBuilding | Large Oriental Wall | Large Oriental Wall -->
-      <Text>オリエントの大きな石塀</Text>
-    </Text>
-    <Text>
-      <GUID>1404004852</GUID>
-      <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
-      <Text>オリエントの壁の接合部</Text>
-    </Text>
-    <Text>
-      <GUID>1404004890</GUID>
-      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
-      <Text>グランド モスクは複数の段階に分けて建設される。完成すれば、スルタン国の隅々から巡礼者が訪れるようになる。盛大な巡礼を催せば、信徒たちがスルタンの宮廷における影響力をもたらしてくれるだろう。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004900</GUID>
-      <!-- Fertility | Olive Fertility | Olive Fertility -->
-      <Text>オリーブの生産力</Text>
-    </Text>
-    <Text>
-      <GUID>1404004901</GUID>
-      <!-- Fertility | Chickpea Fertility | Chickpea Fertility -->
-      <Text>ひよこ豆の生産力</Text>
-    </Text>
-    <Text>
-      <GUID>1404004902</GUID>
-      <!-- Fertility | Aniseed Fertility | Aniseed Fertility -->
-      <Text>アニスの生産力</Text>
-    </Text>
-    <Text>
-      <GUID>1404004910</GUID>
-      <!-- GuildhouseItem | Olive Seeds | Olive Seeds -->
-      <Text>オリーブの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004911</GUID>
-      <!-- GuildhouseItem | Quality Olive Seeds | Quality Olive Seeds -->
-      <Text>高品質のオリーブの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004912</GUID>
-      <!-- GuildhouseItem | Hybrid Olive Seeds | Hybrid Olive Seeds -->
-      <Text>ハイブリッドオリーブの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004913</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Olives in alien soil. | These saplings can help you grow a few groves of Olives in alien soil. -->
-      <Text>これらの苗木は、異国の土壌でいくつかのオリーブの木立を育てるのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004914</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Olives in alien soil. | These saplings can help you grow plentiful groves of Olives in alien soil. -->
-      <Text>これらの苗木は、異国の土壌で豊かなオリーブの木立を育てるのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004915</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! -->
-      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、オリーブの収量も増加しています！</Text>
-    </Text>
-    <Text>
-      <GUID>1404004920</GUID>
-      <!-- GuildhouseItem | Chickpea Seeds | Chickpea Seeds -->
-      <Text>ひよこ豆の種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004921</GUID>
-      <!-- GuildhouseItem | Quality Chickpea Seeds | Quality Chickpea Seeds -->
-      <Text>高品質のひよこ豆の種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004922</GUID>
-      <!-- GuildhouseItem | Hybrid Chickpea Seeds | Hybrid Chickpea Seeds -->
-      <Text>ハイブリッドひよこ豆の種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004923</GUID>
-      <!-- Text | These seeds can help you grow a few fields of Chickpeas in alien soil. | These seeds can help you grow a few fields of Chickpeas in alien soil. -->
-      <Text>これらの種子は、異国の土壌でいくつかのひよこ豆畑を栽培するのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004924</GUID>
-      <!-- Text | These seeds can help you grow plentiful fields of Chickpeas in alien soil. | These seeds can help you grow plentiful fields of Chickpeas in alien soil. -->
-      <Text>これらの種子は、異国の土壌で豊かなひよこ豆畑を育てるのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004925</GUID>
-      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! -->
-      <Text>これらの種子は、非常に幅広い土壌で生育するように適応されており、ひよこ豆の収量が増加しています！</Text>
-    </Text>
-    <Text>
-      <GUID>1404004930</GUID>
-      <!-- GuildhouseItem | Aniseed Seeds | Aniseed Seeds -->
-      <Text>アニスの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004931</GUID>
-      <!-- GuildhouseItem | Quality Aniseed Seeds | Quality Aniseed Seeds -->
-      <Text>高品質のアニスの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004932</GUID>
-      <!-- GuildhouseItem | Hybrid Aniseed Seeds | Hybrid Aniseed Seeds -->
-      <Text>ハイブリッドアニスの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404004933</GUID>
-      <!-- Text | These seeds can help you grow a few fields of Aniseed in alien soil. | These seeds can help you grow a few fields of Aniseed in alien soil. -->
-      <Text>これらの種子は、異国の土壌でいくつかのアニス畑を栽培するのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004934</GUID>
-      <!-- Text | These seeds can help you grow plentiful fields of Aniseed in alien soil. | These seeds can help you grow plentiful fields of Aniseed in alien soil. -->
-      <Text>これらの種子は、異国の土壌で豊かなアニス畑を育てるのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404004935</GUID>
-      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! -->
-      <Text>これらの種子は、非常に幅広い土壌で生育するように適応されており、アニスの収量が増加しています！</Text>
-    </Text>
-    <Text>
-      <GUID>1404004209</GUID>
-      <!-- OrnamentalBuilding | Oriental Wall Tower | Oriental Wall Tower -->
-      <Text>オリエントの城壁塔</Text>
-    </Text>
-    <Text>
-      <GUID>1404005002</GUID>
-      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
-      <Text>鉱石ドラムは空なので、補充する必要があります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005003</GUID>
-      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
-      <Text>完成した浮遊選鉱濃縮液は準備ができており、ドラム缶は満杯です。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005004</GUID>
-      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>鉱石ドラムモジュール</Text>
-    </Text>
-    <Text>
-      <GUID>1404005005</GUID>
-      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
-      <Text>鉱石ドラム</Text>
-    </Text>
-    <Text>
-      <GUID>1404005006</GUID>
-      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
-      <Text>このモジュールは、浮遊選鉱プロセスを使用した鉱石ドラム内での特別な精製により、鉱石からの収量を 2 倍にします。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005012</GUID>
-      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
-      <Text>蜂の庭</Text>
-    </Text>
-    <Text>
-      <GUID>1404005013</GUID>
-      <!-- GuildhouseBuff | Honey Production | Honey Production -->
-      <Text>蜂蜜生産</Text>
-    </Text>
-    <Text>
-      <GUID>1404005014</GUID>
-      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
-      <Text>いくつかの巣箱が蜂蜜を生み出し、農園の効率を高めます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005015</GUID>
-      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
-      <Text>ナツメヤシから集められた蜂蜜は、非常に人気のある品です。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005017</GUID>
-      <!-- GuildhouseBuff | Pollination | Pollination -->
-      <Text>受粉</Text>
-    </Text>
-    <Text>
-      <GUID>1404005018</GUID>
-      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
-      <Text>東洋のすべての農園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005019</GUID>
-      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
-      <Text>ミツバチの受粉の助けにより、私たちの農園はさらに効率的になります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005020</GUID>
-      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
-      <Text>茶醸造所</Text>
-    </Text>
-    <Text>
-      <GUID>1404005023</GUID>
-      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
-      <Text>ロクム菓子店</Text>
-    </Text>
-    <Text>
-      <GUID>1404005025</GUID>
-      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
-      <Text>ピスタチオ農園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005026</GUID>
-      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
-      <Text>ピスタチオ果樹園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005027</GUID>
-      <!-- Multifactory | Roastery: Pistachios | Roastery: Pistachios -->
-      <Text>焙煎所: ピスタチオ</Text>
-    </Text>
-    <Text>
-      <GUID>1404005028</GUID>
-      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
-      <Text>ピスタチオの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404005029</GUID>
-      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
-      <Text>高品質のピスタチオの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404005030</GUID>
-      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
-      <Text>ハイブリッドピスタチオの種</Text>
-    </Text>
-    <Text>
-      <GUID>1404005031</GUID>
-      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
-      <Text>ピスタチオの生産力</Text>
-    </Text>
-    <Text>
-      <GUID>1404005032</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
-      <Text>これらの苗木は、異国の土壌でいくつかのピスタチオの木立を育てるのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005033</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
-      <Text>これらの苗木は、異国の土壌で豊かなピスタチオの木立を育てるのに役立ちます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005034</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
-      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、ピスタチオの収量も増加しています！</Text>
-    </Text>
-    <Text>
-      <GUID>1404005035</GUID>
-      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
-      <Text>果物工房</Text>
-    </Text>
-    <Text>
-      <GUID>1404005038</GUID>
-      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
-      <Text>Wadi Al Zahirでのみ建設可能</Text>
-    </Text>
-    <Text>
-      <GUID>1404005039</GUID>
-      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
-      <Text>硫酸</Text>
-    </Text>
-    <Text>
-      <GUID>1404005040</GUID>
-      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
-      <Text>素手で触らない方がよいだろう。緑礬油とも呼ばれる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005041</GUID>
-      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
-      <Text>象狩りの小屋</Text>
-    </Text>
-    <Text>
-      <GUID>1404005043</GUID>
-      <!-- Text | Module | Module -->
-      <Text>モジュール</Text>
-    </Text>
-    <Text>
-      <GUID>1404005044</GUID>
-      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
-      <Text>香工房</Text>
-    </Text>
-    <Text>
-      <GUID>1404005045</GUID>
-      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
-      <Text>ヤシの葉摘み</Text>
-    </Text>
-    <Text>
-      <GUID>1404005048</GUID>
-      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
-      <Text>葉摘み</Text>
-    </Text>
-    <Text>
-      <GUID>1404005049</GUID>
-      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
-      <Text>摘み手たちが香り高いヤシの葉を収穫しますが、そのぶん生産が少し遅くなります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005052</GUID>
-      <!-- FreeAreaBuilding | Agarwood Plantation | Agarwood Plantation -->
-      <Text>沈香農園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005053</GUID>
-      <!-- Multifactory | Mycological Laboratory: P. parasiticum | Mycological Laboratory: P. parasiticum -->
-      <Text>菌類研究所：P. parasiticum</Text>
-    </Text>
-    <Text>
-      <GUID>1404005054</GUID>
-      <!-- Product | P. parasiticum | P. parasiticum -->
-      <Text>P. parasiticum</Text>
-    </Text>
-    <Text>
-      <GUID>1404005055</GUID>
-      <!-- FactoryBuilding7 | Infestation Cellar | Infestation Cellar -->
-      <Text>感染貯蔵庫</Text>
-    </Text>
-    <Text>
-      <GUID>1404005057</GUID>
-      <!-- FactoryBuilding7 | Oudh Distillery | Oudh Distillery -->
-      <Text>ウード蒸留所</Text>
-    </Text>
-    <Text>
-      <GUID>1404005058</GUID>
-      <!-- Product | Oudh | Oudh -->
-      <Text>ウード</Text>
-    </Text>
-    <Text>
-      <GUID>1404005059</GUID>
-      <!-- Product | Oudh Perfume | Oudh Perfume -->
-      <Text>ウード香水</Text>
-    </Text>
-    <Text>
-      <GUID>1404005063</GUID>
-      <!-- Text | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. -->
-      <Text>沈香の木が菌の感染に反応して生み出す、非常に貴重で香り高い樹脂。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005064</GUID>
-      <!-- Text | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. -->
-      <Text>「液体の黄金」と呼ばれるウード香水は、世界で最も高価で気品ある香水であり、大富豪たちが熱望しています。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005065</GUID>
-      <!-- Text | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. -->
-      <Text>Phaeoacremonium parasiticum――沈香の木に特別な樹脂を生成させる特殊なカビ。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005066</GUID>
-      <!-- Multifactory | Mycological Laboratory: Noble Mushrooms | Mycological Laboratory: Noble Mushrooms -->
-      <Text>菌類研究所：高貴なキノコ</Text>
-    </Text>
-    <Text>
-      <GUID>1404005067</GUID>
-      <!-- RecipeList | Mycological Laboratory Patent List | Mycological Laboratory Patent List -->
-      <Text>菌類研究所の特許リスト</Text>
-    </Text>
-    <Text>
-      <GUID>1404005070</GUID>
-      <!-- Text | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. -->
-      <Text>キノコ栽培の大きな進歩により、人気の高貴なキノコを工業的に生産できるようになり、高価な輸入は不要になりました。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005071</GUID>
-      <!-- Text | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. -->
-      <Text>ウードの製造に必要なカビ、Phaeoacremonium parasiticumは、適切な生育条件を整えるために研究所で培養しなければなりません。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005075</GUID>
-      <!-- Text | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. -->
-      <Text>画期的な培養と制御不能な胞子の侵略を隔てる境界は、きわめて薄いものです。それでも菌類学における革命であることに変わりはなく、森の変わり者の魔女にもようやく仕事ができました。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005076</GUID>
-      <!-- FarmBuilding | Olive Plantation | Olive Plantation -->
-      <Text>オリーブ農園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005077</GUID>
-      <!-- Farmfield | Olive Grove | Olive Grove -->
-      <Text>オリーブ畑</Text>
-    </Text>
-    <Text>
-      <GUID>1404005082</GUID>
-      <!-- FarmBuilding | Chickpea Farm | Chickpea Farm -->
-      <Text>ひよこ豆農園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005083</GUID>
-      <!-- Farmfield | Chickpea Field | Chickpea Field -->
-      <Text>ひよこ豆畑</Text>
-    </Text>
-    <Text>
-      <GUID>1404005084</GUID>
-      <!-- FactoryBuilding7 | Hummus Kitchen | Hummus Kitchen -->
-      <Text>フムス厨房</Text>
-    </Text>
-    <Text>
-      <GUID>1404005086</GUID>
-      <!-- FactoryBuilding7 | Cold Press | Cold Press -->
-      <Text>コールドプレス工房</Text>
-    </Text>
-    <Text>
-      <GUID>1404005090</GUID>
-      <!-- FarmBuilding | Aniseed Farm | Aniseed Farm -->
-      <Text>アニス農園</Text>
-    </Text>
-    <Text>
-      <GUID>1404005091</GUID>
-      <!-- Farmfield | Aniseed Field | Aniseed Field -->
-      <Text>アニス畑</Text>
-    </Text>
-    <Text>
-      <GUID>1404005095</GUID>
-      <!-- Product | Moldy Bread | Mouldy Bread -->
-      <Text>カビたパン</Text>
-    </Text>
-    <Text>
-      <GUID>1404005096</GUID>
-      <!-- GuildhouseBuff | Immature Production | Immature Production -->
-      <Text>未成熟な生産</Text>
-    </Text>
-    <Text>
-      <GUID>1404005097</GUID>
-      <!-- Text | Good for nothing but compost, at best. | Good for nothing but compost, at best. -->
-      <Text>せいぜい堆肥にしか使えません。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005099</GUID>
-      <!-- Text | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. -->
-      <Text>生産はまだ始まったばかりのため、……望ましくない副産物が生じます。とはいえ、時には役に立つものもできあがります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005100</GUID>
-      <!-- Multifactory | Roastery: Chickpeas | Roastery: Chickpeas -->
-      <Text>焙煎所: ひよこ豆</Text>
-    </Text>
-    <Text>
-      <GUID>1404005101</GUID>
-      <!-- RecipeList | Roastery Recipes | Roastery Recipes -->
-      <Text>焙煎所のレシピ</Text>
-    </Text>
-    <Text>
-      <GUID>1404005106</GUID>
-      <!-- Text | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. -->
-      <Text>さまざまなものを焼ける熱いグリル。焼けば何でもおいしくなります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005107</GUID>
-      <!-- Text | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. -->
-      <Text>スパイスをまぶしたてのこのひよこ豆は、何世紀にもわたる伝統の賜物であり、労働者階級の軽食です。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005108</GUID>
-      <!-- Text | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. -->
-      <Text>熱々の塩味のピスタチオは誰にとってもごちそうです。焼きたてならなおさらです。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005112</GUID>
-      <!-- FactoryBuildingWithModules | Copper Smelter | Copper Smelter -->
-      <Text>銅製錬所</Text>
-    </Text>
-    <Text>
-      <GUID>1404005113</GUID>
-      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
-      <Text>オリエンタル鍛冶場：アランビック</Text>
-    </Text>
-    <Text>
-      <GUID>1404005115</GUID>
-      <!-- Product | alembics | Alembics -->
-      <Text>アランビック</Text>
-    </Text>
-    <Text>
-      <GUID>1404005116</GUID>
-      <!-- Text | Alembics are oriental stills used for brewing all kinds of drinks and liquids. | Alembics are oriental stills used for brewing all kinds of drinks and liquids. -->
-      <Text>アランビックは、さまざまな飲み物や液体の醸造に使われる東洋の釜です。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005118</GUID>
-      <!-- Text | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. -->
-      <Text>アランビックは東洋の醸造の定番です。さまざまな液体や飲み物を醸造できます。素材の銅のおかげで、熱が理想的に、できるだけ均一に行き渡ります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005120</GUID>
-      <!-- Product | arak | Arak -->
-      <Text>アラック</Text>
-    </Text>
-    <Text>
-      <GUID>1404005121</GUID>
-      <!-- FactoryBuilding7 | Arak Distillery | Arak Distillery -->
-      <Text>アラック蒸留所</Text>
-    </Text>
-    <Text>
-      <GUID>1404005123</GUID>
-      <!-- Text | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. -->
-      <Text>ブドウとアニスから造る強いお酒。魂を内側から温めます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005124</GUID>
-      <!-- Multifactory | Roastery: Coffee | Roastery: Coffee -->
-      <Text>焙煎所: コーヒー</Text>
-    </Text>
-    <Text>
-      <GUID>1404005125</GUID>
-      <!-- Product | Roasted Coffee | Roasted Coffee Beans -->
-      <Text>焙煎コーヒー豆</Text>
-    </Text>
-    <Text>
-      <GUID>1404005126</GUID>
-      <!-- Text | Simple roasted coffee. | Simple roasted coffee. -->
-      <Text>シンプルな焙煎コーヒー。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005129</GUID>
-      <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
-      <Text>高温で焙煎しただけのシンプルなコーヒー。特別なものではありませんが、東洋の名物ではあります。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005130</GUID>
-      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
-      <Text>オリエンタルワークショップ：アストロラーベ</Text>
-    </Text>
-    <Text>
-      <GUID>1404005131</GUID>
-      <!-- Product | astrolabes | Astrolabes -->
-      <Text>アストロラーベ</Text>
-    </Text>
-    <Text>
-      <GUID>1404005133</GUID>
-      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
-      <Text>星の観測に使われる、精密な東洋の測定器です。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005135</GUID>
-      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
-      <Text>アストロラーベは東洋の職人技の傑作です。星の動きを追い、時刻を正確に測り、昼間でも天体の位置を正確に割り出すことができます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007000</GUID>
-      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
-      <Text>東洋の灯台: 塔</Text>
-    </Text>
-    <Text>
-      <GUID>1404007001</GUID>
-      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
-      <Text>東洋の灯台: 灯室</Text>
-    </Text>
-    <Text>
-      <GUID>1404007002</GUID>
-      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
-      <Text>東洋の灯台</Text>
-    </Text>
-    <Text>
-      <GUID>1404007003</GUID>
-      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
-      <Text>灯台（装飾）</Text>
-    </Text>
-    <Text>
-      <GUID>1404007010</GUID>
-      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
-      <Text>砂丘が海と出会う場所で、石工たちが日干しレンガとヤシ材で広い基礎を築いていく。いつの日か、ここに灯る火がすべての帆を無事に故郷へと導くだろう。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007011</GUID>
-      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
-      <Text>一段、また一段と塔は港の上へと伸び、朝日を受けて輝くモザイクで飾られていく。回廊からは、見張りたちがすでに水平線の帆を数えられる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007012</GUID>
-      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
-      <Text>ガラス職人が灯室に窓ガラスをはめ込み、大きなシャンデリアが頂上へと吊り上げられる。まもなく、その光は遠く海の彼方まで届くだろう。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007013</GUID>
-      <!-- Text | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. -->
-      <Text>灯台に灯火を1つセットできます。灯火はそれぞれ、すべての地域にある特定の種類のすべての船を強化します。マダム・カヒナが東洋で時々灯火を販売しています。灯台は1つの島に1つしか建設できません。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007200</GUID>
-      <!-- Text | Beacon of the Harbour | Beacon of the Harbour -->
-      <Text>港の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007201</GUID>
-      <!-- Text | Thrifty Beacon of the Shipwrights | Thrifty Beacon of the Shipwrights -->
-      <Text>倹約なる船大工の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007202</GUID>
-      <!-- Text | Steadfast Beacon of the Fleet | Steadfast Beacon of the Fleet -->
-      <Text>不動なる艦隊の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007203</GUID>
-      <!-- Text | Eternal Beacon of the Seven Seas | Eternal Beacon of the Seven Seas -->
-      <Text>永遠なる七つの海の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007204</GUID>
-      <!-- Text | Beacon of the Dhows | Beacon of the Dhows -->
-      <Text>ダウ船の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007205</GUID>
-      <!-- Text | Swift Beacon of the Trade Winds | Swift Beacon of the Trade Winds -->
-      <Text>疾き貿易風の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007206</GUID>
-      <!-- Text | Vigilant Beacon of the Frigates | Vigilant Beacon of the Frigates -->
-      <Text>油断なきフリゲートの灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007207</GUID>
-      <!-- Text | Radiant Beacon of the Monsoon | Radiant Beacon of the Monsoon -->
-      <Text>輝けるモンスーンの灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007208</GUID>
-      <!-- Text | Beacon of the Stokers | Beacon of the Stokers -->
-      <Text>火夫の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007209</GUID>
-      <!-- Text | Tireless Beacon of the Boilers | Tireless Beacon of the Boilers -->
-      <Text>不屈なるボイラーの灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007210</GUID>
-      <!-- Text | Relentless Beacon of the Steamers | Relentless Beacon of the Steamers -->
-      <Text>止まらぬ蒸気船の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007211</GUID>
-      <!-- Text | Golden Beacon of the Merchants | Golden Beacon of the Merchants -->
-      <Text>黄金の商人の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007212</GUID>
-      <!-- Text | Beacon of the Gunners | Beacon of the Gunners -->
-      <Text>砲手の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007213</GUID>
-      <!-- Text | Fierce Beacon of the Broadside | Fierce Beacon of the Broadside -->
-      <Text>猛き舷側砲の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007214</GUID>
-      <!-- Text | Thundering Beacon of the Admiralty | Thundering Beacon of the Admiralty -->
-      <Text>轟く海軍本部の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007215</GUID>
-      <!-- Text | Unbreakable Beacon of the Navy | Unbreakable Beacon of the Navy -->
-      <Text>不壊なる海軍の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007216</GUID>
-      <!-- Text | Beacon of the Skies | Beacon of the Skies -->
-      <Text>大空の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007217</GUID>
-      <!-- Text | Buoyant Beacon of the Clouds | Buoyant Beacon of the Clouds -->
-      <Text>浮かぶ雲の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007218</GUID>
-      <!-- Text | Steady Beacon of the Airmen | Steady Beacon of the Airmen -->
-      <Text>揺るがぬ飛行士の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007219</GUID>
-      <!-- Text | Soaring Beacon of the Djinn | Soaring Beacon of the Djinn -->
-      <Text>舞い上がるジンの灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007220</GUID>
-      <!-- Text | Beacon of the Pearl Divers | Beacon of the Pearl Divers -->
-      <Text>真珠採りの灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007221</GUID>
-      <!-- Text | Glimmering Beacon of the Deep | Glimmering Beacon of the Deep -->
-      <Text>煌めく深淵の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007222</GUID>
-      <!-- Text | Mysterious Beacon of the Sunken Hoards | Mysterious Beacon of the Sunken Hoards -->
-      <Text>謎めいた沈没財宝の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007223</GUID>
-      <!-- Text | Fabled Beacon of the Drowned Kingdom | Fabled Beacon of the Drowned Kingdom -->
-      <Text>伝説の沈んだ王国の灯火</Text>
-    </Text>
-    <Text>
-      <GUID>1404007230</GUID>
-      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
-      <Text>港長なら誰でも知っている。光を見た船は無事に帰ってくるのだ。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007231</GUID>
-      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
-      <Text>船大工のギルドが灯し続けている。明日船体を直すより、今日板を一枚直す方がいいからだ。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007232</GUID>
-      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
-      <Text>その炎は一度も揺らいだことがない。それに従う船もまた揺るがない。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007233</GUID>
-      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
-      <Text>伝説によれば、その光は世界中のあらゆる海岸から同時に見えるという。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007234</GUID>
-      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
-      <Text>古いダウ船の船長たちは誓う。光に従えば、風もお前に従うと。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007235</GUID>
-      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
-      <Text>貿易風が変わるときに灯され、どの商人もひと吹きの風も逃さない。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007236</GUID>
-      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
-      <Text>その回廊から見張りたちは、最初の砲撃のずっと前に敵の帆を見つける。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007237</GUID>
-      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
-      <Text>モンスーンが訪れると、その青い炎がここから香辛料海岸までのすべての帆を満たす。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007238</GUID>
-      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
-      <Text>岸壁の火夫たちのための灯り。石炭を早く積めば、それだけ早く船は出航する。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007239</GUID>
-      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
-      <Text>見守るボイラーと同じ石炭で燃え、少しも無駄にしない。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007240</GUID>
-      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
-      <Text>何が船体に当たろうとも、外輪は回り続ける。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007241</GUID>
-      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
-      <Text>その金色の光が輝く所では、バザールが門と財布を開く。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007242</GUID>
-      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
-      <Text>砲手のための赤い光。正確に狙い、素早く撃て。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007243</GUID>
-      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
-      <Text>その赤い光の下で放たれた舷側砲撃からは、帆も煙突も逃れられない。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007244</GUID>
-      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
-      <Text>スルタンの艦隊の提督たちは、その眩い光で命令書を読む。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007245</GUID>
-      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
-      <Text>いかなる嵐にも屈せず、いかなる大砲にも砕けない艦隊のために鍛えられた。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007246</GUID>
-      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
-      <Text>ミナレットの遥か上に輝く緑の光が、飛行船を故郷へと導く。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007247</GUID>
-      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
-      <Text>その温かな輝きは、真昼の砂漠の空気のように飛行船を持ち上げる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007248</GUID>
-      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
-      <Text>飛行士たちはどんな羅針盤よりもこれを信じる。緑に輝く限り、エンジンは持ちこたえる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007249</GUID>
-      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
-      <Text>レンズにはジンが住み、すべての飛行船をその翼に乗せて運ぶという。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007250</GUID>
-      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
-      <Text>湾の真珠採りたちは、潜る前に必ず幸運を願ってこれを灯す。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007251</GUID>
-      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
-      <Text>その紫の輝きは、砂が貝殻以上のものを隠す深みまで届く。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007252</GUID>
-      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
-      <Text>誰が最初に灯したのかは誰も知らない。ただ、それが照らす難破船は決して空ではない。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007253</GUID>
-      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
-      <Text>海に丸ごと呑まれた王国の最後の番人が灯したと言われている。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007260</GUID>
-      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>港長なら誰でも知っている。光を見た船は無事に帰ってくるのだ。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007261</GUID>
-      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>船大工のギルドが灯し続けている。明日船体を直すより、今日板を一枚直す方がいいからだ。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007262</GUID>
-      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>その炎は一度も揺らいだことがない。それに従う船もまた揺るがない。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007263</GUID>
-      <!-- Text | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
-      <Text>伝説によれば、その光は世界中のあらゆる海岸から同時に見えるという。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007264</GUID>
-      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>古いダウ船の船長たちは誓う。光に従えば、風もお前に従うと。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての帆船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007265</GUID>
-      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>貿易風が変わるときに灯され、どの商人もひと吹きの風も逃さない。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての帆船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007266</GUID>
-      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>その回廊から見張りたちは、最初の砲撃のずっと前に敵の帆を見つける。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての帆船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007267</GUID>
-      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
-      <Text>モンスーンが訪れると、その青い炎がここから香辛料海岸までのすべての帆を満たす。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての帆船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007268</GUID>
-      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>岸壁の火夫たちのための灯り。石炭を早く積めば、それだけ早く船は出航する。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての蒸気船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007269</GUID>
-      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>見守るボイラーと同じ石炭で燃え、少しも無駄にしない。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての蒸気船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007270</GUID>
-      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>何が船体に当たろうとも、外輪は回り続ける。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての蒸気船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007271</GUID>
-      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
-      <Text>その金色の光が輝く所では、バザールが門と財布を開く。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての蒸気船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007272</GUID>
-      <!-- Text | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>砲手のための赤い光。正確に狙い、素早く撃て。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての軍艦がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007273</GUID>
-      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>その赤い光の下で放たれた舷側砲撃からは、帆も煙突も逃れられない。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての軍艦がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007274</GUID>
-      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>スルタンの艦隊の提督たちは、その眩い光で命令書を読む。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての軍艦がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007275</GUID>
-      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
-      <Text>いかなる嵐にも屈せず、いかなる大砲にも砕けない艦隊のために鍛えられた。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての軍艦がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007276</GUID>
-      <!-- Text | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>ミナレットの遥か上に輝く緑の光が、飛行船を故郷へと導く。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての飛行船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007277</GUID>
-      <!-- Text | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>その温かな輝きは、真昼の砂漠の空気のように飛行船を持ち上げる。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての飛行船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007278</GUID>
-      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>飛行士たちはどんな羅針盤よりもこれを信じる。緑に輝く限り、エンジンは持ちこたえる。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての飛行船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007279</GUID>
-      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
-      <Text>レンズにはジンが住み、すべての飛行船をその翼に乗せて運ぶという。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべての飛行船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007280</GUID>
-      <!-- Text | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>湾の真珠採りたちは、潜る前に必ず幸運を願ってこれを灯す。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべてのサルベージ船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007281</GUID>
-      <!-- Text | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>その紫の輝きは、砂が貝殻以上のものを隠す深みまで届く。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべてのサルベージ船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007282</GUID>
-      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>誰が最初に灯したのかは誰も知らない。ただ、それが照らす難破船は決して空ではない。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべてのサルベージ船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007283</GUID>
-      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
-      <Text>海に丸ごと呑まれた王国の最後の番人が灯したと言われている。&lt;br/&gt;東洋の灯台にセットすると、すべての地域にあるあなたのすべてのサルベージ船がこの効果を得ます。</Text>
-    </Text>
-    <Text>
-      <GUID>1404007041</GUID>
-      <!-- Text | Lighthouse | Lighthouse -->
-      <Text>灯台</Text>
-    </Text>
-    <Text>
-      <GUID>1404008000</GUID>
-      <!-- Multifactory | Oriental Smith | Oriental Smith -->
-      <Text>オリエンタル鍛冶場</Text>
-    </Text>
-    <Text>
-      <GUID>1404008001</GUID>
-      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
-      <Text>東洋の鍛冶場の特許リスト</Text>
+      <GUID>1404001239</GUID>
+      <!-- Text | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. | The Oriental Lighthouse has an item socket for beacons. Each beacon boosts all of your ships of a certain type across all regions. -->
+      <Text>東洋の灯台には灯火用のアイテムスロットがあります。灯火はそれぞれ、全地域にある特定の種類の船すべてを強化します。</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>
@@ -5543,7 +4324,7 @@
     <Text>
       <GUID>1404001435</GUID>
       <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
-      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+      <Text>地域内で以下を維持する: &lt;br/&gt;[Conditions QuestCondition TimeLimit &gt;&gt; time]の間、[AssetData([Conditions QuestCondition Context]) Text]の供給を[Conditions QuestCondition Amount]%未満</Text>
     </Text>
     <Text>
       <GUID>1404001436</GUID>
@@ -5813,7 +4594,7 @@
     <Text>
       <GUID>1404001493</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]が下船させる用意はできたか聞いている。</Text>
     </Text>
     <Text>
       <GUID>1404001494</GUID>
@@ -6318,17 +5099,17 @@
     <Text>
       <GUID>1404001602</GUID>
       <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
-      <Text>Pick up the gift offered by your resident</Text>
+      <Text>住民から渡されたギフトを入手する</Text>
     </Text>
     <Text>
       <GUID>1404001603</GUID>
-      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
-      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+      <!-- Text | RQ_Farmers_DigField_HintText | My climbing harness is finished! Take one from the box beside me, and even the highest dates will be within your reach. -->
+      <Text>木登り用のハーネスが完成した！ 隣の箱から一つ持っていってくれ。一番高いところのデーツにも手が届くぞ。</Text>
     </Text>
     <Text>
       <GUID>1404001604</GUID>
       <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
-      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+      <Text>クエスト依頼者の隣にある箱をクリックして、贈り物を回収しよう。</Text>
     </Text>
     <Text>
       <GUID>1404001605</GUID>
@@ -6427,8 +5208,8 @@
     </Text>
     <Text>
       <GUID>1404001624</GUID>
-      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
-      <Text>どうか、動物園で私たちの写真を撮ってください！ 病に侵された愛するティモシーと写真を撮れるのは、これが最後かもしれないのです。</Text>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Lions, parrots and elephants, all in one garden? Bring me a picture of this marvel, so that I may believe it! -->
+      <Text>ライオンにオウムにゾウ、それがみんな一つの庭に？ その驚異の写真を持ってきてくれ。そうすれば信じられる！</Text>
     </Text>
     <Text>
       <GUID>1404001625</GUID>
@@ -6483,7 +5264,7 @@
     <Text>
       <GUID>1404001635</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]が積荷を受け取る用意ができたか聞いている。</Text>
     </Text>
     <Text>
       <GUID>1404001636</GUID>
@@ -6493,12 +5274,12 @@
     <Text>
       <GUID>1404001637</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
-      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+      <Text>依頼された場所まで船を向かわせよう。場所はゲーム世界の「クエスト」をクリックすることで見つかる。</Text>
     </Text>
     <Text>
       <GUID>1404001638</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
-      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+      <Text>巡回部隊の視界に入らないようにしよう。入ってしまうと攻撃を受ける。使用する船が小型かつ高速であればあるほど、成功の確率は高まる。</Text>
     </Text>
     <Text>
       <GUID>1404001639</GUID>
@@ -6508,7 +5289,7 @@
     <Text>
       <GUID>1404001640</GUID>
       <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]が密輸クエストを頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001641</GUID>
@@ -6616,6 +5397,11 @@
       <Text>すばらしい！ラクダ牧場でのあの子らの顔を見たかね？一人などは、ラクダは工房で作るのかと聞いてきた。先は長いぞ。</Text>
     </Text>
     <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>モスク</Text>
+    </Text>
+    <Text>
       <GUID>1404001664</GUID>
       <!-- LandSpy | RQ_Envoy_Select_RuinAReputation_TariqBey | Envoy Tariq Bey -->
       <Text>使者タリク・ベイ</Text>
@@ -6664,6 +5450,1971 @@
       <GUID>1404001676</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A desert poem by a young Nomad, lamenting the wells that run dry as the city grows. -->
       <Text>町が大きくなるにつれ枯れていく井戸を嘆く、若い遊牧民の砂漠の詩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003206</GUID>
+      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
+      <Text>輸出ドック:モザイク</Text>
+    </Text>
+    <Text>
+      <GUID>1404003207</GUID>
+      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
+      <Text>輸出ドック:ローズウォーター</Text>
+    </Text>
+    <Text>
+      <GUID>1404003208</GUID>
+      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
+      <Text>輸出ドック:儀式用サーベル</Text>
+    </Text>
+    <Text>
+      <GUID>1404003209</GUID>
+      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
+      <Text>輸出ドック:浮選濃縮物</Text>
+    </Text>
+    <Text>
+      <GUID>1404003210</GUID>
+      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
+      <Text>輸出ドック:パールネックレス</Text>
+    </Text>
+    <Text>
+      <GUID>1404003211</GUID>
+      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
+      <Text>輸出ドック:シャンデリア</Text>
+    </Text>
+    <Text>
+      <GUID>1404003215</GUID>
+      <!--  | Export Dock: Mouldy Bread | Export Dock: Mouldy Bread -->
+      <Text>輸出ドック:カビたパン</Text>
+    </Text>
+    <Text>
+      <GUID>1404003300</GUID>
+      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
+      <Text>コーヒーハウスのメニュー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003301</GUID>
+      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
+      <Text>素朴なコーヒーだけでも長椅子は埋まるが、気の利いた主人はミルクやスパイス、デーツ、バラ、蜂蜜を使った技を心得ている。淹れ方ひとつで、街の雰囲気はがらりと変わる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003302</GUID>
+      <!-- Recipe | Black Coffee | Black Coffee -->
+      <Text>ブラックコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003303</GUID>
+      <!-- Recipe | Milk Coffee | Milk Coffee -->
+      <Text>ミルクコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003304</GUID>
+      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
+      <Text>カルダモンコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003305</GUID>
+      <!-- Recipe | Date Coffee | Date Coffee -->
+      <Text>デーツコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003306</GUID>
+      <!-- Recipe | Rose Coffee | Rose Coffee -->
+      <Text>ローズコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003307</GUID>
+      <!-- Recipe | Honey Coffee | Honey Coffee -->
+      <Text>ハニーコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003310</GUID>
+      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
+      <Text>焙煎し、粉のように細かく挽き、ジェズヴェで三度煮立てる――それだけ。純粋主義者はこれこそ本物のコーヒーだと誓うが、ほかの人々はただ「濃い」と言う。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003311</GUID>
+      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
+      <Text>温かいヤギのミルクでまろやかにした濃いブラックコーヒー。ジュースが恋しくなくなり、誰もが穏やかな気分になる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003312</GUID>
+      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
+      <Text>ダッラから小さな杯に注がれ、挽いたカルダモンが香る。ここでスパイスを味わう者は家での分を節約し、浮いたお金をバザールで使う。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003313</GUID>
+      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
+      <Text>苦いコーヒーに、甘いデーツを一皿添えて味の釣り合いを取る。コーヒーハウスでデーツをつまむ者は家ではあまり欲しがらず、喉の渇きも感じにくくなる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003314</GUID>
+      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
+      <Text>ほんの少しのローズウォーターと浮かべた花びらで、ありふれた一杯がささやかなお祝いに変わる。コーヒーハウスが庭園のように香るのに、家まで香らせる必要があるだろうか？浮いたお金は喜んで使われる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003315</GUID>
+      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
+      <Text>黄金色の蜂蜜で甘くし、ゆっくりかき混ぜ、さらにゆっくりと味わう。これほど甘いものが身近にあれば、誰もマジパンを欲しがらない。評判が広まり、界隈に移り住む人も増えていく。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003320</GUID>
+      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
+      <Text>コーヒーハウス：ブラックコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003321</GUID>
+      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
+      <Text>コーヒーハウス：ミルクコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003322</GUID>
+      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
+      <Text>コーヒーハウス：カルダモンコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003323</GUID>
+      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
+      <Text>コーヒーハウス：デーツコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003324</GUID>
+      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
+      <Text>コーヒーハウス：ローズコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003325</GUID>
+      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
+      <Text>コーヒーハウス：ハニーコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003330</GUID>
+      <!-- TownhallBuff | Black Coffee | Black Coffee -->
+      <Text>ブラックコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003331</GUID>
+      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
+      <Text>ミルクコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003332</GUID>
+      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
+      <Text>カルダモンコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003333</GUID>
+      <!-- TownhallBuff | Date Coffee | Date Coffee -->
+      <Text>デーツコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003334</GUID>
+      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
+      <Text>ローズコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003335</GUID>
+      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
+      <Text>ハニーコーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404003600</GUID>
+      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
+      <Text>大道芸人の野営地</Text>
+    </Text>
+    <Text>
+      <GUID>1404003601</GUID>
+      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
+      <Text>火吹き芸人、軽業師、大道芸人は、どこにテントを張っても人だかりを作ります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004200</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 2 | Oriental Place 2 -->
+      <Text>オリエンタル プレイス 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004201</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 3 | Oriental Place 3 -->
+      <Text>オリエンタル プレイス 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004202</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 4 | Oriental Place 4 -->
+      <Text>オリエンタル プレイス 4</Text>
+    </Text>
+    <Text>
+      <GUID>1404004203</GUID>
+      <!-- OrnamentalBuilding | Prayer Ground | Prayer Ground -->
+      <Text>礼拝場</Text>
+    </Text>
+    <Text>
+      <GUID>1404004205</GUID>
+      <!-- OrnamentalBuilding | Oriental Fence | Oriental Fence -->
+      <Text>オリエントの柵</Text>
+    </Text>
+    <Text>
+      <GUID>1404004204</GUID>
+      <!-- OrnamentalBuilding | Obelisk | Obelisk -->
+      <Text>オベリスク</Text>
+    </Text>
+    <Text>
+      <GUID>1404004207</GUID>
+      <!-- OrnamentalBuilding | Oriental City Wall | Oriental City Wall -->
+      <Text>オリエントの城壁</Text>
+    </Text>
+    <Text>
+      <GUID>1404004206</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Fountain | Small Oriental Fountain -->
+      <Text>オリエントの小さな噴水</Text>
+    </Text>
+    <Text>
+      <GUID>1404004209</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Tower | Oriental Wall Tower -->
+      <Text>オリエントの城壁塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404004208</GUID>
+      <!-- OrnamentalBuilding | Oriental City Gate | Oriental City Gate -->
+      <Text>オリエントの城門</Text>
+    </Text>
+    <Text>
+      <GUID>1404004210</GUID>
+      <!-- OrnamentalBuilding | Oriental Watchtower | Oriental Watchtower -->
+      <Text>オリエントの見張り塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404004211</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace | Sultan's Palace -->
+      <Text>スルタンの宮殿</Text>
+    </Text>
+    <Text>
+      <GUID>1404004212</GUID>
+      <!-- ResidenceBuilding7_Colony | Palace Envoy Quarters | Palace Envoy Quarters -->
+      <Text>宮殿の使者の住居</Text>
+    </Text>
+    <Text>
+      <GUID>1404004241</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <Text>スルタンの宮殿の翼棟</Text>
+    </Text>
+    <Text>
+      <GUID>1404004242</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <Text>スルタンの宮殿の翼棟 - 橋</Text>
+    </Text>
+    <Text>
+      <GUID>1404004214</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
+      <Text>スルタンの宮殿の翼棟 - 門</Text>
+    </Text>
+    <Text>
+      <GUID>1404004244</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>スルタンの宮殿の翼棟 - 交差</Text>
+    </Text>
+    <Text>
+      <GUID>1404004215</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>スルタンの宮殿の翼棟 - 交差</Text>
+    </Text>
+    <Text>
+      <GUID>1404004216</GUID>
+      <!-- ConstructionCategory | Sultan's Palace | Sultan's Palace -->
+      <Text>スルタンの宮殿</Text>
+    </Text>
+    <Text>
+      <GUID>1404004245</GUID>
+      <!-- OrnamentalBuildingRuin | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <Text>スルタンの宮殿の翼棟 - 角</Text>
+    </Text>
+    <Text>
+      <GUID>1404004218</GUID>
+      <!-- OrnamentalBuilding | Silo | Silo -->
+      <Text>サイロ</Text>
+    </Text>
+    <Text>
+      <GUID>1404004248</GUID>
+      <!-- OrnamentalBuilding | Oriental Storage Tower | Oriental Storage Tower -->
+      <Text>オリエントの貯蔵塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404004219</GUID>
+      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
+      <Text>IAAM Test</Text>
+    </Text>
+    <Text>
+      <GUID>1404004300</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
+      <Text>特使の家：レベル 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004301</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
+      <Text>特使の家：レベル 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004400</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Grand Mosque | Ornamental Grand Mosque -->
+      <Text>グランド モスク（装飾）</Text>
+    </Text>
+    <Text>
+      <GUID>1404004800</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
+      <Text>東洋の灯台: 基礎</Text>
+    </Text>
+    <Text>
+      <GUID>1404004801</GUID>
+      <!-- OrnamentalBuilding | Oriental Harbour Tower | Oriental Harbour Tower -->
+      <Text>東洋の港湾塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404004850</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Wall | Small Oriental Wall -->
+      <Text>オリエントの小さな石塀</Text>
+    </Text>
+    <Text>
+      <GUID>1404004851</GUID>
+      <!-- OrnamentalBuilding | Large Oriental Wall | Large Oriental Wall -->
+      <Text>オリエントの大きな石塀</Text>
+    </Text>
+    <Text>
+      <GUID>1404004852</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
+      <Text>オリエントの壁の接合部</Text>
+    </Text>
+    <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>砕いた鉱石を油に浮かべ、すくい取って製錬所へ送ったもの。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>東洋の灯台は複数の段階に分けて建設される。完成すれば灯火をセットでき、灯火はそれぞれ、すべての地域にある特定の種類のすべての船を強化する。灯台は1つの島に1つしか建設できない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>ひよこ豆をラクダの飼料として貯蔵し、農場の生産性を高める。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>かつて隊商が休息した地、Wadi Al Zahirの砂の中から見つかったもの。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>Wadi Al Zahirの砂の中から見つかった、預言者や学者、殉教者ゆかりの遺物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>聖なる月の間、信徒たちは夜明けから日暮れまで断食し、町じゅうが日没の礼拝の呼びかけを待ちわびる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004890</GUID>
+      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
+      <Text>グランド モスクは複数の段階に分けて建設される。完成すれば、スルタン国の隅々から巡礼者が訪れるようになる。盛大な巡礼を催せば、信徒たちがスルタンの宮廷における影響力をもたらしてくれるだろう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>断食明けには家族同士が菓子を手に訪ね合い、贈り物をもらわない隣人は一人もいない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>運河から汲み上げた新鮮な水。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004900</GUID>
+      <!-- Fertility | Olive Fertility | Olive Fertility -->
+      <Text>オリーブの生産力</Text>
+    </Text>
+    <Text>
+      <GUID>1404004901</GUID>
+      <!-- Fertility | Chickpea Fertility | Chickpea Fertility -->
+      <Text>ひよこ豆の生産力</Text>
+    </Text>
+    <Text>
+      <GUID>1404004902</GUID>
+      <!-- Fertility | Aniseed Fertility | Aniseed Fertility -->
+      <Text>アニスの生産力</Text>
+    </Text>
+    <Text>
+      <GUID>1404004910</GUID>
+      <!-- GuildhouseItem | Olive Seeds | Olive Seeds -->
+      <Text>オリーブの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004911</GUID>
+      <!-- GuildhouseItem | Quality Olive Seeds | Quality Olive Seeds -->
+      <Text>高品質のオリーブの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004912</GUID>
+      <!-- GuildhouseItem | Hybrid Olive Seeds | Hybrid Olive Seeds -->
+      <Text>ハイブリッドオリーブの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004913</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Olives in alien soil. | These saplings can help you grow a few groves of Olives in alien soil. -->
+      <Text>これらの苗木は、異国の土壌でいくつかのオリーブの木立を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004914</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Olives in alien soil. | These saplings can help you grow plentiful groves of Olives in alien soil. -->
+      <Text>これらの苗木は、異国の土壌で豊かなオリーブの木立を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004915</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Olive yield! -->
+      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、オリーブの収量も増加しています！</Text>
+    </Text>
+    <Text>
+      <GUID>1404004920</GUID>
+      <!-- GuildhouseItem | Chickpea Seeds | Chickpea Seeds -->
+      <Text>ひよこ豆の種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004921</GUID>
+      <!-- GuildhouseItem | Quality Chickpea Seeds | Quality Chickpea Seeds -->
+      <Text>高品質のひよこ豆の種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004922</GUID>
+      <!-- GuildhouseItem | Hybrid Chickpea Seeds | Hybrid Chickpea Seeds -->
+      <Text>ハイブリッドひよこ豆の種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004923</GUID>
+      <!-- Text | These seeds can help you grow a few fields of Chickpeas in alien soil. | These seeds can help you grow a few fields of Chickpeas in alien soil. -->
+      <Text>これらの種子は、異国の土壌でいくつかのひよこ豆畑を栽培するのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004924</GUID>
+      <!-- Text | These seeds can help you grow plentiful fields of Chickpeas in alien soil. | These seeds can help you grow plentiful fields of Chickpeas in alien soil. -->
+      <Text>これらの種子は、異国の土壌で豊かなひよこ豆畑を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004925</GUID>
+      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield! -->
+      <Text>これらの種子は、非常に幅広い土壌で生育するように適応されており、ひよこ豆の収量が増加しています！</Text>
+    </Text>
+    <Text>
+      <GUID>1404004930</GUID>
+      <!-- GuildhouseItem | Aniseed Seeds | Aniseed Seeds -->
+      <Text>アニスの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004931</GUID>
+      <!-- GuildhouseItem | Quality Aniseed Seeds | Quality Aniseed Seeds -->
+      <Text>高品質のアニスの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004932</GUID>
+      <!-- GuildhouseItem | Hybrid Aniseed Seeds | Hybrid Aniseed Seeds -->
+      <Text>ハイブリッドアニスの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404004933</GUID>
+      <!-- Text | These seeds can help you grow a few fields of Aniseed in alien soil. | These seeds can help you grow a few fields of Aniseed in alien soil. -->
+      <Text>これらの種子は、異国の土壌でいくつかのアニス畑を栽培するのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004934</GUID>
+      <!-- Text | These seeds can help you grow plentiful fields of Aniseed in alien soil. | These seeds can help you grow plentiful fields of Aniseed in alien soil. -->
+      <Text>これらの種子は、異国の土壌で豊かなアニス畑を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004935</GUID>
+      <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Aniseed yield! -->
+      <Text>これらの種子は、非常に幅広い土壌で生育するように適応されており、アニスの収量が増加しています！</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>鉱石ドラムは空なので、補充する必要があります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>完成した浮遊選鉱濃縮液は準備ができており、ドラム缶は満杯です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>鉱石ドラムモジュール</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>鉱石ドラム</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>このモジュールは、浮遊選鉱プロセスを使用した鉱石ドラム内での特別な精製により、鉱石からの収量を 2 倍にします。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>蜂の庭</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>蜂蜜生産</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>いくつかの巣箱が蜂蜜を生み出し、農園の効率を高めます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>ナツメヤシから集められた蜂蜜は、非常に人気のある品です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>受粉</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>東洋のすべての農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>ミツバチの受粉の助けにより、私たちの農園はさらに効率的になります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>茶醸造所</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>ロクム菓子店</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>ピスタチオ農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>ピスタチオ果樹園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- Multifactory | Roastery: Pistachios | Roastery: Pistachios -->
+      <Text>焙煎所: ピスタチオ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>ピスタチオの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>高品質のピスタチオの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>ハイブリッドピスタチオの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>ピスタチオの生産力</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>これらの苗木は、異国の土壌でいくつかのピスタチオの木立を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>これらの苗木は、異国の土壌で豊かなピスタチオの木立を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、ピスタチオの収量も増加しています！</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>果物工房</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>Wadi Al Zahirでのみ建設可能</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>硫酸</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>素手で触らない方がよいだろう。緑礬油とも呼ばれる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>象狩りの小屋</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>モジュール</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>香工房</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>ヤシの葉摘み</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>葉摘み</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>摘み手たちが香り高いヤシの葉を収穫しますが、そのぶん生産が少し遅くなります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005052</GUID>
+      <!-- FreeAreaBuilding | Agarwood Plantation | Agarwood Plantation -->
+      <Text>沈香農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005053</GUID>
+      <!-- Multifactory | Mycological Laboratory: P. parasiticum | Mycological Laboratory: P. parasiticum -->
+      <Text>菌類研究所：P. parasiticum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005054</GUID>
+      <!-- Product | P. parasiticum | P. parasiticum -->
+      <Text>P. parasiticum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005055</GUID>
+      <!-- FactoryBuilding7 | Infestation Cellar | Infestation Cellar -->
+      <Text>感染貯蔵庫</Text>
+    </Text>
+    <Text>
+      <GUID>1404005057</GUID>
+      <!-- FactoryBuilding7 | Oudh Distillery | Oudh Distillery -->
+      <Text>ウード蒸留所</Text>
+    </Text>
+    <Text>
+      <GUID>1404005058</GUID>
+      <!-- Product | Oudh | Oudh -->
+      <Text>ウード</Text>
+    </Text>
+    <Text>
+      <GUID>1404005059</GUID>
+      <!-- Product | Oudh Perfume | Oudh Perfume -->
+      <Text>ウード香水</Text>
+    </Text>
+    <Text>
+      <GUID>1404005063</GUID>
+      <!-- Text | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. -->
+      <Text>沈香の木が菌の感染に反応して生み出す、非常に貴重で香り高い樹脂。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005064</GUID>
+      <!-- Text | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. -->
+      <Text>「液体の黄金」と呼ばれるウード香水は、世界で最も高価で気品ある香水であり、大富豪たちが熱望しています。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005065</GUID>
+      <!-- Text | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. -->
+      <Text>Phaeoacremonium parasiticum――沈香の木に特別な樹脂を生成させる特殊なカビ。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005066</GUID>
+      <!-- Multifactory | Mycological Laboratory: Noble Mushrooms | Mycological Laboratory: Noble Mushrooms -->
+      <Text>菌類研究所：高貴なキノコ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005067</GUID>
+      <!-- RecipeList | Mycological Laboratory Patent List | Mycological Laboratory Patent List -->
+      <Text>菌類研究所の特許リスト</Text>
+    </Text>
+    <Text>
+      <GUID>1404005070</GUID>
+      <!-- Text | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. -->
+      <Text>キノコ栽培の大きな進歩により、人気の高貴なキノコを工業的に生産できるようになり、高価な輸入は不要になりました。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005071</GUID>
+      <!-- Text | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. -->
+      <Text>ウードの製造に必要なカビ、Phaeoacremonium parasiticumは、適切な生育条件を整えるために研究所で培養しなければなりません。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005075</GUID>
+      <!-- Text | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. -->
+      <Text>画期的な培養と制御不能な胞子の侵略を隔てる境界は、きわめて薄いものです。それでも菌類学における革命であることに変わりはなく、森の変わり者の魔女にもようやく仕事ができました。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005076</GUID>
+      <!-- FarmBuilding | Olive Plantation | Olive Plantation -->
+      <Text>オリーブ農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005077</GUID>
+      <!-- Farmfield | Olive Grove | Olive Grove -->
+      <Text>オリーブ畑</Text>
+    </Text>
+    <Text>
+      <GUID>1404005082</GUID>
+      <!-- FarmBuilding | Chickpea Farm | Chickpea Farm -->
+      <Text>ひよこ豆農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005083</GUID>
+      <!-- Farmfield | Chickpea Field | Chickpea Field -->
+      <Text>ひよこ豆畑</Text>
+    </Text>
+    <Text>
+      <GUID>1404005084</GUID>
+      <!-- FactoryBuilding7 | Hummus Kitchen | Hummus Kitchen -->
+      <Text>フムス厨房</Text>
+    </Text>
+    <Text>
+      <GUID>1404005086</GUID>
+      <!-- FactoryBuilding7 | Cold Press | Cold Press -->
+      <Text>コールドプレス工房</Text>
+    </Text>
+    <Text>
+      <GUID>1404005090</GUID>
+      <!-- FarmBuilding | Aniseed Farm | Aniseed Farm -->
+      <Text>アニス農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005091</GUID>
+      <!-- Farmfield | Aniseed Field | Aniseed Field -->
+      <Text>アニス畑</Text>
+    </Text>
+    <Text>
+      <GUID>1404005095</GUID>
+      <!-- Product | Moldy Bread | Mouldy Bread -->
+      <Text>カビたパン</Text>
+    </Text>
+    <Text>
+      <GUID>1404005096</GUID>
+      <!-- GuildhouseBuff | Immature Production | Immature Production -->
+      <Text>未成熟な生産</Text>
+    </Text>
+    <Text>
+      <GUID>1404005097</GUID>
+      <!-- Text | Good for nothing but compost, at best. | Good for nothing but compost, at best. -->
+      <Text>せいぜい堆肥にしか使えません。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005099</GUID>
+      <!-- Text | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. | Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too. -->
+      <Text>生産はまだ始まったばかりのため、……望ましくない副産物が生じます。とはいえ、時には役に立つものもできあがります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005100</GUID>
+      <!-- Multifactory | Roastery: Chickpeas | Roastery: Chickpeas -->
+      <Text>焙煎所: ひよこ豆</Text>
+    </Text>
+    <Text>
+      <GUID>1404005101</GUID>
+      <!-- RecipeList | Roastery Recipes | Roastery Recipes -->
+      <Text>焙煎所のレシピ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005106</GUID>
+      <!-- Text | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. | A hot grill on which all sorts of things can be roasted – and everything tastes better roasted. -->
+      <Text>さまざまなものを焼ける熱いグリル。焼けば何でもおいしくなります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005107</GUID>
+      <!-- Text | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. | These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class. -->
+      <Text>スパイスをまぶしたてのこのひよこ豆は、何世紀にもわたる伝統の賜物であり、労働者階級の軽食です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005108</GUID>
+      <!-- Text | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. -->
+      <Text>熱々の塩味のピスタチオは誰にとってもごちそうです。焼きたてならなおさらです。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005112</GUID>
+      <!-- FactoryBuildingWithModules | Copper Smelter | Copper Smelter -->
+      <Text>銅製錬所</Text>
+    </Text>
+    <Text>
+      <GUID>1404005113</GUID>
+      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
+      <Text>オリエンタル鍛冶場：アランビック</Text>
+    </Text>
+    <Text>
+      <GUID>1404005115</GUID>
+      <!-- Product | alembics | Alembics -->
+      <Text>アランビック</Text>
+    </Text>
+    <Text>
+      <GUID>1404005116</GUID>
+      <!-- Text | Alembics are oriental stills used for brewing all kinds of drinks and liquids. | Alembics are oriental stills used for brewing all kinds of drinks and liquids. -->
+      <Text>アランビックは、さまざまな飲み物や液体の醸造に使われる東洋の釜です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005118</GUID>
+      <!-- Text | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. -->
+      <Text>アランビックは東洋の醸造の定番です。さまざまな液体や飲み物を醸造できます。素材の銅のおかげで、熱が理想的に、できるだけ均一に行き渡ります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005120</GUID>
+      <!-- Product | arak | Arak -->
+      <Text>アラック</Text>
+    </Text>
+    <Text>
+      <GUID>1404005121</GUID>
+      <!-- FactoryBuilding7 | Arak Distillery | Arak Distillery -->
+      <Text>アラック蒸留所</Text>
+    </Text>
+    <Text>
+      <GUID>1404005123</GUID>
+      <!-- Text | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. -->
+      <Text>ブドウとアニスから造る強いお酒。魂を内側から温めます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005124</GUID>
+      <!-- Multifactory | Roastery: Coffee | Roastery: Coffee -->
+      <Text>焙煎所: コーヒー</Text>
+    </Text>
+    <Text>
+      <GUID>1404005125</GUID>
+      <!-- Product | Roasted Coffee | Roasted Coffee Beans -->
+      <Text>焙煎コーヒー豆</Text>
+    </Text>
+    <Text>
+      <GUID>1404005126</GUID>
+      <!-- Text | Simple roasted coffee. | Simple roasted coffee. -->
+      <Text>シンプルな焙煎コーヒー。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005129</GUID>
+      <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
+      <Text>高温で焙煎しただけのシンプルなコーヒー。特別なものではありませんが、東洋の名物ではあります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005130</GUID>
+      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
+      <Text>オリエンタルワークショップ：アストロラーベ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005131</GUID>
+      <!-- Product | astrolabes | Astrolabes -->
+      <Text>アストロラーベ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005133</GUID>
+      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
+      <Text>星の観測に使われる、精密な東洋の測定器です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005135</GUID>
+      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
+      <Text>アストロラーベは東洋の職人技の傑作です。星の動きを追い、時刻を正確に測り、昼間でも天体の位置を正確に割り出すことができます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007000</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
+      <Text>東洋の灯台: 塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404007001</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
+      <Text>東洋の灯台: 灯室</Text>
+    </Text>
+    <Text>
+      <GUID>1404007002</GUID>
+      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
+      <Text>東洋の灯台</Text>
+    </Text>
+    <Text>
+      <GUID>1404007003</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
+      <Text>灯台（装飾）</Text>
+    </Text>
+    <Text>
+      <GUID>1404007010</GUID>
+      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
+      <Text>砂丘が海と出会う場所で、石工たちが日干しレンガとヤシ材で広い基礎を築いていく。いつの日か、ここに灯る火がすべての帆を無事に故郷へと導くだろう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007011</GUID>
+      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
+      <Text>一段、また一段と塔は港の上へと伸び、朝日を受けて輝くモザイクで飾られていく。回廊からは、見張りたちがすでに水平線の帆を数えられる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007012</GUID>
+      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
+      <Text>ガラス職人が灯室に窓ガラスをはめ込み、大きなシャンデリアが頂上へと吊り上げられる。まもなく、その光は遠く海の彼方まで届くだろう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007013</GUID>
+      <!-- Text | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. -->
+      <Text>灯台に灯火を1つセットできます。灯火はそれぞれ、すべての地域にある特定の種類のすべての船を強化します。マダム・カヒナが東洋で時々灯火を販売しています。灯台は1つの島に1つしか建設できません。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007200</GUID>
+      <!-- Text | Beacon of the Harbour | Beacon of the Harbour -->
+      <Text>港の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007201</GUID>
+      <!-- Text | Thrifty Beacon of the Shipwrights | Thrifty Beacon of the Shipwrights -->
+      <Text>倹約なる船大工の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007202</GUID>
+      <!-- Text | Steadfast Beacon of the Fleet | Steadfast Beacon of the Fleet -->
+      <Text>不動なる艦隊の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007203</GUID>
+      <!-- Text | Eternal Beacon of the Seven Seas | Eternal Beacon of the Seven Seas -->
+      <Text>永遠なる七つの海の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007204</GUID>
+      <!-- Text | Beacon of the Dhows | Beacon of the Dhows -->
+      <Text>ダウ船の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007205</GUID>
+      <!-- Text | Swift Beacon of the Trade Winds | Swift Beacon of the Trade Winds -->
+      <Text>疾き貿易風の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007206</GUID>
+      <!-- Text | Vigilant Beacon of the Frigates | Vigilant Beacon of the Frigates -->
+      <Text>油断なきフリゲートの灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007207</GUID>
+      <!-- Text | Radiant Beacon of the Monsoon | Radiant Beacon of the Monsoon -->
+      <Text>輝けるモンスーンの灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007208</GUID>
+      <!-- Text | Beacon of the Stokers | Beacon of the Stokers -->
+      <Text>火夫の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007209</GUID>
+      <!-- Text | Tireless Beacon of the Boilers | Tireless Beacon of the Boilers -->
+      <Text>不屈なるボイラーの灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007210</GUID>
+      <!-- Text | Relentless Beacon of the Steamers | Relentless Beacon of the Steamers -->
+      <Text>止まらぬ蒸気船の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007211</GUID>
+      <!-- Text | Golden Beacon of the Merchants | Golden Beacon of the Merchants -->
+      <Text>黄金の商人の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007212</GUID>
+      <!-- Text | Beacon of the Gunners | Beacon of the Gunners -->
+      <Text>砲手の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007213</GUID>
+      <!-- Text | Fierce Beacon of the Broadside | Fierce Beacon of the Broadside -->
+      <Text>猛き舷側砲の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007214</GUID>
+      <!-- Text | Thundering Beacon of the Admiralty | Thundering Beacon of the Admiralty -->
+      <Text>轟く海軍本部の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007215</GUID>
+      <!-- Text | Unbreakable Beacon of the Navy | Unbreakable Beacon of the Navy -->
+      <Text>不壊なる海軍の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007216</GUID>
+      <!-- Text | Beacon of the Skies | Beacon of the Skies -->
+      <Text>大空の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007217</GUID>
+      <!-- Text | Buoyant Beacon of the Clouds | Buoyant Beacon of the Clouds -->
+      <Text>浮かぶ雲の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007218</GUID>
+      <!-- Text | Steady Beacon of the Airmen | Steady Beacon of the Airmen -->
+      <Text>揺るがぬ飛行士の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007219</GUID>
+      <!-- Text | Soaring Beacon of the Djinn | Soaring Beacon of the Djinn -->
+      <Text>舞い上がるジンの灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007220</GUID>
+      <!-- Text | Beacon of the Pearl Divers | Beacon of the Pearl Divers -->
+      <Text>真珠採りの灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007221</GUID>
+      <!-- Text | Glimmering Beacon of the Deep | Glimmering Beacon of the Deep -->
+      <Text>煌めく深淵の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007222</GUID>
+      <!-- Text | Mysterious Beacon of the Sunken Hoards | Mysterious Beacon of the Sunken Hoards -->
+      <Text>謎めいた沈没財宝の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007223</GUID>
+      <!-- Text | Fabled Beacon of the Drowned Kingdom | Fabled Beacon of the Drowned Kingdom -->
+      <Text>伝説の沈んだ王国の灯火</Text>
+    </Text>
+    <Text>
+      <GUID>1404007230</GUID>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>港長なら誰でも知っている。光を見た船は無事に帰ってくるのだ。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007231</GUID>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>船大工のギルドが灯し続けている。明日船体を直すより、今日板を一枚直す方がいいからだ。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007232</GUID>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>その炎は一度も揺らいだことがない。それに従う船もまた揺るがない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007233</GUID>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>伝説によれば、その光は世界中のあらゆる海岸から同時に見えるという。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007234</GUID>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>古いダウ船の船長たちは誓う。光に従えば、風もお前に従うと。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007235</GUID>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>貿易風が変わるときに灯され、どの商人もひと吹きの風も逃さない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007236</GUID>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>その回廊から見張りたちは、最初の砲撃のずっと前に敵の帆を見つける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007237</GUID>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>モンスーンが訪れると、その青い炎がここから香辛料海岸までのすべての帆を満たす。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007238</GUID>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>岸壁の火夫たちのための灯り。石炭を早く積めば、それだけ早く船は出航する。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007239</GUID>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>見守るボイラーと同じ石炭で燃え、少しも無駄にしない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007240</GUID>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>何が船体に当たろうとも、外輪は回り続ける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007241</GUID>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>その金色の光が輝く所では、バザールが門と財布を開く。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007242</GUID>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>砲手のための赤い光。正確に狙い、素早く撃て。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007243</GUID>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>その赤い光の下で放たれた舷側砲撃からは、帆も煙突も逃れられない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007244</GUID>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>スルタンの艦隊の提督たちは、その眩い光で命令書を読む。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007245</GUID>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>いかなる嵐にも屈せず、いかなる大砲にも砕けない艦隊のために鍛えられた。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007246</GUID>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>ミナレットの遥か上に輝く緑の光が、飛行船を故郷へと導く。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007247</GUID>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>その温かな輝きは、真昼の砂漠の空気のように飛行船を持ち上げる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007248</GUID>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>飛行士たちはどんな羅針盤よりもこれを信じる。緑に輝く限り、エンジンは持ちこたえる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007249</GUID>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>レンズにはジンが住み、すべての飛行船をその翼に乗せて運ぶという。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007250</GUID>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>湾の真珠採りたちは、潜る前に必ず幸運を願ってこれを灯す。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007251</GUID>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>その紫の輝きは、砂が貝殻以上のものを隠す深みまで届く。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007252</GUID>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>誰が最初に灯したのかは誰も知らない。ただ、それが照らす難破船は決して空ではない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007253</GUID>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>海に丸ごと呑まれた王国の最後の番人が灯したと言われている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007260</GUID>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>港長なら誰でも知っている。光を見た船は無事に帰ってくるのだ。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007261</GUID>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>船大工のギルドが灯し続けている。明日船体を直すより、今日板を一枚直す方がいいからだ。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007262</GUID>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>その炎は一度も揺らいだことがない。それに従う船もまた揺るがない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007263</GUID>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>伝説によれば、その光は世界中のあらゆる海岸から同時に見えるという。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007264</GUID>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>古いダウ船の船長たちは誓う。光に従えば、風もお前に従うと。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007265</GUID>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>貿易風が変わるときに灯され、どの商人もひと吹きの風も逃さない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007266</GUID>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>その回廊から見張りたちは、最初の砲撃のずっと前に敵の帆を見つける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007267</GUID>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>モンスーンが訪れると、その青い炎がここから香辛料海岸までのすべての帆を満たす。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007268</GUID>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>岸壁の火夫たちのための灯り。石炭を早く積めば、それだけ早く船は出航する。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007269</GUID>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>見守るボイラーと同じ石炭で燃え、少しも無駄にしない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007270</GUID>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>何が船体に当たろうとも、外輪は回り続ける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007271</GUID>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>その金色の光が輝く所では、バザールが門と財布を開く。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007272</GUID>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>砲手のための赤い光。正確に狙い、素早く撃て。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007273</GUID>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>その赤い光の下で放たれた舷側砲撃からは、帆も煙突も逃れられない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007274</GUID>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>スルタンの艦隊の提督たちは、その眩い光で命令書を読む。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007275</GUID>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>いかなる嵐にも屈せず、いかなる大砲にも砕けない艦隊のために鍛えられた。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007276</GUID>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>ミナレットの遥か上に輝く緑の光が、飛行船を故郷へと導く。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007277</GUID>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>その温かな輝きは、真昼の砂漠の空気のように飛行船を持ち上げる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007278</GUID>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>飛行士たちはどんな羅針盤よりもこれを信じる。緑に輝く限り、エンジンは持ちこたえる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007279</GUID>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>レンズにはジンが住み、すべての飛行船をその翼に乗せて運ぶという。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007280</GUID>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>湾の真珠採りたちは、潜る前に必ず幸運を願ってこれを灯す。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007281</GUID>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>その紫の輝きは、砂が貝殻以上のものを隠す深みまで届く。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007282</GUID>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>誰が最初に灯したのかは誰も知らない。ただ、それが照らす難破船は決して空ではない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007283</GUID>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>海に丸ごと呑まれた王国の最後の番人が灯したと言われている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007041</GUID>
+      <!-- Text | Lighthouse | Lighthouse -->
+      <Text>灯台</Text>
+    </Text>
+    <Text>
+      <GUID>1404008000</GUID>
+      <!-- Multifactory | Oriental Smith | Oriental Smith -->
+      <Text>オリエンタル鍛冶場</Text>
+    </Text>
+    <Text>
+      <GUID>1404008001</GUID>
+      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
+      <Text>東洋の鍛冶場の特許リスト</Text>
+    </Text>
+    <Text>
+      <GUID>1404008100</GUID>
+      <!-- Hacienda | Bedouin Camp | Bedouin Camp -->
+      <Text>ベドウィンの野営地</Text>
+    </Text>
+    <Text>
+      <GUID>1404008101</GUID>
+      <!-- ResidenceBuilding7_Colony | Bedouin Nomad Quarters | Bedouin Nomad Quarters -->
+      <Text>ベドウィンの遊牧民の住居</Text>
+    </Text>
+    <Text>
+      <GUID>1404008103</GUID>
+      <!-- EffectContainer | Desert Frugality | Desert Frugality -->
+      <Text>砂漠の倹約</Text>
+    </Text>
+    <Text>
+      <GUID>1404008104</GUID>
+      <!-- Text | Those who cross the desert learn to make a little go a long way. | Those who cross the desert learn to make a little go a long way. -->
+      <Text>砂漠を越える者は、わずかな物で長く暮らす術を身につける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008106</GUID>
+      <!-- Text | Reduces the consumption of local wares for Bedouins | Reduces the consumption of local wares for Bedouins -->
+      <Text>ベドウィン向けの地元産品の消費を削減します。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>ベドウィンの野営地（装飾）</Text>
+    </Text>
+    <Text>
+      <GUID>1404008110</GUID>
+      <!-- EffectContainer | Camel Breeding | Camel Breeding -->
+      <Text>ラクダの繁殖</Text>
+    </Text>
+    <Text>
+      <GUID>1404008111</GUID>
+      <!-- Text | A Bedouin knows every camel by name, and its forebears seven generations back. | A Bedouin knows every camel by name, and its forebears seven generations back. -->
+      <Text>ベドウィンはどのラクダも名前で知っており、その七代前の祖先まで言える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008113</GUID>
+      <!-- Text | Increases the productivity of camel farms | Increases the productivity of camel farms -->
+      <Text>ラクダ牧場の生産性を上げます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008120</GUID>
+      <!-- EffectContainer | Oasis Gardens | Oasis Gardens -->
+      <Text>オアシスの園</Text>
+    </Text>
+    <Text>
+      <GUID>1404008121</GUID>
+      <!-- Text | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. -->
+      <Text>砂から水が湧く所に、部族は日陰のためにナツメヤシを植え、その下にザクロを植える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008123</GUID>
+      <!-- Text | Increases the productivity of date and pomegranate farms | Increases the productivity of date and pomegranate farms -->
+      <Text>ナツメヤシ農園とザクロ農園の生産性を上げます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008130</GUID>
+      <!-- EffectContainer | Desert Hospitality | Desert Hospitality -->
+      <Text>砂漠のもてなし</Text>
+    </Text>
+    <Text>
+      <GUID>1404008131</GUID>
+      <!-- Text | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. -->
+      <Text>ベドウィンのテントは旅人を決して拒まない。三日間の宿とコーヒーとパンを、何も問わずに与える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008133</GUID>
+      <!-- Text | Increases the happiness of Nomads | Increases the happiness of Nomads -->
+      <Text>遊牧民の幸福度を上げます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008140</GUID>
+      <!-- EffectContainer | Bonds of the Tribe | Bonds of the Tribe -->
+      <Text>部族の絆</Text>
+    </Text>
+    <Text>
+      <GUID>1404008141</GUID>
+      <!-- Text | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. -->
+      <Text>族長が呼べば、どのテントも働き手を送り出す。部族は共に立ち、共に倒れるのだから。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008143</GUID>
+      <!-- Text | Increases the workforce of Nomads | Increases the workforce of Nomads -->
+      <Text>遊牧民の労働力を増やします。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009000</GUID>
+      <!-- Product | Rammed Earth | Rammed Earth -->
+      <Text>版築</Text>
+    </Text>
+    <Text>
+      <GUID>1404009001</GUID>
+      <!-- Text | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. | Damp clay, packed layer upon layer between wooden boards and pounded hard. Walls of rammed earth stay cool through the desert noon and stand for centuries. -->
+      <Text>湿った粘土を木の板の間に一層ずつ詰め、固く突き固めたもの。版築の壁は砂漠の真昼でも涼しく、何世紀も立ち続ける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009002</GUID>
+      <!-- FactoryBuilding7 | Rammed Earth Works | Rammed Earth Works -->
+      <Text>版築工房</Text>
+    </Text>
+    <Text>
+      <GUID>1404009003</GUID>
+      <!-- BuffFactoryModule | Sand Pit | Sand Pit -->
+      <Text>砂穴</Text>
+    </Text>
+    <Text>
+      <GUID>1404009100</GUID>
+      <!-- GuildhouseItem | Nadira al-Lawz, The Lady of the Almond Grove | Nadira al-Lawz, The Lady of the Almond Grove -->
+      <Text>ナディラ・アル＝ラウズ、アーモンド林の貴婦人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009101</GUID>
+      <!-- Text | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. | Born among the almond trees, Nadira learned the secrets of grafting and pruning from a young age. With patience, she managed to revive trees that others had deemed lost. Her harvests soon became a model for neighboring farmers. Today, her expertise flourishes in every orchard left under her care. -->
+      <Text>アーモンドの木々に囲まれて生まれたナディラは、幼い頃から接ぎ木と剪定の秘訣を学んだ。辛抱強く手をかけることで、他の者が見捨てた木々さえよみがえらせた。彼女の収穫はやがて近隣の農家の手本となった。今では、彼女に託されたすべての果樹園でその知恵が花開いている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009102</GUID>
+      <!-- GuildhouseItem | Decree on the Grafting and Pruning of Fruit Trees | Decree on the Grafting and Pruning of Fruit Trees -->
+      <Text>果樹の接ぎ木と剪定に関する布告</Text>
+    </Text>
+    <Text>
+      <GUID>1404009103</GUID>
+      <!-- Text | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. | Given the low yields of many agricultural holdings, agricultural authorities introduced new measures to improve the care of fruit trees. The selection of branches, the grafting of resistant varieties, and regular pruning became central to field operations. Although some owners were initially wary of these new requirements, the results ultimately convinced them. -->
+      <Text>多くの農地の収穫量が低いことを受け、農業当局は果樹の手入れを改善するための新たな措置を導入した。枝の選定、耐性のある品種の接ぎ木、定期的な剪定が畑仕事の中心となった。新たな要求に当初は疑いを抱く地主もいたが、最終的には成果が彼らを納得させた。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009104</GUID>
+      <!-- GuildhouseItem | Leyla al-Harir, the Mistress of the Cocoon | Leyla al-Harir, the Mistress of the Cocoon -->
+      <Text>レイラ・アル＝ハリール、繭の女主人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009105</GUID>
+      <!-- Text | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. | Leyla grew up in a family of silk producers and soon discovered she had a special talent for raising silkworms. While others lost entire harvests due to carelessness, she consistently produced an abundance of high-quality cocoons. It is said that she could gauge the success of a harvest simply by observing the mulberry trees. -->
+      <Text>絹の生産者の家に育ったレイラは、早くから蚕の飼育に特別な才能があることに気づいた。不注意から収穫を丸ごと失う者がいる中、彼女は常に上質な繭を豊富に生み出した。桑の木を眺めるだけで収穫の出来がわかったとさえ言われている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009106</GUID>
+      <!-- GuildhouseItem | Steam boilers for silk reeling | Steam boilers for silk reeling -->
+      <Text>製糸用の蒸気ボイラー</Text>
+    </Text>
+    <Text>
+      <GUID>1404009107</GUID>
+      <!-- Text | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. | Hot water softens the natural gum in cocoons, allowing their ultra-fine filaments to be unwound. Steam helps maintain a stable temperature. More successful producers adopted this system to obtain more uniform threads. The resulting silk captured new markets without losing its delicate luster. -->
+      <Text>熱湯は繭の天然のゴム質を柔らかくし、極細の繊維をほどけるようにする。蒸気は温度を一定に保つのに役立つ。成功した生産者たちは、より均一な糸を得るためにこの方式を採用した。こうして生まれた絹は、繊細な光沢を失うことなく新たな市場を獲得した。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009108</GUID>
+      <!-- GuildhouseItem | Khalil al-Najjar, the Woodcutter of the Oases | Khalil al-Najjar, The Woodcutter of the Oases -->
+      <Text>ハリール・アン＝ナッジャール、オアシスの木こり</Text>
+    </Text>
+    <Text>
+      <GUID>1404009109</GUID>
+      <!-- Text | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. | Khalil learned his trade alongside the woodcutters of his village, where wood was scarce and every log had to be used to its fullest potential. He knows the weak points of palm trees and understands how to fell them without wasting any material. -->
+      <Text>ハリールは村の木こりたちのもとで技を学んだ。そこでは木材が乏しく、一本の丸太も余すところなく使わねばならなかった。彼はヤシの木の弱点を知り尽くし、材料を一切無駄にせず切り倒す方法を心得ている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009110</GUID>
+      <!-- GuildhouseItem | Frame Saw | Frame Saw -->
+      <Text>枠のこぎり</Text>
+    </Text>
+    <Text>
+      <GUID>1404009111</GUID>
+      <!-- Text | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. | Its blade, tensioned within a frame, allows for precise wood cutting with relatively little effort. Workers use it to divide logs and prepare pieces for construction. Its simple design makes maintenance and blade replacement easy. -->
+      <Text>枠の中に張られた刃により、比較的少ない力で木材を正確に切ることができる。作業員はこれで丸太を分け、建築用の部材を準備する。構造が単純なので、手入れや刃の交換も容易だ。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009112</GUID>
+      <!-- GuildhouseItem | Samir al-Fustuq, the Pistachio Expert | Samir al-Fustuq, The Pistachio Expert -->
+      <Text>サミール・アル＝フストゥク、ピスタチオの専門家</Text>
+    </Text>
+    <Text>
+      <GUID>1404009113</GUID>
+      <!-- Text | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. | Samir traverses the ancient pistachio groves, identifying the trees that yield the most prized nuts. His advice draws in farmers looking to improve their harvests without depleting the soil. In the markets, his name is synonymous with pistachios of exceptional quality. -->
+      <Text>サミールは古いピスタチオ林を巡り、最も貴重な実をつける木を見極める。土を痩せさせずに収穫を増やしたい農家が、彼の助言を求めて集まってくる。市場では、彼の名は格別な品質のピスタチオの代名詞となっている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009114</GUID>
+      <!-- GuildhouseItem | Spice Supply Decree | Spice Supply Decree -->
+      <Text>香辛料供給に関する布告</Text>
+    </Text>
+    <Text>
+      <GUID>1404009115</GUID>
+      <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
+      <Text>この協定は、家畜のための放牧路と水場の共同利用を定めている。氏族と牧畜民の調整により家畜の損失が減り、繁殖も改善される。この措置によって、より大きく安定した群れを維持できる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009116</GUID>
+      <!-- GuildhouseItem | Jalaluddin al-Qahwa, The Master of Spices | Jalaluddin al-Qahwa, The Master of Spices -->
+      <Text>ジャラールッディーン・アル＝カフワ、香辛料の名人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009117</GUID>
+      <!-- Text | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. | Jalaluddin roams the bazaars in search of rare spices and trusted suppliers. His sense of smell allows him to distinguish the freshest cardamom from batches that have been in storage for months. Merchants, well aware of his exacting standards, compete to provide him with their finest goods. -->
+      <Text>ジャラールッディーンは珍しい香辛料と信頼できる仕入れ先を求めてバザールを歩き回る。その嗅覚は、最も新鮮なカルダモンと何か月も倉庫に眠っていた品とを見分けるほどだ。彼の厳しい基準をよく知る商人たちは、最高の品を差し出そうと競い合う。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009118</GUID>
+      <!-- GuildhouseItem | Şehrazat Hanım, the Lady of Sugar | Şehrazat Hanım, the Lady of Sugar -->
+      <Text>シェヘラザート・ハヌム、砂糖の貴婦人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009119</GUID>
+      <!-- Text | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. | In the confectioners’ bazaars, Şehrazat perfects the art of transforming sugar and starch into delicate treats. Her specialty lies in achieving a smooth texture that holds its shape without hardening. She experiments with rose water, citrus, and pistachios to win over even the most demanding palates. -->
+      <Text>菓子職人たちのバザールで、シェヘラザートは砂糖とでんぷんを繊細な菓子へと変える技を磨いている。彼女の得意とするのは、固くならずに形を保つなめらかな食感だ。最も舌の肥えた人々をも魅了するため、ローズウォーターや柑橘、ピスタチオを使った工夫を重ねている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009120</GUID>
+      <!-- GuildhouseItem | Mercury Thermometer | Mercury Thermometer -->
+      <Text>水銀温度計</Text>
+    </Text>
+    <Text>
+      <GUID>1404009121</GUID>
+      <!-- Text | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. | Making lokum requires controlling the cooking of the sugar to achieve a uniform consistency. A mercury thermometer allows for measuring the temperature of the syrup with greater precision than a simple visual estimate. Confectioners can consistently replicate their recipes and reduce the number of batches that turn out too soft or too hard. -->
+      <Text>ロクムを作るには、均一な固さに仕上げるため砂糖の煮詰め具合を管理する必要がある。水銀温度計を使えば、目分量よりはるかに正確にシロップの温度を測ることができる。菓子職人はレシピを安定して再現でき、柔らかすぎたり固すぎたりする失敗作を減らせる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009122</GUID>
+      <!-- GuildhouseItem | Baha al-Din al-Fustuq, The Roasting Alchemist | Baha al-Din al-Fustuq, The Roasting Alchemist -->
+      <Text>バハー・アッディーン・アル＝フストゥク、焙煎の錬金術師</Text>
+    </Text>
+    <Text>
+      <GUID>1404009123</GUID>
+      <!-- Text | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. | Baha has mastered the art of roasting pistachios without compromising their delicate flavor or their signature color. He carefully adjusts the heat and stirs the nuts constantly to ensure an even roast. Merchants seek out his services to prepare batches intended for their most discerning customers. -->
+      <Text>バハーは、繊細な風味も特有の色も損なうことなくピスタチオを焙煎する技を極めている。火加減を慎重に調整し、実を絶えずかき混ぜてむらなく焼き上げる。商人たちは、最も目の肥えた顧客向けの品を用意するために彼の腕を求める。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009124</GUID>
+      <!-- GuildhouseItem | Iron Roasting Drum | Iron Roasting Drum -->
+      <Text>鉄製の焙煎ドラム</Text>
+    </Text>
+    <Text>
+      <GUID>1404009125</GUID>
+      <!-- Text | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. | Artisans use rotating metal containers to distribute heat and prevent pistachios from burning on one side. The constant movement ensures a more uniform roast and allows for larger quantities to be processed than in a conventional pan. Its robust construction stands up to daily use in workshops and small commercial establishments. -->
+      <Text>職人たちは回転する金属の容器を使って熱を行き渡らせ、ピスタチオの片側が焦げるのを防ぐ。絶えず動かすことで焙煎が均一になり、普通の鍋よりも大量に処理できる。頑丈な造りは、工房や小さな店での毎日の使用にも耐える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009126</GUID>
+      <!-- GuildhouseItem | Mahinbanu Khatun, the Shah’s Personal Confectioner | Mahinbanu Khatun, the Shah’s Personal Confectioner -->
+      <Text>マヒンバヌ・ハトゥン、シャーの専属菓子職人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009127</GUID>
+      <!-- Text | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. | She runs a renowned workshop where dates are transformed into delicate sweets for the most distinguished tables. She selects plump, fleshy fruits and carefully oversees their cooking in aromatic syrups. Her keen eye for detail turns each piece into a small delicacy, worthy of being presented as a ceremonial gift. -->
+      <Text>彼女は名高い工房を営み、そこでナツメヤシは最も高貴な食卓のための繊細な菓子へと生まれ変わる。ふっくらと肉厚な実を選び、香り高いシロップで煮る工程を丹念に見守る。細部への鋭い目が一つひとつを小さな珍味に仕上げ、儀礼の贈り物にふさわしい品となる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009128</GUID>
+      <!-- GuildhouseItem | Tin-Lined Copper Cauldron | Tin-Lined Copper Cauldron -->
+      <Text>錫引きの銅釜</Text>
+    </Text>
+    <Text>
+      <GUID>1404009129</GUID>
+      <!-- Text | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. | The copper cauldron distributes heat rapidly, making it ideal for cooking large quantities of dates in syrup. Its tin-lined interior prevents direct contact between the food and the copper. Confectioners monitor the density of the syrup as the fruit slowly absorbs its sweetness. -->
+      <Text>銅釜は熱を素早く伝えるため、大量のナツメヤシをシロップで煮るのに最適だ。内側に錫が引かれているので、食材が銅に直接触れることはない。菓子職人は、果実がゆっくりと甘さを吸い込む間、シロップの濃度を見守る。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009130</GUID>
+      <!-- GuildhouseItem | Iskandar ibn Faraj, Chemistry Expert | Iskandar ibn Faraj, Chemistry Expert -->
+      <Text>イスカンダル・イブン・ファラジ、化学の専門家</Text>
+    </Text>
+    <Text>
+      <GUID>1404009131</GUID>
+      <!-- Text | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. | Iskandar focuses his experiments on the utilization of hydrocarbons and their industrial derivatives. Amidst oil reservoirs and reaction vessels, he studies how to obtain more stable mixtures. His meticulous nature enables him to coordinate complex chemical processes without wasting raw materials. -->
+      <Text>イスカンダルは炭化水素とその工業用誘導体の利用に研究を集中させている。石油タンクと反応容器に囲まれながら、より安定した混合物を得る方法を探っている。几帳面な性格のおかげで、原料を無駄にすることなく複雑な化学工程をまとめ上げることができる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009132</GUID>
+      <!-- GuildhouseItem | Daryush Mehrzad, Tireless Foreman | Daryush Mehrzad, Tireless Foreman -->
+      <Text>ダリユーシュ・メフルザード、疲れを知らぬ現場監督</Text>
+    </Text>
+    <Text>
+      <GUID>1404009133</GUID>
+      <!-- Text | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. | Daryush oversees the reactions that convert sulfurous gases into chemical products of high industrial value; he monitors the plants and keeps the processes running continuously. His expertise makes him an indispensable figure for manufacturing operations that rely on this corrosive substance. -->
+      <Text>ダリユーシュは、硫黄を含むガスを工業的価値の高い化学製品へと変える反応を監督している。設備を監視し、工程を絶え間なく稼働させ続ける。その専門知識により、この腐食性の物質に頼る製造現場にとって欠かせない存在となっている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009134</GUID>
+      <!-- GuildhouseItem | Lead Chamber | Lead Chamber -->
+      <Text>鉛室</Text>
+    </Text>
+    <Text>
+      <GUID>1404009135</GUID>
+      <!-- Text | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. | Large, lead-lined chambers are used to produce sulfuric acid via the lead-chamber process, which has been employed on an industrial scale since the 18th century. Inside these chambers, gases react in the presence of water vapor and nitrogenous compounds. -->
+      <Text>鉛で内張りされた大きな部屋は、18世紀から工業規模で用いられてきた鉛室法による硫酸の製造に使われる。この部屋の中では、水蒸気と窒素化合物の存在下で気体が反応する。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009136</GUID>
+      <!-- GuildhouseItem | Bahram ibn Kaveh, Obsessive Smelter | Bahram ibn Kaveh, Obsessive Smelter -->
+      <Text>バフラーム・イブン・カーヴェ、取りつかれた製錬師</Text>
+    </Text>
+    <Text>
+      <GUID>1404009137</GUID>
+      <!-- Text | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. | Bahram knows the temperament of every furnace and, by the color of the flames, recognizes when the ore is ready to be smelted. He adjusts the temperatures and oversees the separation of silver from the impurities in the ore. Merchants value his meticulous work and the consistency of his ingots. -->
+      <Text>バフラームはあらゆる炉の癖を知り、炎の色から鉱石が製錬に適した状態になったことを見抜く。温度を調整し、鉱石の不純物から銀を分離する工程を監督する。商人たちは彼の綿密な仕事ぶりと、地金の変わらぬ品質を高く評価している。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009138</GUID>
+      <!-- GuildhouseItem | Zubayda al-Durra, the Deep-Sea Diver | Zubayda al-Durra, the Deep-Sea Diver -->
+      <Text>ズバイダ・アッ＝ドゥッラ、深海の潜水士</Text>
+    </Text>
+    <Text>
+      <GUID>1404009139</GUID>
+      <!-- Text | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. | Zubayda knows the oyster beds of the Middle East and can discern which waters conceal the most prized pearls. She descends with a small basket, relying on her experience to make the most of every dive. Merchants await her haul, drawn by the rarity and luster of her discoveries. -->
+      <Text>ズバイダは中東の牡蠣の床を知り尽くし、どの海に最も貴重な真珠が眠っているかを見分けることができる。小さな籠を手に潜り、経験を頼りに一回一回の潜水を最大限に生かす。商人たちは、希少さと輝きに惹かれて彼女の収穫を待ちわびている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009140</GUID>
+      <!-- GuildhouseItem | Diving Ballast Stone | Diving Ballast Stone -->
+      <Text>潜水用の重り石</Text>
+    </Text>
+    <Text>
+      <GUID>1404009141</GUID>
+      <!-- Text | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. | Pearl divers use ballast stones, either attached to their bodies or held during their descent, to reach the seabed quickly. A rope allows their companions to control the immersion and assist the diver in returning to the surface. This technique requires endurance, coordination, and a precise understanding of the currents. -->
+      <Text>真珠採りの潜水夫は、体に結びつけたり潜降中に抱えたりした重り石を使って、素早く海底に到達する。仲間はロープで潜水を制御し、潜水夫が水面に戻るのを助ける。この技術には持久力と連携、そして潮流への正確な理解が求められる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009142</GUID>
+      <!-- GuildhouseItem | Gallery Foreman | Gallery Foreman -->
+      <Text>坑道の現場監督</Text>
+    </Text>
+    <Text>
+      <GUID>1404009143</GUID>
+      <!-- Text | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. | Responsible for organizing mining crews and assigning tasks to keep every gallery in full operation. His experience enables him to minimize downtime and make the most of each excavation shift. Under his supervision, the flow of tools, workers, and extracted ore remains steady. -->
+      <Text>鉱夫の班を編成し、すべての坑道がフル稼働するよう作業を割り振る役目を担う。その経験により、停止時間を最小限に抑え、採掘の各交代時間を最大限に活用できる。彼の監督のもと、道具、作業員、掘り出された鉱石の流れは途切れることがない。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009144</GUID>
+      <!-- GuildhouseItem | Nasrin Khatun, The Master of Clay | Nasrin Khatun, The Master of Clay -->
+      <Text>ナスリン・ハトゥン、粘土の名人</Text>
+    </Text>
+    <Text>
+      <GUID>1404009145</GUID>
+      <!-- Text | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. | Nasrin knows the clay-rich lands of the region. She organizes the extraction process based on the moisture and consistency of the ground. Her expertise makes it possible to utilize even those deposits that are most difficult to work with. -->
+      <Text>ナスリンはこの地方の粘土豊かな土地を熟知している。土の湿り気と固さに応じて採掘の段取りを組む。彼女の専門知識のおかげで、最も扱いにくい鉱床さえ利用できるようになる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009146</GUID>
+      <!-- GuildhouseItem | Mining Dewatering Pump | Mining Dewatering Pump -->
+      <Text>鉱山排水ポンプ</Text>
+    </Text>
+    <Text>
+      <GUID>1404009147</GUID>
+      <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
+      <Text>たまった水は鉱山の坑道を脅かし、多くの現場で採掘作業の中断を余儀なくさせる。排水ポンプを使えば立坑の水を抜き、作業場所への出入りを保つことができる。その利用により、より深い採掘や、本来なら水没したままの区画の回復が容易になる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- SlotFactoryBuilding7 | Agate Collector | Agate Collector -->
+      <Text>瑪瑙採集所</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Riverslot Orient | Riverbed Plot -->
+      <Text>川床のスロット</Text>
+    </Text>
+    <Text>
+      <GUID>1404003912</GUID>
+      <!-- InfoLayerIcon | RiverSlot Orient | Riverbed Plot -->
+      <Text>川床のスロット</Text>
+    </Text>
+    <Text>
+      <GUID>1404003913</GUID>
+      <!-- WorkAreaRiverSlot | Riverslot_workarea Orient | Riverbed Plot -->
+      <Text>川床のスロット</Text>
+    </Text>
+    <Text>
+      <GUID>1404003906</GUID>
+      <!-- Text | Riverslot Orient description | Build an Agate Collector to gather agates from the riverbed. -->
+      <Text>川床から瑪瑙を集めるために瑪瑙採集所を建設する</Text>
+    </Text>
+    <Text>
+      <GUID>1404004250</GUID>
+      <!-- EffectContainer | Royal Manufactories | Royal Manufactories -->
+      <Text>王室工房</Text>
+    </Text>
+    <Text>
+      <GUID>1404004251</GUID>
+      <!-- Text | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. | Workshops that serve the Sultan's court receive the finest tools and the most skilled masters. -->
+      <Text>スルタンの宮廷に仕える工房には、最高の道具と最も腕の立つ職人が与えられる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004253</GUID>
+      <!-- Text | Increases the productivity of incense workshops and turban weavers | Increases the productivity of incense workshops and turban weavers -->
+      <Text>香工房とターバン織り手の生産性を上げる</Text>
+    </Text>
+    <Text>
+      <GUID>1404004254</GUID>
+      <!-- EffectContainer | Sultan's Treasury | Sultan's Treasury -->
+      <Text>スルタンの宝物庫</Text>
+    </Text>
+    <Text>
+      <GUID>1404004255</GUID>
+      <!-- Text | The court collects its dues in gold, and every envoy knows that tribute is expected. | The court collects its dues in gold, and every envoy knows that tribute is expected. -->
+      <Text>宮廷は税を金で取り立て、使者は皆、貢ぎ物が求められていることを知っている。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004257</GUID>
+      <!-- Text | Increases the taxes of Envoys | Increases the taxes of Envoys -->
+      <Text>使者の税収を増やす</Text>
+    </Text>
+    <Text>
+      <GUID>1404004258</GUID>
+      <!-- EffectContainer | Court Splendour | Court Splendour -->
+      <Text>宮廷の華やぎ</Text>
+    </Text>
+    <Text>
+      <GUID>1404004259</GUID>
+      <!-- Text | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. | Fountains, tiled courtyards and gilded domes remind every guest of the palace they live beside. -->
+      <Text>噴水、タイル張りの中庭、金色のドームが、宮殿のそばに暮らしていることを客人に思い出させる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004261</GUID>
+      <!-- Text | Increases the happiness of palace envoys | Increases the happiness of palace envoys -->
+      <Text>宮殿の使者の幸福度を上げる</Text>
+    </Text>
+    <Text>
+      <GUID>1404004262</GUID>
+      <!-- EffectContainer | Palace Service | Palace Service -->
+      <Text>宮殿の務め</Text>
+    </Text>
+    <Text>
+      <GUID>1404004263</GUID>
+      <!-- Text | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. | Scribes, guards and stewards: a palace needs many hands, and they are proud to serve. -->
+      <Text>書記、衛兵、執事――宮殿には多くの人手が要り、彼らは誇りを持って仕える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004265</GUID>
+      <!-- Text | Increases the workforce of palace envoys | Increases the workforce of palace envoys -->
+      <Text>宮殿の使者の労働力を増やす</Text>
+    </Text>
+    <Text>
+      <GUID>1404004266</GUID>
+      <!-- EffectContainer | Court Economy | Court Economy -->
+      <Text>宮廷の倹約</Text>
+    </Text>
+    <Text>
+      <GUID>1404004267</GUID>
+      <!-- Text | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. | Even at court, the grand vizier counts every bolt of cloth and every grain of incense. -->
+      <Text>宮廷においてさえ、大宰相は布の一反、香の一粒まで数える。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004269</GUID>
+      <!-- Text | Reduces the consumption of incense and turbans for palace envoys | Reduces the consumption of incense and turbans for palace envoys -->
+      <Text>宮殿の使者の香とターバンの消費量を減らす</Text>
+    </Text>
+    <Text>
+      <GUID>1404009200</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q08_envoys_600 | A Beacon on the Horizon -->
+      <Text>水平線の灯り</Text>
+    </Text>
+    <Text>
+      <GUID>1404009201</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q09_lighthouse | Light over the Reefs -->
+      <Text>岩礁を照らす光</Text>
+    </Text>
+    <Text>
+      <GUID>1404009210</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q12_envoys_6000 | Seekers of Knowledge -->
+      <Text>知を求める者たち</Text>
+    </Text>
+    <Text>
+      <GUID>1404009211</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q13_research_outpost | A House of Knowledge -->
+      <Text>知の館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009212</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q14_scholars_300 | Scholars in the Desert -->
+      <Text>砂漠の学者</Text>
+    </Text>
+    <Text>
+      <GUID>1404009213</GUID>
+      <!-- A7_QuestStatusQuo | Orient_Q15_sultans_palace | A Palace for the Sultan -->
+      <Text>スルタンのための宮殿</Text>
+    </Text>
+    <Text>
+      <GUID>1404009220</GUID>
+      <!-- Text | Orient_Q08_envoys_600_Questbook | Word of your city has reached the ports of the sultanate, and more and more envoys are crossing the sea to see it with their own eyes. The captains, however, complain about the treacherous reefs and shifting sandbanks around your islands. The Diwan has promised the plans for a great lighthouse once enough envoys live in your city to justify such an expense. -->
+      <Text>あなたの都市の評判はスルタン国の港にまで届き、自分の目で見ようと海を渡ってくる使者はますます増えています。しかし船長たちは、あなたの島々を取り巻く危険な岩礁と移ろう砂州に不満を漏らしています。ディワンは、その出費に見合うだけの使者があなたの都市に住むようになれば、大灯台の設計図を送ると約束しました。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009221</GUID>
+      <!-- Text | Orient_Q09_lighthouse_Questbook | The Diwan has kept its word: the plans for an Oriental Lighthouse have arrived, sealed with the Grand Vizier's own stamp. Its fire will guide merchant ships safely into your harbour by night, and its beacons can strengthen entire fleets. First lay the foundations on the coast, on solid rock and not on sand, as the master builders insist. -->
+      <Text>ディワンは約束を守りました。大宰相自らの印章で封をされた東洋の灯台の設計図が届いたのです。その炎は夜の商船を安全にあなたの港へ導き、その灯火は艦隊全体を強化することができます。まずは海岸に基礎を築きましょう。棟梁たちが言うとおり、砂の上ではなく固い岩の上に。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009230</GUID>
+      <!-- Text | Orient_Q12_envoys_6000_Questbook | Your city has become the jewel of the sultanate, and its fame has travelled far beyond the desert. Scholars from distant lands have asked whether they may study the ancient libraries of the sultanate, the stars above the dunes and the secrets of the norias. The Diwan will only grant their request once your city is large enough to welcome envoys of every rank. -->
+      <Text>あなたの都市はスルタン国の宝石となり、その名声は砂漠のはるか彼方まで届いています。遠い国の学者たちが、スルタン国の古い図書館や砂丘の上の星々、そしてノリアの秘密を研究させてほしいと願い出ています。ディワンがその願いを聞き入れるのは、あなたの都市があらゆる位の使者を迎えられるほど大きくなってからです。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009231</GUID>
+      <!-- Text | Orient_Q13_research_outpost_Questbook | The scholars' request has been granted. Build a Research Outpost where they can live and work among the envoys and nomads, and where the knowledge of East and West can meet. -->
+      <Text>学者たちの願いが聞き入れられました。使者や遊牧民に交じって暮らし、働くことができ、東西の知が出会う場所となる研究前哨基地を建設しましょう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009232</GUID>
+      <!-- Text | Orient_Q14_scholars_300_Questbook | The first scholars have arrived at the Research Outpost and are poring over star charts, old manuscripts and the secrets of the norias. Word has spread among the universities of the Old World. Give more scholars a home in Wadi Al Zahir, and the Sultan may soon take notice of a city that has become a meeting place of faith, trade and science. -->
+      <Text>最初の学者たちが研究前哨基地に到着し、星図や古い写本、ノリアの秘密に没頭しています。その噂は旧世界の大学にも広まりました。Wadi Al Zahir にさらに多くの学者を住まわせれば、信仰と交易と科学が出会う場所となったこの都市に、スルタンもまもなく目を留めることでしょう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009233</GUID>
+      <!-- Text | Orient_Q15_sultans_palace_Questbook | The Sultan is so impressed by your city that he wishes to reside here himself for part of the year. The Grand Vizier has sent the plans for a Sultan's Palace, together with a long list of demands from the court. Build the palace, and your city will be second to none in the whole sultanate. -->
+      <Text>スルタンはあなたの都市にいたく感銘を受け、一年のうちしばらくを自らここで過ごしたいと望んでいます。大宰相は、宮廷からの長い要望書とともにスルタンの宮殿の設計図を送ってきました。宮殿を建てれば、あなたの都市はスルタン国のどこにも引けを取らないものとなるでしょう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009240</GUID>
+      <!-- Text | Orient_Quest_Hint_Bedouin_Camp | The Bedouin Camp can be expanded with Bedouin Nomad Quarters. Its decrees let you adapt the camp to the needs of your Nomads. -->
+      <Text>ベドウィンの野営地は、ベドウィンの遊牧民の住居で拡張できます。その布告を使えば、野営地を遊牧民のニーズに合わせられます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009241</GUID>
+      <!-- Text | Orient_Quest_Hint_Lighthouse | The Oriental Lighthouse is built in several phases, each unlocked by a growing number of Envoys. Once complete, a beacon placed in it strengthens all of your ships. -->
+      <Text>東洋の灯台はいくつかの段階に分けて建設され、各段階は使者の人口が増えるにつれて解放されます。完成後は、中に設置した灯火があなたのすべての船を強化します。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009242</GUID>
+      <!-- Text | Orient_Quest_Hint_Research_Outpost | The Research Outpost can be expanded with residences for Scholars. -->
+      <Text>研究前哨基地は、学者の住居で拡張できます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009243</GUID>
+      <!-- Text | Orient_Quest_Hint_Scholars | Scholars live in the residences of the Research Outpost. Fulfil their needs to attract more of them. -->
+      <Text>学者は研究前哨基地の住居に住んでいます。ニーズを満たして、さらに多くの学者を呼び寄せましょう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404009244</GUID>
+      <!-- Text | Orient_Quest_Hint_Sultans_Palace | The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city. -->
+      <Text>スルタンの宮殿は宮殿の使者の住居で拡張でき、その布告はあなたの都市に強力なボーナスをもたらします。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005139</GUID>
+      <!-- Text | <Key> | The Sultan must be able to recognize whether your city has reached the required size to house such a building. -->
+      <Text>スルタンは、あなたの街がそのような構造を収容するために必要なサイズに達しているかどうかを見ることができる必要があります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005138</GUID>
+      <!-- Text | <Key> | Sultan licenses required -->
+      <Text>スルタンのライセンスが必要</Text>
+    </Text>
+    <Text>
+      <GUID>1404005142</GUID>
+      <!-- Text | <Key> | There are no tourists in the Orient, as outsiders are not welcome. -->
+      <Text>オリエントには観光客がいません。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005141</GUID>
+      <!-- Text | <Key> | No Attractiveness in the Orient -->
+      <Text>オリエントの魅力なし</Text>
+    </Text>
+    <Text>
+      <GUID>1404005143</GUID>
+      <!-- Text | <Key> | Beacon -->
+      <Text>軽いビーコン</Text>
+    </Text>
+    <Text>
+      <GUID>1404005144</GUID>
+      <!-- Text | <Key> | Effects -->
+      <Text>効果</Text>
+    </Text>
+    <Text>
+      <GUID>1404005145</GUID>
+      <!-- Text | <Key> | The effect of this beacon applies to all regions. -->
+      <Text>このビーコンの効果は、すべての地域に影響を及ぼします。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005146</GUID>
+      <!-- Text | <Key> | All ships of this ship type, as well as special ships belonging to this ship type, are affected. -->
+      <Text>このタイプの船舶・船舶の船舶・特殊船舶の全ての船舶が影響を受ける。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005147</GUID>
+      <!-- Text | <Key> | Must be provided through a channel. -->
+      <Text>チャンネルを通して提供される必要があります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005150</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>水源が枯れないよう、ノリア同士の距離を保たなければなりません。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005149</GUID>
+      <!-- Text | <Key> | <Translation> -->
+      <Text>他のノリアへの距離</Text>
+    </Text>
+    <Text>
+      <GUID>1404005152</GUID>
+      <!-- Text | <Key> | The lighthouse requires a lens to trigger its effect all over the world. -->
+      <Text>灯台が世界中で効果を発揮するにはレンズが必要です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005151</GUID>
+      <!-- Text | <Key> | Beacon required -->
+      <Text>灯火が必要</Text>
+    </Text>
+    <Text>
+      <GUID>1404009400</GUID>
+      <!-- Mall | Oriental Embassy | Oriental Embassy -->
+      <Text>東洋大使館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009401</GUID>
+      <!-- TownhallBuff | Oriental Embassy | Oriental Embassy -->
+      <Text>東洋大使館</Text>
+    </Text>
+    <Text>
+      <GUID>1404009402</GUID>
+      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
+      <Text>島ごとに1つまで。スルタンの印章を消費します。島内のすべての住宅の税収が10%増加し、東洋の商品が一部の地元商品としても扱われます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005154</GUID>
+      <!-- Text | <Key> | Module Production -->
+      <Text>モジュールの生産</Text>
+    </Text>
+    <Text>
+      <GUID>1404005155</GUID>
+      <!-- Text | <Key> | [FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] has to be produced in [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text] -->
+      <Text>[FactoryAssetData([Selection Object ModuleOwner DefaultModuleGUID]) Production AT(0) Text] 作り出すために [AssetData([Selection Object ModuleOwner DefaultModuleGUID]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404005156</GUID>
+      <!-- Text | <Key> | Running Modules -->
+      <Text>モジュールの実行</Text>
+    </Text>
+    <Text>
+      <GUID>1404005157</GUID>
+      <!-- Text | <Key> | Through strenuous labor, workers stomp the soft clay into a hard building material. -->
+      <Text>重労働によって、労働者は柔らかい粘土を踏み固め、硬い建材に変えます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005160</GUID>
+      <!-- Text | Consumption | Consumption -->
+      <Text>消費</Text>
+    </Text>
+    <Text>
+      <GUID>1404005161</GUID>
+      <!-- Text | Effects | Effects -->
+      <Text>効果</Text>
+    </Text>
+    <Text>
+      <GUID>1404005162</GUID>
+      <!-- Text | Residences, whose need for | Residences, whose need for -->
+      <Text>以下の需要が満たされた住居は</Text>
+    </Text>
+    <Text>
+      <GUID>1404005163</GUID>
+      <!-- Text | is fulfilled, receive | is fulfilled, receive -->
+      <Text>以下を受け取る</Text>
+    </Text>
+    <Text>
+      <GUID>1404005164</GUID>
+      <!-- Text | Limited to one per island | Limited to one per island -->
+      <Text>1つの島で1つに限られている</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -31,6 +31,7 @@
     <Include File="texts/assets__index.xml" />
     <Include File="triggers/assets__index.xml" />
     <Include File="units/assets__index.xml" />
+    <Include File="infotips/assets__index.xml" />
 
     <Include File="assets_ai.xml" />
     <Include File="assets_animal_config_orient.xml" />
@@ -43,5 +44,5 @@
     <Include File="assets_region.xml" />
     <Include File="assets_session.xml" />
     <Include File="assets_worldmap.xml" />
-
+    
 </ModOps>

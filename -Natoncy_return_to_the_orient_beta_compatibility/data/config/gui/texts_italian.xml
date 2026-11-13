@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404003212</GUID>
+      <!-- trading_company_orient | Silver Ore Import Dock -->
+      <Text>Dock di importazione: Minerale d'argento</Text>
+    </Text>
+    <Text>
+      <GUID>1404003909</GUID>
+      <!-- trading_company_orient | Import Dock: Agates -->
+      <Text>Dock di importazione: Agate</Text>
+    </Text>
+  </ModOp>
+</ModOps>

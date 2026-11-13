@@ -1,0 +1,386 @@
+<ModOps>
+
+    <!-- Building feedback units: .fc actors reference Inhabitant assets, not the TrafficFeedbackUnits above.
+         Copies of the vanilla Enbesa inhabitants on the Orient reskins, same variation order as the base. -->
+
+    <!-- AF | Production Generic Worker M Normal  (vanilla 117766) -->
+    <ModOp Type="addNextSibling" GUID="117766">
+        <Asset>
+            <BaseAssetGUID>117766</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002040</GUID>
+                    <Name>Orient | Building Generic Worker M Normal</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_02/production_generic_worker_colony_02_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_03/production_generic_worker_colony_02_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_06/production_generic_worker_colony_02_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Production Generic Worker M Muscular  (vanilla 117767) -->
+    <ModOp Type="addNextSibling" GUID="117767">
+        <Asset>
+            <BaseAssetGUID>117767</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002041</GUID>
+                    <Name>Orient | Building Generic Worker M Muscular</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_01/production_generic_worker_colony_02_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_04/production_generic_worker_colony_02_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_02_05/production_generic_worker_colony_02_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Production Generic Worker F Normal  (vanilla 117768) -->
+    <ModOp Type="addNextSibling" GUID="117768">
+        <Asset>
+            <BaseAssetGUID>117768</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002042</GUID>
+                    <Name>Orient | Building Generic Worker F Normal</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_f_normal_02_01/production_generic_worker_colony_02_f_normal_02_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_f_normal_02_02/production_generic_worker_colony_f_normal_02_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Production Generic Worker F Large  (vanilla 117769) -->
+    <ModOp Type="addNextSibling" GUID="117769">
+        <Asset>
+            <BaseAssetGUID>117769</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002043</GUID>
+                    <Name>Orient | Building Generic Worker F Large</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_f_large_02_01/production_generic_worker_colony_02_f_large_01_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/production_generic_worker_colony_f_large_02_02/production_generic_worker_colony_02_f_large_01_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Street Feedback Worker  (vanilla 117770) -->
+    <ModOp Type="addNextSibling" GUID="117770">
+        <Asset>
+            <BaseAssetGUID>117770</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002044</GUID>
+                    <Name>Orient | Building Street Feedback Worker</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/street_feedback_worker/worker_normal_m_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/street_feedback_worker/worker_normal_m_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/street_feedback_worker/worker_normal_m_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/street_feedback_worker/worker_normal_m_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/production/street_feedback_worker/worker_normal_m_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 01 - Large Female  (vanilla 117771) -->
+    <ModOp Type="addNextSibling" GUID="117771">
+        <Asset>
+            <BaseAssetGUID>117771</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002045</GUID>
+                    <Name>Orient | Building Tier 01 Large Female</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_large_f_01/residence_colony_02_tier_01_large_f_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_large_f_02/residence_colony_02_tier_01_large_f_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 01 - Normal Female  (vanilla 117773) -->
+    <ModOp Type="addNextSibling" GUID="117773">
+        <Asset>
+            <BaseAssetGUID>117773</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002046</GUID>
+                    <Name>Orient | Building Tier 01 Normal Female</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_normal_f_01/residence_colony_02_tier01_normal_f_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_normal_f_02/residence_colony_02_tier01_normal_f_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 01 - Normal Male  (vanilla 117775) -->
+    <ModOp Type="addNextSibling" GUID="117775">
+        <Asset>
+            <BaseAssetGUID>117775</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002047</GUID>
+                    <Name>Orient | Building Tier 01 Normal Male</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_normal_m_01/residence_colony_02_tier01_normal_m_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_normal_m_02/residence_colony_02_tier01_normal_m_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 01 - Muscular Male  (vanilla 117777) -->
+    <ModOp Type="addNextSibling" GUID="117777">
+        <Asset>
+            <BaseAssetGUID>117777</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002048</GUID>
+                    <Name>Orient | Building Tier 01 Muscular Male</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_muscular_m_01/residence_colony_02_tier_01_muscular_m_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_muscular_m_02/residence_colony_02_tier_01_muscular_m_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 01 - Child  (vanilla 117779) -->
+    <ModOp Type="addNextSibling" GUID="117779">
+        <Asset>
+            <BaseAssetGUID>117779</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002049</GUID>
+                    <Name>Orient | Building Tier 01 Child</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_01_small_f_01/residence_colony_02_tier_01_small_f_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_small_m_01/residence_colony_02_tier_02_small_m_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 02 - Large Female  (vanilla 117772) -->
+    <ModOp Type="addNextSibling" GUID="117772">
+        <Asset>
+            <BaseAssetGUID>117772</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002050</GUID>
+                    <Name>Orient | Building Tier 02 Large Female</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_large_f_01/residence_colony_02_tier_02_large_f_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_large_f_02/residence_colony_02_tier_02_large_f_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 02 - Normal Female  (vanilla 117774) -->
+    <ModOp Type="addNextSibling" GUID="117774">
+        <Asset>
+            <BaseAssetGUID>117774</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002051</GUID>
+                    <Name>Orient | Building Tier 02 Normal Female</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_normal_f_01/residence_colony_02_tier02_normal_f_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_normal_f_02/residence_colony_02_tier02_normal_f_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 02 - Normal Male  (vanilla 117776) -->
+    <ModOp Type="addNextSibling" GUID="117776">
+        <Asset>
+            <BaseAssetGUID>117776</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002052</GUID>
+                    <Name>Orient | Building Tier 02 Normal Male</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_normal_m_01/residence_colony_02_tier02_normal_m_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_normal_m_02/residence_colony_02_tier02_normal_m_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 02 - Muscular Male  (vanilla 117778) -->
+    <ModOp Type="addNextSibling" GUID="117778">
+        <Asset>
+            <BaseAssetGUID>117778</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002053</GUID>
+                    <Name>Orient | Building Tier 02 Muscular Male</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_muscular_m_01/residence_colony_02_tier_02_muscular_m_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_muscular_m_02/residence_colony_02_tier_02_muscular_m_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Resident Tier 02 - Child  (vanilla 117780) -->
+    <ModOp Type="addNextSibling" GUID="117780">
+        <Asset>
+            <BaseAssetGUID>117780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002054</GUID>
+                    <Name>Orient | Building Tier 02 Child</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_small_f_01/residence_colony_02_tier_02_small_f_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/residents/residence_colony_02_tier_02_small_m_01/residence_colony_02_tier_02_small_m_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AF | Traveling Vendor  (vanilla 123781) -->
+    <ModOp Type="addNextSibling" GUID="123781">
+        <Asset>
+            <BaseAssetGUID>123781</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404002055</GUID>
+                    <Name>Orient | Building Traveling Vendor</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/units/orient/inhabitants/special/traveling_vendor/colony_02_traveling_vendor.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

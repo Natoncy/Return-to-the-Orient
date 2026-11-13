@@ -1,0 +1,41 @@
+<ModOps>
+
+    <!-- clone of vanilla 118722 "AF | Stray Animals" - standalone, NOT BaseAssetGUID; vanilla goats and
+    chicken plus the camel (weight 300 = the three goats together) -->
+    <ModOp Type="addNextSibling" GUID="118722">
+        <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404002109</GUID>
+                    <Name>Orient | Stray Animals</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_elephant.png</IconFilename>
+                </Standard>
+                <TrafficFeedbackClass>
+                    <UnitAssets>
+                        <Item>
+                            <UnitAsset>118719</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>118720</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>118721</UnitAsset>
+                        </Item>
+                        <Item>
+                            <UnitAsset>1404002039</UnitAsset>
+                            <RelativeProbability>300</RelativeProbability>
+                        </Item>
+                        <Item>
+                            <UnitAsset>142551</UnitAsset>
+                            <RelativeProbability>200</RelativeProbability>
+                        </Item>
+                    </UnitAssets>
+                    <AllowedReactions>Talk;DangerAvoiding;DummyLayDown</AllowedReactions>
+                    <ClassFlags>InhabitsTier1Building;IsChild;IsAnimal</ClassFlags>
+                </TrafficFeedbackClass>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

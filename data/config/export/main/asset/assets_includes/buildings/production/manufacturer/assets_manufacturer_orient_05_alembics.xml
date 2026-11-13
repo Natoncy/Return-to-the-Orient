@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404005113</GUID>
 					<Name>smith_orient_02 (alembics)</Name>
-					<IconFilename>data\ui\modgraphics\icon_alembic.png</IconFilename>
+					<IconFilename>data/graphics/icons/products/icon_alembic.png</IconFilename>
 					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>
@@ -53,7 +53,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>12</Amount>
 						</Item>
 						<Item>
@@ -204,7 +204,11 @@
 					<Attractiveness>0</Attractiveness>
 				</Culture>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 				<RecipeBuilding>
 					<RecipeList>1404008001</RecipeList>

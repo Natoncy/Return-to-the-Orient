@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000250</GUID>
+      <!-- Product | hookahs | Hookahs -->
+      <Text>Fajki wodne</Text>
+    </Text>
+    <Text>
+      <GUID>1404000251</GUID>
+      <!-- Text | hookahs fluff text | Like cigarettes but bulkier. -->
+      <Text>Podobnie jak papierosy, ale bardziej masywne.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000252</GUID>
+      <!-- Text | Calms the nerves after a stormy night at sea. | Calms the nerves after a stormy night at sea. -->
+      <Text>Uspokaja nerwy po burzliwej nocy na morzu.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

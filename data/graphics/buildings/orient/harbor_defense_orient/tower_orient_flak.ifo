@@ -1,23 +1,23 @@
 <Info>
-  <BoundingBox>
-    <Name>BoundingBox</Name>
-    <Position>
-      <xf>0</xf>
-      <yf>0.8742049</yf>
-      <zf>0</zf>
-    </Position>
-    <Rotation>
-      <xf>0</xf>
-      <yf>0</yf>
-      <zf>0</zf>
-      <wf>1</wf>
-    </Rotation>
-    <Extents>
-      <xf>2.25</xf>
-      <yf>1.416093</yf>
-      <zf>2.25</zf>
-    </Extents>
-  </BoundingBox>
+  	<BoundingBox>
+		<Name>BoundingBox</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>0.8742</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2.25</xf>
+			<yf>1.4161</yf>
+			<zf>2.25</zf>
+		</Extents>
+	</BoundingBox>
   <MeshBoundingBox>
     <Name>MeshBoundingBox</Name>
     <Position>
@@ -57,6 +57,26 @@
       <zf>1.351407</zf>
     </Extents>
   </IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_1</Name>
+		<Position>
+			<xf>-0.0047</xf>
+			<yf>0.125</yf>
+			<zf>0.0029</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1.6366</xf>
+			<yf>0.125</yf>
+			<zf>1.6458</zf>
+		</Extents>
+	</IntersectBox>
   <Dummy>
     <Name>hit_concrete_0</Name>
     <Position>

@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005134</GUID>
                     <Name>Recipe_Astrolabes</Name>
-                    <IconFilename>data\ui\modgraphics\icon_astrolabe.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_astrolabe.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1404005131</TextOverride>
@@ -15,8 +15,13 @@
                 <Recipe>
                     <RecipeBuilding>1404005130</RecipeBuilding>
                     <RecipeDescriptionText>1404005135</RecipeDescriptionText>
-                    <RecipeImage>data/ui/modgraphics/astrolabio_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/astrolabio_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>400</PosX>
+                            <PosY>70</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
                         <Item>
                             <PosX>350</PosX>
                             <PosY>400</PosY>
@@ -26,11 +31,6 @@
                             <PosX>50</PosX>
                             <PosY>15</PosY>
                             <UICirclePointer>SouthEast</UICirclePointer>
-                        </Item>
-                        <Item>
-                            <PosX>400</PosX>
-                            <PosY>70</PosY>
-                            <UICirclePointer>SouthWest</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                     <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>

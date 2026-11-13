@@ -34,5 +34,37 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004889</GUID>
+					<Name>Ramadan_Effect_Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004891</GUID>
+					<Name>Zuckerfest_Effect_Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
     </ModOp>
 </ModOps>

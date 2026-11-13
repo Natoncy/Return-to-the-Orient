@@ -1,0 +1,227 @@
+<ModOps>
+
+    <!-- Oriental Embassy: Old World Mall in the Investors menu (after the department store).
+         Once per island (BuildingUnique Mod4/Area; Mall template gets BuildingUnique in templates.xml).
+         Consumes Sultan's Seals (like the silo consumes grain) and gives all residences on the island (scope Area)
+         buff 1404009401 (buffs/assets_embassy_buff.xml): Orient good fulfilled => vanilla good fulfilled, +10% taxes.
+         Model: buildings/orient/oriental_embassy (former IAAM Test variation 2, quay + market props removed, 6x4,
+         Old World cobble ground; generators in .misc_data/tools/oriental_embassy).
+         Unlocked with Sultan's Seals (consulate pool 1404000768). -->
+    <ModOp Type="addNextSibling" GUID="135100">
+        <Asset>
+            <Template>Mall</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009400</GUID>
+                    <Name>Oriental Embassy</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_oriental_embassy.png</IconFilename>
+                    <InfoDescription>1404009402</InfoDescription>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/oriental_embassy/oriental_embassy.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Mall</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Mall</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Mall</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>80</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Mall</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Mall</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Mall</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oriental Embassy</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1404000207</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>120</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>85</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>250</Amount>
+                            <InactiveAmount>125</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010116</Product>
+                            <Amount>1000</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
+                <AmbientMoodProvider>
+                    <Murmur>None</Murmur>
+                </AmbientMoodProvider>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                </Attackable>
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>1404009401</ProductivityBuff>
+                            <!-- buff switches on above Up and off below Down (productivity 0..1, like the coffee houses) -->
+                            <ProductivityThresholdUp>0.7</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.4</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <!-- whole island (Area), like UniqueScope -->
+                    <ProductionBuffScope>Area</ProductionBuffScope>
+                    <ProvidesPublicServiceNeed>0</ProvidesPublicServiceNeed>
+                </BuffFactory>
+                <RecipeBuilding />
+                <BuildingUnique>
+                    <Uniques>
+                        <Item>
+                            <UniqueType>Mod16</UniqueType>
+                            <UniqueScope>Area</UniqueScope>
+                        </Item>
+                    </Uniques>
+                </BuildingUnique>
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- description -->
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009402</GUID>
+                    <Name>Oriental Embassy description</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Investors construction menu, after the department store -->
+    <ModOp Type="addNextSibling" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='135100']">
+        <Item>
+            <Building>1404009400</Building>
+        </Item>
+    </ModOp>
+
+</ModOps>

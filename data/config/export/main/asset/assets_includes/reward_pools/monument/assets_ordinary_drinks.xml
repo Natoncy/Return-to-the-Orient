@@ -8,15 +8,15 @@
                     <GUID>1404000753</GUID>
                     <Name>Ordinary Orient Drinks</Name>
                     <IconFilename>data/graphics/icons/monument_products/small_drinks.png</IconFilename>
-                    <InfoDescription>19632</InfoDescription>
+                    <InfoDescription>1404001202</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>114371</ItemLink>
+                            <ItemLink>1404000265</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>1404000265</ItemLink>
+                            <ItemLink>114371</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

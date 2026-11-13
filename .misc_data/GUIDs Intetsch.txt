@@ -1,8 +1,6 @@
 1404000845-1404000887
 1404005000+
 
-robocopy "D:\philipp\Return-to-the-Orient\Return-to-the-Orient" "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Anno 1800\mods\Return-to-the-Orient" /mir /mt:20
-
 NEW NEEDS
 ----------
 1404005012: Honey Module
@@ -139,8 +137,8 @@ INDUSTRY
 1404005004: Elmore Module MODERATE
 1404005005: Elmore Module Buff Moderate
 1404005006: Elmore Module Buff Text
-1404005039: Sulfuric Acid
-1404005040: Sulfuric Acid Fluff
+DEPR 1404005039: Sulfuric Acid
+DEPR 1404005040: Sulfuric Acid Fluff
 
 OIL
 ----------
@@ -195,6 +193,13 @@ OTHER
 1404005127: Roasted Coffee ProductionChain
 1404005128: Roasted Coffee Recipe
 1404005129: Roasted Coffee Recipe Fluff
+1404005138-1404005147: InfoTip Fluff
+1404005148: Fake Input Sand
+1404005149-1404005152: InfoTip Fluff
+1404005153: InfoTip Fake Rammed Earth
+1404005154-1404005157: InfoTip Fluff
+1404005158: InfoTip Support 01
+1404005159: InfoTip Support 02
 
 SUBMODS
 ----------

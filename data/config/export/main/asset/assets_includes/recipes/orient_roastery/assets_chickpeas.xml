@@ -15,12 +15,12 @@
                 <Recipe>
                     <RecipeBuilding>1404005100</RecipeBuilding>
                     <RecipeDescriptionText>1404005107</RecipeDescriptionText>
-                    <RecipeImage>data/ui/modgraphics/roastedchickpeas_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/roastedchickpeas_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
-                            <PosX>45</PosX>
-                            <PosY>-15</PosY>
-                            <UICirclePointer>SouthEast</UICirclePointer>
+                            <PosX>375</PosX>
+                            <PosY>400</PosY>
+                            <UICirclePointer>West</UICirclePointer>
                         </Item>
                         <Item>
                             <PosX>385</PosX>
@@ -28,9 +28,9 @@
                             <UICirclePointer>SouthWest</UICirclePointer>
                         </Item>
                         <Item>
-                            <PosX>375</PosX>
-                            <PosY>400</PosY>
-                            <UICirclePointer>West</UICirclePointer>
+                            <PosX>45</PosX>
+                            <PosY>-15</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                     <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>

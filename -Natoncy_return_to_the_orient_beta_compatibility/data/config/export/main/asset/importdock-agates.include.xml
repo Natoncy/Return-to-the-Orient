@@ -1,0 +1,212 @@
+<ModOps>
+
+	<!-- Compatibility for saves from before the Orient agate river slots (older islands have no river slots): same dock, licenses into agates.
+	     8 per license like the honey and ebony docks (an Agate Collector makes 3 per 90 s). No mosaic in the cost:
+	     without agates such a save may have no way to make mosaic. -->
+	<ModOp Type="addNextSibling" GUID="1404003212">
+		<Asset>
+			<BaseAssetGUID>1404000382</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003909</GUID>
+					<Name>trading_company_orient (Agates Import Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_import_dock_agates.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/import_pier_orient.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003909</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Import Dock: Agates</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>16</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404009000</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1404003900</Product>
+							<Amount>8</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>90</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Module of the Orient trading company, after the silver ore dock -->
+	<ModOp Type="addNextSibling" GUID="1404003200" Path="/Values/ModuleOwner/ConstructionOptions/Item[ModuleGUID='1404003212']">
+		<Item>
+			<ModuleGUID>1404003909</ModuleGUID>
+		</Item>
+	</ModOp>
+
+	<ModOp Type="add" GUID="193897,193480,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404003909</GUID>
+		</Item>
+	</ModOp>
+
+	<!-- New games: with the trading company (ceremonial sabers pool), like the silver ore dock -->
+	<ModOp Type="add" GUID="1404000765" Path="/Values/AssetPool/AssetList">
+		<Item>
+			<Asset>1404003909</Asset>
+		</Item>
+	</ModOp>
+
+	<!-- Existing saves: own triggers with the silver ore dock's conditions (2.1 = 300 Envoys, creative mode) -->
+	<ModOp Type="addNextSibling" GUID="1404003214">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404003910</GUID>
+					<Name>Orient Agates Import Dock unlock (300 Envoys)</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition/>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>1404000011</Context>
+								<CounterAmount>300</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1404003909</Asset>
+											</Item>
+										</UnlockAssets>
+										<UnhideAssets/>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+					<ResetTrigger>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<EmptyAutoCreateValue/>
+						</Values>
+					</ResetTrigger>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404003911</GUID>
+					<Name>Orient Agates Import Dock unlock (creative mode)</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Values>
+							<ConditionPropsNegatable/>
+							<Condition/>
+							<ConditionIsCreativeMode/>
+						</Values>
+						<Template>ConditionIsCreativeMode</Template>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1404003909</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+					<SubTriggers />
+					<ResetTrigger>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<EmptyAutoCreateValue/>
+						</Values>
+					</ResetTrigger>
+				</Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005117</GUID>
                     <Name>Recipe_Alembics</Name>
-                    <IconFilename>data\ui\modgraphics\icon_alembic.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_alembic.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1404005115</TextOverride>
@@ -15,7 +15,7 @@
                 <Recipe>
                     <RecipeBuilding>1404005113</RecipeBuilding>
                     <RecipeDescriptionText>1404005118</RecipeDescriptionText>
-                    <RecipeImage>data/ui/modgraphics/alambique_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/alambique_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>350</PosX>

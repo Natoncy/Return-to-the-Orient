@@ -1,0 +1,200 @@
+<ModOps>
+  <ModOp Path="//InfoTipData[Guid='25000020']//InfoElement[Text/Text='[ToolOneHelper InfoDescription([RefGuid]) Text]']" Type="addNextSibling">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <OperatorType>
+          <OperatorType>0</OperatorType>
+        </OperatorType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>2</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <ExpectedValueInt>1404009400</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+        </VisibilityElement>
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData([RefGuid]) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>1404005164</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <WarningType/>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <ChildCount>0</ChildCount>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005160</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[FactoryAssetData([RefGuid]) Consumption AT(0) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <Text>[FactoryAssetData([RefGuid]) Consumption AT(0) Text]</Text>
+          <Style />
+        </Text>
+        <Value>
+          <Text>[StaticData Factory CycleTimeRespectElectricity([RefGuid]) &gt;&gt; time]</Text>
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005161</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>12690</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>12690</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Text>+10%</Text>
+          <Style />
+        </Value>
+        <WarningType/>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005162</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>10</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>11</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[FactoryAssetData(1404005158) Production AT(#index0#) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[FactoryAssetData(1404005158) Production AT(#index0#) Text]</Text>
+            <Style />
+          </Text>
+          <WarningType />
+        </InfoElement>
+        <Source>[FactoryAssetData(1404005158) Production COUNT]</Source>
+        <Columns>2</Columns>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005163</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>10</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>11</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconText>[FactoryAssetData(1404005159) Production AT(#index0#) Icon]</IconText>
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[FactoryAssetData(1404005159) Production AT(#index0#) Text]</Text>
+            <Style />
+          </Text>
+          <WarningType />
+        </InfoElement>
+        <Source>[FactoryAssetData(1404005159) Production COUNT]</Source>
+        <Columns>2</Columns>
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+</ModOps>
+
+

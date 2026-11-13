@@ -12,6 +12,10 @@
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
+                            <Building>1404004865</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                        <Item>
                             <Building>1404000845</Building>
                         </Item>
                         <Item>
@@ -33,6 +37,9 @@
                             <Building>1404000159</Building>
                         </Item>
                         <Item>
+                            <Building>1404000203</Building>
+                        </Item>
+                        <Item>
                             <Building>1404000215</Building>
                         </Item>
                         <Item>
@@ -45,10 +52,7 @@
                             <Building>1404000300</Building>
                         </Item>
                         <Item>
-                            <Building>1404001298</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000203</Building>
+                            <Building>1404009002</Building>
                         </Item>
                         <Item>
                             <Building>1404000148</Building>
@@ -56,11 +60,12 @@
                         <Item>
                             <Building>1404000172</Building>
                         </Item>
-                        <!-- hidden for this release: Development group (IAAM Test, lighthouse, Sultan's palace)
                         <Item>
-                            <Building>1404004865</Building>
-                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
-                        </Item> -->
+                            <Building>1404000375</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404008108</Building>
+                        </Item>
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>

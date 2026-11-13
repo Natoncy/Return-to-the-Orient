@@ -1,0 +1,19 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404000238</GUID>
+      <!-- Product | ceremonial sabers | Ceremonial Sabers -->
+      <Text>Uroczyste szable</Text>
+    </Text>
+    <Text>
+      <GUID>1404000239</GUID>
+      <!-- Text | ceremonial sabers fluff text | Also usable for cutting. -->
+      <Text>Nadaje się również do cięcia.</Text>
+    </Text>
+    <Text>
+      <GUID>1404000240</GUID>
+      <!-- Text | Sharp enough to cut bandages, and much else besides. | Sharp enough to cut bandages, and much else besides. -->
+      <Text>Dość ostre, by ciąć bandaże – i wiele więcej.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005069</GUID>
                     <Name>Recipe_Lab_oud</Name>
-                    <IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_mushrooms.png</IconFilename>
                 </Standard>
                 <Text>
                     <TextOverride>1404005054</TextOverride>
@@ -15,7 +15,7 @@
                 <Recipe>
                     <RecipeBuilding>1404005053</RecipeBuilding>
                     <RecipeDescriptionText>1404005071</RecipeDescriptionText>
-                    <RecipeImage>data\ui\modgraphics\oud_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/oud_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>420</PosX>

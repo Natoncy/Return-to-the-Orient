@@ -23,9 +23,14 @@
                         <Item>
                             <Building>1404000172</Building>
                         </Item>
-
                         <Item>
                             <Building>1404000173</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000165</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005008</Building>
                         </Item>
                         <Item>
                             <Building>1404000295</Building>
@@ -34,23 +39,22 @@
                             <Building>1404000289</Building>
                         </Item>
                         <Item>
-                            <Building>1404000297</Building>
-                        </Item>
-                        <Item>
                             <Building>1404000296</Building>
                         </Item>
                         <Item>
                             <Building>1404000164</Building>
                         </Item>
                         <Item>
-                            <Building>1404000299</Building>
+                            <Building>1404000297</Building>
                         </Item>
                         <Item>
                             <Building>1404000298</Building>
                         </Item>
-                        
                         <Item>
                             <Building>1404001138</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004878</Building>
                         </Item>
                         <Item>
                             <Building>1404001139</Building>
@@ -59,10 +63,10 @@
                             <Building>1404001140</Building>
                         </Item>
                         <Item>
-                            <Building>1404001141</Building>
+                            <Building>1404004879</Building>
                         </Item>
                         <Item>
-                            <Building>1404000165</Building>
+                            <Building>1404004880</Building>
                         </Item>
                         <Item>
                             <Building>1404001142</Building>
@@ -71,29 +75,13 @@
                             <Building>1404001143</Building>
                         </Item>
                         <Item>
-                            <Building>1404001144</Building>
+                            <Building>1404004881</Building>
                         </Item>
                         <Item>
-                            <Building>1404001145</Building>
+                            <Building>1404004882</Building>
                         </Item>
-
                         <Item>
                             <Building>1404005085</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404005136</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404005024</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404005050</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404005037</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404005047</Building>
                         </Item>
                         <Item>
                             <Building>1404005105</Building>
@@ -102,7 +90,22 @@
                             <Building>1404005021</Building>
                         </Item>
                         <Item>
+                            <Building>1404005047</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005050</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005037</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005024</Building>
+                        </Item>
+                        <Item>
                             <Building>1404005122</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005136</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

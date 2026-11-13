@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005131</GUID>
                     <Name>astrolabes</Name>
-                    <IconFilename>data/ui/modgraphics/icon_astrolabe.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_astrolabe.png</IconFilename>
                     <InfoDescription>1404005133</InfoDescription>
                 </Standard>
                 <Locked />

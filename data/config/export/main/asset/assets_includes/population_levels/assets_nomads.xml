@@ -25,6 +25,21 @@
                             <Product>120020</Product>
                             <SupplyWeight>3</SupplyWeight>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Camp radius replaces the market for Bedouin Tents -->
+                        <Item>
+                            <Product>1404008102</Product>
+                            <SupplyWeight>7</SupplyWeight>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1888999749</Product>
@@ -34,6 +49,29 @@
                             <FullWeightPopulationCount>100</FullWeightPopulationCount>
                             <NoWeightPopulationCount>49</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Tents: hummus instead of dates, from the hummus unlock (300 Envoys) -->
+                        <Item>
+                            <Product>1404005087</Product>
+                            <Amount>0.0003125</Amount>
+                            <SupplyWeight>4</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>100</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>49</NoWeightPopulationCount>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>300</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1404000265</Product>
@@ -43,6 +81,29 @@
                             <FullWeightPopulationCount>300</FullWeightPopulationCount>
                             <NoWeightPopulationCount>199</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Tents: spiced tea instead of pomegranate juice, from the spiced tea unlock (1000 Envoys) -->
+                        <Item>
+                            <Product>1400201044</Product>
+                            <Amount>0.00048</Amount>
+                            <SupplyWeight>6</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>199</NoWeightPopulationCount>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>1000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1404000150</Product>
@@ -71,14 +132,38 @@
                             <FullWeightPopulationCount>350</FullWeightPopulationCount>
                             <NoWeightPopulationCount>299</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Tents: roasted chickpeas instead of rugs, from the roasted chickpeas unlock (300 Envoys) -->
+                        <Item>
+                            <Product>1400201065</Product>
+                            <Amount>0.0002</Amount>
+                            <HappinessValue>16</HappinessValue>
+                            <MoneyValue>24</MoneyValue>
+                            <FullWeightPopulationCount>350</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>300</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         
-                        <!-- Lifestyle -->
+                        <!-- Lifestyle: rewards on the vanilla Jornaleros scale (SupplyWeight 1-2, MoneyValue 11-16).
+                             The AGU is the count at which the good's production unlocks, like vanilla -->
                         <Item>
                             <Product>1010213</Product>
                             <Amount>0.0004</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>11</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000001</Population>
                                 <MinPopulationAmount>150</MinPopulationAmount>
@@ -101,8 +186,8 @@
                         <Item>
                             <Product>1010258</Product>
                             <Amount>0.0002</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>16</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000004</Population>
                                 <MinPopulationAmount>1750</MinPopulationAmount>
@@ -114,7 +199,7 @@
                             <Product>1010201</Product>
                             <Amount>0.00025</Amount>
                             <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <MoneyValue>11</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000001</Population>
                                 <MinPopulationAmount>1</MinPopulationAmount>
@@ -122,11 +207,24 @@
                             <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
                             <IsBonusNeed>1</IsBonusNeed>
                         </Item>
+                        <!-- Spice Powder: the Orient good of the next tier, like the Jornaleros' Felt (600 Obreros) -->
+                        <Item>
+                            <Product>1500301148</Product>
+                            <Amount>0.0002</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>14</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>600</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
                         <Item>
                             <Product>5400</Product>
                             <Amount>0.00015</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>14</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>1800</MinPopulationAmount>
@@ -137,7 +235,7 @@
                         <Item>
                             <Product>5384</Product>
                             <Amount>0.00025</Amount>
-                            <SupplyWeight>1</SupplyWeight>
+                            <SupplyWeight>2</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
@@ -214,6 +312,13 @@
         <Item>
             <PopulationGuid>1404000010</PopulationGuid>
             <PopulationFactor>1.9</PopulationFactor>
+        </Item>
+    </ModOp>
+
+    <!-- Lifestyle popup group: Spice Powder → Food and Drink -->
+    <ModOp Type="add" GUID="25000118" Path="Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs">
+        <Item>
+            <BonusNeed>1500301148</BonusNeed>
         </Item>
     </ModOp>
 

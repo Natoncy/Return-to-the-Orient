@@ -257,6 +257,182 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009220</GUID>
+                    <Name>Orient_Q08_envoys_600_Questbook</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Word of your city has reached the ports of the sultanate, and more and more envoys are crossing the sea to see it with their own eyes. The captains, however, complain about the treacherous reefs and shifting sandbanks around your islands. The Diwan has promised the plans for a great lighthouse once enough envoys live in your city to justify such an expense.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009221</GUID>
+                    <Name>Orient_Q09_lighthouse_Questbook</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Diwan has kept its word: the plans for an Oriental Lighthouse have arrived, sealed with the Grand Vizier's own stamp. Its fire will guide merchant ships safely into your harbour by night, and its beacons can strengthen entire fleets. First lay the foundations on the coast, on solid rock and not on sand, as the master builders insist.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009230</GUID>
+                    <Name>Orient_Q12_envoys_6000_Questbook</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Your city has become the jewel of the sultanate, and its fame has travelled far beyond the desert. Scholars from distant lands have asked whether they may study the ancient libraries of the sultanate, the stars above the dunes and the secrets of the norias. The Diwan will only grant their request once your city is large enough to welcome envoys of every rank.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009231</GUID>
+                    <Name>Orient_Q13_research_outpost_Questbook</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The scholars' request has been granted. Build a Research Outpost where they can live and work among the envoys and nomads, and where the knowledge of East and West can meet.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009232</GUID>
+                    <Name>Orient_Q14_scholars_300_Questbook</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The first scholars have arrived at the Research Outpost and are poring over star charts, old manuscripts and the secrets of the norias. Word has spread among the universities of the Old World. Give more scholars a home in Wadi Al Zahir, and the Sultan may soon take notice of a city that has become a meeting place of faith, trade and science.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009233</GUID>
+                    <Name>Orient_Q15_sultans_palace_Questbook</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Sultan is so impressed by your city that he wishes to reside here himself for part of the year. The Grand Vizier has sent the plans for a Sultan's Palace, together with a long list of demands from the court. Build the palace, and your city will be second to none in the whole sultanate.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009240</GUID>
+                    <Name>Orient_Quest_Hint_Bedouin_Camp</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Bedouin Camp can be expanded with Bedouin Nomad Quarters. Its decrees let you adapt the camp to the needs of your Nomads.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009241</GUID>
+                    <Name>Orient_Quest_Hint_Lighthouse</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Oriental Lighthouse is built in several phases, each unlocked by a growing number of Envoys. Once complete, a beacon placed in it strengthens all of your ships.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009242</GUID>
+                    <Name>Orient_Quest_Hint_Research_Outpost</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Research Outpost can be expanded with residences for Scholars.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009243</GUID>
+                    <Name>Orient_Quest_Hint_Scholars</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Scholars live in the residences of the Research Outpost. Fulfil their needs to attract more of them.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009244</GUID>
+                    <Name>Orient_Quest_Hint_Sultans_Palace</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Sultan's Palace can be expanded with Palace Envoy Quarters, and its decrees grant powerful bonuses to your city.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

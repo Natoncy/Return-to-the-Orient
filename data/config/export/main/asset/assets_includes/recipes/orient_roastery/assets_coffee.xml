@@ -15,7 +15,7 @@
                 <Recipe>
                     <RecipeBuilding>1404005124</RecipeBuilding>
                     <RecipeDescriptionText>1404005129</RecipeDescriptionText>
-                    <RecipeImage>data/ui/modgraphics/roastedcoffee_recipe_mood.png</RecipeImage>
+                    <RecipeImage>data/graphics/icons/products/roastedcoffee_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>90</PosX>

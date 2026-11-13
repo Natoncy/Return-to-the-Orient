@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404005130</GUID>
 					<Name>manufacturer_orient_06 (astrolabes)</Name>
-					<IconFilename>data\ui\modgraphics\icon_astrolabe.png</IconFilename>
+					<IconFilename>data/graphics/icons/products/icon_astrolabe.png</IconFilename>
 					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>
@@ -53,7 +53,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>12</Amount>
 						</Item>
 						<Item>
@@ -144,6 +144,11 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
+							<Product>1500010153</Product>
+							<Amount>2</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+						<Item>
 							<Product>1404005109</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
@@ -151,11 +156,6 @@
 						<Item>
 							<Product>1010249</Product>
 							<Amount>1</Amount>
-							<StorageAmount>4</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1500010153</Product>
-							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryInputs>
@@ -214,7 +214,11 @@
 					<Attractiveness>0</Attractiveness>
 				</Culture>
 				<QuestObject/>
-				<Electrifiable/>
+				<Electrifiable>
+					<ElectricityBoost>0</ElectricityBoost>
+					<ElectrifiedEffect>0</ElectrifiedEffect>
+					<ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+				</Electrifiable>
 				<EcoSystemProvider/>
 				<RecipeBuilding>
 					<RecipeList>1404000313</RecipeList>

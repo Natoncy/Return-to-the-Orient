@@ -720,7 +720,7 @@
 <IdCounter>46</IdCounter>
 <SplineData></SplineData>
 <FeedbackDefinition><FeedbackConfigs><i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[0   чЊ яяяяшЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[0   ш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -844,7 +844,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   мЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[    _ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -907,7 +907,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   пЊ яяяярЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   я^ЇSяяяяя^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -1124,7 +1124,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[P   чЊ яяяяшЊ яяяящЊ яяяяъЊ яяяяыЊ яяяяьЊ яяяяЙЏ яяяяКЏ яяяяйЊ яяяякЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[P   ш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяяш^ЇSяяяящ^ЇSяяяяы^ЇSяяяяъ^ЇSяяяяэ^ЇSяяяяэ^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -1199,7 +1199,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   ЭЊ яяяя]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   ш^ЇSяяяя]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>

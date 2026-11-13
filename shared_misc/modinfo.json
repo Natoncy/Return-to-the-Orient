@@ -1,0 +1,42 @@
+{
+  "Version": "1.0.0",
+  "ModID": "natoncy_return_to_the_orient_shared_misc",
+  "Category": {
+    "English": "SharedGroup",
+    "French": "SharedGroup",
+    "German": "SharedGroup",
+    "Italian": "SharedGroup",
+    "Japanese": "SharedGroup",
+    "Korean": "SharedGroup",
+    "Polish": "SharedGroup",
+    "Russian": "SharedGroup",
+    "Chinese": "SharedGroup",
+    "Spanish": "SharedGroup",
+    "Taiwanese": "SharedGroup"
+  },
+  "ModName": {
+    "English": "Return to the Orient - Shared Miscellaneous",
+    "French": "Return to the Orient - Shared Miscellaneous",
+    "German": "Return to the Orient - Shared Miscellaneous",
+    "Italian": "Return to the Orient - Shared Miscellaneous",
+    "Japanese": "Return to the Orient - Shared Miscellaneous",
+    "Korean": "Return to the Orient - Shared Miscellaneous",
+    "Polish": "Return to the Orient - Shared Miscellaneous",
+    "Russian": "Return to the Orient - Shared Miscellaneous",
+    "Chinese": "Return to the Orient - Shared Miscellaneous",
+    "Spanish": "Return to the Orient - Shared Miscellaneous",
+    "Taiwanese": "Return to the Orient - Shared Miscellaneous"
+  },
+  "ModDependencies": [
+    "jakob-skyscraper-button",
+    "decals-industry-jakob",
+    "shared_general_modules_kurila",
+    "neutral_hacienda_genshi",
+    "ObjectDummies_Serp",
+    "ow-tools-jakob",
+    "shared-pools-and-definitions",
+    "TooltipBugFixes_Serp",
+    "Taludas_shared_tradingcompany"
+  ],
+  "CreatorName": "Natoncy"
+}

@@ -1,0 +1,383 @@
+<ModOps>
+  <ModOp Type = "addNextSibling" Path = "//InfoTipData[Guid='25000084']/InfoElement[ElementType='16'][last()]">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>2</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>1</ElementType>
+          </ElementType>
+          <CompareOperator />
+          <ResultType>
+            <ResultType>1</ResultType>
+          </ResultType>
+          <ExpectedValueInt>1404007041</ExpectedValueInt>
+          <Condition>[ItemAssetData([RefGuid]) AllocationTextGUID]</Condition>
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005143</TextGUID>
+          <Style />
+        </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <Icon>
+          <IconGUID>501342</IconGUID>
+          <Style/>
+        </Icon>
+        <Text>
+          <TextGUID>22076</TextGUID>
+          <Style />
+        </Text>
+        <Value>
+          <Style />
+        </Value>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005145</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+      <!-- ALL -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007200</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007201</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007202</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007203</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <Icon>
+            <IconGUID>191454</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>191454</TextGUID>
+            <Style />
+          </Text>
+          <Value><Style /></Value>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+
+      <!-- SAIL -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType><ElementType>2</ElementType></ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007204</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007205</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007206</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007207</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <Icon><IconGUID>191455</IconGUID><Style /></Icon>
+          <Text>
+            <TextGUID>191455</TextGUID>
+            <Style />
+          </Text>
+          <Value><Style /></Value>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+
+      <!-- STEAM -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType><ElementType>2</ElementType></ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007208</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007209</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007210</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007211</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <Icon><IconGUID>191456</IconGUID><Style /></Icon>
+          <Text>
+            <TextGUID>191456</TextGUID>
+            <Style />
+          </Text>
+          <Value><Style /></Value>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+
+      <!-- MILITARY -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType><ElementType>2</ElementType></ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007212</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007213</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007214</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007215</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <Icon><IconGUID>12812</IconGUID><Style /></Icon>
+          <Text>
+            <TextGUID>191458</TextGUID>
+            <Style />
+          </Text>
+          <Value><Style /></Value>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+
+      <!-- AIR -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType><ElementType>2</ElementType></ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007216</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007217</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007218</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007219</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <Icon><IconGUID>115184</IconGUID><Style /></Icon>
+          <Text>
+            <TextGUID>4146</TextGUID>
+            <Style />
+          </Text>
+          <Value><Style /></Value>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+
+      <!-- SALVAGER -->
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>2</ChildCount>
+        <VisibilityElement>
+          <ElementType><ElementType>2</ElementType></ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007220</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007221</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007222</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <VisibilityElement>
+            <ElementType><ElementType>1</ElementType></ElementType>
+            <CompareOperator />
+            <ResultType><ResultType>1</ResultType></ResultType>
+            <ExpectedValueInt>1404007223</ExpectedValueInt>
+            <Condition>[RefGuid]</Condition>
+          </VisibilityElement>
+          <OperatorType>
+            <OperatorType>1</OperatorType>
+          </OperatorType>
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <Icon><IconGUID>112084</IconGUID><Style /></Icon>
+          <Text>
+            <TextGUID>112084</TextGUID>
+            <Style />
+          </Text>
+          <Value><Style /></Value>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>5</ElementType>
+        <Text>
+          <TextGUID>1404005146</TextGUID>
+          <Style />
+        </Text>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>6</ElementType>
+        <ChildCount>0</ChildCount>
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+</ModOps>
+
+
+
+
+
+

@@ -38,6 +38,9 @@
                         <Clay>
                             <Building>1404001285</Building>
                         </Clay>
+                        <River>
+                            <Building>1404003903</Building>
+                        </River>
                     </SlotBuildings>
                     <ConstructionMaterialList>
                         <Item>
@@ -62,7 +65,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-							<Asset>114402</Asset>
+							<Asset>1404009000</Asset>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -408,12 +411,13 @@
                             <PlantPercent>40</PlantPercent>
                         </Lumberjack>
                         <FirTrees>
-                            <GUID>133886</GUID>
+                            <!-- player-plantable trees = the region's LeafTrees/FirTrees slots; Palm Trees Orient copy -->
+                            <GUID>1404004870</GUID>
                             <PlantPercent>10</PlantPercent>
                         </FirTrees>
                     </Trees>
                     <HasAttractiveness>0</HasAttractiveness>
-                    <AttractivenessInfoTip>125183</AttractivenessInfoTip>
+                    <AttractivenessInfoTip>1404005140</AttractivenessInfoTip>
                     <Residence>1404000016</Residence>
                 </Region>
                 <Text>
@@ -637,7 +641,7 @@
                     </PerProgressLevelInfos>
                 </Item>
                 <Item>
-                    <Product>114402</Product>
+                    <Product>1404009000</Product>
                     <PerProgressLevelInfos>
                         <MidGame>
                             <ProducerBuildingCount>2</ProducerBuildingCount>
@@ -679,7 +683,7 @@
                     </PerProgressLevelInfos>
                 </Item>
                 <Item>
-                    <Product>114402</Product>
+                    <Product>1404009000</Product>
                     <PerProgressLevelInfos>
                         <MidGame>
                             <ProducerBuildingCount>2</ProducerBuildingCount>
@@ -728,7 +732,7 @@
                     </PerProgressLevelInfos>
                 </Item>
                 <Item>
-                    <Product>114402</Product>
+                    <Product>1404009000</Product>
                     <PerProgressLevelInfos>
                         <MidGame>
                             <ProducerBuildingCount>2</ProducerBuildingCount>

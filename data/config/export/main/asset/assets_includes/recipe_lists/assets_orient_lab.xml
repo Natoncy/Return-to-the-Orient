@@ -27,7 +27,7 @@
                         </Item>
                     </Recipes>
                     <RecipeListType>Laboratory</RecipeListType>
-                    <RecipeListMoodImage>data/ui/modgraphics/miclab_mood.png</RecipeListMoodImage>
+                    <RecipeListMoodImage>data/graphics/icons/products/miclab_mood.png</RecipeListMoodImage>
                     <RecipeListDescription>1404005075</RecipeListDescription>
                 </RecipeList>
             </Values>

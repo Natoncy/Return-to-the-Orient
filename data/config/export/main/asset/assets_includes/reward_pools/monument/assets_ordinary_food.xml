@@ -8,15 +8,15 @@
                     <GUID>1404000754</GUID>
                     <Name>Ordinary Orient Food</Name>
                     <IconFilename>data/graphics/icons/monument_products/small_food.png</IconFilename>
-                    <InfoDescription>19631</InfoDescription>
+                    <InfoDescription>1404001196</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>1010200</ItemLink>
+                            <ItemLink>1888999749</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>114359</ItemLink>
+                            <ItemLink>1400201065</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

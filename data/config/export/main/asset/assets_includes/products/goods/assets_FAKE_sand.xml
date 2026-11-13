@@ -1,0 +1,28 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="120022">
+    <Asset>
+        <Template>Product</Template>
+        <Values>
+            <Standard>
+                <GUID>1404005148</GUID>
+                <Name>FakeInput Sand</Name>
+                <IconFilename>data/graphics/icons/products/icon_fakeproduct_sand.png</IconFilename>
+                <InfoDescription>1404004892</InfoDescription>
+                <!--Product Description Electricity-->
+            </Standard>
+            <Text>
+                <TextOverride>1591</TextOverride>
+            </Text>
+            <Locked/>
+            <Product>
+                <StorageLevel>Area</StorageLevel>
+                <DeltaOnly>1</DeltaOnly>
+                <IsAbstract>1</IsAbstract>
+            </Product>
+            <ExpeditionAttribute/>
+        </Values>
+    </Asset>
+    </ModOp>
+
+</ModOps>

@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005050</GUID>
                     <Name>orient oud chain</Name>
-                    <IconFilename>data\ui\modgraphics\icon_oud_perfume.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_oud_perfume.png</IconFilename>
                 </Standard>
                 <ProductionChain>
                     <Building>1404005057</Building>
@@ -19,10 +19,10 @@
                                     <Building>1500010154</Building>
                                     <Tier3>
                                         <Item>
-                                            <Building>1010297</Building>
+                                            <Building>1010266</Building>
                                         </Item>
                                         <Item>
-                                            <Building>1010266</Building>
+                                            <Building>1010297</Building>
                                         </Item>
                                     </Tier3>
                                 </Item>
@@ -39,7 +39,7 @@
                                             <Building>1441202</Building>
                                         </Item>
                                         <Item>
-                                            <Building>1010266</Building>
+                                            <Building>101260</Building>
                                         </Item>
                                     </Tier3>
                                 </Item>
@@ -50,6 +50,11 @@
                             <Tier2>
                                 <Item>
                                     <Building>1404005112</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010308</Building>
+                                        </Item>
+                                    </Tier3>
                                 </Item>
                             </Tier2>
                         </Item>
@@ -63,7 +68,7 @@
                                     <Building>1441202</Building>
                                 </Item>
                                 <Item>
-                                    <Building>1441265</Building>
+                                    <Building>1010319</Building>
                                     <Tier3>
                                         <Item>
                                             <Building>1010560</Building>

@@ -1,0 +1,44 @@
+{
+  "Version": "1.3",
+  "ModID": "natoncy_sharedproduct_camels",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "sharedproduct_camels (Natoncy)",
+    "English": "sharedproduct_camels (Natoncy)",
+    "French": "sharedproduct_camels (Natoncy)",
+    "German": " sharedproduct_camels (Natoncy)",
+    "Italian": "sharedproduct_camels (Natoncy)",
+    "Japanese": "sharedproduct_camels (Natoncy)",
+    "Korean": "sharedproduct_camels (Natoncy)",
+    "Polish": "sharedproduct_camels (Natoncy)",
+    "Russian": "sharedproduct_camels (Natoncy)",
+    "Spanish": "sharedproduct_camels (Natoncy)",
+    "Taiwanese": "sharedproduct_camels (Natoncy)"
+  },
+  "Description": {
+    "English": "# Extra Goods \n\n Extra Goods implemented by me for use in some of my mods. \n\n - New product: Camels",
+    "German": "# Extra Goods \n\n Zusätzliche Waren, die von mir für einige meiner Mods implementiert wurden. \n\n - Neues Produkt: Kamele",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "CreatorName": "Natoncy"
+}

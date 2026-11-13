@@ -1,0 +1,29 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="7170">
+        <Asset>
+            <Template>RewardPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004893</GUID>
+                    <Name>Correct Orient Decoration</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+                    <InfoDescription>1404001214</InfoDescription>
+                </Standard>
+                <RewardPool>
+                    <ItemsPool>
+                        <Item>
+                            <ItemLink>114404</ItemLink>
+                        </Item>
+                        <Item>
+                            <ItemLink>1440209</ItemLink>
+                        </Item>
+                    </ItemsPool>
+                </RewardPool>
+                <Locked />
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

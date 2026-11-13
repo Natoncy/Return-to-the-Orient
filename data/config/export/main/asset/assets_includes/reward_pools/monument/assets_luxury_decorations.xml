@@ -8,15 +8,15 @@
                     <GUID>1404001217</GUID>
                     <Name>Luxury Orient Decoration</Name>
                     <IconFilename>data/graphics/icons/monument_products/large_decorations.png</IconFilename>
-                    <InfoDescription>19641</InfoDescription>
+                    <InfoDescription>1404001216</InfoDescription>
                 </Standard>
                 <RewardPool>
                     <ItemsPool>
                         <Item>
-                            <ItemLink>118724</ItemLink>
+                            <ItemLink>1404000241</ItemLink>
                         </Item>
                         <Item>
-                            <ItemLink>117699</ItemLink>
+                            <ItemLink>1440209</ItemLink>
                         </Item>
                     </ItemsPool>
                 </RewardPool>

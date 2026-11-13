@@ -88,6 +88,11 @@
                     <BoostedByIndustrialization>0</BoostedByIndustrialization>
                     <MandatoryIndustrialization>0</MandatoryIndustrialization>
                 </Industrializable>
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
             </Values>
         </Asset>
     </ModOp>

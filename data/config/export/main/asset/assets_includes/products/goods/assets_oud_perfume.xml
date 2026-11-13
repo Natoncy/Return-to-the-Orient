@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005059</GUID>
                     <Name>Oudh Perfume</Name>
-                    <IconFilename>data/ui/modgraphics/icon_oud_perfume.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_oud_perfume.png</IconFilename>
                     <InfoDescription>1404005064</InfoDescription>
                 </Standard>
                 <Locked />

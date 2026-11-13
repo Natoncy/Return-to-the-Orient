@@ -1,0 +1,44 @@
+<ModOps>
+  <!-- # Start - Product -->
+  <ModOp Type="addNextSibling" GUID="135134">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>2143505885</GUID>
+          <Name>Sulfuric Acid</Name>
+          <IconFilename>data/ui/icon_sulfuric_acid.png</IconFilename>
+        </Standard>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <BasePrice>750</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- # End - Product -->
+
+  <!-- # Start - Add to product lists -->
+	<ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010226']">
+    <Item>
+      <Product>2143505885</Product>
+    </Item>
+	</ModOp>
+  <ModOp GUID="502016,502065,502046,502020,502007" Type="add" Path="Values/ProductList/List/">
+    <Item>
+      <Product>2143505885</Product>
+    </Item>
+  </ModOp>
+  <!-- # End - Add to product lists -->
+</ModOps>

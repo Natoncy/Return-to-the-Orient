@@ -1,6 +1,6 @@
 <ModOps>
 
-    <!-- clone of vanilla 128109 "AF | Tier 01 Transport Wagon 02" - Orient driver, vanilla vehicle -->
+    <!-- clone of vanilla 128109 "AF | Tier 01 Transport Wagon 02" - Orient driver, camel instead of the ox -->
     <ModOp Type="addNextSibling" GUID="128109">
         <Asset>
             <Template>TrafficFeedbackUnit</Template>
@@ -12,7 +12,7 @@
                 </Standard>
                 <TrafficFeedbackUnit>
                     <UnitType>Vehicle</UnitType>
-                    <CfgPath>data/dlc06/graphics/vehicle/horse_drawn_carriage_colony02_02/horse_drawn_carriage_colony02_02_front.cfg</CfgPath>
+                    <CfgPath>data/graphics/vehicle/orient/horse_drawn_carriage_colony02_02/horse_drawn_carriage_colony02_02_front.cfg</CfgPath>
                     <SpeedSource>TakeFromAsset</SpeedSource>
                     <OverwriteSpeed>0.25</OverwriteSpeed>
                     <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>

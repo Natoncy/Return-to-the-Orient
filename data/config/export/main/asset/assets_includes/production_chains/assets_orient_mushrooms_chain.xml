@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404005056</GUID>
                     <Name>orient mushrooms chain</Name>
-                    <IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
+                    <IconFilename>data/graphics/icons/products/icon_mushrooms.png</IconFilename>
                 </Standard>
                 <ProductionChain>
                     <Building>1404005053</Building>
@@ -16,7 +16,7 @@
                             <Building>1441203</Building>
                         </Item>
                         <Item>
-                            <Building>1010266</Building>
+                            <Building>101260</Building>
                         </Item>
                         <Item>
                             <Building>1441202</Building>

@@ -590,7 +590,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[    øŒ ÿÿÿÿúŒ ÿÿÿÿùŒ ÿÿÿÿüŒ ÿÿÿÿ]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[    ø^¯Sÿÿÿÿù^¯Sÿÿÿÿø^¯Sÿÿÿÿù^¯Sÿÿÿÿ]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>
@@ -697,7 +697,7 @@
 <Description></Description>
 </i>
 <i><hasValue>1</hasValue>
-<AssetVariationList><GuidVariationList>CDATA[   øŒ ÿÿÿÿüŒ ÿÿÿÿ]</GuidVariationList>
+<AssetVariationList><GuidVariationList>CDATA[   ø^¯Sÿÿÿÿù^¯Sÿÿÿÿ]</GuidVariationList>
 <AssetGroupNames></AssetGroupNames>
 </AssetVariationList>
 <MainObject>0</MainObject>

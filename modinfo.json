@@ -1,5 +1,5 @@
 {
-  "Version": "0.6.0",
+  "Version": "0.6.2",
   "ModID": "natoncy_return_to_the_orient",
   "ModioResourceId": 6129743,
   "Category": {
@@ -45,70 +45,22 @@
     {
       "DLC": "LandOfLions",
       "Dependant": "required"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "required"
     }
   ],
   "ModDependencies": [
-    "Shared_Rosenwasser",
-    "Shared_Date",
-    "Shared_Roses",
-    "neutral_hacienda_genshi",
-    "import_storagelist_almonds_taludas",
-    "import_storagelist_ebony_taludas",
-    "import_storagelist_silkfabric_taludas",
-    "Intetsch_sharedproduct_pistachios",
-    "Intetsch_sharedproduct_copper_bar",
-    "Intetsch_sharedproduct_palm_wood",
-    "Intetsch_sharedproduct_spiced_tea",
-    "Intetsch_sharedproduct_lokum",
-    "Intetsch_sharedproduct_candied_dates",
-    "Intetsch_sharedproduct_chickpeas",
-    "Intetsch_sharedproduct_hummus",
-    "Intetsch_sharedproduct_aniseed",
-    "Intetsch_sharedproduct_roasted_chickpeas",
-    "Natoncy_shared_importdock_honey",
-    "natoncy_sharedproduct_camels",
-    "natoncy_sharedproduct_ceremonial_sabers",
-    "natoncy_sharedproduct_chandeliers",
-    "natoncy_sharedproduct_hookahs",
-    "natoncy_sharedproduct_kaftans",
-    "natoncy_sharedproduct_mosaic",
-    "natoncy_sharedproduct_pearl_necklaces",
-    "natoncy_sharedproduct_pomegranate_juice",
-    "Natoncy_sharedproduct_rugs",
-    "natoncy_sharedproduct_turbans",
-    "shared_general_modules_kurila",
-    "shared-sulfur-production-lion053",
-    "Agarwood",
-    "decals-industry-jakob",
-    "ow-tools-jakob",
-    "tools-jakob",
-    "olive-oil-jakob",
-    "olives-jakob",
-    "incense-newhorizons",
-    "Palm_Leaves",
-    "ObjectDummies_Serp",
-    "shared_Matchers_Serp",
-    "shared-pools-and-definitions",
-    "TooltipBugFixes_Serp",
-    "spice_powder_kurila",
-    "Taludas_shared_importdock_ebony",
-    "Taludas_shared_tradingcompany",
-    "Taludas_sharedproduct_almonds",
-    "Taludas_sharedproduct_ebony",
-    "Taludas_sharedproduct_honey",
-    "Taludas_sharedproduct_marzipan",
-    "Taludas_sharedproduct_silkfabric",
+    "natoncy_return_to_the_orient_shared_importdock",
+    "natoncy_return_to_the_orient_shared_misc",
+    "natoncy_return_to_the_orient_shared_portraits",
+    "natoncy_return_to_the_orient_shared_products",
+    "natoncy_return_to_the_orient_shared_storagelist",
     "natoncy_return_to_the_orient_after_other_mods",
-    "natoncy_return_to_the_orient_trigger_reset",
-    "jakob-skyscraper-button",
-    "natoncy_player_portrait_1404_26_nomad",
-    "natoncy_player_portrait_1404_27_envoy",
-    "natoncy_player_portrait_1404_28_al_zahir",
-    "natoncy_player_portrait_1404_29_sultan",
-    "natoncy_player_portrait_1404_30_assassine_keeper",
-    "natoncy_player_portrait_1404_31_caravanserai_keeper",
-    "natoncy_player_portrait_1404_32_alchemist",
-    "natoncy_player_portrait_1404_33_scholar"
+    "shared_production_silver_bars",
+    
+    "natoncy_return_to_the_orient_trigger_reset"
   ],
   "KnownIssues": [
     {
@@ -120,6 +72,9 @@
   ],
   "CreatorName": "Natoncy",
   "LoadAfterIds": [
-    "new_horizons_session"
+    "new_horizons_session",
+    "Taludas_shared_tradingcompany",
+    "Natoncy_shared_importdock_honey",
+    "Taludas_shared_importdock_ebony"
   ]
 }
