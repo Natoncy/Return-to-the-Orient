@@ -32,4 +32,415 @@
         </Asset>
     </ModOp>
 
+
+    <!-- ## AI FROM NEW HORIZONS ## -->
+
+    <ModOp GUID = '85' Path = "/Values/ConstructionAI" Type = "add">
+        <BuildingReplacements />
+    </ModOp>
+
+    <ModOp GUID = '167' Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
+        <Mod3>
+            <HarborDefenses>
+                <Item>
+                    <Building>1404004110</Building>
+                    <Weight>30</Weight>
+                </Item>
+                <Item>
+                    <Building>1404004111</Building>
+                    <Weight>50</Weight>
+                </Item>
+                <Item>
+                    <Building>1404004115</Building>
+                    <Weight>10</Weight>
+                    <MaintenanceFactor>0.5</MaintenanceFactor>
+                </Item>
+                <Item>
+                    <Building>1404004113</Building>
+                    <Weight>20</Weight>
+                    <MaintenanceFactor>0.75</MaintenanceFactor>
+                </Item>
+                <Item>
+                    <Building>1404004112</Building>
+                    <Weight>20</Weight>
+                    <MaintenanceFactor>0.75</MaintenanceFactor>
+                </Item>
+            </HarborDefenses>
+            <SecurityFactor>
+                <EarlyGame>
+                    <Factor>1</Factor>
+                </EarlyGame>
+                <EarlyMidGame>
+                    <Factor>1</Factor>
+                </EarlyMidGame>
+                <MidGame>
+                    <Factor>1</Factor>
+                </MidGame>
+                <LateMidGame>
+                    <Factor>1.25</Factor>
+                </LateMidGame>
+                <LateGame>
+                    <Factor>1.5</Factor>
+                </LateGame>
+                <EndGame>
+                    <Factor>2</Factor>
+                </EndGame>
+            </SecurityFactor>
+            <HighProtectIslandSecurityFactor>1</HighProtectIslandSecurityFactor>
+        </Mod3>
+    </ModOp>
+
+
+    <ModOp GUID = '167' Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresAir">
+        <Mod3>
+            <AirDefenses>
+                <Item>
+                    <Building>1404004114</Building>
+                    <Weight>10</Weight>
+                    <MaintenanceFactor>0.6</MaintenanceFactor>
+                </Item>
+            </AirDefenses>
+            <SecurityFactor>
+                <EarlyGame>
+                    <Factor>1</Factor>
+                </EarlyGame>
+                <EarlyMidGame>
+                    <Factor>1</Factor>
+                </EarlyMidGame>
+                <MidGame>
+                    <Factor>1.5</Factor>
+                </MidGame>
+                <LateMidGame>
+                    <Factor>1.5</Factor>
+                </LateMidGame>
+                <LateGame>
+                    <Factor>2</Factor>
+                </LateGame>
+                <EndGame>
+                    <Factor>2</Factor>
+                </EndGame>
+            </SecurityFactor>
+            <HighProtectIslandSecurityFactor>2</HighProtectIslandSecurityFactor>
+            <RadiusProtectionFactor>0.75</RadiusProtectionFactor>
+        </Mod3>
+    </ModOp>
+
+    <ModOp GUID = '169' Skip = "1" Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
+        <Mod3>
+            <HarborDefenses>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>0</InheritedIndex>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>1</InheritedIndex>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>2</InheritedIndex>
+                    </VectorElement>
+                    <Weight>20</Weight>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>3</InheritedIndex>
+                    </VectorElement>
+                    <Weight>30</Weight>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>4</InheritedIndex>
+                    </VectorElement>
+                    <Weight>30</Weight>
+                </Item>
+            </HarborDefenses>
+            <HighProtectIslandSecurityFactor>2.5</HighProtectIslandSecurityFactor>
+        </Mod3>
+    </ModOp>
+
+    <ModOp GUID = '170' Skip = "1" Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
+        <Mod3>
+            <HarborDefenses>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>0</InheritedIndex>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>1</InheritedIndex>
+                    </VectorElement>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>2</InheritedIndex>
+                    </VectorElement>
+                    <Weight>30</Weight>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>3</InheritedIndex>
+                    </VectorElement>
+                    <Weight>40</Weight>
+                </Item>
+                <Item>
+                    <VectorElement>
+                        <InheritedIndex>4</InheritedIndex>
+                    </VectorElement>
+                    <Weight>40</Weight>
+                </Item>
+            </HarborDefenses>
+            <HighProtectIslandSecurityFactor>2.5</HighProtectIslandSecurityFactor>
+        </Mod3>
+    </ModOp>
+
+    <ModOp GUID = '167,168,169,170' Type = "add" Path = "/Values/ConstructionAI/EconomyRules/ConstructionMaterials/SupplementSessionAdditions/PerRegion">
+        <Mod3>
+            <AdditionalProductionInEverySupplementSession>
+                <Item>
+                    <Product>1404000256</Product>
+                    <PerProgressLevelInfos>
+                        <MidGame>
+                            <ProducerBuildingCount>1</ProducerBuildingCount>
+                        </MidGame>
+                        <LateMidGame>
+                            <ProducerBuildingCount>1</ProducerBuildingCount>
+                        </LateMidGame>
+                        <LateGame>
+                            <ProducerBuildingCount>1</ProducerBuildingCount>
+                        </LateGame>
+                        <EndGame>
+                            <ProducerBuildingCount>1</ProducerBuildingCount>
+                        </EndGame>
+                    </PerProgressLevelInfos>
+                </Item>
+                <Item>
+                    <Product>1400201040</Product>
+                    <PerProgressLevelInfos>
+                        <MidGame>
+                            <ProducerBuildingCount>2</ProducerBuildingCount>
+                        </MidGame>
+                        <LateMidGame>
+                            <ProducerBuildingCount>2</ProducerBuildingCount>
+                        </LateMidGame>
+                        <LateGame>
+                            <ProducerBuildingCount>2</ProducerBuildingCount>
+                        </LateGame>
+                        <EndGame>
+                            <ProducerBuildingCount>2</ProducerBuildingCount>
+                        </EndGame>
+                    </PerProgressLevelInfos>
+                </Item>
+                <Item>
+                    <Product>1404009000</Product>
+                    <PerProgressLevelInfos>
+                        <MidGame>
+                            <ProducerBuildingCount>4</ProducerBuildingCount>
+                        </MidGame>
+                        <LateMidGame>
+                            <ProducerBuildingCount>4</ProducerBuildingCount>
+                        </LateMidGame>
+                        <LateGame>
+                            <ProducerBuildingCount>4</ProducerBuildingCount>
+                        </LateGame>
+                        <EndGame>
+                            <ProducerBuildingCount>4</ProducerBuildingCount>
+                        </EndGame>
+                    </PerProgressLevelInfos>
+                </Item>
+            </AdditionalProductionInEverySupplementSession>
+        </Mod3>
+    </ModOp>
+
+    <!-- The AI needs to know the population levels -->
+    <!-- Before implementation, the inherits have to be changed.-->
+    <ModOp Type="addNextSibling" GUID='167' Path="/Values/ConstructionAI/EconomyRules/ConsumptionConfiguration/Item[PopulationGuid = '15000006']">
+        <Item>
+            <PopulationGuid>1404000010</PopulationGuid>
+        </Item>
+        <Item>
+            <PopulationGuid>1404000011</PopulationGuid>
+        </Item>
+    </ModOp>
+
+    <!-- Change Inherits at the Templates -->
+    <!-- Graves -->
+    
+
+    <!-- <ModOp GUID ='167' Path = "/Values/ConstructionAI/MonumentConfiguration" Type = "add">
+        <Item>
+            <MonumentBuilding>1414187000</MonumentBuilding>
+            <Region>Mod3</Region>
+            <SessionType>Main</SessionType>
+            <BlockScore>BlockProductionDefault</BlockScore>
+        </Item>
+    </ModOp> -->
+
+    <!-- Ornamentals -->
+    <ModOp GUID='167' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion" Type="add">
+        <Mod3>
+            <PerRegionEntry>
+                <PerUsage>
+                    <Production>
+                        <RegularOrnamentals>
+                            <Item>
+                                <!-- park_1x1_grass (Füller, entspricht "empty grass") -->
+                                <Ornamental>1404004874</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>1000</RelativeProbabilityWithinSameSizeGroup>
+                            </Item>
+                            <Item>
+                                <!-- park_1x1_smallpalmtree (Füller, entspricht "Grove") -->
+                                <Ornamental>1404004872</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>1000</RelativeProbabilityWithinSameSizeGroup>
+                            </Item>
+                            <Item>
+                                <!-- park_1x1_palmtree -->
+                                <Ornamental>1404004871</Ornamental>
+                            </Item>
+                            <Item>
+                                <!-- park_1x1_bush -->
+                                <Ornamental>1404004873</Ornamental>
+                            </Item>
+                        </RegularOrnamentals>
+                        <FillBlockGapsWithOrnamentalBlocks>1</FillBlockGapsWithOrnamentalBlocks>
+                        <AvenueOrnamentals1x1Middle>
+                            <Item>
+                                <!-- orientFence01 (entspricht Asian_Bamboo_fence) -->
+                                <Ornamental>1404004205</Ornamental>
+                            </Item>
+                        </AvenueOrnamentals1x1Middle>
+                    </Production>
+                    <City>
+                        <RegularOrnamentals>
+                            <Item>
+                                <!-- orientPlace01 (Füller, entspricht "Asian Paving") -->
+                                <Ornamental>1404000380</Ornamental>
+                                <RelativeProbabilityWithinSameSizeGroup>1000</RelativeProbabilityWithinSameSizeGroup>
+                            </Item>
+                            <Item>
+                                <!-- orientPlace02 -->
+                                <Ornamental>1404004200</Ornamental>
+                            </Item>
+                            <Item>
+                                <!-- orientPlace03 -->
+                                <Ornamental>1404004201</Ornamental>
+                            </Item>
+                            <Item>
+                                <!-- orientPlace04 -->
+                                <Ornamental>1404004202</Ornamental>
+                            </Item>
+                            <Item>
+                                <!-- orientPrayerGround -->
+                                <Ornamental>1404004203</Ornamental>
+                            </Item>
+                            <Item>
+                                <!-- park_1x1_palmtree -->
+                                <Ornamental>1404004871</Ornamental>
+                            </Item>
+                            <Item>
+                                <!-- park_1x1_smallpalmtree -->
+                                <Ornamental>1404004872</Ornamental>
+                            </Item>
+                        </RegularOrnamentals>
+                        <AvenueOrnamental1x1End>
+                            <!-- orientStoneWall (entspricht Asian_Walls_Stone) -->
+                            <Ornamental>1404004850</Ornamental>
+                        </AvenueOrnamental1x1End>
+                        <AvenueOrnamentals1x1Middle>
+                            <Item>
+                                <!-- orientStoneWall -->
+                                <Ornamental>1404004850</Ornamental>
+                            </Item>
+                        </AvenueOrnamentals1x1Middle>
+                    </City>
+                </PerUsage>
+            </PerRegionEntry>
+        </Mod3>
+    </ModOp>
+
+    <!-- Profilspezifische Avenue-Stile (wie bei NH: 47,85 Grün / 79,83 Arkade / 80,84 Wände).
+         Sie setzen nur die Alleen-Stücke der City; die Zuordnung der Stile ist eine Design-Entscheidung. -->
+ 
+    <!-- Hecke: park_1x1_bush (NH: Enclosed Greenery) -->
+    <ModOp GUID='47,85' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion" Type="add">
+        <Mod3>
+            <PerRegionEntry>
+                <PerUsage>
+                    <City>
+                        <AvenueOrnamental1x1End>
+                            <Ornamental>1404004873</Ornamental>
+                        </AvenueOrnamental1x1End>
+                        <AvenueOrnamentals1x1Middle>
+                            <Item>
+                                <Ornamental>1404004873</Ornamental>
+                            </Item>
+                        </AvenueOrnamentals1x1Middle>
+                    </City>
+                </PerUsage>
+            </PerRegionEntry>
+        </Mod3>
+    </ModOp>
+ 
+    <!-- Zaun: orientFence01 (NH: Covered Walkway; Orient hat kein 1x1-Gegenstück, die Canopys haben OrnamentUnit 4) -->
+    <ModOp GUID='79,83' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion" Type="add">
+        <Mod3>
+            <PerRegionEntry>
+                <PerUsage>
+                    <City>
+                        <AvenueOrnamental1x1End>
+                            <Ornamental>1404004205</Ornamental>
+                        </AvenueOrnamental1x1End>
+                        <AvenueOrnamentals1x1Middle>
+                            <Item>
+                                <Ornamental>1404004205</Ornamental>
+                            </Item>
+                        </AvenueOrnamentals1x1Middle>
+                    </City>
+                </PerUsage>
+            </PerRegionEntry>
+        </Mod3>
+    </ModOp>
+ 
+    <!-- Nur 79: eigene City-Liste mit zusätzlichem großen Stück (NH: Gazebo 2x2 und Pagode 3x3).
+         Muss NACH der 79,83-Op stehen, weil sie in deren Mod3/.../City einfügt.
+         Hier: die City-Liste von oben plus orientFountain02 (OrnamentUnit 4) als Beispiel. -->
+    <ModOp GUID='79' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion/Mod3/PerRegionEntry/PerUsage/City" Type="add">
+        <RegularOrnamentals>
+            <Item>
+                <Ornamental>1404000380</Ornamental>
+                <RelativeProbabilityWithinSameSizeGroup>1000</RelativeProbabilityWithinSameSizeGroup>
+            </Item>
+            <Item><Ornamental>1404004200</Ornamental></Item>
+            <Item><Ornamental>1404004201</Ornamental></Item>
+            <Item><Ornamental>1404004202</Ornamental></Item>
+            <Item><Ornamental>1404004203</Ornamental></Item>
+            <Item><Ornamental>1404004871</Ornamental></Item>
+            <Item><Ornamental>1404004872</Ornamental></Item>
+            <Item><Ornamental>1404004206</Ornamental></Item>
+        </RegularOrnamentals>
+    </ModOp>
+ 
+    <!-- Wand: orientStoneWallLarge (NH: Asian_Walls_Wood2) -->
+    <ModOp GUID='80,84' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion" Type="add">
+        <Mod3>
+            <PerRegionEntry>
+                <PerUsage>
+                    <City>
+                        <AvenueOrnamental1x1End>
+                            <Ornamental>1404004851</Ornamental>
+                        </AvenueOrnamental1x1End>
+                        <AvenueOrnamentals1x1Middle>
+                            <Item>
+                                <Ornamental>1404004851</Ornamental>
+                            </Item>
+                        </AvenueOrnamentals1x1Middle>
+                    </City>
+                </PerUsage>
+            </PerRegionEntry>
+        </Mod3>
+    </ModOp>
+
 </ModOps>
