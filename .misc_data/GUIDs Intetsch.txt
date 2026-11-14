@@ -215,3 +215,7 @@ SUBMODS
 1404005109: Copper Bar
 1404005110: Copper Bar FakeFactory
 1404005111: Copper Bar Fluff
+
+AI
+----------
+1404005137: AI FeatureUnlock Session

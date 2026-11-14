@@ -131,7 +131,7 @@
 						<Item>
 							<Product>1404000012</Product>
 							<!--moderate workforce 1-->
-							<Amount>15</Amount>
+							<Amount>5</Amount>
 							<ShutdownThreshold>0.2</ShutdownThreshold>
 						</Item>
 					</Maintenances>
