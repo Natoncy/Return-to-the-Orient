@@ -155,7 +155,7 @@
                     <WorldMapCardBackground>1404000005</WorldMapCardBackground>
                     <WorldMapAsset>data/graphics/ui/3d_objects/world_map/clickable_orient.cfg</WorldMapAsset>
                     <SecondPartyReferenceUnlock>1404005137</SecondPartyReferenceUnlock>
-                    <SecondPartyForceFollowPlayer>1</SecondPartyForceFollowPlayer>
+                    <SecondPartyForceFollowPlayer>0</SecondPartyForceFollowPlayer>
                     <SecondPartyMotivation>
                         <TargetPopulation>1404000010</TargetPopulation>
                         <TargetAmount>1</TargetAmount>
