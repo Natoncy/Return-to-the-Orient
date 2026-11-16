@@ -7,7 +7,8 @@
          Mirrors the New World's 141561 Set 01 (Balanced), with gold replaced by
          silver (1404001281) so clay and oil keep their Colony01 frequency.
          Order matters: the generator walks MineSlots up to the island's mine
-         budget, so the first entries are the ones most likely to be placed. -->
+         budget, so the first entries are the ones most likely to be placed.
+         Normal islands only: starter islands use assets_mine_set_orient_starter.xml. -->
 
     <ModOp Type="addNextSibling" GUID="141554">
         <Asset>
@@ -20,7 +21,7 @@
                 <ResourceSetCondition>
                     <Priority>10</Priority>
                     <AllowedRegion>Mod3</AllowedRegion>
-                    <AllowedIslandType>Normal;Starter</AllowedIslandType>
+                    <AllowedIslandType>Normal</AllowedIslandType>
                     <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
                     <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
                 </ResourceSetCondition>

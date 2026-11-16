@@ -1,0 +1,177 @@
+<ModOps>
+
+    <!-- Orient starter-island mine sets. They mirror the New World starter sets
+         141554/141494/141555/141556, with gold replaced by silver (1404001281).
+         Every one has clay, silver and oil within its first four slots (slot order copied
+         from vanilla), so a starter island gets all three. The four normal sets 01-04
+         exclude starter islands.
+         Order matters: the generator walks MineSlots up to the island's mine budget. -->
+
+    <ModOp Type="addNextSibling" GUID="141554">
+        <Asset>
+            <Template>MineSlotSet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009517</GUID>
+                    <Name>Orient Starter Set 01 (Balanced)</Name>
+                </Standard>
+                <ResourceSetCondition>
+                    <Priority>10</Priority>
+                    <AllowedRegion>Mod3</AllowedRegion>
+                    <AllowedIslandType>Starter</AllowedIslandType>
+                    <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
+                    <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
+                </ResourceSetCondition>
+                <MineSlotResourceSet>
+                    <MineSlots>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                    </MineSlots>
+                </MineSlotResourceSet>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>MineSlotSet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009518</GUID>
+                    <Name>Orient Starter Set 02 (Balanced Clay Focus)</Name>
+                </Standard>
+                <ResourceSetCondition>
+                    <Priority>10</Priority>
+                    <AllowedRegion>Mod3</AllowedRegion>
+                    <AllowedIslandType>Starter</AllowedIslandType>
+                    <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
+                    <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
+                </ResourceSetCondition>
+                <MineSlotResourceSet>
+                    <MineSlots>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                    </MineSlots>
+                </MineSlotResourceSet>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>MineSlotSet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009519</GUID>
+                    <Name>Orient Starter Set 03 (Balanced Silver Focus)</Name>
+                </Standard>
+                <ResourceSetCondition>
+                    <Priority>10</Priority>
+                    <AllowedRegion>Mod3</AllowedRegion>
+                    <AllowedIslandType>Starter</AllowedIslandType>
+                    <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
+                    <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
+                </ResourceSetCondition>
+                <MineSlotResourceSet>
+                    <MineSlots>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                    </MineSlots>
+                </MineSlotResourceSet>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>MineSlotSet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009520</GUID>
+                    <Name>Orient Starter Set 04 (Balanced Oil Focus)</Name>
+                </Standard>
+                <ResourceSetCondition>
+                    <Priority>10</Priority>
+                    <AllowedRegion>Mod3</AllowedRegion>
+                    <AllowedIslandType>Starter</AllowedIslandType>
+                    <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
+                    <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
+                </ResourceSetCondition>
+                <MineSlotResourceSet>
+                    <MineSlots>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001315</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>101061</MineSlot>
+                        </Item>
+                        <Item>
+                            <MineSlot>1404001281</MineSlot>
+                        </Item>
+                    </MineSlots>
+                </MineSlotResourceSet>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
