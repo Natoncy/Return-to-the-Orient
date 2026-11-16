@@ -211,6 +211,17 @@
                     <ResidentsUpgrade>
                         <Value>2</Value>
                     </ResidentsUpgrade>
+                    <!-- ResidentsUpgrade only raises the cap; the residents come from need supply (vanilla pairs them, e.g. Hotel Manager 160 = 8 x 20) -->
+                    <InputBenefitModifier>
+                        <Item>
+                            <Product>120020</Product>                            <!-- Market: shared by Nomads and Envoys -->
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>1404001116</Product>                            <!-- Research Outpost: Orient scholars (no Market need) -->
+                            <AdditionalSupply>2</AdditionalSupply>
+                        </Item>
+                    </InputBenefitModifier>
                 </PopulationUpgrade>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
