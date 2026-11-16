@@ -294,7 +294,7 @@
                     <Type>NotSerialized</Type>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/kontor/kontor_01.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/kontor/kontor_01_ghost.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
