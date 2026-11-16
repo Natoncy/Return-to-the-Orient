@@ -3,7 +3,6 @@
     <Include File="assets_export_orient_01_tea_brewery.xml" />
     <Include File="assets_export_orient_02_lokum_baker.xml" />
     <Include File="assets_export_orient_04_fruit_manufactury.xml" />
-    <!-- <Include File="assets_export_orient_05_elephant_hunting_cabin_AFRICA.xml" /> -->
     <Include File="assets_export_orient_06_incense_workshop.xml" />
     <Include File="assets_export_orient_07_infestation_cellar.xml" />
     <Include File="assets_export_orient_08_distillery.xml" />

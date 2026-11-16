@@ -692,11 +692,6 @@
       <Text>年齡</Text>
     </Text>
     <Text>
-      <GUID>1404000182</GUID>
-      <!-- Text | AGE OF | AGE OF -->
-      <Text>年齡</Text>
-    </Text>
-    <Text>
       <GUID>1404000183</GUID>
       <!-- Text | SETTLEMENT | SETTLEMENT -->
       <Text>沉澱</Text>
@@ -905,11 +900,6 @@
       <GUID>1404000318</GUID>
       <!-- Recipe | Chandeliers | Chandeliers -->
       <Text>枝形吊燈</Text>
-    </Text>
-    <Text>
-      <GUID>1404000319</GUID>
-      <!-- Recipe | Pearl Necklaces | Pearl Necklaces -->
-      <Text>珍珠項鍊</Text>
     </Text>
     <Text>
       <GUID>1404000320</GUID>
@@ -1630,11 +1620,6 @@
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
       <Text>裝飾精美的吸煙裝置，其咯咯的聲音會讓最疲憊的心靈陷入歡樂的心情。在碗裡裝滿芬芳的煙草、發光的煤炭，一股甜甜的芳香薄霧就會展開，讓幾個小時就像幾分鐘一樣。</Text>
-    </Text>
-    <Text>
-      <GUID>1404000595</GUID>
-      <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>一系列閃閃發光的微小、完美的寶藏，如此完美的圓形，你會覺得它們在晚上互相竊竊私語。優雅、財富的象徵，有時送禮意圖也值得懷疑。戴上它們，突然間，每一步都顯得更加優雅，每個姿勢都更加精緻，至少在釦子卡住之前是這樣。</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -5737,11 +5722,6 @@
       <Text>東方儲藏塔</Text>
     </Text>
     <Text>
-      <GUID>1404004219</GUID>
-      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
-      <Text>IAAM Test</Text>
-    </Text>
-    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>使館：等級 2</Text>
@@ -6070,11 +6050,6 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>最好不要徒手觸碰。又稱礬油。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005041</GUID>
-      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
-      <Text>獵象小屋</Text>
     </Text>
     <Text>
       <GUID>1404005043</GUID>

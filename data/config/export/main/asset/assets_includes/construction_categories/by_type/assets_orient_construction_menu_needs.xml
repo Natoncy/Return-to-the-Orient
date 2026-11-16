@@ -93,9 +93,6 @@
                             <Building>1404005047</Building>
                         </Item>
                         <Item>
-                            <Building>1404005050</Building>
-                        </Item>
-                        <Item>
                             <Building>1404005037</Building>
                         </Item>
                         <Item>
@@ -121,6 +118,13 @@
                 <Locked />
             </Values>
         </Asset>
+    </ModOp>
+
+    <!-- Oudh Perfume chain 1404005050 exists only with New Horizons -->
+    <ModOp Type="addNextSibling" GUID="1404000620" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1404005047']" Condition="#new_horizons_session">
+        <Item>
+            <Building>1404005050</Building>
+        </Item>
     </ModOp>
 
 </ModOps>

@@ -32,6 +32,4 @@
 
     <Include File="assets_tent.xml" />
 
-    <!-- debug only - remove before release -->
-
 </ModOps>

@@ -31,15 +31,14 @@ TODO:
 v0.7.0
 - Letting AI settle the region
     - check Kontor building costs
-- Check fertility and mine sets
 - Check silver mine workarea positioning
+- Update trigger reset mod
 - release beta compatibility mod
 
 Before v1.0.0
 - Check shared mods
-- Check all guid used exist (1404000205)
+- Check all used guid exist
 - Check localizations
-- remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
 - Revise which products are shared (can be produced and used by other mods independently), and which are specific to the orient/the mod

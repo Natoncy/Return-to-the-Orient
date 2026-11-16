@@ -1002,11 +1002,4 @@
         </Mod3>
     </ModOp>
 
-    <ModOp Type="merge" GUID="485" Path="Values/ItemFiltersScene/RegionFilter">
-        <!-- result: 41 -->
-        <Mod3>
-            <Filter>1404000034</Filter>
-        </Mod3>
-    </ModOp>
-
 </ModOps>

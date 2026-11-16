@@ -692,11 +692,6 @@
       <Text>ВОЗРАСТ</Text>
     </Text>
     <Text>
-      <GUID>1404000182</GUID>
-      <!-- Text | AGE OF | AGE OF -->
-      <Text>ВОЗРАСТ</Text>
-    </Text>
-    <Text>
       <GUID>1404000183</GUID>
       <!-- Text | SETTLEMENT | SETTLEMENT -->
       <Text>УРЕГУЛИРОВАНИЕ</Text>
@@ -905,11 +900,6 @@
       <GUID>1404000318</GUID>
       <!-- Recipe | Chandeliers | Chandeliers -->
       <Text>Люстры</Text>
-    </Text>
-    <Text>
-      <GUID>1404000319</GUID>
-      <!-- Recipe | Pearl Necklaces | Pearl Necklaces -->
-      <Text>Жемчужные ожерелья</Text>
     </Text>
     <Text>
       <GUID>1404000320</GUID>
@@ -1630,11 +1620,6 @@
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
       <Text>Искусно украшенный прибор для курения, чьё бульканье настраивает на дружескую беседу даже самые усталые умы. Наполните чашу ароматным табаком, разожгите угли — и раскинется сладкий благоуханный туман, в котором часы кажутся минутами.</Text>
-    </Text>
-    <Text>
-      <GUID>1404000595</GUID>
-      <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>Мерцающая нить крошечных безупречных сокровищ, настолько идеально круглых, что кажется, будто по ночам они шепчутся друг с другом. Символ изящества, богатства и порой сомнительных намерений дарителя. Наденьте их — и вдруг каждый шаг кажется грациознее, каждый жест изысканнее, по крайней мере, пока не заест застёжка.</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -5737,11 +5722,6 @@
       <Text>Восточная башня-хранилище</Text>
     </Text>
     <Text>
-      <GUID>1404004219</GUID>
-      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
-      <Text>IAAM Test</Text>
-    </Text>
-    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>Дом посланника: Уровень 2</Text>
@@ -6070,11 +6050,6 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>Пожалуй, лучше не трогать голыми руками. Также известна как купоросное масло.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005041</GUID>
-      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
-      <Text>Хижина охотников на слонов</Text>
     </Text>
     <Text>
       <GUID>1404005043</GUID>

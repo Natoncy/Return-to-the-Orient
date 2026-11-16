@@ -135,10 +135,14 @@ const BODY_GUID = 1404006000;
 const RUN_GUID = BODY_GUID + major * 100 + minor * 10 + patch;
 if (RUN_GUID === BODY_GUID) throw new Error(`version ${version} would reuse the body GUID`);
 
-const bodySteps = [
-  ...tiers.map(([g, l], i) => step(g, `Intermediate Orient ${l}`, (i + 1) * STEP, 24)),
-  ...creative.map(([g, l], i) => step(g, l, (tiers.length + i + 1) * STEP, 24)),
-].join('\n');
+// New Horizons triggers only exist with New Horizons, so they go into a conditional ModOp of their own.
+const NH = new Set(['1404005072', '1404005073', '1404004031', '1404004032', '1404005061']);
+const allSteps = [
+  ...tiers.map(([g, l], i) => [g, step(g, `Intermediate Orient ${l}`, (i + 1) * STEP, 24)]),
+  ...creative.map(([g, l], i) => [g, step(g, l, (tiers.length + i + 1) * STEP, 24)]),
+];
+const bodySteps = allSteps.filter(([g]) => !NH.has(g)).map(([, s]) => s).join('\n');
+const nhSteps = allSteps.filter(([g]) => NH.has(g)).map(([, s]) => s.replace(/^ {16}/gm, '')).join('\n');
 
 const runActions = register(BODY_GUID, 'Re-run all progression triggers', 24);
 
@@ -161,6 +165,10 @@ const out = [
   `        <!-- Only runs when registered by a run trigger -->`,
   trigger(BODY_GUID, 'Orient trigger reset', false, bodySteps),
   ``,
+  `    </ModOp>`,
+  ``,
+  `    <ModOp Type="add" GUID="${BODY_GUID}" Path="/Values/Trigger/TriggerActions" Condition="#new_horizons_session">`,
+  nhSteps,
   `    </ModOp>`,
   ``,
   `</ModOps>`,

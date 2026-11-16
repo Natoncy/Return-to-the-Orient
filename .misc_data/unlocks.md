@@ -449,5 +449,4 @@ Monuments and haciendas (set 2026-10-29) follow vanilla's pattern across all reg
   World unlocks the originals at 300 Jornaleros (pools 134882 and 130195), before the Orient opens. Palm Trees is
   Tourist Season content, so its copy has its own triggers that also check that DLC (1404004876 unlock,
   1404004877 creative), like vanilla's. It is not previewed at 1.4 (first Envoy stage).
-- The Development folder 1404004865 (debug, finished Lighthouse and Grand Mosque) is the first entry of the Nomads
-  tab 1404000014 with IgnoreUnlockStateForCategoryVisibility. It unlocks only in creative mode (1404000791).
+- The Development folder 1404004865 (debug, finished Lighthouse and Grand Mosque) was removed on 2026-11-16.

@@ -49,22 +49,6 @@
                 </Text>
             </Values>
         </Asset>
-        <Asset>
-            <Template>Text</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404000595</GUID>
-                    <Name>Orient_Manufacturer_Recipe_Pearl_Necklaces_Desc</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt.</Text>
-                        </English>
-                    </LocaText>
-                </Text>
-            </Values>
-        </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="118750">

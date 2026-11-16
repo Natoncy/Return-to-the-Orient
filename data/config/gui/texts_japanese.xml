@@ -692,11 +692,6 @@
       <Text>の年齢</Text>
     </Text>
     <Text>
-      <GUID>1404000182</GUID>
-      <!-- Text | AGE OF | AGE OF -->
-      <Text>の年齢</Text>
-    </Text>
-    <Text>
       <GUID>1404000183</GUID>
       <!-- Text | SETTLEMENT | SETTLEMENT -->
       <Text>決済</Text>
@@ -905,11 +900,6 @@
       <GUID>1404000318</GUID>
       <!-- Recipe | Chandeliers | Chandeliers -->
       <Text>シャンデリア</Text>
-    </Text>
-    <Text>
-      <GUID>1404000319</GUID>
-      <!-- Recipe | Pearl Necklaces | Pearl Necklaces -->
-      <Text>パールネックレス</Text>
     </Text>
     <Text>
       <GUID>1404000320</GUID>
@@ -1630,11 +1620,6 @@
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
       <Text>精巧に飾られた喫煙具で、そのゴボゴボという音はどんなに疲れた心も和やかな気分にしてくれます。火皿に香り高いタバコを詰め、炭火を灯せば、甘く芳しい煙が広がり、何時間も数分のように感じられるでしょう。</Text>
-    </Text>
-    <Text>
-      <GUID>1404000595</GUID>
-      <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>小さく完璧な宝石がきらめきながら連なり、あまりに見事な丸さに、夜にはささやき合っているのではと思えるほどです。優雅さと富、そして時に下心のある贈り物の象徴。身に着ければ、どの一歩も優美に、どの仕草も洗練されて見えます。少なくとも留め金が引っかかるまでは。</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -5737,11 +5722,6 @@
       <Text>オリエントの貯蔵塔</Text>
     </Text>
     <Text>
-      <GUID>1404004219</GUID>
-      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
-      <Text>IAAM Test</Text>
-    </Text>
-    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>特使の家：レベル 2</Text>
@@ -6070,11 +6050,6 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>素手で触らない方がよいだろう。緑礬油とも呼ばれる。</Text>
-    </Text>
-    <Text>
-      <GUID>1404005041</GUID>
-      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
-      <Text>象狩りの小屋</Text>
     </Text>
     <Text>
       <GUID>1404005043</GUID>

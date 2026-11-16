@@ -1,6 +1,5 @@
 <ModOps>
 
-	<ModOp GUID="191388" Type="addNextSibling">
 		<ModOp GUID="191383" Type="addNextSibling">
 			<Asset>
 				<Template>GuildhouseItem</Template>
@@ -9,7 +8,7 @@
 						<GUID>1404000904</GUID>
 						<Name>Iskender Pasha Oglu, Dressmaker to the Grand Vizier</Name>
 						<IconFilename>data/graphics/icons/items/Iskender_o_p.png</IconFilename>
-						<InfoDescription>20</InfoDescription>
+						<InfoDescription>1404000947</InfoDescription>
 					</Standard>
 					<Text>
 						<LocaText>
@@ -83,6 +82,5 @@
 				</Values>
 			</Asset>
 		</ModOp>
-	</ModOp>
 
 </ModOps>

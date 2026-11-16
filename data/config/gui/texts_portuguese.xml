@@ -692,11 +692,6 @@
       <Text>IDADE DE</Text>
     </Text>
     <Text>
-      <GUID>1404000182</GUID>
-      <!-- Text | AGE OF | AGE OF -->
-      <Text>IDADE DE</Text>
-    </Text>
-    <Text>
       <GUID>1404000183</GUID>
       <!-- Text | SETTLEMENT | SETTLEMENT -->
       <Text>POVOADO</Text>
@@ -905,11 +900,6 @@
       <GUID>1404000318</GUID>
       <!-- Recipe | Chandeliers | Chandeliers -->
       <Text>Lustres</Text>
-    </Text>
-    <Text>
-      <GUID>1404000319</GUID>
-      <!-- Recipe | Pearl Necklaces | Pearl Necklaces -->
-      <Text>Colares de pérolas</Text>
     </Text>
     <Text>
       <GUID>1404000320</GUID>
@@ -1630,11 +1620,6 @@
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
       <Text>Um aparelho de fumar ricamente decorado, cujo borbulhar deixa até as mentes mais cansadas com disposição para conversar. Encha o fornilho com tabaco perfumado, acenda as brasas, e uma névoa doce e aromática se espalhará, fazendo as horas parecerem minutos.</Text>
-    </Text>
-    <Text>
-      <GUID>1404000595</GUID>
-      <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>Uma fileira cintilante de pequenos tesouros impecáveis, tão perfeitamente redondos que parecem sussurrar entre si à noite. Símbolo de elegância, riqueza e, às vezes, de intenções duvidosas ao presentear. Coloque-as e, de repente, cada passo parece mais gracioso, cada gesto mais refinado, pelo menos até o fecho emperrar.</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -5737,11 +5722,6 @@
       <Text>Torre de armazenamento oriental</Text>
     </Text>
     <Text>
-      <GUID>1404004219</GUID>
-      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
-      <Text>IAAM Test</Text>
-    </Text>
-    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>Casa do enviado: Nível 2</Text>
@@ -6070,11 +6050,6 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>Talvez seja melhor não tocá-lo com as mãos desprotegidas. Também conhecido como óleo de vitríolo.</Text>
-    </Text>
-    <Text>
-      <GUID>1404005041</GUID>
-      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
-      <Text>Cabana de caça ao elefante</Text>
     </Text>
     <Text>
       <GUID>1404005043</GUID>

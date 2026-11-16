@@ -1,0 +1,87 @@
+# Usage: bash chain.sh  -> S1.xml, S2.xml, stage1.log, stage2.log in scratchpad/xt
+set -e
+X=$(ls -d ~/.vscode/extensions/jakobharder.anno-modding-tools-*/external/xmltest.exe | tail -1)
+R="C:/Users/maxim/Documents/Anno 1800/mods/[Addon] Return to the Orient"
+OUT="$(dirname "$0")/xt"; mkdir -p "$OUT"; cd "$OUT"
+V=D:/anno_data/1800/data/config/export/main/asset/assets.xml
+A=data/config/export/main/asset/assets.xml
+P1=(
+ "$R/shared_misc/Taludas_shared_tradingcompany/Taludas_sharedproduct_tradelicense"
+ "$R/shared_misc/Taludas_shared_tradingcompany"
+ "$R/shared_importdock/Natoncy_shared_importdock_honey"
+ "$R/shared_importdock/Taludas_shared_importdock_ebony"
+)
+args=(); for p in "${P1[@]}"; do args+=(-p "$p"); done
+"$X" -v "${args[@]}" -o S1.xml $V "$R/$A" -m "$R" > stage1.log 2>&1 || true
+P2=(
+ "shared_misc/shared_Pools and Definitions"
+ "shared_misc/shared_ow_tools_jakob"
+ "shared_misc/shared_ow_tools_jakob/production-tools-jakob"
+ "shared_misc/shared_TooltipBugFixes"
+ "shared_production_silver_bars/[Shared] Cyanide"
+ "shared_production_silver_bars/[Shared] Silver Bars"
+ "shared_production_silver_bars/[Shared] Silver Amalgam"
+ "shared_production_silver_bars/[Shared] Silver Ore"
+ "shared_production_silver_bars"
+ "shared_products/shared_sulfur_production_lion053"
+ "shared_products/Intetsch_sharedproduct_aniseed"
+ "shared_products/Intetsch_sharedproduct_candied_dates"
+ "shared_products/Intetsch_sharedproduct_chickpeas"
+ "shared_products/Intetsch_sharedproduct_copper_bar"
+ "shared_products/Intetsch_sharedproduct_hummus"
+ "shared_products/Intetsch_sharedproduct_lokum"
+ "shared_products/Intetsch_sharedproduct_palm_wood"
+ "shared_products/Intetsch_sharedproduct_pistachios"
+ "shared_products/Intetsch_sharedproduct_roasted_chickpeas"
+ "shared_products/Intetsch_sharedproduct_spiced_tea"
+ "Natoncy_orient_trigger_reset"
+ "shared_portraits/Natoncy_portrait_1404_26_nomad"
+ "shared_portraits/Natoncy_portrait_1404_27_envoy"
+ "shared_portraits/Natoncy_portrait_1404_28_al_zahir"
+ "shared_portraits/Natoncy_portrait_1404_29_sultan"
+ "shared_portraits/Natoncy_portrait_1404_30_assassin"
+ "shared_portraits/Natoncy_portrait_1404_31_caravanserai"
+ "shared_portraits/Natoncy_portrait_1404_32_alchemist"
+ "shared_portraits/Natoncy_portrait_1404_33_scholar"
+ "shared_products/Natoncy_sharedproduct_agates"
+ "shared_products/Natoncy_sharedproduct_camels"
+ "shared_products/Natoncy_sharedproduct_ceremonial_sabers"
+ "shared_products/Natoncy_sharedproduct_chandeliers"
+ "shared_products/Natoncy_sharedproduct_hookahs"
+ "shared_products/Natoncy_sharedproduct_kaftans"
+ "shared_products/Natoncy_sharedproduct_mosaic"
+ "shared_products/Natoncy_sharedproduct_pearl_necklaces"
+ "shared_products/Natoncy_sharedproduct_pomegranate_juice"
+ "shared_products/Natoncy_sharedproduct_rugs"
+ "shared_products/Natoncy_sharedproduct_turbans"
+ "shared_products/Taludas_sharedproduct_almonds"
+ "shared_products/Taludas_sharedproduct_ebony"
+ "shared_products/Taludas_sharedproduct_honey"
+ "shared_products/Taludas_sharedproduct_marzipan"
+ "shared_products/Taludas_sharedproduct_silkfabric"
+ "shared_products/[Product] PalmLeaf_Satanoy"
+ "shared_products/[Product] Shared_Date_Satanoy"
+ "shared_products/[Product] Shared_Roses_fridhmyr"
+ "shared_products/[Product] Shared_rosenwasser_fridhmyr"
+ "shared_misc/jakob-skyscraper-button"
+ "shared_misc/shared_ObjectDummies_serp/shared_Matchers"
+ "shared_misc/shared_ObjectDummies_serp/shared_NatureParticipant"
+ "shared_misc/shared_Neutral Hacienda Base"
+ "shared_misc/shared_ObjectDummies_serp"
+ "shared_products/shared_agarwood_fridhmyr"
+ "shared_misc/shared_decals_industry_jakob"
+ "shared_products/shared_goods_sulfuric_acid"
+ "shared_products/shared_incense"
+ "shared_products/shared_jakob_tools"
+ "shared_products/shared_olive_oil_jakob"
+ "shared_products/shared_olives_jakob"
+ "shared_products/spice_powder_kurila"
+ "shared_storagelist/import_storagelist_almonds_taludas"
+ "shared_storagelist/import_storagelist_ebony_taludas"
+ "shared_storagelist/import_storagelist_silkfabric_taludas"
+)
+args=(); for p in "${P2[@]}"; do [ -d "$R/$p" ] || echo "MISSING $p"; args+=(-p "$R/$p"); done
+"$X" -v "${args[@]}" -o S2.xml S1.xml "$R/Natoncy_orient_after_other_mods/$A" -m "$R/Natoncy_orient_after_other_mods" > stage2.log 2>&1 || true
+"$X" -v -o S3.xml S2.xml "$R/shared_misc/shared_general_modules_kurila/$A" -m "$R/shared_misc/shared_general_modules_kurila" > stage3.log 2>&1 || true
+grep -hiE "warn|error|fail" stage1.log stage2.log stage3.log | grep -v "Condition not matching" | cut -c1-300
+ls -la S*.xml

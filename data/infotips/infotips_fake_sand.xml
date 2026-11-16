@@ -54,5 +54,6 @@
         </InfoElement>
         <Source>[FactoryAssetData([Selection Object Static Guid]) Production COUNT]</Source>
       </InfoElement>
-    </ModOp>
-  </ModOps>
+    </InfoElement>
+  </ModOp>
+</ModOps>

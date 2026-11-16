@@ -21,26 +21,6 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="21535">
-        <Asset>
-            <Template>Text</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404000182</GUID>
-                    <Name>LevelUp_NewAge_Title_Orient02</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>AGE OF</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>29180</LineID>
-                </Text>
-            </Values>
-        </Asset>
-    </ModOp>
 
     <ModOp Type="addNextSibling" GUID="21535">
         <Asset>

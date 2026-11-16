@@ -106,6 +106,8 @@ while (queue.length) scan(queue.shift());
 for (const k of keys) {
   const m = /\/(\d+)\.bnk$/.exec(k);
   if (m && bankIds.has(m[1])) { mark(k, 'bank id in xml'); }
+  // Wwise metadata (.json/.txt/.xml) next to the banks: never read by the game, kept on purpose (user rule 2026-11-16)
+  if (/^data\/sound\/generatedsoundbanks\/.*\.(json|txt|xml)$/.test(k)) mark(k, 'wwise metadata (kept)');
 }
 while (queue.length) scan(queue.shift());
 

@@ -198,23 +198,25 @@
     </ModOp>
 
 
-    <!-- Set Algae and Rice as produced in Horai for recipe book -->
-    <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod2</ModOp>
-    <ModOp Type="add" GUID="1440212,1440200" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
-        <AssociatedRegion>Mod2</AssociatedRegion>
-    </ModOp>
-    <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
-        <Item>
-            <RegionType>Mod2</RegionType>
-        </Item>
-    </ModOp>
-    <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
-        <ProductionRegions>
+    <!-- Set Algae and Rice as produced in Horai for recipe book (both are New Horizons products) -->
+    <Group Condition="#new_horizons_products">
+        <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod2</ModOp>
+        <ModOp Type="add" GUID="1440212,1440200" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
+            <AssociatedRegion>Mod2</AssociatedRegion>
+        </ModOp>
+        <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
             <Item>
                 <RegionType>Mod2</RegionType>
             </Item>
-        </ProductionRegions>
-    </ModOp>
+        </ModOp>
+        <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
+            <ProductionRegions>
+                <Item>
+                    <RegionType>Mod2</RegionType>
+                </Item>
+            </ProductionRegions>
+        </ModOp>
+    </Group>
 
     <!-- Docklands import traders (131764) sell Orient wares, like New Horizon does for its goods.
          Each ware joins the vanilla trade level it fits, and is skipped if another mod already lists it.

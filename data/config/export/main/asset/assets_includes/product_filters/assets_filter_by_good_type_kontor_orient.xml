@@ -64,8 +64,8 @@
         </Mod3>
     </ModOp>
 
-    <!-- ItemFilterScene -->
-    <ModOp Type="add" GUID="485" Path="Values/ItemFilterScene/RegionFilter">
+    <!-- ItemFiltersScene -->
+    <ModOp Type="add" GUID="485" Path="Values/ItemFiltersScene/RegionFilter">
         <Mod3>
             <Filter>1404000034</Filter>
         </Mod3>

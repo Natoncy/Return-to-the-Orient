@@ -215,7 +215,7 @@
   </ModOp>
 
   <!-- add import dock to All Import Pier TargetPool -->
-  <ModOp Type="add" GUID="14443044" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <ModOp Type="add" GUID="14443044" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" AllowNoMatch="1">
     <Item>
       <GUID>1404000382</GUID>
     </Item>

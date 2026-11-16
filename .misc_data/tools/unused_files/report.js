@@ -26,8 +26,7 @@ L.push('## Never-loaded working files', '',
   '- `sound/generatedsoundbanks/**/*.json|.txt|.xml` (27): Wwise metadata next to the banks. The `.xml` ones are also seen as patches.',
   '- `icons/items/unused*.png` / `unussed *.png` (8): spare item icons.', '');
 L.push('## Unused XML includes', '',
-  '- `assets_includes/production_chains/assets_orient_alembics_chain.xml`: its `<Include>` is commented out.',
-  '- `assets_includes/buildings/production/export/assets_export_orient_05_elephant_hunting_cabin_africa.xml`: its `<Include>` is commented out.', '');
+  '- `assets_includes/production_chains/assets_orient_alembics_chain.xml`: its `<Include>` is commented out.', '');
 L.push(`## Folders where nothing is used (${full.length}, ${mb(full.reduce((a, [, v]) => a + v.us, 0))})`, '',
   'Mostly `1404_import` originals whose meshes/textures were later copied into a `buildings/orient/...` folder; the cfgs point at the copy.', '',
   '| size | files | folder |', '|---:|---:|---|');
