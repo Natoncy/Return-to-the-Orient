@@ -33,13 +33,35 @@
     </ModOp>
 
 
-    <!-- ## AI FROM NEW HORIZONS ## -->
+    <!-- add missing paths -->
 
     <ModOp GUID = '85' Path = "/Values/ConstructionAI" Type = "add">
         <BuildingReplacements />
     </ModOp>
 
-    <ModOp GUID = '167' Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
+    <ModOp GUID = '79' Type = "add" Path = "/Values/ConstructionAI/" Condition="!/Values/ConstructionAI/EconomyRules/ConstructionMaterials/SupplementSessionAdditions/PerRegion">
+        <EconomyRules>
+            <ConstructionMaterials>
+                <SupplementSessionAdditions>
+                    <PerRegion/>
+                </SupplementSessionAdditions>
+            </ConstructionMaterials>
+        </EconomyRules>
+    </ModOp>
+
+    <ModOp GUID = '47,79,11,80,81,82,83,84,85' Type = "add" Path = "/Values/ConstructionAI/EconomyRules/" Condition="!/Values/ConstructionAI/EconomyRules/ConsumptionConfiguration">
+        <ConsumptionConfiguration/>
+    </ModOp>
+
+    <ModOp GUID="81" Path="/Values/ConstructionAI/LookAndFeel/" Type="add" Condition="!/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion">
+        <Ornaments>
+            <PerRegion/>
+        </Ornaments>
+    </ModOp>
+
+    <!-- CONFIG -->
+
+    <ModOp GUID = '47,79,80,11,81,82,83,220,48,84,85' Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
         <Mod3>
             <HarborDefenses>
                 <Item>
@@ -91,7 +113,8 @@
     </ModOp>
 
 
-    <ModOp GUID = '167' Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresAir">
+    <ModOp GUID = '47,79,80,11,81,82,83,220,48,84,85' Type = "add" Path = "/Values/ConstructionAI">
+      <DefenseStructuresAir>  
         <Mod3>
             <AirDefenses>
                 <Item>
@@ -123,81 +146,10 @@
             <HighProtectIslandSecurityFactor>2</HighProtectIslandSecurityFactor>
             <RadiusProtectionFactor>0.75</RadiusProtectionFactor>
         </Mod3>
+      </DefenseStructuresAir>
     </ModOp>
 
-    <ModOp GUID = '169' Skip = "1" Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
-        <Mod3>
-            <HarborDefenses>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>0</InheritedIndex>
-                    </VectorElement>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>1</InheritedIndex>
-                    </VectorElement>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>2</InheritedIndex>
-                    </VectorElement>
-                    <Weight>20</Weight>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>3</InheritedIndex>
-                    </VectorElement>
-                    <Weight>30</Weight>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>4</InheritedIndex>
-                    </VectorElement>
-                    <Weight>30</Weight>
-                </Item>
-            </HarborDefenses>
-            <HighProtectIslandSecurityFactor>2.5</HighProtectIslandSecurityFactor>
-        </Mod3>
-    </ModOp>
-
-    <ModOp GUID = '170' Skip = "1" Type = "add" Path = "/Values/ConstructionAI/DefenseStructuresGround">
-        <Mod3>
-            <HarborDefenses>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>0</InheritedIndex>
-                    </VectorElement>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>1</InheritedIndex>
-                    </VectorElement>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>2</InheritedIndex>
-                    </VectorElement>
-                    <Weight>30</Weight>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>3</InheritedIndex>
-                    </VectorElement>
-                    <Weight>40</Weight>
-                </Item>
-                <Item>
-                    <VectorElement>
-                        <InheritedIndex>4</InheritedIndex>
-                    </VectorElement>
-                    <Weight>40</Weight>
-                </Item>
-            </HarborDefenses>
-            <HighProtectIslandSecurityFactor>2.5</HighProtectIslandSecurityFactor>
-        </Mod3>
-    </ModOp>
-
-    <ModOp GUID = '167,168,169,170' Type = "add" Path = "/Values/ConstructionAI/EconomyRules/ConstructionMaterials/SupplementSessionAdditions/PerRegion">
+    <ModOp GUID = '47,79,80,11,81,82,83,220,48,84,85' Type = "add" Path = "/Values/ConstructionAI/EconomyRules/ConstructionMaterials/SupplementSessionAdditions/PerRegion">
         <Mod3>
             <AdditionalProductionInEverySupplementSession>
                 <Item>
@@ -257,7 +209,7 @@
 
     <!-- The AI needs to know the population levels -->
     <!-- Before implementation, the inherits have to be changed.-->
-    <ModOp Type="addNextSibling" GUID='167' Path="/Values/ConstructionAI/EconomyRules/ConsumptionConfiguration/Item[PopulationGuid = '15000006']">
+    <ModOp Type="add" GUID='47,79,80,11,81,82,83,220,48,84,85' Path="/Values/ConstructionAI/EconomyRules/ConsumptionConfiguration/">
         <Item>
             <PopulationGuid>1404000010</PopulationGuid>
         </Item>
@@ -265,9 +217,6 @@
             <PopulationGuid>1404000011</PopulationGuid>
         </Item>
     </ModOp>
-
-    <!-- Change Inherits at the Templates -->
-    <!-- Graves -->
     
 
     <!-- <ModOp GUID ='167' Path = "/Values/ConstructionAI/MonumentConfiguration" Type = "add">
@@ -280,7 +229,7 @@
     </ModOp> -->
 
     <!-- Ornamentals -->
-    <ModOp GUID='167' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion" Type="add">
+    <ModOp GUID='47,79,80,11,81,82,83,220,48,84,85' Path="/Values/ConstructionAI/LookAndFeel/Ornaments/PerRegion" Type="add">
         <Mod3>
             <PerRegionEntry>
                 <PerUsage>
