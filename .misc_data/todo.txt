@@ -32,7 +32,6 @@ v0.7.0
 - Letting AI settle the region
     - check Kontor building costs
 - Check fertility and mine sets
-- Expand river water cutout
 - Check silver mine workarea positioning
 - release beta compatibility mod
 

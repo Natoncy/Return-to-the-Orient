@@ -19686,7 +19686,7 @@
                     <guid>1002784</guid>
                     <ID>-9152440338428723199</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>170.2248 0 172.6685</Position>
+                    <Position>170.3008 0 172.68</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -19706,7 +19706,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1.2539</Scale>
+                      <Scale>1.7539</Scale>
                       <Orientation>0 0 0 1</Orientation>
                     </Mesh>
                     <SoundEmitter />
@@ -19715,7 +19715,7 @@
                     <guid>1002784</guid>
                     <ID>-9152440338428723198</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>180.2248 0 172.6685</Position>
+                    <Position>180.3008 0 172.68</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -19735,7 +19735,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1.2539</Scale>
+                      <Scale>1.7539</Scale>
                       <Orientation>0 0 0 1</Orientation>
                     </Mesh>
                     <SoundEmitter />
@@ -19744,7 +19744,7 @@
                     <guid>1002784</guid>
                     <ID>-9152440338428723197</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>170.2385 0 182.578</Position>
+                    <Position>170.3145 0 182.5895</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -19764,7 +19764,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>2.6289</Scale>
+                      <Scale>3.1289</Scale>
                       <Orientation>0 0 0 1</Orientation>
                     </Mesh>
                     <SoundEmitter />
@@ -19773,7 +19773,7 @@
                     <guid>1002784</guid>
                     <ID>-9152440338428723196</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>180.2385 0 182.578</Position>
+                    <Position>180.3145 0 182.5895</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -19793,7 +19793,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>2.6289</Scale>
+                      <Scale>3.1289</Scale>
                       <Orientation>0 0 0 1</Orientation>
                     </Mesh>
                     <SoundEmitter />

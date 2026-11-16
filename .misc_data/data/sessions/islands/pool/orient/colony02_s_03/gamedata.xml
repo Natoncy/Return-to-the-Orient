@@ -11499,7 +11499,7 @@
                     <guid>1002784</guid>
                     <ID>-9152440338428723199</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>115.5607 0 119.5429</Position>
+                    <Position>115.6367 0 119.5544</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -11519,7 +11519,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>2.6289</Scale>
+                      <Scale>3.1289</Scale>
                       <Orientation>0 0 0 1</Orientation>
                     </Mesh>
                     <SoundEmitter />
