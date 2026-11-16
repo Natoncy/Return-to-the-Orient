@@ -1,5 +1,6 @@
 // Generates Natoncy_orient_trigger_reset/data/config/export/main/asset/assets.xml (CRLF).
-// Usage (from the repo root): node .misc_data/tools/trigger_reset/gen_reset.js
+// Usage (from the repo root): node .misc_data/tools/trigger_reset/gen_reset.js [--version=x.y.z] [target]
+// Without --version it uses the Version of the main modinfo.json.
 // When a new progression trigger is added, put it into `tiers` in tier order and regenerate.
 // Regenerate for every release too: the reset runs once per save for each main mod version.
 const fs = require('fs');
@@ -128,7 +129,13 @@ function trigger(guid, name, autoRegister, actions) {
 
 // One run trigger per main mod version: a trigger that is new to a save registers itself on load and
 // fires once, so the reset runs exactly once per save after each update. x.y.z -> 1404006000 + 100x + 10y + z.
-const version = JSON.parse(fs.readFileSync(path.join(__dirname, '../../../modinfo.json'), 'utf8')).Version;
+// `--version=x.y.z` targets an upcoming release before the main modinfo is bumped.
+const args = process.argv.slice(2);
+const versionArg = args.find((a) => a.startsWith('--version='));
+const version = versionArg
+  ? versionArg.slice('--version='.length)
+  : JSON.parse(fs.readFileSync(path.join(__dirname, '../../../modinfo.json'), 'utf8')).Version;
+if (!/^\d+\.\d+\.\d+$/.test(version)) throw new Error(`bad version ${version}`);
 const [major, minor, patch] = version.split('.').map(Number);
 if (minor > 9 || patch > 9 || major > 9) throw new Error(`version ${version} does not fit the run GUID scheme`);
 const BODY_GUID = 1404006000;
@@ -175,6 +182,6 @@ const out = [
   ``,
 ].join('\n');
 
-const target = process.argv[2] || path.join(__dirname, '../../../Natoncy_orient_trigger_reset/data/config/export/main/asset/assets.xml');
+const target = args.find((a) => !a.startsWith('--')) || path.join(__dirname, '../../../Natoncy_orient_trigger_reset/data/config/export/main/asset/assets.xml');
 fs.writeFileSync(target, out.replace(/\r?\n/g, '\r\n'));
 console.log('written', target, 'run trigger', RUN_GUID);

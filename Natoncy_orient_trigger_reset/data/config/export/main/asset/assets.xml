@@ -10,13 +10,13 @@
          Add new progression triggers here too. -->
     <ModOp Type="addNextSibling" GUID="10138">
 
-        <!-- Fires once per save for main mod version 0.6.2 -->
+        <!-- Fires once per save for main mod version 0.7.0 -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1404006062</GUID>
-                    <Name>Orient trigger reset run 0.6.2</Name>
+                    <GUID>1404006070</GUID>
+                    <Name>Orient trigger reset run 0.7.0</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
@@ -1184,134 +1184,6 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <!-- Intermediate Orient New Horizons Lab Unhide -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>36000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404005072</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient New Horizons Lab Unlock -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>37000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404005073</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.7 Oudh Perfume (New Horizons) -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>38000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004031</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Intermediate Orient 2.8 Oudh Perfume (New Horizons) -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>39000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404004032</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
                         <!-- InitCreativeMode-Orient -->
                         <Item>
                             <TriggerAction>
@@ -1332,38 +1204,6 @@
                                                                     <Action />
                                                                     <ActionRegisterTrigger>
                                                                         <TriggerAsset>1404000791</TriggerAsset>
-                                                                    </ActionRegisterTrigger>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
-                                                    </Actions>
-                                                </ActionList>
-                                            </Values>
-                                        </DelayedActions>
-                                    </ActionDelayedActions>
-                                </Values>
-                            </TriggerAction>
-                        </Item>
-                        <!-- Orient New Horizons Creative Mode -->
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionDelayedActions</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionDelayedActions>
-                                        <ExecutionDelay>41000</ExecutionDelay>
-                                        <DelayedActions>
-                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                            <Values>
-                                                <ActionList>
-                                                    <Actions>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionRegisterTrigger</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionRegisterTrigger>
-                                                                        <TriggerAsset>1404005061</TriggerAsset>
                                                                     </ActionRegisterTrigger>
                                                                 </Values>
                                                             </Action>
@@ -1449,6 +1289,169 @@
             </Values>
         </Asset>
 
+    </ModOp>
+
+    <ModOp Type="add" GUID="1404006000" Path="/Values/Trigger/TriggerActions" Condition="#new_horizons_session">
+        <!-- Intermediate Orient New Horizons Lab Unhide -->
+        <Item>
+            <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                    <Action />
+                    <ActionDelayedActions>
+                        <ExecutionDelay>36000</ExecutionDelay>
+                        <DelayedActions>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList>
+                                    <Actions>
+                                        <Item>
+                                            <Action>
+                                                <Template>ActionRegisterTrigger</Template>
+                                                <Values>
+                                                    <Action />
+                                                    <ActionRegisterTrigger>
+                                                        <TriggerAsset>1404005072</TriggerAsset>
+                                                    </ActionRegisterTrigger>
+                                                </Values>
+                                            </Action>
+                                        </Item>
+                                    </Actions>
+                                </ActionList>
+                            </Values>
+                        </DelayedActions>
+                    </ActionDelayedActions>
+                </Values>
+            </TriggerAction>
+        </Item>
+        <!-- Intermediate Orient New Horizons Lab Unlock -->
+        <Item>
+            <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                    <Action />
+                    <ActionDelayedActions>
+                        <ExecutionDelay>37000</ExecutionDelay>
+                        <DelayedActions>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList>
+                                    <Actions>
+                                        <Item>
+                                            <Action>
+                                                <Template>ActionRegisterTrigger</Template>
+                                                <Values>
+                                                    <Action />
+                                                    <ActionRegisterTrigger>
+                                                        <TriggerAsset>1404005073</TriggerAsset>
+                                                    </ActionRegisterTrigger>
+                                                </Values>
+                                            </Action>
+                                        </Item>
+                                    </Actions>
+                                </ActionList>
+                            </Values>
+                        </DelayedActions>
+                    </ActionDelayedActions>
+                </Values>
+            </TriggerAction>
+        </Item>
+        <!-- Intermediate Orient 2.7 Oudh Perfume (New Horizons) -->
+        <Item>
+            <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                    <Action />
+                    <ActionDelayedActions>
+                        <ExecutionDelay>38000</ExecutionDelay>
+                        <DelayedActions>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList>
+                                    <Actions>
+                                        <Item>
+                                            <Action>
+                                                <Template>ActionRegisterTrigger</Template>
+                                                <Values>
+                                                    <Action />
+                                                    <ActionRegisterTrigger>
+                                                        <TriggerAsset>1404004031</TriggerAsset>
+                                                    </ActionRegisterTrigger>
+                                                </Values>
+                                            </Action>
+                                        </Item>
+                                    </Actions>
+                                </ActionList>
+                            </Values>
+                        </DelayedActions>
+                    </ActionDelayedActions>
+                </Values>
+            </TriggerAction>
+        </Item>
+        <!-- Intermediate Orient 2.8 Oudh Perfume (New Horizons) -->
+        <Item>
+            <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                    <Action />
+                    <ActionDelayedActions>
+                        <ExecutionDelay>39000</ExecutionDelay>
+                        <DelayedActions>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList>
+                                    <Actions>
+                                        <Item>
+                                            <Action>
+                                                <Template>ActionRegisterTrigger</Template>
+                                                <Values>
+                                                    <Action />
+                                                    <ActionRegisterTrigger>
+                                                        <TriggerAsset>1404004032</TriggerAsset>
+                                                    </ActionRegisterTrigger>
+                                                </Values>
+                                            </Action>
+                                        </Item>
+                                    </Actions>
+                                </ActionList>
+                            </Values>
+                        </DelayedActions>
+                    </ActionDelayedActions>
+                </Values>
+            </TriggerAction>
+        </Item>
+        <!-- Orient New Horizons Creative Mode -->
+        <Item>
+            <TriggerAction>
+                <Template>ActionDelayedActions</Template>
+                <Values>
+                    <Action />
+                    <ActionDelayedActions>
+                        <ExecutionDelay>41000</ExecutionDelay>
+                        <DelayedActions>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList>
+                                    <Actions>
+                                        <Item>
+                                            <Action>
+                                                <Template>ActionRegisterTrigger</Template>
+                                                <Values>
+                                                    <Action />
+                                                    <ActionRegisterTrigger>
+                                                        <TriggerAsset>1404005061</TriggerAsset>
+                                                    </ActionRegisterTrigger>
+                                                </Values>
+                                            </Action>
+                                        </Item>
+                                    </Actions>
+                                </ActionList>
+                            </Values>
+                        </DelayedActions>
+                    </ActionDelayedActions>
+                </Values>
+            </TriggerAction>
+        </Item>
     </ModOp>
 
 </ModOps>
