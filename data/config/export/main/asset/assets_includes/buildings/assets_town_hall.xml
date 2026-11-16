@@ -118,7 +118,7 @@
                 <FeedbackController />
                 <Infolayer />
                 <ItemContainer>
-                    <SocketScopeRadius>25</SocketScopeRadius>
+                    <SocketScopeRadius>21</SocketScopeRadius>
                 </ItemContainer>
                 <UpgradeList />
                 <Attackable />
