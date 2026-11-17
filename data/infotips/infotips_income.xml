@@ -1,5 +1,5 @@
 <ModOps>
-  <ModOp Path="//InfoTipData[Guid='25000057']//InfoElement[VisibilityElement/VisibilityElement/Condition='[Economy PopulationCount(114330)]']" Type="addNextSibling">
+  <ModOp Path="//InfoTipData[Guid='25000057']/InfoElement[Icon/IconGUID='114330']" Type="addNextSibling">
     <InfoElement>
       <ElementType>4</ElementType>
       <VisibilityElement>
@@ -17,7 +17,7 @@
           <ResultType>
             <ResultType>1</ResultType>
           </ResultType>
-          <Condition>[Economy PopulationCount(1404000010)]</Condition>
+          <Condition>[Money PopulationIncome(1404000010)]</Condition>
         </VisibilityElement>
         <OperatorType />
       </VisibilityElement>
@@ -53,7 +53,7 @@
           <ResultType>
             <ResultType>1</ResultType>
           </ResultType>
-          <Condition>[Economy PopulationCount(1404000011)]</Condition>
+          <Condition>[Money PopulationIncome(1404000011)]</Condition>
         </VisibilityElement>
         <OperatorType />
       </VisibilityElement>
