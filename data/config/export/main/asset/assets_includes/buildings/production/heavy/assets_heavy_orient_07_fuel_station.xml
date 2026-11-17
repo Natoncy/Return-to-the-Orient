@@ -37,12 +37,7 @@
 						<Item>
 							<Ingredient>1404000256</Ingredient>
 							<!--mosaic-->
-							<Amount>20</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<!--beams-->
-							<Amount>40</Amount>
+							<Amount>60</Amount>
 						</Item>
 					</Costs>
 				</Cost>

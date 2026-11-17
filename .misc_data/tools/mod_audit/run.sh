@@ -4,6 +4,7 @@
 # 3. srccheck   : same on our source XML incl. New Horizons-only ModOps; cond.js shows their Condition
 # 4. textonly   : refs that only hit a texts_*.xml LineId + orphan LineIds
 # 5. loca/latin : 13-language completeness, same-as-English, [token] and <b> mismatches, half-English CJK/RU
+# 6. costaudit  : construction costs vs Orient materials + unlock stage -> out/costs.txt
 # Update the submod list in chain.sh from Documents/Anno 1800/log/mod-loader.log when the mod set changes.
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd -W)"; OUT="$HERE/out"; mkdir -p "$OUT"
@@ -14,5 +15,6 @@ node --max-old-space-size=12000 "$HERE/srccheck.js" "$W" > /dev/null
 node "$HERE/cond.js" "$W" > "$OUT/cond.txt"
 node --max-old-space-size=12000 "$HERE/textonly.js" "$W" > /dev/null
 node "$HERE/loca.js" "$W" > /dev/null
+node --max-old-space-size=12000 "$HERE/costaudit.js" "$W/xt/S3.xml" "$(cd "$HERE/../../.." && pwd -W)" > "$OUT/costs.txt"
 node "$HERE/latin.js" "$(cd "$HERE/../../../data/config/gui" && pwd -W)" > "$OUT/latin.txt"
 echo "reports in $OUT"

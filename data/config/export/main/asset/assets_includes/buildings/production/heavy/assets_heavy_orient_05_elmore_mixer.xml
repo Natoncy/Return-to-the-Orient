@@ -34,11 +34,7 @@
                         </Item>
                         <Item>
                             <Ingredient>1404000256</Ingredient>
-                            <Amount>15</Amount>
-                        </Item>
-                        <Item>
-                            <Ingredient>1010218</Ingredient>
-                            <Amount>10</Amount>
+                            <Amount>25</Amount>
                         </Item>
                     </Costs>
                 </Cost>

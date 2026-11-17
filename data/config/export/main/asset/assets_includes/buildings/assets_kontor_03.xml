@@ -69,7 +69,7 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1404000256</Ingredient>
-                            <Amount>20</Amount>
+                            <Amount>40</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -81,6 +81,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -275,7 +276,7 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1404000256</Ingredient>
-                            <Amount>20</Amount>
+                            <Amount>40</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -287,6 +288,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>

@@ -273,6 +273,8 @@
                             <VectorElement>
                                 <InheritedIndex>3</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>15</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -366,7 +368,7 @@
         </Asset>
     </ModOp>
 
-    <!-- Big Betty: Old World timber + bricks; bricks (index 2) become Rammed Earth. Coast terrain + SnapRadius inherited -->
+    <!-- Big Betty: timber -> palm planks, bricks -> Rammed Earth, beams/windows/concrete -> mosaics (60+60+50); advanced weapons kept. Coast terrain + SnapRadius inherited -->
     <ModOp Type="addNextSibling" GUID="1010524">
         <Asset>
             <BaseAssetGUID>1010524</BaseAssetGUID>
@@ -404,6 +406,7 @@
                             <VectorElement>
                                 <InheritedIndex>1</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1400201040</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -415,16 +418,20 @@
                             <VectorElement>
                                 <InheritedIndex>3</InheritedIndex>
                             </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>170</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>4</InheritedIndex>
                             </VectorElement>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>5</InheritedIndex>
                             </VectorElement>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
