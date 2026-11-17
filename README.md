@@ -60,7 +60,6 @@ To unlock the quest and expedition you need to have 3000 Investors, 1800 Obreras
 |<img src="data/graphics/icons/products/icon_mushrooms.png" style="vertical-align: text-bottom;25px" width="25" />| P. Parasiticum | 1404005054 |
 |<img src="data/graphics/icons/products/icon_oud_perfume.png" style="vertical-align: text-bottom;25px" width="25" />| Oudh Perfume | 1404005059 |
 |<img src="data/graphics/icons/products/icon_oud.png" style="vertical-align: text-bottom;25px" width="25" />| Oudh | 1404005058 |
-|<img src="data/graphics/icons/products/icon_sulfuric_acid.png" style="vertical-align: text-bottom;25px" width="25" />| Sulfuric Acid | 1404005039 |
 |<img src="data/graphics/icons/products/icon_sultans_seal.png" style="vertical-align: text-bottom;25px" width="25" />| Sultans Seals | 1404000207 |
 
 These products are added by the mod, but are specific to the Orient. This is the reason why they can be used by other mods, but not produced independently. This can change in the future.
