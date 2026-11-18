@@ -1,6 +1,6 @@
 <ModOps>
 
-	<ModOp Type="addNextSibling" GUID="114531" Condition="#new_horizons_session">
+	<ModOp Type="addNextSibling" GUID="114531">
 		<Asset>
 			<Template>AssetPool</Template>
 			<Values>
