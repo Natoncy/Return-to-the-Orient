@@ -16,6 +16,7 @@ Enums:
         66 (1404004230 Crossing Canal-Street Orient)
         67 (1404004231 Crossing Canal-FastStreet Orient)
         69 (1404000845 Simple Street Orient)
+        102 (1404005165 Fast Street Orient)
 Required Pop.: 3000 Investors, 1500 Obreros, 1000 Elders
 Required DLCs: Land of Lions, New World Rising
 Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies
