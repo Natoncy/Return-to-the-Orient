@@ -12,7 +12,7 @@
                 <Region>
                     <CoastGUIDReplacements>
                         <Item>
-                            <OldGUID>119029</OldGUID>
+                            <OldGUID>1404005165</OldGUID>
                             <NewGUID>131865</NewGUID>
                         </Item>
                         <Item>
@@ -806,7 +806,7 @@
         <Item>
             <GUIDGroup>
                 <Mod3>
-                    <AssetGUID>119029</AssetGUID>
+                    <AssetGUID>1404005165</AssetGUID>
                 </Mod3>
             </GUIDGroup>
         </Item>
@@ -862,7 +862,7 @@
         <!-- result: 33 -->
         <Mod3>
             <StreetNormal>1404000845</StreetNormal>
-            <StreetFast>119029</StreetFast>
+            <StreetFast>1404005165</StreetFast>
             <Quay>101339</Quay>
             <IrrigationPipe>1404004229</IrrigationPipe>
             <Crossing_Pipe_StreetNormal>1404004230</Crossing_Pipe_StreetNormal>
