@@ -19,7 +19,7 @@
                     <AdaptToNeighbors>
                         <NeighborsThatMakeUsAdapt>StreetLowQuality;StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetLowQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetLowQuality</NeighborsThatMakeUsAdapt>
                     </AdaptToNeighbors>
-                    <UpgradeModeTarget>119029</UpgradeModeTarget>
+                    <UpgradeModeTarget>1404005165</UpgradeModeTarget>
                     <!--AF | Fast Street-->
                 </Street>
                 <Constructable/>
@@ -210,124 +210,6 @@
         </Asset>
     </ModOp>
 
-    <!-- <ModOp Type="addNextSibling" GUID="114523">
-        <Asset>
-            <BaseAssetGUID>1010035</BaseAssetGUID>
-            tone Stree
-            <Values>
-                <Standard>
-                    <GUID>1404000847</GUID>
-                    <Name>Orient Stone Street</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/icon_brick_street_africa.png</IconFilename>
-                    <ID/>
-                </Standard>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>0</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Street</TemplateName>
-                                        <Index>0</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>1</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Street</TemplateName>
-                                        <Index>1</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>2</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Street</TemplateName>
-                                        <Index>2</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                            <Ingredient>1404009000</Ingredient>
-                            ud Brick
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>3</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Street</TemplateName>
-                                        <Index>3</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>4</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Street</TemplateName>
-                                        <Index>4</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>5</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Street</TemplateName>
-                                        <Index>5</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                    </Costs>
-                </Cost>
-                <Street>
-                    <CfgFileName>data/dlc06/graphics/effects/street/africa_street_02/africa_street_02.cfg</CfgFileName>
-                    <BridgeAsset>122988</BridgeAsset>
-                    tone Bridge Afric
-                    <Internal????ID>????????????????????????????????</InternalID>
-                    <DecalVariation>data/config/street/streetdecal_var_ext.txt</DecalVariation>
-                    <AdaptToNeighbors>
-                        <NeighborsThatMakeUsAdapt>StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality</NeighborsThatMakeUsAdapt>
-                    </AdaptToNeighbors>
-                    <DowngradeModeTarget>1404000845</DowngradeModeTarget>
-                    F | Dirt Stree
-                </Street>
-                <Constructable/>
-                <Locked/>
-                <SoundEmitter>
-                    <IncidentSounds>
-                        <InfectedFire>
-                            <Item>
-                                <Sound>214659</Sound>
-                                we_sfx_bld_inc_bur
-                            </Item>
-                        </InfectedFire>
-                    </IncidentSounds>
-                </SoundEmitter>
-                <Text>
-                    <LineID>45629</LineID>
-                </Text>
-                <Building>
-                    <AssociatedRegions>Mod3</AssociatedRegions>
-                </Building>
-                <Ornament/>
-            </Values>
-        </Asset>
-    </ModOp> -->
-     
     <!-- Canal, Orient skin (cream plaster): vanilla 112842 with local cfgs (data/graphics/buildings/orient/canal) -->
     <ModOp Type="addNextSibling" GUID="112842">
         <Asset>
@@ -786,17 +668,215 @@
                             </Item>
                         </BuildAddWaypoint>
                     </ConstructionStreetSounds>
-                    <MaterialType>Street_Dirt</MaterialType>
+                    <MaterialType>Street_Brick</MaterialType>
                 </SoundEmitter>
                 <Text>
                     <TextOverride>127913</TextOverride>
                 </Text>
                 <Building>
                     <SkipUnlockMessage>1</SkipUnlockMessage>
-                    <PickingAsset>119029</PickingAsset>
+                    <PickingAsset>1404005165</PickingAsset>
                     <AssociatedRegions>Mod3</AssociatedRegions>
                 </Building>
                 <Ornament />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID='114523'>
+        <Asset>
+            <BaseAssetGUID>119029</BaseAssetGUID>
+            <!--Dirt Street-->
+            <Values>
+                <Standard>
+                    <GUID>1404005165</GUID>
+                    <Name>Fast Street Orient</Name>
+                    <ID/>
+                </Standard>
+                <Cost/>
+                <Street>
+                    <CfgFileName>data/dlc06/graphics/effects/street/africa_street_02/africa_street_02.cfg</CfgFileName>
+                    <BridgeAsset>1404005166</BridgeAsset>
+                    <InternalID>102</InternalID>
+                    <AdaptToNeighbors>
+                        <NeighborsThatMakeUsAdapt>StreetLowQuality;StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetLowQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetLowQuality</NeighborsThatMakeUsAdapt>
+                    </AdaptToNeighbors>
+                    <DowngradeModeTarget>1404000845</DowngradeModeTarget>
+                </Street>
+                <Constructable/>
+                <Locked/>
+                <SoundEmitter/>
+                <Text>
+                    <TextOverride>119029</TextOverride>
+                </Text>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Ornament/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="114523">
+        <Asset>
+            <Template>BridgeBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005166</GUID>
+                    <Name>Fast Street Orient Bridge</Name>
+                </Standard>
+                <Text>
+                    <TextOverride>122988</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>18270</GroundDecalAsset>
+                </Blocking>
+                <Building>
+                    <PickingAsset>1404005165</PickingAsset>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>BridgeBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>1000</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>BridgeBuilding</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1400201040</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>BridgeBuilding</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>BridgeBuilding</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>BridgeBuilding</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>BridgeBuilding</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc06/graphics/buildings/special/bridge/africa_bridge_stone_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>200777</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>BridgeBuilding</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                            </Item>
+                            <Item>
+                                <Sound>200901</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                    <SpawnSounds>
+                        <Item>
+                            <Sound>200901</Sound>
+                        </Item>
+                    </SpawnSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Bridge_Brick</MaterialType>
+                </SoundEmitter>
+                <FeedbackController />
+                <Ornament />
+                <AmbientMoodProvider />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                </Attackable>
+                <Pausable />
+                <Bridge>
+                    <MinLength>3</MinLength>
+                    <MaxLength>16</MaxLength>
+                </Bridge>
             </Values>
         </Asset>
     </ModOp>

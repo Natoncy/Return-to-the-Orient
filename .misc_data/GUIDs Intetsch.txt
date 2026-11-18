@@ -200,6 +200,8 @@ OTHER
 1404005154-1404005157: InfoTip Fluff
 1404005158: InfoTip Support 01
 1404005159: InfoTip Support 02
+1404005165: Fast Street Orient
+1404005166: Fast Street Orient Bridge
 
 SUBMODS
 ----------
