@@ -7347,6 +7347,11 @@
       <Text>島ごとに1つまで。スルタンの印章を消費します。島内のすべての住宅の税収が10%増加し、東洋の商品が一部の地元商品としても扱われます。</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>東洋造船所</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>モジュールの生産</Text>

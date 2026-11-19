@@ -7347,6 +7347,11 @@
       <Text>Solo una per isola. Consuma I sigilli del sultano. Tutte le residenze dell'isola pagano il 10% di tasse in più e le merci dell'Oriente valgono anche come alcune merci locali.</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>Cantiere navale orientale</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>Produzione del modulo</Text>

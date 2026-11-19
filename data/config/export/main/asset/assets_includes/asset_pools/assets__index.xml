@@ -41,6 +41,7 @@
     <Include File="assets_asset_pool_orient_pomegranate_juice.xml" />
     <Include File="assets_asset_pool_orient_rose_water.xml" />
     <Include File="assets_asset_pool_orient_rugs.xml" />
+    <Include File="assets_asset_pool_orient_shipyard.xml" />
     <Include File="assets_asset_pool_orient_spice_powder.xml" />
     <Include File="assets_asset_pool_orient_turbans.xml" />
     <Include File="assets_asset_pool_orient_warehouse_01.xml" />

@@ -260,6 +260,9 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Chains: Bath house
   - Items: Ibrahim ibn Hasan al-Hammami, Baths Supervisor; Vizier Decree on Urban Jurisdiction
 - Oriental Harbour Tower; Oriental Place 3
+- Oriental Shipyard (pool)
+  - Buildings: Oriental Shipyard
+  - Ships: Schooner; Gunboat (placeholders, normally already unlocked by the Old World)
 
 ### 2.7 — 4500 Envoys
 

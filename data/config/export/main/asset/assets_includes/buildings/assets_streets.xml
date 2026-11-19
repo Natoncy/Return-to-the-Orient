@@ -12,7 +12,7 @@
                 </Standard>
                 <Cost/>
                 <Street>
-                    <CfgFileName>data/dlc06/graphics/effects/street/africa_street_01/africa_street_01.cfg</CfgFileName>
+                    <CfgFileName>data/graphics/buildings/orient/street/desert_road/desert_road.cfg</CfgFileName>
                     <BridgeAsset>1404000846</BridgeAsset>
                     <!--Dirt Bridge Africa-->
                     <InternalID>69</InternalID>
@@ -695,7 +695,7 @@
                 </Standard>
                 <Cost/>
                 <Street>
-                    <CfgFileName>data/dlc06/graphics/effects/street/africa_street_02/africa_street_02.cfg</CfgFileName>
+                    <CfgFileName>data/graphics/buildings/orient/street/stone_street/stone_street.cfg</CfgFileName>
                     <BridgeAsset>1404005166</BridgeAsset>
                     <InternalID>102</InternalID>
                     <AdaptToNeighbors>

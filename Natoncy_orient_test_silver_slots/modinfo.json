@@ -1,0 +1,17 @@
+{
+  "Version": "1.0.0",
+  "ModID": "natoncy_return_to_the_orient_test_silver_slots",
+  "Category": {
+    "English": "Test"
+  },
+  "ModName": {
+    "English": "Return to the Orient Test Silver Slots (do not ship)"
+  },
+  "Description": {
+    "English": "TEST ONLY: every mine slot the Orient map generator can fill becomes a silver ore deposit (mining, clay and oil placeholders), to check how the silver deposit sits on every position. Only affects an Orient session generated while this is active: start a new game, or open the Orient for the first time."
+  },
+  "LoadAfterIds": [
+    "natoncy_return_to_the_orient"
+  ],
+  "CreatorName": "Natoncy"
+}

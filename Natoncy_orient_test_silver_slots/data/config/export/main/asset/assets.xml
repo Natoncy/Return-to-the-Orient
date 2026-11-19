@@ -1,0 +1,92 @@
+<ModOps>
+
+    <!-- TEST ONLY - do not ship. Rename the folder to "-Natoncy_orient_test_silver_slots" or delete it to switch it off.
+         Every Orient mine set (normal 01-04 and starter 1404009517-520) becomes silver only, and silver
+         (1404001281) is also allowed on the clay (100417) and oil (100849) placeholders. Every placeholder
+         the generator fills in the Orient therefore becomes a silver ore deposit.
+         The list is long so the island's mine budget, not the list, decides how many get placed.
+         The map is generated once, when the Orient session is first created: use a new game. -->
+    <ModOp Type="replace" GUID="1404001294,1404001295,1404001296,1404001297,1404009517,1404009518,1404009519,1404009520" Path="/Values/MineSlotResourceSet/MineSlots">
+        <MineSlots>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+            <Item>
+                <MineSlot>1404001281</MineSlot>
+            </Item>
+        </MineSlots>
+    </ModOp>
+
+    <ModOp Type="add" GUID="100417,100849" Path="/Values/RandomMapObject/Replacements">
+        <Item>
+            <NewAsset>1404001281</NewAsset>
+        </Item>
+    </ModOp>
+
+</ModOps>

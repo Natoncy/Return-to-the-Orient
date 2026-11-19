@@ -7347,6 +7347,11 @@
       <Text>Une seule par île. Consomme des Sceaux du Sultan. Toutes les habitations de l'île paient 10 % d'impôts en plus, et les marchandises d'Orient comptent aussi pour certaines marchandises locales.</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>Chantier naval oriental</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>Production de modules</Text>

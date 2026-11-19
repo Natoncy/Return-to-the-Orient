@@ -1,0 +1,69 @@
+<ModOps>
+
+    <!-- TEST ONLY - do not ship. Rename the folder to "-Natoncy_orient_test_unlock" or delete it to switch it off.
+         Regular games get the Orient session at the start, like InitCreativeMode-Orient (1404000791) unlocks it in
+         creative and the Q01 expedition unhides it. Intermediate Orient 1.0 then fires for the human at once.
+         UsedBySecondParties 0 keeps the session away from the AIs, so they still have to go through
+         triggers/assets_ai_settle.xml: switch to the Orient (Numpad 8) and they should follow. -->
+    <ModOp Type="addNextSibling" GUID="1404000791">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004130</GUID>
+                    <Name>TEST Orient Session Unlock (regular game)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                            <ConditionPropsNegatable>
+                                <NegateCondition>1</NegateCondition>
+                            </ConditionPropsNegatable>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404000000</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404000000</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- TEST ONLY: AIs follow the player into the Orient (like Arctic/Cape Trelawney/New Horizon) instead of choosing
+         when to expand there. The gate 1404005137 (Human0 has a Kontor in the Orient) still applies. -->
+    <ModOp Type="replace" GUID="1404000000" Path="/Values/Session/SecondPartyForceFollowPlayer">
+        <SecondPartyForceFollowPlayer>1</SecondPartyForceFollowPlayer>
+    </ModOp>
+
+</ModOps>

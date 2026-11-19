@@ -39,6 +39,11 @@ const CFGS = [
 const DECALS = ['straight', 'single', 'end', 'curve', 'cross', '3way'].map(k => `canal_system_ground_${k}_01_diff`);
 const RENAME = { canal_system_diff: 'canal_system_orient_diff', canal_system_norm: 'canal_system_orient_norm' };
 for (const k of DECALS) RENAME[k] = k.replace(/_diff$/, '_orient_diff');
+// Road decals of the crossings get the same desert recolour as the Orient streets (../orient_streets/recolour.js):
+// crossing_01 = desert road 1404000845, crossing_02 = fast street 1404005165.
+const { recolour: streetRecolour, PARAMS: STREET_PARAMS } = require('../orient_streets/recolour.js');
+const ROAD_DECALS = { irrigation_crossing_diff: 'desert_road', irrigation_crossing_02_diff: 'stone_street' };
+for (const k in ROAD_DECALS) RENAME[k] = k.replace(/_diff$/, '_orient_diff');
 
 const ss = (e0, e1, x) => { const t = Math.min(1, Math.max(0, (x - e0) / (e1 - e0))); return t * t * (3 - 2 * t); };
 const texconv = args => execFileSync(TEXCONV, ['-nologo', '-y', ...args], { stdio: 'pipe' });
@@ -66,9 +71,8 @@ function halve(img) {
   return out;
 }
 
-// _0.png source next to the DDS (as for the other restyles), _0.._4 as box halvings, BC7 with full mips like vanilla
+// _0.._4 as box halvings (no _0.png source in the mod, see commit a3ab10c3), BC7 with full mips like vanilla
 function writeTexture(base, img) {
-  PNG.encode(path.join(mapDir, base + '_0.png'), img);
   for (let k = 0; k < 5; k++) {
     if (k) img = halve(img);
     const p = path.join(tmp, `${base}_${k}.png`);
@@ -100,12 +104,13 @@ const stone = stoneAtlas(diff, vanillaPng('canal_system_norm'), uvmap(meshes, di
 writeTexture(RENAME.canal_system_diff, stone.diff);
 writeTexture(RENAME.canal_system_norm, stone.norm);
 for (const k of DECALS) writeTexture(RENAME[k], recolourDecal(vanillaPng(k)));
+for (const [k, street] of Object.entries(ROAD_DECALS)) writeTexture(RENAME[k], streetRecolour(vanillaPng(k), STREET_PARAMS[street]));
 
 // cfgs keep vanilla meshes, props and metal maps; only the retextured map paths move
 for (const c of CFGS) {
   let s = fs.readFileSync(path.join(VAN, SRC, c + '.cfg'), 'latin1');
   for (const [from, to] of Object.entries(RENAME)) s = s.split(`${SRC}/maps/${from}.psd`).join(`${DST}/maps/${to}.psd`);
-  if (new RegExp(`${SRC}/maps/canal_system_(diff|norm|ground_[a-z0-9]+_01_diff)\\.psd`).test(s)) throw new Error('unreplaced texture in ' + c);
+  if (new RegExp(`${SRC}/maps/(canal_system_(diff|norm|ground_[a-z0-9]+_01_diff)|irrigation_crossing(_02)?_diff)\\.psd`).test(s)) throw new Error('unreplaced texture in ' + c);
   fs.writeFileSync(path.join(outDir, c + '.cfg'), s, 'latin1');
   for (const ext of ['.ifo', '.fc']) {
     const f = path.join(VAN, SRC, c + ext);

@@ -1,0 +1,106 @@
+<ModOps>
+
+    <!-- Oriental Shipyard: copy of the New World Sailing Shipyard (101277) on the Orient reskin shipyard_orient
+         (cream plaster, terracotta roof, red star frieze; no teal). Builds the Schooner (100438) and the Gunboat (100437)
+         as placeholders for Orient ships. Unlocked with pool 1404009701 at 3250 Envoys (2.6) and in creative mode. -->
+    <ModOp Type="addNextSibling" GUID="101277">
+        <Asset>
+            <BaseAssetGUID>101277</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404009700</GUID>
+                    <Name>harbor_orient_08 (Oriental Shipyard)</Name>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/shipyard_orient/shipyard_orient.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Selection>
+                    <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oriental Shipyard</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Shipyard>
+                    <AssemblyOptions>
+                        <Item>
+                            <Vehicle>100438</Vehicle>
+                        </Item>
+                        <Item>
+                            <Vehicle>100437</Vehicle>
+                        </Item>
+                    </AssemblyOptions>
+                </Shipyard>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>10000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1400201040</Ingredient>
+                            <!--Palm Wood-->
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1404009000</Ingredient>
+                            <!--Rammed Earth-->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1404000256</Ingredient>
+                            <!--Mosaic-->
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1404000012</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- vanilla target pools that list the New World shipyard: all shipyards, all sailing shipyards,
+         all buildings with maintenance DLC11 -->
+    <ModOp Type="add" GUID="190783,192466,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404009700</GUID>
+        </Item>
+    </ModOp>
+
+</ModOps>

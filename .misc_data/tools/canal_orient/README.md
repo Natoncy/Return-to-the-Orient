@@ -23,8 +23,9 @@ Stone parameters (block length, course height, joints, colours) are the `DEFAULT
     G = 127.5 − k·dh/dv) and get less gloss.
 - `canal_system_ground_*_01_diff` → `*_orient_diff`: the red-brown dirt of the ground strip becomes Orient sand
   (colony02_beach_06); the grass stays. Alpha is untouched.
-- Meshes, metal maps, props (boards, fences, pots, water plants) and the crossings' road textures stay vanilla.
-- Every `_k.dds` is a box-halving of `_0`, encoded `-sepalpha -f BC7_UNORM -m 0` like vanilla.
+- Crossing road decals `irrigation_crossing(_02)_diff` → `*_orient_diff`: the desert recolour of the Orient streets (`../orient_streets/recolour.js`; crossing_01 = desert road, crossing_02 = fast street).
+- Meshes, metal maps and props (boards, fences, pots, water plants) stay vanilla.
+- Every `_k.dds` is a box-halving of `_0`, encoded `-sepalpha -f BC7_UNORM -m 0` like vanilla. No `_0.png` sources are shipped (removed in a3ab10c3).
 
 `preview_before_after.png`: vanilla (left) and Orient (right) on the Orient sand, from a software render of the real meshes
 (no normal mapping, no water).

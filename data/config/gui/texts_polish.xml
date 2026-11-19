@@ -7347,6 +7347,11 @@
       <Text>Tylko jedna na wyspę. Zużywa Pieczęcie sułtana. Wszystkie domy na wyspie płacą 10% więcej podatków, a towary z Orientu liczą się też jako niektóre towary lokalne.</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>Stocznia orientalna</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>Produkcja modułu</Text>

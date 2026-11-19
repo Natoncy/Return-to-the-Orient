@@ -7347,6 +7347,11 @@
       <Text>每座岛屿仅限一座。消耗苏丹的印章。岛上所有住宅多缴纳10%的税，东方商品也可算作部分本地商品。</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>东方造船厂</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>模块制作</Text>

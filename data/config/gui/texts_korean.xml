@@ -7347,6 +7347,11 @@
       <Text>섬당 하나만 건설 가능. 술탄의 인장을 소비합니다. 섬의 모든 주거지는 세금을 10% 더 내며, 동방 상품이 일부 현지 상품으로도 인정됩니다.</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>동방 조선소</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>모듈 생산</Text>

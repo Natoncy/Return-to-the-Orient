@@ -1,0 +1,30 @@
+<ModOps>
+
+    <!-- Oriental Shipyard 1404009700 and the ships it builds. Schooner (100438) and Gunboat (100437) are placeholders
+         for Orient ships; the Old World normally unlocks them long before (vanilla trigger 141003). -->
+    <ModOp Type="addNextSibling" GUID="118226">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404009701</GUID>
+                    <Name>asset pool orient shipyard</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404009700</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>100438</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>100437</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

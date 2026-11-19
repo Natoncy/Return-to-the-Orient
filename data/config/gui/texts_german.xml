@@ -7347,6 +7347,11 @@
       <Text>Nur eine pro Insel. Verbraucht Sultanssiegel. Alle Wohnhäuser der Insel zahlen 10 % mehr Steuern, und Waren aus dem Orient zählen auch als einige lokale Waren.</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>Orientalische Werft</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>Modulproduktion</Text>

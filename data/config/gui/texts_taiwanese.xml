@@ -7347,6 +7347,11 @@
       <Text>每座島嶼僅限一座。消耗蘇丹的印章。島上所有住宅多繳納10%的稅，東方商品也可算作部分本地商品。</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>東方造船廠</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>模組製作</Text>

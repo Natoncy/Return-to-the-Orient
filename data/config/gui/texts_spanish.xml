@@ -7347,6 +7347,11 @@
       <Text>Solo una por isla. Consume Sellos del sultán. Todas las residencias de la isla pagan un 10 % más de impuestos y los bienes de Oriente también cuentan como algunos bienes locales.</Text>
     </Text>
     <Text>
+      <GUID>1404009700</GUID>
+      <!-- Shipyard | Oriental Shipyard | Oriental Shipyard -->
+      <Text>Astillero oriental</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>Producción de módulo</Text>
