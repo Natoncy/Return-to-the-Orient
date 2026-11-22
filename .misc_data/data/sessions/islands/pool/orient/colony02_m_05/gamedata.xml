@@ -17256,7 +17256,7 @@
                     <guid>1000029</guid>
                     <ID>-9222246132652965886</ID>
                     <ObjectFolderID>4</ObjectFolderID>
-                    <Position>100.5 0.484375 91.5</Position>
+                    <Position>100.5 0.5 90.5</Position>
                     <Direction>1.5708</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17286,7 +17286,7 @@
                     <guid>100419</guid>
                     <ID>-9222246132652965882</ID>
                     <ObjectFolderID>4</ObjectFolderID>
-                    <Position>100.4869 0.5318 96.75</Position>
+                    <Position>100.4869 0.5 95.75</Position>
                     <Direction>1.7072</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17327,7 +17327,7 @@
                     <guid>1000029</guid>
                     <ID>-4591419815809253368</ID>
                     <ObjectFolderID>5</ObjectFolderID>
-                    <Position>219.5 0.75 231.5</Position>
+                    <Position>219.5 0.796875 230.5</Position>
                     <Direction>1.5708</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17357,7 +17357,7 @@
                     <guid>100419</guid>
                     <ID>-4591419815809253367</ID>
                     <ObjectFolderID>5</ObjectFolderID>
-                    <Position>219.6493 0.6625 236.75</Position>
+                    <Position>219.6493 0.6815 235.75</Position>
                     <Direction>1.5114</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17398,7 +17398,7 @@
                     <guid>1000029</guid>
                     <ID>-9205357634050326525</ID>
                     <ObjectFolderID>6</ObjectFolderID>
-                    <Position>148.5 1.7969 193.5</Position>
+                    <Position>149.5 1.7890625 193.5</Position>
                     <Direction>3.1416</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17539,7 +17539,7 @@
                     <guid>1000029</guid>
                     <ID>-9217742533025595383</ID>
                     <ObjectFolderID>8</ObjectFolderID>
-                    <Position>116.5 1.2890625 114.5</Position>
+                    <Position>117.5 1.328125 114.5</Position>
                     <Direction>3.1416</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17569,7 +17569,7 @@
                     <guid>100419</guid>
                     <ID>-4604930614691364857</ID>
                     <ObjectFolderID>8</ObjectFolderID>
-                    <Position>110.75 1.3485 114.4288</Position>
+                    <Position>111.75 1.2232 114.4288</Position>
                     <Direction>3.4977</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17610,7 +17610,7 @@
                     <guid>1000029</guid>
                     <ID>-4604930614691364856</ID>
                     <ObjectFolderID>9</ObjectFolderID>
-                    <Position>122.5 2.3359 140.5</Position>
+                    <Position>124.5 2.359375 140.5</Position>
                     <Direction>3.1416</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -17640,7 +17640,7 @@
                     <guid>100419</guid>
                     <ID>-4604930614691364855</ID>
                     <ObjectFolderID>9</ObjectFolderID>
-                    <Position>116.75 2.4031 140.2102</Position>
+                    <Position>118.75 2.3052 140.2102</Position>
                     <Direction>2.7837</Direction>
                     <ParticipantID>
                       <id>8</id>

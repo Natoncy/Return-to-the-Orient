@@ -6777,7 +6777,7 @@
                     <guid>1000029</guid>
                     <ID>-4610560114225577978</ID>
                     <ObjectFolderID>4</ObjectFolderID>
-                    <Position>82.5 0.578125 69.5</Position>
+                    <Position>81.5 0.609375 69.5</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -6847,7 +6847,7 @@
                     <guid>1000029</guid>
                     <ID>-4604930614691364863</ID>
                     <ObjectFolderID>5</ObjectFolderID>
-                    <Position>70.5 0.6875 141.5</Position>
+                    <Position>70.5 0.6796875 142.5</Position>
                     <Direction>4.7124</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -6918,7 +6918,7 @@
                     <guid>1000029</guid>
                     <ID>-4602678814877679615</ID>
                     <ObjectFolderID>6</ObjectFolderID>
-                    <Position>125.5 0.71875 125.5</Position>
+                    <Position>126.5 0.71875 125.5</Position>
                     <Direction>3.1416</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -6948,7 +6948,7 @@
                     <guid>100419</guid>
                     <ID>-4602678814877679614</ID>
                     <ObjectFolderID>6</ObjectFolderID>
-                    <Position>120.75 0.8264 125.2001</Position>
+                    <Position>121.75 0.7188 125.2001</Position>
                     <Direction>3.3549</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -6989,7 +6989,7 @@
                     <guid>1000029</guid>
                     <ID>-4603804714784522238</ID>
                     <ObjectFolderID>7</ObjectFolderID>
-                    <Position>102.5 0.5703125 135.5</Position>
+                    <Position>102.5 0.5703125 136.5</Position>
                     <Direction>4.7124</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -8772,22 +8772,6 @@
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
                       <RenderFlags>1</RenderFlags>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
-                    <guid>117669</guid>
-                    <ID>-4607182414505049443</ID>
-                    <Position>122.60043 0.78247213 125.82872</Position>
-                    <Direction>3.1616786</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>122.60043 0.78247213 125.82872</Position>
-                      <Rotation>5F8DEFBDDF317EBF3489903CD83FFEBB</Rotation>
-                      <Scale>4FF3FA3E4FF3FA3E4FF3FA3E</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
                       <DisablePropGridHandling>1</DisablePropGridHandling>
                     </Prop>
                   </None>
@@ -11014,22 +10998,6 @@
                     </Prop>
                   </None>
                   <None>
-                    <guid>117669</guid>
-                    <ID>-4607182414505049444</ID>
-                    <Position>122.9093 0.77072287 124.00467</Position>
-                    <Direction>5.9104195</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>122.9093 0.77072287 124.00467</Position>
-                      <Rotation>156248BEA44E42BEC0C9BDBB3C4D76BF</Rotation>
-                      <Scale>D2C3AA3ED2C3AA3ED2C3AA3E</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
                     <guid>117647</guid>
                     <ID>-4602678814877679548</ID>
                     <Position>132.56589 0.32394886 147.43288</Position>
@@ -11043,22 +11011,6 @@
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
                       <RenderFlags>1</RenderFlags>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
-                    <guid>117669</guid>
-                    <ID>-4607182414505049445</ID>
-                    <Position>122.557976 0.7728591 124.63659</Position>
-                    <Direction>4.525386</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>122.557976 0.7728591 124.63659</Position>
-                      <Rotation>5F85B5BD9DA744BF7677513DC9CA21BF</Rotation>
-                      <Scale>9A9E293F9A9E293F9A9E293F</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
                       <DisablePropGridHandling>1</DisablePropGridHandling>
                     </Prop>
                   </None>

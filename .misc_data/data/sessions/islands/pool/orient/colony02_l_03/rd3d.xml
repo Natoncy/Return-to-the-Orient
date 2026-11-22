@@ -15432,14 +15432,6 @@
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>49</Index>
-        <Position>173.5204 5.599655 231.6335</Position>
-        <Rotation>0 -0.033358734 -0 -0.9994435</Rotation>
-        <Scale>1.1192603 1.1192603 1.1192603</Scale>
-        <Color>1 1 1 1</Color>
-        <AdaptTerrainHeight>True</AdaptTerrainHeight>
-      </None>
-      <None>
         <Index>32</Index>
         <Position>201.19775 4.294595 227.91576</Position>
         <Rotation>0 -0.7438586 -0 -0.66833705</Rotation>

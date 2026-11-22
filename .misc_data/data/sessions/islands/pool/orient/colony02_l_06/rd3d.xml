@@ -4449,13 +4449,6 @@
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>20</Index>
-        <Position>263.0001 0.64893925 199.89786</Position>
-        <Rotation>0.0720377 -0.44006938 -0.019229736 -0.8948631</Rotation>
-        <Scale>1.1905462 1.1905462 1.1905462</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>30</Index>
         <Position>256.309 -0.129758 197.83768</Position>
         <Rotation>0 0.8061229 0 0.59174764</Rotation>
@@ -5213,13 +5206,6 @@
         <Index>29</Index>
         <Position>259.71472 0.8389077 203.40515</Position>
         <Rotation>-0.05194266 0.99017847 0.086429216 0.09683796</Rotation>
-        <Scale>0.7188527 0.7188527 0.7188527</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>29</Index>
-        <Position>263.66162 -0.30174363 203.08833</Position>
-        <Rotation>-0.10111098 -0.5997507 -0.076756075 -0.79005295</Rotation>
         <Scale>0.7188527 0.7188527 0.7188527</Scale>
         <Color>1 1 1 1</Color>
       </None>
