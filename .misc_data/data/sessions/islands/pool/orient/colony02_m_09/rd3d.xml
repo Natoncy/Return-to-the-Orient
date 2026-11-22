@@ -2298,13 +2298,6 @@
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
       </None>
       <None>
-        <Index>18</Index>
-        <Position>116.53938 -0.6791439 101.115875</Position>
-        <Rotation>0 -0.20595862 -0 -0.9785606</Rotation>
-        <Scale>1 1 1</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>7</Index>
         <Position>114.86719 2.8216913 102.72087</Position>
         <Rotation>0 -0.18672015 -0 0.9824131</Rotation>
@@ -3784,13 +3777,6 @@
         <Position>90.89034 0.99917567 134.85126</Position>
         <Rotation>0.20899728 -0.6493711 0.18450901 0.70752645</Rotation>
         <Scale>0.55515105 0.55515105 0.55515105</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>17</Index>
-        <Position>89.9419 0.16051793 129.88353</Position>
-        <Rotation>-0.038426198 -0.9225219 0.014506851 0.38375154</Rotation>
-        <Scale>1.1929938 0.9537211 1.1929938</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
@@ -5492,27 +5478,6 @@
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
       </None>
       <None>
-        <Index>13</Index>
-        <Position>127.89606 2.209496 166.462</Position>
-        <Rotation>-0.14272335 -0.92625445 0.05244475 0.34486583</Rotation>
-        <Scale>1.0198683 1.0198683 1.0198683</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>10</Index>
-        <Position>127.92406 2.283197 165.89027</Position>
-        <Rotation>-0.120514646 -0.8358466 -0.0021886714 -0.5355669</Rotation>
-        <Scale>0.6054528 0.6054528 0.6054528</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>13</Index>
-        <Position>126.88968 2.5577073 165.71407</Position>
-        <Rotation>-0.119474 -0.74583113 0.0159541 -0.6551394</Rotation>
-        <Scale>1.0453687 1.0453687 1.0453687</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>4</Index>
         <Position>133.43379 2.6329668 162.41106</Position>
         <Rotation>0 -0.9385488 -0 0.34514636</Rotation>
@@ -5694,13 +5659,6 @@
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
       </None>
       <None>
-        <Index>17</Index>
-        <Position>111.10631 -1.7278302 171.74721</Position>
-        <Rotation>0 0.04642266 0 -0.99892145</Rotation>
-        <Scale>1.1138371 1.2372452 1.1138371</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>31</Index>
         <Position>104.06268 1.3343506 168.84186</Position>
         <Rotation>0.021297062 -0.76315796 -0.05172886 0.6437858</Rotation>
@@ -5752,13 +5710,6 @@
         <Scale>1.064379 1.064379 1.064379</Scale>
         <Color>1 1 1 1</Color>
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
-      </None>
-      <None>
-        <Index>15</Index>
-        <Position>113.532684 1.3538377 171.87901</Position>
-        <Rotation>-0.02128675 -0.3895174 0.05024441 -0.9194014</Rotation>
-        <Scale>1 1 1</Scale>
-        <Color>1 1 1 1</Color>
       </None>
       <None>
         <Index>5</Index>

@@ -7755,22 +7755,6 @@
                     </Prop>
                   </None>
                   <None>
-                    <guid>117669</guid>
-                    <ID>-4607182414505049018</ID>
-                    <Position>102.92645 1.1851544 122.71685</Position>
-                    <Direction>1.6902294</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>102.92645 1.1851544 122.71685</Position>
-                      <Rotation>EC9DCABD61C23EBF3FCE84BD7304283F</Rotation>
-                      <Scale>7831713F7831713F7831713F</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
                     <guid>117647</guid>
                     <ID>-4607182414505048966</ID>
                     <ObjectFolderID>3</ObjectFolderID>
@@ -8076,23 +8060,6 @@
                       <Rotation>F670AB3DE941ECBE4295883EEB8A573F</Rotation>
                       <Scale>22FF0D3F22FF0D3F22FF0D3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
-                    <guid>117647</guid>
-                    <ID>-4607182414505048992</ID>
-                    <Position>102.97177 1.1075134 120.20315</Position>
-                    <Direction>4.5200124</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>102.97177 1.1075134 120.20315</Position>
-                      <Rotation>00000000539145BF0000008025CC22BF</Rotation>
-                      <Scale>0000803F0000803F0000803F</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
-                      <RenderFlags>1</RenderFlags>
                       <DisablePropGridHandling>1</DisablePropGridHandling>
                     </Prop>
                   </None>
@@ -8429,23 +8396,6 @@
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
                       <RenderFlags>1</RenderFlags>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
-                    <guid>117669</guid>
-                    <ID>-4607182414505049017</ID>
-                    <Variation>3</Variation>
-                    <Position>103.4993 1.0398908 123.01047</Position>
-                    <Direction>3.8488314</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>103.4993 1.0398908 123.01047</Position>
-                      <Rotation>270C92BD58C06EBF1804C73D3625AEBE</Rotation>
-                      <Scale>C59A243FC59A243FC59A243F</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
                       <DisablePropGridHandling>1</DisablePropGridHandling>
                     </Prop>
                   </None>

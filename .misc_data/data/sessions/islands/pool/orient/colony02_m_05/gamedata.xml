@@ -19406,22 +19406,6 @@
                   </None>
                   <None>
                     <guid>117669</guid>
-                    <ID>-4598175215250308820</ID>
-                    <Position>142.10413 2.340876 191.96153</Position>
-                    <Direction>4.7906656</Direction>
-                    <ParticipantID>
-                      <id>8</id>
-                    </ParticipantID>
-                    <Prop>
-                      <Position>142.10413 2.340876 191.96153</Position>
-                      <Rotation>073645BEA6AE2DBFBE911C3DA43A35BF</Rotation>
-                      <Scale>D457EC3ED457EC3ED457EC3E</Scale>
-                      <Color>0000803F0000803F0000803F0000803F</Color>
-                      <DisablePropGridHandling>1</DisablePropGridHandling>
-                    </Prop>
-                  </None>
-                  <None>
-                    <guid>117669</guid>
                     <ID>-4598175215250308821</ID>
                     <Variation>3</Variation>
                     <Position>142.94469 2.0289817 191.2224</Position>
