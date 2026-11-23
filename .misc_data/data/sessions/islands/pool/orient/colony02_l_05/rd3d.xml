@@ -2163,24 +2163,10 @@
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
       </None>
       <None>
-        <Index>11</Index>
-        <Position>189.15953 1.8106658 125.41039</Position>
-        <Rotation>-0.012688573 -0.02856194 -0.21346341 -0.976451</Rotation>
-        <Scale>0.8473463 0.8473463 0.8473463</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>24</Index>
         <Position>187.18137 1.6298376 123.009735</Position>
         <Rotation>0 -0.44275987 -0 -0.8966402</Rotation>
         <Scale>0.8303993 0.8303993 0.8303993</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>9</Index>
-        <Position>189.61224 1.9283965 125.8358</Position>
-        <Rotation>0.17548078 -0.9786933 0.07531959 -0.07545093</Rotation>
-        <Scale>0.4675544 0.4675544 0.4675544</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
@@ -2384,13 +2370,6 @@
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
       </None>
       <None>
-        <Index>9</Index>
-        <Position>260.75543 2.4499888 123.98956</Position>
-        <Rotation>0.08829185 -0.72112703 -0.06729992 -0.6838501</Rotation>
-        <Scale>0.32903132 0.32903132 0.32903132</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>12</Index>
         <Position>261.88837 2.5580087 122.17428</Position>
         <Rotation>0.028419442 -0.39027604 0.1798277 0.90251803</Rotation>
@@ -2506,13 +2485,6 @@
         <Position>264.60266 3.1605756 122.09647</Position>
         <Rotation>0.005709999 -0.9997774 0.0023395498 0.020180292</Rotation>
         <Scale>1.1384699 1.1384699 1.1384699</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>16</Index>
-        <Position>264.86087 0.9941051 126.6357</Position>
-        <Rotation>0.1460635 0.90507513 -0.14735116 0.37120372</Rotation>
-        <Scale>1 1 1</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
@@ -2635,31 +2607,10 @@
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>12</Index>
-        <Position>195.8229 2.417882 132.87901</Position>
-        <Rotation>0.22935389 -0.5674859 -0.109397784 0.78319126</Rotation>
-        <Scale>1.0654556 1.0654556 1.0654556</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>9</Index>
-        <Position>197.94556 2.0065868 133.5048</Position>
-        <Rotation>-0.04695448 -0.98974717 -0.09731914 -0.09340617</Rotation>
-        <Scale>0.7804425 0.7804425 0.7804425</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>15</Index>
         <Position>192.26588 1.6341228 129.7217</Position>
         <Rotation>0.11715006 0.29101345 -0.10887705 -0.9432561</Rotation>
         <Scale>1 1 1</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>9</Index>
-        <Position>196.98116 1.9655824 133.75865</Position>
-        <Rotation>0.053873383 -0.54022324 -0.07257169 0.8366539</Rotation>
-        <Scale>0.32553622 0.32553622 0.32553622</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>
@@ -5017,13 +4968,6 @@
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>12</Index>
-        <Position>128.25032 0.7226567 212.83237</Position>
-        <Rotation>-0.030514903 -0.995138 0.08561161 -0.037944138</Rotation>
-        <Scale>0.95302683 0.95302683 0.95302683</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>7</Index>
         <Position>146.28645 0.99287593 215.03452</Position>
         <Rotation>0 -0.9488765 -0 -0.31564772</Rotation>
@@ -6084,13 +6028,6 @@
         <Scale>1.0896853 1.0896853 1.0896853</Scale>
         <Color>1 1 1 1</Color>
         <AdaptTerrainHeight>True</AdaptTerrainHeight>
-      </None>
-      <None>
-        <Index>16</Index>
-        <Position>273.1719 2.5602102 224.26207</Position>
-        <Rotation>-0 0.81125814 0 -0.58468765</Rotation>
-        <Scale>0.99789155 0.99789155 0.99789155</Scale>
-        <Color>1 1 1 1</Color>
       </None>
       <None>
         <Index>6</Index>

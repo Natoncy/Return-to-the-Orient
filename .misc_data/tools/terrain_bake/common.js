@@ -12,6 +12,9 @@ const EXCLUDE = [
   /\/005kustengebaude\//,
   /\/kahina\/kahina_(kontor|quay|crane|platform|wheel)/,
   /orient_harbour/,
+  // Work areas on slopes (cave quarry at the mountain foot): vanilla keeps scaffold + walls at 0;
+  // adaption lifts them by the hill rise and they float (silver mine, 2026-11-22).
+  /_workarea\.cfg$/,
 ];
 const inScope = (rel) => INCLUDE.test(rel) && !EXCLUDE.some((r) => r.test('/' + rel));
 

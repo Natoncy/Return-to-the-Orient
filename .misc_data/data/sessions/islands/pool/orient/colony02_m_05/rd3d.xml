@@ -3930,13 +3930,6 @@
       </None>
       <None>
         <Index>21</Index>
-        <Position>100.69032 0.8975353 96.75573</Position>
-        <Rotation>0.07325571 -0.9562209 0.16605599 -0.22956586</Rotation>
-        <Scale>0.6296677 0.6296677 0.6296677</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>21</Index>
         <Position>101.04379 1.1902037 97.3106</Position>
         <Rotation>0.3240182 -0.94312644 0.07375791 0.009178272</Rotation>
         <Scale>0.67619675 0.67619675 0.67619675</Scale>
@@ -9050,13 +9043,6 @@
         <Color>1 1 1 1</Color>
       </None>
       <None>
-        <Index>18</Index>
-        <Position>143.39177 1.9945068 191.36324</Position>
-        <Rotation>0.015894838 -0.06685241 0.0181785 -0.99747056</Rotation>
-        <Scale>0.35265785 0.35265785 0.35265785</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
         <Index>43</Index>
         <Position>148.01471 1.8770672 191.60907</Position>
         <Rotation>-0.04433497 -0.12382401 -0.0074052094 0.9912855</Rotation>
@@ -9966,34 +9952,6 @@
         <Position>158.3141 1.1506834 217.876</Position>
         <Rotation>-0.03402633 -0.69246143 -0.107184604 0.71263665</Rotation>
         <Scale>0.48655742 0.48655742 0.48655742</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>21</Index>
-        <Position>159.6158 0.98084927 220.28929</Position>
-        <Rotation>-0.06760585 -0.79794675 -0.13143301 0.58432513</Rotation>
-        <Scale>0.7305143 0.7305143 0.7305143</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>20</Index>
-        <Position>159.03302 1.1677732 220.45456</Position>
-        <Rotation>0.015587762 -0.4967526 -0.19572595 0.84539056</Rotation>
-        <Scale>0.542485 0.542485 0.542485</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>20</Index>
-        <Position>159.75876 0.9819174 220.83856</Position>
-        <Rotation>-0.2228889 -0.94312227 0.1283994 -0.210605</Rotation>
-        <Scale>0.36012456 0.36012456 0.36012456</Scale>
-        <Color>1 1 1 1</Color>
-      </None>
-      <None>
-        <Index>21</Index>
-        <Position>158.96227 1.0000763 218.28992</Position>
-        <Rotation>-0.049288638 -0.61591995 -0.08967563 0.78113467</Rotation>
-        <Scale>0.6913353 0.6913353 0.6913353</Scale>
         <Color>1 1 1 1</Color>
       </None>
       <None>

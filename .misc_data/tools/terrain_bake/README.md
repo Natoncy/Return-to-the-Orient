@@ -14,7 +14,9 @@ adaption freely with x/z offsets, yaw and scale, but never with tilt and only wi
 - Then every MODEL material in that cfg gets `ADJUST_TO_TERRAIN_HEIGHT` 1.
 - Scope: land building cfgs under `data/graphics/buildings` and `1404_import` that are not FILE children.
   Water-edge models (harbour, kontor, quay, trading company, lighthouse, river slot, canals) are excluded,
-  skinned meshes are skipped (their cfg stays as is). Decals, FILE/LIGHT/PARTICLE/PROPCONTAINER flags stay as authored.
+  skinned meshes are skipped (their cfg stays as is). Work-area cfgs (`*_workarea.cfg`) are excluded too:
+  the silver mine quarry sits on the mountain slope, and with adaption its scaffold and fences were lifted by the
+  hill and floated. It was restored to the vanilla clay-pit flags (only the rock mesh at 1) on 2026-11-22. Decals, FILE/LIGHT/PARTICLE/PROPCONTAINER flags stay as authored.
 
 Scripts (Node, no packages):
 - `node survey.js` – what would need baking.

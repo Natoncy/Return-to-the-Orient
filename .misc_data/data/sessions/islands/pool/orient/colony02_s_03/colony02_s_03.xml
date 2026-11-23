@@ -106,17 +106,17 @@
         <None>
           <ObjectId>0200000001002880</ObjectId>
           <ObjectGuid>5D420F00</ObjectGuid>
-          <Position>0000EB4297FFB03F0000BD42</Position>
+          <Position>0000ED420000AF3F0000BD42</Position>
         </None>
         <None>
           <ObjectId>0300000001001480</ObjectId>
           <ObjectGuid>5D420F00</ObjectGuid>
-          <Position>0000B1423B01ED3F0000FF42</Position>
+          <Position>0000B1420000ED3F00800043</Position>
         </None>
         <None>
           <ObjectId>0400000001002880</ObjectId>
           <ObjectGuid>5D420F00</ObjectGuid>
-          <Position>008006433B01853F00801543</Position>
+          <Position>008007430000813F00801543</Position>
         </None>
       </None>
       <None>
@@ -128,22 +128,22 @@
         <None>
           <ObjectId>0200000001000480</ObjectId>
           <ObjectGuid>43880100</ObjectGuid>
-          <Position>AE96FE4242600140362D9B42</Position>
+          <Position>0080FC425F29EB3F362D9B42</Position>
         </None>
         <None>
           <ObjectId>0300000001002880</ObjectId>
           <ObjectGuid>43880100</ObjectGuid>
-          <Position>B597E342ACADC83FEB22BD42</Position>
+          <Position>0080E1427E1DC03FEB22BD42</Position>
         </None>
         <None>
           <ObjectId>0400000001001480</ObjectId>
           <ObjectGuid>43880100</ObjectGuid>
-          <Position>A2C5B0425249ED3F14FFF742</Position>
+          <Position>A2C5B042FD87EC3F0080F542</Position>
         </None>
         <None>
           <ObjectId>0500000001002880</ObjectId>
           <ObjectGuid>43880100</ObjectGuid>
-          <Position>2A2903434694963FB6031543</Position>
+          <Position>00400243166A8D3FB6031543</Position>
         </None>
       </None>
     </SlotObjects>
