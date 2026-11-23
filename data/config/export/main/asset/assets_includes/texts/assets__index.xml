@@ -2,6 +2,7 @@
 
     <Include File="assets_building_fluff.xml" />
     <Include File="assets_default_orient_city_name.xml" />
+    <Include File="assets_default_orient_ship_name.xml" />
     <Include File="assets_elmore.xml" />
     <Include File="assets_expedition.xml" />
     <Include File="assets_festival.xml" />

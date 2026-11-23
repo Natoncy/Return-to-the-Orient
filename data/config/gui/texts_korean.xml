@@ -7352,6 +7352,351 @@
       <Text>동방 조선소</Text>
     </Text>
     <Text>
+      <GUID>1404009800</GUID>
+      <!-- Text | Topaz | Topaz -->
+      <Text>토파즈</Text>
+    </Text>
+    <Text>
+      <GUID>1404009801</GUID>
+      <!-- Text | Daria | Daria -->
+      <Text>다리아</Text>
+    </Text>
+    <Text>
+      <GUID>1404009802</GUID>
+      <!-- Text | Ikara | Ikara -->
+      <Text>이카라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009803</GUID>
+      <!-- Text | Rashida | Rashida -->
+      <Text>라시다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009804</GUID>
+      <!-- Text | Bahira | Bahira -->
+      <Text>바히라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009805</GUID>
+      <!-- Text | Jaida | Jaida -->
+      <Text>자이다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009806</GUID>
+      <!-- Text | Jasmine | Jasmine -->
+      <Text>재스민</Text>
+    </Text>
+    <Text>
+      <GUID>1404009807</GUID>
+      <!-- Text | Halima | Halima -->
+      <Text>할리마</Text>
+    </Text>
+    <Text>
+      <GUID>1404009808</GUID>
+      <!-- Text | Noura | Noura -->
+      <Text>누라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009809</GUID>
+      <!-- Text | Shahar | Shahar -->
+      <Text>샤하르</Text>
+    </Text>
+    <Text>
+      <GUID>1404009810</GUID>
+      <!-- Text | Tabitha | Tabitha -->
+      <Text>타비타</Text>
+    </Text>
+    <Text>
+      <GUID>1404009811</GUID>
+      <!-- Text | Munya | Munya -->
+      <Text>무냐</Text>
+    </Text>
+    <Text>
+      <GUID>1404009812</GUID>
+      <!-- Text | Nadrah | Nadrah -->
+      <Text>나드라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009813</GUID>
+      <!-- Text | Malakeh | Malakeh -->
+      <Text>말라케</Text>
+    </Text>
+    <Text>
+      <GUID>1404009814</GUID>
+      <!-- Text | Abida | Abida -->
+      <Text>아비다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009815</GUID>
+      <!-- Text | Abqurah | Abqurah -->
+      <Text>아브쿠라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009816</GUID>
+      <!-- Text | Ad'ifaah | Ad’ifaah -->
+      <Text>아디파</Text>
+    </Text>
+    <Text>
+      <GUID>1404009817</GUID>
+      <!-- Text | Baschira | Baschira -->
+      <Text>바시라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009818</GUID>
+      <!-- Text | Chanda | Chanda -->
+      <Text>찬다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009819</GUID>
+      <!-- Text | Daneen | Daneen -->
+      <Text>다닌</Text>
+    </Text>
+    <Text>
+      <GUID>1404009820</GUID>
+      <!-- Text | Erum | Erum -->
+      <Text>에룸</Text>
+    </Text>
+    <Text>
+      <GUID>1404009821</GUID>
+      <!-- Text | Atiya | Atiya -->
+      <Text>아티야</Text>
+    </Text>
+    <Text>
+      <GUID>1404009822</GUID>
+      <!-- Text | Eshal | Eshal -->
+      <Text>에샬</Text>
+    </Text>
+    <Text>
+      <GUID>1404009823</GUID>
+      <!-- Text | Azeeza | Azeeza -->
+      <Text>아지자</Text>
+    </Text>
+    <Text>
+      <GUID>1404009824</GUID>
+      <!-- Text | Fairuzah | Fairuzah -->
+      <Text>파이루자</Text>
+    </Text>
+    <Text>
+      <GUID>1404009825</GUID>
+      <!-- Text | Ghania | Ghania -->
+      <Text>가니아</Text>
+    </Text>
+    <Text>
+      <GUID>1404009826</GUID>
+      <!-- Text | Hanan | Hanan -->
+      <Text>하난</Text>
+    </Text>
+    <Text>
+      <GUID>1404009827</GUID>
+      <!-- Text | Binesh | Binesh -->
+      <Text>비네시</Text>
+    </Text>
+    <Text>
+      <GUID>1404009828</GUID>
+      <!-- Text | Jadah | Jadah -->
+      <Text>자다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009829</GUID>
+      <!-- Text | Maira | Maira -->
+      <Text>마이라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009830</GUID>
+      <!-- Text | Huma | Huma -->
+      <Text>후마</Text>
+    </Text>
+    <Text>
+      <GUID>1404009831</GUID>
+      <!-- Text | Jawna | Jawna -->
+      <Text>자우나</Text>
+    </Text>
+    <Text>
+      <GUID>1404009832</GUID>
+      <!-- Text | Awa | Awa -->
+      <Text>아와</Text>
+    </Text>
+    <Text>
+      <GUID>1404009833</GUID>
+      <!-- Text | Fiza | Fiza -->
+      <Text>피저</Text>
+    </Text>
+    <Text>
+      <GUID>1404009834</GUID>
+      <!-- Text | Habiba | Habiba -->
+      <Text>하비바</Text>
+    </Text>
+    <Text>
+      <GUID>1404009835</GUID>
+      <!-- Text | Aroosa | Aroosa -->
+      <Text>아루사</Text>
+    </Text>
+    <Text>
+      <GUID>1404009836</GUID>
+      <!-- Text | Malayeka | Malayeka -->
+      <Text>말라예카</Text>
+    </Text>
+    <Text>
+      <GUID>1404009837</GUID>
+      <!-- Text | Senada | Senada -->
+      <Text>세나다</Text>
+    </Text>
+    <Text>
+      <GUID>1404009838</GUID>
+      <!-- Text | Wafiyah | Wafiyah -->
+      <Text>와피야</Text>
+    </Text>
+    <Text>
+      <GUID>1404009839</GUID>
+      <!-- Text | Yamha | Yamha -->
+      <Text>얌하</Text>
+    </Text>
+    <Text>
+      <GUID>1404009840</GUID>
+      <!-- Text | Aimal | Aimal -->
+      <Text>아이말</Text>
+    </Text>
+    <Text>
+      <GUID>1404009841</GUID>
+      <!-- Text | Meymona | Meymona -->
+      <Text>메이모나</Text>
+    </Text>
+    <Text>
+      <GUID>1404009842</GUID>
+      <!-- Text | Rabab | Rabab -->
+      <Text>라바브</Text>
+    </Text>
+    <Text>
+      <GUID>1404009843</GUID>
+      <!-- Text | Zahara | Zahara -->
+      <Text>자하라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009844</GUID>
+      <!-- Text | Noor-Al-haya | Noor-Al-haya -->
+      <Text>누르 알 하야</Text>
+    </Text>
+    <Text>
+      <GUID>1404009845</GUID>
+      <!-- Text | Yakootah | Yakootah -->
+      <Text>야쿠타</Text>
+    </Text>
+    <Text>
+      <GUID>1404009846</GUID>
+      <!-- Text | Reeha | Reeha -->
+      <Text>리하</Text>
+    </Text>
+    <Text>
+      <GUID>1404009847</GUID>
+      <!-- Text | Mirah | Mirah -->
+      <Text>미라흐</Text>
+    </Text>
+    <Text>
+      <GUID>1404009848</GUID>
+      <!-- Text | Kanzah | Kanzah -->
+      <Text>칸자</Text>
+    </Text>
+    <Text>
+      <GUID>1404009849</GUID>
+      <!-- Text | Hazar | Hazar -->
+      <Text>하자르</Text>
+    </Text>
+    <Text>
+      <GUID>1404009850</GUID>
+      <!-- Text | Nabilah | Nabilah -->
+      <Text>나빌라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009851</GUID>
+      <!-- Text | Sfiyah | Sfiyah -->
+      <Text>스피야</Text>
+    </Text>
+    <Text>
+      <GUID>1404009852</GUID>
+      <!-- Text | Wareesha | Wareesha -->
+      <Text>와리샤</Text>
+    </Text>
+    <Text>
+      <GUID>1404009853</GUID>
+      <!-- Text | Anjum | Anjum -->
+      <Text>안줌</Text>
+    </Text>
+    <Text>
+      <GUID>1404009854</GUID>
+      <!-- Text | Reja | Reja -->
+      <Text>레자</Text>
+    </Text>
+    <Text>
+      <GUID>1404009855</GUID>
+      <!-- Text | Shahana | Shahana -->
+      <Text>샤하나</Text>
+    </Text>
+    <Text>
+      <GUID>1404009856</GUID>
+      <!-- Text | Nejat | Nejat -->
+      <Text>네자트</Text>
+    </Text>
+    <Text>
+      <GUID>1404009857</GUID>
+      <!-- Text | Husna | Husna -->
+      <Text>후스나</Text>
+    </Text>
+    <Text>
+      <GUID>1404009858</GUID>
+      <!-- Text | Sobia | Sobia -->
+      <Text>소비아</Text>
+    </Text>
+    <Text>
+      <GUID>1404009859</GUID>
+      <!-- Text | Warqa | Warqa -->
+      <Text>와르카</Text>
+    </Text>
+    <Text>
+      <GUID>1404009860</GUID>
+      <!-- Text | Nagheen | Nagheen -->
+      <Text>나긴</Text>
+    </Text>
+    <Text>
+      <GUID>1404009861</GUID>
+      <!-- Text | Iraj | Iraj -->
+      <Text>이라지</Text>
+    </Text>
+    <Text>
+      <GUID>1404009862</GUID>
+      <!-- Text | Mishel | Mishel -->
+      <Text>미셸</Text>
+    </Text>
+    <Text>
+      <GUID>1404009863</GUID>
+      <!-- Text | Hiyam | Hiyam -->
+      <Text>히얌</Text>
+    </Text>
+    <Text>
+      <GUID>1404009864</GUID>
+      <!-- Text | Nafiah | Nafiah -->
+      <Text>나피아</Text>
+    </Text>
+    <Text>
+      <GUID>1404009865</GUID>
+      <!-- Text | Shajee'ah | Shajee’ah -->
+      <Text>샤지아</Text>
+    </Text>
+    <Text>
+      <GUID>1404009866</GUID>
+      <!-- Text | Naseemah | Naseemah -->
+      <Text>나시마</Text>
+    </Text>
+    <Text>
+      <GUID>1404009867</GUID>
+      <!-- Text | Heela | Heela -->
+      <Text>힐라</Text>
+    </Text>
+    <Text>
+      <GUID>1404009868</GUID>
+      <!-- Text | Mubashirah | Mubashirah -->
+      <Text>무바시라</Text>
+    </Text>
+    <Text>
       <GUID>1404005154</GUID>
       <!-- Text | <Key> | Module Production -->
       <Text>모듈 생산</Text>
