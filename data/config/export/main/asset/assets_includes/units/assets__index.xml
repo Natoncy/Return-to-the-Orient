@@ -43,6 +43,9 @@
     <!-- building feedback units (.fc actors) -->
     <Include File="assets_inhabitant_building_feedback.xml" />
 
+    <!-- Ships -->
+    <Include File="assets_ship_orient_cargo_ship.xml" />
+
     <!-- animal units -->
     <Include File="assets_unit_camel.xml" />
 

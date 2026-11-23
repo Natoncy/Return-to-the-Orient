@@ -202,6 +202,7 @@ OTHER
 1404005159: InfoTip Support 02
 1404005165: Fast Street Orient
 1404005166: Fast Street Orient Bridge
+1404005167: Orient Cargo Ship
 
 SUBMODS
 ----------

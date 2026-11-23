@@ -33,6 +33,13 @@ v0.7.0
 - Letting AI settle the region
 - Check silver mine workarea positioning
 - Add shipyard and ships
+    - apply water cutout only to deck (extrapolate)
+    - props
+    - balance Speed
+    - icon
+    - AudioTexts Barking
+    - Death animation
+    - second ship (caravel)
 - Rebalance income
 - Release beta compatibility mod
 
