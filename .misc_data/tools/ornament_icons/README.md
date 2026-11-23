@@ -49,3 +49,23 @@ These values were fitted by rendering vanilla Africa ornament cfgs and comparing
 
 `scene.js` loads the cfg tree: MODEL, FILE, PROPCONTAINER/PROP (`.prp`), CLOTH, DECAL and MaterialLODInfos.
 `render.js` is the rasteriser. Meshes and textures are cached in `cache/`, which is git-ignored.
+
+## Ship icons
+
+`ship_icon.js` renders 256x256 ship icons like the vanilla `data/ui/2kimages/main/3dicons/ships/icon_ship_*` ones, with
+a transparent background and the bow toward the viewer at the bottom left. `node render_ships.js [--install]` renders
+the mod's ships listed in its `SHIPS` table into `out/ships/`, and `--install` copies the PNG into the mod (PNG only).
+
+- Camera: azimuth 320 and elevation 28 match the vanilla schooner icon. The Orient trading ship uses 325/26 (the user
+  picked this angle over a more side-on 345). Same mirrored glTF space as the ornaments.
+- Light comes from 30 deg left of the camera and 40 deg up (`lightAz`/`lightEl`). A light built from the camera's
+  up vector came from behind and left the sails black.
+- Sinking parts are skipped: models named `destruct`/`debris`/`wreck` (the destroyed-clipper hull and debris) and
+  every PROPCONTAINER (floating boards, `scene.js` option `noProps`).
+- Tone: `fit_ship_tone.js` fits `ship_tone_lut.json` by matching quantiles of linear renders of the vanilla
+  schooner, clipper, frigate and gunboat against their icons. The tone runs before the outline so the outline stays
+  vanilla near-black (20,20,20). Mod textures from 1404 are brighter than vanilla, so they need `exposure` < 1.
+  `saturation` (default 1.2) imitates the painted look.
+- Flags carry the player colour as a dye mask and render black. They get the light blue of the vanilla trade-ship
+  pennants (`flagColor`). Each scene triangle carries `src`, its mesh file, for that kind of per-model override.
+- `stretchY` above `stretchFrom` (deck height) makes the rig taller, like the vanilla icons. The hull keeps its shape.

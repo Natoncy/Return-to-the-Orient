@@ -156,7 +156,7 @@ function loadScene(modRoot, cfgRel, rootXf = IDENT, opts = {}) {
   const R = makeResolver(modRoot);
   const tris = [], decals = [], sprites = [];
   const seen = [];
-  function addMesh(prims, mats, T, lodMap) {
+  function addMesh(prims, mats, T, lodMap, src) {
     for (const p of prims) {
       const slot = lodMap ? (lodMap[p.material] ?? p.material) : p.material;
       const mat = mats[slot] || mats[0] || { tex: null, color: [0.75, 0.75, 0.75] };
@@ -165,7 +165,7 @@ function loadScene(modRoot, cfgRel, rootXf = IDENT, opts = {}) {
       const N = p.nrm ? p.nrm.map(n => applyN(T, n)) : null;
       for (let i = 0; i + 2 < p.idx.length; i += 3) {
         const k = [p.idx[i], p.idx[i + 1], p.idx[i + 2]];
-        tris.push({ v: k.map(j => W[j]), n: N ? k.map(j => N[j]) : null, uv: p.uv ? k.map(j => p.uv[j]) : null, mat });
+        tris.push({ v: k.map(j => W[j]), n: N ? k.map(j => N[j]) : null, uv: p.uv ? k.map(j => p.uv[j]) : null, mat, src });
       }
     }
   }
@@ -194,20 +194,21 @@ function loadScene(modRoot, cfgRel, rootXf = IDENT, opts = {}) {
         if (ind) lodMap = ind.children.map(c => +c.text.trim()).filter(x => !isNaN(x));
       }
       const prims = R.mesh(fn);
-      if (prims) addMesh(prims, mats, W, lodMap && lodMap.length ? lodMap : null);
+      if (prims) addMesh(prims, mats, W, lodMap && lodMap.length ? lodMap : null, fn);
     }
     for (const m of configs(main, 'Clothes')) {
       const fn = val(m, 'FileName');
       if (!fn) continue;
       const mats = configs(m, 'Materials').map(x => material(x, R));
       const prims = R.mesh(fn);
-      if (prims) addMesh(prims, mats, compose(T, xfOf(m)), null);
+      if (prims) addMesh(prims, mats, compose(T, xfOf(m)), null, fn);
     }
     for (const f of configs(main, 'Files')) {
       const fn = val(f, 'FileName');
       if (fn && /\.cfg$/i.test(fn)) visitCfg(fn, compose(T, xfOf(f)), depth + 1);
     }
-    for (const pc of configs(main, 'PropContainers')) {
+    // opts.noProps: ships keep their sinking debris (floating boards) in PropContainers
+    if (!opts.noProps) for (const pc of configs(main, 'PropContainers')) {
       const PT = compose(T, xfOf(pc));
       for (const pr of configs(pc, 'Props')) {
         const fn = val(pr, 'FileName');
@@ -220,7 +221,7 @@ function loadScene(modRoot, cfgRel, rootXf = IDENT, opts = {}) {
         const ml = kid(prop, 'Materials');
         if (ml) for (const mm of kids(ml, 'Material')) mats.push(material(mm, R));
         const prims = meshFn && R.mesh(meshFn);
-        if (prims) addMesh(prims, mats, compose(PT, xfOf(pr)), null);
+        if (prims) addMesh(prims, mats, compose(PT, xfOf(pr)), null, meshFn);
       }
     }
     for (const d of configs(main, 'Decals')) {

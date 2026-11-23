@@ -1,4 +1,4 @@
-76 mods (1 disabled), 1617 XML files (1599 loaded), 3213 path refs, 9 unresolved
+76 mods (1 disabled), 1618 XML files (1600 loaded), 3216 path refs, 9 unresolved
 
 ## Unresolved in loaded XML: 4
 
