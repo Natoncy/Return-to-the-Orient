@@ -7343,8 +7343,8 @@
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
-      <Text>섬당 하나만 건설 가능. 술탄의 인장을 소비합니다. 섬의 모든 주거지는 세금을 10% 더 내며, 동방 상품이 일부 현지 상품으로도 인정됩니다.</Text>
+      <!-- Text | Oriental Embassy description | This building is a gesture of goodwill from the Sultan, meant to bring the Orient closer to the Western world. -->
+      <Text>이 건물은 서양 세계에 동방을 더 가까이 소개하려는 술탄의 호의의 표시입니다.</Text>
     </Text>
     <Text>
       <GUID>1404009700</GUID>
@@ -7395,6 +7395,11 @@
       <GUID>1404005164</GUID>
       <!-- Text | Limited to one per island | Limited to one per island -->
       <Text>섬당 하나 이상 건설 불가</Text>
+    </Text>
+    <Text>
+      <GUID>1404005167</GUID>
+      <!-- TradeShip | Oriental Trading Ship | Oriental Trading Ship -->
+      <Text>동방 상선</Text>
     </Text>
   </ModOp>
 </ModOps>

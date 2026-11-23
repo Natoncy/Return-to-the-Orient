@@ -7343,8 +7343,8 @@
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
-      <Text>Apenas uma por ilha. Consome Selos do Sultão. Todas as residências da ilha pagam mais 10% de impostos, e os bens do Oriente também contam como alguns bens locais.</Text>
+      <!-- Text | Oriental Embassy description | This building is a gesture of goodwill from the Sultan, meant to bring the Orient closer to the Western world. -->
+      <Text>Este edifício é um gesto de boa vontade do Sultão para aproximar o Oriente do mundo ocidental.</Text>
     </Text>
     <Text>
       <GUID>1404009700</GUID>
@@ -7395,6 +7395,11 @@
       <GUID>1404005164</GUID>
       <!-- Text | Limited to one per island | Limited to one per island -->
       <Text>Limitado a um por ilha</Text>
+    </Text>
+    <Text>
+      <GUID>1404005167</GUID>
+      <!-- TradeShip | Oriental Trading Ship | Oriental Trading Ship -->
+      <Text>Navio Mercante Oriental</Text>
     </Text>
   </ModOp>
 </ModOps>

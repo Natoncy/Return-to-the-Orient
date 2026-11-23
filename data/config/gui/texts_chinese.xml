@@ -7343,8 +7343,8 @@
     </Text>
     <Text>
       <GUID>1404009402</GUID>
-      <!-- Text | Oriental Embassy description | Only one per island. Consumes Sultan's Seals. All residences on the island pay 10% more taxes, and Orient goods also count for some local goods. -->
-      <Text>每座岛屿仅限一座。消耗苏丹的印章。岛上所有住宅多缴纳10%的税，东方商品也可算作部分本地商品。</Text>
+      <!-- Text | Oriental Embassy description | This building is a gesture of goodwill from the Sultan, meant to bring the Orient closer to the Western world. -->
+      <Text>这座建筑是苏丹释出的善意之举，旨在让西方世界更加亲近东方。</Text>
     </Text>
     <Text>
       <GUID>1404009700</GUID>
@@ -7395,6 +7395,11 @@
       <GUID>1404005164</GUID>
       <!-- Text | Limited to one per island | Limited to one per island -->
       <Text>每座岛屿仅限一栋</Text>
+    </Text>
+    <Text>
+      <GUID>1404005167</GUID>
+      <!-- TradeShip | Oriental Trading Ship | Oriental Trading Ship -->
+      <Text>东方商船</Text>
     </Text>
   </ModOp>
 </ModOps>
