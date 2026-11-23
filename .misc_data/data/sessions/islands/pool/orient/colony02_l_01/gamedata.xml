@@ -17925,7 +17925,7 @@
                     <guid>1000029</guid>
                     <ID>-9210987133584539635</ID>
                     <ObjectFolderID>9</ObjectFolderID>
-                    <Position>186.5 1.5078125 135.5</Position>
+                    <Position>186.5 1.46875 133.5</Position>
                     <Direction>1.5708</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -18067,7 +18067,7 @@
                     <guid>1000029</guid>
                     <ID>-9221120232746123253</ID>
                     <ObjectFolderID>11</ObjectFolderID>
-                    <Position>213.5 0.5078125 78.5</Position>
+                    <Position>212.5 0.5078125 78.5</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -18097,7 +18097,7 @@
                     <ID>-9221120232746123252</ID>
                     <ObjectFolderID>11</ObjectFolderID>
                     <Position>218.25 0.5078 79.0751</Position>
-                    <Direction>0.7013</Direction>
+                    <Direction>6.1991</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -18277,7 +18277,7 @@
                     <guid>1000029</guid>
                     <ID>-9207609433864011770</ID>
                     <ObjectFolderID>14</ObjectFolderID>
-                    <Position>234.5 1 169.5</Position>
+                    <Position>234.5 0.96875 171.5</Position>
                     <Direction>4.7124</Direction>
                     <ParticipantID>
                       <id>8</id>
@@ -18419,7 +18419,7 @@
                     <guid>1000029</guid>
                     <ID>-9212113033491382265</ID>
                     <ObjectFolderID>16</ObjectFolderID>
-                    <Position>85.5 1.0703125 201.5</Position>
+                    <Position>87.5 1.0390625 201.5</Position>
                     <Direction>3.1416</Direction>
                     <ParticipantID>
                       <id>8</id>
