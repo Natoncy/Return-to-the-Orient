@@ -42,12 +42,8 @@
       </Item>
     </ModOp>
 
-    <!-- # Storage List -->
-    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000262']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
-      <Item>
-        <Product>1404000262</Product>
-      </Item>
-    </ModOp>
+    <!-- # Storage List: NONE. Not in the regular warehouse (120055) on its own;
+         mods that use this good add it themselves (Return to the Orient does). -->
 
     <!-- # Docklands: NONE -->
 

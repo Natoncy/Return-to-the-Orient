@@ -24,6 +24,69 @@
         </Item>
     </ModOp>
 
+    <!-- Natoncy shared products: their submods no longer put them in the regular warehouse (120055),
+         so this mod adds them. Kept in the shared-mod load order, so the list order stays as before. -->
+    <!-- agates (Natoncy_sharedproduct_agates) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404003900']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010228']">
+        <Item>
+            <Product>1404003900</Product>
+        </Item>
+    </ModOp>
+    <!-- camels (Natoncy_sharedproduct_camels) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000235']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000235</Product>
+        </Item>
+    </ModOp>
+    <!-- ceremonial sabers (Natoncy_sharedproduct_ceremonial_sabers) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000238']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000238</Product>
+        </Item>
+    </ModOp>
+    <!-- chandeliers (Natoncy_sharedproduct_chandeliers) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000241']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000241</Product>
+        </Item>
+    </ModOp>
+    <!-- hookahs (Natoncy_sharedproduct_hookahs) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000250']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000250</Product>
+        </Item>
+    </ModOp>
+    <!-- kaftans (Natoncy_sharedproduct_kaftans) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000253']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000253</Product>
+        </Item>
+    </ModOp>
+    <!-- mosaic (Natoncy_sharedproduct_mosaic) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000256']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000256</Product>
+        </Item>
+    </ModOp>
+    <!-- pearl necklaces (Natoncy_sharedproduct_pearl_necklaces) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000262']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000262</Product>
+        </Item>
+    </ModOp>
+    <!-- pomegranate juice (Natoncy_sharedproduct_pomegranate_juice) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000265']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000265</Product>
+        </Item>
+    </ModOp>
+    <!-- turbans (Natoncy_sharedproduct_turbans) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404000283']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404000283</Product>
+        </Item>
+    </ModOp>
+
     <!-- Mod3 AssociatedRegion/ProductionRegions of the shared products are added in Natoncy_orient_after_other_mods,
          because the shared product submods load after this mod -->
 

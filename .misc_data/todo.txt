@@ -41,6 +41,7 @@ v0.7.0
     - second ship (caravel)
 - Rebalance income
 - Release beta compatibility mod
+- Check placeholder texts
 
 Before v1.0.0
 - Revise which products are shared (can be produced and used by other mods independently), and which are specific to the orient/the mod
