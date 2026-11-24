@@ -176,4 +176,5 @@ These products are added by the mod, but are specific to the Orient. This is the
 - Spanish: Satanoy
 - Simplified Chinese: TBD
 - Traditional Chinese: TBD
+
 (all languages are still available, but translated with AI)
