@@ -40,7 +40,18 @@
     "import_storagelist_mosaic_natoncy",
     "import_storagelist_pearl_necklaces_natoncy",
     "import_storagelist_pomegranate_juice_natoncy",
-    "import_storagelist_turbans_natoncy"
+    "import_storagelist_turbans_natoncy",
+    "import_storagelist_aniseed_intetsch",
+    "import_storagelist_candied_dates_intetsch",
+    "import_storagelist_chickpeas_intetsch",
+    "import_storagelist_copper_bar_intetsch",
+    "import_storagelist_hummus_intetsch",
+    "import_storagelist_lokum_intetsch",
+    "import_storagelist_palm_wood_intetsch",
+    "import_storagelist_pistachios_intetsch",
+    "import_storagelist_roasted_pistachios_intetsch",
+    "import_storagelist_roasted_chickpeas_intetsch",
+    "import_storagelist_spiced_tea_intetsch"
   ],
   "CreatorName": "Natoncy"
 }
