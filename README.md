@@ -111,6 +111,16 @@ These products are added by the mod, but are specific to the Orient. This is the
 - import_storagelist_almonds_taludas by Taludas
 - import_storagelist_ebony_taludas by Taludas
 - import_storagelist_silkfabric_taludas by Taludas
+- import_storagelist_agates_natoncy by Natoncy
+- import_storagelist_camels_natoncy by Natoncy
+- import_storagelist_ceremonial_sabers_natoncy by Natoncy
+- import_storagelist_chandeliers_natoncy by Natoncy
+- import_storagelist_hookahs_natoncy by Natoncy
+- import_storagelist_kaftans_natoncy by Natoncy
+- import_storagelist_mosaic_natoncy by Natoncy
+- import_storagelist_pearl_necklaces_natoncy by Natoncy
+- import_storagelist_pomegranate_juice_natoncy by Natoncy
+- import_storagelist_turbans_natoncy by Natoncy
 
 #### Portraits (Natoncy)
 

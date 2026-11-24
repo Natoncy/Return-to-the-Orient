@@ -1,0 +1,55 @@
+{
+  "Version": "1.0",
+  "ModID": "import_storagelist_kaftans_natoncy",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "*"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "English": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "French": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "German": " import_storagelist_kaftans_natoncy (Natoncy)",
+    "Italian": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "Japanese": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "Korean": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "Polish": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "Russian": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "Spanish": "import_storagelist_kaftans_natoncy (Natoncy)",
+    "Taiwanese": "import_storagelist_kaftans_natoncy (Natoncy)"
+  },
+  "Description": {
+    "English": "# Submod that regulates appearance of the product 'kaftans' in the Import StorageList of the Foreign Trading Company.",
+    "German": "# Submod, die das Erscheinen des Produkts 'Kaftane' in der Import StorageList der Fernhandelscompagnie regelt.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Natoncy",
+  "Image": null
+}

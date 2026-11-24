@@ -50,6 +50,7 @@ Before v1.0.0
 - Check localizations
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
+- Check folder path lengths
 - Update Readme/Mod.io Description (add useable but not shared products)
 
 

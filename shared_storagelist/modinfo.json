@@ -30,7 +30,17 @@
   "ModDependencies": [
     "import_storagelist_almonds_taludas",
     "import_storagelist_ebony_taludas",
-    "import_storagelist_silkfabric_taludas"
+    "import_storagelist_silkfabric_taludas",
+    "import_storagelist_agates_natoncy",
+    "import_storagelist_camels_natoncy",
+    "import_storagelist_ceremonial_sabers_natoncy",
+    "import_storagelist_chandeliers_natoncy",
+    "import_storagelist_hookahs_natoncy",
+    "import_storagelist_kaftans_natoncy",
+    "import_storagelist_mosaic_natoncy",
+    "import_storagelist_pearl_necklaces_natoncy",
+    "import_storagelist_pomegranate_juice_natoncy",
+    "import_storagelist_turbans_natoncy"
   ],
   "CreatorName": "Natoncy"
 }
