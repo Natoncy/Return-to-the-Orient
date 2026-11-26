@@ -32,7 +32,6 @@ TODO:
 v0.7.0
 - Letting AI settle the region
 - Add ships
-    - apply water cutout only to deck (extrapolate)
     - props
     - balance Speed
     - icon

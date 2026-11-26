@@ -24,8 +24,74 @@
         </Item>
     </ModOp>
 
-    <!-- Natoncy shared products: their submods no longer put them in the regular warehouse (120055),
+    <!-- Natoncy/Intetsch shared products: their submods no longer put them in the regular warehouse (120055),
          so this mod adds them. Kept in the shared-mod load order, so the list order stays as before. -->
+    <!-- aniseed (Intetsch_sharedproduct_aniseed) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404005092']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404005092</Product>
+        </Item>
+    </ModOp>
+    <!-- candied dates (Intetsch_sharedproduct_candied_dates) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201056']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201056</Product>
+        </Item>
+    </ModOp>
+    <!-- chickpeas (Intetsch_sharedproduct_chickpeas) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404005079']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404005079</Product>
+        </Item>
+    </ModOp>
+    <!-- Copper Bar (Intetsch_sharedproduct_copper_bar) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404005109']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404005109</Product>
+        </Item>
+    </ModOp>
+    <!-- hummus (Intetsch_sharedproduct_hummus) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404005087']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1404005087</Product>
+        </Item>
+    </ModOp>
+    <!-- lokum (Intetsch_sharedproduct_lokum) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201053']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201053</Product>
+        </Item>
+    </ModOp>
+    <!-- Palm Planks (Intetsch_sharedproduct_palm_wood) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201040']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201040</Product>
+        </Item>
+    </ModOp>
+    <!-- pistachio fruits (Intetsch_sharedproduct_pistachios) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201047']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201047</Product>
+        </Item>
+    </ModOp>
+    <!-- roasted pistachios (Intetsch_sharedproduct_pistachios) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201049']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201049</Product>
+        </Item>
+    </ModOp>
+    <!-- roasted chickpeas (Intetsch_sharedproduct_roasted_chickpeas) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201065']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201065</Product>
+        </Item>
+    </ModOp>
+    <!-- spiced tea (Intetsch_sharedproduct_spiced_tea) -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201044']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+        <Item>
+            <Product>1400201044</Product>
+        </Item>
+    </ModOp>
     <!-- agates (Natoncy_sharedproduct_agates) -->
     <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1404003900']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010228']">
         <Item>

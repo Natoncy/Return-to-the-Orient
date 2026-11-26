@@ -1,0 +1,55 @@
+{
+  "Version": "1.0",
+  "ModID": "import_storagelist_candied_dates_intetsch",
+  "DeprecateIds": [],
+  "ModDependencies": [
+  ],
+  "LoadAfterIds": [
+    "*"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "English": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "French": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "German": " import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Italian": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Japanese": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Korean": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Polish": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Russian": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Spanish": "import_storagelist_candied_dates_intetsch (Intetsch)",
+    "Taiwanese": "import_storagelist_candied_dates_intetsch (Intetsch)"
+  },
+  "Description": {
+    "English": "# Submod that regulates appearance of the product 'candied dates' in the Import StorageList of the Foreign Trading Company.",
+    "German": "# Submod, die das Erscheinen des Produkts 'Kandierte Datteln' in der Import StorageList der Fernhandelscompagnie regelt.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Intetsch",
+  "Image": null
+}

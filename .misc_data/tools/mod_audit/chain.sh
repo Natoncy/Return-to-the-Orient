@@ -89,6 +89,17 @@ P2=(
  "shared_storagelist/import_storagelist_pearl_necklaces_natoncy"
  "shared_storagelist/import_storagelist_pomegranate_juice_natoncy"
  "shared_storagelist/import_storagelist_turbans_natoncy"
+ "shared_storagelist/import_storagelist_aniseed_intetsch"
+ "shared_storagelist/import_storagelist_candied_dates_intetsch"
+ "shared_storagelist/import_storagelist_chickpeas_intetsch"
+ "shared_storagelist/import_storagelist_copper_bar_intetsch"
+ "shared_storagelist/import_storagelist_hummus_intetsch"
+ "shared_storagelist/import_storagelist_lokum_intetsch"
+ "shared_storagelist/import_storagelist_palm_wood_intetsch"
+ "shared_storagelist/import_storagelist_pistachios_intetsch"
+ "shared_storagelist/import_storagelist_roasted_pistachios_intetsch"
+ "shared_storagelist/import_storagelist_roasted_chickpeas_intetsch"
+ "shared_storagelist/import_storagelist_spiced_tea_intetsch"
 )
 args=(); for p in "${P2[@]}"; do [ -d "$R/$p" ] || echo "MISSING $p"; args+=(-p "$R/$p"); done
 "$X" -v "${args[@]}" -o S2.xml S1.xml "$R/Natoncy_orient_after_other_mods/$A" -m "$R/Natoncy_orient_after_other_mods" > stage2.log 2>&1 || true

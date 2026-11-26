@@ -121,6 +121,17 @@ These products are added by the mod, but are specific to the Orient. This is the
 - import_storagelist_pearl_necklaces_natoncy by Natoncy
 - import_storagelist_pomegranate_juice_natoncy by Natoncy
 - import_storagelist_turbans_natoncy by Natoncy
+- import_storagelist_aniseed_intetsch by Intetsch
+- import_storagelist_candied_dates_intetsch by Intetsch
+- import_storagelist_chickpeas_intetsch by Intetsch
+- import_storagelist_copper_bar_intetsch by Intetsch
+- import_storagelist_hummus_intetsch by Intetsch
+- import_storagelist_lokum_intetsch by Intetsch
+- import_storagelist_palm_wood_intetsch by Intetsch
+- import_storagelist_pistachios_intetsch by Intetsch
+- import_storagelist_roasted_pistachios_intetsch by Intetsch
+- import_storagelist_roasted_chickpeas_intetsch by Intetsch
+- import_storagelist_spiced_tea_intetsch by Intetsch
 
 #### Portraits (Natoncy)
 
