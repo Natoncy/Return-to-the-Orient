@@ -4,3 +4,5 @@ _original_*.xml
 /zzz test
 /.claude
 /.modcache/
+/data/graphics/**/maps/*_0.png
+/data/graphics/**/rdm/*.glb
